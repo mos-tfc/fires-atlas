@@ -19635,6 +19635,17 @@ function WelcomeView({ first }) {
         <p className={`text-sm ${t.muted}`}>{APP_DATA.length} entries · {LESSONS.length} lessons · {ALL_COUNTRIES.length} armies</p>
       </section>
 
+      <section className={`p-4 rounded-xl border space-y-2 ${t.info}`}>
+        <h2 className="text-xl font-bold">Objectives</h2>
+        <p className="text-base">Using Fires Atlas, you will be able to:</p>
+        <ol className="list-decimal pl-5 space-y-1.5 text-base leading-relaxed">
+          <li><span className="font-semibold">Explain the fire support system end to end:</span> how fires are linked to manoeuvre, delivered, directed, protected and sustained, and why each part works as it does.</li>
+          <li><span className="font-semibold">Compare {ALL_COUNTRIES.length} armies:</span> how each organises, equips and employs its artillery for the same tasks.</li>
+          <li><span className="font-semibold">Judge the evidence:</span> tell which lessons from recent conflicts are confirmed, which are only reported, and which are analysis.</li>
+          <li><span className="font-semibold">Bring sharper questions</span> to discussion of your own practice.</li>
+        </ol>
+      </section>
+
       <section className="space-y-3">
         <H>Why This Was Built</H>
         <p className="text-base leading-relaxed max-w-[70ch]">Artillery is changing quickly. Armies are rebuilding how they find targets, direct fire, survive counter-fire and sustain their guns. The lessons are spread across doctrine, journals and reports that few people have time to read.</p>
