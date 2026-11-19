@@ -16139,9 +16139,22 @@ function Highlight({ text, query }) {
 }
 
 // One What / How / Why block. The same colours are used in the library, lessons and review.
-function Block({ kind, lines, query }) {
+// Phones (under 640px wide) get shorter pages: How and Why fold until tapped.
+const isNarrow = () => typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia('(max-width: 639px)').matches;
+
+function Block({ kind, lines, query, fold }) {
   const { t } = useApp();
   const label = { what: 'What', how: 'How', why: 'Why' }[kind];
+  const list = asList(lines);
+  const [shut, setShut] = useState(!!fold && !(query && list.some((l) => String(l).toLowerCase().includes(query))));
+  if (shut) {
+    return (
+      <button type="button" onClick={() => setShut(false)} className={`w-full text-left pl-4 border-l-4 py-1 ${t[kind]}`}>
+        <span className={`text-xs font-bold uppercase tracking-widest ${t[kind + 'T']}`}>{label}</span>
+        <span className={`ml-2 text-sm ${t.muted}`}>{list.length} point{list.length === 1 ? '' : 's'} · tap to read</span>
+      </button>
+    );
+  }
   return (
     <div className={`pl-4 border-l-4 ${t[kind]}`}>
       <div className={`text-xs font-bold uppercase tracking-widest mb-1.5 ${t[kind + 'T']}`}>{label}</div>
@@ -16167,6 +16180,7 @@ function EntryCard({ entry, startOpen, query }) {
   const saved = state.bookmarks.includes(entry.id);
   const change = entryChange(entry, state.seenVersion);
   const lesson = lessonOfEntry(entry.id);
+  const narrow = isNarrow();
 
   const toggleSave = () => update((s) => ({
     bookmarks: saved ? s.bookmarks.filter((b) => b !== entry.id) : s.bookmarks.concat(entry.id)
@@ -16178,16 +16192,25 @@ function EntryCard({ entry, startOpen, query }) {
       <button type="button" onClick={() => setOpen(!open)} className="w-full text-left">
         <div className="flex flex-wrap items-center gap-1.5 mb-2">
           {change && <Tag tone="info"><Star size={12} /> {change}</Tag>}
-          <Tag>{entry.force}</Tag>
-          {asList(entry.echelon).filter((x) => x !== 'N/A').map((x) => <Tag key={x}>{x}</Tag>)}
-          <Tag>{entry.module}</Tag>
+          {narrow && !open ? (
+            <span className={`text-xs font-medium ${t.muted}`}>
+              <span className="inline-block w-2 h-2 rounded-full mr-1 align-middle" style={{ background: countryColour(entry.country) }} />
+              {entry.country} · {SECTION_LABELS[entry.module] || entry.module}
+            </span>
+          ) : (
+            <>
+              <Tag>{entry.force}</Tag>
+              {asList(entry.echelon).filter((x) => x !== 'N/A').map((x) => <Tag key={x}>{x}</Tag>)}
+              <Tag>{entry.module}</Tag>
+            </>
+          )}
           <ConfBadge value={entry.confidence} />
         </div>
         <div className="flex items-start justify-between gap-3">
           <h3 className="text-lg sm:text-xl font-bold leading-snug"><Highlight text={entry.title} query={query} /></h3>
           <ChevronDown size={20} className={`shrink-0 mt-1 transition-transform ${open ? 'rotate-180' : ''} ${t.muted}`} />
         </div>
-        {!open && <p className={`mt-1.5 text-base leading-relaxed max-w-[70ch] ${t.muted}`}>{asList(entry.what)[0]}</p>}
+        {!open && <p className={`mt-1.5 text-base leading-relaxed max-w-[70ch] line-clamp-2 sm:line-clamp-none ${t.muted}`}>{asList(entry.what)[0]}</p>}
         {!open && note && <p className={`mt-2 p-2 rounded-lg text-sm ${t.soft}`}><span className="font-bold">Your note: </span>{note}</p>}
       </button>
 
@@ -16199,8 +16222,8 @@ function EntryCard({ entry, startOpen, query }) {
             </div>
           )}
           <Block kind="what" lines={entry.what} query={query} />
-          <Block kind="how" lines={entry.how} query={query} />
-          <Block kind="why" lines={entry.why} query={query} />
+          <Block kind="how" lines={entry.how} query={query} fold={narrow} />
+          <Block kind="why" lines={entry.why} query={query} fold={narrow} />
           <KitLinks kit={EQUIPMENT_LINKS[entry.id]} />
 
           {note && !editing && (
@@ -16261,11 +16284,11 @@ function EntryCard({ entry, startOpen, query }) {
   );
 }
 
-function Pick({ label, value, options, onChange }) {
+function Pick({ label, value, options, onChange, wide }) {
   const { t } = useApp();
   return (
     <select value={value || ''} onChange={(e) => onChange(e.target.value || null)} aria-label={label}
-      className={`min-h-[40px] rounded-full border px-3 text-sm font-medium ${value ? t.chipOn : t.chip}`}>
+      className={`min-h-[40px] rounded-full border px-3 text-sm font-medium ${wide ? 'w-full min-w-0' : ''} ${value ? t.chipOn : t.chip}`}>
       <option value="">{label}: all</option>
       {options.map((o) => <option key={o.value || o} value={o.value || o}>{o.label || o}</option>)}
     </select>
@@ -16348,13 +16371,15 @@ const COMPARE_SIDES = (() => {
 const SECTION_LABELS = { Forces: 'Organisation', TTPs: 'Procedures', Equipment: 'Equipment', Training: 'Training', Lessons: 'Lessons' };
 
 function Compare() {
-  const { t } = useApp();
+  const { t, go } = useApp();
   const firstOther = COMPARE_SIDES.find((x) => !x.startsWith(COMPARE_SIDES[0].split(' · ')[0] + ' · ')) || COMPARE_SIDES[1] || COMPARE_SIDES[0];
   const [a, setA] = useState(COMPARE_SIDES[0]);
   const [b, setB] = useState(firstOther);
   const [section, setSection] = useState('Forces');
-  const [ech, setEch] = useState(ALL_ECHELONS[0]);
+  const [ech, setEch] = useState(null);
   const [topic, setTopic] = useState(null);
+  const [view, setView] = useState('side');
+  const [full, setFull] = useState('a');
   const find = (side) => {
     const [country, force] = side.split(' · ');
     return APP_DATA.filter((e) => e.module === section &&
@@ -16363,23 +16388,34 @@ function Compare() {
       (e.force === force || e.force === 'Multiple') &&
       (!ech || asList(e.echelon).includes(ech) || asList(e.echelon).includes('All')));
   };
-  const column = (side) => {
-    const rows = find(side);
-    return (
-      <div className="space-y-3">
-        <h3 className="text-lg font-bold">{side}</h3>
-        {rows.length === 0 ? <Empty>Not yet added for this choice.</Empty> : rows.map((e) => <EntryCard key={side + e.id} entry={e} startOpen />)}
-      </div>
-    );
-  };
+  const left = find(a), right = find(b);
+  const rows = ALL_TOPICS.map((tp) => ({ tp, l: left.filter((e) => e.topic === tp.key), r: right.filter((e) => e.topic === tp.key) }))
+    .filter((x) => x.l.length || x.r.length);
+  const head = (side, n) => (
+    <div className={`p-2 rounded-lg border text-sm font-bold leading-snug ${t.card}`} style={{ borderLeft: '4px solid ' + countryColour(side.split(' · ')[0]) }}>
+      {side.split(' · ')[0]}
+      <div className={`text-xs font-medium ${t.muted}`}>{side.split(' · ')[1] === 'Multiple' ? 'All forces' : side.split(' · ')[1]} · {n}</div>
+    </div>
+  );
+  const cell = (list) => (
+    <div className="space-y-1.5 min-w-0">
+      {list.length === 0 ? <div className={`p-2 text-sm ${t.faint}`}>—</div> : list.map((e) => (
+        <button key={e.id} type="button" onClick={() => go('entry', e.id)}
+          className={`w-full text-left p-2 rounded-lg border text-sm leading-snug ${t.card}`}>
+          <span className="font-semibold">{e.title}</span>
+          {e.confidence !== 'Confirmed' && <span className={`block text-xs ${t.muted}`}>{e.confidence}</span>}
+        </button>
+      ))}
+    </div>
+  );
   return (
-    <div className="space-y-4">
-      <p className={t.muted}>Two countries or forces side by side. Choose the topic, the kind of entry and the echelon. Entries that cover several forces of one country appear on that country’s sides only.</p>
-      <div className="flex flex-wrap gap-2">
-        <Pick label="Left" value={a} onChange={(v) => setA(v || COMPARE_SIDES[0])} options={COMPARE_SIDES} />
-        <Pick label="Right" value={b} onChange={(v) => setB(v || firstOther)} options={COMPARE_SIDES} />
-        {ENTRY_TOPICS.length > 1 && <Pick label="Topic" value={topic} onChange={setTopic} options={ENTRY_TOPICS.map((x) => ({ value: x.key, label: x.name }))} />}
+    <div className="space-y-3">
+      <p className={`text-sm ${t.muted}`}>Pick two armies, then what to compare. Tap any entry to read it.</p>
+      <div className="grid grid-cols-2 gap-2">
+        <Pick wide label="Left" value={a} onChange={(v) => setA(v || COMPARE_SIDES[0])} options={COMPARE_SIDES} />
+        <Pick wide label="Right" value={b} onChange={(v) => setB(v || firstOther)} options={COMPARE_SIDES} />
       </div>
+      {ENTRY_TOPICS.length > 1 && <Pick wide label="Topic" value={topic} onChange={setTopic} options={ENTRY_TOPICS.map((x) => ({ value: x.key, label: x.name }))} />}
       <div className="flex gap-2 overflow-x-auto pb-1">
         {SECTIONS.map((x) => <Chip key={x} on={section === x} onClick={() => setSection(x)}>{SECTION_LABELS[x] || x}</Chip>)}
       </div>
@@ -16387,10 +16423,37 @@ function Compare() {
         <Chip on={!ech} onClick={() => setEch(null)}>All echelons</Chip>
         {ALL_ECHELONS.map((x) => <Chip key={x} on={ech === x} onClick={() => setEch(x)}>{x}</Chip>)}
       </div>
-      <div className="grid gap-6 md:grid-cols-2">
-        {column(a)}
-        {column(b)}
+      <div className="flex gap-2">
+        <Chip on={view === 'side'} onClick={() => setView('side')}>Side by side</Chip>
+        <Chip on={view === 'full'} onClick={() => setView('full')}>Full entries</Chip>
       </div>
+      {view === 'side' ? (
+        <div className="space-y-3">
+          <div className={`grid grid-cols-2 gap-2 sticky top-14 z-10 py-1 ${t.page}`}>{head(a, left.length)}{head(b, right.length)}</div>
+          {rows.length === 0 && <Empty>Not yet added for this choice. Try another section or All echelons.</Empty>}
+          {rows.map(({ tp, l, r }) => (
+            <div key={tp.key}>
+              <div className={`text-xs font-bold uppercase tracking-widest mb-1.5 ${t.muted}`}>{tp.name}</div>
+              <div className="grid grid-cols-2 gap-2">{cell(l)}{cell(r)}</div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="space-y-3">
+          <div className="grid grid-cols-2 gap-2 md:hidden">
+            <Chip on={full === 'a'} onClick={() => setFull('a')}>{a.split(' · ')[0]}</Chip>
+            <Chip on={full === 'b'} onClick={() => setFull('b')}>{b.split(' · ')[0]}</Chip>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2">
+            {[[a, left, 'a'], [b, right, 'b']].map(([side, list, k]) => (
+              <div key={k} className={`space-y-3 ${full === k ? '' : 'hidden md:block'}`}>
+                <div className="hidden md:block">{head(side, list.length)}</div>
+                {list.length === 0 ? <Empty>Not yet added for this choice.</Empty> : list.map((e) => <EntryCard key={side + e.id} entry={e} />)}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -16815,7 +16878,7 @@ function HomeView() {
                             {React.createElement(topicIcon(topic), { size: 20, className: `shrink-0 mt-1 ${topic.country ? t.country : t.link}` })}
                             <div className="font-bold text-lg leading-snug">{topic.name}</div>
                           </div>
-                          <div className={`mt-1 text-sm ${t.muted}`}>{topic.description}</div>
+                          <div className={`mt-1 text-sm line-clamp-2 sm:line-clamp-none ${t.muted}`}>{topic.description}</div>
                           <div className="mt-3"><ProgressBar value={list.length ? done / list.length : 0} /></div>
                           <div className={`mt-2 text-sm ${t.muted}`}>{done} of {list.length} lessons passed · {count} entries</div>
                         </button>
@@ -17603,7 +17666,7 @@ function DevelopmentCard({ item }) {
           <h3 className="text-lg sm:text-xl font-bold leading-snug">{item.headline}</h3>
           <ChevronDown size={20} className={`shrink-0 mt-1 transition-transform ${open ? 'rotate-180' : ''} ${t.muted}`} />
         </div>
-        {!open && <p className={`mt-1.5 text-base leading-relaxed max-w-[70ch] ${t.muted}`}>{asList(item.what)[0]}</p>}
+        {!open && <p className={`mt-1.5 text-base leading-relaxed max-w-[70ch] line-clamp-2 sm:line-clamp-none ${t.muted}`}>{asList(item.what)[0]}</p>}
       </button>
       {open && (
         <div className="mt-4 space-y-4">
