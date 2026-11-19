@@ -16490,65 +16490,81 @@ function RangeRings() {
   const C = 200, RAD = 180;
   const rOf = (km) => (km / maxKm) * RAD;
   const ticks = [0.25, 0.5, 0.75, 1].map((f) => f * maxKm);
+  const outerKm = (x) => Math.max(...x.a.map((a) => a.km));
+  const order = Object.keys(COUNTRY_COLOUR).concat(uniq(all.map((x) => x.c)).filter((c) => !COUNTRY_COLOUR[c]));
+  const groups = order.map((c) => ({ c, list: all.filter((x) => x.c === c) })).filter((g) => g.list.length);
   return (
-    <div className="space-y-4">
+    <div className="space-y-3">
       <div>
         <h2 className="text-xl font-bold">Ranges compared</h2>
-        <p className={`mt-1 text-sm ${t.muted}`}>Each ring is a maximum range from the firing point. Solid: standard round. Dashed and dotted: longer-range rounds. Tap systems to add or remove them.</p>
+        <p className={`mt-1 text-sm ${t.muted}`}>Tick weapons in the list to add their rings. Solid ring: standard round; dashed or dotted: longer-range rounds.</p>
       </div>
       <div className="flex gap-2 overflow-x-auto pb-1">
         {RANGE_KINDS.map((k) => <Chip key={k} on={kind === k} onClick={() => pickKind(k)}>{k}</Chip>)}
       </div>
-      <div className="flex flex-wrap gap-2">
-        {all.map((x) => (
-          <Chip key={x.n} on={sel.includes(x.n)} onClick={() => toggle(x.n)}>
-            <span className="inline-block w-2.5 h-2.5 rounded-full mr-1.5 align-middle" style={{ background: countryColour(x.c) }} />{x.n}
-          </Chip>
-        ))}
-      </div>
-      <Card>
-        {shown.length === 0 ? <Empty>Pick at least one system.</Empty> : (
-          <svg viewBox="0 0 400 400" className="w-full max-w-md mx-auto block" role="img" aria-label={'Range rings for ' + shown.map((x) => x.n).join(', ')}>
-            {ticks.map((km, i) => (
-              <g key={i}>
-                <circle cx={C} cy={C} r={rOf(km)} fill="none" stroke="currentColor" strokeOpacity="0.15" />
-                <text x={C + 3} y={C - rOf(km) + 11} fontSize="10" fill="currentColor" opacity="0.55">{fmtKm(km)} km</text>
-              </g>
-            ))}
-            {shown.map((x, i) => {
-              const col = countryColour(x.c);
-              const outer = Math.max(...x.a.map((a) => a.km));
-              const ang = (-60 + i * (300 / Math.max(1, shown.length))) * Math.PI / 180;
-              const lx = C + Math.cos(ang) * Math.max(rOf(outer), 14);
-              const ly = C + Math.sin(ang) * Math.max(rOf(outer), 14);
-              return (
-                <g key={x.n}>
-                  {x.a.map((a, j) => (
-                    <circle key={j} cx={C} cy={C} r={rOf(a.km)} fill={j === x.a.length - 1 ? col : 'none'} fillOpacity="0.05"
-                      stroke={col} strokeWidth="2" strokeDasharray={DASHES[Math.min(j, 3)]} />
-                  ))}
-                  <circle cx={lx} cy={ly} r="3" fill={col} />
-                  <text x={lx + (Math.cos(ang) >= 0 ? 6 : -6)} y={ly + 4} fontSize="11" fontWeight="600" fill={col}
-                    textAnchor={Math.cos(ang) >= 0 ? 'start' : 'end'}>{x.n} {fmtKm(outer)}</text>
+      <div className={`sticky top-14 z-10 pb-2 ${t.page}`}>
+        <Card className="!p-2 sm:!p-4">
+          {shown.length === 0 ? <Empty>Tick at least one weapon below.</Empty> : (
+            <svg viewBox="0 0 400 400" className="w-full max-w-[270px] sm:max-w-md mx-auto block" role="img" aria-label={'Range rings for ' + shown.map((x) => x.n).join(', ')}>
+              {ticks.map((km, i) => (
+                <g key={i}>
+                  <circle cx={C} cy={C} r={rOf(km)} fill="none" stroke="currentColor" strokeOpacity="0.15" />
+                  <text x={C + 3} y={C - rOf(km) + 13} fontSize="13" fill="currentColor" opacity="0.6">{fmtKm(km)} km</text>
                 </g>
-              );
-            })}
-            <circle cx={C} cy={C} r="3" fill="currentColor" />
-          </svg>
-        )}
-      </Card>
-      <div className="space-y-2">
-        {shown.map((x) => (
-          <button key={x.n} type="button" onClick={() => go('entry', x.id)} className={`w-full text-left p-3 rounded-lg border ${t.card}`}>
-            <div className="flex items-center gap-2 font-semibold">
-              <span className="inline-block w-2.5 h-2.5 rounded-full" style={{ background: countryColour(x.c) }} />{x.n}
-              <span className={`text-xs font-normal ${t.muted}`}>{x.c}{x.r ? ' · reported' : ''}</span>
+              ))}
+              {shown.map((x, i) => {
+                const col = countryColour(x.c);
+                const outer = outerKm(x);
+                const ang = (-60 + i * (300 / Math.max(1, shown.length))) * Math.PI / 180;
+                const lx = C + Math.cos(ang) * Math.max(rOf(outer), 14);
+                const ly = C + Math.sin(ang) * Math.max(rOf(outer), 14);
+                return (
+                  <g key={x.n}>
+                    {x.a.map((a, j) => (
+                      <circle key={j} cx={C} cy={C} r={rOf(a.km)} fill={j === x.a.length - 1 ? col : 'none'} fillOpacity="0.05"
+                        stroke={col} strokeWidth="2.5" strokeDasharray={DASHES[Math.min(j, 3)]} />
+                    ))}
+                    <circle cx={lx} cy={ly} r="4" fill={col} />
+                    <text x={lx + (Math.cos(ang) >= 0 ? 7 : -7)} y={ly + 5} fontSize="14" fontWeight="700" fill={col}
+                      textAnchor={Math.cos(ang) >= 0 ? 'start' : 'end'}>{x.n}</text>
+                  </g>
+                );
+              })}
+              <circle cx={C} cy={C} r="3" fill="currentColor" />
+            </svg>
+          )}
+        </Card>
+      </div>
+      <div className="space-y-3">
+        {groups.map(({ c, list }) => (
+          <div key={c}>
+            <div className="flex items-center gap-2 text-sm font-bold mb-1.5">
+              <span className="inline-block w-3 h-3 rounded-full" style={{ background: countryColour(c) }} />{c}
             </div>
-            <div className={`mt-1 text-sm ${t.muted}`}>{x.a.map((a) => a.a + ' ' + fmtKm(a.km) + ' km').join(' · ')}</div>
-          </button>
+            <div className="space-y-1.5">
+              {list.map((x) => {
+                const on = sel.includes(x.n);
+                return (
+                  <div key={x.n} className={`rounded-lg border ${t.card}`} style={on ? { borderLeft: '4px solid ' + countryColour(x.c) } : undefined}>
+                    <button type="button" onClick={() => toggle(x.n)} aria-pressed={on} className="w-full flex items-center gap-3 p-2.5 text-left">
+                      <span className={`shrink-0 w-5 h-5 rounded border flex items-center justify-center ${on ? t.chipOn : t.chip}`}>{on && <Check size={14} />}</span>
+                      <span className="flex-1 min-w-0 font-semibold">{x.n}{x.r && <span className={`ml-1 text-xs font-normal ${t.muted}`}>reported</span>}</span>
+                      <span className={`shrink-0 text-sm ${t.muted}`}>up to {fmtKm(outerKm(x))} km</span>
+                    </button>
+                    {on && (
+                      <div className={`px-2.5 pb-2.5 -mt-1 text-sm ${t.muted}`}>
+                        {x.a.map((a) => a.a + ' ' + fmtKm(a.km) + ' km').join(' · ')}
+                        {' '}<button type="button" onClick={() => go('entry', x.id)} className={`font-semibold ${t.link}`}>Entry ›</button>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         ))}
       </div>
-      <p className={`text-xs ${t.faint}`}>Maximum figures from this app’s entries; tap a system for its entry and sources. Real ranges depend on charge, round, altitude and weather. Ukraine is not shown: its entries give no weapon ranges of its own.</p>
+      <p className={`text-xs ${t.faint}`}>Maximum figures from this app’s entries. Real ranges depend on charge, round, altitude and weather. Ukraine is not listed: its entries give no weapon ranges of its own.</p>
     </div>
   );
 }
