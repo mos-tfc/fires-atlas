@@ -17722,16 +17722,25 @@ const COMPARE_SIDES = (() => {
 
 const SECTION_LABELS = { Forces: 'Organisation', TTPs: 'Procedures', Equipment: 'Equipment', Training: 'Training', Lessons: 'Lessons' };
 
+// Settings of the Compare, Ranges, Map and Kill Chain views, kept while the app is open so that
+// opening an entry and pressing Back returns to the same armies, step and choices.
+const VIEW_MEMORY = Object.create(null);
+function useRemembered(key, init) {
+  const [v, setV] = useState(() => (key in VIEW_MEMORY ? VIEW_MEMORY[key] : init));
+  const set = (nv) => { VIEW_MEMORY[key] = nv; setV(nv); };
+  return [v, set];
+}
+
 function Compare() {
   const { t, go } = useApp();
   const firstOther = COMPARE_SIDES.find((x) => !x.startsWith(COMPARE_SIDES[0].split(' · ')[0] + ' · ')) || COMPARE_SIDES[1] || COMPARE_SIDES[0];
-  const [a, setA] = useState(COMPARE_SIDES[0]);
-  const [b, setB] = useState(firstOther);
-  const [section, setSection] = useState('Forces');
-  const [ech, setEch] = useState(null);
-  const [topic, setTopic] = useState(null);
-  const [view, setView] = useState('side');
-  const [full, setFull] = useState('a');
+  const [a, setA] = useRemembered('compare.a', COMPARE_SIDES[0]);
+  const [b, setB] = useRemembered('compare.b', firstOther);
+  const [section, setSection] = useRemembered('compare.section', 'Forces');
+  const [ech, setEch] = useRemembered('compare.ech', null);
+  const [topic, setTopic] = useRemembered('compare.topic', null);
+  const [view, setView] = useRemembered('compare.view', 'side');
+  const [full, setFull] = useRemembered('compare.full', 'a');
   const find = (side) => {
     const [country, force] = side.split(' · ');
     return APP_DATA.filter((e) => e.module === section &&
@@ -17836,11 +17845,11 @@ const fmtKm = (km) => (km < 10 ? String(km).replace(/\.0$/, '') : Math.round(km)
 
 function RangeRings() {
   const { t, go } = useApp();
-  const [kind, setKind] = useState('Guns');
+  const [kind, setKind] = useRemembered('ranges.kind', 'Guns');
   const countriesOf = (k) => Object.keys(COUNTRY_COLOUR).filter((c) => RANGE_DATA.some((x) => x.k === k && x.c === c));
-  const [L, setL] = useState('United States');
-  const [Rt, setRt] = useState('Russia');
-  const [sel, setSel] = useState(null); // ticked weapons; null = the first weapon of each army
+  const [L, setL] = useRemembered('ranges.left', 'United States');
+  const [Rt, setRt] = useRemembered('ranges.right', 'Russia');
+  const [sel, setSel] = useRemembered('ranges.sel', null); // ticked weapons; null = the first weapon of each army
   const avail = countriesOf(kind);
   const left = avail.includes(L) ? L : avail[0];
   const right = avail.includes(Rt) && Rt !== left ? Rt : avail.find((c) => c !== left) || null;
@@ -17949,8 +17958,8 @@ const KC_ACT = { detect: 'Sensor finds the target', laser: 'Sensor lights the ta
 
 function KillChain() {
   const { t, go } = useApp();
-  const [key, setKey] = useState(KILL_CHAINS[0].key);
-  const [step, setStep] = useState(0);
+  const [key, setKey] = useRemembered('chain.key', KILL_CHAINS[0].key);
+  const [step, setStep] = useRemembered('chain.step', 0);
   const [playing, setPlaying] = useState(false);
   const chain = KILL_CHAINS.find((c) => c.key === key) || KILL_CHAINS[0];
   const steps = chain.steps;
@@ -18040,9 +18049,9 @@ function KillChain() {
 // Countries as hubs; a line joins two countries when entries link to each other (“Compare …”).
 function MilitaryMap() {
   const { t, go, lib, setLib } = useApp();
-  const [topic, setTopic] = useState(null);
-  const [a, setA] = useState('United States');
-  const [b, setB] = useState('Russia');
+  const [topic, setTopic] = useRemembered('map.topic', null);
+  const [a, setA] = useRemembered('map.a', 'United States');
+  const [b, setB] = useRemembered('map.b', 'Russia');
   const countries = ALL_COUNTRIES;
   const pairs = useMemo(() => {
     const seen = Object.create(null), out = [];
