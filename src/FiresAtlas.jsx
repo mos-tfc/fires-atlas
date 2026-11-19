@@ -19053,10 +19053,28 @@ function CopyBox({ text, label }) {
   );
 }
 
+// A card opened on its own page (an entry or a news item): Close at the top and bottom returns to where it was opened.
+function Closable({ children }) {
+  const { t, back } = useApp();
+  const close = (
+    <button type="button" onClick={back} aria-label="Close"
+      className={`inline-flex items-center gap-1.5 min-h-[40px] px-3 rounded-lg text-sm font-semibold ${t.btn2}`}>
+      <X size={16} /> Close
+    </button>
+  );
+  return (
+    <div className="space-y-3">
+      <div className="flex justify-end">{close}</div>
+      {children}
+      <div className="flex justify-end">{close}</div>
+    </div>
+  );
+}
+
 function EntryView({ id }) {
   const entry = ENTRY_BY_ID[id];
   if (!entry) return <Empty>This entry has not been added yet.</Empty>;
-  return <EntryCard entry={entry} startOpen />;
+  return <Closable><EntryCard entry={entry} startOpen /></Closable>;
 }
 
 // ---------- what's new ----------
@@ -20072,7 +20090,7 @@ export default function App() {
   else if (cur.view === 'saved') page = <SavedView />;
   else if (cur.view === 'news') page = <NewsView />;
   else if (cur.view === 'developments') page = <DevelopmentsView />;
-  else if (cur.view === 'dev') { const it = DEVELOPMENTS.items.find((x) => x.id === cur.param); page = it ? <DevelopmentCard key={paramKey} item={it} startOpen /> : <Empty>This item is no longer listed.</Empty>; }
+  else if (cur.view === 'dev') { const it = DEVELOPMENTS.items.find((x) => x.id === cur.param); page = it ? <Closable><DevelopmentCard key={paramKey} item={it} startOpen /></Closable> : <Empty>This item is no longer listed.</Empty>; }
   else if (cur.view === 'feedback') page = <FeedbackView key={paramKey} where={cur.param ? cur.param.where : null} />;
   else if (cur.view === 'ask') page = <AskView />;
   else if (cur.view === 'more') page = <MoreView />;
