@@ -17460,34 +17460,77 @@ function Empty({ children }) {
 
 // Inside one card, only the first appearance of each glossary term is a link; repeats read as plain text.
 // TermScope gives every card its own record of which term instance came first in this render.
+// It also turns the card's equipment names into links that open the equipment card.
 const TermScopeCtx = createContext(null);
-function TermScope({ children }) {
-  const owners = new Map(); // term -> key of the TermText part that shows it as a link
-  return <TermScopeCtx.Provider value={owners}>{children}</TermScopeCtx.Provider>;
+const escRe = (x) => x.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&');
+// Names a system may appear under in text: the full name, each part of "A / B", the name without brackets,
+// model codes (letters with digits: M142, 2S19, K9, TPQ-53), all-capitals names of 4+ letters (HIMARS) and
+// capitalised proper names (Msta-S, Krasnopol, Lancet), but not common words such as Target or System.
+const KIT_STOP = new Set(['Target', 'System', 'Systems', 'Vehicle', 'Fire', 'Fires', 'Support', 'Battery', 'Army', 'Joint', 'Radar',
+  'Mortar', 'Mortars', 'Rocket', 'Rockets', 'Launcher', 'Howitzer', 'Drone', 'Drones', 'Gun', 'Guns', 'Missile', 'Missiles', 'Light',
+  'Heavy', 'Wheeled', 'Tracked', 'Guided', 'Extended', 'Field', 'Artillery', 'Command', 'Team', 'Report', 'Hand-off', 'Projectile',
+  'Counter', 'Mobile', 'Precision', 'Strike', 'Ammunition', 'Supply', 'Recovery', 'Truck', 'Aiming', 'Circle', 'Set', 'Kit', 'Lightweight',
+  'Type', 'Model', 'Series', 'Block', 'Increment', 'Version']);
+function kitAliases(n) {
+  const out = new Set([n]);
+  n.split(' / ').forEach((p) => out.add(p.trim()));
+  out.add(n.replace(/\s*\([^)]*\)/g, '').trim());
+  // A bare calibre (81mm, 240mm) is not a name.
+  const code = (w) => /[A-Za-z]/.test(w) && /\d/.test(w) && w.length >= 2 && !/^\d+mm$/i.test(w);
+  n.replace(/[()]/g, ' ').split(/\s+/).forEach((w) => {
+    if (!w || w === '/') return;
+    if (code(w)) out.add(w);
+    if (w.includes('/')) w.split('/').forEach((q) => { if (code(q)) out.add(q); });
+    else if (/^[A-Z]{4,}$/.test(w)) out.add(w);
+    else if (/^[A-Z][a-z]{4,}(-[A-Za-z]+)?$|^[A-Z][a-z]+-[A-Z]{1,3}$/.test(w) && !KIT_STOP.has(w)) out.add(w);
+  });
+  return [...out].filter((x) => x.length >= 2);
+}
+function TermScope({ children, kit }) {
+  const owners = new Map(); // term or "kit:<name>" -> key of the TermText part that shows it as a link
+  const byAlias = Object.create(null);
+  asList(kit).forEach((k) => kitAliases(k.n).forEach((a) => { if (!byAlias[a]) byAlias[a] = k; }));
+  const names = Object.keys(byAlias).sort((x, y) => y.length - x.length);
+  const kitRe = names.length ? new RegExp('((?<![\\w/-])(?:' + names.map(escRe).join('|') + ')(?![\\w/-]))') : null;
+  return <TermScopeCtx.Provider value={{ owners, byAlias, kitRe }}>{children}</TermScopeCtx.Provider>;
 }
 
 // Text with glossary terms. Tapping a term opens its definition directly under the line.
 function TermText({ text, query }) {
-  const { t } = useApp();
+  const { t, go } = useApp();
   const [open, setOpen] = useState(null);
   const scope = useContext(TermScopeCtx);
   const myId = useRef(Math.random().toString(36).slice(2));
   if (!text) return null;
-  const parts = String(text).split(TERM_PATTERN);
   const g = open ? TERMS[open] : null;
-  const linked = (part, i) => {
-    if (!TERMS[part]) return false;
+  const claim = (name, key) => {
     if (!scope) return true;
-    const key = myId.current + ':' + i;
-    if (!scope.has(part)) scope.set(part, key);
-    return scope.get(part) === key;
+    if (!scope.owners.has(name)) scope.owners.set(name, key);
+    return scope.owners.get(name) === key;
   };
+  // Equipment names first (they open the equipment card), then glossary terms in the rest.
+  const chunks = scope && scope.kitRe ? String(text).split(scope.kitRe) : [String(text)];
+  const out = [];
+  chunks.forEach((chunk, ci) => {
+    const kit = scope && scope.byAlias && scope.byAlias[chunk];
+    if (kit && ci % 2 === 1) {
+      if (claim('kit:' + kit.n, myId.current + ':k' + ci)) {
+        out.push(<button key={'k' + ci} type="button" onClick={(e) => { e.stopPropagation(); go('kit', { n: kit.n, q: kit.q }); }}
+          className={`font-semibold underline underline-offset-4 ${t.link}`} title="Photo and key figures">{chunk}</button>);
+      } else out.push(<Highlight key={'k' + ci} text={chunk} query={query} />);
+      return;
+    }
+    String(chunk).split(TERM_PATTERN).forEach((part, i) => {
+      const key = ci + '-' + i;
+      if (TERMS[part] && claim(part, myId.current + ':' + key)) {
+        out.push(<button key={key} type="button" onClick={(e) => { e.stopPropagation(); setOpen(open === part ? null : part); }}
+          className={`font-semibold underline decoration-dotted underline-offset-4 ${t.term}`}>{part}</button>);
+      } else out.push(<Highlight key={key} text={part} query={query} />);
+    });
+  });
   return (
     <span>
-      {parts.map((part, i) => (linked(part, i) ? (
-        <button key={i} type="button" onClick={(e) => { e.stopPropagation(); setOpen(open === part ? null : part); }}
-          className={`font-semibold underline decoration-dotted underline-offset-4 ${t.term}`}>{part}</button>
-      ) : <Highlight key={i} text={part} query={query} />))}
+      {out}
       {g && (
         <span className={`block mt-2 mb-1 p-3 rounded-lg border text-sm ${t.info}`}>
           <span className="font-bold">{g.term}</span> · {g.full}
@@ -17556,7 +17599,7 @@ function EntryCard({ entry, startOpen, query, onClose }) {
   const saveNote = () => { update((s) => ({ notes: { ...s.notes, [entry.id]: draft.trim() } })); setEditing(false); };
 
   return (
-    <TermScope>
+    <TermScope kit={EQUIPMENT_LINKS[entry.id]}>
     <Card className={onClose ? 'relative' : ''}>
       {onClose && <CardCloseX onClose={onClose} />}
       <button type="button" onClick={() => setOpen(!open)} className={`w-full text-left ${onClose ? 'pr-12' : ''}`}>
@@ -18768,7 +18811,7 @@ function EntryStep({ entry, onNext }) {
   const { t } = useApp();
   const [stage, setStage] = useState(0);
   return (
-    <TermScope>
+    <TermScope kit={EQUIPMENT_LINKS[entry.id]}>
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-1.5">
         <Tag>{entry.force}</Tag>
@@ -19285,12 +19328,16 @@ function KitCard({ k, onClose }) {
 // The equipment named in an entry or news item: one button per system; each opens its own card.
 function KitLinks({ kit }) {
   const { t, go } = useApp();
-  if (!asList(kit).length) return null;
+  const scope = useContext(TermScopeCtx);
+  const all = asList(kit);
+  // Systems already linked in the card's text are left out here.
+  const rest = all.filter((k) => !(scope && scope.owners && scope.owners.has('kit:' + k.n)));
+  if (!rest.length) return null;
   return (
     <div className={`p-3 rounded-lg text-sm ${t.soft}`}>
-      <div className={`text-xs font-bold uppercase tracking-widest mb-1.5 ${t.muted}`}>Equipment: Photo and Key Figures</div>
+      <div className={`text-xs font-bold uppercase tracking-widest mb-1.5 ${t.muted}`}>{rest.length < all.length ? 'Other Equipment' : 'Equipment: Photo and Key Figures'}</div>
       <div className="grid grid-cols-2 gap-2">
-        {kit.map((k, i) => {
+        {rest.map((k, i) => {
           const spec = specsFor(k.n);
           return (
             <button key={k.n + i} type="button" onClick={() => go('kit', { n: k.n, q: k.q })}
@@ -19313,7 +19360,7 @@ function DevelopmentCard({ item, startOpen, onClose }) {
   const { t, go } = useApp();
   const [open, setOpen] = useState(!!startOpen);
   return (
-    <TermScope>
+    <TermScope kit={item.equipment}>
     <Card className={onClose ? 'relative' : ''}>
       {onClose && <CardCloseX onClose={onClose} />}
       <button type="button" onClick={() => setOpen(!open)} className={`w-full text-left ${onClose ? 'pr-12' : ''}`}>
