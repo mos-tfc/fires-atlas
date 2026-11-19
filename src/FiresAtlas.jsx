@@ -17951,6 +17951,67 @@ const counter = (action, key) => {
     .finally(() => clearTimeout(timer));
 };
 
+// The front page's sample entry, played the way a lesson plays it: What, then How, a pause, Why, then one check.
+const SAMPLE = {
+  what: ['A radar that detects shells, rockets and mortar bombs while they are in flight.'],
+  how: ['It tracks a short part of the flight path and calculates back to the firing point, usually within seconds.'],
+  why: ['A gun that is located quickly can be engaged before it moves. This is why modern guns fire and relocate, and why the radar itself limits how long it transmits.'],
+  q: 'An enemy weapon-locating radar is watching your battery. What should your guns do?',
+  options: ['Keep firing from the same position', 'Fire, then move before the reply arrives', 'Stop firing for the rest of the day', 'Fire only at night'],
+  answer: 1,
+  why2: 'The radar can locate a gun within seconds of its first round, so survival depends on leaving before counter-battery fire lands.'
+};
+function SampleEntry() {
+  const { t } = useApp();
+  const [stage, setStage] = useState(0); // 0 what, 1 how, 2 why, 3 check
+  const [pick, setPick] = useState(null);
+  const restart = () => { setStage(0); setPick(null); };
+  return (
+    <Card>
+      <div className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Sample Entry · try it</div>
+      <h3 className="text-xl font-bold mt-1 mb-3">Weapon-Locating Radar</h3>
+      <div className="space-y-4">
+        <Block kind="what" lines={SAMPLE.what} />
+        {stage >= 1 && <Block kind="how" lines={SAMPLE.how} />}
+        {stage === 1 && (
+          <div className={`p-3 rounded-lg border text-base ${t.warn}`}>
+            <span className="font-bold">Before you go on:</span> why do you think it is done this way? Settle on an answer, then reveal.
+          </div>
+        )}
+        {stage >= 2 && <Block kind="why" lines={SAMPLE.why} />}
+        {stage >= 3 && (
+          <div className="space-y-2">
+            <div className="font-semibold">{SAMPLE.q}</div>
+            {SAMPLE.options.map((o, i) => {
+              const done = pick !== null;
+              const tone = !done ? t.chip : i === SAMPLE.answer ? t.good : i === pick ? t.bad : t.chip;
+              return (
+                <button key={i} type="button" disabled={done} onClick={() => setPick(i)}
+                  className={`w-full text-left p-3 rounded-lg border text-base ${tone}`}>{o}</button>
+              );
+            })}
+            {pick !== null && (
+              <div className={`p-3 rounded-lg border text-sm ${pick === SAMPLE.answer ? t.good : t.warn}`}>
+                <span className="font-bold">{pick === SAMPLE.answer ? 'Correct. ' : 'Not quite. '}</span>{SAMPLE.why2}
+              </div>
+            )}
+          </div>
+        )}
+        {stage < 3 ? (
+          <Btn className="w-full sm:w-auto" onClick={() => setStage(stage + 1)}>
+            {['Show how it works', 'Reveal why', 'Check your understanding'][stage]} <ArrowRight size={18} />
+          </Btn>
+        ) : pick !== null && (
+          <div className="flex flex-wrap items-center gap-3">
+            <span className={`text-sm italic ${t.muted}`}>Every lesson in the app works this way.</span>
+            <button type="button" onClick={restart} className={`text-sm font-semibold ${t.link}`}>Try again</button>
+          </div>
+        )}
+      </div>
+    </Card>
+  );
+}
+
 function WelcomeView({ first }) {
   const { t, update, back } = useApp();
   const [supporters, setSupporters] = useState(null);
@@ -18013,16 +18074,7 @@ function WelcomeView({ first }) {
         </ul>
       </section>
 
-      <Card>
-        <div className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Sample Entry</div>
-        <h3 className="text-xl font-bold mt-1 mb-3">Weapon-Locating Radar</h3>
-        <div className="space-y-3">
-          <Block kind="what" lines={['A radar that detects shells, rockets and mortar bombs while they are in flight.']} />
-          <Block kind="how" lines={['It tracks a short part of the flight path and calculates back to the firing point, usually within seconds.']} />
-          <Block kind="why" lines={['A gun that is located quickly can be engaged before it moves. This is why modern guns fire and relocate, and why the radar itself limits how long it transmits.']} />
-        </div>
-        <p className={`mt-3 text-sm italic ${t.muted}`}>Every entry in the app is built this way.</p>
-      </Card>
+      <SampleEntry />
 
       <section className="space-y-3">
         <H>Who It Is For</H>
