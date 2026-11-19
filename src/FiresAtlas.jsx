@@ -17521,7 +17521,7 @@ function Block({ kind, lines, query, fold }) {
 // ==========================================
 // LIBRARY: entry card, filters, compare, glossary
 // ==========================================
-function EntryCard({ entry, startOpen, query }) {
+function EntryCard({ entry, startOpen, query, onClose }) {
   const { t, state, update, go } = useApp();
   const [open, setOpen] = useState(!!startOpen);
   const [showSources, setShowSources] = useState(false);
@@ -17539,8 +17539,9 @@ function EntryCard({ entry, startOpen, query }) {
   const saveNote = () => { update((s) => ({ notes: { ...s.notes, [entry.id]: draft.trim() } })); setEditing(false); };
 
   return (
-    <Card>
-      <button type="button" onClick={() => setOpen(!open)} className="w-full text-left">
+    <Card className={onClose ? 'relative' : ''}>
+      {onClose && <CardCloseX onClose={onClose} />}
+      <button type="button" onClick={() => setOpen(!open)} className={`w-full text-left ${onClose ? 'pr-12' : ''}`}>
         <div className="flex flex-wrap items-center gap-1.5 mb-2">
           {change && <Tag tone="info"><Star size={12} /> {change}</Tag>}
           {narrow && !open ? (
@@ -17559,7 +17560,7 @@ function EntryCard({ entry, startOpen, query }) {
         </div>
         <div className="flex items-start justify-between gap-3">
           <h3 className="text-lg sm:text-xl font-bold leading-snug"><Highlight text={entry.title} query={query} /></h3>
-          <ChevronDown size={20} className={`shrink-0 mt-1 transition-transform ${open ? 'rotate-180' : ''} ${t.muted}`} />
+          {!onClose && <ChevronDown size={20} className={`shrink-0 mt-1 transition-transform ${open ? 'rotate-180' : ''} ${t.muted}`} />}
         </div>
         {!open && <p className={`mt-1.5 text-base leading-relaxed max-w-[70ch] line-clamp-2 sm:line-clamp-none ${t.muted}`}>{asList(entry.what)[0]}</p>}
         {!open && note && <p className={`mt-2 p-2 rounded-lg text-sm ${t.soft}`}><span className="font-bold">Your note: </span>{note}</p>}
@@ -17631,6 +17632,7 @@ function EntryCard({ entry, startOpen, query }) {
           </div>
         </div>
       )}
+      {onClose && <CardCloseFoot onClose={onClose} />}
     </Card>
   );
 }
@@ -19053,28 +19055,33 @@ function CopyBox({ text, label }) {
   );
 }
 
-// A card opened on its own page (an entry or a news item): Close at the top and bottom returns to where it was opened.
-function Closable({ children }) {
-  const { t, back } = useApp();
-  const close = (
-    <button type="button" onClick={back} aria-label="Close"
-      className={`inline-flex items-center gap-1.5 min-h-[40px] px-3 rounded-lg text-sm font-semibold ${t.btn2}`}>
-      <X size={16} /> Close
+// Close controls inside a card opened on its own page (an entry or a news item): an X in the top-right corner
+// and a Close button at the foot. Both return to where the card was opened, as Back does.
+function CardCloseX({ onClose }) {
+  const { t } = useApp();
+  return (
+    <button type="button" onClick={onClose} aria-label="Close"
+      className={`absolute top-2 right-2 w-10 h-10 rounded-full flex items-center justify-center ${t.btn2}`}>
+      <X size={18} />
     </button>
   );
+}
+function CardCloseFoot({ onClose }) {
+  const { t } = useApp();
   return (
-    <div className="space-y-3">
-      <div className="flex justify-end">{close}</div>
-      {children}
-      <div className="flex justify-end">{close}</div>
+    <div className={`mt-4 pt-3 border-t flex justify-end ${t.border}`}>
+      <button type="button" onClick={onClose} className={`inline-flex items-center gap-1.5 min-h-[40px] px-4 rounded-lg text-sm font-semibold ${t.btn2}`}>
+        <X size={16} /> Close
+      </button>
     </div>
   );
 }
 
 function EntryView({ id }) {
+  const { back } = useApp();
   const entry = ENTRY_BY_ID[id];
   if (!entry) return <Empty>This entry has not been added yet.</Empty>;
-  return <Closable><EntryCard entry={entry} startOpen /></Closable>;
+  return <EntryCard entry={entry} startOpen onClose={back} />;
 }
 
 // ---------- what's new ----------
@@ -19271,12 +19278,13 @@ function KitLinks({ kit }) {
 }
 
 // ---------- developments: curated news with analysis ----------
-function DevelopmentCard({ item, startOpen }) {
+function DevelopmentCard({ item, startOpen, onClose }) {
   const { t, go } = useApp();
   const [open, setOpen] = useState(!!startOpen);
   return (
-    <Card>
-      <button type="button" onClick={() => setOpen(!open)} className="w-full text-left">
+    <Card className={onClose ? 'relative' : ''}>
+      {onClose && <CardCloseX onClose={onClose} />}
+      <button type="button" onClick={() => setOpen(!open)} className={`w-full text-left ${onClose ? 'pr-12' : ''}`}>
         <div className="flex flex-wrap items-center gap-1.5 mb-2">
           <Tag>{item.date.length === 4 ? item.date + ', month not stated' : item.date}</Tag>
           <Tag>{item.country}</Tag>
@@ -19285,7 +19293,7 @@ function DevelopmentCard({ item, startOpen }) {
         </div>
         <div className="flex items-start justify-between gap-3">
           <h3 className="text-lg sm:text-xl font-bold leading-snug">{item.headline}</h3>
-          <ChevronDown size={20} className={`shrink-0 mt-1 transition-transform ${open ? 'rotate-180' : ''} ${t.muted}`} />
+          {!onClose && <ChevronDown size={20} className={`shrink-0 mt-1 transition-transform ${open ? 'rotate-180' : ''} ${t.muted}`} />}
         </div>
         {!open && <p className={`mt-1.5 text-base leading-relaxed max-w-[70ch] line-clamp-2 sm:line-clamp-none ${t.muted}`}>{asList(item.what)[0]}</p>}
       </button>
@@ -19329,6 +19337,7 @@ function DevelopmentCard({ item, startOpen }) {
           </div>
         </div>
       )}
+      {onClose && <CardCloseFoot onClose={onClose} />}
     </Card>
   );
 }
@@ -20090,7 +20099,7 @@ export default function App() {
   else if (cur.view === 'saved') page = <SavedView />;
   else if (cur.view === 'news') page = <NewsView />;
   else if (cur.view === 'developments') page = <DevelopmentsView />;
-  else if (cur.view === 'dev') { const it = DEVELOPMENTS.items.find((x) => x.id === cur.param); page = it ? <Closable><DevelopmentCard key={paramKey} item={it} startOpen /></Closable> : <Empty>This item is no longer listed.</Empty>; }
+  else if (cur.view === 'dev') { const it = DEVELOPMENTS.items.find((x) => x.id === cur.param); page = it ? <DevelopmentCard key={paramKey} item={it} startOpen onClose={back} /> : <Empty>This item is no longer listed.</Empty>; }
   else if (cur.view === 'feedback') page = <FeedbackView key={paramKey} where={cur.param ? cur.param.where : null} />;
   else if (cur.view === 'ask') page = <AskView />;
   else if (cur.view === 'more') page = <MoreView />;
