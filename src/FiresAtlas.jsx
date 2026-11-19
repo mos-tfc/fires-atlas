@@ -1206,6 +1206,9 @@ const EQUIPMENT_SPECS = {"AN/PED-1 LLDR": {"t": "Man-portable target locator and
 // Maximum ranges in km for the Ranges view, from this app's entries only (id = source entry; r = reported figures).
 const RANGE_DATA = [{"n": "M119A3", "c": "United States", "k": "Guns", "id": "usa-eq-m119a3", "a": [{"a": "HE", "km": 14}, {"a": "Rocket-assisted", "km": 19.5}], "r": false}, {"n": "M777A2", "c": "United States", "k": "Guns", "id": "joint-eq-m777a2", "a": [{"a": "HE", "km": 24}, {"a": "Rocket-assisted", "km": 30}, {"a": "Excalibur", "km": 40}], "r": false}, {"n": "M109A7", "c": "United States", "k": "Guns", "id": "usa-eq-m109a7", "a": [{"a": "HE", "km": 24}, {"a": "Rocket-assisted", "km": 30}, {"a": "Excalibur", "km": 40}], "r": false}, {"n": "2S19 Msta-S", "c": "Russia", "k": "Guns", "id": "rus-eq-msta", "a": [{"a": "HE", "km": 24.7}, {"a": "Rocket-assisted", "km": 36}], "r": false}, {"n": "2S43 Malva", "c": "Russia", "k": "Guns", "id": "rus-eq-malva", "a": [{"a": "HE", "km": 24.5}], "r": false}, {"n": "2S35 Koalitsiya-SV", "c": "Russia", "k": "Guns", "id": "rus-eq-koalitsiya", "a": [{"a": "Precision-guided", "km": 70}], "r": false}, {"n": "K9 Thunder", "c": "South Korea", "k": "Guns", "id": "kor-eq-k9", "a": [{"a": "HE (M107)", "km": 18}, {"a": "Rocket-assisted", "km": 30}, {"a": "Base bleed (K307)", "km": 41}, {"a": "Extended range (K315)", "km": 55}], "r": false}, {"n": "K105HT", "c": "South Korea", "k": "Guns", "id": "kor-eq-k105ht", "a": [{"a": "HE", "km": 11.3}], "r": false}, {"n": "PCL-181", "c": "China", "k": "Guns", "id": "chn-eq-pcl181", "a": [{"a": "HE", "km": 20}, {"a": "Rocket-assisted", "km": 53}], "r": false}, {"n": "PLZ-05", "c": "China", "k": "Guns", "id": "chn-eq-plz05", "a": [{"a": "Extended-range base bleed", "km": 39}, {"a": "Base bleed and rocket", "km": 50}, {"a": "WS-35B guided", "km": 100}], "r": false}, {"n": "Type 19", "c": "Japan", "k": "Guns", "id": "jpn-eq-type19", "a": [{"a": "HE", "km": 30}, {"a": "Base bleed", "km": 40}, {"a": "Vulcano GLR", "km": 70}], "r": true}, {"n": "M224A1 (60mm)", "c": "United States", "k": "Mortars", "id": "joint-eq-m224a1", "a": [{"a": "HE", "km": 3.49}], "r": false}, {"n": "M252A1 (81mm)", "c": "United States", "k": "Mortars", "id": "joint-eq-m252a1", "a": [{"a": "HE", "km": 5.8}], "r": false}, {"n": "M120A1 (120mm)", "c": "United States", "k": "Mortars", "id": "usa-eq-m120", "a": [{"a": "HE", "km": 7.2}], "r": false}, {"n": "KSM-120 (120mm)", "c": "South Korea", "k": "Mortars", "id": "kor-eq-ksm120", "a": [{"a": "HE", "km": 8}, {"a": "Rocket-assisted", "km": 12}], "r": false}, {"n": "L16 (81mm)", "c": "Japan", "k": "Mortars", "id": "jpn-eq-mortars", "a": [{"a": "HE", "km": 5.6}], "r": true}, {"n": "TOS-1A", "c": "Russia", "k": "Rockets and missiles", "id": "rus-eq-tos", "a": [{"a": "Thermobaric rocket", "km": 6}], "r": false}, {"n": "TOS-2", "c": "Russia", "k": "Rockets and missiles", "id": "rus-eq-tos", "a": [{"a": "Thermobaric rocket", "km": 20}], "r": false}, {"n": "Tornado-G", "c": "Russia", "k": "Rockets and missiles", "id": "rus-eq-tornado-g", "a": [{"a": "Standard", "km": 20}, {"a": "Extended", "km": 40}], "r": false}, {"n": "Tornado-S", "c": "Russia", "k": "Rockets and missiles", "id": "rus-eq-tornado-s", "a": [{"a": "Standard", "km": 70}, {"a": "Guided", "km": 120}, {"a": "9M544 (in work)", "km": 200}], "r": false}, {"n": "K239 Chunmoo", "c": "South Korea", "k": "Rockets and missiles", "id": "kor-eq-chunmoo", "a": [{"a": "239mm guided", "km": 80}], "r": false}, {"n": "HIMARS / M270A2", "c": "United States", "k": "Rockets and missiles", "id": "joint-eq-rkt-munitions", "a": [{"a": "GMLRS", "km": 92}, {"a": "ER GMLRS", "km": 150}, {"a": "ATACMS", "km": 300}, {"a": "PrSM Inc 1", "km": 400}], "r": false}, {"n": "PrSM (Australian figure)", "c": "Australia", "k": "Rockets and missiles", "id": "aus-eq-himars", "a": [{"a": "PrSM now", "km": 500}], "r": false}, {"n": "NMESIS", "c": "United States", "k": "Rockets and missiles", "id": "usmc-eq-nmesis", "a": [{"a": "Naval Strike Missile", "km": 185}], "r": false}, {"n": "PHL-191", "c": "China", "k": "Rockets and missiles", "id": "chn-eq-phl191", "a": [{"a": "300mm", "km": 150}, {"a": "370mm", "km": 350}, {"a": "750mm", "km": 500}], "r": false}, {"n": "Iskander-M", "c": "Russia", "k": "Rockets and missiles", "id": "rus-eq-iskander", "a": [{"a": "9M723", "km": 500}], "r": false}];
 
+// Kill chains for the animated view: one per army, steps taken from the entries named by id.
+const KILL_CHAINS = [{"key": "us", "c": "United States", "name": "Radar counter-fire", "nodes": {"S": "AN/TPQ-53", "C": "AFATDS", "G": "M109A7", "T": "Enemy battery"}, "steps": [{"act": "detect", "label": "Find", "time": "Seconds", "text": "The AN/TPQ-53 tracks incoming rounds and computes the enemy firing point, to 20–30 m in its 90-degree mode.", "id": "usa-eq-tpq53"}, {"act": "report", "label": "Report", "time": "Measured by units", "text": "The point of origin passes radar → brigade fire support element → battalion FDC → battery FDC. Units time each link every week.", "id": "usa-ttp-mission-latency"}, {"act": "decide", "label": "Clear", "time": "While routing", "text": "AFATDS checks the target against fire support coordination and airspace measures at the same time as it routes the mission.", "id": "usa-ttp-afatds-clearance"}, {"act": "task", "label": "Task", "time": "", "text": "The battery FDC sends firing data to the guns.", "id": "usa-ttp-mission-latency"}, {"act": "fire", "label": "Fire", "time": "", "text": "The M109A7 fires: 24 km with HE, 30 km rocket-assisted, 40 km with Excalibur.", "id": "usa-eq-m109a7"}, {"act": "move", "label": "The race", "time": "1–2 minutes", "text": "Reported: the whole reactive sequence often takes longer than the 1–2 minutes Russian and Ukrainian guns now stay in position. Planners argue for striking batteries before they fire.", "id": "usa-ttp-proactive-counterfire"}]}, {"key": "ru", "c": "Russia", "name": "Reconnaissance-fire complex", "nodes": {"S": "Orlan-10 / -30", "C": "Command post", "G": "2S19 Msta-S", "T": "Target"}, "steps": [{"act": "detect", "label": "Find", "time": "Up to 16 hours aloft", "text": "Orlan-10 drones fly in groups: one films at 1,000–1,500 m, one jams, one relays.", "id": "rus-eq-orlan"}, {"act": "report", "label": "Report", "time": "", "text": "Russian drone data passes up to a command post first, which is often too slow for moving targets.", "id": "ukr-ttp-sensors"}, {"act": "decide", "label": "Decide", "time": "30–60 seconds (reported)", "text": "Reported: the networked 1V198 command complex cuts reaction time to 30–60 seconds, from over three minutes.", "id": "rus-eq-1v198"}, {"act": "laser", "label": "Designate", "time": "", "text": "The heavier Orlan-30 lights the target with its laser.", "id": "rus-eq-orlan"}, {"act": "fire", "label": "Fire", "time": "20–25 km", "text": "The 2S19 fires a Krasnopol guided shell, which steers onto the laser spot.", "id": "rus-eq-krasnopol"}, {"act": "assess", "label": "Reality", "time": "Slower than claimed", "text": "Analysis: state media claim a three-minute counter-battery response; the source judges it slower, lost to network bottlenecks, too few operators and hesitant command.", "id": "rus-ttp-cb-killchain"}]}, {"key": "ua", "c": "Ukraine", "name": "GIS Arta: “Uber for artillery”", "nodes": {"S": "Recon drone", "C": "GIS Arta", "G": "155mm gun", "T": "Target"}, "steps": [{"act": "detect", "label": "Find", "time": "Real time", "text": "Drones are the main target acquisition means; their data goes in real time to higher command and sideways to fire units.", "id": "ukr-ttp-sensors"}, {"act": "decide", "label": "Choose", "time": "", "text": "Within about 10 km an FPV drone is usually the cheapest strike; deeper, armoured or larger targets go to a 155mm gun.", "id": "ukr-ttp-sensors"}, {"act": "task", "label": "Assign", "time": "30–45 seconds (reported)", "text": "GIS Arta picks the best shooter by position, ammunition and chance of success, skipping layers of approval. Reported: from 20–30 minutes down to 30–45 seconds.", "id": "ukr-eq-gisarta"}, {"act": "fire", "label": "Fire", "time": "", "text": "It can time shots from guns in different places so they land together.", "id": "ukr-eq-gisarta"}, {"act": "move", "label": "Move", "time": "Under 20 seconds (reported)", "text": "Reported: Archer halts, fires a burst and moves in under 20 seconds. Cutting time in position matters more than range.", "id": "ukr-ttp-roving-gun"}, {"act": "assess", "label": "Assess", "time": "", "text": "The drone stays overhead to watch the result and find the next target.", "id": "ukr-ttp-sensors"}]}, {"key": "kr", "c": "South Korea", "name": "Counter-battery first", "nodes": {"S": "TPQ-74K", "C": "Fire direction", "G": "K9 Thunder", "T": "North Korean gun"}, "steps": [{"act": "detect", "label": "Find", "time": "Beyond 60 km", "text": "The TPQ-74K detects enemy fire beyond 60 km; two overlapping radars can watch a sector all year.", "id": "kor-eq-tpq74k"}, {"act": "report", "label": "Report", "time": "Pre-approved", "text": "Firing data goes digitally to the guns. Pre-approved target lists agreed with US Forces Korea allow immediate return fire.", "id": "kor-doc-counterbattery"}, {"act": "task", "label": "Deploy", "time": "", "text": "K9s leave hardened underground sites for pre-surveyed firing points.", "id": "kor-doc-counterbattery"}, {"act": "fire", "label": "Fire", "time": "30–60 seconds", "text": "The K9 fires within 30–60 seconds of halting: a burst of three rounds in 15 seconds.", "id": "kor-eq-k9"}, {"act": "move", "label": "Hide", "time": "30 seconds", "text": "It moves again within 30 seconds, back under cover before return fire arrives.", "id": "kor-eq-k9"}]}, {"key": "au", "c": "Australia", "name": "Drone to HIMARS", "nodes": {"S": "Integrator", "C": "JFECC / targeting", "G": "HIMARS", "T": "Target"}, "steps": [{"act": "detect", "label": "Find", "time": "Beyond 25 km", "text": "20th Regiment flies the Integrator drone, sending live video from beyond 25 km.", "id": "aus-org-20-regt"}, {"act": "report", "label": "Report", "time": "", "text": "ISTAR teams in brigade headquarters and the JFECC pass targets on; deep targets go to the 10th Brigade’s Land Targeting Enterprise.", "id": "aus-ttp-ta-layers"}, {"act": "decide", "label": "Approve", "time": "Human decision", "text": "Collateral damage is estimated and a human commander approves every strike; AI tools only advise.", "id": "aus-ttp-targeting"}, {"act": "fire", "label": "Fire", "time": "GMLRS", "text": "14th Regiment’s HIMARS fires GMLRS, as on Talisman Sabre 2025.", "id": "aus-eq-himars"}, {"act": "assess", "label": "Assess", "time": "", "text": "Integrator watches the fall of shot for HIMARS.", "id": "aus-org-20-regt"}, {"act": "move", "label": "Disperse", "time": "", "text": "Launchers with protected cabs move and disperse; Defence analysts say dispersed HIMARS units are still being built up.", "id": "aus-ttp-survive"}]}];
+
 
 // Entry fields: id, topic, country, addedIn, updatedIn (optional), changeNote (optional),
 // module (section), force, echelon [], type, title, what [], how [], why [],
@@ -16315,7 +16318,7 @@ function Library() {
   return (
     <div className="space-y-4">
       <div className="flex gap-2 overflow-x-auto pb-1">
-        {['Entries', 'Compare', 'Coverage', 'Map', 'Ranges', 'Glossary'].map((tab) => (
+        {['Entries', 'Compare', 'Coverage', 'Map', 'Ranges', 'Kill Chain', 'Glossary'].map((tab) => (
           <Chip key={tab} on={lib.tab === tab} onClick={() => setLib({ ...lib, tab })}>{tab}</Chip>
         ))}
       </div>
@@ -16349,6 +16352,7 @@ function Library() {
       {lib.tab === 'Coverage' && <Coverage />}
       {lib.tab === 'Map' && <MilitaryMap />}
       {lib.tab === 'Ranges' && <RangeRings />}
+      {lib.tab === 'Kill Chain' && <KillChain />}
       {lib.tab === 'Glossary' && <GlossaryList />}
     </div>
   );
@@ -16581,6 +16585,105 @@ function RangeRings() {
         {right ? column(colR) : <div className={`p-2 text-sm ${t.faint}`}>No second army has figures in this group.</div>}
       </div>
       <p className={`text-xs ${t.faint}`}>Maximum figures from this app’s entries. Real ranges depend on charge, round, altitude and weather. Ukraine is not listed: its entries give no weapon ranges of its own.</p>
+    </div>
+  );
+}
+
+
+// ---------- kill chain: animated find → decide → strike → assess ----------
+const KC_POS = { S: [150, 52], C: [70, 178], G: [205, 196], G2: [292, 220], T: [330, 88] };
+const KC_PATH = {
+  detect: 'M150,52 L330,88', laser: 'M150,52 L330,88', assess: 'M150,52 L330,88',
+  report: 'M150,52 L70,178', task: 'M70,178 L205,196', fire: 'M205,196 Q270,-20 330,88', move: 'M205,196 L292,220'
+};
+const KC_ACT = { detect: 'Sensor finds the target', laser: 'Sensor lights the target', assess: 'Sensor watches the result', report: 'Sensor reports', decide: 'Command decides', task: 'Command tasks the shooter', fire: 'Shooter fires', move: 'Shooter moves' };
+
+function KillChain() {
+  const { t, go } = useApp();
+  const [key, setKey] = useState(KILL_CHAINS[0].key);
+  const [step, setStep] = useState(0);
+  const [playing, setPlaying] = useState(false);
+  const chain = KILL_CHAINS.find((c) => c.key === key) || KILL_CHAINS[0];
+  const steps = chain.steps;
+  const cur = steps[Math.min(step, steps.length - 1)];
+  const col = countryColour(chain.c);
+  useEffect(() => {
+    if (!playing) return undefined;
+    if (step >= steps.length - 1) { setPlaying(false); return undefined; }
+    const id = setTimeout(() => setStep(step + 1), 3200);
+    return () => clearTimeout(id);
+  }, [playing, step, key]);
+  const pick = (k) => { setKey(k); setStep(0); setPlaying(false); };
+  const moved = steps.findIndex((x) => x.act === 'move');
+  const gAt = moved >= 0 && step >= moved ? KC_POS.G2 : KC_POS.G;
+  const hit = steps.findIndex((x) => x.act === 'fire');
+  const hitDone = hit >= 0 && step > hit;
+  const node = (k, label, fill, xy) => {
+    const [x, y] = xy || KC_POS[k];
+    const active = (cur.act === 'decide' && k === 'C') || (['detect', 'laser', 'assess', 'report'].includes(cur.act) && k === 'S') ||
+      (cur.act === 'task' && (k === 'C' || k === 'G')) || (['fire', 'move'].includes(cur.act) && k === 'G') ||
+      (['detect', 'laser', 'fire', 'assess'].includes(cur.act) && k === 'T');
+    return (
+      <g key={k}>
+        {active && <circle cx={x} cy={y} r="22" fill={fill} opacity="0.18"><animate attributeName="r" values="16;26;16" dur="1.6s" repeatCount="indefinite" /></circle>}
+        <circle cx={x} cy={y} r="13" fill={fill} stroke="currentColor" strokeOpacity={active ? 0.9 : 0.2} strokeWidth="2" />
+        <text x={x} y={y + (k === 'S' ? -20 : 30)} fontSize="12.5" fontWeight="700" textAnchor="middle" fill="currentColor">{label}</text>
+      </g>
+    );
+  };
+  const path = KC_PATH[cur.act];
+  const lineCol = cur.act === 'laser' ? '#ef4444' : cur.act === 'fire' ? '#f59e0b' : col;
+  return (
+    <div className="space-y-3">
+      <div>
+        <h2 className="text-xl font-bold">Kill Chain</h2>
+        <p className={`mt-1 text-sm ${t.muted}`}>How each army closes the loop from finding a target to striking it. Press Play, or step through.</p>
+      </div>
+      <Pick wide label="Army" value={key} onChange={(v) => v && pick(v)} options={KILL_CHAINS.map((c) => ({ value: c.key, label: c.c + ': ' + c.name }))} />
+      <div className={`sticky top-14 z-10 pb-2 ${t.page}`}>
+        <Card className="!p-2 sm:!p-4">
+          <svg viewBox="0 0 400 260" className="w-full max-w-md mx-auto block" role="img" aria-label={chain.c + ' kill chain, step ' + (step + 1) + ': ' + cur.label}>
+            <line x1="250" y1="10" x2="250" y2="250" stroke="currentColor" strokeOpacity="0.12" strokeDasharray="4 6" />
+            <text x="390" y="250" fontSize="11" textAnchor="end" fill="currentColor" opacity="0.5">enemy side</text>
+            {path && (
+              <g key={key + step}>
+                <path d={path} fill="none" stroke={lineCol} strokeWidth={cur.act === 'fire' ? 3 : 2.5}
+                  strokeDasharray={['detect', 'assess'].includes(cur.act) ? '6 5' : cur.act === 'report' || cur.act === 'task' ? '2 5' : ''} opacity="0.9" />
+                <circle r="6" fill={lineCol}>
+                  <animateMotion dur={cur.act === 'fire' ? '1.4s' : '1.1s'} repeatCount="indefinite" path={path} />
+                </circle>
+              </g>
+            )}
+            {node('T', chain.nodes.T, '#64748b')}
+            {node('S', chain.nodes.S, col)}
+            {node('C', chain.nodes.C, col)}
+            {node('G', chain.nodes.G, col, gAt)}
+            {hitDone && <g><circle cx="330" cy="88" r="20" fill="#f59e0b" opacity="0.25" /><text x="330" y="93" fontSize="14" textAnchor="middle">✸</text></g>}
+          </svg>
+          <div className="flex items-center justify-center gap-1.5 mt-1">
+            {steps.map((x, i) => (
+              <button key={i} type="button" aria-label={'Step ' + (i + 1) + ': ' + x.label} onClick={() => { setStep(i); setPlaying(false); }}
+                className="h-2.5 rounded-full transition-all" style={{ width: i === step ? 22 : 10, background: i <= step ? col : 'currentColor', opacity: i <= step ? 1 : 0.2 }} />
+            ))}
+          </div>
+        </Card>
+      </div>
+      <Card>
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs font-bold uppercase tracking-widest" style={{ color: col }}>Step {step + 1} of {steps.length} · {cur.label}</span>
+          {cur.time && <Tag>{cur.time}</Tag>}
+        </div>
+        <div className={`mt-1 text-xs ${t.muted}`}>{KC_ACT[cur.act]}</div>
+        <p className="mt-2 text-base leading-relaxed">{cur.text}</p>
+        <button type="button" onClick={() => go('entry', cur.id)} className={`mt-2 text-sm font-semibold ${t.link}`}>Entry › {(ENTRY_BY_ID[cur.id] || {}).title}</button>
+      </Card>
+      <div className="grid grid-cols-3 gap-2">
+        <Btn kind="ghost" disabled={step === 0} onClick={() => { setStep(step - 1); setPlaying(false); }}><ChevronLeft size={18} /> Back</Btn>
+        {playing ? <Btn onClick={() => setPlaying(false)}>Pause</Btn>
+          : <Btn onClick={() => { if (step >= steps.length - 1) setStep(0); setPlaying(true); }}><Play size={18} /> {step >= steps.length - 1 ? 'Replay' : 'Play'}</Btn>}
+        <Btn kind="ghost" disabled={step >= steps.length - 1} onClick={() => { setStep(step + 1); setPlaying(false); }}>Next <ChevronRight size={18} /></Btn>
+      </div>
+      <p className={`text-xs ${t.faint}`}>A simplified picture built from this app’s entries; each step links to its source entry. Times are those the sources give.</p>
     </div>
   );
 }
@@ -16871,6 +16974,10 @@ function HomeView() {
         <button type="button" onClick={() => explore('Map')} className={`text-left p-4 rounded-xl border ${t.card}`}>
           <div className="flex items-center gap-2 font-bold"><Share2 size={18} /> Military map</div>
           <div className={`mt-1 text-sm ${t.muted}`}>How the armies in this app link and compare.</div>
+        </button>
+        <button type="button" onClick={() => explore('Kill Chain')} className={`col-span-2 text-left p-4 rounded-xl border ${t.card}`}>
+          <div className="flex items-center gap-2 font-bold"><Zap size={18} /> Kill chain</div>
+          <div className={`mt-1 text-sm ${t.muted}`}>Watch five armies go from finding a target to striking it.</div>
         </button>
       </div>
 
