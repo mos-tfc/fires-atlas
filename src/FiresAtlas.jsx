@@ -18265,13 +18265,16 @@ function GlossaryList() {
       <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Find a term or abbreviation"
         className={`w-full min-h-[44px] rounded-lg border px-3 text-base ${t.input}`} />
       <div className={`text-sm ${t.muted}`}>{list.length} of {GLOSSARY.length} terms</div>
-      {list.map((g) => (
-        <Card key={g.term}>
-          <div className="font-bold text-base">{g.term} <span className={`font-normal ${t.muted}`}>· {g.full}</span></div>
-          <p className="mt-1 text-base leading-relaxed max-w-[70ch]">{g.plain || 'Definition not yet added.'}</p>
-          {g.context && <p className={`mt-1 text-sm ${t.muted}`}>{g.context}</p>}
-        </Card>
-      ))}
+      <div className="grid grid-cols-2 gap-2 sm:gap-3">
+        {list.map((g) => (
+          <div key={g.term} className={`rounded-xl border p-3 sm:p-4 min-w-0 ${t.card}`}>
+            <div className="font-bold text-sm sm:text-base break-words">{g.term}</div>
+            <div className={`text-xs sm:text-sm ${t.muted}`}>{g.full}</div>
+            <p className="mt-1.5 text-sm leading-relaxed">{g.plain || 'Definition not yet added.'}</p>
+            {g.context && <p className={`mt-1 text-xs ${t.faint}`}>{g.context}</p>}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -18481,25 +18484,25 @@ function TopicView({ topicKey }) {
               <h2 className="text-lg font-bold">Level {lv.level}: {lv.name}</h2>
             </div>
             <p className={`text-sm mb-3 ${t.muted}`}>{lv.blurb}</p>
-            <div className="space-y-2">
-              {inLevel.map((l) => {
+            <div className="grid grid-cols-2 gap-2 sm:gap-3">
+              {inLevel.map((l, li) => {
                 const s = lessonStatus(l, state);
                 return (
                   <button key={l.id} type="button" disabled={!s.open} onClick={() => go('lesson', l.id)}
-                    className={`w-full text-left rounded-xl border p-4 flex items-center gap-3 ${t.card} ${s.open ? '' : 'opacity-50'}`}>
-                    <span className={`shrink-0 w-10 h-10 rounded-full flex items-center justify-center border ${s.passed ? t.good : s.open ? t.info : t.chip}`}>
-                      {s.passed ? <Check size={18} /> : s.open ? <Play size={16} /> : <Lock size={16} />}
-                    </span>
-                    <span className="flex-1 min-w-0">
-                      <span className="block font-semibold leading-snug">{l.title}</span>
-                      <span className={`block text-sm ${t.muted}`}>
-                        {l.entryIds.length} entries · {l.exercises.length} questions
-                        {s.best !== null ? ` · best ${Math.round(s.best * 100)}%` : ''}
-                        {!s.open ? ' · pass the lesson before to unlock' : ''}
+                    className={`flex flex-col text-left rounded-xl border p-3 sm:p-4 min-w-0 ${t.card} ${s.open ? '' : 'opacity-50'}`}>
+                    <span className="flex items-center gap-2 mb-1.5">
+                      <span className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center border ${s.passed ? t.good : s.open ? t.info : t.chip}`}>
+                        {s.passed ? <Check size={16} /> : s.open ? <Play size={14} /> : <Lock size={14} />}
                       </span>
-                      {s.changed && <span className="block mt-1"><Tag tone="info"><Star size={12} /> Content changed since you passed</Tag></span>}
+                      <span className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Lesson {li + 1}</span>
                     </span>
-                    <ChevronRight size={18} className={t.faint} />
+                    <span className="block font-bold text-sm sm:text-base leading-snug">{l.title}</span>
+                    <span className={`mt-auto pt-2 block text-xs sm:text-sm ${t.muted}`}>
+                      {l.entryIds.length} entries · {l.exercises.length} questions
+                      {s.best !== null ? ` · best ${Math.round(s.best * 100)}%` : ''}
+                      {!s.open ? ' · pass the one before to unlock' : ''}
+                    </span>
+                    {s.changed && <span className="block mt-1"><Tag tone="info"><Star size={12} /> Changed since you passed</Tag></span>}
                   </button>
                 );
               })}
@@ -19212,9 +19215,9 @@ function KitLinks({ kit }) {
 }
 
 // ---------- developments: curated news with analysis ----------
-function DevelopmentCard({ item }) {
+function DevelopmentCard({ item, startOpen }) {
   const { t, go } = useApp();
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(!!startOpen);
   return (
     <Card>
       <button type="button" onClick={() => setOpen(!open)} className="w-full text-left">
@@ -19274,11 +19277,30 @@ function DevelopmentCard({ item }) {
   );
 }
 
+// Compact news card for the two-per-row Developments grid; it opens the item on its own page.
+function DevelopmentTile({ item }) {
+  const { t, go } = useApp();
+  return (
+    <button type="button" onClick={() => go('dev', item.id)} className={`flex flex-col text-left rounded-xl border p-3 sm:p-4 min-w-0 ${t.card}`}>
+      <div className={`flex items-center gap-1 text-xs font-medium mb-1 min-w-0 ${t.muted}`}>
+        <span className="shrink-0 inline-block w-2 h-2 rounded-full" style={{ background: countryColour(item.country) }} />
+        <span className="truncate">{item.country} · {item.date}</span>
+      </div>
+      <div className="font-bold text-sm sm:text-base leading-snug">{item.headline}</div>
+      <div className={`mt-1 text-xs sm:text-sm line-clamp-3 ${t.muted}`}>{asList(item.what)[0]}</div>
+      <div className="mt-auto pt-2 flex flex-wrap items-center gap-1">
+        <Tag>{item.topic}</Tag>
+        {item.confidence !== 'Confirmed' && <Tag tone={item.confidence === 'Reported' ? 'warn' : 'bad'}>{item.confidence}</Tag>}
+      </div>
+    </button>
+  );
+}
+
 function DevelopmentsView() {
   const { t } = useApp();
-  const [country, setCountry] = useState(null);
-  const [topic, setTopic] = useState(null);
-  const [conf, setConf] = useState(null);
+  const [country, setCountry] = useRemembered('dev.country', null);
+  const [topic, setTopic] = useRemembered('dev.topic', null);
+  const [conf, setConf] = useRemembered('dev.conf', null);
   const items = DEVELOPMENTS.items.slice().sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
   // Featured armies A–Z, then Others (news from armies without their own lessons yet).
   const countries = uniq(items.map((i) => i.country)).sort((x, y) => (x === 'Others') - (y === 'Others') || x.localeCompare(y));
@@ -19298,7 +19320,9 @@ function DevelopmentsView() {
         {filtered && <button type="button" className={`text-sm font-semibold ${t.link}`} onClick={() => { setCountry(null); setTopic(null); setConf(null); }}>Clear filters</button>}
       </div>
       <p className={`text-sm ${t.muted}`}>{shown.length} of {items.length} items</p>
-      {shown.length === 0 ? <Empty>No items match these filters.</Empty> : shown.map((item) => <DevelopmentCard key={item.id} item={item} />)}
+      {shown.length === 0 ? <Empty>No items match these filters.</Empty> : (
+        <div className="grid grid-cols-2 gap-2 sm:gap-3">{shown.map((item) => <DevelopmentTile key={item.id} item={item} />)}</div>
+      )}
       {asList(DEVELOPMENTS.archive).length > 0 && (
         <Card>
           <div className="font-bold">Earlier developments</div>
@@ -19329,7 +19353,7 @@ function SavedView() {
           Nothing here yet. Open an entry and press Save or Add note.
           <div className="mt-3"><Btn kind="ghost" onClick={() => go('library')}>Open the Library</Btn></div>
         </Empty>
-      ) : ids.map((id) => <EntryCard key={id} entry={ENTRY_BY_ID[id]} />)}
+      ) : <div className="grid grid-cols-2 gap-2 sm:gap-3">{ids.map((id) => <EntryTile key={id} entry={ENTRY_BY_ID[id]} />)}</div>}
     </div>
   );
 }
@@ -19964,7 +19988,7 @@ const TABS = [
   { view: 'more', label: 'More', Icon: Settings }
 ];
 // The tab that stays lit while a deeper page is open.
-const TAB_OF = { home: 'home', topic: 'home', lesson: 'home', library: 'library', entry: 'library', review: 'review', saved: 'saved', more: 'more', news: 'more', developments: 'more', feedback: 'more', ask: 'more', welcome: 'more' };
+const TAB_OF = { home: 'home', topic: 'home', lesson: 'home', library: 'library', entry: 'library', review: 'review', saved: 'saved', more: 'more', news: 'more', developments: 'more', dev: 'more', feedback: 'more', ask: 'more', welcome: 'more' };
 
 export default function App() {
   const [state, update, storageOk] = useStore();
@@ -19998,6 +20022,7 @@ export default function App() {
   else if (cur.view === 'saved') page = <SavedView />;
   else if (cur.view === 'news') page = <NewsView />;
   else if (cur.view === 'developments') page = <DevelopmentsView />;
+  else if (cur.view === 'dev') { const it = DEVELOPMENTS.items.find((x) => x.id === cur.param); page = it ? <DevelopmentCard key={paramKey} item={it} startOpen /> : <Empty>This item is no longer listed.</Empty>; }
   else if (cur.view === 'feedback') page = <FeedbackView key={paramKey} where={cur.param ? cur.param.where : null} />;
   else if (cur.view === 'ask') page = <AskView />;
   else if (cur.view === 'more') page = <MoreView />;
