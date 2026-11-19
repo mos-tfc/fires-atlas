@@ -1,1 +1,45 @@
-App coming soon
+<title>Fires Atlas Website Files</title>
+<style>
+  :root { --bg: #f2f4f1; --fg: #17201c; --muted: #55625c; --line: #d3dad5; --accent: #0f766e; --accent-fg: #fff; --surface: #fff; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #111614; --fg: #e5ebe7; --muted: #9aa8a1; --line: #2f3934; --accent: #3ccfbd; --accent-fg: #06201c; --surface: #1a211e; } }
+  :root[data-theme="dark"] { --bg: #111614; --fg: #e5ebe7; --muted: #9aa8a1; --line: #2f3934; --accent: #3ccfbd; --accent-fg: #06201c; --surface: #1a211e; }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 2rem 16px 4rem; display: flex; flex-direction: column; gap: 1.2rem; }
+  h1 { font-size: 1.9rem; margin: 0; } h2 { font-size: 1.15rem; margin: 0.6rem 0 0; } p, ol, ul { margin: 0; }
+  ol, ul { padding-left: 1.3rem; display: flex; flex-direction: column; gap: 0.35rem; }
+  .muted { color: var(--muted); }
+  a.dl { display: inline-block; background: var(--accent); color: var(--accent-fg); padding: 0.7rem 1.2rem; border-radius: 4px; text-decoration: none; font-weight: 600; }
+  code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.9em; background: color-mix(in srgb, var(--fg) 8%, transparent); padding: 0.05em 0.3em; border-radius: 3px; overflow-wrap: anywhere; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.92rem; } td, th { text-align: left; padding: 0.4rem 0.6rem 0.4rem 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+</style>
+<main>
+  <h1>Fires Atlas website files</h1>
+  <p class="muted">For github.com/digibro2025/fires-atlas, served by Cloudflare Pages. 19 Nov 2026. Built from the same source as hand-over Version 42 (1,244,650 characters).</p>
+  <p><a class="dl" href="fires-atlas-site.zip" download>Download fires-atlas-site.zip</a></p>
+
+  <h2>Upload to GitHub (no tools needed)</h2>
+  <ol>
+    <li>Unzip the file on your computer. You get <code>index.html</code>, <code>app.js</code>, <code>README.md</code>, <code>build.sh</code>, <code>.gitignore</code> and the folders <code>src</code> and <code>functions</code>.</li>
+    <li>Open the repository, press <b>Add file → Upload files</b>.</li>
+    <li>Drag <b>everything inside</b> the unzipped folder (not the folder itself) into the page. Folders keep their structure. <code>.gitignore</code> may be hidden on your computer; it is optional.</li>
+    <li>Commit message “Fires Atlas website”, commit directly to <code>main</code>. It replaces the placeholder <code>index.html</code> and <code>README.md</code>.</li>
+  </ol>
+
+  <h2>Cloudflare Pages settings, once</h2>
+  <table>
+    <tr><th>Setting</th><th>Value</th></tr>
+    <tr><td>Framework preset</td><td>None</td></tr>
+    <tr><td>Build command</td><td>(empty)</td></tr>
+    <tr><td>Build output directory</td><td><code>/</code></td></tr>
+    <tr><td>Secret <code>GEMINI_API_KEY</code></td><td>A Gemini API key from Google AI Studio, under Settings → Variables and Secrets, type Secret. Without it every page works except Ask.</td></tr>
+  </table>
+  <p>Cloudflare redeploys by itself after each commit to <code>main</code>.</p>
+
+  <h2>Check after it deploys</h2>
+  <ul>
+    <li>The site opens to the Learn page with the Ranges and Military map cards.</li>
+    <li>Library → Map and Ranges draw; an entry with equipment shows a Wikipedia photo.</li>
+    <li>Ask answers a question (after the key is set).</li>
+    <li>If the page stays on “Loading Fires Atlas…”, open the browser console (F12) and send me the red error text.</li>
+  </ul>
+</main>
