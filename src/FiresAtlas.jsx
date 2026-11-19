@@ -31,7 +31,7 @@ const CHANGELOG = [
   {
     version: '2026.12',
     date: '2026-11-16',
-    summary: 'New modules: target acquisition; technical fire direction and gunnery; digital fires command and control; loitering munitions and armed drones; counter-fire and survivability; cannon artillery; rocket and missile artillery; ammunition and effects; sustainment; targeting; mortars, all United States. 267 entries, 70 lessons. Adds a Developments page: artillery news with analysis.',
+    summary: 'Twelve United States modules and seven other armies (Russia, South Korea, Ukraine, China, Japan, Australia, North Korea), with Developments news, Ranges, the Military Map and the Kill Chain.',
     changes: [
       { kind: 'new', entryId: "kpa-ttp-arty-groups", topic: "north-korea", summary: "New entry: Artillery Groups for the Breakthrough." },
       { kind: 'new', entryId: "kpa-org-coastal", topic: "north-korea", summary: "New entry: Coastal Artillery and the Limits of Air and Sea Support." },
@@ -18346,6 +18346,10 @@ function UpdateDue() {
   const { t, go } = useApp();
   const age = contentAgeDays();
   if (age <= STALE_AFTER_DAYS) return null;
+  // The website is always the current version: only copies elsewhere (such as Canvas share links) get this warning.
+  const onWebsite = typeof window !== 'undefined' && (window.FIRES_ATLAS_ASK ||
+    (APP_LINK && window.location && window.location.origin === new URL(APP_LINK).origin));
+  if (onWebsite) return null;
   return (
     <div className={`p-3 rounded-lg border text-sm ${t.warn}`}>
       <div className="font-bold">This copy is {age} days old. A newer version is probably available.</div>
