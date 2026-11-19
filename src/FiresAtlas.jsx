@@ -2264,7 +2264,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: '' },
-      { title: 'FM 3-0: Operations (Army 2030 Force Structure)', publisher: 'Headquarters, Dept. of the Army', year: '2022', url: '' }
+      { title: 'FM 3-0: Operations (Army 2030 Force Structure)', publisher: 'Headquarters, Dept. of the Army', year: '2022', url: 'https://irp.fas.org/doddir/army/fm3-0.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2292,8 +2292,8 @@ const APP_DATA = [
       'Trade-off: Creates a two-step air-clearance link compared to the USMC model where company FiSTs hold organic JTAC/Forward Air Controller (FAC) authority.'
     ],
     sources: [
-      { title: 'ATP 3-09.32: JFIRE', publisher: 'ALSA / DoD', year: '2023', url: '' },
-      { title: 'JP 3-09.3: Close Air Support', publisher: 'Joint Chiefs of Staff', year: '2019', url: '' }
+      { title: 'ATP 3-09.32: JFIRE', publisher: 'ALSA / DoD', year: '2023', url: 'https://www.alssa.mil/mttps/jfire/' },
+      { title: 'JP 3-09.3: Close Air Support', publisher: 'Joint Chiefs of Staff', year: '2019', url: 'https://irp.fas.org/doddir/dod/jp3_09_3.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2324,7 +2324,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'FM 3-09 Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2024', url: '' },
-      { title: 'Military Review: Theater Armies', publisher: 'Army University Press', year: '2025', url: '' }
+      { title: 'Military Review: Theater Armies', publisher: 'Army University Press', year: '2025', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -2353,7 +2353,7 @@ const APP_DATA = [
       'Provides the Joint Force Commander (JFC) with a highly survivable, land-based alternative to vulnerable air or naval strike assets.'
     ],
     sources: [
-      { title: 'CRS Report IF12135: The U.S. Army’s Typhon (SMRF) System', publisher: 'Congressional Research Service', year: '2024', url: '' }
+      { title: 'CRS Report IF12135: The U.S. Army’s Typhon (SMRF) System', publisher: 'Congressional Research Service', year: '2024', url: 'https://www.congress.gov/crs-product/IF12135' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -2407,7 +2407,7 @@ const APP_DATA = [
       'Ensures the MAGTF operates as a self-contained, combined-arms team, prosecuting deep targets organically before requesting external support from the broader Joint Force.'
     ],
     sources: [
-      { title: 'MCWP 3-31 Marine Air-Ground Task Force Fires', publisher: 'Headquarters Marine Corps', year: '2023', url: '' }
+      { title: 'MCWP 3-31 Marine Air-Ground Task Force Fires', publisher: 'Headquarters Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/MCWP%203-31%20(Formerly%20MCWP%203-43.3).pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -2439,8 +2439,8 @@ const APP_DATA = [
       'Placing a Naval Aviator FAC directly in an infantry company gives the ground commander native aviation expertise and autonomous terminal air control.'
     ],
     sources: [
-      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: '' },
-      { title: 'NAVMC 3500.7B: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2021', url: '' }
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' },
+      { title: 'NAVMC 3500.7B: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2021', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2470,8 +2470,8 @@ const APP_DATA = [
       'Force Design 2030 pushes multi-domain sensing and long-range anti-ship/land fires coordination down to smaller battalion/regimental nodes for distributed island operations.'
     ],
     sources: [
-      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: '' },
-      { title: 'Force Design 2030 Annual Updates', publisher: 'Headquarters, US Marine Corps', year: '2023', url: '' }
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' },
+      { title: 'Force Design 2030 Annual Updates', publisher: 'Headquarters, US Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/Docs/Force_Design_2030_Annual_Update_June_2023.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2498,8 +2498,8 @@ const APP_DATA = [
       'Bridges tactical battalion close combat with division/MEF deep fires and maritime sea-denial operations in contested littoral regions.'
     ],
     sources: [
-      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: '' },
-      { title: 'Tentative Manual for Expeditionary Advanced Base Operations (TM EABO)', publisher: 'Headquarters, US Marine Corps', year: '2023', url: '' }
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' },
+      { title: 'Tentative Manual for Expeditionary Advanced Base Operations (TM EABO)', publisher: 'Headquarters, US Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/Docs/230509-Tentative-Manual-For-Expeditionary-Advanced-Base-Operations-2nd-Edition.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2640,8 +2640,8 @@ const APP_DATA = [
       'During amphibious assaults or island defence, naval guns provide immediate heavy fire support before artillery batteries finish landing ashore.'
     ],
     sources: [
-      { title: 'ATP 3-09.32: JFIRE (NSFS Chapter)', publisher: 'ALSA / DoD', year: '2023', url: '' },
-      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: '' }
+      { title: 'ATP 3-09.32: JFIRE (NSFS Chapter)', publisher: 'ALSA / DoD', year: '2023', url: 'https://www.alssa.mil/mttps/jfire/' },
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2695,8 +2695,8 @@ const APP_DATA = [
       'High-angle 155mm trajectories reach >30,000 ft; procedural lateral/altitude rules allow uninterrupted combined-arms fires even under heavy EW jamming.'
     ],
     sources: [
-      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: '' },
-      { title: 'ATP 3-52.1: Multi-Service Airspace Control', publisher: 'ALSA / DoD', year: '2019', url: '' }
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' },
+      { title: 'ATP 3-52.1: Multi-Service Airspace Control', publisher: 'ALSA / DoD', year: '2019', url: 'https://www.alssa.mil/mttps/airspace' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2723,7 +2723,7 @@ const APP_DATA = [
       'Prevents mid-air collisions between artillery projectiles and low-flying drones/helicopters without halting all brigade fires for every air mission.'
     ],
     sources: [
-      { title: 'ATP 3-52.1: Multi-Service Airspace Control', publisher: 'ALSA / DoD', year: '2019', url: '' }
+      { title: 'ATP 3-52.1: Multi-Service Airspace Control', publisher: 'ALSA / DoD', year: '2019', url: 'https://www.alssa.mil/mttps/airspace' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2778,7 +2778,7 @@ const APP_DATA = [
       'Gives small distributed Marine units organic over-the-hill precision strike when external air or ship support is contested.'
     ],
     sources: [
-      { title: 'Force Design 2030 Annual Updates', publisher: 'Headquarters, US Marine Corps', year: '2023', url: '' },
+      { title: 'Force Design 2030 Annual Updates', publisher: 'Headquarters, US Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/Docs/Force_Design_2030_Annual_Update_June_2023.pdf' },
       { title: 'Marine Corps Gazette: Integrating sUAS into Company FiSTs', publisher: 'Marine Corps Association', year: '2024', url: '' }
     ],
     confidence: 'Confirmed',
@@ -2806,7 +2806,7 @@ const APP_DATA = [
       'Automates counterfire prioritisation so finite radar tracks and 155mm shells hit threats endangering the brigade main effort.'
     ],
     sources: [
-      { title: 'ATP 3-09.12: Field Artillery Target Acquisition', publisher: 'Headquarters, Dept. of the Army', year: '2015', url: '' }
+      { title: 'ATP 3-09.12: Field Artillery Target Acquisition', publisher: 'Headquarters, Dept. of the Army', year: '2015', url: 'https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo130847/pdf/GOVPUB-D101-PURL-gpo130847.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2833,8 +2833,8 @@ const APP_DATA = [
       'Peer coastal/shore sensors immediately target high-power RF emitters with long-range rockets or loitering munitions.'
     ],
     sources: [
-      { title: 'Tentative Manual for Expeditionary Advanced Base Operations (TM EABO)', publisher: 'Headquarters, US Marine Corps', year: '2023', url: '' },
-      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: '' }
+      { title: 'Tentative Manual for Expeditionary Advanced Base Operations (TM EABO)', publisher: 'Headquarters, US Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/Docs/230509-Tentative-Manual-For-Expeditionary-Advanced-Base-Operations-2nd-Edition.pdf' },
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2888,7 +2888,7 @@ const APP_DATA = [
       'Aircraft operations require extensive lead time for maintenance, munition loading, and airspace routing. The 72-hour cycle provides predictability to manage a theatre-wide air campaign without logistical collapse.'
     ],
     sources: [
-      { title: 'JP 3-30 Joint Air Operations', publisher: 'Headquarters Dept of Defense', year: '2019', url: '' }
+      { title: 'JP 3-30 Joint Air Operations', publisher: 'Headquarters Dept of Defense', year: '2019', url: 'https://irp.fas.org/doddir/dod/jp3_30.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -3077,7 +3077,7 @@ const APP_DATA = [
       'Gives a dismounted Marine FiST one unified digital interface for artillery, naval gunfire, and close air support.'
     ],
     sources: [
-      { title: 'Marine Corps Systems Command (MCSC): Target Hand-off System Portfolio', publisher: 'US Marine Corps', year: '2023', url: '' }
+      { title: 'Marine Corps Systems Command (MCSC): Target Hand-off System Portfolio', publisher: 'US Marine Corps', year: '2023', url: 'https://www.marcorsyscom.marines.mil/News/Article/1958700/handheld-digital-targeting-system-provides-fire-and-air-support-to-marines' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -3107,7 +3107,7 @@ const APP_DATA = [
       'Driven by the urgent need to penetrate A2/AD bubbles without placing manned aircraft inside lethal threat rings. Legacy turboprops lacked the altitude and speed to survive contested areas.'
     ],
     sources: [
-      { title: 'U.S. Army HADES Prototype Completes First Flight', publisher: 'The Aviationist', year: '2026', url: '' }
+      { title: 'U.S. Army HADES Prototype Completes First Flight', publisher: 'The Aviationist', year: '2026', url: 'https://theaviationist.com/2026/10/31/u-s-armys-hades-prototype-completes-first-flight/' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -3135,7 +3135,7 @@ const APP_DATA = [
       'Solves data latency and siloed intelligence. Previously, human analysts manually cross-referenced data from different terminals, which was too slow for Time-Sensitive Targets. TITAN compresses the sensor-to-shooter timeline from hours to minutes.'
     ],
     sources: [
-      { title: 'Palantir Secures $178M Army Contract to Build Next-Gen Intelligence Ground Station', publisher: 'GovCon Wire', year: '2024', url: '' }
+      { title: 'Palantir Secures $178M Army Contract to Build Next-Gen Intelligence Ground Station', publisher: 'GovCon Wire', year: '2024', url: 'https://www.govconwire.com/2024/03/palantir-secures-178m-army-contract-to-build-next-gen-intelligence-ground-station/' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -3221,7 +3221,7 @@ const APP_DATA = [
       'Sending every 0802 and Aviator FAC through The Basic School creates shared infantry tactical fluency, allowing seamless FiST integration inside Marine rifle companies.'
     ],
     sources: [
-      { title: 'NAVMC 3500.7B: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2021', url: '' },
+      { title: 'NAVMC 3500.7B: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2021', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' },
       { title: 'EWTGLANT / EWTGPAC Course Catalogs', publisher: 'US Marine Corps', year: '2023', url: '' }
     ],
     confidence: 'Confirmed',
@@ -3280,8 +3280,8 @@ const APP_DATA = [
       'Static human OPs on high ground are rapidly spotted and killed; pushing organic sUAS to companies democratises overhead observation.'
     ],
     sources: [
-      { title: 'Preliminary Lessons in Conventional Warfighting from Russia’s Invasion of Ukraine', publisher: 'RUSI', year: '2022', url: '' },
-      { title: 'Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine', publisher: 'RUSI', year: '2023', url: '' }
+      { title: 'Preliminary Lessons in Conventional Warfighting from Russia’s Invasion of Ukraine', publisher: 'RUSI', year: '2022', url: 'https://static.rusi.org/359-SR-Ukraine-Preliminary-Lessons-Feb-July-2022-web-final.pdf' },
+      { title: 'Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine', publisher: 'RUSI', year: '2023', url: 'https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -3308,7 +3308,7 @@ const APP_DATA = [
       'Directly drove US Army and USMC initiatives to downsize command posts and enforce strict EMCON.'
     ],
     sources: [
-      { title: 'Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine', publisher: 'RUSI', year: '2023', url: '' },
+      { title: 'Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine', publisher: 'RUSI', year: '2023', url: 'https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf' },
       { title: 'CALL: LSCO & Command Post Survivability', publisher: 'US Army', year: '2023', url: '' }
     ],
     confidence: 'Confirmed',
@@ -3416,7 +3416,7 @@ const APP_DATA = [
       'Land-based sea-denial imposes severe asymmetric costs on adversary navies. Mobile missile launchers dispersed across archipelagos are inherently difficult to detect compared to multi-billion-dollar surface ships.'
     ],
     sources: [
-      { title: 'CRS Report IF12135', publisher: 'Congressional Research Service', year: '2025', url: '' }
+      { title: 'CRS Report IF12135', publisher: 'Congressional Research Service', year: '2025', url: 'https://www.congress.gov/crs-product/IF12135' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -3600,7 +3600,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'MCWP 3-31: MAGTF Fires and Effects', publisher: 'US Marine Corps', year: '2024', url: 'https://www.marines.mil/Portals/1/Publications/MCWP%203-31%20(SECURED).pdf?ver=8-R_z1atKvJd2FRolggX6w%3D%3D' },
-      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: '' },
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' },
       { title: '10th Marines', publisher: 'Marine Corps Gazette, Marine Corps Association', year: '', url: 'https://www.mca-marines.org/gazette/10th-marines/' }
     ],
     confidence: 'Confirmed',
@@ -3694,7 +3694,7 @@ const APP_DATA = [
       'Not stated in the source.'
     ],
     sources: [
-      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: '' }
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -3906,8 +3906,8 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
-      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: '' },
-      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: '' }
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' },
+      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: 'https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2019_SARS/20-F-0568_DOC_11_ANTPQ-53_SAR_Dec_2019_Full.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -3940,8 +3940,8 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
-      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: '' },
-      { title: 'FY2014 Annual Report: AN/TPQ-53', publisher: 'Director, Operational Test and Evaluation', year: '2014', url: '' }
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' },
+      { title: 'FY2014 Annual Report: AN/TPQ-53', publisher: 'Director, Operational Test and Evaluation', year: '2014', url: 'https://www.dote.osd.mil/Portals/97/pub/reports/FY2014/army/2014q-53counterfire_target_acquisition_radar.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -4131,8 +4131,8 @@ const APP_DATA = [
       'Not stated in the source.'
     ],
     sources: [
-      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: '' },
-      { title: 'JP 3-09.3: Close Air Support', publisher: 'Joint Chiefs of Staff', year: '2019', url: '' }
+      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: 'https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2019_SARS/20-F-0568_DOC_11_ANTPQ-53_SAR_Dec_2019_Full.pdf' },
+      { title: 'JP 3-09.3: Close Air Support', publisher: 'Joint Chiefs of Staff', year: '2019', url: 'https://irp.fas.org/doddir/dod/jp3_09_3.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -4162,8 +4162,8 @@ const APP_DATA = [
       'Defeating shoot-and-scoot guns, hardened launchers or decoys increasingly depends on visual confirmation.'
     ],
     sources: [
-      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: '' },
-      { title: 'JP 3-09.3: Close Air Support', publisher: 'Joint Chiefs of Staff', year: '2019', url: '' }
+      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: 'https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2019_SARS/20-F-0568_DOC_11_ANTPQ-53_SAR_Dec_2019_Full.pdf' },
+      { title: 'JP 3-09.3: Close Air Support', publisher: 'Joint Chiefs of Staff', year: '2019', url: 'https://irp.fas.org/doddir/dod/jp3_09_3.pdf' }
     ],
     confidence: 'Analysis',
     asOf: '2026-11',
@@ -4201,8 +4201,8 @@ const APP_DATA = [
       'It stays on the FY2024 DOT&E oversight list, and FY2027 Army research funds a radar survivability project. The report reads this as a sign that survivability remains a challenge.'
     ],
     sources: [
-      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: '' },
-      { title: 'FY2014 Annual Report: AN/TPQ-53', publisher: 'Director, Operational Test and Evaluation', year: '2014', url: '' }
+      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: 'https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2019_SARS/20-F-0568_DOC_11_ANTPQ-53_SAR_Dec_2019_Full.pdf' },
+      { title: 'FY2014 Annual Report: AN/TPQ-53', publisher: 'Director, Operational Test and Evaluation', year: '2014', url: 'https://www.dote.osd.mil/Portals/97/pub/reports/FY2014/army/2014q-53counterfire_target_acquisition_radar.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -4236,7 +4236,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
-      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: '' }
+      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: 'https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2019_SARS/20-F-0568_DOC_11_ANTPQ-53_SAR_Dec_2019_Full.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -4271,8 +4271,8 @@ const APP_DATA = [
       'Reported, not confirmed: in October 2026 the US Army opened talks with Northrop Grumman to adopt G/ATOR.'
     ],
     sources: [
-      { title: 'FY2017 to FY2019 Annual Reports: G/ATOR', publisher: 'Director, Operational Test and Evaluation', year: '2019', url: '' },
-      { title: 'GAO-15-103', publisher: 'US Government Accountability Office', year: '2015', url: '' }
+      { title: 'FY2017 to FY2019 Annual Reports: G/ATOR', publisher: 'Director, Operational Test and Evaluation', year: '2019', url: 'https://www.dote.osd.mil/Portals/97/pub/reports/FY2019/navy/2019gator.pdf' },
+      { title: 'GAO-15-103', publisher: 'US Government Accountability Office', year: '2015', url: 'https://www.gao.gov/products/gao-15-103' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -4338,7 +4338,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'FM 6-121: Field Artillery Target Acquisition', publisher: 'Headquarters, Dept. of the Army', year: '1980', url: '' },
-      { title: 'Boomerang datasheet', publisher: 'Raytheon BBN', year: '', url: '' }
+      { title: 'Boomerang datasheet', publisher: 'Raytheon BBN', year: '', url: 'https://prd-sc102-cdn.rtx.com/-/media/rtx/our-company/who-we-are/bbn/boomerang/files/boomerang_data.pdf' }
     ],
     confidence: 'Reported',
     asOf: '2026-11',
@@ -4400,7 +4400,7 @@ const APP_DATA = [
       'A 2021 Military Review analysis argues that software upgrades to existing multi-mission radars are a better path than fielding dedicated single-purpose C-UAS radars.'
     ],
     sources: [
-      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: '' }
+      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
     ],
     confidence: 'Reported',
     asOf: '2026-11',
@@ -4435,7 +4435,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'TC 3-09.8: Fire Support and Field Artillery Certification and Qualification', publisher: 'Headquarters, Dept. of the Army', year: '2013', url: '' },
-      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: '' }
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -4465,7 +4465,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'TC 3-09.8: Fire Support and Field Artillery Certification and Qualification', publisher: 'Headquarters, Dept. of the Army', year: '2013', url: '' },
-      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: '' }
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -4522,7 +4522,7 @@ const APP_DATA = [
       'Doctrine still lacks a formal method or training for supervising autonomous targeting confidence scores and algorithmic drift.'
     ],
     sources: [
-      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: '' }
+      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
     ],
     confidence: 'Reported',
     asOf: '2026-11',
@@ -4833,8 +4833,8 @@ const APP_DATA = [
       'Not stated in the source.'
     ],
     sources: [
-      { title: 'Report on Tactical Air Control Party reductions', publisher: 'Air Force Times', year: '2023', url: '' },
-      { title: 'Report on Air National Guard air control deactivations', publisher: 'Air & Space Forces Magazine', year: '2026', url: '' }
+      { title: 'Report on Tactical Air Control Party reductions', publisher: 'Air Force Times', year: '2023', url: 'https://www.airforcetimes.com/news/your-air-force/2023/04/14/air-force-looks-to-cut-nearly-50-of-tactical-air-control-party-jobs/' },
+      { title: 'Report on Air National Guard air control deactivations', publisher: 'Air & Space Forces Magazine', year: '2026', url: 'https://www.airandspaceforces.com/air-force-converting-some-tacp-units-to-cyber-in-a-push-to-counter-china' }
     ],
     confidence: 'Reported',
     asOf: '2026-11',
@@ -4897,7 +4897,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' },
-      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: '' },
+      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: 'https://irp.fas.org/doddir/army/fm3_60.pdf' },
       { title: 'MCWP 3-31: MAGTF Fires and Effects', publisher: 'US Marine Corps', year: '2024', url: 'https://www.marines.mil/Portals/1/Publications/MCWP%203-31%20(SECURED).pdf?ver=8-R_z1atKvJd2FRolggX6w%3D%3D' }
     ],
     confidence: 'Confirmed',
@@ -4926,7 +4926,7 @@ const APP_DATA = [
       'Not stated in the source.'
     ],
     sources: [
-      { title: 'CJCSI 5127.01B', publisher: 'Joint Chiefs of Staff', year: '', url: '' },
+      { title: 'CJCSI 5127.01B', publisher: 'Joint Chiefs of Staff', year: '', url: 'https://www.jcs.mil/Portals/36/Documents/Library/Instructions/CJCSI%205127.01B.pdf' },
       { title: 'ATP 3-52.2 / MCRP 3-20.1: Theater Air-Ground System', publisher: 'Air Land Sea Space Application Center', year: '2024', url: 'https://www.alssa.mil/Portals/9/Documents/mttps/tags_2024.pdf?ver=lgt-G2npMWvqeuAV8KuTgg%3D%3D' }
     ],
     confidence: 'Confirmed',
@@ -4957,7 +4957,7 @@ const APP_DATA = [
       'Automation only reflects the commander’s intent if the guidance is entered correctly.'
     ],
     sources: [
-      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: '' },
+      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: 'https://irp.fas.org/doddir/army/fm3_60.pdf' },
       { title: 'Deliberate Dynamic Targeting', publisher: 'Line of Departure, Field Artillery', year: '2024', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/FA-2024-Issue-1/Deliberate-Dynamic-Targeting/' }
     ],
     confidence: 'Confirmed',
@@ -5230,7 +5230,7 @@ const APP_DATA = [
       'Not stated in the source.'
     ],
     sources: [
-      { title: 'Link 16 over HF: laboratory measurements', publisher: 'Isode (vendor)', year: '', url: '' }
+      { title: 'Link 16 over HF: laboratory measurements', publisher: 'Isode (vendor)', year: '', url: 'https://www.isode.com/whitepaper/link-16-and-other-c2-protocols-over-hf-radio/' }
     ],
     confidence: 'Reported',
     asOf: '2026-11',
@@ -5694,7 +5694,7 @@ const APP_DATA = [
       'Not stated in the source.'
     ],
     sources: [
-      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: '' },
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' },
       { title: 'TC 3-09.8: Fire Support and Field Artillery Certification and Qualification', publisher: 'Headquarters, Dept. of the Army', year: '2013', url: '' }
     ],
     confidence: 'Confirmed',
@@ -5835,7 +5835,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'Journal of Strategic Security', publisher: 'University of South Florida', year: '', url: '' },
-      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: '' }
+      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
     ],
     confidence: 'Reported',
     asOf: '2026-11',
@@ -5952,7 +5952,7 @@ const APP_DATA = [
       'Not stated in the source.'
     ],
     sources: [
-      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: '' }
+      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
     ],
     confidence: 'Analysis',
     asOf: '2026-11',
@@ -6021,7 +6021,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'ATP 3-09.50: The Field Artillery Cannon Battery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: 'https://www.bits.de/NRANEU/others/amd-us-archive/ATP3-09-50%2816%29.pdf' },
-      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: '' }
+      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: 'https://www.dvidshub.net/publication/1332/field-artillery-professional-bulletin' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -6053,8 +6053,8 @@ const APP_DATA = [
       'With conflicting local weather data, rounds from dispersed battalions would fly different trajectories and the division could not mass fires on one target.'
     ],
     sources: [
-      { title: 'ATP 3-09.12: Field Artillery Target Acquisition', publisher: 'Headquarters, Dept. of the Army', year: '', url: '' },
-      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: '' }
+      { title: 'ATP 3-09.12: Field Artillery Target Acquisition', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo130847/pdf/GOVPUB-D101-PURL-gpo130847.pdf' },
+      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -6087,7 +6087,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'TC 3-09.81: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: '' },
-      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: '' }
+      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -6217,7 +6217,7 @@ const APP_DATA = [
       'Stale met data introduces severe range errors.'
     ],
     sources: [
-      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: '' },
+      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf' },
       { title: 'TC 3-09.81: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: '' }
     ],
     confidence: 'Confirmed',
@@ -6279,7 +6279,7 @@ const APP_DATA = [
       'TOT and MRSI address enemy survivability: they achieve maximum fragmentation effect before the enemy can react, sound alarms and take cover.'
     ],
     sources: [
-      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: '' },
+      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf' },
       { title: 'TC 3-09.81: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: '' }
     ],
     confidence: 'Confirmed',
@@ -6436,7 +6436,7 @@ const APP_DATA = [
       'Each device supplies one input to accurate predicted fire: where the gun is, where it points, how fast the round leaves, and what the air will do to it.'
     ],
     sources: [
-      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: '' },
+      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf' },
       { title: 'Weapon Systems Handbook', publisher: 'US Army', year: '2007', url: 'https://asc.army.mil/docs/wsh2/2007-wsh.pdf' },
       { title: 'MCRP 4-11.3E Vol. II', publisher: 'US Marine Corps', year: '', url: 'https://www.marines.mil/portals/1/MCRP%204-11.3E%20Vol.%20II%20z.pdf' },
       { title: 'Marine Corps School of Artillery', publisher: 'US Marine Corps Training Command', year: '', url: 'https://www.trngcmd.marines.mil/units/marine-school-of-artillery/' }
@@ -6503,7 +6503,7 @@ const APP_DATA = [
       'Intensive manual gunnery lets the officer picture the trajectory and catch gross safety errors from operators or software before clearing a round to fire.'
     ],
     sources: [
-      { title: 'Field Artillery Basic Officer Leader Course', publisher: 'US Army Fires Center of Excellence', year: '2024', url: '' }
+      { title: 'Field Artillery Basic Officer Leader Course', publisher: 'US Army Fires Center of Excellence', year: '2024', url: 'https://sill-www.army.mil/428thfa/bolcb.html' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -6533,7 +6533,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'TC 3-09.8: Fire Support and Field Artillery Certification and Qualification', publisher: 'Headquarters, Dept. of the Army', year: '', url: '' },
-      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: '' }
+      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: 'https://www.dvidshub.net/publication/1332/field-artillery-professional-bulletin' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -6561,7 +6561,7 @@ const APP_DATA = [
       'Reported: units are left vulnerable if peer electronic warfare cuts digital networks or destroys command posts.'
     ],
     sources: [
-      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: '' }
+      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: 'https://www.dvidshub.net/publication/1332/field-artillery-professional-bulletin' }
     ],
     confidence: 'Reported',
     asOf: '2026-11',
@@ -6618,7 +6618,7 @@ const APP_DATA = [
       'Single guns can then hide, receive data silently, shoot and move on their own.'
     ],
     sources: [
-      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: '' },
+      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: 'https://www.dvidshub.net/publication/1332/field-artillery-professional-bulletin' },
       { title: 'Anduril press material', publisher: 'Anduril (vendor)', year: '', url: '' }
     ],
     confidence: 'Reported',
@@ -6675,7 +6675,7 @@ const APP_DATA = [
       'A mobile FDC that computes firing data on the move and transmits in short, encrypted bursts is vital for survival in a peer conflict.'
     ],
     sources: [
-      { title: 'Military Review', publisher: 'Army University Press', year: '', url: '' }
+      { title: 'Military Review', publisher: 'Army University Press', year: '', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -6704,7 +6704,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'Combat Training Center observations', publisher: 'Center for Army Lessons Learned', year: '', url: '' },
-      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: '' }
+      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: 'https://www.dvidshub.net/publication/1332/field-artillery-professional-bulletin' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -7110,7 +7110,7 @@ const APP_DATA = [
       'If the link is cut after the operator has positively identified the target and authorised the strike, autonomous completion of the dive remains compliant. Human judgement was exercised before force was used.'
     ],
     sources: [
-      { title: 'DoD Directive 3000.09: Autonomy in Weapon Systems', publisher: 'US Department of Defense', year: '', url: '' },
+      { title: 'DoD Directive 3000.09: Autonomy in Weapon Systems', publisher: 'US Department of Defense', year: '', url: 'https://www.esd.whs.mil/portals/54/documents/dd/issuances/dodd/300009p.pdf' },
       { title: 'Human in the Loop Weapons: Definitions Compared', publisher: 'IDF AI', year: '', url: 'https://idf.ai/analysis/human-in-the-loop-definitions/' }
     ],
     confidence: 'Confirmed',
@@ -8483,7 +8483,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'ARNG Enlisted MOS Specifications', publisher: 'Headquarters, Dept. of the Army', year: '2025', url: 'https://api.army.mil/e2/c/downloads/2025/12/04/20612de5/chapter-10c-enlisted-mos-specifications.pdf' },
-      { title: 'FY24 National Guard and Reserve Equipment Report', publisher: 'US Department of Defense', year: '2024', url: '' },
+      { title: 'FY24 National Guard and Reserve Equipment Report', publisher: 'US Department of Defense', year: '2024', url: 'https://prhome.defense.gov/Portals/52/Documents/MRA_Docs/RI/FY24%20National%20Guard%20and%20Reserve%20Equipment%20Report%20Final%202.pdf' },
       { title: 'How U.S. HIMARS, Typhon and NMESIS Missile Systems Could Complicate Chinese Operations Near Taiwan', publisher: 'Army Recognition', year: '', url: 'https://www.armyrecognition.com/focus-analysis-conflicts/army/analysis-defense-and-security-industry/how-u-s-himars-typhon-and-nmesis-missile-systems-could-complicate-chinese-operations-near-taiwan' }
     ],
     confidence: 'Analysis',
@@ -8614,7 +8614,7 @@ const APP_DATA = [
       'Doctrine therefore withholds guided rockets until sensors can produce a very low TLE.'
     ],
     sources: [
-      { title: 'Department of Defense Dictionary of Military and Associated Terms', publisher: 'US Department of Defense', year: '', url: '' },
+      { title: 'Department of Defense Dictionary of Military and Associated Terms', publisher: 'US Department of Defense', year: '', url: 'https://irp.fas.org/doddir/dod/dictionary.pdf' },
       { title: 'ATP 3-09.60: Techniques for MLRS and HIMARS Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://www.scribd.com/document/488064375/atp3-09x60' }
     ],
     confidence: 'Confirmed',
@@ -10149,7 +10149,7 @@ const APP_DATA = [
       'The ATHP limits how long bulk explosives sit forward. The FSC covers the last tactical mile quickly and shields batteries from delays further back.'
     ],
     sources: [
-      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: '' },
+      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://irp.fas.org/doddir/army/atp4-35.pdf' },
       { title: 'ATP 4-90: Brigade Support Battalion', publisher: 'Headquarters, Dept. of the Army', year: '2026', url: '' }
     ],
     confidence: 'Confirmed',
@@ -10179,7 +10179,7 @@ const APP_DATA = [
       'It forces commanders to prioritise targets and manage their basic load, the ammunition a unit must carry on its own vehicles.'
     ],
     sources: [
-      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: '' }
+      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://irp.fas.org/doddir/army/atp4-35.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10207,7 +10207,7 @@ const APP_DATA = [
       'A dropped flatrack is a complete, usable package, not loose components for tired crews to assemble.'
     ],
     sources: [
-      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: '' }
+      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://irp.fas.org/doddir/army/atp4-35.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10238,7 +10238,7 @@ const APP_DATA = [
       'The commander chooses by threat and urgency.'
     ],
     sources: [
-      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: '' }
+      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://irp.fas.org/doddir/army/atp4-35.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -11089,7 +11089,7 @@ const APP_DATA = [
       'Longer barrel life and a supply chain less strained by aid to partners give higher readiness in manoeuvre battalions.'
     ],
     sources: [
-      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: '' },
+      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-01D.pdf' },
       { title: 'TC 3-22.90: Mortars', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.scribd.com/document/448887690/Mortar-pdf' },
       { title: 'TC 3-22.91: Mortar Fire Direction Procedures', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.scribd.com/document/560467851/Arn3488-tc-3-22x91-Final-Web-1' }
     ],
@@ -11121,7 +11121,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: 'https://files.uslweb.com/production/files/fm-3-60-2023-08.pdf' },
-      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: '' }
+      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-01D.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -11152,7 +11152,7 @@ const APP_DATA = [
       'The reconnaissance section helps break contact during infiltration and counter-reconnaissance.'
     ],
     sources: [
-      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: '' }
+      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-01D.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -11181,7 +11181,7 @@ const APP_DATA = [
       'Cavalry mortars let forward reconnaissance destroy enemy screens or cover its own withdrawal without waiting for clearance from battalion or brigade.'
     ],
     sources: [
-      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: '' }
+      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-01D.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -11209,7 +11209,7 @@ const APP_DATA = [
       'At maximum rates the platoon can fire its 276 rounds in minutes. Resupply limits mortar fire more than anything else.'
     ],
     sources: [
-      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: '' }
+      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-01D.pdf' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
