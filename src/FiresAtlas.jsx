@@ -17932,7 +17932,8 @@ function FeedbackView({ where }) {
 
 // ---------- welcome: the front page, shown on a first visit and from More > About ----------
 // Shared totals (supporters and visits), kept by the website itself (worker/index.js). In Canvas there is no route, so no totals show.
-const COUNTER_BASE = typeof window !== 'undefined' && window.FIRES_ATLAS_COUNT ? window.FIRES_ATLAS_COUNT : '';
+// Read when used: the website sets window.FIRES_ATLAS_COUNT only after this file has loaded.
+const counterBase = () => (typeof window !== 'undefined' && window.FIRES_ATLAS_COUNT ? window.FIRES_ATLAS_COUNT : '');
 const COUNTER_ID = 'fires-atlas-aa21bb28'; // names the "already supported / visited" marks kept in the browser
 const remember = {
   get: (k) => { try { return window.localStorage.getItem(k); } catch (e) { return null; } },
@@ -17942,7 +17943,7 @@ const remember = {
 const counter = (action, key) => {
   const ctl = typeof AbortController !== 'undefined' ? new AbortController() : null;
   const timer = setTimeout(() => { if (ctl) ctl.abort(); }, 8000);
-  return fetch(COUNTER_BASE + '/' + key, { method: action === 'hit' ? 'POST' : 'GET', cache: 'no-store', signal: ctl ? ctl.signal : undefined })
+  return fetch(counterBase() + '/' + key, { method: action === 'hit' ? 'POST' : 'GET', cache: 'no-store', signal: ctl ? ctl.signal : undefined })
     .then((res) => {
       if (!res.ok) throw new Error('Counter responded ' + res.status);
       return res.json().then((d) => { if (!d || typeof d.value !== 'number') throw new Error('No value'); return d.value; });
@@ -17951,13 +17952,13 @@ const counter = (action, key) => {
 };
 
 function WelcomeView({ first }) {
-  const { t, update, go, back, lib, setLib } = useApp();
+  const { t, update, back } = useApp();
   const [supporters, setSupporters] = useState(null);
   const [supported, setSupported] = useState(!!remember.get('fires_atlas_supported_' + COUNTER_ID));
   const [supportError, setSupportError] = useState(false);
   const [busy, setBusy] = useState(false);
   useEffect(() => {
-    if (!COUNTER_BASE) return undefined;
+    if (!counterBase()) return undefined;
     let live = true;
     counter('get', 'supporters').then((n) => { if (live) setSupporters(n); }).catch(() => {});
     const visitedKey = 'fires_atlas_visited_' + COUNTER_ID;
@@ -17974,12 +17975,11 @@ function WelcomeView({ first }) {
       .finally(() => setBusy(false));
   };
   const start = () => { update({ welcomed: true }); if (!first) back(); };
-  const explore = (tab) => { update({ welcomed: true }); setLib({ ...lib, tab }); go('library'); };
   const H = ({ children }) => <h2 className={`text-xl font-bold ${t.link}`}>{children}</h2>;
   const parts = [
     ['Learn', 'Short lessons. Each covers what, how and why, then checks your understanding.'],
     ['Library', 'Every entry, searchable by country, force, echelon and type, with side-by-side Compare.'],
-    ['Ranges and Military map', 'Weapon ranges as rings, and how the armies link and compare.'],
+    ['Ranges and Military Map', 'Weapon ranges as rings, and how the armies link and compare.'],
     ['Developments', 'Recent artillery news, with what happened, what it means and what to watch next.'],
     ['Ask', 'A question in plain words, answered from the entries with links to them.']
   ];
@@ -17990,32 +17990,32 @@ function WelcomeView({ first }) {
         <p className={`text-lg ${t.muted}`}>A learning reference on artillery and fire support worldwide, built from open sources.</p>
         <div className="flex flex-wrap gap-2 pt-1">
           <Btn onClick={start}><Play size={18} /> {first ? 'Start learning' : 'Back to the app'}</Btn>
-          <Btn kind="ghost" onClick={() => explore('Ranges')}><Target size={18} /> See the ranges</Btn>
         </div>
         <p className={`text-sm ${t.muted}`}>{APP_DATA.length} entries · {LESSONS.length} lessons · {ALL_COUNTRIES.length} armies</p>
       </section>
 
       <section className="space-y-3">
-        <H>Why this was built</H>
+        <H>Why This Was Built</H>
         <p className="text-base leading-relaxed max-w-[70ch]">Artillery is changing quickly. Armies are rebuilding how they find targets, direct fire, survive counter-fire and sustain their guns. The lessons are spread across doctrine, journals and reports that few people have time to read.</p>
         <p className="text-base leading-relaxed max-w-[70ch]">Fires Atlas brings that open material into one place, in a form that can be learned in short sittings. Every entry answers three questions: what it is, how it works, and why it is built that way.</p>
       </section>
 
       <section className="space-y-3">
-        <H>What you take away</H>
-        <p className="text-base leading-relaxed max-w-[70ch]">The aim is understanding, not memorising. Every army faces the same tasks: find the target, decide, strike, survive the reply and keep the guns supplied. Seeing how others do it gives you:</p>
-        <ul className="space-y-2 text-base leading-relaxed">
-          <li><span className="font-semibold">The problem behind the kit.</span> {' '}Why a system exists and what task it serves, not just its name and range.</li>
-          <li><span className="font-semibold">The trade-offs.</span> {' '}Range against mobility, mass against precision, central control against speed. Each army chose differently, for reasons.</li>
-          <li><span className="font-semibold">What is changing.</span> {' '}Drones, long-range fires and faster counter-battery fire, and which lessons are proven in conflicts and which are only claimed.</li>
-          <li><span className="font-semibold">Partners and threats.</span> {' '}How armies you may work alongside operate, and how others may fight.</li>
-          <li><span className="font-semibold">Sharper questions about your own practice.</span> {' '}Knowing the range of answers makes your own assumptions easier to see.</li>
+        <H>What You Take Away</H>
+        <p className="text-base leading-relaxed max-w-[70ch]">Every army must find, decide, strike, survive and sustain. Comparing how each does it shows you:</p>
+        <ul className="list-disc pl-5 space-y-1.5 text-base leading-relaxed">
+          <li>Why each system exists and the task it serves</li>
+          <li>The trade-offs behind each army’s choices: range or mobility, mass or precision, control or speed</li>
+          <li>What is changing: drones, long-range fires, faster counter-battery fire</li>
+          <li>Which lessons are proven in conflicts and which are only claimed</li>
+          <li>How partners operate, and how others may fight</li>
+          <li>Sharper questions about your own practice</li>
         </ul>
       </section>
 
       <Card>
-        <div className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Sample entry</div>
-        <h3 className="text-xl font-bold mt-1 mb-3">Weapon-locating radar</h3>
+        <div className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Sample Entry</div>
+        <h3 className="text-xl font-bold mt-1 mb-3">Weapon-Locating Radar</h3>
         <div className="space-y-3">
           <Block kind="what" lines={['A radar that detects shells, rockets and mortar bombs while they are in flight.']} />
           <Block kind="how" lines={['It tracks a short part of the flight path and calculates back to the firing point, usually within seconds.']} />
@@ -18025,7 +18025,7 @@ function WelcomeView({ first }) {
       </Card>
 
       <section className="space-y-3">
-        <H>Who it is for</H>
+        <H>Who It Is For</H>
         <p className="text-base leading-relaxed">Anyone who studies or practises fire support: gunners, fire support officers, planners, instructors and students.</p>
         <div className="grid gap-3 sm:grid-cols-2">
           {parts.map(([h, p]) => (
@@ -18038,7 +18038,7 @@ function WelcomeView({ first }) {
       </section>
 
       <section className="space-y-3">
-        <H>Questions to carry with you</H>
+        <H>Questions to Carry with You</H>
         <p className="text-base leading-relaxed max-w-[70ch]">The lessons use the United States as a worked example, because its doctrine is openly published and explains its reasons. As you read, set it against what you know of your own force.</p>
         <ul className="list-disc pl-5 space-y-2 text-base leading-relaxed">
           <li>How does our own force do this, and why is it different?</li>
@@ -18050,13 +18050,13 @@ function WelcomeView({ first }) {
       </section>
 
       <section className="space-y-3">
-        <H>Your progress</H>
+        <H>Your Progress</H>
         <p className="text-base leading-relaxed max-w-[70ch]">Progress is kept in this browser on this device. To move it to another device or browser, go to More, press “Copy my progress”, then paste it into “Restore” on the other one.</p>
       </section>
 
-      {COUNTER_BASE && (
+      {counterBase() && (
         <section className="space-y-3">
-          <H>Show support</H>
+          <H>Show Support</H>
           <div className="flex flex-wrap items-center gap-4">
             <Btn kind={supported ? 'ghost' : undefined} disabled={supported || busy} onClick={support}><Star size={18} fill={supported ? 'currentColor' : 'none'} /> {supported ? 'Supported. Thank you.' : busy ? 'Sending…' : 'Show support'}</Btn>
             {supporters !== null && <span className="text-2xl font-bold">{supporters.toLocaleString('en-GB')} <span className={`text-base font-normal ${t.muted}`}>{supporters === 1 ? 'supporter' : 'supporters'}</span></span>}
