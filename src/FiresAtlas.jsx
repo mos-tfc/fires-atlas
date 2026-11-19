@@ -18016,7 +18016,7 @@ function WelcomeView({ first }) {
           <li>What does their answer assume about size, money or ground that does not hold for us?</li>
           <li>Faced with the same lessons from recent conflicts, what would we do first?</li>
         </ul>
-        <p className={`text-sm ${t.muted}`}>Keep your answers for discussion with your instructor or team. Do not type details of your own force into the app.</p>
+        <p className={`text-sm ${t.muted}`}>Keep your answers for internal discussion with your peers or team. Do not type details of your own force into the app.</p>
       </section>
 
       <section className="space-y-3">
