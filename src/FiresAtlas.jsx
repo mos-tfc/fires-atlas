@@ -17860,6 +17860,10 @@ function Compare() {
 // Coverage: how many entries each country has in each topic. A cell opens those entries.
 
 // ---------- explore: ranges and the military map ----------
+// Diagram width: on phones capped by screen height so the list below stays usable; on wide screens the
+// diagram sits in a pinned left column.
+const diagMax = (phonePx, phoneVh) => (typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(min-width: 1024px)').matches
+  ? 'min(460px, 70vh)' : 'min(' + phonePx + 'px, ' + phoneVh + 'vh)');
 // Coloured column header used by the two-column (left and right) views.
 function SideHead({ country, sub }) {
   const { t } = useApp();
@@ -17939,10 +17943,11 @@ function RangeRings() {
         <Pick wide label="Left" value={left} onChange={(v) => { if (v) { setL(v); setSel(null); } }} options={avail} />
         <Pick wide label="Right" value={right} onChange={(v) => { if (v) { setRt(v); setSel(null); } }} options={avail.filter((c) => c !== left)} />
       </div>
-      <div className={`sticky top-14 z-10 pb-2 ${t.page}`}>
+      <div className="lg:grid lg:grid-cols-2 lg:gap-6">
+      <div className={`sticky top-14 lg:top-20 self-start z-10 pb-2 ${t.page}`}>
         <Card className="!p-2 sm:!p-4">
           {shown.length === 0 ? <Empty>Tick at least one weapon below.</Empty> : (
-            <svg viewBox="0 0 400 400" className="w-full max-w-[250px] sm:max-w-md mx-auto block" role="img" aria-label={'Range rings for ' + shown.map((x) => x.n).join(', ')}>
+            <svg viewBox="0 0 400 400" className="w-full mx-auto block" style={{ maxWidth: diagMax(250, 34) }} role="img" aria-label={'Range rings for ' + shown.map((x) => x.n).join(', ')}>
               {ticks.map((km, i) => (
                 <g key={i}>
                   <circle cx={C} cy={C} r={rOf(km)} fill="none" stroke="currentColor" strokeOpacity="0.15" />
@@ -17976,11 +17981,14 @@ function RangeRings() {
           </div>
         </Card>
       </div>
+      <div className="space-y-3">
       <div className="grid grid-cols-2 gap-2">
         {column(colL)}
         {right ? column(colR) : <div className={`p-2 text-sm ${t.faint}`}>No second army has figures in this group.</div>}
       </div>
       <p className={`text-xs ${t.faint}`}>Maximum figures from this app’s entries. Real ranges depend on charge, round, altitude and weather. Ukraine is not listed: its entries give no weapon ranges of its own.</p>
+      </div>
+      </div>
     </div>
   );
 }
@@ -18036,9 +18044,10 @@ function KillChain() {
         <p className={`mt-1 text-sm ${t.muted}`}>How each army closes the loop from finding a target to striking it. Press Play, or step through.</p>
       </div>
       <Pick wide label="Army" value={key} onChange={(v) => v && pick(v)} options={KILL_CHAINS.map((c) => ({ value: c.key, label: c.c + ': ' + c.name }))} />
-      <div className={`sticky top-14 z-10 pb-2 ${t.page}`}>
+      <div className="lg:grid lg:grid-cols-2 lg:gap-6">
+      <div className={`sticky top-14 lg:top-20 self-start z-10 pb-2 ${t.page}`}>
         <Card className="!p-2 sm:!p-4">
-          <svg viewBox="0 0 400 260" className="w-full max-w-md mx-auto block" role="img" aria-label={chain.c + ' kill chain, step ' + (step + 1) + ': ' + cur.label}>
+          <svg viewBox="0 0 400 260" className="w-full mx-auto block" style={{ maxWidth: diagMax(400, 44) }} role="img" aria-label={chain.c + ' kill chain, step ' + (step + 1) + ': ' + cur.label}>
             <line x1="250" y1="10" x2="250" y2="250" stroke="currentColor" strokeOpacity="0.12" strokeDasharray="4 6" />
             <text x="390" y="250" fontSize="11" textAnchor="end" fill="currentColor" opacity="0.5">enemy side</text>
             {path && (
@@ -18064,6 +18073,7 @@ function KillChain() {
           </div>
         </Card>
       </div>
+      <div className="space-y-3">
       <Card>
         <div className="flex flex-wrap items-center gap-2">
           <span className="text-xs font-bold uppercase tracking-widest" style={{ color: col }}>Step {step + 1} of {steps.length} · {cur.label}</span>
@@ -18080,6 +18090,8 @@ function KillChain() {
         <Btn kind="ghost" disabled={step >= steps.length - 1} onClick={() => { setStep(step + 1); setPlaying(false); }}>Next <ChevronRight size={18} /></Btn>
       </div>
       <p className={`text-xs ${t.faint}`}>A simplified picture built from this app’s entries; each step links to its source entry. Times are those the sources give.</p>
+      </div>
+      </div>
     </div>
   );
 }
@@ -18142,8 +18154,10 @@ function MilitaryMap() {
         <Pick wide label="Right" value={b} onChange={(v) => setB(v)} options={countries.filter((c) => c !== a)} />
       </div>
       <Pick wide label="Topic" value={topic} onChange={(v) => { setTopic(v); }} options={ENTRY_TOPICS.map((x) => ({ value: x.key, label: x.name }))} />
+      <div className="lg:grid lg:grid-cols-2 lg:gap-6">
+      <div className="lg:sticky lg:top-20 self-start">
       <Card className="!p-2 sm:!p-4">
-        <svg viewBox="0 0 400 400" className="w-full max-w-[300px] sm:max-w-md mx-auto block" role="img" aria-label="Links between armies">
+        <svg viewBox="0 0 400 400" className="w-full mx-auto block" style={{ maxWidth: diagMax(300, 40) }} role="img" aria-label="Links between armies">
           {edges.map((e) => {
             const [x1, y1] = pos[e.c1], [x2, y2] = pos[e.c2];
             const w = 1.5 + Math.min(8, Math.sqrt(e.n) * 1.6);
@@ -18173,6 +18187,8 @@ function MilitaryMap() {
           })}
         </svg>
       </Card>
+      </div>
+      <div className="space-y-3 mt-4 lg:mt-0">
       {!a && <p className={`text-sm ${t.muted}`}>{pairs.length} links between armies{topic ? ' in this topic' : ''}. Most run through the United States, because each country module was written to compare with it.</p>}
       {a && !b && (
         <div className="space-y-2">
@@ -18215,6 +18231,8 @@ function MilitaryMap() {
           })}
         </div>
       )}
+      </div>
+      </div>
     </div>
   );
 }
