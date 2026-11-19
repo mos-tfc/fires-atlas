@@ -19620,6 +19620,7 @@ function WelcomeView({ first }) {
     ['Learn', 'Short lessons. Each covers what, how and why, then checks your understanding.'],
     ['Library', 'Every entry, searchable by country, force, echelon and type, with side-by-side Compare.'],
     ['Ranges and Military Map', 'Weapon ranges as rings, and how the armies link and compare.'],
+    ['Kill Chain', 'Watch armies go from finding a target to striking it, step by step, with sourced timings.'],
     ['Developments', 'Recent artillery news, with what happened, what it means and what to watch next.'],
     ['Ask', 'A question in plain words, answered from the entries with links to them.']
   ];
