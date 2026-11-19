@@ -18330,24 +18330,24 @@ function HomeView() {
       )}
       <UpdateDue />
 
-      <button type="button" onClick={() => go('developments')} className={`w-full text-left p-4 rounded-xl border ${t.card}`}>
-        <div className="flex items-center gap-2 font-bold"><Lightbulb size={18} /> Developments</div>
-        <div className={`mt-1 text-sm ${t.muted}`}>{DEVELOPMENTS.items.length} items of artillery news and what they mean. Updated {DEVELOPMENTS.updated}.</div>
-      </button>
-
-      <div className="grid grid-cols-2 gap-3">
-        <button type="button" onClick={() => explore('Ranges')} className={`text-left p-4 rounded-xl border ${t.card}`}>
-          <div className="flex items-center gap-2 font-bold"><Target size={18} /> Ranges</div>
-          <div className={`mt-1 text-sm ${t.muted}`}>Guns, mortars and missiles compared as rings.</div>
-        </button>
-        <button type="button" onClick={() => explore('Map')} className={`text-left p-4 rounded-xl border ${t.card}`}>
-          <div className="flex items-center gap-2 font-bold"><Share2 size={18} /> Military map</div>
-          <div className={`mt-1 text-sm ${t.muted}`}>How the armies in this app link and compare.</div>
-        </button>
-        <button type="button" onClick={() => explore('Kill Chain')} className={`col-span-2 text-left p-4 rounded-xl border ${t.card}`}>
-          <div className="flex items-center gap-2 font-bold"><Zap size={18} /> Kill chain</div>
-          <div className={`mt-1 text-sm ${t.muted}`}>Watch five armies go from finding a target to striking it.</div>
-        </button>
+      <div>
+        <div className={`text-xs font-bold uppercase tracking-widest mb-2 ${t.muted}`}>Explore</div>
+        <div className="grid grid-cols-2 gap-2 sm:gap-3">
+          {[
+            { icon: Lightbulb, name: 'Developments', text: DEVELOPMENTS.items.length + ' news items and what they mean. Updated ' + DEVELOPMENTS.updated + '.', open: () => go('developments') },
+            { icon: Target, name: 'Ranges', text: 'Guns, mortars and missiles compared as rings.', open: () => explore('Ranges') },
+            { icon: Share2, name: 'Military Map', text: 'How the armies in this app link and compare.', open: () => explore('Map') },
+            { icon: Zap, name: 'Kill Chain', text: 'Watch armies go from finding a target to striking it.', open: () => explore('Kill Chain') }
+          ].map((c) => (
+            <button key={c.name} type="button" onClick={c.open} className={`flex flex-col text-left rounded-xl border p-3 sm:p-4 min-w-0 ${t.card}`}>
+              <div className="flex items-start gap-1.5 sm:gap-2">
+                {React.createElement(c.icon, { size: 18, className: `shrink-0 mt-0.5 sm:mt-1 ${t.link}` })}
+                <div className="font-bold text-sm sm:text-lg leading-snug">{c.name}</div>
+              </div>
+              <div className={`mt-1 text-xs sm:text-sm line-clamp-3 sm:line-clamp-none ${t.muted}`}>{c.text}</div>
+            </button>
+          ))}
+        </div>
       </div>
 
       <Card>
