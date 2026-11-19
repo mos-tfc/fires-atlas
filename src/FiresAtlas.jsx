@@ -17458,16 +17458,33 @@ function Empty({ children }) {
   return <div className={`text-center py-10 px-4 rounded-xl border border-dashed ${t.border} ${t.muted}`}>{children}</div>;
 }
 
+// Inside one card, only the first appearance of each glossary term is a link; repeats read as plain text.
+// TermScope gives every card its own record of which term instance came first in this render.
+const TermScopeCtx = createContext(null);
+function TermScope({ children }) {
+  const owners = new Map(); // term -> key of the TermText part that shows it as a link
+  return <TermScopeCtx.Provider value={owners}>{children}</TermScopeCtx.Provider>;
+}
+
 // Text with glossary terms. Tapping a term opens its definition directly under the line.
 function TermText({ text, query }) {
   const { t } = useApp();
   const [open, setOpen] = useState(null);
+  const scope = useContext(TermScopeCtx);
+  const myId = useRef(Math.random().toString(36).slice(2));
   if (!text) return null;
   const parts = String(text).split(TERM_PATTERN);
   const g = open ? TERMS[open] : null;
+  const linked = (part, i) => {
+    if (!TERMS[part]) return false;
+    if (!scope) return true;
+    const key = myId.current + ':' + i;
+    if (!scope.has(part)) scope.set(part, key);
+    return scope.get(part) === key;
+  };
   return (
     <span>
-      {parts.map((part, i) => (TERMS[part] ? (
+      {parts.map((part, i) => (linked(part, i) ? (
         <button key={i} type="button" onClick={(e) => { e.stopPropagation(); setOpen(open === part ? null : part); }}
           className={`font-semibold underline decoration-dotted underline-offset-4 ${t.term}`}>{part}</button>
       ) : <Highlight key={i} text={part} query={query} />))}
@@ -17539,6 +17556,7 @@ function EntryCard({ entry, startOpen, query, onClose }) {
   const saveNote = () => { update((s) => ({ notes: { ...s.notes, [entry.id]: draft.trim() } })); setEditing(false); };
 
   return (
+    <TermScope>
     <Card className={onClose ? 'relative' : ''}>
       {onClose && <CardCloseX onClose={onClose} />}
       <button type="button" onClick={() => setOpen(!open)} className={`w-full text-left ${onClose ? 'pr-12' : ''}`}>
@@ -17634,6 +17652,7 @@ function EntryCard({ entry, startOpen, query, onClose }) {
       )}
       {onClose && <CardCloseFoot onClose={onClose} />}
     </Card>
+    </TermScope>
   );
 }
 
@@ -18749,6 +18768,7 @@ function EntryStep({ entry, onNext }) {
   const { t } = useApp();
   const [stage, setStage] = useState(0);
   return (
+    <TermScope>
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-1.5">
         <Tag>{entry.force}</Tag>
@@ -18773,6 +18793,7 @@ function EntryStep({ entry, onNext }) {
         {['Show how it works', 'Reveal why', 'Continue'][stage]} <ArrowRight size={18} />
       </Btn>
     </div>
+    </TermScope>
   );
 }
 
@@ -19282,6 +19303,7 @@ function DevelopmentCard({ item, startOpen, onClose }) {
   const { t, go } = useApp();
   const [open, setOpen] = useState(!!startOpen);
   return (
+    <TermScope>
     <Card className={onClose ? 'relative' : ''}>
       {onClose && <CardCloseX onClose={onClose} />}
       <button type="button" onClick={() => setOpen(!open)} className={`w-full text-left ${onClose ? 'pr-12' : ''}`}>
@@ -19339,6 +19361,7 @@ function DevelopmentCard({ item, startOpen, onClose }) {
       )}
       {onClose && <CardCloseFoot onClose={onClose} />}
     </Card>
+    </TermScope>
   );
 }
 
