@@ -17635,6 +17635,31 @@ function EntryCard({ entry, startOpen, query }) {
   );
 }
 
+// Compact entry card for the two-per-row Library grid; it opens the full entry on its own page.
+function EntryTile({ entry, query }) {
+  const { t, state, go } = useApp();
+  const change = entryChange(entry, state.seenVersion);
+  const saved = state.bookmarks.includes(entry.id);
+  const note = state.notes[entry.id];
+  const conf = entry.confidence;
+  return (
+    <button type="button" onClick={() => go('entry', entry.id)} className={`flex flex-col text-left rounded-xl border p-3 sm:p-4 min-w-0 ${t.card}`}>
+      <div className={`flex items-center gap-1 text-xs font-medium mb-1 min-w-0 ${t.muted}`}>
+        <span className="shrink-0 inline-block w-2 h-2 rounded-full" style={{ background: countryColour(entry.country) }} />
+        <span className="truncate">{entry.country} · {SECTION_LABELS[entry.module] || entry.module}</span>
+      </div>
+      <div className="font-bold text-sm sm:text-base leading-snug"><Highlight text={entry.title} query={query} /></div>
+      <div className={`mt-1 text-xs sm:text-sm line-clamp-3 ${t.muted}`}>{asList(entry.what)[0]}</div>
+      <div className="mt-auto pt-2 flex flex-wrap items-center gap-1">
+        {change && <Tag tone="info"><Star size={11} /> {change}</Tag>}
+        {conf !== 'Confirmed' && <Tag tone={conf === 'Reported' ? 'warn' : 'bad'}>{conf}</Tag>}
+        {saved && <Bookmark size={13} fill="currentColor" className={t.link} />}
+        {note && <FileText size={13} className={t.link} />}
+      </div>
+    </button>
+  );
+}
+
 function Pick({ label, value, options, onChange, wide }) {
   const { t } = useApp();
   return (
@@ -17693,7 +17718,20 @@ function Library() {
             {anyFilter && <button type="button" className={`font-semibold ${t.link}`} onClick={() => setLib({ ...lib, query: '', filters: {} })}>Clear filters</button>}
           </div>
           {list.length === 0 ? <Empty>No entry matches. Clear a filter or try another word.</Empty>
-            : list.map((e) => <EntryCard key={e.id} entry={e} query={q} />)}
+            : ALL_TOPICS.map((tp) => {
+              const inTopic = list.filter((e) => e.topic === tp.key);
+              if (!inTopic.length) return null;
+              return (
+                <div key={tp.key}>
+                  <div className={`flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest mb-2 ${t.muted}`}>
+                    {React.createElement(topicIcon(tp), { size: 14 })} {tp.name} · {inTopic.length}
+                  </div>
+                  <div className="grid grid-cols-2 gap-2 sm:gap-3">
+                    {inTopic.map((e) => <EntryTile key={e.id} entry={e} query={q} />)}
+                  </div>
+                </div>
+              );
+            })}
         </>
       )}
       {lib.tab === 'Compare' && <Compare />}
