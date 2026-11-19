@@ -19208,92 +19208,102 @@ function wikiLookup(title) {
   return WIKI_CACHE[q];
 }
 
-function KitItem({ k }) {
+// Equipment card, opened on its own page from an entry or news item: photo and summary from Wikipedia,
+// key figures from this app's sources, and outside search links. Close returns to the card it came from.
+function KitCard({ k, onClose }) {
   const { t } = useApp();
-  const [open, setOpen] = useState(false);
   const [wiki, setWiki] = useState('idle');
   const [imgFail, setImgFail] = useState(false);
   const spec = specsFor(k.n);
   const noPhoto = !(spec && spec.w);
   useEffect(() => {
-    if (!open || noPhoto || (wiki !== 'idle' && wiki !== null)) return;
+    if (noPhoto) return;
     setWiki('loading');
-    setImgFail(false);
     wikiLookup(spec.w).then((res) => setWiki(res));
-  }, [open]);
+  }, [k.n]);
   const rows = spec ? asList(spec.r) : [];
   const hasPhoto = wiki && typeof wiki === 'object' && wiki.img && !imgFail;
   return (
-    <li className={`rounded-lg border ${t.border} ${t.card}`}>
-      <button type="button" onClick={() => setOpen(!open)} aria-expanded={open}
-        className="w-full flex items-center justify-between gap-3 px-3 py-2 text-left">
-        <span>
-          <span className="font-semibold">{k.n}</span>
-          {spec && spec.t && <span className={`block text-xs ${t.muted}`}>{spec.t}</span>}
-        </span>
-        <ChevronDown size={18} className={`shrink-0 transition-transform ${open ? 'rotate-180' : ''} ${t.muted}`} />
-      </button>
-      {open && (
-        <div className="px-3 pb-3 space-y-3">
-          {!noPhoto && wiki === 'loading' && (
-            <div className={`text-xs ${t.faint}`}>Loading photo from Wikipedia…</div>
+    <Card className="relative">
+      <CardCloseX onClose={onClose} />
+      <div className="pr-12">
+        <div className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Equipment</div>
+        <h2 className="text-xl sm:text-2xl font-bold leading-snug mt-0.5">{k.n}</h2>
+        {spec && spec.t && <div className={`mt-0.5 text-sm ${t.muted}`}>{spec.t}</div>}
+      </div>
+      <div className="mt-4 space-y-4">
+        {!noPhoto && wiki === 'loading' && (
+          <div className={`text-sm ${t.faint}`}>Loading photo from Wikipedia…</div>
+        )}
+        {!noPhoto && hasPhoto && (
+          <figure>
+            <img src={wiki.img} alt={'Photo: ' + wiki.title} loading="lazy" onError={() => setImgFail(true)}
+              className={`w-full max-h-80 object-contain rounded ${t.soft}`} />
+            <figcaption className={`mt-1 text-xs ${t.faint}`}>
+              Photo and summary: Wikipedia, “{wiki.title}”.{' '}
+              <a href={wiki.url} target="_blank" rel="noreferrer" className={`underline underline-offset-2 ${t.link}`}>Open article</a>.
+              {' '}The article may cover the wider family of this system.
+            </figcaption>
+          </figure>
+        )}
+        {!noPhoto && wiki && typeof wiki === 'object' && wiki.extract && (
+          <p className={`text-base leading-relaxed max-w-[70ch] ${t.muted}`}>{wiki.extract}</p>
+        )}
+        {!noPhoto && wiki !== 'loading' && wiki !== 'idle' && !hasPhoto && (
+          <div className={`text-sm ${t.faint}`}>No photo could be shown here (offline, blocked, or the article has none). Use the links below.</div>
+        )}
+        <div>
+          <div className={`text-xs font-bold uppercase tracking-widest mb-1 ${t.muted}`}>Key Figures</div>
+          {rows.length ? (
+            <table className="w-full text-sm">
+              <tbody>
+                {rows.map((row, i) => (
+                  <tr key={i} className={`border-t ${t.border}`}>
+                    <th scope="row" className="text-left align-top font-semibold pr-3 py-1.5 w-1/3">{row[0]}</th>
+                    <td className="align-top py-1.5">{row[1]}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          ) : (
+            <div className={`text-sm ${t.muted}`}>No figures in this app’s sources yet.</div>
           )}
-          {!noPhoto && hasPhoto && (
-            <figure>
-              <img src={wiki.img} alt={'Photo: ' + wiki.title} loading="lazy" onError={() => setImgFail(true)}
-                className={`w-full max-h-72 object-contain rounded ${t.soft}`} />
-              <figcaption className={`mt-1 text-xs ${t.faint}`}>
-                Photo and summary: Wikipedia, “{wiki.title}”.{' '}
-                <a href={wiki.url} target="_blank" rel="noreferrer" className={`underline underline-offset-2 ${t.link}`}>Open article</a>.
-                {' '}The article may cover the wider family of this system.
-              </figcaption>
-            </figure>
-          )}
-          {!noPhoto && wiki && typeof wiki === 'object' && wiki.extract && (
-            <p className={`text-sm leading-relaxed max-w-[70ch] ${t.muted}`}>{wiki.extract}</p>
-          )}
-          {!noPhoto && wiki !== 'loading' && wiki !== 'idle' && !hasPhoto && (
-            <div className={`text-xs ${t.faint}`}>No photo could be shown here (offline, blocked, or the article has none). Use the links below.</div>
-          )}
-          <div>
-            <div className={`text-xs font-bold uppercase tracking-widest mb-1 ${t.muted}`}>Key figures</div>
-            {rows.length ? (
-              <table className="w-full text-sm">
-                <tbody>
-                  {rows.map((row, i) => (
-                    <tr key={i} className={`border-t ${t.border}`}>
-                      <th scope="row" className="text-left align-top font-semibold pr-3 py-1.5 w-1/3">{row[0]}</th>
-                      <td className="align-top py-1.5">{row[1]}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            ) : (
-              <div className={`text-sm ${t.muted}`}>No figures in this app’s sources yet.</div>
-            )}
-            <div className={`mt-1 text-xs ${t.faint}`}>From this app’s own sources. “(reported)” marks a press or vendor figure. A figure not listed is not stated in our sources.</div>
-          </div>
-          <div className="text-xs">
-            <a href={specsUrl(k.q)} target="_blank" rel="noreferrer" className={`underline underline-offset-2 ${t.link}`}>Search Wikipedia</a>
-            {' · '}
-            <a href={photosUrl(k.q)} target="_blank" rel="noreferrer" className={`underline underline-offset-2 ${t.link}`}>Google Images</a>
-            <span className={t.faint}> (opens outside the app, not checked)</span>
-          </div>
+          <div className={`mt-1 text-xs ${t.faint}`}>From this app’s own sources. “(reported)” marks a press or vendor figure. A figure not listed is not stated in our sources.</div>
         </div>
-      )}
-    </li>
+        <div className="text-sm">
+          <a href={specsUrl(k.q)} target="_blank" rel="noreferrer" className={`underline underline-offset-2 ${t.link}`}>Search Wikipedia</a>
+          {' · '}
+          <a href={photosUrl(k.q)} target="_blank" rel="noreferrer" className={`underline underline-offset-2 ${t.link}`}>Google Images</a>
+          <span className={t.faint}> (opens outside the app, not checked)</span>
+        </div>
+      </div>
+      <CardCloseFoot onClose={onClose} />
+    </Card>
   );
 }
 
+// The equipment named in an entry or news item: one button per system; each opens its own card.
 function KitLinks({ kit }) {
-  const { t } = useApp();
+  const { t, go } = useApp();
   if (!asList(kit).length) return null;
   return (
     <div className={`p-3 rounded-lg text-sm ${t.soft}`}>
-      <div className={`text-xs font-bold uppercase tracking-widest mb-1.5 ${t.muted}`}>Equipment: photo and key figures</div>
-      <ul className="space-y-1.5">
-        {kit.map((k, i) => <KitItem key={k.n + i} k={k} />)}
-      </ul>
+      <div className={`text-xs font-bold uppercase tracking-widest mb-1.5 ${t.muted}`}>Equipment: Photo and Key Figures</div>
+      <div className="grid grid-cols-2 gap-2">
+        {kit.map((k, i) => {
+          const spec = specsFor(k.n);
+          return (
+            <button key={k.n + i} type="button" onClick={() => go('kit', { n: k.n, q: k.q })}
+              className={`flex items-start justify-between gap-2 text-left rounded-lg border px-3 py-2 min-w-0 ${t.border} ${t.card}`}>
+              <span className="min-w-0">
+                <span className="block font-semibold leading-snug">{k.n}</span>
+                {spec && spec.t && <span className={`block text-xs ${t.muted} line-clamp-2`}>{spec.t}</span>}
+              </span>
+              <ChevronRight size={16} className={`shrink-0 mt-0.5 ${t.muted}`} />
+            </button>
+          );
+        })}
+      </div>
     </div>
   );
 }
@@ -20088,7 +20098,7 @@ const TABS = [
   { view: 'more', label: 'More', Icon: Settings }
 ];
 // The tab that stays lit while a deeper page is open.
-const TAB_OF = { home: 'home', topic: 'home', lesson: 'home', library: 'library', entry: 'library', review: 'review', saved: 'saved', more: 'more', news: 'more', developments: 'more', dev: 'more', feedback: 'more', ask: 'more', welcome: 'more' };
+const TAB_OF = { home: 'home', topic: 'home', lesson: 'home', library: 'library', entry: 'library', review: 'review', saved: 'saved', more: 'more', news: 'more', developments: 'more', dev: 'more', kit: 'library', feedback: 'more', ask: 'more', welcome: 'more' };
 
 export default function App() {
   const [state, update, storageOk] = useStore();
@@ -20122,6 +20132,7 @@ export default function App() {
   else if (cur.view === 'saved') page = <SavedView />;
   else if (cur.view === 'news') page = <NewsView />;
   else if (cur.view === 'developments') page = <DevelopmentsView />;
+  else if (cur.view === 'kit') page = cur.param && cur.param.n ? <KitCard key={paramKey} k={cur.param} onClose={back} /> : <Empty>Equipment not found.</Empty>;
   else if (cur.view === 'dev') { const it = DEVELOPMENTS.items.find((x) => x.id === cur.param); page = it ? <DevelopmentCard key={paramKey} item={it} startOpen onClose={back} /> : <Empty>This item is no longer listed.</Empty>; }
   else if (cur.view === 'feedback') page = <FeedbackView key={paramKey} where={cur.param ? cur.param.where : null} />;
   else if (cur.view === 'ask') page = <AskView />;
