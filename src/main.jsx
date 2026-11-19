@@ -7,5 +7,7 @@ import App from './FiresAtlas.jsx';
 window.FIRES_ATLAS_ASK = '/api/ask';
 // Feedback goes straight to the author through worker/index.js (stored in Cloudflare KV).
 window.FIRES_ATLAS_FEEDBACK = '/api/feedback';
+// Shared totals on the welcome page (supporters, visits), kept in Cloudflare KV.
+window.FIRES_ATLAS_COUNT = '/api/count';
 
 createRoot(document.getElementById('root')).render(<App />);

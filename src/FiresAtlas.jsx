@@ -17901,25 +17901,31 @@ function FeedbackView({ where }) {
 
 
 // ---------- welcome: the front page, shown on a first visit and from More > About ----------
-// Shared totals (supporters and visits) from a free public counter service. Leave COUNTER_BASE empty to switch them off.
-const COUNTER_BASE = 'https://abacus.jasoncameron.dev';
-const COUNTER_ID = 'fires-atlas-aa21bb28';
+// Shared totals (supporters and visits), kept by the website itself (worker/index.js). In Canvas there is no route, so no totals show.
+const COUNTER_BASE = typeof window !== 'undefined' && window.FIRES_ATLAS_COUNT ? window.FIRES_ATLAS_COUNT : '';
+const COUNTER_ID = 'fires-atlas-aa21bb28'; // names the "already supported / visited" marks kept in the browser
 const remember = {
   get: (k) => { try { return window.localStorage.getItem(k); } catch (e) { return null; } },
   set: (k) => { try { window.localStorage.setItem(k, 'true'); } catch (e) { /* storage blocked */ } }
 };
-const counter = (action, key) => fetch(COUNTER_BASE + '/' + action + '/' + encodeURIComponent(COUNTER_ID) + '/' + key, { cache: 'no-store' })
-  .then((res) => {
-    if (res.status === 404 && action === 'get') return 0;
-    if (!res.ok) throw new Error('Counter responded ' + res.status);
-    return res.json().then((d) => { if (!d || typeof d.value !== 'number') throw new Error('No value'); return d.value; });
-  });
+// action 'get' reads a total; 'hit' adds one and returns the new total. Gives up after 8 seconds.
+const counter = (action, key) => {
+  const ctl = typeof AbortController !== 'undefined' ? new AbortController() : null;
+  const timer = setTimeout(() => { if (ctl) ctl.abort(); }, 8000);
+  return fetch(COUNTER_BASE + '/' + key, { method: action === 'hit' ? 'POST' : 'GET', cache: 'no-store', signal: ctl ? ctl.signal : undefined })
+    .then((res) => {
+      if (!res.ok) throw new Error('Counter responded ' + res.status);
+      return res.json().then((d) => { if (!d || typeof d.value !== 'number') throw new Error('No value'); return d.value; });
+    })
+    .finally(() => clearTimeout(timer));
+};
 
 function WelcomeView({ first }) {
   const { t, update, go, back, lib, setLib } = useApp();
   const [supporters, setSupporters] = useState(null);
   const [supported, setSupported] = useState(!!remember.get('fires_atlas_supported_' + COUNTER_ID));
   const [supportError, setSupportError] = useState(false);
+  const [busy, setBusy] = useState(false);
   useEffect(() => {
     if (!COUNTER_BASE) return undefined;
     let live = true;
@@ -17929,9 +17935,13 @@ function WelcomeView({ first }) {
     return () => { live = false; };
   }, []);
   const support = () => {
+    if (busy || supported) return;
+    setBusy(true);
     setSupportError(false);
-    counter('hit', 'supporters').then((n) => { setSupporters(n); setSupported(true); remember.set('fires_atlas_supported_' + COUNTER_ID); })
-      .catch(() => setSupportError(true));
+    counter('hit', 'supporters')
+      .then((n) => { setSupporters(n); setSupported(true); remember.set('fires_atlas_supported_' + COUNTER_ID); })
+      .catch(() => setSupportError(true))
+      .finally(() => setBusy(false));
   };
   const start = () => { update({ welcomed: true }); if (!first) back(); };
   const explore = (tab) => { update({ welcomed: true }); setLib({ ...lib, tab }); go('library'); };
@@ -17959,7 +17969,18 @@ function WelcomeView({ first }) {
         <H>Why this was built</H>
         <p className="text-base leading-relaxed max-w-[70ch]">Artillery is changing quickly. Armies are rebuilding how they find targets, direct fire, survive counter-fire and sustain their guns. The lessons are spread across doctrine, journals and reports that few people have time to read.</p>
         <p className="text-base leading-relaxed max-w-[70ch]">Fires Atlas brings that open material into one place, in a form that can be learned in short sittings. Every entry answers three questions: what it is, how it works, and why it is built that way.</p>
-        <p className="text-base leading-relaxed max-w-[70ch]">The aim is understanding, not memorising. Knowing why other armies made their choices helps us think more clearly about our own.</p>
+      </section>
+
+      <section className="space-y-3">
+        <H>What you take away</H>
+        <p className="text-base leading-relaxed max-w-[70ch]">The aim is understanding, not memorising. Every army faces the same tasks: find the target, decide, strike, survive the reply and keep the guns supplied. Seeing how others do it gives you:</p>
+        <ul className="space-y-2 text-base leading-relaxed">
+          <li><span className="font-semibold">The problem behind the kit.</span> {' '}Why a system exists and what task it serves, not just its name and range.</li>
+          <li><span className="font-semibold">The trade-offs.</span> {' '}Range against mobility, mass against precision, central control against speed. Each army chose differently, for reasons.</li>
+          <li><span className="font-semibold">What is changing.</span> {' '}Drones, long-range fires and faster counter-battery fire, and which lessons are proven in conflicts and which are only claimed.</li>
+          <li><span className="font-semibold">Partners and threats.</span> {' '}How armies you may work alongside operate, and how others may fight.</li>
+          <li><span className="font-semibold">Sharper questions about your own practice.</span> {' '}Knowing the range of answers makes your own assumptions easier to see.</li>
+        </ul>
       </section>
 
       <Card>
@@ -17991,10 +18012,9 @@ function WelcomeView({ first }) {
         <p className="text-base leading-relaxed max-w-[70ch]">The lessons use the United States as a worked example, because its doctrine is openly published and explains its reasons. As you read, set it against what you know of your own force.</p>
         <ul className="list-disc pl-5 space-y-2 text-base leading-relaxed">
           <li>How does our own force do this, and why is it different?</li>
-          <li>What would we have to change to do it their way, and what would it cost us?</li>
           <li>Which of their problems do we share, and which do we not have?</li>
           <li>What does their answer assume about size, money or ground that does not hold for us?</li>
-          <li>Faced with the same lesson from a recent war, what would we do first?</li>
+          <li>Faced with the same lessons from recent conflicts, what would we do first?</li>
         </ul>
         <p className={`text-sm ${t.muted}`}>Keep your answers for discussion with your instructor or team. Do not type details of your own force into the app.</p>
       </section>
@@ -18008,7 +18028,7 @@ function WelcomeView({ first }) {
         <section className="space-y-3">
           <H>Show support</H>
           <div className="flex flex-wrap items-center gap-4">
-            <Btn kind={supported ? 'ghost' : undefined} disabled={supported} onClick={support}><Star size={18} /> {supported ? 'Supported. Thank you.' : 'Show support'}</Btn>
+            <Btn kind={supported ? 'ghost' : undefined} disabled={supported || busy} onClick={support}><Star size={18} fill={supported ? 'currentColor' : 'none'} /> {supported ? 'Supported. Thank you.' : busy ? 'Sending…' : 'Show support'}</Btn>
             {supporters !== null && <span className="text-2xl font-bold">{supporters.toLocaleString('en-GB')} <span className={`text-base font-normal ${t.muted}`}>{supporters === 1 ? 'supporter' : 'supporters'}</span></span>}
           </div>
           {supportError && <p className={`text-sm ${t.muted}`}>Not recorded. Check your connection and press again.</p>}

@@ -115,11 +115,32 @@ ${list || '<p>No feedback yet.</p>'}</body></html>`;
   return new Response(html, { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex' } });
 }
 
+// ---------- shared totals ----------
+// GET /api/count/<name> reads a total; POST adds one. Totals carried over from the earlier counter service on 19 Nov 2026.
+const COUNT_START = { supporters: 7, visits: 27 };
+async function count(request, env, name) {
+  if (!Object.prototype.hasOwnProperty.call(COUNT_START, name)) return new Response('Not found', { status: 404 });
+  if (!env.FEEDBACK) return new Response('Storage is not set up yet.', { status: 503 });
+  const key = 'count:' + name;
+  let n = parseInt((await env.FEEDBACK.get(key)) || '', 10);
+  if (!Number.isFinite(n)) n = COUNT_START[name];
+  if (request.method === 'POST') {
+    const origin = request.headers.get('Origin');
+    if (origin && new URL(origin).host !== new URL(request.url).host) return new Response('Forbidden', { status: 403 });
+    n += 1;
+    await env.FEEDBACK.put(key, String(n));
+  } else if (request.method !== 'GET') {
+    return new Response('Method not allowed', { status: 405 });
+  }
+  return new Response(JSON.stringify({ value: n }), { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === '/api/ask') return ask(request, env);
     if (url.pathname === '/api/feedback') return feedback(request, env);
+    if (url.pathname.startsWith('/api/count/')) return count(request, env, url.pathname.slice('/api/count/'.length));
     if (url.pathname === '/admin/feedback') return adminFeedback(request, env);
     if (url.pathname.startsWith('/api/')) return new Response('Not found', { status: 404 });
     return env.ASSETS.fetch(request);
