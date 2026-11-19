@@ -558,7 +558,7 @@ const DEVELOPMENTS = {
       country: "United Kingdom",
       date: "2026-05-14",
       topic: "Guns, Howitzers and Mortars",
-      headline: "UK orders 72 RCH 155 wheeled howitzers",
+      headline: "UK Orders 72 RCH 155 Wheeled Howitzers",
       what: ["The UK signed a contract worth about £1 billion ($1.35 billion) with KNDS for 72 Remote-Controlled Howitzer 155mm (RCH 155) systems.", "It advances the Trinity House agreement between the British and German armies. First deliveries are due in 2028.", "The gun is highly automated: two crew, and it can fire on the move."],
       confidence: "Reported",
       soWhat: ["Analysis: the order reflects a shift to wheeled guns that fire and move without stopping to deploy, which improves survival against counter-battery fire.", "Analysis: a two-person crew cuts manpower and logistic load.", "Analysis: a common UK–German platform aids NATO interoperability."],
@@ -572,7 +572,7 @@ const DEVELOPMENTS = {
       country: "Germany",
       date: "2026-06-30",
       topic: "Munitions and Production",
-      headline: "Rheinmetall order for 155mm shells for Ukraine",
+      headline: "Rheinmetall Order for 155mm Shells for Ukraine",
       what: ["Rheinmetall won a contract in the high double-digit millions of euros for a low five-figure number of 155mm shells for Ukraine, for delivery by the first quarter of 2027.", "Rheinmetall is expanding capacity, including converting civilian automotive plants to make projectile bodies, towards 1.5 million 155mm shells a year by 2030."],
       confidence: "Confirmed",
       soWhat: ["Analysis: consumption in Ukraine keeps pressure on the European industrial base to move from peacetime to wartime production.", "Analysis: a steady supply lets Ukraine sustain suppression and counter-battery fire into 2027."],
@@ -585,7 +585,7 @@ const DEVELOPMENTS = {
       country: "NATO and multinational",
       date: "2026-07-08",
       topic: "Rockets and Missiles",
-      headline: "Twelve European allies pledge $50 billion for deep precision strike",
+      headline: "Twelve European Allies Pledge $50 Billion for Deep Precision Strike",
       what: ["At the NATO Summit in Ankara, the UK and 11 other European allies committed $50 billion over ten years to long-range deep strike weapons.", "It covers ground, air and naval capabilities, including the European Long-Range Strike Approach (ELSA) and the Stratus programme.", "The aim is stealth and hypersonic weapons able to strike beyond 2,000 km."],
       confidence: "Confirmed",
       soWhat: ["Analysis: pooled funding signals a move away from reliance on US long-range fires towards sovereign European deterrence.", "Analysis: it reflects the lesson from Ukraine that striking logistics and command nodes deep behind the front matters."],
@@ -598,7 +598,7 @@ const DEVELOPMENTS = {
       country: "China",
       date: "2026-09-03",
       topic: "Rockets and Missiles",
-      headline: "China parades the PHL-16 rocket launcher",
+      headline: "China Parades the PHL-16 Rocket Launcher",
       what: ["The People’s Liberation Army showed the PHL-16 multiple rocket launcher at a parade marking the anniversary of victory over Japan in the Second World War.", "Reported: it is described as China’s equivalent of HIMARS and as central to deterring Taiwan and US intervention, in line with the goal of a PLA able to win a local war by 2027."],
       confidence: "Reported",
       soWhat: ["Analysis: the display points to reliance on mobile, long-range rocket artillery for local fire superiority in a Taiwan Strait contingency.", "Analysis: such systems could threaten landing zones, suppress air defences and deny access to US naval forces."],
@@ -612,7 +612,7 @@ const DEVELOPMENTS = {
       country: "Ukraine",
       date: "2026-09-04",
       topic: "Munitions and Production",
-      headline: "Ukraine has used over 10,000 Hornet loitering munitions",
+      headline: "Ukraine Has Used Over 10,000 Hornet Loitering Munitions",
       what: ["Reported: Ukrainian forces have used more than 10,000 Hornet loitering munitions, made by Perennial Autonomy, against Russian targets.", "Reported: they fly pre-programmed routes autonomously, to get through degraded communications. Some, against high-value targets, are under human control in the final attack."],
       confidence: "Reported",
       soWhat: ["Analysis: use at this scale shows deep-strike drones maturing into massed, low-cost precision fires alongside artillery.", "Analysis: autonomous navigation with human control at the end is a response to Russian jamming, and eases the load on scarce rockets."],
@@ -626,7 +626,7 @@ const DEVELOPMENTS = {
       country: "Croatia",
       date: "2026-09-10",
       topic: "Rockets and Missiles",
-      headline: "Croatia buys 18 K239 Chunmoo rocket launchers",
+      headline: "Croatia Buys 18 K239 Chunmoo Rocket Launchers",
       what: ["Croatia signed a €435.2 million contract with Hanwha Aerospace for 18 K239 Chunmoo launchers, to be delivered by 2029.", "It includes a command and control system from Poland’s WB Electronics.", "Croatia will run Chunmoo alongside its HIMARS, replacing Soviet-era Grad launchers."],
       confidence: "Reported",
       soWhat: ["Analysis: European armies are adding South Korean launchers to US ones to spread supply risk.", "Analysis: two systems extend reach from about 30 km to several hundred, at the cost of two ammunition stocks."],
@@ -640,7 +640,7 @@ const DEVELOPMENTS = {
       country: "NATO and multinational",
       date: "2026-09-17",
       topic: "Sense and Strike",
-      headline: "NATO marks 30 years of shared fire control software",
+      headline: "NATO Marks 30 Years of Shared Fire Control Software",
       what: ["Representatives of more than 20 nations met at Picatinny Arsenal for the 40th programme review of the NATO SG/2 Shareable Software Suite (S4).", "S4, a NATO Smart Defence Initiative, produces the NATO Armaments Ballistic Kernel (NABK) and other common fire control products, the standard basis for allied ballistic calculation."],
       confidence: "Confirmed",
       soWhat: ["Analysis: a common ballistic kernel lets nations share targeting data and fire for each other without calculation differences.", "Analysis: wide participation shows how far the alliance relies on common digital fire control for large-scale combat."],
@@ -653,7 +653,7 @@ const DEVELOPMENTS = {
       country: "United States",
       date: "2026-09-21",
       topic: "Rockets and Missiles",
-      headline: "$1.2 billion contract for PrSM Increment 2",
+      headline: "$1.2 Billion Contract for PrSM Increment 2",
       what: ["The US Army awarded Lockheed Martin $1.2 billion for initial procurement, follow-on production and continued development of the Precision Strike Missile (PrSM) Increment 2.", "It followed a second flight test against moving maritime targets.", "Lockheed Martin says it will quadruple overall PrSM production for US and allied demand."],
       confidence: "Confirmed",
       soWhat: ["Analysis: Increment 2 gives Army rocket units an anti-ship capability, so land forces can hold moving ships at risk in the Indo-Pacific.", "Analysis: the production rise reflects urgency to replace ATACMS and build stocks for high-intensity war."],
@@ -667,7 +667,7 @@ const DEVELOPMENTS = {
       country: "United States",
       date: "2026-11-04",
       topic: "Guns, Howitzers and Mortars",
-      headline: "Army introduces the MALET drone-drop kit for mortar rounds",
+      headline: "Army Introduces the MALET Drone-Drop Kit for Mortar Rounds",
       what: ["Reported: the Army Armaments Center introduced the MALET kit, which turns standard mortar rounds into munitions dropped from small drones.", "Reported: this report names it the Munition Aerial-Delivered Lethality Effects Technology and includes 120mm rounds. An earlier army.mil article, used in the Library entry, names it the Munitions Air-dropped Lethal Effects Tool, for 60mm and 81mm only. The two are not reconciled here."],
       confidence: "Reported",
       soWhat: ["Analysis: it turns an improvised battlefield practice from Ukraine into a standard, tested item drawn from existing mortar stocks.", "Analysis: it adds cheap precision at small-unit level without buying single-use loitering munitions for every task."],
@@ -681,7 +681,7 @@ const DEVELOPMENTS = {
       country: "United States",
       date: "2026-11-13",
       topic: "Force Protection",
-      headline: "Army tests MANOWAR acoustic drone detection in Korea",
+      headline: "Army Tests MANOWAR Acoustic Drone Detection in Korea",
       what: ["Reported: the 501st Military Intelligence Brigade tested Project MANOWAR, an acoustic sensor network with machine learning to detect and locate small drones, with South Korean forces at Camp Humphreys and Baegiri Airfield in May and September 2026.", "Reported: it gives passive, distributed early warning without a radar signature."],
       confidence: "Reported",
       soWhat: ["Analysis: as small drones become a main threat to gun positions, passive sensing offers cheap warning that does not reveal the unit by its emissions.", "Analysis: it can cover ground where radar line of sight is blocked, such as towns or dense vegetation."],
@@ -694,7 +694,7 @@ const DEVELOPMENTS = {
       country: "France",
       date: "2026-06",
       topic: "Rockets and Missiles",
-      headline: "France weighs HIMARS against a home-grown rocket launcher",
+      headline: "France Weighs HIMARS Against a Home-Grown Rocket Launcher",
       what: ["Reported: France has set aside about €600 million to replace its Lance Roquette Unitaire (LRU) launchers.", "Reported: Lockheed Martin offered HIMARS with an 18-month delivery. France prefers domestic industry and planned to test a home-grown system by mid-2026, with proposals from ArianeGroup and MBDA.", "Reported: MBDA proposed the Land Cruise Missile, a ground-launched version of the Naval Cruise Missile, as a short-term solution."],
       confidence: "Reported",
       soWhat: ["Analysis: France’s choice signals European reluctance to depend on the US for land-based strike."],
@@ -708,7 +708,7 @@ const DEVELOPMENTS = {
       country: "Poland",
       date: "2026-07",
       topic: "Guns, Howitzers and Mortars",
-      headline: "First K9PL howitzers ship from South Korea to Poland",
+      headline: "First K9PL Howitzers Ship from South Korea to Poland",
       what: ["Reported: Hanwha Aerospace shipped the first K9PL 155mm tracked self-propelled howitzers from Changwon to Poland.", "Reported: they are part of a second contract, worth $2.6 billion, for 146 K9PL built to Polish requirements, with Polish FONET communications and TOPAZ fire control integrated.", "Reported: deliveries under the first contract, for 212 K9A1, were made quickly."],
       confidence: "Reported",
       soWhat: ["Analysis: by fitting its own command and control, Poland gains control of the system rather than buying a closed foreign product.", "Analysis: Poland is on course to field one of the largest self-propelled artillery forces in Europe by 2027."],
@@ -722,7 +722,7 @@ const DEVELOPMENTS = {
       country: "Germany",
       date: "2026-07",
       topic: "Rockets and Missiles",
-      headline: "Germany to buy Tomahawk missiles and Typhon launchers",
+      headline: "Germany to Buy Tomahawk Missiles and Typhon Launchers",
       what: ["Reported, not confirmed: Germany announced it will acquire US Tomahawk cruise missiles and Typhon Mid-Range Capability launchers for a national strike force.", "Reported: Tomahawk reaches 1,600 to 2,500 km.", "The research cites only an online forum post for this item."],
       confidence: "Reported",
       soWhat: ["Analysis: ground-launched long-range missiles let Germany hold deep targets at risk without relying on aircraft or allied launchers."],
@@ -736,7 +736,7 @@ const DEVELOPMENTS = {
       country: "United Kingdom",
       date: "2026-08",
       topic: "Guns, Howitzers and Mortars",
-      headline: "Rheinmetall to build the British Army’s RCH 155 at Telford",
+      headline: "Rheinmetall to Build the British Army’s RCH 155 at Telford",
       what: ["Reported: Rheinmetall won a major contract to manufacture the British Army’s RCH 155 howitzers at its Telford plant.", "Reported: the gun is a fully automated artillery module on the Boxer 8x8 and can fire while driving."],
       confidence: "Reported",
       soWhat: ["Analysis: firing on the move aims to defeat counter-battery radar: the gun has moved several kilometres before the enemy computes where it fired from."],
@@ -750,7 +750,7 @@ const DEVELOPMENTS = {
       country: "United States",
       date: "2026-09",
       topic: "Rockets and Missiles",
-      headline: "Five companies chosen to build PrSM Increment 4 prototypes",
+      headline: "Five Companies Chosen to Build PrSM Increment 4 Prototypes",
       what: ["The US Army awarded Other Transaction Authority agreements to Lockheed Martin, RTX, Anduril, Castelion and Mach Industries for competing PrSM Increment 4 prototypes.", "Increment 4 aims for at least 1,000 km, against moving ships and relocatable land targets, while fitting existing HIMARS and M270 launchers.", "A competitive fly-off is planned for fiscal year 2027."],
       confidence: "Confirmed",
       soWhat: ["Analysis: bringing in non-traditional firms with open architectures is meant to break dependence on one supplier.", "Analysis: a 1,000 km missile from a HIMARS blurs the line between tactical artillery and strategic strike."],
@@ -764,7 +764,7 @@ const DEVELOPMENTS = {
       country: "Lithuania",
       date: "2026-10",
       topic: "Munitions and Production",
-      headline: "Lithuania receives its first Switchblade 600",
+      headline: "Lithuania Receives Its First Switchblade 600",
       what: ["Reported, not confirmed: the Lithuanian Ministry of National Defence confirmed receipt of its first US-made Switchblade 600 loitering munitions, with anti-armour warheads.", "The research cites only a forum post and a short video for this item."],
       confidence: "Reported",
       soWhat: ["Analysis: it adds precision anti-armour strike for a Baltic state facing Russia."],
@@ -778,7 +778,7 @@ const DEVELOPMENTS = {
       country: "Albania",
       date: "2026-11",
       topic: "Rockets and Missiles",
-      headline: "US approves HIMARS sale to Albania",
+      headline: "US Approves HIMARS Sale to Albania",
       what: ["Reported: the US State Department approved a $210 million sale to Albania of two M142 HIMARS and 72 guided rockets, a mix of M31A2 Unitary and M30A2 Alternative Warhead.", "Reported: the M30A2 scatters about 182,000 pre-formed tungsten fragments instead of submunitions."],
       confidence: "Reported",
       soWhat: ["Analysis: two launchers are a small force, but C-130 transport lets Albania move them quickly.", "Analysis: mountainous ground will restrict where they can move and reload."],
@@ -792,7 +792,7 @@ const DEVELOPMENTS = {
       country: "Poland",
       date: "2026-11",
       topic: "Rockets and Missiles",
-      headline: "US backs Poland’s request for Tomahawk and Typhon",
+      headline: "US Backs Poland’s Request for Tomahawk and Typhon",
       what: ["Reported: the United States backed Poland’s request to buy Tomahawk cruise missiles and Typhon launchers, to strike targets up to 1,600 km away.", "Reported: Poland is evaluating the containerised Mk 70 Mod 1 Typhon battery, with 16 ready cells, alongside its HIMARS and air-launched JASSM-ER."],
       confidence: "Reported",
       soWhat: ["Analysis: with Germany’s purchase, it puts much of western Russia, including command nodes and railheads, within conventional range of mobile ground launchers."],
@@ -806,7 +806,7 @@ const DEVELOPMENTS = {
       country: "France",
       date: "2026-11",
       topic: "Rockets and Missiles",
-      headline: "ArianeGroup unveils the B-Strike 1000 anti-ship ballistic missile",
+      headline: "ArianeGroup Unveils the B-Strike 1000 Anti-Ship Ballistic Missile",
       what: ["Reported: at Euronaval, ArianeGroup unveiled the B-Strike 1000, an anti-ship and land-attack ballistic missile concept with a 1,000 km range against moving targets.", "Reported: it would fly above 120 km and arrive faster than Mach 10, about ten minutes over 1,000 km. It draws on the M51 and V-MAX programmes.", "Reported: it is proposed for frigates, mobile coastal launchers and unmanned vessels. It is not yet contracted."],
       confidence: "Reported",
       soWhat: ["Analysis: European industry sees high-speed ballistic flight as the way through naval air defences.", "Analysis: speed alone is not enough. A Houthi salvo of twelve anti-ship ballistic missiles earlier in the year missed a manoeuvring merchant ship; seekers and over-the-horizon targeting decide the result."],
@@ -820,7 +820,7 @@ const DEVELOPMENTS = {
       country: "Russia",
       date: "2026-11",
       topic: "Sustainment",
-      headline: "Rostec unveils the Depesha-MK supply robot",
+      headline: "Rostec Unveils the Depesha-MK Supply Robot",
       what: ["Reported, not confirmed: Rostec unveiled the Depesha-MK unmanned ground vehicle, with stronger electric motors and a larger cargo bay, able to tow heavy trailers over front-line ground in Ukraine.", "The research cites a blog for this item."],
       confidence: "Reported",
       soWhat: ["Analysis: robot resupply aims to keep artillery firing without exposing supply crews to constant drone observation."],
@@ -834,7 +834,7 @@ const DEVELOPMENTS = {
       country: "United States",
       date: "2026",
       topic: "Munitions and Production",
-      headline: "Lockheed Martin delivers its 100,000th GMLRS rocket",
+      headline: "Lockheed Martin Delivers Its 100,000th GMLRS Rocket",
       what: ["Reported: Lockheed Martin delivered its 100,000th Guided Multiple Launch Rocket System rocket."],
       confidence: "Reported",
       soWhat: ["Analysis: the milestone reflects heavy, continuing use of guided rockets by the US and its partners."],
@@ -848,7 +848,7 @@ const DEVELOPMENTS = {
       country: "Bulgaria",
       date: "2026",
       topic: "Guns, Howitzers and Mortars",
-      headline: "Bulgaria moves to buy 57 CAESAR howitzers",
+      headline: "Bulgaria Moves to Buy 57 CAESAR Howitzers",
       what: ["Reported: Bulgaria began acquiring 57 French CAESAR 155mm wheeled howitzers.", "Reported: they replace 122mm 2S1 Gvozdika (15.3 km) and towed 152mm D-20 guns (17.4 km). CAESAR reaches beyond 40 km with base-bleed ammunition."],
       confidence: "Reported",
       soWhat: ["Analysis: one more Eastern European army leaves Soviet-era guns for wheeled, automated NATO-standard artillery."],
@@ -862,7 +862,7 @@ const DEVELOPMENTS = {
       country: "United States",
       date: "2026",
       topic: "Guns, Howitzers and Mortars",
-      headline: "US Army seeks barrel makers, a 70 km shell and robotic loading",
+      headline: "US Army Seeks Barrel Makers, a 70 km Shell and Robotic Loading",
       what: ["Reported: the Army is seeking new commercial manufacturers of 155mm barrels, as its single government barrel plant cannot meet demand.", "Reported: it awarded General Dynamics OTS a contract for a Vulcano-derived 155mm precision projectile reaching beyond 70 km.", "Reported: Small Business Innovation Research Phase II contracts went to five companies for robotic shell-handling arms and autoloader and inventory software."],
       confidence: "Reported",
       soWhat: ["Analysis: with barrels scarce, the Army is getting range from new ammunition fired from existing guns.", "Analysis: robotic loading targets crew fatigue, which limits sustained rates of fire."],
@@ -876,7 +876,7 @@ const DEVELOPMENTS = {
       country: "South Korea",
       date: "2026",
       topic: "Rockets and Missiles",
-      headline: "Chunmoo fleet in Europe reaches 315 launchers",
+      headline: "Chunmoo Fleet in Europe Reaches 315 Launchers",
       what: ["Reported: by mid-2026, orders from Poland, Estonia and Norway brought the European K239 Chunmoo fleet to 315 launchers, before Croatia’s order of 18.", "Reported: buyers cite its ability to fire several calibres from the same pods, local production and fast delivery."],
       confidence: "Reported",
       soWhat: ["Analysis: European rocket artillery is splitting between US, South Korean and European systems."],
@@ -890,7 +890,7 @@ const DEVELOPMENTS = {
       country: "Germany",
       date: "2026",
       topic: "Rockets and Missiles",
-      headline: "Germany chosen as the EuroPULS production hub",
+      headline: "Germany Chosen as the EuroPULS Production Hub",
       what: ["Reported: Elbit Systems selected Germany as its main European production hub for the EuroPULS rocket launcher.", "Reported: the US and US industry have declined to integrate GMLRS rockets with EuroPULS."],
       confidence: "Reported",
       soWhat: ["Analysis: a European launcher will need European rockets, which could separate Europe’s rocket artillery from US munitions."],
@@ -904,7 +904,7 @@ const DEVELOPMENTS = {
       country: "Russia",
       date: "2026",
       topic: "Munitions and Production",
-      headline: "Russia offers the Harpia-A1 (E) long-range loitering munition for export",
+      headline: "Russia Offers the Harpia-A1 (E) Long-Range Loitering Munition for Export",
       what: ["Reported: Almaz-Antey’s Harpia-A1 (E) is a flying-wing loitering munition with a piston engine, a claimed range of 1,000 km and at least six hours’ endurance.", "Reported: it carries a warhead of over 50 kg on a 250 kg airframe, with a claimed accuracy of under 4 m.", "Reported: Russia also showed the Dan-T loitering munition launched from Mi-28NM helicopters."],
       confidence: "Reported",
       soWhat: ["Analysis: it offers buyers a cheap substitute for a cruise missile to strike logistics hubs at depth."],
@@ -918,7 +918,7 @@ const DEVELOPMENTS = {
       country: "NATO and multinational",
       date: "2026",
       topic: "Munitions and Production",
-      headline: "Germany leads six nations on the OWE 500 Plus strike drone",
+      headline: "Germany Leads Six Nations on the OWE 500 Plus Strike Drone",
       what: ["Reported: Germany is leading a six-nation group developing the OWE 500 Plus, a one-way strike drone with a 500 km range, for NATO deep fires."],
       confidence: "Reported",
       soWhat: ["Analysis: European allies want their own long-range strike that does not depend on US missiles."],
@@ -931,7 +931,7 @@ const DEVELOPMENTS = {
       country: "Estonia",
       date: "2026",
       topic: "Munitions and Production",
-      headline: "Estonia orders long-range loitering munitions from IAI",
+      headline: "Estonia Orders Long-Range Loitering Munitions from IAI",
       what: ["Reported: Estonia ordered long-range loitering munitions from Israel Aerospace Industries to strike high-value targets deep behind enemy lines."],
       confidence: "Reported",
       soWhat: ["Analysis: a small army is buying deep strike as loitering munitions rather than missiles."],
@@ -944,7 +944,7 @@ const DEVELOPMENTS = {
       country: "North Korea",
       date: "2026",
       topic: "Munitions and Production",
-      headline: "North Korea shows a Harop-like loitering munition",
+      headline: "North Korea Shows a Harop-like Loitering Munition",
       what: ["Reported: North Korea demonstrated a loitering munition closely resembling the Israeli IAI Harop."],
       confidence: "Reported",
       soWhat: ["Analysis: the design is spreading quickly to new users."],
@@ -958,7 +958,7 @@ const DEVELOPMENTS = {
       country: "Germany",
       date: "2026",
       topic: "Sense and Strike",
-      headline: "German Army adds drones to brigades and an artillery battalion",
+      headline: "German Army Adds Drones to Brigades and an Artillery Battalion",
       what: ["Reported: a new German medium brigade concept has Boxer-based Schakal battalions use reconnaissance and sniper platoons with drones to find targets, engaged first by organic loitering munitions and then by artillery.", "Reported: Artillery Battalion 215 has set up batteries for developing and employing unmanned systems alongside its guns."],
       confidence: "Reported",
       soWhat: ["Analysis: drones and loitering munitions are being built into the artillery structure, not added from outside."],
@@ -972,7 +972,7 @@ const DEVELOPMENTS = {
       country: "Japan",
       date: "2026",
       topic: "Rockets and Missiles",
-      headline: "Japan fields the Type 25 anti-ship missile in exercises",
+      headline: "Japan Fields the Type 25 Anti-Ship Missile in Exercises",
       what: ["Reported: in late 2026 field exercises, the Japan Ground Self-Defense Force deployed the Type 12 surface-to-ship missile and the new Type 25 anti-ship missile, with US targeting support."],
       confidence: "Reported",
       soWhat: ["Analysis: Japan is building land-based sea denial around its island chain’s chokepoints."],
@@ -986,7 +986,7 @@ const DEVELOPMENTS = {
       country: "Taiwan",
       date: "2026",
       topic: "Sense and Strike",
-      headline: "Taiwan plans a $1.135 billion buy of 280 V-BAT drones",
+      headline: "Taiwan Plans a $1.135 Billion Buy of 280 V-BAT Drones",
       what: ["Reported: Taiwan began a $1.135 billion procurement of 280 Shield AI V-BAT vertical take-off drones for maritime surveillance and targeting for coastal defence batteries."],
       confidence: "Reported",
       soWhat: ["Analysis: long-range coastal fires need their own over-the-horizon targeting; the drones supply it."],
@@ -1000,7 +1000,7 @@ const DEVELOPMENTS = {
       country: "France",
       date: "2026",
       topic: "Sense and Strike",
-      headline: "French Army selects the Tekever AR5 for deep reconnaissance",
+      headline: "French Army Selects the Tekever AR5 for Deep Reconnaissance",
       what: ["Reported: a €150 million framework agreement covers at least five Tekever AR5 drone systems.", "Reported: the AR5 flies up to 20 hours with a 50 kg payload, including electro-optical sensors, laser designators and radar with moving-target indication (SAR/GMTI)."],
       confidence: "Reported",
       soWhat: ["Analysis: radar that sees through cloud and smoke lets the drone track convoys and moving artillery, feed CAESAR and rocket batteries, and assess damage after the strike."],
@@ -1014,7 +1014,7 @@ const DEVELOPMENTS = {
       country: "Turkey",
       date: "2026",
       topic: "Force Protection",
-      headline: "ASELSAN’s EJDERHA microwave weapon disables 51 drones",
+      headline: "ASELSAN’s EJDERHA Microwave Weapon Disables 51 Drones",
       what: ["Reported: at the Gölbek test centre, ASELSAN’s EJDERHA high-power electromagnetic weapon disabled cable-controlled drones at 1,000 m and then a swarm of 51 drones launched together.", "Reported: it damages the drones’ electronics rather than jamming their links."],
       confidence: "Reported",
       soWhat: ["Analysis: it works against autonomous or wire-guided drones that jamming cannot stop, and could protect HIMARS or gun batteries while saving missiles for larger threats."],
@@ -1028,7 +1028,7 @@ const DEVELOPMENTS = {
       country: "South Korea",
       date: "2026",
       topic: "Sustainment",
-      headline: "South Korean Army orders the Arion-SMET supply robot",
+      headline: "South Korean Army Orders the Arion-SMET Supply Robot",
       what: ["Reported: Hanwha Aerospace won a contract for the Arion-SMET unmanned ground vehicle for autonomous resupply and casualty evacuation."],
       confidence: "Reported",
       soWhat: ["Analysis: armies are moving resupply to robots to keep people out of drone-watched ground."],
@@ -1042,7 +1042,7 @@ const DEVELOPMENTS = {
       country: "United States",
       date: "2026",
       topic: "Sense and Strike",
-      headline: "US Army makes the K1000ULE drone a programme of record",
+      headline: "US Army Makes the K1000ULE Drone a Programme of Record",
       what: ["Reported: the US Army selected the K1000ULE electric vertical take-off drone as a programme of record for battlefield reconnaissance."],
       confidence: "Reported",
       soWhat: ["Analysis: a quiet, long-endurance drone gives front-line units their own persistent eyes for targeting."],
@@ -1056,7 +1056,7 @@ const DEVELOPMENTS = {
       country: "Germany",
       date: "2026",
       topic: "Sense and Strike",
-      headline: "Germany buys 14 Puma drones with laser targeting for naval special forces",
+      headline: "Germany Buys 14 Puma Drones with Laser Targeting for Naval Special Forces",
       what: ["Reported: Germany bought 14 AeroVironment Puma drones to give its naval special forces laser targeting for precision strikes."],
       confidence: "Reported",
       soWhat: ["Analysis: small teams gain their own means to find and mark targets for precision weapons."],
@@ -1070,7 +1070,7 @@ const DEVELOPMENTS = {
       country: "NATO and multinational",
       date: "2026",
       topic: "Sense and Strike",
-      headline: "MQ-9B flies with the Saab LoyalEye radar as an unmanned early-warning aircraft",
+      headline: "MQ-9B Flies with the Saab LoyalEye Radar as an Unmanned Early-Warning Aircraft",
       what: ["Reported: an MQ-9B drone flew with the Saab LoyalEye radar, acting as an unmanned airborne early-warning aircraft able to track targets for ground-based missile batteries."],
       confidence: "Reported",
       soWhat: ["Analysis: long-range ground fires need sensors that see far beyond the horizon; unmanned radar aircraft can provide them at lower risk."],
@@ -1084,7 +1084,7 @@ const DEVELOPMENTS = {
       country: "Israel",
       date: "2026",
       topic: "Sense and Strike",
-      headline: "Elbit unveils a merchant-ship drone carrier for Hermes 650",
+      headline: "Elbit Unveils a Merchant-Ship Drone Carrier for Hermes 650",
       what: ["Reported: Elbit Systems unveiled a concept for launching Hermes 650 drones from merchant ships, to widen naval surveillance without using frigates."],
       confidence: "Reported",
       soWhat: ["Analysis: cheap platforms can carry the sensors that over-the-horizon strike depends on."],
@@ -1098,7 +1098,7 @@ const DEVELOPMENTS = {
       country: "United States",
       date: "2026",
       topic: "Munitions and Production",
-      headline: "US Army speeds up fielding of the LUCAS loitering munition",
+      headline: "US Army Speeds Up Fielding of the LUCAS Loitering Munition",
       what: ["Reported: the US Army is accelerating deployment of the LUCAS loitering munition, to give battalions their own precision strike without waiting for higher-echelon fire support."],
       confidence: "Reported",
       soWhat: ["Analysis: strike moves down to battalion level, alongside organic sensors."],
@@ -1112,7 +1112,7 @@ const DEVELOPMENTS = {
       country: "United States",
       date: "2026",
       topic: "Force Protection",
-      headline: "$53.9 billion PAC-3 MSE production contract",
+      headline: "$53.9 Billion PAC-3 MSE Production Contract",
       what: ["Reported: the US Army awarded Lockheed Martin a $53.9 billion production contract for the PAC-3 Missile Segment Enhancement interceptor."],
       confidence: "Reported",
       soWhat: ["Analysis: it secures the upper tier of defence against ballistic missiles aimed at rear areas, where long-range fires, command posts and depots sit."],
@@ -1126,7 +1126,7 @@ const DEVELOPMENTS = {
       country: "United States",
       date: "2026",
       topic: "Force Protection",
-      headline: "M-SHORAD fielding continues; M-ACE cues a 30mm gun against drones",
+      headline: "M-SHORAD Fielding Continues; M-ACE Cues a 30mm Gun Against Drones",
       what: ["Reported: the US Army continues to field the Sgt Stout mobile short-range air defence system to protect manoeuvring forces, including artillery, from drones and helicopters.", "Reported: Northrop Grumman demonstrated its M-ACE detection and targeting system guiding a 30mm Bushmaster cannon to destroy several incoming drones.", "The research gives no source for this item."],
       confidence: "Reported",
       soWhat: ["Analysis: gun-based defence offers a low cost per kill against cheap drones, suited to moving artillery units."],
@@ -1140,7 +1140,7 @@ const DEVELOPMENTS = {
       country: "Germany",
       date: "2026",
       topic: "Force Protection",
-      headline: "Diehl unveils the IRIS-T SLS MK4 mobile air defence system",
+      headline: "Diehl Unveils the IRIS-T SLS MK4 Mobile Air Defence System",
       what: ["Reported: Diehl Defence introduced the IRIS-T SLS MK4, a mobile air defence missile system designed to engage drones, helicopters and loitering munitions on the move."],
       confidence: "Reported",
       soWhat: ["Analysis: air defence that keeps pace with manoeuvre units is needed to protect guns and launchers that move constantly."],
@@ -1154,7 +1154,7 @@ const DEVELOPMENTS = {
       country: "Germany",
       date: "2026",
       topic: "Force Protection",
-      headline: "Rheinmetall, Diehl and Hensoldt offer short-range air defence for the Bundeswehr",
+      headline: "Rheinmetall, Diehl and Hensoldt Offer Short-Range Air Defence for the Bundeswehr",
       what: ["Reported: under the ARGE NNbS working group, Rheinmetall, Diehl and Hensoldt offered a modular short-range and very-short-range air defence solution on Boxer and Eagle vehicles.", "Reported: Rheinmetall also offers the Skyranger turret, which fires programmable airburst ammunition against drone swarms."],
       confidence: "Reported",
       soWhat: ["Analysis: layered, vehicle-mounted air defence is becoming a standard part of protecting a manoeuvre force and its fires."],
@@ -1168,7 +1168,7 @@ const DEVELOPMENTS = {
       country: "Germany",
       date: "2026",
       topic: "Force Protection",
-      headline: "German Leopard 2A7A1 tanks in Lithuania fitted with home-made drone cages",
+      headline: "German Leopard 2A7A1 Tanks in Lithuania Fitted with Home-Made Drone Cages",
       what: ["Reported: the Bundeswehr deployed Leopard 2A7A1 tanks fitted with soldier-built anti-drone cages to its units in Lithuania.", "The research gives no source for this item."],
       confidence: "Reported",
       soWhat: ["Analysis: the improvised cages show that every armoured and artillery vehicle now faces attack from above."],
@@ -1182,7 +1182,7 @@ const DEVELOPMENTS = {
       country: "United States",
       date: "2026-08",
       topic: "Sustainment",
-      headline: "US Army funds nuclear microreactor prototypes for its bases",
+      headline: "US Army Funds Nuclear Microreactor Prototypes for Its Bases",
       what: ["Reported: the US Army allocated $2.2 billion to five vendors (Antares, BWXT, General Atomics, Radiant and Westinghouse) to build nuclear microreactor prototypes."],
       confidence: "Reported",
       soWhat: ["Analysis: radars, command nodes and directed-energy air defence need large, assured power; local generation keeps them running if civilian grids are destroyed."],
@@ -2559,7 +2559,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['All'],
     type: 'Force Structure',
-    title: 'US Army target acquisition specialties (13R, 131A, 13A, 13F, 13J)',
+    title: 'US Army Target Acquisition Specialties (13R, 131A, 13A, 13F, 13J)',
     what: [
       '13R, Field Artillery Firefinder Radar Operator (enlisted): operates and maintains the AN/TPQ-53 and AN/TPQ-50.',
       '131A, Field Artillery Targeting Technician (warrant officer, WO1 to CW5): TAP Leader and targeting officer.',
@@ -2593,7 +2593,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'Command & Control',
-    title: 'Who controls the radars: from modularity to the return of DIVARTY',
+    title: 'Who Controls the Radars: From Modularity to the Return of DIVARTY',
     what: [
       'Historically, US field artillery kept aerial observers, survey teams and counterfire radars under the division artillery headquarters.',
       'Under Army modularity, from around 2004, the Army inactivated active-component DIVARTYs. Radars were left spread across BCTs and independent Fires Brigades.',
@@ -2624,7 +2624,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['Brigade'],
     type: 'Force Structure',
-    title: 'USMC regimental Target Acquisition Platoon',
+    title: 'USMC Regimental Target Acquisition Platoon',
     what: [
       'The Marine Corps centralises radar and sensor personnel at the artillery regiment, not at the battalion.',
       'Radar operators (0842) and sensor support Marines (0847) belong to the Target Acquisition Platoon in the Headquarters Battery of the artillery regiment, such as 10th Marines or 11th Marines.'
@@ -2654,7 +2654,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Force Structure',
-    title: 'One radar, two users: G/ATOR in the air and ground elements',
+    title: 'One Radar, Two Users: G/ATOR in the Air and Ground Elements',
     what: [
       'The Army\'s AN/TPQ-53 belongs to the artillery. The Marine Corps shares the AN/TPS-80 G/ATOR across two elements of the MAGTF.',
       'Air Combat Element: Marine Air Control Squadrons (MACS), such as MACS-2 and MACS-4, use G/ATOR Block 1 for short- to medium-range air defence and air surveillance.',
@@ -2711,7 +2711,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['All'],
     type: 'Force Structure',
-    title: 'USMC target acquisition specialties (0842, 0847, 0803, 0802, 0844/0848, 0861)',
+    title: 'USMC Target Acquisition Specialties (0842, 0847, 0803, 0802, 0844/0848, 0861)',
     what: [
       '0842, Field Artillery Radar Operator (Pvt to Sgt).',
       '0847, Field Artillery Sensor Support Marine (Pvt to Sgt).',
@@ -2747,7 +2747,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['Brigade'],
     type: 'Force Structure',
-    title: '3d Marine Littoral Regiment and target acquisition',
+    title: '3d Marine Littoral Regiment and Target Acquisition',
     what: [
       'Force Design converted legacy regiments, such as the 3rd Marine Regiment, into Marine Littoral Regiments. The first is the 3d Marine Littoral Regiment (3d MLR).',
       'The MLR integrates mobile anti-ship fires (NMESIS) and short-range air defence and counter-UAS (MADIS and L-MADIS).'
@@ -2775,7 +2775,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'Force Structure',
-    title: 'ARSTRUC 2025–2029 and Transformation in Contact: what brigades lost and gained',
+    title: 'ARSTRUC 2025–2029 and Transformation in Contact: What Brigades Lost and Gained',
     what: [
       'Under Army Structure (ARSTRUC) 2025–2029, divisions replace BCTs as the Army\'s principal warfighting formation.',
       'Manoeuvre brigades lose their organic field artillery battalions, cavalry squadrons, brigade military intelligence companies, and Shadow and Raven UAS.',
@@ -2835,7 +2835,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Corps', 'Theatre'],
     type: 'Force Structure',
-    title: 'Multi-Domain Commands and the fourth MDTF',
+    title: 'Multi-Domain Commands and the Fourth MDTF',
     what: [
       'On 11 July 2025 the Army merged the reactivated 56th Artillery Command with the 2nd MDTF to stand up Multi-Domain Command Europe (MDC-E).',
       'In the Pacific, the 7th Infantry Division serves as Multi-Domain Command Pacific (MDC-P).',
@@ -2863,7 +2863,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Division', 'Theatre'],
     type: 'Liaison Element',
-    title: 'Where outside sensors join the artillery picture: JAGIC, TACP and BCD',
+    title: 'Where Outside Sensors Join the Artillery Picture: JAGIC, TACP and BCD',
     what: [
       'Division: the Joint Air-Ground Integration Center (JAGIC, ATP 3-91.1) puts fires, airspace, intelligence and the Air Force ASOC in one place.',
       'Below division: Air Force TACPs connect manoeuvre units to airborne sensors.',
@@ -2896,7 +2896,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Division', 'Corps', 'Theatre'],
     type: 'Data Fusion Node',
-    title: 'Data links and fusion: Link 16, TITAN, HADES and Maven',
+    title: 'Data Links and Fusion: Link 16, TITAN, HADES and Maven',
     what: [
       'External ISR platforms share real-time tracks over Link 16.',
       'Link 16 is extended over long-haul networks by JREAP-C, with an HF radio fallback, and by OTH-Gold and WinTAK/ATAK plugins.',
@@ -2927,7 +2927,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'TTP',
-    title: 'Radar modes: Hostile, Friendly, Sense and Warn',
+    title: 'Radar Modes: Hostile, Friendly, Sense and Warn',
     what: [
       'Weapon-locating radars work in three modes under ATP 3-09.12 and the USMC standards in NAVMC 3500.7.',
       'Hostile Mode: finds the enemy firing point.',
@@ -2960,7 +2960,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion'],
     type: 'TTP',
-    title: 'Radar site selection and survey',
+    title: 'Radar Site Selection and Survey',
     what: [
       'Employment starts with map reconnaissance, followed by reconnaissance of the site on the ground.',
       'The radar is then tied onto a common grid with the firing batteries.'
@@ -2994,7 +2994,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'TTP',
-    title: 'Cueing: telling the radar when to radiate',
+    title: 'Cueing: Telling the Radar When to Radiate',
     what: [
       'Cueing is the control of when a radar transmits.',
       'ATP 3-09.12 emphasises situational cueing and pre-planned cueing schedules.',
@@ -3026,7 +3026,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'TTP',
-    title: 'Radar zones: CFZ, CFFZ, ATIZ, CZ and the CSB',
+    title: 'Radar Zones: CFZ, CFFZ, ATIZ, CZ and the CSB',
     what: [
       'Five standard radar management zones and boundaries are programmed into the radar processor and AFATDS.',
       'Critical Friendly Zone (CFZ): a friendly area that needs priority protection.',
@@ -3062,7 +3062,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'Coverage with more than one radar',
+    title: 'Coverage with More than One Radar',
     what: [
       'Unbroken coverage under counter-battery threat relies on echeloned employment of radars.',
       'Automated RAM Warn, under ATP 3-09.12, requires two or more sensors to acquire the same incoming round at the same time.'
@@ -3092,7 +3092,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion'],
     type: 'TTP',
-    title: 'Recognising jamming on a weapon-locating radar',
+    title: 'Recognising Jamming on a Weapon-Locating Radar',
     what: [
       'ATP 3-09.12 lists the indications that a radar is being jammed.'
     ],
@@ -3122,7 +3122,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'TTP',
-    title: 'Emissions control and radar survivability',
+    title: 'Emissions Control and Radar Survivability',
     what: [
       'Army fires literature in 2026 sets out survivability as the combination of disciplined emissions, positional dispersion and rapid execution.'
     ],
@@ -3153,7 +3153,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['All'],
     type: 'TTP',
-    title: 'How accurate is a radar location?',
+    title: 'How Accurate Is a Radar Location?',
     what: [
       'December 2019 Selected Acquisition Report data give the demonstrated point-of-origin accuracy of the AN/TPQ-53.',
       '90-degree mode: 20–30 m, or 0.2–0.3% of range.',
@@ -3185,7 +3185,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['All'],
     type: 'TTP',
-    title: 'The accuracy gap and cross-cueing to drones',
+    title: 'The Accuracy Gap and Cross-Cueing to Drones',
     what: [
       'There is a gap between the TLE that precision munitions need and the spread of radar point-of-origin locations.',
       'This entry is the report\'s own analysis.'
@@ -3216,7 +3216,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Equipment',
-    title: 'AN/TPQ-53 weapon-locating radar',
+    title: 'AN/TPQ-53 Weapon-Locating Radar',
     what: [
       'Made by Lockheed Martin. Used by Army BCTs, FABs and DIVARTYs, and in C-RAM and IFPC roles.',
       'Crew of 5 on two FMTV trucks. Transportable by C-17.',
@@ -3325,7 +3325,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Equipment',
-    title: 'Earlier weapon-locating radars',
+    title: 'Earlier Weapon-Locating Radars',
     what: [
       'AN/TPQ-36 Firefinder (USMC version: AN/TPQ-46) and the long-range AN/TPQ-37.',
       'AN/TPQ-48 and AN/TPQ-49: lightweight counter-mortar radars, the direct predecessors of the AN/TPQ-50.',
@@ -3358,7 +3358,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'Equipment',
-    title: 'Acoustic and passive sensors',
+    title: 'Acoustic and Passive Sensors',
     what: [
       'Passive acoustic systems detect without any radio-frequency signature, which suits strict EMCON.',
       'Cold War sound-ranging sets (AN/TNS-10, under FM 6-121) covered a 10 × 20 km sector to an accuracy of 0–150 m.',
@@ -3391,7 +3391,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Equipment',
-    title: 'Drones for artillery target acquisition',
+    title: 'Drones for Artillery Target Acquisition',
     what: [
       'Historically, neither Army artillery battalions nor DIVARTYs owned dedicated UAS.',
       'They relied on brigade RQ-7B Shadow and RQ-11 Raven (in the USMC, RQ-7B and RQ-21A Blackjack), operated by manoeuvre or intelligence units.',
@@ -3423,7 +3423,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade', 'Division'],
     type: 'Equipment',
-    title: 'Counterfire radars in air surveillance and counter-drone roles',
+    title: 'Counterfire Radars in Air Surveillance and Counter-Drone Roles',
     what: [
       'Artillery radars increasingly serve air surveillance and Counter-UAS (C-UAS) as well as counterfire.',
       'In 2026 the 75th Field Artillery Brigade operated a mobile AESA counter-battery radar designated QRCR during Exercise Daring Warrior 2026.'
@@ -3453,7 +3453,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Individual courses for target acquisition',
+    title: 'Individual Courses for Target Acquisition',
     what: [
       'Training for both services centres on Fort Sill, Oklahoma, home of the Fires Center of Excellence.',
       'Joint fires and expeditionary schools at Nellis AFB, Coronado and Camp Lejeune add to it.',
@@ -3488,7 +3488,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion'],
     type: 'Training',
-    title: 'Radar section certification and currency',
+    title: 'Radar Section Certification and Currency',
     what: [
       'Army 13R radar sections qualify under Chapter 5 of TC 3-09.8, progressing to Radar Table IV (Radar Operations).',
       'Marine 0842 and 0847 keep currency on individual training and readiness (T&R) events in NAVMC 3500.7.'
@@ -3518,7 +3518,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'Major Exercise',
-    title: 'Collective training venues and digital readiness tracking',
+    title: 'Collective Training Venues and Digital Readiness Tracking',
     what: [
       'Division and DIVARTY staffs validate counterfire battle rhythms at Warfighter Exercises (WFX), run by the Mission Command Training Program at Fort Leavenworth.',
       'BCTs and TiC formations test live and EW-contested kill chains at the National Training Center (NTC), the Joint Multinational Readiness Center (JMRC) and the Joint Pacific Multinational Readiness Center (JPMRC).'
@@ -3546,7 +3546,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Three critiques of training and talent management',
+    title: 'Three Critiques of Training and Talent Management',
     what: [
       'Professional military literature identifies three structural weaknesses.'
     ],
@@ -3575,7 +3575,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Lesson',
-    title: 'Ukraine (2022–2026): the gun has gone before the counterfire lands',
+    title: 'Ukraine (2022–2026): The Gun Has Gone Before the Counterfire Lands',
     what: [
       'Russian and Ukrainian artillery routinely occupy pre-surveyed positions and displace in under one to two minutes.',
       'Infrared-equipped drones, fused with SIGINT and networked applications such as Ukraine\'s GIS Arta, have produced a transparent attrition zone: if you can be seen, you can be killed.'
@@ -3607,7 +3607,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Lesson',
-    title: 'Nagorno-Karabakh (2020): drones strip concealment from dug-in artillery',
+    title: 'Nagorno-Karabakh (2020): Drones Strip Concealment from Dug-In Artillery',
     what: [
       'The Second Nagorno-Karabakh War lasted 44 days.',
       'Persistent UAVs and loitering munitions stripped concealment from dug-in artillery and armour.'
@@ -3634,7 +3634,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Lesson',
-    title: 'Iraq and Afghanistan (2003–2021): radars for static base defence',
+    title: 'Iraq and Afghanistan (2003–2021): Radars for Static Base Defence',
     what: [
       'The stabilisation campaigns drove rapid materiel innovation against static indirect fire and sniper ambushes.',
       'The EQ-36 (later AN/TPQ-53) was urgently fielded to Iraq and Afghanistan in October 2010.',
@@ -3662,7 +3662,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Lesson',
-    title: 'How the US adapted, 2020–2026',
+    title: 'How the US Adapted, 2020–2026',
     what: [
       'Doctrine: FM 3-09 (2020), ATP 3-09.12 (2021), FM 3-60 (2023) and MCWP 3-31 (2024).',
       'Structure: fires re-centred at division and theatre; the Marine Corps moved to littoral regiments (3d MLR).',
@@ -3698,7 +3698,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Lesson',
-    title: 'Four open debates, 2025–2026',
+    title: 'Four Open Debates, 2025–2026',
     what: [
       'Reactive or proactive counterfire.',
       'Whether LUS and LASSO platoons can replace what brigades lost.',
@@ -3734,7 +3734,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'Lesson',
-    title: 'Recurring weaknesses at Warfighter Exercises and Combat Training Centers',
+    title: 'Recurring Weaknesses at Warfighter Exercises and Combat Training Centers',
     what: [
       'Warfighter Exercises and the CALL trend reports (including FY24 CTC Trends, CALL No. 25-07) show persistent gaps in collective execution.',
       'Confirmed, division and DIVARTY staffs: they struggle to delineate the deep, close and security fires fights; fail to weight the main effort with artillery; plan shallowly; and assess weakly in the Assess phase of D3A.'
@@ -3765,7 +3765,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Command & Control',
-    title: 'Two chains: fire support, and fire direction',
+    title: 'Two Chains: Fire Support, and Fire Direction',
     what: [
       'Fires command and control in both services runs on separate chains.',
       'The fire support chain sits with the supported manoeuvre commander. It requests, prioritises and clears effects.',
@@ -3796,7 +3796,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion', 'Brigade', 'Division'],
     type: 'Force Structure',
-    title: 'Who runs Army digital fires: 13A, 13F, 13J and 131A',
+    title: 'Who Runs Army Digital Fires: 13A, 13F, 13J and 131A',
     what: [
       '13F forward observers and Field Artillery officers (13A) form the Fire Support Teams and serve as Fire Support Officers.',
       '13J Fire Control Specialists operate the AFATDS terminals in Fire Support Elements and Fire Direction Centers.',
@@ -3827,7 +3827,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Command & Control',
-    title: 'Marine fires agencies: coordination centres, FECC and DASC',
+    title: 'Marine Fires Agencies: Coordination Centres, FECC and DASC',
     what: [
       'In the Ground Combat Element, battalion and regimental fire support coordination centres plan and coordinate supporting arms.',
       'Higher-echelon Fires and Effects Coordination Centers (FECC) coordinate fire support coordination measures with Joint Fires Elements and higher headquarters.',
@@ -3858,7 +3858,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Liaison Element',
-    title: 'Reported cuts to Air Force forward air control',
+    title: 'Reported Cuts to Air Force Forward Air Control',
     what: [
       'Reported, not confirmed: in April 2023 Air Force Times reported plans to cut nearly 50% of Tactical Air Control Party positions.',
       'Reported, not confirmed: in February 2026 Air & Space Forces Magazine reported the Air National Guard deactivating an air control squadron in Georgia and dozens of similar posts in Iowa, to convert them to cyber operations.'
@@ -3887,7 +3887,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Theatre'],
     type: 'Liaison Element',
-    title: 'The BCD’s digital and airspace tasks inside the Air Operations Center',
+    title: 'The BCD’s Digital and Airspace Tasks Inside the Air Operations Center',
     what: [
       'The Battlefield Coordination Detachment (BCD) places Army personnel in all five divisions of the Air Operations Center.',
       'It has operational control of the Ground Liaison Detachments and Reconnaissance Liaison Detachments at Air Force wings and Navy carrier strike groups.'
@@ -3917,7 +3917,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Command & Control',
-    title: 'The doctrine baseline for digital fires',
+    title: 'The Doctrine Baseline for Digital Fires',
     what: [
       'Fires command and control doctrine rests on publications issued largely between 2016 and 2024.',
       'Army: FM 3-09 (30 April 2020), FM 3-60 Army Targeting (11 August 2023), ATP 3-09.12 (26 October 2021), ATP 3-09.42 Fire Support for the Brigade Combat Team (1 March 2016).',
@@ -3951,7 +3951,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Theatre'],
     type: 'Command & Control',
-    title: 'Who governs joint digital fires standards',
+    title: 'Who Governs Joint Digital Fires Standards',
     what: [
       'CJCSI 5127.01B names Joint Staff J-6 as Lead Agent and Doctrine Sponsor for core fires doctrine.',
       'The same instruction governs the change-control bodies for Digitally Aided Close Air Support (DACAS) and Digitally Aided Fire Support.'
@@ -3980,7 +3980,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'TTP',
-    title: 'Commander’s guidance becomes software rules',
+    title: 'Commander’s Guidance Becomes Software Rules',
     what: [
       'Decide, Detect, Deliver, Assess (D3A) is the targeting method in FM 3-60 and MCWP 3-16.1A.',
       'In the Decide phase, commanders and fires staffs build three linked control matrices.',
@@ -4011,7 +4011,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'TTP',
-    title: 'How AFATDS ranks fire missions',
+    title: 'How AFATDS Ranks Fire Missions',
     what: [
       'AFATDS does not rank missions on the Attack Guidance Matrix alone.',
       'It scores priority on four variables: target type (High-Payoff Target), Priority of Fire, Target Area of Interest precedence, and On-Call Target precedence.'
@@ -4040,7 +4040,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'TTP',
-    title: 'Automated clearance of fires',
+    title: 'Automated Clearance of Fires',
     what: [
       'AFATDS checks each target location and gun-target line against the active fire support coordination measures.',
       'These include Coordinated Fire Lines, Fire Support Coordination Lines, No-Fire Areas and Restricted Fire Areas.',
@@ -4071,7 +4071,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion', 'Brigade'],
     type: 'TTP',
-    title: 'Direct sensor-to-shooter links',
+    title: 'Direct Sensor-to-Shooter Links',
     what: [
       'For fleeting High-Payoff Targets, doctrine authorises a direct sensor-to-shooter link.',
       'An observer or radar sends straight to a designated battery Fire Direction Center or firing element, bypassing the intermediate fire support headquarters.'
@@ -4102,7 +4102,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'From reactive to proactive counterfire',
+    title: 'From Reactive to Proactive Counterfire',
     what: [
       'Reported, not confirmed: May 2026 Army counterfire commentary argues that the reactive counterfire sequence is too slow.',
       'The sequence is detection, identification, clearance, processing, transmission, weapon lay, and time of flight.',
@@ -4132,7 +4132,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade'],
     type: 'TTP',
-    title: 'Measuring fire mission time',
+    title: 'Measuring Fire Mission Time',
     what: [
       'Open official sources hold no single published, service-wide end-to-end time standard for a US fire mission.',
       'What is verified is how units measure their own delay.',
@@ -4165,7 +4165,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'TTP',
-    title: 'A PACE plan for digital fires',
+    title: 'A PACE Plan for Digital Fires',
     what: [
       'PACE means Primary, Alternate, Contingency, Emergency: four ways to pass the same traffic, in order of preference.',
       'Combat Training Center rotations now treat degraded communications as the normal condition.'
@@ -4196,7 +4196,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'TTP',
-    title: 'The five countermeasures when a radar is jammed',
+    title: 'The Five Countermeasures When a Radar Is Jammed',
     what: [
       'Under electronic attack, radar crews watch for vertical azimuth strobes, jam-strobe printouts or phantom tracks.',
       'They then carry out five countermeasures in sequence.'
@@ -4227,7 +4227,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Command & Control',
-    title: 'Command posts that survive',
+    title: 'Command Posts That Survive',
     what: [
       'Surviving enemy signals intelligence, drones and precision counterfire means giving up the large tented command posts of the counterinsurgency years.',
       'The replacement is dispersed, vehicle-mounted, modular nodes that can displace within minutes.'
@@ -4255,7 +4255,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'TTP',
-    title: 'Link 16 over HF radio: a vendor finding',
+    title: 'Link 16 Over HF Radio: A Vendor Finding',
     what: [
       'Reported, not confirmed: laboratory measurements by the vendor Isode find that Link 16 fails over HF when sent as standard JREAP-C over TCP.',
       'The cause given: HF delay breaks the time-reference negotiation between the two ends.'
@@ -4283,7 +4283,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Equipment',
-    title: 'AFATDS: thirty years of code, now being broken up',
+    title: 'AFATDS: Thirty Years of Code, Now Being Broken Up',
     what: [
       'AFATDS (AN/GYK-60) is the tactical fires command and control backbone of the Army and the Marine Corps.',
       'It integrates more than 80 battlefield systems.',
@@ -4312,7 +4312,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Equipment',
-    title: 'Artillery Execution Suite (AXS): a possible AFATDS successor',
+    title: 'Artillery Execution Suite (AXS): A Possible AFATDS Successor',
     what: [
       'Under the Army’s Next Generation Command and Control (NGC2) programme, Anduril’s Artillery Execution Suite (AXS) runs on Lattice Mesh.',
       'It is being evaluated in exercises such as Ivy Sting 1 as a prospective replacement for the legacy AFATDS networking.'
@@ -4368,7 +4368,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['Division'],
     type: 'Data Fusion Node',
-    title: 'CAC2S: the translator between ground and air data',
+    title: 'CAC2S: The Translator Between Ground and Air Data',
     what: [
       'The Common Aviation Command and Control System (CAC2S) is the system of the Marine Air Command and Control System.',
       'At the Direct Air Support Center it is the digital translator between ground and aviation networks.',
@@ -4398,7 +4398,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company'],
     type: 'Equipment',
-    title: 'Observer software: PF-D and PF-M',
+    title: 'Observer Software: PF-D and PF-M',
     what: [
       'The older observer devices were the Pocket-Sized Forward Entry Device (PFED) and the Forward Observer System (FOS).',
       'They have given way to software applications.',
@@ -4428,7 +4428,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company'],
     type: 'Equipment',
-    title: 'JETS and LLDR: locating and designating the target',
+    title: 'JETS and LLDR: Locating and Designating the Target',
     what: [
       'The Joint Effects Targeting System (JETS) Target Location Designation System was contracted for $339 million in October 2016.',
       'The scale is four per infantry company: one per platoon and one for the Fire Support Team.',
@@ -4456,7 +4456,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'Equipment',
-    title: 'Handheld terminals: THS V.2, ATAK and WinTAK',
+    title: 'Handheld Terminals: THS V.2, ATAK and WinTAK',
     what: [
       'The Marine Corps replaced its StrikeLink terminal with the Target Handoff System Version 2 (THS V.2), fielded from 2017.',
       'THS V.2 combines a rugged commercial tablet, the Common Laser Range Finder – Integrated Capability, a video downlink receiver and a combat net radio.',
@@ -4486,7 +4486,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Division', 'Corps', 'Theatre'],
     type: 'Data Fusion Node',
-    title: 'JADOCS, TAIS and CPCE, and the frozen air tasking system',
+    title: 'JADOCS, TAIS and CPCE, and the Frozen Air Tasking System',
     what: [
       'JADOCS coordinates joint targeting across land, air, maritime and special operations forces. It takes data from AFATDS, GCCS, TBMCS and TAIS.',
       'TAIS is the Army airspace planning system.',
@@ -4516,7 +4516,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Equipment',
-    title: 'Variable Message Format (VMF): the ground fires message standard',
+    title: 'Variable Message Format (VMF): The Ground Fires Message Standard',
     what: [
       'Variable Message Format (VMF, MIL-STD-6017) is a bit-oriented binary message standard.',
       'It travels over SINCGARS, line-of-sight VHF and UHF, UHF satellite and the Tactical Internet.',
@@ -4603,7 +4603,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Equipment',
-    title: 'ASCA: digital fire missions between allies',
+    title: 'ASCA: Digital Fire Missions Between Allies',
     what: [
       'Artillery Systems Cooperation Activities (ASCA) lets US AFATDS exchange fire missions automatically with allied fire direction systems across NATO.',
       'Dynamic Front and ASCA University exercises involve people from 28 allied and partner nations.'
@@ -4632,7 +4632,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion', 'Brigade'],
     type: 'Equipment',
-    title: 'The radios and networks under digital fires',
+    title: 'The Radios and Networks Under Digital Fires',
     what: [
       'Lower-echelon fires used to travel on SINCGARS combat net radios, capped at 16 kbps and strictly line of sight, and on EPLRS.',
       'The Integrated Tactical Network (ITN) now layers dual-channel software-defined radios such as the AN/PRC-158, mobile mesh networking and MUOS UHF satellite communications.',
@@ -4692,7 +4692,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Division', 'Corps', 'Theatre'],
     type: 'Data Fusion Node',
-    title: 'TITAN moves into production',
+    title: 'TITAN Moves into Production',
     what: [
       'After nine operational prototypes, one of which went to the 1st MDTF, the Army awarded Palantir and Anduril $192 million in September 2026.',
       'The award covers eight production TITAN ground stations.',
@@ -4718,7 +4718,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Training',
-    title: 'Where digital fires skills are taught',
+    title: 'Where Digital Fires Skills Are Taught',
     what: [
       'At the Army Fires Center of Excellence, Fort Sill, 13A officers learn gunnery, call for fire, AFATDS and D3A targeting.',
       '13F, 13J and 13R soldiers train there on observed fires, digital fire direction and radar operations.',
@@ -4806,7 +4806,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'Training',
-    title: 'Simulators that use the real digital messages',
+    title: 'Simulators That Use the Real Digital Messages',
     what: [
       'Reported, not confirmed: vendor documents state that the Deployable and Portable Joint Fires Trainers run accredited simulation software with WinTAK and ATAK on Samsung S23 Tactical Edition devices, for Link 16 and VMF rehearsals.',
       'Reported, not confirmed: specifications for the Army Soldier/Squad Virtual Trainer require replicas of the JETS and LLDR 3 devices that match the real ones in form and fit.'
@@ -4832,7 +4832,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Lesson',
-    title: 'Ukraine: fire control software on tablets',
+    title: 'Ukraine: Fire Control Software on Tablets',
     what: [
       'Reported, not confirmed: academic analyses describe a Ukrainian fires stack of the Delta cloud picture, the Kropyva artillery tablet application, the GIS Arta mission-routing system, commercial Starlink links and commercial radar imagery.',
       'Reported: by bypassing multi-tier approvals, it cut sensor-to-shooter time from 30 minutes in 2022 (or 7–10 minutes on conventional baselines) to under 1 minute by 2024 in favourable conditions, and 30 seconds for FPV-assisted strikes.'
@@ -4858,7 +4858,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Lesson',
-    title: 'Ukraine: the gains fade under jamming and decoys',
+    title: 'Ukraine: The Gains Fade Under Jamming and Decoys',
     what: [
       'Reported, not confirmed: Russian jamming caused an estimated 8,000–10,000 Ukrainian drone losses a month (a RUSI estimate cited in the Journal of Strategic Security).',
       'Reported: it drove FPV mission failure rates of 60–80% (a Ukrainian estimate cited in Military Review).',
@@ -4888,7 +4888,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade'],
     type: 'Lesson',
-    title: 'Field report, May 2025: how the digital links failed',
+    title: 'Field Report, May 2025: How the Digital Links Failed',
     what: [
       'Center for Army Lessons Learned report No. 25-999 (May 2025) records failures during the move to SBU-E.',
       'A generator failure cut Mounted Mission Command, the unclassified network, AFATDS and internet telephony at the same moment.',
@@ -4918,7 +4918,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Division', 'Corps', 'Theatre'],
     type: 'Lesson',
-    title: 'Fast detection, slow hand-over',
+    title: 'Fast Detection, Slow Hand-Over',
     what: [
       'Combined Joint All-Domain Command and Control (CJADC2) experiments try to bring kill-web speed into US formations. They include Scarlet Dragon, Project Convergence Capstone 6, MSS and TITAN.',
       'The experiments expose seams between AI targeting in the cloud and the tactical fire control systems.'
@@ -4948,7 +4948,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Lesson',
-    title: 'Training centre trends: habits and self-inflicted delays',
+    title: 'Training Centre Trends: Habits and Self-Inflicted Delays',
     what: [
       'At the Joint Multinational Readiness Center, rotating units routinely fall back on large tented command posts.',
       'They also emit undisciplined commercial Wi-Fi and radio signals, which invite enemy electronic warfare and indirect fire.',
@@ -4978,7 +4978,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Division', 'Corps'],
     type: 'Lesson',
-    title: 'Analysis: doctrine for machine-speed targeting',
+    title: 'Analysis: Doctrine for Machine-Speed Targeting',
     what: [
       'Analysis, not confirmed fact: 2026 Military Review authors warn that FM 3-60 has no mechanism to encode a commander’s execution logic for autonomous engagement at machine speed.'
     ],
@@ -5006,7 +5006,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'Command & Control',
-    title: 'Fire Direction Centers at battery and battalion',
+    title: 'Fire Direction Centers at Battery and Battalion',
     what: [
       'The Fire Direction Center (FDC) turns target information into ballistic firing data.',
       'The battalion FDC has a Fire Direction Officer (FDO, a commissioned officer), a Fire Direction Non-Commissioned Officer (FDNCO) and enlisted fire control specialists (Army 13J, Marine 0844).',
@@ -5041,7 +5041,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'Command & Control',
-    title: 'Central control or autonomous guns',
+    title: 'Central Control or Autonomous Guns',
     what: [
       'A battery traditionally operates as one six-gun element controlled by a single FDC.',
       'Modern structures allow control to be decentralised to the platoon or to a single gun (section).'
@@ -5074,7 +5074,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade', 'Division'],
     type: 'Force Structure',
-    title: 'Survey and weather data from higher echelon',
+    title: 'Survey and Weather Data from Higher Echelon',
     what: [
       'FDCs rely on outside atmospheric and geospatial data to stay accurate.',
       'The Target Acquisition Platoon or Target Acquisition Battery provides it. These generally sit at the Field Artillery Brigade or DIVARTY.'
@@ -5107,7 +5107,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'The five requirements for accurate predicted fire',
+    title: 'The Five Requirements for Accurate Predicted Fire',
     what: [
       'Doctrine defines five requirements that must be met to achieve accurate first-round fire for effect without prior adjustment.'
     ],
@@ -5140,7 +5140,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Processing a mission in the battery FDC',
+    title: 'Processing a Mission in the Battery FDC',
     what: [
       'A fire mission passes through the FDC in a fixed sequence that puts safety and accuracy ahead of speed.',
       'Independent checks at each step guard against fratricide.'
@@ -5175,7 +5175,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Safety: the Safety T and the record of missions fired',
+    title: 'Safety: The Safety T and the Record of Missions Fired',
     what: [
       'Administrative and operational protocols exist to prevent fratricide and civilian casualties in live firing.'
     ],
@@ -5205,7 +5205,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Survey, positioning and reciprocal laying',
+    title: 'Survey, Positioning and Reciprocal Laying',
     what: [
       'Survey ensures each gun knows its exact location and the direction its barrel points relative to true north.'
     ],
@@ -5239,7 +5239,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Meteorological data management',
+    title: 'Meteorological Data Management',
     what: [
       'Met data management applies atmospheric conditions to the projectile’s trajectory.'
     ],
@@ -5271,7 +5271,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Muzzle velocity and barrel wear',
+    title: 'Muzzle Velocity and Barrel Wear',
     what: [
       'The FDC tracks and corrects the speed at which the projectile leaves each tube, the muzzle velocity.'
     ],
@@ -5301,7 +5301,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Registration and massing fires',
+    title: 'Registration and Massing Fires',
     what: [
       'Registration supplies corrections when all five requirements cannot be met.',
       'Massing techniques maximise shock effect on the enemy.'
@@ -5333,7 +5333,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Special cases: high-angle, danger close and guided munitions',
+    title: 'Special Cases: High-Angle, Danger Close and Guided Munitions',
     what: [
       'Some fire missions are non-standard and need altered technical procedures.',
       'The report names three: high-angle fire, danger close, and guided munitions.'
@@ -5368,7 +5368,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Manual and degraded methods',
+    title: 'Manual and Degraded Methods',
     what: [
       'Manual gunnery is the non-digital computation of firing data with charts and tables.'
     ],
@@ -5397,7 +5397,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'NABK: the shared NATO ballistic software',
+    title: 'NABK: The Shared NATO Ballistic Software',
     what: [
       'The NATO Armaments Ballistic Kernel (NABK) is the mathematical engine inside AFATDS.',
       'It is standardised under STANAG 4355 and is fielded. NATO panels update it continuously.'
@@ -5427,7 +5427,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'Technical fire direction compared: cannons, rockets, mortars',
+    title: 'Technical Fire Direction Compared: Cannons, Rockets, Mortars',
     what: [
       'Cannons (M777, M109A7) use a four-degree-of-freedom Modified Point Mass model that accounts for spin drift and Coriolis effect.',
       'Rockets and missiles (HIMARS, MLRS) use five- or six-degree-of-freedom models that account for thrust and fin stabilisation.',
@@ -5456,7 +5456,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Division'],
     type: 'Equipment',
-    title: 'Survey, met and muzzle velocity devices',
+    title: 'Survey, Met and Muzzle Velocity Devices',
     what: [
       'These are the devices used to determine location, orientation and muzzle velocity.',
       'The detailed description of each device was not received with the source report. The points below come from the rest of the report and from follow-up research.'
@@ -5492,7 +5492,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Enlisted fire control pipeline: 13J and 0844',
+    title: 'Enlisted Fire Control Pipeline: 13J and 0844',
     what: [
       'The Army trains the 13J Fire Control Specialist. The Marine Corps trains the 0844 Field Artillery Fire Control Marine.',
       'Both are trained at Fort Sill, Oklahoma.',
@@ -5525,7 +5525,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Officer pipeline: Field Artillery Basic Officer Leader Course',
+    title: 'Officer Pipeline: Field Artillery Basic Officer Leader Course',
     what: [
       'The Field Artillery Basic Officer Leader Course (FABOLC) trains new 13A officers at Fort Sill.',
       'It lasts 18 weeks and 4 days.',
@@ -5556,7 +5556,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'Training',
-    title: 'Unit certification and the Artillery Tables',
+    title: 'Unit Certification and the Artillery Tables',
     what: [
       'The Artillery Tables are the progressive qualification framework that leads to live-fire authorisation.'
     ],
@@ -5586,7 +5586,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Training',
-    title: 'Criticism: loss of manual gunnery skill',
+    title: 'Criticism: Loss of Manual Gunnery Skill',
     what: [
       'Reported, not confirmed: professional journals frequently describe a decline in manual gunnery skill across the force.',
       'The debate is over how to divide training time between digital software and manual charts.'
@@ -5614,7 +5614,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Theatre'],
     type: 'Lesson',
-    title: 'Ukraine: GPS jamming and guided munitions',
+    title: 'Ukraine: GPS Jamming and Guided Munitions',
     what: [
       'Reported, not confirmed: Russian electronic warfare and GPS spoofing in Ukraine sharply reduced the accuracy of GPS-guided munitions such as Excalibur, JDAM and HIMARS rockets.'
     ],
@@ -5642,7 +5642,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company'],
     type: 'Lesson',
-    title: 'Decentralisation: software at the gun',
+    title: 'Decentralisation: Software at the Gun',
     what: [
       'Reported, not confirmed: in Ukraine, software such as Kropyva, Delta and GIS Arta pushes target coordinates straight to tablets at individual guns, without routing through a heavy central FDC.',
       'Reported: the US is experimenting with similar ideas through the Artillery Execution Suite (AXS) and Lattice software.'
@@ -5672,7 +5672,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'Lesson',
-    title: 'Attrition: worn barrels and mixed ammunition',
+    title: 'Attrition: Worn Barrels and Mixed Ammunition',
     what: [
       'Analysis: sustained high-volume firing in Ukraine has produced severely worn barrels, beyond their maximum Equivalent Full Charge count.',
       'Analysis: NATO-standard ammunition from several countries has been mixed ad hoc.'
@@ -5699,7 +5699,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion'],
     type: 'Lesson',
-    title: 'FDC survivability and emissions control',
+    title: 'FDC Survivability and Emissions Control',
     what: [
       'Units are moving away from large, static tent command posts (“Taj Mahals”) optimised for counter-insurgency.',
       'FDCs are reducing both their physical and their electromagnetic footprint.'
@@ -5728,7 +5728,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade'],
     type: 'Lesson',
-    title: 'Recurring FDC weaknesses at the Combat Training Centers',
+    title: 'Recurring FDC Weaknesses at the Combat Training Centers',
     what: [
       'Observer, Coach/Trainers at the Combat Training Centers report recurring weaknesses in FDC proficiency.'
     ],
@@ -5758,7 +5758,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Force Structure',
-    title: 'What a loitering munition is, and why ground forces want it',
+    title: 'What a Loitering Munition Is, and Why Ground Forces Want It',
     what: [
       'A loitering munition combines an airborne platform with a precision-guided lethal payload.',
       'A cruise missile flies a set path to a known target. A reusable armed drone delivers separate ordnance and returns to base.',
@@ -5790,7 +5790,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Brigade'],
     type: 'Force Structure',
-    title: 'Army: LASSO platoons in the Recon and Strike Company',
+    title: 'Army: LASSO Platoons in the Recon and Strike Company',
     what: [
       'Under Transformation in Contact, infantry and Stryker brigades are adding Low-Cost Unmanned Systems platoons and specialised strike elements.',
       'The 2nd Light Brigade Combat Team, 25th Infantry Division, and the 3rd Light Brigade Combat Team, 10th Mountain Division, employed consolidated LASSO platoons assigned to their Recon and Strike Companies at recent combat training centre rotations.'
@@ -5817,7 +5817,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['Company', 'Battalion'],
     type: 'Force Structure',
-    title: 'Marine Corps: Organic Precision Fires down to the squad',
+    title: 'Marine Corps: Organic Precision Fires Down to the Squad',
     what: [
       'The Marine Corps is pushing organic strike down to infantry squad and platoon level through the Organic Precision Fires-Light (OPF-L) and Medium (OPF-M) programmes.',
       'It expects to begin fielding live-warhead OPF-L systems to operational units in mid-2026.'
@@ -5843,7 +5843,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion', 'Brigade'],
     type: 'Force Structure',
-    title: 'Who employs loitering munitions',
+    title: 'Who Employs Loitering Munitions',
     what: [
       'In the Army, employment at company and battalion falls on the Fire Support Team and field artillery personnel.',
       'In the Marine Corps, specialised artillery personnel manage target acquisition, sensor support and deconfliction in distributed units.'
@@ -5873,7 +5873,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Corps', 'Theatre'],
     type: 'Force Structure',
-    title: 'Above the division: Multi-Domain Task Forces and the BCD',
+    title: 'Above the Division: Multi-Domain Task Forces and the BCD',
     what: [
       'The Army has activated the 1st and 3rd Multi-Domain Task Forces in the Pacific, the 2nd in Europe, and the 4th at Fort Carson, Colorado. A 5th is planned by 2028.',
       'Each includes Long-Range Fires Battalions and Multi-Domain Effects Battalions.',
@@ -5959,7 +5959,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Division'],
     type: 'Equipment',
-    title: 'Altius-700M launched effect',
+    title: 'Altius-700M Launched Effect',
     what: [
       'Reported, not confirmed (manufacturer figures as given in the source report). The Altius-700M is made by Anduril for the Army’s Launched Effects effort.',
       'Range about 160 km, endurance 75 minutes, payload up to 15 kg.'
@@ -5984,7 +5984,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Equipment',
-    title: 'Why the two services chose different designs',
+    title: 'Why the Two Services Chose Different Designs',
     what: [
       'The Marine Corps chose vertical take-off quadcopters, the Bolt-M and Rogue 1, for OPF-L.',
       'The Army’s LASSO programme leans on the tube-launched Switchblade 400.',
@@ -6013,7 +6013,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion'],
     type: 'Equipment',
-    title: 'MALET: mortar rounds dropped from drones',
+    title: 'MALET: Mortar Rounds Dropped from Drones',
     what: [
       'The Munitions Air-dropped Lethal Effects Tool (MALET) is a snap-on fuze and aerodynamic kit that turns standard 60mm and 81mm mortar rounds into drone-dropped munitions.',
       'It was developed by the Army’s DEVCOM Armaments Center at Picatinny Arsenal.',
@@ -6046,7 +6046,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Equipment',
-    title: 'How a loitering munition plugs into the fires network',
+    title: 'How a Loitering Munition Plugs into the Fires Network',
     what: [
       'AFATDS is the main command and control node for fires in both services.',
       'It treats the loitering munition as one more weapon it can choose.'
@@ -6075,7 +6075,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'Counterfire by custody: striking before the enemy fires',
+    title: 'Counterfire by Custody: Striking Before the Enemy Fires',
     what: [
       'Reported, not confirmed: the Army is shifting from reactive counterfire towards proactive, custody-based targeting.'
     ],
@@ -6102,7 +6102,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'Airspace: the free-fly zone',
+    title: 'Airspace: The Free-Fly Zone',
     what: [
       'Small drones and loitering munitions operating below 2,000 feet above ground level create severe airspace congestion.',
       'Units are adopting a “Free-Fly” Restricted Operating Zone framework.'
@@ -6132,7 +6132,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'TTP',
-    title: 'Autonomy and human judgement: DoD Directive 3000.09',
+    title: 'Autonomy and Human Judgement: DoD Directive 3000.09',
     what: [
       'Loitering munitions increasingly have automated target recognition and autonomous terminal guidance.',
       'Their use is governed by DoD Directive 3000.09, Autonomy in Weapon Systems.'
@@ -6164,7 +6164,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Training: loitering munitions in the digital chain',
+    title: 'Training: Loitering Munitions in the Digital Chain',
     what: [
       'Both services are revising training for digital, multi-domain fires.',
       'The source report gives no course dedicated to loitering munitions.'
@@ -6191,7 +6191,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Lesson',
-    title: 'Ukraine: the shared data picture shortens the chain',
+    title: 'Ukraine: The Shared Data Picture Shortens the Chain',
     what: [
       'Reported, not confirmed: in Ukraine, applications such as Kropyva, GIS Arta and Delta connect drone operators directly to the nearest available firing unit or FPV drone team.',
       'Reported: sensor-to-shooter time fell from a conventional 10 minutes to under one minute.'
@@ -6218,7 +6218,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Lesson',
-    title: 'Attrition: mass over a few costly systems',
+    title: 'Attrition: Mass Over a Few Costly Systems',
     what: [
       'The volume of drone losses in recent conflict shows the limits of high-cost systems.'
     ],
@@ -6244,7 +6244,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade'],
     type: 'Lesson',
-    title: 'Logistics: treat strike drones as ammunition',
+    title: 'Logistics: Treat Strike Drones as Ammunition',
     what: [
       'Integrating these systems requires a change in supply chain management.'
     ],
@@ -6271,7 +6271,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Corps', 'Division', 'Brigade'],
     type: 'Command & Control',
-    title: 'Who owns counter-fire: the Counter-Fire Headquarters',
+    title: 'Who Owns Counter-Fire: The Counter-Fire Headquarters',
     what: [
       'Counter-fire responsibility is assigned by echelon, and one headquarters is named the Counter-Fire Headquarters (CFHQ).',
       'Corps and division are each responsible for counter-fire through the depth of their own area.'
@@ -6308,7 +6308,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Force Structure',
-    title: 'The staff sections that run the counter-fire fight',
+    title: 'The Staff Sections That Run the Counter-Fire Fight',
     what: [
       'Dedicated staff sections analyse radar acquisitions, keep custody of targets and manage counter-fire execution.'
     ],
@@ -6337,7 +6337,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade'],
     type: 'Force Structure',
-    title: 'A standing counter-fire mission: 210th Field Artillery Brigade, Korea',
+    title: 'A Standing Counter-Fire Mission: 210th Field Artillery Brigade, Korea',
     what: [
       'The 210th Field Artillery Brigade, at Camp Casey, South Korea, is a permanent high-readiness counter-fire force.',
       'It operates within the 2nd Infantry Division/ROK-US Combined Division.'
@@ -6368,7 +6368,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Corps', 'Division', 'Brigade'],
     type: 'Force Structure',
-    title: 'Air defence for the artillery: the ADA battalion in the strike brigade',
+    title: 'Air Defence for the Artillery: The ADA Battalion in the Strike Brigade',
     what: [
       'Reported, not confirmed: the Army is changing structures so that air defence protects artillery units directly against drones and loitering munitions.'
     ],
@@ -6400,7 +6400,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Corps', 'Division'],
     type: 'TTP',
-    title: 'Proactive and reactive counter-fire',
+    title: 'Proactive and Reactive Counter-Fire',
     what: [
       'US doctrine divides counter-fire into proactive and reactive.',
       'The detailed How and Why for this entry were not received with the source report. The lines below come from its summary.'
@@ -6429,7 +6429,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'TTP',
-    title: 'The reactive drill and pre-authorisation',
+    title: 'The Reactive Drill and Pre-Authorisation',
     what: [
       'The reactive counter-fire drill is highly automated. It bypasses deliberate planning to strike enemy indirect fire systems at once.'
     ],
@@ -6463,7 +6463,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'Choosing the weapon and munition for counter-fire',
+    title: 'Choosing the Weapon and Munition for Counter-Fire',
     what: [
       'The platform and munition are chosen to suit the enemy system being attacked.'
     ],
@@ -6494,7 +6494,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'Resourcing counter-fire against close support',
+    title: 'Resourcing Counter-Fire Against Close Support',
     what: [
       'Counter-fire competes directly with close support for a limited number of guns and rounds.'
     ],
@@ -6522,7 +6522,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Fire, move and hide',
+    title: 'Fire, Move and Hide',
     what: [
       'Firing units no longer stay in static, built-up positions. They move continuously, as dispersed sections or platoons, to break the enemy targeting loop.'
     ],
@@ -6555,7 +6555,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Dispersion inside the position area',
+    title: 'Dispersion Inside the Position Area',
     what: [
       'Guns and launchers are separated so that one strike cannot cause mass casualties.'
     ],
@@ -6584,7 +6584,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Concealment and signature management',
+    title: 'Concealment and Signature Management',
     what: [
       'Passive measures are used to defeat visual, thermal and radar observation.',
       'The main item is the Ultra-Lightweight Camouflage Net System (ULCANS), which replaced the woodland and desert nets of the 1990s.'
@@ -6614,7 +6614,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Protection and hardening',
+    title: 'Protection and Hardening',
     what: [
       'Physical protection of people, vehicles and ammunition when a unit must halt.'
     ],
@@ -6643,7 +6643,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Defence against drones at the gun line',
+    title: 'Defence Against Drones at the Gun Line',
     what: [
       'Reported, not confirmed: firing units use layered reactions against small drones and loitering munitions at the firing point.'
     ],
@@ -6674,7 +6674,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Survivability of observers',
+    title: 'Survivability of Observers',
     what: [
       'Analysis: the source report found no open source for this entry. All of it is analysis.',
       'Analysis: it concerns Fire Support Teams and Joint Terminal Attack Controllers forward with manoeuvre units.'
@@ -6700,7 +6700,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'The trade-off: staying alive against delivering fire',
+    title: 'The Trade-Off: Staying Alive Against Delivering Fire',
     what: [
       'The commander’s dilemma is between survival of the battery and continuous fire support to manoeuvre.'
     ],
@@ -6730,7 +6730,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Brigade'],
     type: 'Equipment',
-    title: 'HIMARS and MLRS in the counter-fire role',
+    title: 'HIMARS and MLRS in the Counter-Fire Role',
     what: [
       'The M142 HIMARS is wheeled. The M270 MLRS is tracked. Both fire guided rockets (GMLRS) for deep proactive and rapid reactive counter-fire.',
       'Reported, not confirmed: the performance and cost claims below rest on an informal source.'
@@ -6756,7 +6756,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'M1299 Extended Range Cannon Artillery (cancelled)',
+    title: 'M1299 Extended Range Cannon Artillery (Cancelled)',
     what: [
       'The M1299 was a self-propelled howitzer programme meant to fire 155mm rounds to 70–100 km.',
       'The Army cancelled it in March/April 2024.'
@@ -6813,7 +6813,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Training the counter-fire staff',
+    title: 'Training the Counter-Fire Staff',
     what: [
       'Command post staffs are trained and evaluated in planning and executing counter-fire.'
     ],
@@ -6872,7 +6872,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Published criticisms of counter-fire training',
+    title: 'Published Criticisms of Counter-Fire Training',
     what: [
       'Observer-coach/trainers at the combat training centres report recurring weaknesses.'
     ],
@@ -6901,7 +6901,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Lesson',
-    title: 'Ukraine and Nagorno-Karabakh: the three-minute window',
+    title: 'Ukraine and Nagorno-Karabakh: The Three-Minute Window',
     what: [
       'Observations from the Russia-Ukraine war and Nagorno-Karabakh indicate that artillery must displace in under two minutes to survive.'
     ],
@@ -6928,7 +6928,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'Lesson',
-    title: 'From speed of fire to custody of the target',
+    title: 'From Speed of Fire to Custody of the Target',
     what: [
       'Reported, not confirmed: the Army is moving from firing as fast as possible at a radar grid to “custody-based engagement”.',
       'The source report rates this both Confirmed and Reported. The lower rating is used here.'
@@ -6959,7 +6959,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Corps', 'Brigade'],
     type: 'Lesson',
-    title: 'Decentralisation: the Multifunctional Brigade-Strike concept',
+    title: 'Decentralisation: The Multifunctional Brigade-Strike Concept',
     what: [
       'Reported, not confirmed: the Army is testing the Multifunctional Brigade-Strike (MFB-Strike) construct at corps level to shorten the kill chain.'
     ],
@@ -6989,7 +6989,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'Force Structure',
-    title: 'Army Structure 2025–2029: cannon battalions leave the brigade',
+    title: 'Army Structure 2025–2029: Cannon Battalions Leave the Brigade',
     what: [
       'Army Structure (ARSTRUC) 2025–2029 replaces the Brigade Combat Team with the division as the Army’s principal warfighting formation.',
       'Manoeuvre brigades lose their organic field artillery battalions. Cannon artillery is centralised under the Division Artillery.'
@@ -7022,7 +7022,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['N/A'],
     type: 'Force Structure',
-    title: 'Force Design 2030: Marine cannon batteries cut from 21 to 7',
+    title: 'Force Design 2030: Marine Cannon Batteries Cut from 21 to 7',
     what: [
       'Force Design 2030 reshapes the Marine Corps for expeditionary advanced base operations and distributed maritime operations, mainly in the Indo-Pacific.',
       'Active cannon batteries are reduced from twenty-one to seven, with a small number of reserve batteries.'
@@ -7051,7 +7051,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Command & Control',
-    title: 'The four support relationships',
+    title: 'The Four Support Relationships',
     what: [
       'Cannon artillery in both services is employed under defined support relationships.',
       'They settle who tasks the firing unit, who supplies it and where it fits in the wider plan.'
@@ -7079,7 +7079,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Division'],
     type: 'Command & Control',
-    title: 'Inside the JAGIC: layout, shared picture and delegated authority',
+    title: 'Inside the JAGIC: Layout, Shared Picture and Delegated Authority',
     what: [
       'The Joint Air-Ground Integration Center (JAGIC) at division deconflicts surface-to-surface fires with aircraft.',
       'This entry adds the detail on its layout and tools. Its role is covered in earlier entries.'
@@ -7109,7 +7109,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion'],
     type: 'Equipment',
-    title: 'M119A3 105mm towed howitzer',
+    title: 'M119A3 105mm Towed Howitzer',
     what: [
       'The M119A3 is the main fire support weapon of Army light infantry, airborne and air assault brigades.',
       'Combat weight 4,268 lb (1,936 kg). Range 14 km with high explosive, 19.5 km with rocket-assisted projectile.'
@@ -7136,7 +7136,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'Equipment',
-    title: 'M777A2 155mm towed howitzer',
+    title: 'M777A2 155mm Towed Howitzer',
     what: [
       'The M777A2 is the medium-weight howitzer of Army Stryker brigades. It is the whole of the Marine Corps cannon arsenal.',
       'Combat weight about 9,300 lb (4,200 kg). Range 24 km with high explosive, 30 km with rocket-assisted projectile, 40 km with Excalibur.'
@@ -7163,7 +7163,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion'],
     type: 'Equipment',
-    title: 'M109A7 Paladin 155mm self-propelled howitzer',
+    title: 'M109A7 Paladin 155mm Self-Propelled Howitzer',
     what: [
       'The M109A7 is the heavy armoured howitzer of the Armored Brigade Combat Teams.',
       'Combat weight 78,000 lb (35,380 kg). Range 24 km with high explosive, 30 km with rocket-assisted projectile, 40 km with Excalibur.'
@@ -7198,7 +7198,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'After ERCA: the Self-Propelled Howitzer Modernization programme',
+    title: 'After ERCA: The Self-Propelled Howitzer Modernization Programme',
     what: [
       'Reported, not confirmed: after cancelling ERCA in April 2024, the Army began the Self-Propelled Howitzer Modernization (SPH-M) programme.',
       'The source report cites encyclopaedia and press material for this entry.'
@@ -7229,7 +7229,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company'],
     type: 'Equipment',
-    title: 'Barrel wear, the M90 velocimeter and the firing records',
+    title: 'Barrel Wear, the M90 Velocimeter and the Firing Records',
     what: [
       'Every round wears the barrel through heat, friction and chemical erosion.',
       'Wear is tracked in Equivalent Full Charges and recorded on two Army forms.'
@@ -7260,7 +7260,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'Inside the NATO ballistic kernel: the trajectory model',
+    title: 'Inside the NATO Ballistic Kernel: The Trajectory Model',
     what: [
       'This entry adds the mathematics used by the NATO Armaments Ballistic Kernel (NABK), under STANAG 4355.',
       'The kernel itself is covered in the technical fire direction topic.'
@@ -7289,7 +7289,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Reciprocal laying, the LARS rule and the safety diagram',
+    title: 'Reciprocal Laying, the LARS Rule and the Safety Diagram',
     what: [
       'When a battery occupies a position, every howitzer is oriented to a common azimuth of fire. The method is reciprocal laying.',
       'Before any round is fired, the battery leadership sets safety limits on DA Form 5859, the Safety Diagram.'
@@ -7319,7 +7319,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'The cannon crewmember and the artillery specialties',
+    title: 'The Cannon Crewmember and the Artillery Specialties',
     what: [
       'Artillery people are trained at the Fires Center of Excellence, Fort Sill, Oklahoma.',
       'The specialty new to this topic is the Cannon Crewmember: Army 13B, Marine 0811.'
@@ -7349,7 +7349,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'The technical experts: Master Gunner and targeting technician',
+    title: 'The Technical Experts: Master Gunner and Targeting Technician',
     what: [
       'Two expert roles support the commander: the Field Artillery Master Gunner and the warrant officer Targeting Technician (131A).'
     ],
@@ -7376,7 +7376,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Readiness by continuous kill-chain data',
+    title: 'Readiness by Continuous Kill-Chain Data',
     what: [
       'Artillery units certify through the Artillery Tables of TC 3-09.8.',
       'The list of tables under this heading was not received with the source report. The tables are covered in earlier entries.'
@@ -7405,7 +7405,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['All'],
     type: 'Lesson',
-    title: 'Ukraine: drones push the guns back, jamming blunts guided rounds',
+    title: 'Ukraine: Drones Push the Guns Back, Jamming Blunts Guided Rounds',
     what: [
       'Reported, not confirmed: the source report gives no specific source for these observations from the Russia-Ukraine war.'
     ],
@@ -7434,7 +7434,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company'],
     type: 'Force Structure',
-    title: 'The launcher crew and platoon',
+    title: 'The Launcher Crew and Platoon',
     what: [
       'An M142 HIMARS or M270A2 MLRS launcher has a crew of three: Section Chief, Gunner and Driver.',
       'All three hold the specialty 13M, Multiple Launch Rocket System Crewmember.',
@@ -7468,7 +7468,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division', 'Corps'],
     type: 'Force Structure',
-    title: 'The rocket battery and battalion',
+    title: 'The Rocket Battery and Battalion',
     what: [
       'A rocket battalion has a Headquarters and Headquarters Battery (HHB), a Forward Support Company (FSC) and three firing batteries.',
       'Each firing battery typically has six launchers. The battalion has 18.',
@@ -7502,7 +7502,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade'],
     type: 'Force Structure',
-    title: 'National Guard rocket battalions and exercises',
+    title: 'National Guard Rocket Battalions and Exercises',
     what: [
       'The Army National Guard (ARNG) holds a substantial part of total US rocket artillery.',
       'Its units are organised like active units: 18-launcher battalions under National Guard Field Artillery Brigades.',
@@ -7537,7 +7537,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['Company', 'Battalion', 'Brigade'],
     type: 'Force Structure',
-    title: 'Marine anti-ship missile batteries',
+    title: 'Marine Anti-Ship Missile Batteries',
     what: [
       'Under Force Design 2030 the Marine Corps is forming Medium Missile Battalions equipped with NMESIS.',
       'A full NMESIS battery is designed to have 18 launchers.',
@@ -7572,7 +7572,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Hide, fire, reload: the launcher cycle',
+    title: 'Hide, Fire, Reload: The Launcher Cycle',
     what: [
       'Launchers survive by a fixed cycle: hide area, firing point, reload point.',
       'From halting at the firing point to launch takes typically 16 to 60 seconds. The published standard can be as little as 16 seconds to aim and fire, depending on the crew’s readiness state.'
@@ -7605,7 +7605,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Processing a rocket mission: the launcher computes its own solution',
+    title: 'Processing a Rocket Mission: The Launcher Computes Its Own Solution',
     what: [
       'Rocket fire missions do not use traditional voice commands.',
       'AFATDS at battery or battalion pushes target data directly to the launcher’s fire control system.'
@@ -7637,7 +7637,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'TTP',
-    title: 'Target location standards for guided rockets',
+    title: 'Target Location Standards for Guided Rockets',
     what: [
       'Guided rockets and missiles are fired only against coordinates that meet a Target Location Error (TLE) standard.',
       'TLE is the greatest acceptable distance between the coordinates given to the launcher and the target’s true position.'
@@ -7668,7 +7668,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'Clearing airspace for rockets and missiles',
+    title: 'Clearing Airspace for Rockets and Missiles',
     what: [
       'Rockets and missiles fly a high trajectory. Firing them needs airspace cleared by Restricted Operations Zones (ROZ) and coordination altitudes.'
     ],
@@ -7699,7 +7699,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Division', 'Corps'],
     type: 'TTP',
-    title: 'What rockets are for: the four roles',
+    title: 'What Rockets Are for: The Four Roles',
     what: [
       'Doctrine gives rocket artillery four roles: deep strike, counter-fire, Suppression of Enemy Air Defences (SEAD), and general support to manoeuvre forces.'
     ],
@@ -7761,7 +7761,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Reloading at the launcher',
+    title: 'Reloading at the Launcher',
     what: [
       'The three-person crew reloads a HIMARS or M270A2 with a crane built into the Launcher-Loader Module (LLM).',
       'A trained crew completes the reload in 5 to 10 minutes under tactical conditions.'
@@ -7794,7 +7794,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Firing under satellite navigation jamming',
+    title: 'Firing Under Satellite Navigation Jamming',
     what: [
       'Adversaries field military-grade GPS jamming and spoofing.',
       'US forces are fitting Anti-Jam Antenna Systems (AJAS) and M-code receivers to both the launcher’s navigation suite and the guidance of GMLRS rockets.'
@@ -7824,7 +7824,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'Equipment',
-    title: 'M142 HIMARS launcher',
+    title: 'M142 HIMARS Launcher',
     what: [
       'The M142 High Mobility Artillery Rocket System is a wheeled launcher on the 6x6, 5-ton truck chassis of the Family of Medium Tactical Vehicles (FMTV).',
       'Combat weight 16,250 kg. Maximum road speed 85–94 km/h. Operating range 480 km. Crew of three.'
@@ -7858,7 +7858,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company'],
     type: 'Equipment',
-    title: 'M270A2 MLRS launcher',
+    title: 'M270A2 MLRS Launcher',
     what: [
       'The M270A2 is a tracked heavy launcher on a modified Bradley Fighting Vehicle chassis.',
       'Loaded weight about 25,191 kg. Top road speed 64 km/h. Crew of three. Carried by C-17.'
@@ -7890,7 +7890,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Brigade'],
     type: 'Equipment',
-    title: 'The rocket and missile family: GMLRS, ATACMS and PrSM',
+    title: 'The Rocket and Missile Family: GMLRS, ATACMS and PrSM',
     what: [
       'GMLRS (M31 series): 15–92 km. In full-rate production.',
       'Extended-Range GMLRS: up to 150 km. Entering production and qualification.',
@@ -7925,7 +7925,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['Company'],
     type: 'Equipment',
-    title: 'NMESIS and the ROGUE-Fires launcher',
+    title: 'NMESIS and the ROGUE-Fires Launcher',
     what: [
       'The Navy/Marine Corps Expeditionary Ship Interdiction System (NMESIS) is an unmanned launcher vehicle carrying two Naval Strike Missiles.',
       'The vehicle is the Remotely Operated Ground Unit for Expeditionary Fires (ROGUE-Fires). It has no crew on board.',
@@ -7959,7 +7959,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'The unmanned launcher and the production surge',
+    title: 'The Unmanned Launcher and the Production Surge',
     what: [
       'The Army is experimenting with the Autonomous Multi-Domain Launcher (AML), a robotic launcher on the FMTV chassis. It is in testing and not fielded.',
       'Lockheed Martin is raising GMLRS production capacity to nearly 14,000 rockets a year.'
@@ -7990,7 +7990,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'Equipment',
-    title: 'The practice rocket',
+    title: 'The Practice Rocket',
     what: [
       'Reported, not confirmed: units train with the M28A1 and M28A2 Low-Cost Reduced-Range Practice Rocket (LCRRPR). Stockpiles are running down.',
       'The source report cites an encyclopaedia and press material for this entry.'
@@ -8020,7 +8020,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Training the launcher crew: the 13M pipeline',
+    title: 'Training the Launcher Crew: The 13M Pipeline',
     what: [
       'The enlisted 13M completes 10 weeks of Basic Combat Training, then Advanced Individual Training at Fort Sill.',
       'The source report gives the Advanced Individual Training as about 4 to 7 weeks and notes that it varies by class. One of its sources for the length is an informal forum.'
@@ -8051,7 +8051,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion'],
     type: 'Training',
-    title: 'Qualifying launcher crews: the tables',
+    title: 'Qualifying Launcher Crews: The Tables',
     what: [
       'Rocket units certify and qualify under TC 3-09.8, Field Artillery Gunnery.',
       'Tables I to VI cover individual, team and platoon certification. Tables VII to XII cover the battery. Tables XIII to XV cover the battalion.',
@@ -8081,7 +8081,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Theatre'],
     type: 'Lesson',
-    title: 'Ukraine: guided rockets proved, then jammed and outspent',
+    title: 'Ukraine: Guided Rockets Proved, Then Jammed and Outspent',
     what: [
       'Reported, not confirmed: the source report rates this entry part confirmed and part reported. It is held at Reported here.',
       'Reported: HIMARS and MLRS in Ukraine showed the effect of precision rockets on rear depots and command posts. They also showed their weakness to Russian GPS jamming.'
@@ -8114,7 +8114,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Division', 'Corps'],
     type: 'Lesson',
-    title: 'Where cannon stop and rockets take over',
+    title: 'Where Cannon Stop and Rockets Take Over',
     what: [
       'Reported, not confirmed: the source report cites an encyclopaedia and trade press for this entry. The cancellation of ERCA itself is covered in the counter-fire topic.',
       'Reported: the Army uses 155mm cannon out to 30 km and relies on HIMARS and MLRS from 40 km to beyond 300 km.'
@@ -8145,7 +8145,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['Brigade', 'Theatre'],
     type: 'Lesson',
-    title: 'The debate: sea denial from the land',
+    title: 'The Debate: Sea Denial from the Land',
     what: [
       'Analysis: professional journals and Indo-Pacific exercises report progress in using ground-based rockets and missiles for sea denial.',
       'The source report rates this entry part analysis. It names the Marine Corps Gazette without a specific article.'
@@ -8177,7 +8177,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Who picks the shell and fuze',
+    title: 'Who Picks the Shell and Fuze',
     what: [
       'The forward observer requests a shell and fuze. The Fire Direction Center (FDC) makes the final decision and issues the fire order.'
     ],
@@ -8210,7 +8210,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'Commander’s guidance and the Attack Guidance Matrix',
+    title: 'Commander’s Guidance and the Attack Guidance Matrix',
     what: [
       'Written directives, made in advance by the commander and targeting staff, say how each target category is engaged and how much of each munition may be spent.'
     ],
@@ -8242,7 +8242,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade', 'Division', 'Corps', 'Theatre'],
     type: 'TTP',
-    title: 'Who approves special munitions',
+    title: 'Who Approves Special Munitions',
     what: [
       'Higher commanders must approve scatterable mines (SCATMINE), cluster munitions, white phosphorus and precision-guided munitions (PGMs).',
       'This authority rarely rests with the firing battery.'
@@ -8276,7 +8276,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade', 'Division', 'Corps', 'Theatre'],
     type: 'TTP',
-    title: 'Rules of engagement and legal review',
+    title: 'Rules of Engagement and Legal Review',
     what: [
       'The Law of Armed Conflict (LOAC) and theatre Rules of Engagement (ROE) can dictate, restrict or change the choice of munition.'
     ],
@@ -8308,7 +8308,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Suppress, neutralise, destroy',
+    title: 'Suppress, Neutralise, Destroy',
     what: [
       'Three standard levels of effect on a target: suppress, neutralise and destroy.',
       'The level sets how much ammunition, and of what type, a mission needs.'
@@ -8335,7 +8335,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Matching shell and fuze to the target',
+    title: 'Matching Shell and Fuze to the Target',
     what: [
       'Doctrine pairs shells and fuzes with target types to get the most effect in the ground conditions.',
       'The report’s list under this heading was not received. The pairings below are from the report’s own reference table.'
@@ -8368,7 +8368,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Fuze functions and the multi-option fuze',
+    title: 'Fuze Functions and the Multi-Option Fuze',
     what: [
       'Four fuze functions: impact (superquick or point detonating), delay, time and proximity (VT).',
       'The M782 Multi-Option Fuze Artillery (MOFA) can do all four.'
@@ -8396,7 +8396,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Sheaf patterns',
+    title: 'Sheaf Patterns',
     what: [
       'A sheaf is the pattern of impacts made when a battery or battalion fires a volley. The report spells it “sheath”.'
     ],
@@ -8427,7 +8427,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Volume, timing and surprise',
+    title: 'Volume, Timing and Surprise',
     what: [
       'Analysis: the first impacts do far more harm than prolonged fire. The source report rates this as analysis backed by doctrine.'
     ],
@@ -8457,7 +8457,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'Precision or area fire',
+    title: 'Precision or Area Fire',
     what: [
       'Analysis: how a targeting staff chooses between one guided round and a volume of unguided fire.'
     ],
@@ -8488,7 +8488,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Smoke and illumination',
+    title: 'Smoke and Illumination',
     what: [
       'Rounds that obscure, mark or light the battlefield rather than destroy.'
     ],
@@ -8515,7 +8515,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade', 'Division', 'Corps'],
     type: 'TTP',
-    title: 'Artillery-delivered mines',
+    title: 'Artillery-delivered Mines',
     what: [
       'Shells that lay anti-armour (RAAMS) or anti-personnel minefields at range. The report calls the anti-personnel round ADAM.'
     ],
@@ -8607,7 +8607,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'The M795 high explosive shell and insensitive explosive',
+    title: 'The M795 High Explosive Shell and Insensitive Explosive',
     what: [
       'The M795 155mm shell is the main US artillery round. The M795IM is replacing it.',
       'From the report’s table: M795 range about 22.5 km, 30 km with MACS charge 5; M549A1 rocket-assisted HE, about 30 km.'
@@ -8668,7 +8668,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'BONUS sensor-fuzed anti-armour round',
+    title: 'BONUS Sensor-Fuzed Anti-Armour Round',
     what: [
       'The BONUS Mk II is a 155mm round that finds and attacks armour on its own. It was co-developed with Sweden and France.',
       'Range about 35 km with base bleed, from the report’s table.',
@@ -8700,7 +8700,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'Cluster munition policy',
+    title: 'Cluster Munition Policy',
     what: [
       'Dual-Purpose Improved Conventional Munition (DPICM) shells burst in the air and scatter dozens of small anti-armour and anti-personnel grenades.'
     ],
@@ -8761,7 +8761,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'Rocket warheads and the Alternative Warhead',
+    title: 'Rocket Warheads and the Alternative Warhead',
     what: [
       'GMLRS rockets carry either a 200 lb unitary HE warhead for point targets or an Alternative Warhead (AW) for area targets.',
       'The launchers and the GMLRS, ATACMS and PrSM family are covered under rocket and missile artillery.'
@@ -8791,7 +8791,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'XM1155 ramjet projectile',
+    title: 'XM1155 Ramjet Projectile',
     what: [
       'Reported: the XM1155 Extended Range Artillery Projectile (ERAP) is a developmental guided 155mm round.'
     ],
@@ -8818,7 +8818,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'NATO ammunition interchangeability',
+    title: 'NATO Ammunition Interchangeability',
     what: [
       'Analysis: the Joint Ballistic Memorandum of Understanding (JBMOU) governs 155mm ammunition standards across NATO.'
     ],
@@ -8847,7 +8847,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Training ammunition and STRAC',
+    title: 'Training Ammunition and STRAC',
     what: [
       'Observers, FDC personnel and targeting officers train at the Fires Center of Excellence, from basic courses to Joint Fires Observer and targeting officer certification.',
       'Live training ammunition is allocated under DA PAM 350-38, the Standards in Training Commission (STRAC).'
@@ -8876,7 +8876,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Certification for collateral damage estimators',
+    title: 'Certification for Collateral Damage Estimators',
     what: [
       'People who perform CDE must be certified by the Joint Targeting School or an accredited Mobile Training Team.',
       'The Joint Staff keeps a roster of certified analysts.'
@@ -8904,7 +8904,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'What concrete rounds do not teach',
+    title: 'What Concrete Rounds Do Not Teach',
     what: [
       'Reported: reliance on concrete training rounds and simulation leaves gaps in skill.'
     ],
@@ -8932,7 +8932,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Theatre'],
     type: 'Lesson',
-    title: 'Ukraine: jammed precision, cheap drones and the return of mass',
+    title: 'Ukraine: Jammed Precision, Cheap Drones and the Return of Mass',
     what: [
       'Reported: GPS jamming, drone costs and the need for massed fire.'
     ],
@@ -8961,7 +8961,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'Buying for jamming and for depth',
+    title: 'Buying for Jamming and for Depth',
     what: [
       'The Army is shifting purchases to meet peer threats.'
     ],
@@ -8989,7 +8989,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade'],
     type: 'Lesson',
-    title: 'Combat Training Centre weaknesses in munition choice',
+    title: 'Combat Training Centre Weaknesses in Munition Choice',
     what: [
       'Reported: Observer-Coach/Trainers at the National Training Center and Joint Readiness Training Center see the same munition-selection faults.'
     ],
@@ -9018,7 +9018,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion', 'Brigade'],
     type: 'Force Structure',
-    title: 'Who sustains the artillery battalion',
+    title: 'Who Sustains the Artillery Battalion',
     what: [
       'Logistic elements sit at several echelons.',
       'Battery: its own supply and maintenance sections handle immediate needs.',
@@ -9051,7 +9051,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Force Structure',
-    title: 'Who plans and controls ammunition',
+    title: 'Who Plans and Controls Ammunition',
     what: [
       'Ammunition planning and control are shared by the logistics staff (S4), the operations staff (S3), the fires cell and the commander.'
     ],
@@ -9080,7 +9080,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion', 'Brigade'],
     type: 'Force Structure',
-    title: 'Field and sustainment maintenance',
+    title: 'Field and Sustainment Maintenance',
     what: [
       'Maintenance of guns, launchers and fire control is split into two levels: field (forward) and sustainment (rear).'
     ],
@@ -9109,7 +9109,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['Company', 'Battalion', 'Brigade'],
     type: 'Force Structure',
-    title: 'Marine distributed sustainment',
+    title: 'Marine Distributed Sustainment',
     what: [
       'The Combat Logistics Battalion (CLB) of the Marine Littoral Regiment sustains dispersed forces, including anti-ship missile batteries, across island chains.'
     ],
@@ -9139,7 +9139,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'Force Structure',
-    title: 'Medical and fuel support to the guns',
+    title: 'Medical and Fuel Support to the Guns',
     what: [
       'Role 1 and Role 2 medical care and bulk fuel, as arranged for artillery units.'
     ],
@@ -9169,7 +9169,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion', 'Brigade', 'Division', 'Corps', 'Theatre'],
     type: 'TTP',
-    title: 'Ammunition from factory to gun',
+    title: 'Ammunition from Factory to Gun',
     what: [
       'The report gives a seven-step chain for ammunition (Class V) in large-scale combat.'
     ],
@@ -9232,7 +9232,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion', 'Brigade'],
     type: 'TTP',
-    title: 'Configured loads',
+    title: 'Configured Loads',
     what: [
       'Strategic and Mission Configured Loads speed field resupply.'
     ],
@@ -9260,7 +9260,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Field resupply methods',
+    title: 'Field Resupply Methods',
     what: [
       'The ways ammunition is handed to firing units.'
     ],
@@ -9291,7 +9291,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'TTP',
-    title: 'Handling rocket and cannon ammunition',
+    title: 'Handling Rocket and Cannon Ammunition',
     what: [
       'Rocket launchers and 155mm howitzers are resupplied in different ways.'
     ],
@@ -9319,7 +9319,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion', 'Brigade'],
     type: 'TTP',
-    title: 'Dispersed caches and unmanned resupply',
+    title: 'Dispersed Caches and Unmanned Resupply',
     what: [
       'Ammunition nodes are being protected from drone surveillance and long-range fire, partly by unmanned delivery.'
     ],
@@ -9347,7 +9347,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion', 'N/A'],
     type: 'TTP',
-    title: 'Barrel life and replacement',
+    title: 'Barrel Life and Replacement',
     what: [
       'Barrel life is counted in Equivalent Full Charges (EFC). Barrels are replaced when worn out.',
       'Module 7 covers how wear lowers muzzle velocity and the M90 velocimeter.'
@@ -9379,7 +9379,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Common failures and readiness reporting',
+    title: 'Common Failures and Readiness Reporting',
     what: [
       'Typical faults of artillery systems, and how availability is reported.'
     ],
@@ -9409,7 +9409,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade'],
     type: 'TTP',
-    title: 'Spare parts and commonality',
+    title: 'Spare Parts and Commonality',
     what: [
       'The burden of parts for several different systems, and how it is cut.'
     ],
@@ -9436,7 +9436,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Remote maintenance support',
+    title: 'Remote Maintenance Support',
     what: [
       'Analysis: field mechanics increasingly consult depot engineers over tactical satellite links in real time.'
     ],
@@ -9462,7 +9462,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company'],
     type: 'Equipment',
-    title: 'M992A3 ammunition carrier (FAASV)',
+    title: 'M992A3 Ammunition Carrier (FAASV)',
     what: [
       'The M992A3 Field Artillery Ammunition Supply Vehicle (FAASV) is a tracked, armoured carrier on the M109 chassis. It accompanies the M109A7.',
       'It carries 95 or 98 complete 155mm rounds (projectiles, charges and fuzes). Official budget documents give both figures.',
@@ -9491,7 +9491,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company', 'Battalion', 'Brigade'],
     type: 'Equipment',
-    title: 'Load-handling trucks: PLS and HEMTT',
+    title: 'Load-handling Trucks: PLS and HEMTT',
     what: [
       'The M1075 Palletized Load System (PLS) is a 10x10 truck with a 33,000 lb payload.',
       'The M985 HEMTT is an 8x8 cargo truck, often with a crane, for MLRS pods and palletised munitions.',
@@ -9521,7 +9521,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade'],
     type: 'Equipment',
-    title: 'ATLAS II rough-terrain forklift',
+    title: 'ATLAS II Rough-Terrain Forklift',
     what: [
       'The ATLAS II (All Terrain Lifter, Army System) is the Army’s standard 10,000 lb forklift for ammunition at ASPs and ATHPs.'
     ],
@@ -9548,7 +9548,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Company'],
     type: 'Equipment',
-    title: 'Recovery: M88A2 HERCULES and M1089 wrecker',
+    title: 'Recovery: M88A2 HERCULES and M1089 Wrecker',
     what: [
       'The M88A2 HERCULES is a 70-ton armoured, tracked recovery vehicle with a 35-ton A-frame boom and a 70-ton main winch.',
       'The M1089 is a 5-ton 6x6 medium wrecker with two 30,000 lb winches and an 11,000 lb crane.',
@@ -9579,7 +9579,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade', 'Division'],
     type: 'Equipment',
-    title: 'Ammunition and maintenance software',
+    title: 'Ammunition and Maintenance Software',
     what: [
       'Three systems forecast, track and account for ammunition and maintenance.',
       'Total Ammunition Management Information System (TAMIS): authorisations and forecasts.',
@@ -9636,7 +9636,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'Munitions production rates',
+    title: 'Munitions Production Rates',
     what: [
       'US 155mm shell output is being expanded under the National Defense Industrial Strategy Implementation Plan (NDIS-IP).'
     ],
@@ -9669,7 +9669,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Theatre'],
     type: 'Lesson',
-    title: 'Ukraine transfers and US stocks',
+    title: 'Ukraine Transfers and US Stocks',
     what: [
       'Transfers to Ukraine by sale and Presidential Drawdown Authority badly depleted US war reserves.'
     ],
@@ -9697,7 +9697,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: 'Industrial bottlenecks',
+    title: 'Industrial Bottlenecks',
     what: [
       'The limits that prevent production scaling at once.'
     ],
@@ -9726,7 +9726,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Ammunition and maintainer courses',
+    title: 'Ammunition and Maintainer Courses',
     what: [
       'Logistic and maintenance soldiers are trained at Advanced Individual Training (AIT).'
     ],
@@ -9756,7 +9756,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade'],
     type: 'Training',
-    title: 'Logistic friction at the training centres',
+    title: 'Logistic Friction at the Training Centres',
     what: [
       'Brigade rotations at the National Training Center and the Joint Multinational Readiness Center replicate logistic strain.'
     ],
@@ -9784,7 +9784,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade'],
     type: 'Training',
-    title: 'Firing well, resupplying badly',
+    title: 'Firing Well, Resupplying Badly',
     what: [
       'Analysis: a critique of how sustainment is handled during gunnery certification.'
     ],
@@ -9811,7 +9811,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Theatre'],
     type: 'Lesson',
-    title: 'Ukraine: hunted depots and convoys',
+    title: 'Ukraine: Hunted Depots and Convoys',
     what: [
       'Reported, not confirmed: the report gives no source line or rating for this entry. It is held at Reported, as are the earlier Ukraine entries.',
       'Reported: logistics are vulnerable and demand for artillery ammunition is very high.'
@@ -9841,7 +9841,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion', 'Brigade'],
     type: 'Lesson',
-    title: 'Training centre trends in sustainment',
+    title: 'Training Centre Trends in Sustainment',
     what: [
       'Observer, Coach/Trainers report recurring logistic failures.'
     ],
@@ -9901,7 +9901,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'Deciding: the working group and the board',
+    title: 'Deciding: The Working Group and the Board',
     what: [
       'The Decide phase gives the logic for all later collection and fire missions.',
       'It draws on Intelligence Preparation of the Battlefield (IPB) to identify enemy centres of gravity, critical vulnerabilities and High-Value Targets (HVTs): assets the enemy commander needs to succeed.'
@@ -9931,7 +9931,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'Detecting: the Field Artillery Intelligence Officer',
+    title: 'Detecting: The Field Artillery Intelligence Officer',
     what: [
       'In the Detect phase, intelligence runs the collection plan against targets on the High-Payoff Target List, using sensors from space down to brigade drones and forward observers.'
     ],
@@ -9960,7 +9960,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Brigade', 'Division'],
     type: 'TTP',
-    title: 'Assessing: did the attack work',
+    title: 'Assessing: Did the Attack Work',
     what: [
       'The Assess phase decides whether the effects in the Attack Guidance Matrix were achieved, and whether to re-attack or reallocate.'
     ],
@@ -10047,7 +10047,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['N/A'],
     type: 'Equipment',
-    title: '155mm production: metal parts and load plants',
+    title: '155mm Production: Metal Parts and Load Plants',
     what: [
       'Shell production is split between projectile metal parts plants and Load, Assemble and Pack (LAP) plants.',
       'Metal parts plants include Scranton Army Ammunition Plant, Pennsylvania, and a new plant at Mesquite, Texas.',
@@ -10111,7 +10111,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Mortars and how they differ from artillery',
+    title: 'Mortars and How They Differ from Artillery',
     what: [
       'Mortars belong to infantry, armour and cavalry commanders at company and battalion. They are the commander’s most responsive indirect fire.',
       'Doctrine: ATP 3-21.90 / MCTP 3-01D, Tactical Employment of Mortars (October 2019); TC 3-22.90, Mortars; TC 3-22.91, Mortar Fire Direction Procedures.'
@@ -10144,7 +10144,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion', 'Brigade'],
     type: 'TTP',
-    title: 'Mortars in the targeting cycle',
+    title: 'Mortars in the Targeting Cycle',
     what: [
       'Mortar units are part of the brigade and battalion D3A process under FM 3-60.'
     ],
@@ -10262,7 +10262,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['Company', 'Battalion'],
     type: 'Force Structure',
-    title: 'Marine mortars and the end of the 120mm',
+    title: 'Marine Mortars and the End of the 120mm',
     what: [
       'Rifle company: the weapons platoon has a section of three 60mm M224A1.',
       'Battalion: the weapons company has an 81mm platoon of eight M252A1.',
@@ -10291,7 +10291,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company'],
     type: 'Equipment',
-    title: 'M224A1 60mm light mortar',
+    title: 'M224A1 60mm Light Mortar',
     what: [
       'The company mortar. Inconel, aluminium and titanium keep it light.',
       'Conventional mode, 17.19 kg (37.8 lb): M225A1 cannon, M170A1 bipod, M7A1 baseplate and M67 sight.',
@@ -10321,7 +10321,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Battalion'],
     type: 'Equipment',
-    title: 'M252A1 81mm medium mortar',
+    title: 'M252A1 81mm Medium Mortar',
     what: [
       'The main battalion mortar of light infantry and Marines.',
       'About 89 lb, 20 percent lighter than the M252.'
@@ -10349,7 +10349,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion'],
     type: 'Equipment',
-    title: 'M120A1 and M121 120mm heavy mortars',
+    title: 'M120A1 and M121 120mm Heavy Mortars',
     what: [
       'The most lethal close-support weapon in the battalion.',
       'M120A1: towed or dismounted. M121: mounted in Stryker and AMPV carriers.',
@@ -10379,7 +10379,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'Equipment',
-    title: 'Mortar ammunition effects',
+    title: 'Mortar Ammunition Effects',
     what: [
       'Mortar rounds kill mainly by fragmentation.',
       'Bursting radius: the distance at which 50 percent of standing, exposed people become casualties.'
@@ -10410,7 +10410,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'Equipment',
-    title: 'Mortar fire control: digital and analog',
+    title: 'Mortar Fire Control: Digital and Analog',
     what: [
       'Mortar Fire Control System (MFCS): mounted M95 in Stryker and AMPV; dismounted M150.',
       'Lightweight Handheld Mortar Ballistic Computer (LHMBC) M32A1 for towed and man-packed squads.',
@@ -10440,7 +10440,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion'],
     type: 'Equipment',
-    title: 'Guided 120mm mortar rounds',
+    title: 'Guided 120mm Mortar Rounds',
     what: [
       'The XM395 Accelerated Precision Mortar Initiative (APMI) and the M935 High Explosive Guided Mortar (HEGM) are GPS-guided 120mm rounds.'
     ],
@@ -10468,7 +10468,7 @@ const APP_DATA = [
     force: 'Multiple',
     echelon: ['Company', 'Battalion'],
     type: 'TTP',
-    title: 'Mortars and civilian harm',
+    title: 'Mortars and Civilian Harm',
     what: [
       'The report argues that mortars help meet civilian harm policy in towns.'
     ],
@@ -10496,7 +10496,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['Battalion'],
     type: 'Equipment',
-    title: 'Turreted mortar: Patria NEMO on the AMPV',
+    title: 'Turreted Mortar: Patria NEMO on the AMPV',
     what: [
       'The Army is evaluating the Patria NEMO 120mm turreted mortar on the AMPV hull.',
       'It was tested at Yuma Proving Ground and Fort Moore in 2024 and 2025.'
@@ -10526,7 +10526,7 @@ const APP_DATA = [
     force: 'US Army',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Army mortar training: 11C and the Mortar Leader Course',
+    title: 'Army Mortar Training: 11C and the Mortar Leader Course',
     what: [
       'Indirect Fire Infantrymen (11C) complete 22 weeks of One Station Unit Training (OSUT) at Fort Moore, Georgia.',
       'Leaders attend the Infantry Mortar Leader Course (IMLC), also at Fort Moore.'
@@ -10556,7 +10556,7 @@ const APP_DATA = [
     force: 'USMC',
     echelon: ['N/A'],
     type: 'Training',
-    title: 'Marine mortar training: 0341',
+    title: 'Marine Mortar Training: 0341',
     what: [
       'Marine mortarmen train at the School of Infantry, Infantry Training Battalion (ITB), at Camp Lejeune or Camp Pendleton.',
       'Squad and section leaders attend the Advanced Mortarman Course at the Advanced Infantry Training Battalion.'
@@ -10584,7 +10584,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Brigade", "Division", "Corps", "Theatre"],
     type: "Command & Control",
-    title: "The reconnaissance-fire and reconnaissance-strike complexes",
+    title: "The Reconnaissance-Fire and Reconnaissance-Strike Complexes",
     what: ["Russian doctrine joins sensors, command and weapons in two linked systems, built on ideas of Marshal Nikolai Ogarkov in the late Cold War.", "Reconnaissance-Fire Complex (RFC): tactical, historically out to about 40 km.", "Reconnaissance-Strike Complex (RSC): operational and operational-strategic, out to and beyond 200 km."],
     how: ["The RFC links intelligence, precise targeting, fire direction centres and tactical artillery to destroy high-value targets in near real time.", "The RSC uses rocket launchers, tactical ballistic missiles and aerospace forces against enemy logistics and command.", "Analysts see the two merging into a single Reconnaissance-Fires System as precision weapons spread."],
     why: ["Russian thought sees a non-linear, fluid battlefield where time and information decide the fight.", "Artillery, “the God of War”, is the main means of weakening an enemy before direct contact.", "Compare the US D3A targeting cycle: the Russian model fuses sensor and shooter into one standing system rather than a staff process."],
@@ -10602,7 +10602,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Battalion", "Brigade", "Division"],
     type: "TTP",
-    title: "Fire sweeps, edges, corridors, vises and sacks",
+    title: "Fire Sweeps, Edges, Corridors, Vises and Sacks",
     what: ["Russian doctrine names set patterns of planned fire, each meant to shape how the enemy moves."],
     how: ["Fire Sweep: a moving barrage that drives enemy forces towards a chosen kill zone.", "Fire Edge: barrage and concentrated fire on likely approaches, to protect a facility or troops.", "Fire Corridor: fire on both sides of a planned axis of advance, to give safe passage.", "Fire Vise: barrage lines on the edge of a target that close towards the centre, then concentrations to finish the trapped force.", "Fire Sack: very heavy fire on a central aim point, with different subunits covering an area 400 to 800 m across.", "Harassment fire uses a few firing units on a schedule for psychological effect, not a set percentage of destruction."],
     why: ["The aim is systemic paralysis, not only physical destruction.", "Compare US doctrine, which states effects as suppress, neutralise or destroy rather than as fire geometries."],
@@ -10620,7 +10620,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Battalion", "Brigade", "Division", "Corps"],
     type: "Force Structure",
-    title: "Artillery in the motor rifle brigade",
+    title: "Artillery in the Motor Rifle Brigade",
     what: ["The army is organised under the General Staff and five military districts, with combined arms and tank armies as the main operational formations.", "Recent reforms restored divisions and corps to reduce the span of control over many separate brigades.", "A motor rifle brigade traditionally has four artillery battalions: two self-propelled howitzer battalions, one rocket battalion and one anti-tank battalion."],
     how: ["A self-propelled battery has six 152mm guns, with fire direction centralised at battery level rather than in platoons.", "The rocket battalion uses 122mm launchers.", "The anti-tank battalion has 100mm MT-12 Rapira towed guns and 9K114 Shturm-S or Khrizantema-S missile systems."],
     why: ["The brigade has far more tubes per manoeuvre unit than Western equivalents.", "Compare the US Army, which is moving cannon battalions out of its brigades to the Division Artillery."],
@@ -10638,7 +10638,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Company", "Battalion", "Brigade"],
     type: "Force Structure",
-    title: "Thermobaric launchers and airborne artillery: two special cases",
+    title: "Thermobaric Launchers and Airborne Artillery: Two Special Cases",
     what: ["The TOS-1A and TOS-2 thermobaric launchers belong to the Nuclear, Biological and Chemical (NBC) Protection Troops, not the artillery.", "The Airborne Forces (VDV) have their own air-droppable artillery and command system."],
     how: ["A heavy flamethrower company has 35 personnel and three TOS-1A.", "VDV units use the 120mm 2S9 Nona-S self-propelled gun-mortar.", "The Andromeda-D automated command system gives VDV commanders continuous communications and a live picture, and works apart from Ground Forces networks."],
     why: ["The thermobaric weapons are assigned to NBC troops because of their nature: overpressure and heat that destroy fortifications.", "Airborne forces need artillery and command that can be dropped and work independently."],
@@ -10656,7 +10656,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "2S19 Msta-S 152mm self-propelled howitzer",
+    title: "2S19 Msta-S 152mm Self-Propelled Howitzer",
     what: ["The backbone of Russian self-propelled artillery since 1989, replacing the 2S3 Akatsiya.", "It weighs 42 tonnes and mounts the 152mm 2A64 gun."],
     how: ["The chassis combines T-80 running gear with the T-72 engine.", "Projectiles are loaded automatically; charges by hand. Sustained fire is 6 to 8 rounds a minute.", "Range is 24.7 km with high explosive and 36 km with rocket-assisted rounds.", "The 2S19M2 and 2S33 Msta-SM2 add the longer 2A79 gun, better fire control, GLONASS and up to 10 rounds a minute."],
     why: ["A well-armoured tracked gun that can keep up with tank units.", "Compare the US M109A7: similar role, 155mm, also tracked."],
@@ -10674,7 +10674,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "2S35 Koalitsiya-SV automated howitzer",
+    title: "2S35 Koalitsiya-SV Automated Howitzer",
     what: ["A 152mm self-propelled howitzer on a T-90 chassis, with the 2A88 gun in an unmanned robotic turret."],
     how: ["Three crew sit in an armoured capsule in the hull, instead of five.", "Rate of fire up to 16 rounds a minute.", "Range with precision-guided rounds is given as over 70 km. Weight 55 tonnes."],
     why: ["Automation raises the rate of fire and keeps the crew away from the gun.", "Compare the cancelled US ERCA, which also sought much longer range from a new gun."],
@@ -10692,7 +10692,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "2S43 Malva wheeled howitzer",
+    title: "2S43 Malva Wheeled Howitzer",
     what: ["An 8x8 wheeled 152mm self-propelled gun on the BAZ-6010-027 chassis, with the same 2A64 gun as the Msta-S.", "State trials ended in May 2023; first deliveries came in late 2023 and continued into 2024."],
     how: ["It weighs 32 tonnes and can be carried by Il-76 aircraft.", "Range 24.5 km; about 7 rounds a minute."],
     why: ["It trades armour for road speed and lower maintenance on long marches.", "Wheels make fire-and-move faster, which matters against counter-battery radar and drones.", "Compare the US Self-Propelled Howitzer Modernization programme, which is also looking at wheeled guns."],
@@ -10710,7 +10710,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Brigade", "Division"],
     type: "Equipment",
-    title: "2S4 Tyulpan 240mm self-propelled mortar",
+    title: "2S4 Tyulpan 240mm Self-Propelled Mortar",
     what: ["A rare heavy self-propelled mortar used for urban warfare and reducing fortified positions."],
     how: ["It fires very heavy bombs at high angle against buildings and strongpoints."],
     why: ["Its slow displacement makes it very vulnerable to counter-battery fire and drones."],
@@ -10728,7 +10728,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Corps", "Theatre"],
     type: "Equipment",
-    title: "Iskander-M missile brigades",
+    title: "Iskander-M Missile Brigades",
     what: ["At least one Iskander-M (9K720) brigade is assigned to each combined arms army or military district.", "Brigades are growing from 12 to 16 launchers (TELs)."],
     how: ["Each launcher carries two 9M723 ballistic missiles with a range of up to 500 km.", "Guidance combines an electro-optical seeker, GLONASS and inertial navigation, for an accuracy (CEP) of 5 to 10 m.", "Russia practises using Iskander and the Tornado-S launcher together in one reconnaissance-strike complex: rocket mass with missile precision.", "Reported: procurement documents point to Russian help for North Korea in modernising its KN-23 and KN-24 missiles, which resemble Iskander."],
     why: ["Iskander gives the army its own operational-depth precision strike.", "Compare US PrSM, fired from HIMARS: two per pod, similar role."],
@@ -10746,7 +10746,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Battalion", "Brigade"],
     type: "Equipment",
-    title: "Tornado-G 122mm rocket launcher",
+    title: "Tornado-G 122mm Rocket Launcher",
     what: ["The modernised replacement for the BM-21 Grad: 40 tubes of 122mm on a Ural-4320 6x6 truck."],
     how: ["Automated fire control, satellite navigation and digital targeting let the crew of two or three fire a full 40-rocket salvo in 20 seconds without leaving the armoured cab.", "Rockets include cluster (9M217, 9M218) and high explosive (9M539). Range is 20 km standard and up to 40 km."],
     why: ["It keeps the volume of the Grad while cutting the time the crew is exposed."],
@@ -10764,7 +10764,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Brigade", "Division", "Corps"],
     type: "Equipment",
-    title: "Tornado-S 300mm rocket launcher",
+    title: "Tornado-S 300mm Rocket Launcher",
     what: ["An upgrade of the BM-30 Smerch: 12 rockets of 300mm."],
     how: ["Range is 70 km standard and 120 km with GLONASS-guided rockets.", "Payloads include sensor-fuzed anti-tank submunitions (9M532, 9M533) and thermobaric warheads.", "Work continues to reach about 200 km with the guided 9M544 rocket. A salvo takes about 40 seconds."],
     why: ["It gives heavy area fire and precision at operational depth, alongside Iskander.", "Compare the US M270A2 and GMLRS."],
@@ -10782,7 +10782,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Company"],
     type: "Equipment",
-    title: "TOS-1A and TOS-2 thermobaric launchers",
+    title: "TOS-1A and TOS-2 Thermobaric Launchers",
     what: ["TOS-1A “Solntsepek”: 24 tubes of 220mm on a T-72 chassis, range about 6 km.", "TOS-2 “Tosochka”, shown in 2020: a 6x6 Ural wheeled chassis with the MO.1.01.04M2 rocket, range up to 20 km."],
     how: ["The rockets create an aerosol cloud that detonates, giving a supersonic blast and temperatures up to 1,000°C.", "TOS-2 has its own hydraulic crane, so it needs no separate loader vehicle."],
     why: ["The concept came from Afghanistan, to clear fighters dug into mountain gorges.", "The TOS-1A’s short range forces it close to the front, where anti-tank missiles and drones can hit it. The TOS-2’s range keeps it outside most line-of-sight missiles."],
@@ -10800,7 +10800,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Company", "Battalion"],
     type: "Equipment",
-    title: "Battalion mortars and the Gran guided round",
+    title: "Battalion Mortars and the Gran Guided Round",
     what: ["Each motor rifle battalion has a mortar battery of eight 120mm 2S12 Sani, 82mm 2B14 Podnos or 82mm 2B9 Vasilek automatic mortars."],
     how: ["The 2S12 is carried by a Ural-43206 truck or MT-LB tracked vehicle.", "The 2S12A has a 2F32 kit with an electric winch, so the crew can bring the 230 kg weapon into action in under three minutes.", "The 120mm KM-8 Gran is a laser-guided high explosive round with a 9E430 seeker."],
     why: ["The battalion keeps its own immediate high-angle fire for mountains and towns.", "Compare the US battalion mortar platoon of 120mm and 81mm."],
@@ -10818,7 +10818,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "2K25 Krasnopol laser-guided shell",
+    title: "2K25 Krasnopol Laser-Guided Shell",
     what: ["Russia’s main precision artillery round, 152mm, fired from the 2S19, 2S3 or 2S43."],
     how: ["Base bleed gives a range of 20 to 25 km.", "In the final phase, fins steer it onto a spot lit by a laser designator, usually on an Orlan-30 drone or with special forces.", "The Krasnopol-M2 is credited with an accuracy (CEP) of 1 to 2 m."],
     why: ["One precise round can kill moving armour, air defence or command posts, saving ammunition.", "Compare the US Excalibur, which uses GPS instead of a laser and so needs no designator but can be jammed."],
@@ -10836,7 +10836,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Battalion", "Brigade"],
     type: "Equipment",
-    title: "Orlan-10 and Orlan-30 drones",
+    title: "Orlan-10 and Orlan-30 Drones",
     what: ["The Orlan-10, from the Special Technology Center in St Petersburg, is the main tactical reconnaissance drone for Russian artillery.", "The heavier Orlan-30 (27 kg) carries a laser designator."],
     how: ["The Orlan-10 flies up to 16 hours and up to 5,000 m, with a composite body that reduces its radar signature.", "They usually fly in groups: one for optical and thermal reconnaissance at 1,000 to 1,500 m, one for electronic warfare and one as a relay, extending range up to 600 km.", "The Orlan-30 lights targets for Krasnopol shells and Gran mortar rounds."],
     why: ["Drones are the artillery’s eyes: they find targets and confirm damage.", "They fly too high for most short-range air defence and are too cheap to justify expensive missiles."],
@@ -10854,7 +10854,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Brigade", "Division", "Theatre"],
     type: "Force Structure",
-    title: "The Rubicon drone centre",
+    title: "The Rubicon Drone Centre",
     what: ["The Ministry of Defence set up the Rubicon Center of Advanced Unmanned Technologies in August 2024, to bring scattered drone efforts under one research, procurement and operational body.", "Reported: it grew to about 5,000 personnel by 2026."],
     how: ["A detachment has four FPV quadcopter platoons, a fixed-wing strike group of 72 and a reconnaissance-strike group of 69 that runs Zala and Supercam drones and loitering munitions.", "It works directly with manufacturers, for example to field fibre-optic FPV drones such as the VT-40 that cannot be jammed."],
     why: ["It joins reconnaissance and strike at the tactical edge and speeds up innovation.", "Fast growth diluted recruiting quality. Its success made its command posts and stores priority targets for Ukrainian long-range strikes.", "Compare US LASSO platoons, which put loitering munitions inside brigades rather than in a separate elite centre."],
@@ -10872,7 +10872,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Battalion", "Brigade"],
     type: "Equipment",
-    title: "Lancet loitering munition",
+    title: "Lancet Loitering Munition",
     what: ["A loitering munition that has been highly effective against artillery."],
     how: ["It orbits until an Orlan-10 finds a high-value target, receives the data and dives onto it.", "Range over 40 km; about 40 minutes in the air; high explosive anti-tank warhead."],
     why: ["It lets Russia strike guns and radars that move, without using artillery ammunition.", "Compare the US Switchblade 600."],
@@ -10890,7 +10890,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Battalion", "Brigade", "Division"],
     type: "Equipment",
-    title: "Counter-battery radars: Zoopark, Aistenok, SNAR-10M1 and PRP-5",
+    title: "Counter-battery Radars: Zoopark, Aistenok, SNAR-10M1 and PRP-5",
     what: ["1L219M Zoopark-1 and 1L260 Zoopark-1M are the main counter-battery radars.", "At tactical level: the portable 1L271 Aistenok and the SNAR-10M1 battlefield surveillance radar."],
     how: ["Zoopark computes the path of incoming shells and sends the enemy gun position to fire direction centres.", "SNAR-10M1, on an MT-LBu with the Kredo-1E radar, detects bursts, vehicles and infantry out to 40 km and passes data by satellite.", "The newer PRP-5, on BMP-3 or BTR-82A, has radar and optics and can swim."],
     why: ["Radars find enemy guns fast, but their emissions make them targets for anti-radiation missiles and drones.", "Compare the US AN/TPQ-53."],
@@ -10908,7 +10908,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Brigade"],
     type: "Equipment",
-    title: "1B75 Penicillin passive artillery locator",
+    title: "1B75 Penicillin Passive Artillery Locator",
     what: ["An acoustic and thermal system that locates enemy artillery without emitting."],
     how: ["Seismic and acoustic sensors with thermal imaging detect the sound and flash of firing guns.", "Reported: it locates firing positions within 5 seconds at up to 25 km, automatically and without exposing its crew."],
     why: ["Because it sends no signal, it cannot easily be jammed or found by anti-radiation weapons.", "Compare US acoustic sensors and the MANOWAR test."],
@@ -10926,7 +10926,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Company", "Battalion"],
     type: "Equipment",
-    title: "Artillery command vehicles: 1V12 and 1V17",
+    title: "Artillery Command Vehicles: 1V12 and 1V17",
     what: ["The tactical command architecture is the ESU TZ unified tactical command system.", "1V12, on the tracked MT-LBu: 1V13 battery fire control, 1V14 battery command and observation, 1V15 battalion command post, 1V16 battalion fire direction.", "1V17, on the BTR-60PB 8x8 for wheeled and towed units: 1V18 battery and 1V19 battalion commander vehicles."],
     how: ["The vehicles carry navigation, rangefinders and analogue or early digital computers for met and ballistic data.", "The 1V18 and 1V19 have a distinctive turret with laser rangefinders, day and night sights and aiming circles.", "1V110 and 1V111 trucks (GAZ-66, ZIL-131) house fire direction computers."],
     why: ["Command moves with the guns in armoured vehicles.", "The BTR-60’s twin engines and transmissions are hard to maintain. Reaction time with these systems is over three minutes."],
@@ -10944,7 +10944,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Company", "Battalion"],
     type: "Equipment",
-    title: "1V198 networked fire control and Strelets",
+    title: "1V198 Networked Fire Control and Strelets",
     what: ["Reported, not confirmed: the source report gives no clear source for the AI claims below.", "The 1V198 is a third-generation networked command complex: 1V1003 command and observation vehicles on BTR-80 and 1V1004 staff vehicles on Ural trucks."],
     how: ["Reported: it takes drone video directly and uses AI to classify targets, for example telling a tank from a decoy, and sets strike priority by doctrine.", "It links to the KRUS Strelets wearable computer used by forward observers, giving a digital thread from scout to battery.", "Tablet-A and Penicillin are recent additions that cut deployment time.", "Reported: reaction time 30 to 60 seconds, against over three minutes for the older vehicles."],
     why: ["Reported: automation is meant to shorten the sensor-to-shooter time."],
@@ -10962,7 +10962,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Company", "Battalion"],
     type: "TTP",
-    title: "Manual fallback: the PAB-2M aiming circle and met data",
+    title: "Manual Fallback: The PAB-2M Aiming Circle and Met Data",
     what: ["Despite automation, Russian artillery keeps manual survey and fallback procedures."],
     how: ["The PAB-2M periscopic aiming circle, a Cold War theodolite and compass with 8x magnification, orients batteries by hand when digital systems fail or GLONASS is jammed.", "Cadets and mobilised soldiers train to set it up quickly in the field.", "Met vehicles such as the 1B44 of the Meteo-4 complex collect local weather data for unguided ballistic calculations."],
     why: ["Firing must continue in a jammed electromagnetic environment.", "Compare the US M2A2 aiming circle and manual gunnery."],
@@ -10980,7 +10980,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["Battalion", "Brigade"],
     type: "TTP",
-    title: "Counter-battery in practice: the promise and the friction",
+    title: "Counter-battery in Practice: The Promise and the Friction",
     what: ["Analysis: Russian state media claim a three-minute counter-battery response; the report judges reality slower."],
     how: ["Analysis: the chain is detection, identification, sending coordinates, command decision, fire control, gun preparation and flight time.", "Analysis: a fast radar detection is often lost to network bottlenecks, too few trained operators for systems such as Strelets, or hesitant command.", "Analysis: to survive enemy counter-battery fire, commanders spread individual guns far apart, sometimes firing them remotely, rather than the doctrinal tight battery."],
     why: ["Analysis: towed guns are very vulnerable because they take long to emplace and move; even self-propelled guns are at risk if they fall into routines.", "Analysis: equipment speed means little if people and networks are the slow link."],
@@ -10998,7 +10998,7 @@ const APP_DATA = [
     force: "Russian Ground Forces",
     echelon: ["N/A"],
     type: "Equipment",
-    title: "Barrels and chromium: the hidden limit",
+    title: "Barrels and Chromium: The Hidden Limit",
     what: ["A barrel typically wears out after 2,000 to 6,000 rounds; accuracy falls and the risk of bursting rises.", "Only a few plants, mainly Plant No. 9 in Yekaterinburg and Titan-Barrikady in Volgograd, can forge and bore large-calibre barrels."],
     how: ["Chromium lining can extend barrel life up to three times.", "Russia mines 1.5 to 2 million tons of chromium ore a year, but of low quality, so it imports high-grade chromium from Kazakhstan and re-exported South African ore.", "Sanctions cut batch output rather than stopping it. Old guns in storage are stripped for barrels."],
     why: ["The “wall of fire” is limited by barrel wear as much as by ammunition.", "Compare the US, where a single arsenal at Watervliet makes all large-calibre barrels."],
@@ -11016,7 +11016,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["N/A"],
     type: "Equipment",
-    title: "Shells: cheap at home, bought abroad",
+    title: "Shells: Cheap at Home, Bought Abroad",
     what: ["Russian doctrine demands huge volumes of fire, often up to 10,000 shells a day in sustained operations.", "State subsidies keep the cost of a 152mm shell below 100,000 roubles (about €1,050), far below Western 155mm."],
     how: ["Domestic production has not met demand.", "Reported: Russia has received an estimated five to seven million shells from Iran and North Korea since 2023.", "Reported: intelligence assessments say nearly half the artillery ammunition Russia used in the second half of 2025 came from North Korea."],
     why: ["Analysis: mass fire depends on partners as well as factories, and links Russia’s war to North Korea’s and Iran’s industries.", "Compare US production rates and the 100,000-round monthly target."],
@@ -11034,7 +11034,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Theatre"],
     type: "Major Exercise",
-    title: "CSTO exercises: Interaction, Search and Echelon 2026",
+    title: "CSTO Exercises: Interaction, Search and Echelon 2026",
     what: ["The Collective Security Treaty Organization ran three linked exercises in 2026, “Interaction-2026”, “Search-2026” and “Echelon-2026”, in Belarus and the Russian Urals."],
     how: ["They practise bringing allied units into Russian command and control.", "Scenarios use lessons from recent wars: small drone swarms, electronic warfare and protecting transport routes from loitering munitions.", "They include counter-sabotage against insurgent groups and logistics under contested conditions."],
     why: ["They share Russia’s artillery and drone experience with allies.", "They signal unity and strength to NATO, at times linked with nuclear signalling."],
@@ -11052,7 +11052,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Theatre"],
     type: "Lesson",
-    title: "The law on paper and strikes in practice",
+    title: "The Law on Paper and Strikes in Practice",
     what: ["The Manual on International Humanitarian Law for the Russian Armed Forces sets out distinction, proportionality and military necessity.", "It prohibits killing or wounding civilians, indiscriminate attacks and terrorising the civilian population, and requires legal review of combat orders and warnings when circumstances permit."],
     how: ["Analysis: missile and drone strikes on Ukraine’s energy system aim at cascading failure, degrading both military logistics and civilian will.", "Analysis: grids and bridges such as the Kerch Bridge can be military objectives, but the scale of attacks often pushes the limits of proportionality.", "Analysis: legal scholars and international courts argue that long campaigns against homes and winter power cross into terror against civilians. International Criminal Court arrest warrants have been issued."],
     why: ["Analysis: accountability works far more slowly than targeting, so the cost is accepted in the near term.", "Compare US practice under DoD Instruction 3000.17 and Collateral Damage Estimation."],
@@ -11070,7 +11070,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Theatre"],
     type: "Force Structure",
-    title: "Why South Korea is an artillery army",
+    title: "Why South Korea Is an Artillery Army",
     what: ["In 1950 the ROK Army had about 95,000 men, no tanks or heavy artillery, and ammunition for only a few days. It relied on attached US 105mm battalions.", "Today it has over 400,000 active personnel, 2,838 tanks and about 9,300 artillery pieces."],
     how: ["Infantry holds ground, armour breaks through, and artillery is the main means of firepower and destruction.", "Seoul lies within range of thousands of North Korean guns and rocket launchers, so ROK artillery is a strategic deterrent, not only tactical support."],
     why: ["The war left a lasting rule: never again be outgunned on the ground.", "Compare the US, whose artillery supports manoeuvre; in Korea, defeating enemy artillery is the first mission."],
@@ -11088,7 +11088,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Battalion", "Brigade", "Corps"],
     type: "TTP",
-    title: "Counter-battery first: shoot, scoot and hide underground",
+    title: "Counter-battery First: Shoot, Scoot and Hide Underground",
     what: ["In war, the first priority of ROK artillery is counter-battery fire: silence North Korean guns before they hit civilians and infrastructure.", "Both sides have mapped each other’s fixed sites during the long armistice, so fixed positions are expected to be hit at once."],
     how: ["Radars compute the enemy firing point; firing data goes digitally to self-propelled guns or rocket launchers.", "These move from hardened underground staging areas to pre-surveyed firing points, fire a burst and move again before return fire arrives.", "Hardened Artillery Sites (HARTS) 10 to 20 km south of the DMZ protect guns, resupply vehicles, command posts and magazines.", "Rules of engagement and combined plans with US Forces Korea include pre-approved target lists and fast consultation for immediate return fire."],
     why: ["The 2010 shelling of Yeonpyeong Island and clashes on the Northern Limit Line reinforced the need for immediate, heavy return fire.", "Compare the US 210th Field Artillery Brigade, which holds a standing counter-fire mission in Korea."],
@@ -11106,7 +11106,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Battalion", "Brigade", "Division", "Corps"],
     type: "Force Structure",
-    title: "Artillery from corps to brigade",
+    title: "Artillery from Corps to Brigade",
     what: ["In 2019 the First and Third ROK Armies merged into the Ground Operations Command (GOC) for the front; the Second Operations Command holds the rear.", "The army has six corps and 34 divisions. Each corps has an artillery brigade, such as the 1st, 2nd, 5th and 7th and the Capital Artillery Brigade."],
     how: ["Corps artillery brigades hold the longest-range assets: 155mm self-propelled howitzers, rocket launchers and long-range counter-battery radars.", "In December 2020 the regiments in infantry and mechanised divisions became independent brigades, each with its own direct support artillery battalion.", "These battalions are moving from towed guns and hand-loaded heavy mortars to wheeled howitzers and self-propelled mortars."],
     why: ["Independent brigades with their own artillery can fight on their own.", "Compare the US Army, which is moving the other way: cannon battalions out of brigades to the division."],
@@ -11124,7 +11124,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Company", "Battalion", "Brigade"],
     type: "Liaison Element",
-    title: "Fire support officers and coordinators",
+    title: "Fire Support Officers and Coordinators",
     what: ["The Fire Support Element (FSE) and liaison officers at battalion and above link manoeuvre units to the guns.", "The Fire Support Officer, also called Fire Employ Officer, usually a lieutenant or captain, is attached to infantry or armoured battalions."],
     how: ["The FSO commands the observer teams, manages target acquisition assets, oversees collateral damage estimates and sends fire requests to the battalion Fire Direction Center.", "In mechanised units the FSO works closely with signals to keep data links up on the move.", "At brigade, the Fire Support Coordinator writes the scheme of fires, sets common procedures, recommends coordination measures and positions the artillery.", "Reported: the report says the Fires Center of Excellence trains these officers and certifies joint fires observers; that is the US school at Fort Sill, so the training link is unclear."],
     why: ["The structure mirrors US fire support liaison, which eases combined operations with US forces."],
@@ -11142,7 +11142,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Brigade", "Corps"],
     type: "Equipment",
-    title: "TPQ-74K weapon-locating radar",
+    title: "TPQ-74K Weapon-Locating Radar",
     what: ["After Yeonpyeong in 2010, Korea bought more ARTHUR (TPQ-54) radars from Saab, then fielded its own TPQ-74K from LIG Nex1."],
     how: ["It uses an active electronically scanned array to detect incoming fire, compute the trajectory and send the firing point to fire control centres.", "Detection range is over 60 km, against 40 km for ARTHUR-K. It runs 8 hours continuously, against 6.", "Two overlapping radars can watch a sector all year round. About 95% of parts are made in Korea."],
     why: ["Home production removes foreign supply risk for the most critical sensor.", "Compare the US AN/TPQ-53."],
@@ -11160,7 +11160,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Battalion"],
     type: "Command & Control",
-    title: "BTCS battalion fire direction system",
+    title: "BTCS Battalion Fire Direction System",
     what: ["The Battalion Tactical Command System (BTCS), by LIG Nex1, has been the brain of the battalion Fire Direction Center since April 1994."],
     how: ["It computes firing data from observer or radar coordinates, correcting for met data, wind and propellant temperature.", "It sits in K-77 tracked fire direction vehicles (K55 chassis) for self-propelled units, or in K-511 trucks for towed units, with rugged keyboards and dot-matrix printers for paper records.", "The BTCS A1 adds USB, modern storage and software that shares messages and weather data between headquarters and batteries."],
     why: ["Hard-copy printouts give a record if digital systems fail.", "Compare the US battery and battalion FDC with AFATDS."],
@@ -11178,7 +11178,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Brigade", "Division", "Corps"],
     type: "Command & Control",
-    title: "ATCIS: the army command network",
+    title: "ATCIS: The Army Command Network",
     what: ["The Army Tactical Command Information System (ATCIS) fuses intelligence, logistics and manoeuvre data from all echelons into a common operating picture."],
     how: ["The ATCIS 2nd PIP upgrade moves it to a web-based design with cloud servers, virtual desktops and AI.", "It is meant to support manned-unmanned teaming and to prioritise threats, including estimating the likelihood of enemy provocations from sensor data.", "Today it runs mainly on intranet terminals; the aim is over 60,000 mobile devices for dismounted troops by 2034."],
     why: ["Faster decisions in a mass counter-battery fight, with less load on commanders."],
@@ -11196,7 +11196,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Corps", "Theatre"],
     type: "Command & Control",
-    title: "JFOS-K and JTIC2S: firing with the US",
+    title: "JFOS-K and JTIC2S: Firing with the US",
     what: ["The Joint Fire Operation System-Korea (JFOS-K) links ROK networks with the US Joint Automated Deep Operations Coordination System (JADOCS)."],
     how: ["It gives both forces the same picture of the counter-fire fight, deconflicts airspace and translates between Korean and English.", "It assigns each target to the best national weapon, for example ROK K9 howitzers or US MLRS, and runs combined strikes.", "Ahead of the transfer of wartime operational control (OPCON) from the US, Korea is moving to the Joint Targeting Integrated Command and Coordination Suite (JTIC2S), which stays compatible with JADOCS."],
     why: ["A combined counter-fire fight needs one shared picture across two national systems.", "Compare US-allied digital links such as ASCA."],
@@ -11214,7 +11214,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "K9 Thunder 155mm self-propelled howitzer",
+    title: "K9 Thunder 155mm Self-Propelled Howitzer",
     what: ["The centre of ROK fire support, replacing the K55 (a Korean M109). Development began in 1989; production in 1999.", "Reported: it holds about 52% of the world export market for self-propelled howitzers, with users including Poland, Turkey, India, Finland, Norway, Estonia and Australia."],
     how: ["47 tons, 155mm 52-calibre CN98 gun, 48 rounds, crew of five. Hydro-pneumatic suspension absorbs recoil, so no spades are needed.", "Burst of 3 rounds in 15 seconds; 6 to 8 rounds a minute for three minutes; 2 to 3 sustained. It can fire multiple rounds to land at once (MRSI).", "Ranges: 18 km (M107 HE), 30 km (M549A1 rocket-assisted), 36 km (K310 base bleed DPICM), 40 to 41 km (K307 base bleed HE), 54 to 55 km (K315 extended range).", "It locates itself with inertial navigation and fires without outside survey. It can stop, fire within 30 to 60 seconds and move again in 30 seconds.", "Reported: an accuracy under 1 m at 50 km is claimed for point-detonating fire."],
     why: ["Speed into and out of action is its protection against counter-battery fire.", "Compare the US M109A7: 39-calibre gun, shorter range."],
@@ -11232,7 +11232,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "K9A1 and K9A2 upgrades",
+    title: "K9A1 and K9A2 Upgrades",
     what: ["The whole ROK K9 fleet is being upgraded to K9A1; the K9A2 is planned for service by 2027."],
     how: ["K9A1: an 8 kW auxiliary power unit runs the turret and computers with the main engine off; thermal driver periscopes; INS/GPS navigation; fire control for 60 km ammunition.", "K9A2: a fully automated turret handles shell and charge, cutting the crew from five to three and raising the rate to 9 to 10 rounds a minute (6 sustained).", "A K9A3 concept looks at ramjet rounds approaching 100 km."],
     why: ["The auxiliary power unit cuts noise, heat signature and fuel use.", "Automation answers a shrinking pool of conscripts.", "Compare the US XM1155 ramjet projectile."],
@@ -11250,7 +11250,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "K10 ammunition resupply vehicle",
+    title: "K10 Ammunition Resupply Vehicle",
     what: ["Built on the K9 chassis. A battalion pairs 18 K9 with 18 K10."],
     how: ["It carries 104 rounds and docks a robotic conveyor to the back of the K9 turret, transferring 12 rounds a minute.", "Loading the K10 at a dump takes about 37 minutes; emptying it into guns about 28 minutes."],
     why: ["Guns are rearmed under fire or in contaminated areas without crews going outside.", "Compare the US M992A3 FAASV."],
@@ -11268,7 +11268,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "K105HT wheeled 105mm howitzer",
+    title: "K105HT Wheeled 105mm Howitzer",
     what: ["A recycled M101 105mm howitzer on a K721 5-ton 6x6 truck, by Hanwha, first called EVO-105. Named after Lt Col Kim Pungik. The works cited also call it K105A1.", "It uses Korea’s large stock of 105mm shells and spare M101 barrels and replaces the K242 4.2-inch mortar in infantry units."],
     how: ["Digital fire control and GPS/INS give automatic laying. Hydraulic outriggers stabilise the truck.", "It halts and fires within a minute and moves in 30 seconds, against about 10 minutes to emplace a towed 105mm.", "Crew of 3 or 4 instead of 8; range 11.3 km; 10 rounds a minute burst, 3 sustained; 60 rounds; 19 tons; cab armoured against 5.56mm and fragments."],
     why: ["Old guns become mobile, digital and survivable at low cost.", "Compare the US M119A3."],
@@ -11286,7 +11286,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "KSM-120 Skyfall self-propelled mortar",
+    title: "KSM-120 Skyfall Self-Propelled Mortar",
     what: ["A 120mm rifled mortar on the K200A1 tracked carrier, by Hanwha and SNT Dynamics under DAPA, replacing the K242 4.2-inch carriers in mechanised units."],
     how: ["Range 8 km with HE, 12 km with rocket-assisted rounds. Top speed 70 km/h, keeping pace with K1 and K2 tanks.", "A semi-automatic lifter raises bombs to the muzzle, so a crew of four can fire 8 rounds a minute (3 sustained).", "The mount turns 360 degrees, and fire control links to ATCIS.", "Reported: the 120mm bomb is said to have about 2.6 times the effect of a 105mm shell and 70 to 80% of a 155mm."],
     why: ["Mechanised battalions get heavy, quick fire without slowing the tanks.", "Compare US M1287 and M121 120mm mortar carriers."],
@@ -11304,7 +11304,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Brigade", "Corps"],
     type: "Equipment",
-    title: "K239 Chunmoo rocket launcher",
+    title: "K239 Chunmoo Rocket Launcher",
     what: ["An 8x8 launcher by Hanwha, replacing the unguided K136 Kooryong and complementing the M270."],
     how: ["Two sealed pods, changed with a built-in crane, can be mixed for the task.", "130mm unguided: 20 per pod. 227mm unguided: 6 per pod, compatible with M270 munitions. 239mm guided: 6 per pod, about 80 km.", "Exported to Poland, Croatia and the UAE."],
     why: ["Guided 239mm rockets turn an area weapon into a long-range precision one.", "Compare the US HIMARS and M270."],
@@ -11322,7 +11322,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Corps", "Theatre"],
     type: "Equipment",
-    title: "KTSSM “Ure”: the artillery-killer missile",
+    title: "KTSSM “Ure”: The Artillery-Killer Missile",
     what: ["The Korean Tactical Surface-to-Surface Missile was developed after Yeonpyeong to destroy North Korean long-range artillery in tunnels and bunkers."],
     how: ["North Korean guns in hardened sites on reverse slopes roll out, fire at Seoul and roll back behind blast doors before a 155mm reply can arrive.", "KTSSM is a fast-reaction ballistic missile from fixed silos or mobile launchers.", "The military says the KTSSM-I has penetrating thermobaric warheads that strike a tunnel mouth or vent, burning out and collapsing the interior even without a direct hit on the gun."],
     why: ["It solves a target that tube artillery cannot reach in time.", "Compare the US ATACMS and PrSM, which are not built for tunnels."],
@@ -11340,7 +11340,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Battalion", "Brigade"],
     type: "Equipment",
-    title: "Warmate 3 loitering munitions",
+    title: "Warmate 3 Loitering Munitions",
     what: ["In October 2024 the ROK signed for over 100 Warmate 3 loitering munitions from Poland’s WB Group, aiming for nearly 200."],
     how: ["It loiters up to 70 minutes and hunts with day and thermal cameras for launchers that moved after firing.", "Radio range 30 km, or 80 km with control handover. The engine can stop in the final dive at 150 km/h; a target lock completes the attack if the link is jammed.", "Warheads up to 3 kg: HE, fragmentation or HEAT that penetrates 200 to 240mm of armour. It can work with FlyEye reconnaissance drones.", "The ROK Dronebot Combat unit leads drone and robot integration, including the Arion-SMET ground robot."],
     why: ["Radar coordinates go stale when a launcher moves; a loitering munition can find it again.", "Compare the US Switchblade 600."],
@@ -11358,7 +11358,7 @@ const APP_DATA = [
     force: "ROK Army",
     echelon: ["Theatre"],
     type: "Lesson",
-    title: "Where ROK artillery is heading",
+    title: "Where ROK Artillery Is Heading",
     what: ["Analysis: the report draws four trends from the programmes above."],
     how: ["Analysis: automation and smaller crews, driven by a shrinking conscript pool (K9A2, K10, KSM-120).", "Analysis: AI-assisted command (ATCIS 2nd PIP, JTIC2S) to pair targets with shooters in seconds.", "Analysis: a hybrid of mass fire (K9, K105HT), bunker-busting missiles (KTSSM) and hunter-killer drones (Warmate 3).", "Analysis: home-made sensors and networks for control of the kill chain, and exports (K9, Chunmoo) that pay for further development."],
     why: ["Analysis: artillery has become a tool of national survival and deterrence, not only infantry support."],
@@ -11376,7 +11376,7 @@ const APP_DATA = [
     force: "Armed Forces of Ukraine",
     echelon: ["Theatre"],
     type: "Force Structure",
-    title: "Outgunned from the start",
+    title: "Outgunned from the Start",
     what: ["From 2014 to 2019 Ukraine doubled its field artillery battalions. In early 2022 its Missile Troops and Artillery had ten field artillery brigades and one regiment in the Ground Forces, plus a brigade and a regiment in the Navy.", "In February 2022 Russia had 2,433 tube systems and 3,547 rocket launchers against Ukraine’s 1,176 and 1,680: just over 2 to 1."],
     how: ["Ukraine’s guns were mostly Soviet: 742 152mm (such as 2S3, 2S5), 421 122mm (such as 2S1), 13 203mm, and 40 Tochka-U missile systems.", "In the first 48 hours Russia hit 75% of Ukraine’s fixed defence sites. Ukraine survived by dispersing and by massed fire from two mobile artillery brigades.", "Parity lasted about six weeks. By June 2022 Russia fired about ten times as much."],
     why: ["Unable to match mass, Ukraine sought precision, digital integration and agile command instead.", "Compare Russia’s reconnaissance-strike approach in the Russia topic."],
@@ -11394,7 +11394,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Theatre"],
     type: "Lesson",
-    title: "What the artillery war teaches",
+    title: "What the Artillery War Teaches",
     what: ["Analysis: the report sees Russia caught in an “efficacy dilemma” and Ukraine forced into a different model."],
     how: ["Analysis: Russia, treating troops as expendable and short of trained units, relies on frontal assaults behind heavy barrages, with small gains, very high losses and heavy barrel and vehicle wear.", "Reported: analysts expect Russia to use up most of its Soviet-era tank and artillery stock by 2026.", "Analysis: Ukraine’s answer is networked dispersion, fast mobility and open data models."],
     why: ["Analysis: mass and rigid hierarchy can be out-manoeuvred by speed and networks, but only with enough ammunition behind them."],
@@ -11412,7 +11412,7 @@ const APP_DATA = [
     force: "Armed Forces of Ukraine",
     echelon: ["Brigade", "Corps", "Theatre"],
     type: "Force Structure",
-    title: "From brigades to an 18-corps army",
+    title: "From Brigades to an 18-corps Army",
     what: ["Before 2022 Ukraine fought with self-contained brigades placed under temporary operational-tactical (OTUV) and operational-strategic (OSUV) groupings, within four Operational Commands.", "From 2024, accelerating in 2025, it reorganised into 18 corps, closer to NATO structures."],
     how: ["A corps has five to seven brigades, 60,000 to 80,000 troops.", "Ground Forces 13 corps; Air Assault Forces 2; National Guard 2 (1st Azov, 2nd Khartia); Marines 1 (30th Marine Corps).", "Ukraine skipped divisions because it lacked trained staff to build corps, division and brigade headquarters at once."],
     why: ["A brigade is consumed by the close fight. Someone above it must synchronise fires, logistics, routes and protection over days.", "Compare the US, where the division does this work."],
@@ -11430,7 +11430,7 @@ const APP_DATA = [
     force: "Armed Forces of Ukraine",
     echelon: ["Brigade", "Corps"],
     type: "Force Structure",
-    title: "Brigade Artillery Groups and corps artillery brigades",
+    title: "Brigade Artillery Groups and Corps Artillery Brigades",
     what: ["Artillery sits both at corps and inside combat brigades as Brigade Artillery Groups (BAGs), with their own target acquisition, reconnaissance, fire direction, signals and logistics."],
     how: ["The Azov brigade’s BAG grew from one howitzer battalion in 2015 to three field artillery battalions, a rocket battalion and target acquisition units.", "The National Guard’s first artillery brigade, the 16th, has target acquisition, reconnaissance and observer batteries, three field artillery battalions, a self-propelled battalion and an anti-tank battalion.", "The 147th and 148th Artillery Brigades serve the 7th and 8th Air Assault Corps; older brigades such as the 26th, 40th, 43rd, 44th, 45th, 55th and 406th give deep fire."],
     why: ["A corps-wide pool of guns gives software such as GIS Arta many shooters to choose from.", "Compare the US Division Artillery and the field artillery brigade."],
@@ -11448,7 +11448,7 @@ const APP_DATA = [
     force: "Armed Forces of Ukraine",
     echelon: ["Brigade", "Corps", "Theatre"],
     type: "Command & Control",
-    title: "Delta: the shared battle picture",
+    title: "Delta: The Shared Battle Picture",
     what: ["A cloud-based situational awareness system giving a theatre-wide common operating picture. Started in 2015 by the Aerorozvidka volunteer unit, it is now run by the Ministry of Defence’s innovation centre."],
     how: ["It fuses drone video, radar satellite images, intercepted signals and ground reports in real time.", "It uses NATO standards: MIP for ground staff data, Link 16, Cursor on Target, APP-6/MIL-STD-2525 symbols and Federated Mission Networking.", "Apps connect through documented interfaces to one shared data model, so one app can fail or be replaced without breaking the picture.", "Reported: AI target recognition, trained on frontline video through the Brave1 dataroom, saves analysts up to 90% of the time. A human makes the final decision to strike."],
     why: ["The data model, not any single app, is what holds the system together.", "Compare the US Maven Smart System and the push for an integrated data layer."],
@@ -11466,7 +11466,7 @@ const APP_DATA = [
     force: "Armed Forces of Ukraine",
     echelon: ["Battalion", "Brigade", "Corps"],
     type: "Command & Control",
-    title: "GIS Arta: “Uber for artillery”",
+    title: "GIS Arta: “Uber for Artillery”",
     what: ["Fire mission dispatch software developed in May 2014 by Ukrainian programmers with British mapping firms."],
     how: ["When a target is reported by an observer, drone, radar or allied feed, it picks the best available shooter: a 155mm gun, rocket launcher, mortar or drone, by position, ammunition and chance of success.", "It skips layers of manual approval. Reported: mission time falls from 20 to 30 minutes to 30 to 45 seconds.", "It times shots from guns in different places so they land together."],
     why: ["Guns no longer need to group in batteries: one hidden gun can join a massed strike, keeping a small signature.", "Compare how AFATDS ranks missions and picks a firing unit."],
@@ -11484,7 +11484,7 @@ const APP_DATA = [
     force: "Armed Forces of Ukraine",
     echelon: ["Company", "Battalion"],
     type: "Equipment",
-    title: "Kropyva, Armor and KRIP-A: fire control at the gun",
+    title: "Kropyva, Armor and KRIP-A: Fire Control at the Gun",
     what: ["Kropyva (“Nettle”), by the Army SOS volunteers in 2014, is a tablet app for ballistic calculation, digital maps with elevation, GPS position and secure messaging.", "Armor (2015) computes firing data for mortars, tanks and armoured vehicles firing indirectly.", "KRIP-A, by Antabos, automates gun laying and ballistics on the 2S22 Bohdana wheeled 155mm howitzer."],
     how: ["Reported: Kropyva is used by about 90% of Ukrainian artillery units, with missions computed in under a minute.", "Armor works from azimuth and range alone, even if the soldier cannot give a grid. Reported accuracy within 10 m.", "KRIP-A links with drones and sensors and is built to keep working under jamming."],
     why: ["Cheap tablets put fire direction at each gun, so dispersed guns can fire accurately.", "Compare US observer and fire direction software (PF-D, PF-M and AFATDS)."],
@@ -11502,7 +11502,7 @@ const APP_DATA = [
     force: "Armed Forces of Ukraine",
     echelon: ["Company", "Battalion", "Brigade"],
     type: "TTP",
-    title: "Drones, radars and decoys",
+    title: "Drones, Radars and Decoys",
     what: ["Drones are organic at tactical level and are the main target acquisition means."],
     how: ["Ukrainian drone data goes in real time to higher command and sideways to fire units; Russian data passes up to a command post first, which is often too slow for mobile targets.", "If a target is within about 10 km, an FPV drone is usually the cheapest strike; deeper, armoured or larger targets go to a 155mm gun via GIS Arta.", "British ARTHUR radars serve with units such as the 15th Artillery Reconnaissance Brigade. German COBRA radars reach about 100 km and can track up to 40 batteries in two minutes.", "Decoy AN/TPQ-53 radars draw Russian precision strikes and drones away from the real ones."],
     why: ["Emitting radars are found and hit, so they need deception and short emission windows.", "Compare US radar emission control and cueing."],
@@ -11520,7 +11520,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "SMArt 155 and BONUS: sensor-fuzed rounds",
+    title: "SMArt 155 and BONUS: Sensor-Fuzed Rounds",
     what: ["Ukraine uses two Western 155mm sensor-fuzed rounds against armour, plus the GPS-guided Excalibur (about 40 km)."],
     how: ["SMArt 155 (Diehl and Rheinmetall): 47 kg shell, two submunitions on parachutes, infrared and millimetre-wave radar sensors, range about 27.5 km.", "BONUS MkII (BAE Bofors and Nexter): two submunitions on winglets spinning at 900 rpm, scanning 32,000 m² with infrared and laser; about 35 km from 52-calibre guns.", "Each submunition fires an explosively formed penetrator into the vehicle’s top armour."],
     why: ["A few rounds can kill armour that would take hundreds of unguided shells, which matters when every firing draws counter-battery fire.", "Compare the BONUS entry in Ammunition and effects."],
@@ -11538,7 +11538,7 @@ const APP_DATA = [
     force: "Armed Forces of Ukraine",
     echelon: ["Company", "Battalion"],
     type: "TTP",
-    title: "Dropping artillery shells from drones",
+    title: "Dropping Artillery Shells from Drones",
     what: ["Reported, not confirmed: the sources are Ukrainian media and online video.", "Reported: Ukraine drops BONUS and SMArt 155 shells from heavy multirotor drones (“Baba Yaga”), first built for crop spraying, carrying 50 to 100 kg."],
     how: ["Reported: the shells’ propelling charges are removed and they are fitted for air release. On release the time fuze works and the submunitions seek targets.", "Reported: video shows a Buk-M3 air defence system destroyed in Belgorod this way."],
     why: ["Reported: with no gun firing and no ballistic arc, enemy counter-battery radar has nothing to trace, and scarce barrels are saved.", "Compare the US MALET kit for dropping mortar rounds from drones."],
@@ -11556,7 +11556,7 @@ const APP_DATA = [
     force: "Armed Forces of Ukraine",
     echelon: ["Company", "Battalion"],
     type: "TTP",
-    title: "Roving guns: speed is survival",
+    title: "Roving Guns: Speed Is Survival",
     what: ["Static artillery does not survive. Ukraine moved from batteries to single “roving guns” joined by software."],
     how: ["Reported: about a third of the M777s sent to Ukraine were damaged or destroyed in the first year; towed guns are slow to emplace and move.", "Reported: Poland’s Krab self-propelled gun suffered 44 losses, largely from staying too long in position; Ukraine lost under 10% of its CAESARs by firing and moving fast.", "Reported: Archer halts, lays, fires a burst and moves in under 20 seconds, with Barracuda camouflage; of about 26 in Ukraine, one was destroyed and one damaged.", "Simulations across 15 to 30 km standoff found that cutting exposure time matters more than range."],
     why: ["When the enemy can close the kill chain in under a minute, a gun that needs 100 seconds to move is likely to be hit.", "Compare US fire-move-hide drills and the Self-Propelled Howitzer Modernization programme."],
@@ -11574,7 +11574,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["N/A"],
     type: "Equipment",
-    title: "Making shells at home",
+    title: "Making Shells at Home",
     what: ["Ukraine moved from aid alone to a mix of aid and domestic production."],
     how: ["A Rheinmetall joint venture (51% Rheinmetall, 49% Ukrainian state) was to make over 150,000 155mm shells a year in Ukraine; the target was later doubled.", "Ukrainian firms make casings for 125mm, 152mm, 155mm and 105mm (for M102 and L118 guns), and mortar bodies of 81, 82 and 120mm, in steel and in cast iron.", "60mm mortar casings are adapted for FPV drones. Polish 120mm M120 Rak mortars on Rosomak vehicles add mobile mortar fire.", "Assembly of full rounds is still limited by a global shortage of imported explosives."],
     why: ["Making casings at home cuts dependence and transport.", "Compare US production rates and bottlenecks."],
@@ -11592,7 +11592,7 @@ const APP_DATA = [
     force: "Armed Forces of Ukraine",
     echelon: ["Theatre"],
     type: "Lesson",
-    title: "Precision, mines and civilian harm",
+    title: "Precision, Mines and Civilian Harm",
     what: ["Analysis: precise software and guided rounds both give military advantage and reduce wide-area harm compared with unguided massed fire."],
     how: ["Ukraine is a State Party to the 1997 Mine Ban Treaty, which bans anti-personnel mines.", "Analysis: transfers or use of such mines, or similar area weapons, have drawn scrutiny for risk to civilians after the war.", "Ukraine has an interim reparations programme for survivors of conflict-related sexual violence."],
     why: ["Analysis: a country fighting for survival struggles to fund civilian harm response, but good practice is possible.", "Compare US civilian harm policy (DoD Instruction 3000.17)."],
@@ -11610,7 +11610,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Theatre"],
     type: "Command & Control",
-    title: "From military regions to joint theatre commands",
+    title: "From Military Regions to Joint Theatre Commands",
     what: ["In 2016 China replaced seven Military Regions with five joint Theatre Commands: Eastern, Southern, Western, Northern and Central.", "The Central Military Commission runs the services, which train and equip; the Theatre Commands fight joint operations.", "The PLA cut 300,000 personnel, mostly from headquarters and officers, to about two million active."],
     how: ["An officer’s grade (the level of the post) matters more than rank. Group armies are corps-leader grade; brigades colonel grade.", "Party committees run at regiment and above: the political commissar is usually Party secretary and the commander deputy secretary. Battalions and companies have Party branches."],
     why: ["Joint war needs one commander per theatre over all services.", "Compare US combatant commands and the split between services (organise, train, equip) and joint commands."],
@@ -11628,7 +11628,7 @@ const APP_DATA = [
     force: "PLA Ground Force",
     echelon: ["Battalion", "Brigade", "Corps"],
     type: "Force Structure",
-    title: "Group armies and combined arms brigades",
+    title: "Group Armies and Combined Arms Brigades",
     what: ["The Ground Force has 13 group armies, numbered 71st to 83rd. Each has six combined arms brigades (CABs) and six support brigades: artillery, air defence, army aviation, special operations, engineer and chemical, and sustainment."],
     how: ["A CAB (heavy, medium, light, amphibious or mountain) has four combined arms battalions, an artillery battalion and an air defence battalion.", "The CAB artillery battalion, typically 122mm howitzers and 120mm mortars, handles tactical fire out to about 30 km.", "The group army artillery brigade, with long-range rocket launchers and 155mm or larger self-propelled howitzers, handles operational deep strike."],
     why: ["Brigades fight on their own; theatre commanders can tailor group armies to the task.", "Compare the US, which is moving artillery up from brigade to division."],
@@ -11646,7 +11646,7 @@ const APP_DATA = [
     force: "PLA Ground Force",
     echelon: ["Brigade", "Corps"],
     type: "Force Structure",
-    title: "Amphibious brigades opposite Taiwan",
+    title: "Amphibious Brigades Opposite Taiwan",
     what: ["A cross-strait operation drives Ground Force structure. Six amphibious combined arms brigades, formed from the former 1st Amphibious Mechanized and 124th Amphibious Infantry divisions, sit in the 72nd, 73rd and 74th Group Armies."],
     how: ["They have swimming assault guns and infantry fighting vehicles, four combined arms battalions and an artillery battalion with amphibious 122mm howitzers and tracked 122mm rocket launchers.", "They train at Dongshan Island, Dacheng Bay and Shanwei."],
     why: ["The beach assault is the most vulnerable phase; organic artillery gives immediate fire.", "Compare the US Marine Corps, which has moved away from large amphibious artillery towards anti-ship missiles."],
@@ -11664,7 +11664,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Corps", "Theatre"],
     type: "TTP",
-    title: "System destruction warfare",
+    title: "System Destruction Warfare",
     what: ["The PLA sees modern militaries as a “system of systems” and aims to paralyse them by striking key nodes, not by attrition.", "In 2021 it adopted Multidomain Precision Warfare (MDPW)."],
     how: ["It names five enemy systems: command, firepower-strike, information warfare, reconnaissance-intelligence and support.", "MDPW: cyber attack blinds sensors, then long-range artillery and missiles destroy the isolated command nodes and air defences.", "Against an amphibious assault on its own coast, the PLA plans layers: Rocket Force and Navy strike ships far out, the Air Force suppresses air defences, the Ground Force strikes precisely near the beach, then counter-attacks."],
     why: ["Compare US targeting and the Russian reconnaissance-strike complex: all three aim to hit what holds the enemy together."],
@@ -11700,7 +11700,7 @@ const APP_DATA = [
     force: "PLA Ground Force",
     echelon: ["Brigade", "Corps"],
     type: "Equipment",
-    title: "SLC-2 radar and the KVD002 drone",
+    title: "SLC-2 Radar and the KVD002 Drone",
     what: ["The SLC-2 is a mobile counter-battery radar with an active electronically scanned array.", "Reported: the KVD002 armed reconnaissance drone watches the battlefield, designates targets by laser and assesses damage; the source is Chinese state media."],
     how: ["The SLC-2 detects artillery, mortars and rockets beyond 50 km and aircraft out to 120 km.", "It computes the firing point and sends it through the ICP to batteries or aircraft."],
     why: ["Fast radar-to-gun data aims to strike enemy guns before they move.", "Compare the US AN/TPQ-53; the report likens the SLC-2 to the older TPQ-37."],
@@ -11718,7 +11718,7 @@ const APP_DATA = [
     force: "PLA Ground Force",
     echelon: ["Battalion", "Brigade"],
     type: "Equipment",
-    title: "WS-35 and GP155 guided shells",
+    title: "WS-35 and GP155 Guided Shells",
     what: ["WS-35: a 155mm rocket-assisted, base bleed shell with BeiDou and inertial guidance. Reported by NORINCO: the WS-35B reaches up to 100 km.", "GP155 (GP1): a 155mm laser-homing shell derived from the Russian Krasnopol, range 4 to 20 km, 52 kg."],
     how: ["The WS-35 weighs only 18 kg, against over 40 kg for a standard 155mm HE shell, so its explosive charge is small. Reported: its accuracy (CEP) is estimated at 40 m.", "The GP155 needs a laser designator, usually a KVD002 drone or special forces. GP1 remnants have been found in Libya.", "The GP155B replaces the laser with satellite guidance for fire-and-forget use."],
     why: ["The WS-35 suits large fixed targets such as depots and radars, not bunkers or moving armour; the GP155 is for single-shot kills on moving targets.", "Compare US Excalibur (GPS) and the Russian Krasnopol (laser)."],
@@ -11736,7 +11736,7 @@ const APP_DATA = [
     force: "PLA Ground Force",
     echelon: ["Battalion", "Brigade"],
     type: "Equipment",
-    title: "PCL-181 155mm truck howitzer",
+    title: "PCL-181 155mm Truck Howitzer",
     what: ["A 155mm/52-calibre howitzer on a Taian 6x6 truck, fielded in large numbers from 2020. Export name SH-15."],
     how: ["25 tons, airliftable by Y-9. Range 20 km with HE, 53 km with rocket-assisted rounds. 4 to 6 rounds a minute. Crew of six in an enclosed cab; 90 km/h.", "An automatic fire control computer, linked to the ICP, lays the gun for fast fire and move.", "Over 600 are in service, replacing towed 152mm PL-66 and 130mm Type 59-1 guns. Many serve in Xinjiang and Tibet on the Indian border. Pakistan uses the SH-15."],
     why: ["Light enough for mountain roads and weak bridges where tracked guns struggle.", "Compare the US Self-Propelled Howitzer Modernization programme and the French CAESAR."],
@@ -11754,7 +11754,7 @@ const APP_DATA = [
     force: "PLA Ground Force",
     echelon: ["Brigade", "Corps"],
     type: "Equipment",
-    title: "PLZ-05 155mm tracked howitzer",
+    title: "PLZ-05 155mm Tracked Howitzer",
     what: ["The PLA’s main armoured self-propelled howitzer; upgrades are called PLZ-05A or PLZ-52. Its 155mm/52-calibre gun marks the move from Soviet 152mm to the NATO calibre."],
     how: ["35 to 45 tons. 8 to 10 rounds a minute; a burst of 4 rounds in 15 seconds; can fire multiple rounds to land at once (MRSI).", "Range 39 km with extended range base bleed, 50 km with base bleed and rocket assistance, up to 100 km with the guided WS-35B.", "A tracked ammunition vehicle resupplies it under armour.", "The report places it with the 38th, 39th, 1st, 41st and 42nd Group Armies; those are pre-2017 numbers, now replaced by 71st to 83rd."],
     why: ["Compare the US M109A7 and the South Korean K9."],
@@ -11772,7 +11772,7 @@ const APP_DATA = [
     force: "PLA Ground Force",
     echelon: ["Corps", "Theatre"],
     type: "Equipment",
-    title: "PHL-191 (PHL-16) modular rocket launcher",
+    title: "PHL-191 (PHL-16) Modular Rocket Launcher",
     what: ["A 45-ton 8x8 launcher in group army artillery brigades, also called PHL-16 or AR-3, with pods swapped by crane."],
     how: ["300mm Fire Dragon 140A: 10 rockets, about 150 km.", "370mm Fire Dragon 220: 8 guided rockets, about 350 km.", "750mm Fire Dragon 480: 2 tactical ballistic missiles, about 500 km.", "Satellite and inertial guidance."],
     why: ["From the coast it can reach across the whole Taiwan Strait without using the Rocket Force’s costlier DF-11 and DF-15 missiles or exposing aircraft.", "Compare HIMARS with PrSM, and the Korean Chunmoo."],
@@ -11790,7 +11790,7 @@ const APP_DATA = [
     force: "PLA Ground Force",
     echelon: ["Company", "Battalion"],
     type: "Equipment",
-    title: "PCL-171 and self-propelled mortars",
+    title: "PCL-171 and Self-Propelled Mortars",
     what: ["PCL-171: a 122mm howitzer on a 6x6 Dongfeng Mengshi armoured vehicle for light brigades, replacing the towed PL-96.", "PLL-05: a 120mm gun-mortar on the 6x6 WZ551. PCP-001: an 82mm automatic mortar on a 4x4 Mengshi."],
     how: ["PCL-171 vehicles carry 28 rounds and are paired with ammunition vehicles in each battery.", "PLL-05: 16.5 tons, crew of four, 36 rounds, amphibious at up to 8 km/h; used by amphibious units.", "PCP-001: over 100 km/h on roads, high rate of fire, for airborne, border and light infantry units."],
     why: ["No gun to unhitch means light units keep their pace.", "Compare the US M119A3 and the Korean K105HT."],
@@ -11808,7 +11808,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["All"],
     type: "Lesson",
-    title: "The “Five Cannots”: the PLA’s own doubts",
+    title: "The “Five Cannots”: The PLA’s Own Doubts",
     what: ["Central Military Commission assessments record concern about people, not equipment.", "“Three Whethers”: whether the forces keep the Party’s absolute leadership, can win when needed, and whether commanders are competent.", "“Five Cannots”: some commanders cannot judge the situation, understand higher intent, make decisions, deploy troops, or deal with the unexpected."],
     how: ["The combined arms battalion asks a major to run infantry, armour, artillery and air defence at once, faster than scripted training can prepare.", "Units have sometimes received new systems such as the PCL-181 and PHL-191 before manuals, doctrine or trained maintainers."],
     why: ["Analysis: hardware has outrun training; this is the PLA’s main limit.", "Compare US combat training centre findings on staff and command weaknesses."],
@@ -11826,7 +11826,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Brigade"],
     type: "Training",
-    title: "Joint terminal attack controllers in the Amphibious Rapid Deployment Brigade",
+    title: "Joint Terminal Attack Controllers in the Amphibious Rapid Deployment Brigade",
     what: ["The Amphibious Rapid Deployment Brigade (ARDB) keeps its own joint terminal attack controllers (JTACs) in a fire support company (the report calls it the “Fire Leading Company”).", "They link landing forces with close air support and naval surface fire for the defence and recapture of remote islands."],
     how: ["NCO controllers sit instructor qualification evaluations run by the brigade’s field artillery battalion.", "Controllers land with the infantry and set up voice and digital links to ships and aircraft offshore.", "Readiness is checked in live-fire bilateral training with the US Marine Corps 5th Air Naval Gunfire Liaison Company (ANGLICO), reported in 2026."],
     why: ["Analysis: a landing force has little heavy artillery ashore in the first hours; its own controllers give it air and naval fire from the start.", "Compare the US Marine Corps, which attaches ANGLICO teams from outside the unit."],
@@ -11844,7 +11844,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Brigade", "Theatre"],
     type: "TTP",
-    title: "Combined fires with US and Australian artillery",
+    title: "Combined Fires with US and Australian Artillery",
     what: ["The Ground Self-Defense Force trains to fire alongside US forces in bilateral exercises such as Orient Shield, and has integrated with Australian artillery."],
     how: ["US and Japanese units coordinated an artillery live fire together in 2020.", "The two sides agree common fire support coordinating measures before firing, to prevent fratricide.", "Liaison officers work in each other’s command posts to deconflict fires and airspace.", "Analysis: the technical task is to pass data between Japan’s FCCS and the US AFATDS."],
     why: ["Japan has relied on US forces for deep strike; combined fires need agreed procedures before a crisis, not during it.", "Compare US multinational fires with NATO partners."],
@@ -11862,7 +11862,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Theatre"],
     type: "TTP",
-    title: "The Three Conditions: legal limits on striking",
+    title: "The Three Conditions: Legal Limits on Striking",
     what: ["Japan may use force only when three conditions set by the government are met. They govern its new long-range counterstrike capability as much as any other use of force."],
     how: ["Condition 1: an armed attack against Japan has occurred, or an armed attack against a country in a close relationship with Japan threatens Japan’s survival.", "Condition 2: there is no other appropriate means to repel the attack.", "Condition 3: force is limited to the minimum necessary.", "Counterstrike may be used only after an armed attack has begun. Pre-emptive strike is not permitted."],
     why: ["Target lists and timing for long-range fires must fit these conditions, which shapes how Japan plans deep strike.", "Compare US targeting, which works under the law of armed conflict and rules of engagement set for each operation."],
@@ -11880,7 +11880,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "Type 19 wheeled 155mm self-propelled howitzer",
+    title: "Type 19 Wheeled 155mm Self-Propelled Howitzer",
     what: ["Reported: a 155mm 52-calibre howitzer by Japan Steel Works on an 8x8 Rheinmetall MAN truck. It replaces the towed FH70."],
     how: ["Reported: a crew of five; a hydraulic spade at the rear takes the recoil.", "Reported: an automatic loader rams the projectile at any elevation; the crew loads modular charges by hand.", "Reported: digital fire control takes data from the command network and inertial navigation.", "Reported: range is 30 km with standard HE and 40 km with base bleed.", "Reported: it receives fire missions on the move, halts, fires a burst and leaves before counter-battery fire arrives."],
     why: ["Analysis: road speed on Japan’s highways and a short time in position matter more than armour against counter-battery fire and drones.", "Compare the US, which still uses the towed M777 and the tracked M109A7, and wheeled guns such as CAESAR and Archer."],
@@ -11898,7 +11898,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Company", "Battalion"],
     type: "Equipment",
-    title: "The 120mm RT and 81mm L16 mortars",
+    title: "The 120mm RT and 81mm L16 Mortars",
     what: ["Reported: the Ground Self-Defense Force uses the French-designed 120mm RT rifled mortar and the British-designed 81mm L16, both made under licence by Howa Machinery."],
     how: ["Reported: heavy mortar companies tow the 120mm RT or fire it from the Type 96 tracked self-propelled mortar.", "Reported: rifle companies carry the 81mm L16 in man-portable loads: baseplate, bipod and barrel.", "Reported: they fire HE, smoke and illumination, out to about 5,600 m (the report does not say which mortar)."],
     why: ["Analysis: high-angle fire reaches into the steep valleys and forest of Japan’s terrain.", "Analysis: the rifled 120mm RT is generally credited with more range than smoothbore 120mm mortars such as the US M120."],
@@ -11916,7 +11916,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Regiment"],
     type: "Force Structure",
-    title: "Surface-to-ship missile regiments",
+    title: "Surface-to-ship Missile Regiments",
     what: ["Reported: surface-to-ship missile regiments operating the Type 12 missile are central to Japan’s coastal defence, deployed to the south-western islands to cover the straits."],
     how: ["Reported: launcher vehicles disperse into cover on the coast or inland to avoid detection and pre-emptive strike.", "Reported: ships and patrol aircraft pass targeting data beyond the horizon.", "Reported: the missile flies low, skimming the sea, and homes with an active radar seeker.", "Reported: longer-range versions are being fielded."],
     why: ["Analysis: missiles ashore deny the sea around the islands that an amphibious force must cross.", "Compare the US Marine Corps NMESIS, spread in small units, against Japan’s dedicated regiments."],
@@ -11934,7 +11934,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Theatre"],
     type: "Equipment",
-    title: "Type 25 long-range missiles and the glide projectile",
+    title: "Type 25 Long-Range Missiles and the Glide Projectile",
     what: ["Reported: in March 2026 Japan formally designated new long-range systems as Type 25. They include the Hyper Velocity Gliding Projectile (HVGP) by Mitsubishi Heavy Industries, reported in service from 31 March 2026.", "Reported: sources on the Type 25 long-range anti-ship missile give a reach beyond 1,000 km. The research report gives this figure for the glide projectile; the sources do not support that."],
     how: ["Reported: a rocket booster lifts the HVGP, which separates and glides at high speed on an irregular path to evade interceptors."],
     why: ["Analysis: these weapons give Japan its first long-range counterstrike from the ground, within the Three Conditions.", "Compare the US Long-Range Hypersonic Weapon and the PrSM."],
@@ -11952,7 +11952,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Company", "Battalion"],
     type: "Equipment",
-    title: "Loitering munitions in the defence build-up",
+    title: "Loitering Munitions in the Defence Build-Up",
     what: ["The Defense Buildup Program (2022) includes buying small attack drones (loitering munitions) for ground units.", "Reported: the US Switchblade and Altius are named as examples."],
     how: ["Reported: soldiers launch them from portable tubes or vehicle launchers; an operator identifies the target on a tablet and authorises the attack.", "Reported: the role is to hit landing craft and armour as well as targets hidden behind cover."],
     why: ["They give infantry precision fire beyond their own weapons without waiting for divisional artillery.", "Compare US Army LASSO and Marine Corps OPF-L programmes."],
@@ -11970,7 +11970,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "Vulcano 155 GLR guided shells for the Type 19",
+    title: "Vulcano 155 GLR Guided Shells for the Type 19",
     what: ["Reported: Japan is acquiring Leonardo’s Vulcano 155 GLR guided long-range shell for the Type 19. In 2025 the Type 19 was to be tested in the UK with Vulcano shells."],
     how: ["Reported: the crew sets GPS target coordinates before loading.", "Reported: the sub-calibre shell sheds its sabot, opens fins and glides under GPS and inertial guidance.", "Reported: range approaches 70 km."],
     why: ["Analysis: guns well inland could strike a beachhead with few rounds and less risk to civilians.", "Compare the US M982 Excalibur (about 40 km)."],
@@ -11988,7 +11988,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Theatre"],
     type: "Policy",
-    title: "No cluster munitions: Japan’s ban",
+    title: "No Cluster Munitions: Japan’s Ban",
     what: ["Japan is a State Party to the Convention on Cluster Munitions. It finished destroying its stockpile in February 2015."],
     how: ["The stockpile was 14,011 cluster munitions containing over 2 million submunitions.", "Artillery DPICM shells, M26 rockets and CBU-87 bombs were all destroyed.", "The report says Japan kept none for training or research."],
     why: ["Japanese artillery has no cluster rounds for area targets; it relies on unitary HE, guided rounds and other weapons.", "Compare the US, which is not a party to the Convention and still holds DPICM, which it is replacing with the XM1180 C-DAEM."],
@@ -12006,7 +12006,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "JTPS-P16 counter-battery radar",
+    title: "JTPS-P16 Counter-Battery Radar",
     what: ["The JTPS-P16 is a Ground Self-Defense Force radar that detects incoming shells, rockets and mortar bombs and locates where they were fired from."],
     how: ["It tracks the projectile, works back along the trajectory to the firing point and sends the location through the FCCS to cue counter-battery fire.", "Ministry of Defense contracts (2017) and technical support documents (2024) show it in service."],
     why: ["Counter-battery fire depends on locating the enemy guns before they move.", "Compare the US AN/TPQ-53 and AN/TPQ-50."],
@@ -12024,7 +12024,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Battalion"],
     type: "Command & Control",
-    title: "FCCS: the Fire Combat Command and Control System",
+    title: "FCCS: The Fire Combat Command and Control System",
     what: ["The FCCS is Japan’s own digital network for directing field artillery. It brings together data from radars, observers, drones and higher headquarters."],
     how: ["Observers send target coordinates into the network.", "It checks targets against friendly positions and ranks them by the commander’s attack guidance.", "It sends each mission to the battery best placed, with the right ammunition."],
     why: ["Digital processing removes the delays and errors of passing targets by voice.", "Compare the US AFATDS; the FCCS is built for Japanese equipment."],
@@ -12042,7 +12042,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Battery"],
     type: "TTP",
-    title: "Automated technical fire direction",
+    title: "Automated Technical Fire Direction",
     what: ["Battery fire direction in the Ground Self-Defense Force is computed digitally through the FCCS, replacing the older FADAC (Field Artillery Digital Automatic Computer)."],
     how: ["The fire direction officer enters the round, fuze and target.", "The system takes the battery position from inertial navigation.", "It computes the firing data with meteorological data, wind and propellant temperature.", "It sends quadrant elevation and deflection to each gun’s display, for example on the Type 19."],
     why: ["Digital computation speeds the first round and lets dispersed guns mass on one point.", "Compare the US, where AFATDS and gun computers do the same."],
@@ -12060,7 +12060,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Brigade"],
     type: "Training",
-    title: "The Fuji School: artillery doctrine and gunnery",
+    title: "The Fuji School: Artillery Doctrine and Gunnery",
     what: ["The Fuji School is the Ground Self-Defense Force’s centre for artillery doctrine and advanced gunnery, with its own field artillery training units."],
     how: ["Officers and NCOs attend courses in ballistics and digital fire direction.", "Students learn manual chart calculation first, then the FCCS.", "Laser engagement systems and simulators reproduce multi-battery live fire.", "The annual Fuji Firepower Review is a public live-fire demonstration."],
     why: ["One school for gunnery means units from different regional armies use the same procedures and can mass fires together.", "Compare the US Fires Center of Excellence at Fort Sill."],
@@ -12078,7 +12078,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Division"],
     type: "Equipment",
-    title: "Type 11 short-range air defence for gun areas",
+    title: "Type 11 Short-Range Air Defence for Gun Areas",
     what: ["Reported: the Type 11 short-range surface-to-air missile protects artillery positions and command posts from aircraft, cruise missiles and drones. It replaced the Type 81."],
     how: ["Reported: a quadruple launcher on a Type 73 heavy truck keeps pace with moving artillery.", "Reported: it links to a radar and fire control vehicle through the Anti-Air Combat Command and Control System; some variants add an optical tracker for passive engagement under jamming.", "Reported: active radar homing, range up to about 10 km."],
     why: ["Guns and ammunition points are prime targets for drones and missiles; they need their own air defence.", "Compare the US M-SHORAD."],
@@ -12096,7 +12096,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Theatre"],
     type: "Logistics",
-    title: "The 2023–2027 build-up: ammunition and storage",
+    title: "The 2023–2027 Build-Up: Ammunition and Storage",
     what: ["Japan’s defence budget for 2023–2027 sets out a large increase in ammunition production and storage, to fix shortfalls in stocks for a long war."],
     how: ["The Ministry of Defense funds industry, such as Japan Steel Works and Mitsubishi, to expand production lines.", "It is building protected, dispersed ammunition storage, including in the south-western islands.", "It has moved from single-year orders to multi-year bulk buying to steady the supply chain.", "Reported: the Ministry requested a record budget of about $60.1 billion."],
     why: ["Analysis: stocks and production lines, not only weapons, decide how long a force can fight.", "Compare the US, which is expanding 155mm shell production."],
@@ -12114,7 +12114,7 @@ const APP_DATA = [
     force: "Japan Ground Self-Defense Force",
     echelon: ["Battery"],
     type: "Equipment",
-    title: "Type 99 ammunition resupply vehicle",
+    title: "Type 99 Ammunition Resupply Vehicle",
     what: ["The Type 99 ammunition resupply vehicle is a tracked, armoured carrier that supplies the Type 99 155mm self-propelled howitzer in the firing position."],
     how: ["Its armour protects against small arms and shell fragments, and it crosses the same rough ground and snow as the howitzer.", "A conveyor passes shells and charges into the howitzer without manual lifting.", "The crew compartment is sealed against nuclear, biological and chemical threats."],
     why: ["Armoured resupply keeps tracked guns firing without going back to depots.", "Compare the US M992 FAASV with the M109A7, and the Korean K10 with the K9."],
@@ -12150,7 +12150,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Brigade"],
     type: "Lesson",
-    title: "Littoral fires: when the guns cannot reach",
+    title: "Littoral Fires: When the Guns Cannot Reach",
     what: ["Australia’s littoral concept spreads brigades across wide island frontages that towed artillery cannot cover. Close air support (CAS) and naval surface fire support (NSFS) matter more."],
     how: ["On Exercise Predators Run 2024, 1st Brigade worked across a 1,000 km littoral frontage; it could not position enough artillery for mutual support.", "Sea-launched loitering munitions threaten warships firing in support, which left aircraft as the most reliable fire support across the frontage.", "Air support reaches the ground plan through TACPs, joint fires observers (JFOs) and JTACs.", "AFATDS coordinates mortars, artillery and naval guns; multinational JTAC and naval gunfire drills run on Exercise Talisman Sabre."],
     why: ["Dispersed littoral operations outrun tube artillery, so skilled observers and controllers who can call air and naval fire are essential.", "Compare the US Marine Corps, which has its own fixed-wing aircraft and ANGLICO; the Australian Army has no fixed-wing aircraft and relies on the RAAF."],
@@ -12168,7 +12168,7 @@ const APP_DATA = [
     force: "Australian Army",
     echelon: ["Battalion", "Brigade"],
     type: "Force Structure",
-    title: "Brigade regiments, M777A2 and infantry mortars",
+    title: "Brigade Regiments, M777A2 and Infantry Mortars",
     what: ["Each of the three regular combat brigades has its own RAA regiment; infantry battalions keep 81mm mortars.", "Since the 2023 restructure: 1st Brigade (Darwin, light) has 8th/12th Regiment; 7th Brigade (Brisbane, motorised) has 1st Regiment; 3rd Brigade (Townsville, armoured) has 4th Regiment."],
     how: ["Light and motorised regiments use the 155mm M777A2: 4,100 kg; 24 km with conventional rounds, 30 km improved; 2 rounds a minute sustained, 5 rapid.", "It moves by CH-47 sling load, C-130J and C-17A, and Navy watercraft, as on Exercise Alon in the Philippines in 2025.", "Infantry battalions such as 2RAR fire the 81mm F2 mortar; it was live-fired in East Java on Exercise Keris Woomera in October 2026.", "A reserve RAA regiment in the 2nd Division provides 81mm mortars and JFOs. The School of Artillery trains both gunners and infantry mortar crews."],
     why: ["One air- and sea-portable 155mm gun suits light brigades across island theatres.", "Compare the US, which keeps the 105mm M119 in light brigades and trains mortar crews at the Infantry School."],
@@ -12186,7 +12186,7 @@ const APP_DATA = [
     force: "Australian Army",
     echelon: ["Battalion"],
     type: "Equipment",
-    title: "AS9 Huntsman self-propelled howitzer",
+    title: "AS9 Huntsman Self-Propelled Howitzer",
     what: ["LAND 8116 Phase 1 (about $1 billion) buys 30 AS9 Huntsman 155mm tracked howitzers and 15 AS10 armoured ammunition resupply vehicles for 4th Regiment in Townsville.", "The AS9 is based on the Korean K9 Thunder and built by Hanwha Defence Australia in Geelong."],
     how: ["Production runs 2026–2028, with Australian changes to ammunition integration, crew protection and digital systems.", "The first Australian-built AS9 live-fired at Puckapunyal in June 2026. The crew enters the mission and the gun lays itself at the press of a button.", "In July 2026 AS9 and AS21 Redback vehicles completed sea trials on LCM-1E landing craft.", "The first battery deployed on Exercise Pozieres Run in August 2026; by September gunners ran live missions without instructors.", "The 2023 Defence Strategic Review cancelled Phase 2, a second self-propelled regiment."],
     why: ["Towed guns cannot keep up with an armoured brigade or survive by moving fast between hide and firing position.", "Compare the US M109A7 across many armoured brigades, and the Korean K9 it is based on."],
@@ -12240,7 +12240,7 @@ const APP_DATA = [
     force: "Australian Army",
     echelon: ["N/A"],
     type: "Equipment",
-    title: "Loitering munitions, bought in steps",
+    title: "Loitering Munitions, Bought in Steps",
     what: ["Australia bought the US Switchblade 300 in 2024 and has evaluated the Australian Innovaero OWL-B one-way attack munition, including under AUKUS.", "Defence buys in small increments rather than large fleets."],
     how: ["On Exercise Pozieres Run in 2026, forces used drones in mass for reconnaissance, surveillance and simulated strike.", "Unit allocations, numbers bought and armed-drone fire support procedures are not found in open sources."],
     why: ["The Minister’s reasoning: with no land borders, Australia should not over-invest in drone hardware that dates quickly.", "Compare the US Army and Marine Corps, which are buying loitering munitions at scale across several range classes."],
@@ -12258,7 +12258,7 @@ const APP_DATA = [
     force: "Australian Army",
     echelon: ["Brigade"],
     type: "Equipment",
-    title: "The 155mm and rocket munition suite",
+    title: "The 155mm and Rocket Munition Suite",
     what: ["Australian 155mm ammunition centres on the US-pattern M795 HE shell, with illumination and two precision rounds: Excalibur and SMArt 155. HIMARS batteries fire unitary M31A2 GMLRS and PrSM."],
     how: ["The M795 is the standard round for both the M777A2 and AS9.", "SMArt 155 is in Army firing tables and in the DARS-A range safety software; Defence Connect reported a successful RAA test firing in 2019.", "Reported: each SMArt 155 releases two parachute submunitions with infrared and radar sensors that fire a penetrator down onto armour.", "First HIMARS deliveries included 30 M31A2 unitary pods and 30 practice pods. Total missile stocks are classified."],
     why: ["The suite matches US and allied supply chains and contains no cluster warheads, which Australian law bans.", "Compare the US, which still holds cluster artillery rounds."],
@@ -12276,7 +12276,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Theatre"],
     type: "Policy",
-    title: "The cluster munition law and coalition operations",
+    title: "The Cluster Munition Law and Coalition Operations",
     what: ["Australia bans cluster munitions under the Criminal Code Amendment (Cluster Munitions Prohibition) Act 2012, which implements the Convention on Cluster Munitions.", "ADF ethics doctrine groups them with chemical and biological weapons as illegal and unethical for Australian use."],
     how: ["Section 72.38 makes it an offence to use, develop, produce, acquire, stockpile, retain or transfer cluster munitions.", "Narrow exceptions allow retention or transfer for destruction and for clearance training.", "Section 72.41 protects ADF personnel in combined operations with non-party states, provided Australia itself does none of the banned acts.", "Australian personnel may not expressly request cluster munitions when the choice of munition is under Australia’s exclusive control."],
     why: ["Clear limits let Australian observers and planners work inside coalitions with non-party allies without criminal liability.", "Compare the US, which is not a party; and Japan, which destroyed its stock in 2015."],
@@ -12294,7 +12294,7 @@ const APP_DATA = [
     force: "Australian Army",
     echelon: ["Division"],
     type: "Equipment",
-    title: "20th Regiment and the Integrator drone",
+    title: "20th Regiment and the Integrator Drone",
     what: ["20th Regiment RAA is the Army’s surveillance and target acquisition regiment. Under LAND 129 Phase 3 it replaced the RQ-7B Shadow 200 with Insitu’s Integrator tactical drone."],
     how: ["Integrator launches from a catapult and is caught by a skyhook line, so it needs no runway; ground stations ride in Bushmaster vehicles.", "Gunners do all ground-crew work: assembly, fuelling, launch and recovery. Live video comes back from beyond 25 km; endurance is not published.", "On Talisman Sabre 2025 the regiment used Integrator for divisional ISR, target acquisition, range clearance and watching the fall of HIMARS rounds.", "Reported: Insitu says the regiment first fielded two sets of three aircraft each."],
     why: ["A drone inside an artillery regiment shortens the link from sensor to deep fires.", "Compare the US Army, where tactical drones sit with aviation and military intelligence units."],
@@ -12312,7 +12312,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Brigade", "Division"],
     type: "TTP",
-    title: "Radars, small drones and target processing",
+    title: "Radars, Small Drones and Target Processing",
     what: ["Australia layers radars, small artillery drones, observers and joint air sensors, and processes targets through ISTAR teams, brigade JFECCs and the 10th Brigade’s Land Targeting Enterprise."],
     how: ["The AN/TPQ-48 Lightweight Counter Mortar Radar covers 360 degrees to 10.2 km and sets up in under 20 minutes.", "A new weapon-locating radar is being approved jointly across the AS9 and HIMARS projects; no model is confirmed in open sources.", "In 2026 the School of Artillery introduced the Vector AI (backpack-portable, flying in three minutes) and SYPAQ CorvoX drones to replace Wasp and Puma.", "Target flow: 20th Regiment ISTAR teams in brigade and battlegroup headquarters; JFTs to JFECCs; intelligence and signals units for the Land Targeting Enterprise; RAAF F-35A sensor data into joint targeting."],
     why: ["Small drones with bombardiers and observers find targets without waiting for division assets.", "Compare the US, which fields the longer-range AN/TPQ-53 alongside the AN/TPQ-50."],
@@ -12330,7 +12330,7 @@ const APP_DATA = [
     force: "Australian Army",
     echelon: ["Battery", "Battalion"],
     type: "TTP",
-    title: "The command post, gunnery and range safety",
+    title: "The Command Post, Gunnery and Range Safety",
     what: ["Battery technical fire direction is done in a Command Post (CP) led by a Command Post Officer (CPO), not a US-style fire direction centre. CPs run US AFATDS in Bushmaster vehicles or dismounted."],
     how: ["CPs take fire orders by radio or the Battle Management System and compute firing data in AFATDS.", "Firing data corrects for meteorological, ballistic, rotation-of-the-earth and survey effects. Current met and survey equipment is not found in open sources.", "On the AS9 the crew enters the mission and the gun lays automatically.", "DARS-A software computes range safety traces for all in-service 155mm ammunition and exports them into AFATDS.", "The School of Artillery keeps the Instructor-in-Gunnery (IG) cadre for all RAA roles and infantry mortars."],
     why: ["The same AFATDS version as the US allows plug-and-play missions; DARS-A makes live-fire planning faster and safer.", "Compare the US: same software, but Australia keeps the Commonwealth CP, CPO and IG system."],
@@ -12348,7 +12348,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Division"],
     type: "Command & Control",
-    title: "AFATDS, SitaWare and joint data gaps",
+    title: "AFATDS, SitaWare and Joint Data Gaps",
     what: ["Digital fires run on AFATDS over the LAND 200 tactical network with the Army’s Battle Management System. LAND 200 Phase 3 is moving headquarters and armoured vehicles to Systematic’s SitaWare."],
     how: ["Australian units keep the same AFATDS version as the US; on Talisman Sabre 2021 fire missions passed directly without workarounds.", "Reported: Systematic says SitaWare Headquarters was chosen for the first tranche of the new BMS, keeping data under Australian ownership.", "Australia’s status in NATO’s ASCA artillery data protocol is not found in open sources.", "RAAF analysis warns that data from P-8, MQ-4C, Integrator and other sensors does not yet flow easily between Army, Navy and Air Force systems."],
     why: ["Version parity with the US gives bilateral fire missions; joint data sharing is still the gap.", "Compare the US, which uses AFATDS with its own battle management system rather than SitaWare."],
@@ -12366,7 +12366,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Theatre"],
     type: "TTP",
-    title: "Targeting law, collateral damage and human control",
+    title: "Targeting Law, Collateral Damage and Human Control",
     what: ["ADF targeting follows joint doctrine on targeting, joint fires and the law of armed conflict. Army guidance stresses human accountability, collateral damage estimation (CDE) and protecting civilians as long-range strike and AI aids grow."],
     how: ["Every lethal engagement needs CDE and must comply with the law of armed conflict.", "National policy and ADF doctrine can restrict targeting beyond what the law alone requires.", "AI tools support decisions only: a human approves every strike and stays legally responsible.", "Guidance warns against automation bias, stale intelligence and skewed data that could lead to striking civilians or protected sites.", "Formal weapons legal review procedures for new artillery munitions are not found in open sources."],
     why: ["Pressure to strike fast raises civilian harm risk if speed overrides judgement.", "Compare US Joint Publication 3-60, which the ADF process mirrors; and Japan’s Three Conditions."],
@@ -12384,7 +12384,7 @@ const APP_DATA = [
     force: "Australian Army",
     echelon: ["Battery", "Battalion"],
     type: "TTP",
-    title: "Surviving: guns, HIMARS and command posts",
+    title: "Surviving: Guns, HIMARS and Command Posts",
     what: ["Australian artillery survival rests on armoured shoot-and-scoot with the AS9, protected wheeled vehicles for HIMARS and command posts, field fortification and dispersed logistics."],
     how: ["On Pozieres Run 2026, AS9 crews moved from hides to firing positions in seconds, fired faster than the M777A2 and were back in cover before counter-battery fire could respond.", "Command posts work from armoured Bushmasters, including 15 command variants bought for HIMARS, or from engineer-dug positions rehearsed in 2026.", "The first 20 HIMARS have protected crew cabs; Defence College analysis says deployable units able to run HIMARS dispersed are still needed.", "Batteries rehearse defending the gun line, including direct fire; resupply moves to dispersed, temporary points."],
     why: ["Drone surveillance and precision counter-fire make static gun lines and large dumps fatal.", "Compare the US M109A7 battalions with tracked command vehicles; Australia uses wheeled Bushmasters."],
@@ -12402,7 +12402,7 @@ const APP_DATA = [
     force: "Australian Army",
     echelon: ["Brigade"],
     type: "Equipment",
-    title: "Air and counter-drone defence of fires: NASAMS and LAND 156",
+    title: "Air and Counter-Drone Defence of Fires: NASAMS and LAND 156",
     what: ["Ground-based air defence sits inside the artillery: 16th Regiment RAA in the 10th Brigade operates NASAMS. LAND 156 commits $1.3 billion over 10 years to counter-small-drone systems."],
     how: ["NASAMS replaces the RBS-70, with Kongsberg launchers, AIM-120 AMRAAM missiles and Australian CEAFAR radars on Hawkei and HX77 vehicles.", "First live fire was at Woomera in November 2023; AMRAAM was fired alongside HIMARS on Talisman Sabre 2025; two batteries are due by the end of 2026.", "LAND 156 buys in short rounds to keep pace with the threat: $38.7 million in first contracts to 20 companies in July 2025.", "Soldiers tested 20 dismounted counter-drone systems at Cultana from December 2025 to February 2026, for rollout from early 2026."],
     why: ["Air defence inside the fires brigade protects HIMARS and guns as one system.", "Compare the US, where air defence artillery is a separate branch."],
@@ -12420,7 +12420,7 @@ const APP_DATA = [
     force: "Australian Army",
     echelon: ["Brigade"],
     type: "Logistics",
-    title: "Feeding self-propelled and rocket artillery",
+    title: "Feeding Self-Propelled and Rocket Artillery",
     what: ["Self-propelled and rocket artillery are straining a logistics system not yet tested for large-scale combat ammunition use. The AS9 carries 48 rounds; the AS10 carries 104."],
     how: ["Artillery ammunition must be synchronised from the force support group down to the brigade echelons, with pre-loaded forward stocks and standard loads.", "Shells, charges and fuzes run out at different rates; the AS9 also needs fuel, power, spares and field repair.", "HIMARS needs its own lift: 54 resupply vehicles and trailers for the first 42 launchers.", "Logistic units must move at armoured pace and use dispersed, temporary distribution points."],
     why: ["Faster guns empty their racks quickly; relying on allied emergency shipments in a crisis is a risk.", "Compare the US M992A3 carrier with the M109A7, and the Korean K10 with the K9."],
@@ -12438,7 +12438,7 @@ const APP_DATA = [
     force: "Multiple",
     echelon: ["Theatre"],
     type: "Logistics",
-    title: "Making missiles and shells at home (GWEO)",
+    title: "Making Missiles and Shells at Home (GWEO)",
     what: ["Australia is investing up to $36 billion over ten years in a Guided Weapons and Explosive Ordnance (GWEO) Enterprise to make rockets, missiles and 155mm shells at home. Stock levels are classified."],
     how: ["A plant at Port Wakefield opened in December 2025; Australian-made GMLRS were test-fired from an Australian HIMARS at Woomera in April 2026. Australia is the only country outside the US making GMLRS.", "$320 million brings Australian firms into the GMLRS supply chain; a second missile factory near Newcastle is due in 2027.", "A $72 million contract with Rheinmetall NIOA Munitions at Maryborough adds a second 155mm M795 forging line by the end of 2028, at 15,000 rounds a year initially.", "Reported: Defense News puts Maryborough’s capacity at 3,500 projectile bodies a month."],
     why: ["Long sea supply lines and overseas backlogs leave Australia exposed in a regional crisis.", "Compare the large US government-owned plants, and Japan’s 2023–2027 ammunition build-up."],
@@ -12850,7 +12850,7 @@ const LEVELS = [
 const LESSONS = [
   {
     id: 'liaison-us-1-1', topic: 'liaison', level: 1, order: 1, addedIn: '2026.11',
-    title: 'The company fire support team',
+    title: 'The Company Fire Support Team',
     objective: 'After this lesson you can describe who is in a US Army FIST and a USMC FiST, and who may clear an aircraft to attack.',
     intro: 'The company team is where fire support meets the infantry. The Army and the Marine Corps build it differently, and the difference shows most in who controls aircraft.',
     entryIds: ['usa-org-fist', 'usmc-org-fist', 'usa-org-jfo-tacp', 'usa-eq-llsr'],
@@ -12886,7 +12886,7 @@ const LESSONS = [
   },
   {
     id: 'liaison-us-1-2', topic: 'liaison', level: 1, order: 2, addedIn: '2026.11',
-    title: 'Battalion and brigade fires cells',
+    title: 'Battalion and Brigade Fires Cells',
     objective: 'After this lesson you can name the fire support hub at battalion and brigade in both services and say who leads each.',
     intro: 'Above the company, fire support moves into the command post. This is where plans are merged, targets are cleared and aircraft are requested.',
     entryIds: ['usa-org-bn-cell', 'usmc-org-fscc', 'usa-org-bde-cell', 'usmc-org-regt-fscc'],
@@ -12922,7 +12922,7 @@ const LESSONS = [
   },
   {
     id: 'liaison-us-1-3', topic: 'liaison', level: 1, order: 3, addedIn: '2026.11',
-    title: 'The tools of the observer and the fires cell',
+    title: 'The Tools of the Observer and the Fires Cell',
     objective: 'After this lesson you can trace a digital call for fire from the rangefinder to the guns and name the device at each step.',
     intro: 'Equipment sets how fast and how accurately a target reaches the guns. These three entries cover the vehicle, the network and the handheld terminal.',
     entryIds: ['usa-eq-bfist', 'usa-eq-afats', 'usmc-eq-ths'],
@@ -12955,7 +12955,7 @@ const LESSONS = [
   },
   {
     id: 'liaison-us-1-4', topic: 'liaison', level: 1, order: 4, addedIn: '2026.11',
-    title: 'Corps and theatre fires headquarters',
+    title: 'Corps and Theatre Fires Headquarters',
     objective: 'After this lesson you can say which headquarters owns long-range fires above division and what each one is for.',
     intro: 'Rockets and missiles reach further than a division can see or control. These headquarters exist to plan and fire at that depth.',
     entryIds: ['usa-org-corps-fab', 'usmc-org-ffcc', 'usa-org-tfc', 'usa-org-mdtf'],
@@ -12986,7 +12986,7 @@ const LESSONS = [
   },
   {
     id: 'liaison-us-1-5', topic: 'liaison', level: 1, order: 5, addedIn: '2026.11',
-    title: 'Liaison between components, and deep sensing',
+    title: 'Liaison Between Components, and Deep Sensing',
     objective: 'After this lesson you can name the liaison teams that link land, air and sea components and the two systems that feed them deep targets.',
     intro: 'At theatre level most fire support is liaison work: making sure the air plan includes land targets, and that pilots understand the ground. Sensing systems supply the targets.',
     entryIds: ['usa-org-bcd', 'usaf-org-asoc', 'joint-org-gld', 'joint-eq-hades', 'usa-eq-titan'],
@@ -13021,7 +13021,7 @@ const LESSONS = [
   },
   {
     id: 'liaison-us-2-1', topic: 'liaison', level: 2, order: 1, addedIn: '2026.11',
-    title: 'Calling for fire',
+    title: 'Calling for Fire',
     objective: 'After this lesson you can give the order of a call for fire and explain how drones change the way a target is found.',
     intro: 'The call for fire is the basic procedure of every observer. Laser rangefinders and small drones have changed how it starts and how fast it ends.',
     entryIds: ['usa-ttp-cff', 'usmc-ttp-nsfs', 'usa-ttp-uas', 'usmc-ttp-uas'],
@@ -13053,7 +13053,7 @@ const LESSONS = [
   },
   {
     id: 'liaison-us-2-2', topic: 'liaison', level: 2, order: 2, addedIn: '2026.11',
-    title: 'Clearing fires and sharing the airspace',
+    title: 'Clearing Fires and Sharing the Airspace',
     objective: 'After this lesson you can tell permissive from restrictive measures and explain how shells and aircraft use the same sky.',
     intro: 'Fires are only useful if they are fast and safe. Coordination measures and airspace rules are how both are achieved together.',
     entryIds: ['usa-ttp-clearance', 'usmc-ttp-airspace', 'usa-ttp-airspace'],
@@ -13084,7 +13084,7 @@ const LESSONS = [
   },
   {
     id: 'liaison-us-2-3', topic: 'liaison', level: 2, order: 3, addedIn: '2026.11',
-    title: 'Radar zones, signatures and asking upward',
+    title: 'Radar Zones, Signatures and Asking Upward',
     objective: 'After this lesson you can explain radar zones, how a fires cell hides its emissions, and how a request climbs the echelons.',
     intro: 'A fires cell protects its own force with radar zones, protects itself by staying quiet, and gets what it lacks by asking the echelon above.',
     entryIds: ['usa-ttp-radar', 'usmc-ttp-ew', 'usa-ttp-div-alloc', 'joint-ttp-collection'],
@@ -13112,7 +13112,7 @@ const LESSONS = [
   },
   {
     id: 'liaison-us-2-4', topic: 'liaison', level: 2, order: 4, addedIn: '2026.11',
-    title: 'Joint targeting',
+    title: 'Joint Targeting',
     objective: 'After this lesson you can list the six phases of the Joint Targeting Cycle and say when it is compressed.',
     intro: 'Joint targeting ties every strike to the commander\'s objectives. It is deliberate by design, with a fast lane for targets that will not wait.',
     entryIds: ['joint-ttp-jtc', 'joint-ttp-atc', 'joint-ttp-tst'],
@@ -13139,7 +13139,7 @@ const LESSONS = [
   },
   {
     id: 'liaison-us-3-1', topic: 'liaison', level: 3, order: 1, addedIn: '2026.11',
-    title: 'How they train, and why',
+    title: 'How They Train, and Why',
     objective: 'After this lesson you can outline the training pipeline of each service and give the reason behind its design.',
     intro: 'Training design shows what a force values. The Army cross-trains gunners and observers; the Marine Corps makes everyone an infantry leader first.',
     entryIds: ['usa-trn-13f', 'usa-trn-jfo', 'usmc-trn-0861', 'joint-trn-pc'],
@@ -13174,7 +13174,7 @@ const LESSONS = [
   },
   {
     id: 'liaison-us-4-1', topic: 'liaison', level: 4, order: 1, addedIn: '2026.11',
-    title: 'Ukraine: drones, jamming and survival',
+    title: 'Ukraine: Drones, Jamming and Survival',
     objective: 'After this lesson you can explain three changes the war in Ukraine forced on observers, radars and command posts.',
     intro: 'Ukraine is the largest test of fire support in decades. Its lessons are already written into US Army and Marine Corps change programmes.',
     entryIds: ['les-ukraine-uas', 'les-ukraine-ew', 'les-ukraine-cb', 'usa-les-survivability'],
@@ -13206,7 +13206,7 @@ const LESSONS = [
   },
   {
     id: 'liaison-us-4-2', topic: 'liaison', level: 4, order: 2, addedIn: '2026.11',
-    title: 'Other theatres: Karabakh, Gaza and the Pacific',
+    title: 'Other Theatres: Karabakh, Gaza and the Pacific',
     objective: 'After this lesson you can state one fire support lesson from each of three other theatres.',
     intro: 'Three further cases, each with a different problem: an entrenched defender, a dense city and a maritime theatre.',
     entryIds: ['les-nk-2020', 'les-gaza-2023', 'joint-les-indopac'],
@@ -13231,7 +13231,7 @@ const LESSONS = [
   },
   {
     id: 'ta-us-1-1', topic: 'target-acquisition', level: 1, order: 1, addedIn: '2026.12',
-    title: 'Army radar platoons and the sections that process targets',
+    title: 'Army Radar Platoons and the Sections That Process Targets',
     objective: 'After this lesson you can name the Army units that hold the radars, say what a Target Processing Section does, and match each specialty to its job.',
     intro: 'A radar gives a point on a map. People turn it into a target. This lesson covers who holds the radars in the US Army, who processes what they find, and who controls them.',
     entryIds: ['usa-org-tap', 'usa-org-tps', 'usa-org-ta-mos', 'usa-org-wlr-control'],
@@ -13267,7 +13267,7 @@ const LESSONS = [
   },
   {
     id: 'ta-us-1-2', topic: 'target-acquisition', level: 1, order: 2, addedIn: '2026.12',
-    title: 'Marine Corps target acquisition',
+    title: 'Marine Corps Target Acquisition',
     objective: 'After this lesson you can say where the Marine Corps keeps its radar personnel, who uses each G/ATOR block, and what an ANGLICO is for.',
     intro: 'The Marine Corps organises the same task differently: radar people sit at the regiment, and the main radar is shared with the aviation side.',
     entryIds: ['usmc-org-tap', 'usmc-org-gator-split', 'usmc-org-anglico', 'usmc-org-ta-mos', 'usmc-org-mlr'],
@@ -13306,7 +13306,7 @@ const LESSONS = [
   },
   {
     id: 'ta-us-1-3', topic: 'target-acquisition', level: 1, order: 3, addedIn: '2026.12',
-    title: 'The radars and other sensors',
+    title: 'The Radars and Other Sensors',
     objective: 'After this lesson you can describe the AN/TPQ-53 and the AN/TPQ-50, and say which to use for a given threat.',
     intro: 'Two radars do most of the Army’s weapon locating. One reaches far in one direction or less far all round. The other is small and watches all round at short range.',
     entryIds: ['usa-eq-tpq53', 'usa-eq-tpq50', 'usa-eq-wlr-predecessors', 'usa-eq-acoustic', 'usa-eq-radar-cuas'],
@@ -13339,7 +13339,7 @@ const LESSONS = [
   },
   {
     id: 'ta-us-1-4', topic: 'target-acquisition', level: 1, order: 4, addedIn: '2026.12',
-    title: 'The Army restructures, and outside sensors join in',
+    title: 'The Army Restructures, and Outside Sensors Join In',
     objective: 'After this lesson you can say what ARSTRUC 2025–2029 removed from brigades, what Transformation in Contact added, and where outside sensors join the artillery picture.',
     intro: 'The Army is moving target acquisition back towards the division. Its own radars only see rounds in flight, so the rest of the picture comes from joint and intelligence sources.',
     entryIds: ['usa-org-arstruc-tic', 'usa-org-tab-1cd', 'usa-org-mdc', 'joint-org-ta-external', 'joint-eq-ta-datalinks'],
@@ -13375,7 +13375,7 @@ const LESSONS = [
   },
   {
     id: 'ta-us-2-1', topic: 'target-acquisition', level: 2, order: 1, addedIn: '2026.12',
-    title: 'Putting a radar to work',
+    title: 'Putting a Radar to Work',
     objective: 'After this lesson you can explain the three radar modes, choose a radar site, and put the cueing sequence in order.',
     intro: 'A radar that transmits can be found. This lesson follows a radar from the choice of site to the moment it switches off again.',
     entryIds: ['usa-ttp-radar-modes', 'usa-ttp-radar-site', 'usa-ttp-cueing'],
@@ -13409,7 +13409,7 @@ const LESSONS = [
   },
   {
     id: 'ta-us-2-2', topic: 'target-acquisition', level: 2, order: 2, addedIn: '2026.12',
-    title: 'Zones, coverage and jamming',
+    title: 'Zones, Coverage and Jamming',
     objective: 'After this lesson you can choose the right radar zone for a task, explain why radars work in pairs, and recognise the signs of jamming.',
     intro: 'A radar sees more than anyone can act on. Zones tell it what matters. Pairs of radars keep the watch unbroken.',
     entryIds: ['usa-ttp-radar-zones', 'usa-ttp-multi-radar', 'usa-ttp-jamming-signs'],
@@ -13446,7 +13446,7 @@ const LESSONS = [
   },
   {
     id: 'ta-us-3-1', topic: 'target-acquisition', level: 3, order: 1, addedIn: '2026.12',
-    title: 'Training the people',
+    title: 'Training the People',
     objective: 'After this lesson you can state how long the confirmed courses last and how radar crews stay certified.',
     intro: 'Sensors are only as good as the crews. Both services train at Fort Sill and then keep crews current through tables and timed events.',
     entryIds: ['usa-trn-ta-pipelines', 'usa-trn-radar-cert', 'usa-trn-ta-collective', 'usa-trn-ta-critiques'],
@@ -13476,7 +13476,7 @@ const LESSONS = [
   },
   {
     id: 'ta-us-3-2', topic: 'target-acquisition', level: 3, order: 2, addedIn: '2026.12',
-    title: 'Trade-offs: accuracy, survival and mobility',
+    title: 'Trade-offs: Accuracy, Survival and Mobility',
     objective: 'After this lesson you can compare radar accuracy in the two search modes and explain why moving quickly matters more for a counterfire radar than for an air-defence radar.',
     intro: 'No radar does everything. Wide coverage costs accuracy, transmitting costs safety, and a radar that does many jobs may be slow to move.',
     entryIds: ['usa-ttp-poi-accuracy', 'usa-ttp-crosscue', 'usa-ttp-radar-survive', 'usmc-eq-gator', 'usa-eq-ta-drones'],
@@ -13507,7 +13507,7 @@ const LESSONS = [
   },
   {
     id: 'ta-us-4-1', topic: 'target-acquisition', level: 4, order: 1, addedIn: '2026.12',
-    title: 'What the wars showed',
+    title: 'What the Wars Showed',
     objective: 'After this lesson you can describe what Iraq and Afghanistan changed in US radar equipment and manning, and how Ukraine and Nagorno-Karabakh differ from that experience.',
     intro: 'Two decades of base defence shaped the equipment. The wars since 2020 changed the problem: the gun has moved before the reply arrives.',
     entryIds: ['les-ta-iraq-afghanistan', 'les-ta-ukraine', 'les-ta-nk-2020'],
@@ -13535,7 +13535,7 @@ const LESSONS = [
   },
   {
     id: 'ta-us-4-2', topic: 'target-acquisition', level: 4, order: 2, addedIn: '2026.12',
-    title: 'Adaptation, open debates and recurring weaknesses',
+    title: 'Adaptation, Open Debates and Recurring Weaknesses',
     objective: 'After this lesson you can list how the US adapted across doctrine, structure, materiel and training, and name the weaknesses that keep appearing at Warfighter Exercises.',
     intro: 'Change on paper is not yet change in practice. The same weaknesses return at exercises, and four debates remain open.',
     entryIds: ['les-ta-adaptations', 'les-ta-debates', 'les-ta-ctc-weak'],
@@ -13566,7 +13566,7 @@ const LESSONS = [
   },
   {
     id: 'c2-us-1-1', topic: 'digital-fires-c2', level: 1, order: 1, addedIn: '2026.12',
-    title: 'Who does what in digital fires',
+    title: 'Who Does What in Digital Fires',
     objective: 'After this lesson you can separate the fire support chain from the fire direction chain and name who operates the software in each service.',
     intro: 'A digital fire mission crosses from the people who ask for fires to the people who deliver them. This lesson covers both sides.',
     entryIds: ['joint-org-c2-two-chains', 'usa-org-c2-specialties', 'usmc-org-c2-agencies', 'usaf-org-tacp-cuts'],
@@ -13602,7 +13602,7 @@ const LESSONS = [
   },
   {
     id: 'c2-us-1-2', topic: 'digital-fires-c2', level: 1, order: 2, addedIn: '2026.12',
-    title: 'The doctrine, and the link to the air component',
+    title: 'The Doctrine, and the Link to the Air Component',
     objective: 'After this lesson you can name the current baseline publications and state what the BCD does for digital fires and airspace.',
     intro: 'Software follows doctrine. This lesson shows which editions are in force and who carries the Army’s fires and airspace needs to the air component.',
     entryIds: ['joint-doc-c2-publications', 'joint-doc-c2-governance', 'usa-org-bcd-airspace'],
@@ -13638,7 +13638,7 @@ const LESSONS = [
   },
   {
     id: 'c2-us-1-3', topic: 'digital-fires-c2', level: 1, order: 3, addedIn: '2026.12',
-    title: 'AFATDS and the systems around it',
+    title: 'AFATDS and the Systems Around It',
     objective: 'After this lesson you can describe what AFATDS does, why it is being broken up, and what CAC2S translates.',
     intro: 'One piece of software has run US artillery for thirty years. It is now being rebuilt, and the Marine Corps adds a translator to reach the aircraft.',
     entryIds: ['usa-eq-afatds-arch', 'usa-eq-axs', 'usmc-eq-afatds-emt', 'usmc-eq-cac2s'],
@@ -13673,7 +13673,7 @@ const LESSONS = [
   },
   {
     id: 'c2-us-1-4', topic: 'digital-fires-c2', level: 1, order: 4, addedIn: '2026.12',
-    title: 'The observer’s tools',
+    title: 'The Observer’s Tools',
     objective: 'After this lesson you can name the software and devices an observer uses to send a digital call for fire.',
     intro: 'The chain starts with one person and a device. This lesson covers what that device is in each service.',
     entryIds: ['usa-eq-pfd-pfm', 'usa-eq-jets', 'joint-eq-observer-apps'],
@@ -13707,7 +13707,7 @@ const LESSONS = [
   },
   {
     id: 'c2-us-2-1', topic: 'digital-fires-c2', level: 2, order: 1, addedIn: '2026.12',
-    title: 'The rules the software follows',
+    title: 'The Rules the Software Follows',
     objective: 'After this lesson you can explain how AFATDS ranks and clears a mission, and when a mission may go straight from sensor to shooter.',
     intro: 'AFATDS does what the staff tells it. This lesson shows what the staff must enter, what the software checks, and where a human still decides.',
     entryIds: ['usa-ttp-d3a-matrices', 'usa-ttp-afatds-arbitration', 'usa-ttp-afatds-clearance', 'usa-ttp-direct-s2s'],
@@ -13741,7 +13741,7 @@ const LESSONS = [
   },
   {
     id: 'c2-us-2-2', topic: 'digital-fires-c2', level: 2, order: 2, addedIn: '2026.12',
-    title: 'Message formats',
+    title: 'Message Formats',
     objective: 'After this lesson you can tell the four message standards apart and say why none of them replaces the others.',
     intro: 'Four standards carry fires data. Each was built for a different network, and translating between them costs something.',
     entryIds: ['joint-eq-vmf', 'joint-eq-link16-jreap', 'joint-eq-cot-usmtf', 'joint-ttp-link16-hf'],
@@ -13779,7 +13779,7 @@ const LESSONS = [
   },
   {
     id: 'c2-us-2-3', topic: 'digital-fires-c2', level: 2, order: 3, addedIn: '2026.12',
-    title: 'Networks, fallbacks and jamming',
+    title: 'Networks, Fallbacks and Jamming',
     objective: 'After this lesson you can lay out a PACE plan for fires, list the five countermeasures when a radar is jammed, and describe a command post that survives.',
     intro: 'Training centres now treat broken communications as normal. This lesson covers what the network is, what to fall back on, and how to stay alive while using it.',
     entryIds: ['usa-eq-itn-sbue', 'usa-ttp-fires-pace', 'usa-ttp-radar-eccm', 'usa-ttp-cp-survive'],
@@ -13810,7 +13810,7 @@ const LESSONS = [
   },
   {
     id: 'c2-us-3-1', topic: 'digital-fires-c2', level: 3, order: 1, addedIn: '2026.12',
-    title: 'Joint and allied connections',
+    title: 'Joint and Allied Connections',
     objective: 'After this lesson you can explain why joint airspace data and allied fire missions still need manual work, and how allies rehearse the set-up.',
     intro: 'The hardest links are those between services and between nations. This lesson shows where they break and why.',
     entryIds: ['joint-eq-jadocs-tais', 'joint-eq-asca', 'joint-trn-asca-univ'],
@@ -13846,7 +13846,7 @@ const LESSONS = [
   },
   {
     id: 'c2-us-3-2', topic: 'digital-fires-c2', level: 3, order: 2, addedIn: '2026.12',
-    title: 'Speed, and how units keep it',
+    title: 'Speed, and How Units Keep It',
     objective: 'After this lesson you can explain how a unit measures fire mission time and why digital skills are trained every three weeks, not once a year.',
     intro: 'There is no published US time standard for a whole fire mission. Units measure themselves. This lesson shows how, and how they train to keep the time down.',
     entryIds: ['usa-ttp-mission-latency', 'usa-ttp-proactive-counterfire', 'usa-trn-odst', 'usa-trn-c2-schools', 'joint-trn-c2-simulators'],
@@ -13881,7 +13881,7 @@ const LESSONS = [
   },
   {
     id: 'c2-us-4-1', topic: 'digital-fires-c2', level: 4, order: 1, addedIn: '2026.12',
-    title: 'AI targeting and the seams it exposes',
+    title: 'AI Targeting and the Seams It Exposes',
     objective: 'After this lesson you can describe what TITAN and Maven do and name the three hand-overs that remain manual.',
     intro: 'Finding targets by machine is now fast. Passing them to the guns is not. This lesson separates what is confirmed from what is claimed.',
     entryIds: ['joint-eq-maven', 'usa-eq-titan-production', 'les-c2-autonomy-doctrine', 'les-c2-cjadc2-seams'],
@@ -13909,7 +13909,7 @@ const LESSONS = [
   },
   {
     id: 'c2-us-4-2', topic: 'digital-fires-c2', level: 4, order: 2, addedIn: '2026.12',
-    title: 'What the field shows',
+    title: 'What the Field Shows',
     objective: 'After this lesson you can describe how digital links fail in practice and name the self-inflicted causes of delayed fire missions.',
     intro: 'Ukraine showed how fast tablets can make artillery, and how fast jamming takes it back. US field reports show failures much closer to home.',
     entryIds: ['les-c2-ukraine-stack', 'les-c2-ukraine-ew', 'les-c2-sbue-fragility', 'les-c2-ctc-trends'],
@@ -13943,7 +13943,7 @@ const LESSONS = [
   },
   {
     id: 'tfd-us-1-1', topic: 'technical-fire-direction', level: 1, order: 1, addedIn: '2026.12',
-    title: 'The fire direction centre',
+    title: 'The Fire Direction Centre',
     objective: 'After this lesson you can tell tactical from technical fire direction and say who provides the FDC with weather and survey data.',
     intro: 'The FDC turns a target into aiming data. This lesson covers who is in it, how control can move to the gun, and who feeds it data.',
     entryIds: ['usa-org-fdc', 'usa-org-fdc-autonomous', 'usa-org-met-survey-support'],
@@ -13978,7 +13978,7 @@ const LESSONS = [
   },
   {
     id: 'tfd-us-1-2', topic: 'technical-fire-direction', level: 1, order: 2, addedIn: '2026.12',
-    title: 'What accurate fire needs',
+    title: 'What Accurate Fire Needs',
     objective: 'After this lesson you can follow a mission through the battery FDC and name the checks that stop an unsafe round.',
     intro: 'Accurate first-round fire depends on meeting set requirements and on a fixed sequence of checks. This lesson covers both.',
     entryIds: ['usa-ttp-five-requirements', 'usa-ttp-fdc-mission', 'usa-ttp-fdc-safety'],
@@ -14012,7 +14012,7 @@ const LESSONS = [
   },
   {
     id: 'tfd-us-2-1', topic: 'technical-fire-direction', level: 2, order: 1, addedIn: '2026.12',
-    title: 'Position, weather and muzzle velocity',
+    title: 'Position, Weather and Muzzle Velocity',
     objective: 'After this lesson you can explain how a battery fixes its direction, why met data goes stale, and how barrel wear is corrected.',
     intro: 'Three inputs drive accuracy: where the gun is and points, what the air does, and how fast the round leaves the tube.',
     entryIds: ['usa-ttp-survey-lay', 'usa-ttp-met', 'usa-ttp-mv'],
@@ -14044,7 +14044,7 @@ const LESSONS = [
   },
   {
     id: 'tfd-us-2-2', topic: 'technical-fire-direction', level: 2, order: 2, addedIn: '2026.12',
-    title: 'Special missions and manual methods',
+    title: 'Special Missions and Manual Methods',
     objective: 'After this lesson you can say what registration is for, why three mission types need special procedures, and how a battery fires without computers.',
     intro: 'Not every mission is standard, and not every day has working computers.',
     entryIds: ['usa-ttp-registration-massing', 'usa-ttp-special-missions', 'usa-ttp-manual-gunnery'],
@@ -14079,7 +14079,7 @@ const LESSONS = [
   },
   {
     id: 'tfd-us-2-3', topic: 'technical-fire-direction', level: 2, order: 3, addedIn: '2026.12',
-    title: 'The mathematics and the instruments',
+    title: 'The Mathematics and the Instruments',
     objective: 'After this lesson you can explain why NATO shares one ballistic engine and how fire direction differs for cannons, rockets and mortars.',
     intro: 'The same physics sits under every system. This lesson covers the shared software and the devices that feed it.',
     entryIds: ['joint-eq-nabk', 'usa-eq-ballistic-compare', 'usa-eq-survey-met-devices'],
@@ -14117,7 +14117,7 @@ const LESSONS = [
   },
   {
     id: 'tfd-us-3-1', topic: 'technical-fire-direction', level: 3, order: 1, addedIn: '2026.12',
-    title: 'Training the fire direction centre',
+    title: 'Training the Fire Direction Centre',
     objective: 'After this lesson you can describe how officers and units are certified to fire and why manual gunnery stays in the syllabus.',
     intro: 'The training is built around one risk: a wrong number reaching a gun.',
     entryIds: ['usa-trn-fdc-enlisted', 'usa-trn-fabolc', 'usa-trn-artillery-tables', 'usa-trn-manual-skill-debate'],
@@ -14152,7 +14152,7 @@ const LESSONS = [
   },
   {
     id: 'tfd-us-4-1', topic: 'technical-fire-direction', level: 4, order: 1, addedIn: '2026.12',
-    title: 'What the field shows',
+    title: 'What the Field Shows',
     objective: 'After this lesson you can describe how jamming, drones and network problems are changing fire direction.',
     intro: 'Recent war and training rotations both expose the same weak points. Several entries here are reported or analysis, not confirmed.',
     entryIds: ['les-tfd-gps-jamming', 'les-tfd-software-at-gun', 'les-tfd-worn-barrels', 'les-tfd-fdc-survive', 'les-tfd-ctc'],
@@ -14186,7 +14186,7 @@ const LESSONS = [
   },
   {
     id: 'lm-us-1-1', topic: 'loitering-munitions', level: 1, order: 1, addedIn: '2026.12',
-    title: 'What they are and who has them',
+    title: 'What They Are and Who Has Them',
     objective: 'After this lesson you can define a loitering munition and say where each service places them.',
     intro: 'Strike drones are moving into small units. This lesson covers what the weapon is, why, and who operates it.',
     entryIds: ['joint-org-lm-what', 'usa-org-lasso-platoons', 'usmc-org-opf', 'joint-org-lm-people'],
@@ -14224,7 +14224,7 @@ const LESSONS = [
   },
   {
     id: 'lm-us-1-2', topic: 'loitering-munitions', level: 1, order: 2, addedIn: '2026.12',
-    title: 'The weapons',
+    title: 'The Weapons',
     objective: 'After this lesson you can explain why the Army and the Marine Corps chose different designs.',
     intro: 'The platform figures in this lesson are manufacturer figures and are marked reported. The exercises cover only the design choice.',
     entryIds: ['usa-eq-switchblade', 'usmc-eq-opf-l-platforms', 'usa-eq-altius', 'joint-eq-lm-design-choice', 'usa-eq-malet'],
@@ -14252,7 +14252,7 @@ const LESSONS = [
   },
   {
     id: 'lm-us-2-1', topic: 'loitering-munitions', level: 2, order: 1, addedIn: '2026.12',
-    title: 'Using them: airspace and human judgement',
+    title: 'Using Them: Airspace and Human Judgement',
     objective: 'After this lesson you can describe the free-fly zone and state what policy requires of the operator.',
     intro: 'Two problems come with strike drones in small units: crowded low airspace, and control over the use of force.',
     entryIds: ['usa-ttp-lm-custody', 'usa-ttp-lm-freefly-roz', 'joint-ttp-lm-autonomy'],
@@ -14287,7 +14287,7 @@ const LESSONS = [
   },
   {
     id: 'lm-us-3-1', topic: 'loitering-munitions', level: 3, order: 1, addedIn: '2026.12',
-    title: 'Joining the wider fight',
+    title: 'Joining the Wider Fight',
     objective: 'After this lesson you can explain how a loitering munition is fitted into the fires network, the joint air plan and digital training.',
     intro: 'A strike drone is one more shooter in a system. This lesson covers the connections above and around it.',
     entryIds: ['joint-eq-lm-network', 'joint-org-lm-above-division', 'usa-trn-lm-digital'],
@@ -14321,7 +14321,7 @@ const LESSONS = [
   },
   {
     id: 'lm-us-4-1', topic: 'loitering-munitions', level: 4, order: 1, addedIn: '2026.12',
-    title: 'What the field shows',
+    title: 'What the Field Shows',
     objective: 'After this lesson you can explain why mass and ammunition-style supply matter for strike drones.',
     intro: 'Recent wars point to speed, numbers and supply. The Ukraine entry is reported, not confirmed.',
     entryIds: ['les-lm-ukraine-apps', 'les-lm-attrition', 'les-lm-logistics'],
@@ -14356,7 +14356,7 @@ const LESSONS = [
   },
   {
     id: 'cf-us-1-1', topic: 'counterfire-survivability', level: 1, order: 1, addedIn: '2026.12',
-    title: 'Who fights the counter-fire battle',
+    title: 'Who Fights the Counter-Fire Battle',
     objective: 'After this lesson you can say which echelon does which kind of counter-fire, and name the headquarters that controls it.',
     intro: 'Counter-fire is the fight against enemy guns, rockets and mortars. It has two kinds and a named headquarters.',
     entryIds: ['joint-ttp-cf-two-kinds', 'usa-org-cf-echelons', 'usa-org-cf-processing', 'usa-org-cf-210-fab'],
@@ -14391,7 +14391,7 @@ const LESSONS = [
   },
   {
     id: 'cf-us-2-1', topic: 'counterfire-survivability', level: 2, order: 1, addedIn: '2026.12',
-    title: 'The reactive drill',
+    title: 'The Reactive Drill',
     objective: 'After this lesson you can put the reactive drill in order and explain why it is pre-authorised.',
     intro: 'From radar detection to rounds fired, with as few human steps as possible.',
     entryIds: ['usa-ttp-cf-reactive-drill', 'usa-ttp-cf-weapon-choice', 'usa-ttp-cf-allocation'],
@@ -14423,7 +14423,7 @@ const LESSONS = [
   },
   {
     id: 'cf-us-2-2', topic: 'counterfire-survivability', level: 2, order: 2, addedIn: '2026.12',
-    title: 'Fire, move, hide',
+    title: 'Fire, Move, Hide',
     objective: 'After this lesson you can describe the survivability cycle of a firing unit and the price of dispersion.',
     intro: 'A gun that fires is found. This lesson covers how units move to stay alive, and what it costs. The observers entry is analysis only.',
     entryIds: ['usa-ttp-surv-displace', 'usa-ttp-surv-dispersion', 'usa-ttp-surv-tradeoff', 'usa-ttp-surv-observers'],
@@ -14455,7 +14455,7 @@ const LESSONS = [
   },
   {
     id: 'cf-us-2-3', topic: 'counterfire-survivability', level: 2, order: 3, addedIn: '2026.12',
-    title: 'Hide and protect',
+    title: 'Hide and Protect',
     objective: 'After this lesson you can explain how a firing unit hides from sensors and protects itself when it must halt.',
     intro: 'Camouflage, emission control and digging. The two air defence entries are reported, not confirmed.',
     entryIds: ['usa-ttp-surv-concealment', 'usa-ttp-surv-hardening', 'usa-ttp-surv-cuas-gunline', 'usa-org-cf-ada-protection'],
@@ -14490,7 +14490,7 @@ const LESSONS = [
   },
   {
     id: 'cf-us-3-1', topic: 'counterfire-survivability', level: 3, order: 1, addedIn: '2026.12',
-    title: 'The equipment',
+    title: 'The Equipment',
     objective: 'After this lesson you can explain why the long-range cannon was cancelled and what the new area munition is for.',
     intro: 'Equipment choices follow the displacement problem. The rocket entry is reported, not confirmed.',
     entryIds: ['usa-eq-erca', 'usa-eq-cdaem', 'usa-eq-cf-rockets'],
@@ -14518,7 +14518,7 @@ const LESSONS = [
   },
   {
     id: 'cf-us-3-2', topic: 'counterfire-survivability', level: 3, order: 2, addedIn: '2026.12',
-    title: 'Training for it',
+    title: 'Training for It',
     objective: 'After this lesson you can describe how survivability is trained and what the trainers criticise.',
     intro: 'Crews certify through tables. Staffs are tested at the training centres.',
     entryIds: ['usa-trn-surv-tables', 'usa-trn-cf-staff', 'usa-trn-cf-critiques'],
@@ -14554,7 +14554,7 @@ const LESSONS = [
   },
   {
     id: 'cf-us-4-1', topic: 'counterfire-survivability', level: 4, order: 1, addedIn: '2026.12',
-    title: 'What recent wars changed',
+    title: 'What Recent Wars Changed',
     objective: 'After this lesson you can explain the three-minute window and what it means for older procedures.',
     intro: 'Ukraine and Nagorno-Karabakh set the timings. The custody and brigade-strike entries are reported, not confirmed.',
     entryIds: ['les-cf-three-minute', 'les-cf-custody', 'les-cf-mfb-strike'],
@@ -14584,7 +14584,7 @@ const LESSONS = [
   },
   {
     id: 'can-us-1-1', topic: 'cannon-artillery', level: 1, order: 1, addedIn: '2026.12',
-    title: 'Who owns the guns',
+    title: 'Who Owns the Guns',
     objective: 'After this lesson you can say where cannon artillery now sits in each service and name the four support relationships.',
     intro: 'Both services are changing who owns the guns. The support relationships decide who they fire for.',
     entryIds: ['usa-org-cannon-divarty', 'usmc-org-cannon-fd2030', 'joint-org-support-relationships', 'usa-org-jagic-layout'],
@@ -14620,7 +14620,7 @@ const LESSONS = [
   },
   {
     id: 'can-us-2-1', topic: 'cannon-artillery', level: 2, order: 1, addedIn: '2026.12',
-    title: 'The three howitzers',
+    title: 'The Three Howitzers',
     objective: 'After this lesson you can tell the three US howitzers apart by weight, range and the forces they serve.',
     intro: 'One light towed gun, one medium towed gun and one armoured self-propelled gun. The entry on the wheeled replacement programme is reported, not confirmed.',
     entryIds: ['usa-eq-m119a3', 'joint-eq-m777a2', 'usa-eq-m109a7', 'usa-eq-sphm'],
@@ -14655,7 +14655,7 @@ const LESSONS = [
   },
   {
     id: 'can-us-3-1', topic: 'cannon-artillery', level: 3, order: 1, addedIn: '2026.12',
-    title: 'Barrels, ballistics and laying',
+    title: 'Barrels, Ballistics and Laying',
     objective: 'After this lesson you can explain how barrel wear is tracked and how a battery is laid on a common azimuth.',
     intro: 'Accuracy depends on knowing the barrel, modelling the flight and pointing every gun the same way.',
     entryIds: ['usa-eq-barrel-records', 'joint-eq-nabk-model', 'usa-ttp-reciprocal-lay'],
@@ -14690,7 +14690,7 @@ const LESSONS = [
   },
   {
     id: 'can-us-3-2', topic: 'cannon-artillery', level: 3, order: 2, addedIn: '2026.12',
-    title: 'People and readiness',
+    title: 'People and Readiness',
     objective: 'After this lesson you can name the artillery specialties and describe how readiness is now measured.',
     intro: 'Crews, experts and the data that shows a unit is ready. The Ukraine entry is reported, not confirmed.',
     entryIds: ['usa-trn-cannon-specialties', 'usa-trn-cannon-experts', 'usa-trn-killchain-metrics', 'les-cannon-drones-gps'],
@@ -14726,7 +14726,7 @@ const LESSONS = [
   },
   {
     id: 'rkt-us-1-1', topic: 'rocket-missile-artillery', level: 1, order: 1, addedIn: '2026.12',
-    title: 'Launchers and crews',
+    title: 'Launchers and Crews',
     objective: 'After this lesson you can tell the two launchers apart and describe the crew, platoon and battalion that operate them.',
     intro: 'Two launchers, one crew of three, and a battalion of 18.',
     entryIds: ['usa-org-rkt-crew-platoon', 'usa-org-rkt-battalion', 'joint-eq-m142', 'usa-eq-m270a2'],
@@ -14762,7 +14762,7 @@ const LESSONS = [
   },
   {
     id: 'rkt-us-1-2', topic: 'rocket-missile-artillery', level: 1, order: 2, addedIn: '2026.12',
-    title: 'Hide, fire, reload',
+    title: 'Hide, Fire, Reload',
     objective: 'After this lesson you can describe the launcher cycle and how a rocket mission reaches the launcher.',
     intro: 'The launcher survives by moving. The entry on the practice rocket is reported, not confirmed.',
     entryIds: ['joint-ttp-rkt-cycle', 'joint-ttp-rkt-mission', 'joint-ttp-rkt-reload', 'joint-eq-lcrrpr'],
@@ -14796,7 +14796,7 @@ const LESSONS = [
   },
   {
     id: 'rkt-us-2-1', topic: 'rocket-missile-artillery', level: 2, order: 1, addedIn: '2026.12',
-    title: 'Rockets, missiles and what they are for',
+    title: 'Rockets, Missiles and What They Are For',
     objective: 'After this lesson you can name the munitions by range and say which targets justify a guided rocket.',
     intro: 'The munitions, the standard a target must meet, and the four roles. The entry on the cannon and rocket boundary is reported, not confirmed.',
     entryIds: ['joint-eq-rkt-munitions', 'joint-ttp-rkt-tle', 'joint-ttp-rkt-roles', 'les-rkt-erca-boundary'],
@@ -14832,7 +14832,7 @@ const LESSONS = [
   },
   {
     id: 'rkt-us-2-2', topic: 'rocket-missile-artillery', level: 2, order: 2, addedIn: '2026.12',
-    title: 'Airspace, airlift and jamming',
+    title: 'Airspace, Airlift and Jamming',
     objective: 'After this lesson you can explain how airspace is cleared for a rocket, what a HI-RAIN mission is, and how jamming is countered.',
     intro: 'Three conditions on firing: clear air, a way in, and a navigation signal. The Ukraine entry is reported, not confirmed.',
     entryIds: ['joint-ttp-rkt-airspace', 'joint-ttp-hirain', 'joint-ttp-rkt-jamming', 'les-rkt-ukraine'],
@@ -14866,7 +14866,7 @@ const LESSONS = [
   },
   {
     id: 'rkt-us-3-1', topic: 'rocket-missile-artillery', level: 3, order: 1, addedIn: '2026.12',
-    title: 'Marine anti-ship missiles',
+    title: 'Marine Anti-Ship Missiles',
     objective: 'After this lesson you can describe the Marine missile batteries, their launcher and the reasoning behind them.',
     intro: 'The Marine Corps traded cannon for missiles that can sink ships. The debate entry is analysis, not confirmed.',
     entryIds: ['usmc-org-nmesis-units', 'usmc-eq-nmesis', 'les-rkt-sea-denial'],
@@ -14901,7 +14901,7 @@ const LESSONS = [
   },
   {
     id: 'rkt-us-3-2', topic: 'rocket-missile-artillery', level: 3, order: 2, addedIn: '2026.12',
-    title: 'People, tables and production',
+    title: 'People, Tables and Production',
     objective: 'After this lesson you can describe how launcher crews are trained and qualified, and why production is being expanded.',
     intro: 'Crews, the tables they qualify on, and the supply of rockets. The National Guard entry is analysis, not confirmed.',
     entryIds: ['usa-trn-13m', 'usa-trn-rkt-tables', 'usa-org-rkt-reserve', 'usa-eq-aml-production'],
@@ -14936,7 +14936,7 @@ const LESSONS = [
   },
   {
     id: 'amm-us-1-1', topic: 'ammunition-effects', level: 1, order: 1, addedIn: '2026.12',
-    title: 'Who chooses the round',
+    title: 'Who Chooses the Round',
     objective: 'After this lesson you can describe who requests, decides and approves a munition, and the limits set by guidance and law.',
     intro: 'The observer recommends, the FDC decides, and higher commanders approve special rounds.',
     entryIds: ['joint-ttp-amm-selection', 'joint-ttp-amm-agm', 'joint-ttp-amm-approval', 'joint-ttp-amm-roe'],
@@ -14972,7 +14972,7 @@ const LESSONS = [
   },
   {
     id: 'amm-us-1-2', topic: 'ammunition-effects', level: 1, order: 2, addedIn: '2026.12',
-    title: 'Fuzes and effects',
+    title: 'Fuzes and Effects',
     objective: 'After this lesson you can match shell and fuze to a target and explain why the FDC shapes the sheaf.',
     intro: 'The right fuze often matters as much as the right shell.',
     entryIds: ['usa-ttp-amm-effects', 'usa-ttp-amm-matching', 'usa-ttp-amm-fuzes', 'usa-ttp-amm-sheaf'],
@@ -15007,7 +15007,7 @@ const LESSONS = [
   },
   {
     id: 'amm-us-2-1', topic: 'ammunition-effects', level: 2, order: 1, addedIn: '2026.12',
-    title: 'Screens and mines',
+    title: 'Screens and Mines',
     objective: 'After this lesson you can describe smoke, illumination and artillery-delivered mines, and how mines are controlled.',
     intro: 'Not every round is meant to destroy. The entries on timing and on precision against area fire are analysis, not confirmed.',
     entryIds: ['usa-ttp-amm-surprise', 'joint-ttp-amm-precision-area', 'usa-ttp-amm-smoke-illum', 'usa-ttp-amm-scatmine'],
@@ -15042,7 +15042,7 @@ const LESSONS = [
   },
   {
     id: 'amm-us-2-2', topic: 'ammunition-effects', level: 2, order: 2, addedIn: '2026.12',
-    title: 'Near friends and civilians',
+    title: 'Near Friends and Civilians',
     objective: 'After this lesson you can explain Risk Estimate Distances and the collateral damage process.',
     intro: 'Two kinds of risk: to own troops and to civilians.',
     entryIds: ['joint-ttp-amm-reds', 'joint-ttp-amm-cde', 'joint-trn-amm-cde-cert'],
@@ -15075,7 +15075,7 @@ const LESSONS = [
   },
   {
     id: 'amm-us-3-1', topic: 'ammunition-effects', level: 3, order: 1, addedIn: '2026.12',
-    title: 'Shells and charges',
+    title: 'Shells and Charges',
     objective: 'After this lesson you can describe the main HE shell, its insensitive version, the charge system and the sensor-fuzed anti-armour round.',
     intro: 'What goes down the tube. The entry on Excalibur and the guidance kit is reported, not confirmed.',
     entryIds: ['joint-eq-amm-he-im', 'joint-eq-amm-macs', 'joint-eq-amm-bonus', 'joint-eq-amm-guided'],
@@ -15108,7 +15108,7 @@ const LESSONS = [
   },
   {
     id: 'amm-us-3-2', topic: 'ammunition-effects', level: 3, order: 2, addedIn: '2026.12',
-    title: 'Rockets, clusters and allies',
+    title: 'Rockets, Clusters and Allies',
     objective: 'After this lesson you can explain cluster munition policy and the rocket Alternative Warhead.',
     intro: 'The entries on the ramjet shell and on NATO interchangeability are reported or analysis, not confirmed.',
     entryIds: ['joint-eq-amm-rkt-warheads', 'joint-eq-amm-cluster', 'usa-eq-amm-erap', 'joint-eq-amm-jbmou'],
@@ -15142,7 +15142,7 @@ const LESSONS = [
   },
   {
     id: 'amm-us-3-3', topic: 'ammunition-effects', level: 3, order: 3, addedIn: '2026.12',
-    title: 'Training and lessons',
+    title: 'Training and Lessons',
     objective: 'After this lesson you can explain how training ammunition is allocated and why production is rising.',
     intro: 'The entries on training gaps, Ukraine and Combat Training Centre trends are reported, not confirmed.',
     entryIds: ['usa-trn-amm-strac', 'usa-eq-amm-procurement', 'usa-trn-amm-critique', 'les-amm-ukraine', 'les-amm-ctc'],
@@ -15176,7 +15176,7 @@ const LESSONS = [
   },
   {
     id: 'sus-us-1-1', topic: 'sustainment', level: 1, order: 1, addedIn: '2026.12',
-    title: 'Who sustains the guns',
+    title: 'Who Sustains the Guns',
     objective: 'After this lesson you can name the units that supply and maintain an artillery battalion and who controls its ammunition.',
     intro: 'From battery sections to the brigade support battalion.',
     entryIds: ['usa-org-sus-echelons', 'usa-org-sus-amm-roles', 'usa-org-sus-maint-levels', 'usa-org-sus-med-fuel'],
@@ -15211,7 +15211,7 @@ const LESSONS = [
   },
   {
     id: 'sus-us-1-2', topic: 'sustainment', level: 1, order: 2, addedIn: '2026.12',
-    title: 'Factory to gun',
+    title: 'Factory to Gun',
     objective: 'After this lesson you can trace ammunition from the factory to the gun and explain configured loads and supply rates.',
     intro: 'Seven steps, two rates and one flatrack.',
     entryIds: ['usa-ttp-sus-chain', 'joint-ttp-sus-rsr-csr', 'usa-ttp-sus-loads', 'usa-eq-atlas'],
@@ -15244,7 +15244,7 @@ const LESSONS = [
   },
   {
     id: 'sus-us-2-1', topic: 'sustainment', level: 2, order: 1, addedIn: '2026.12',
-    title: 'Reloading the guns',
+    title: 'Reloading the Guns',
     objective: 'After this lesson you can compare field resupply methods and the handling of rocket and cannon ammunition.',
     intro: 'How the last mile is covered. The entry on dispersed caches includes the Marine resupply drone.',
     entryIds: ['usa-ttp-sus-resupply', 'joint-ttp-sus-rocket-cannon', 'usa-eq-m992a3', 'usa-eq-sus-trucks', 'joint-ttp-sus-dispersal'],
@@ -15278,7 +15278,7 @@ const LESSONS = [
   },
   {
     id: 'sus-us-2-2', topic: 'sustainment', level: 2, order: 2, addedIn: '2026.12',
-    title: 'Keeping guns in action',
+    title: 'Keeping Guns in Action',
     objective: 'After this lesson you can explain barrel life, common failures, parts commonality and recovery.',
     intro: 'Wear, breakdowns and recovery. The entry on remote maintenance is analysis, not confirmed.',
     entryIds: ['usa-ttp-sus-efc', 'usa-ttp-sus-availability', 'usa-ttp-sus-parts', 'usa-eq-sus-recovery', 'usa-ttp-sus-remote'],
@@ -15312,7 +15312,7 @@ const LESSONS = [
   },
   {
     id: 'sus-us-3-1', topic: 'sustainment', level: 3, order: 1, addedIn: '2026.12',
-    title: 'Marines, stocks and data',
+    title: 'Marines, Stocks and Data',
     objective: 'After this lesson you can describe Marine distributed sustainment, prepositioned stocks and the ammunition software.',
     intro: 'Islands, depots and three systems that do not talk.',
     entryIds: ['usmc-org-sus-distributed', 'usa-org-sus-aps', 'usa-eq-sus-systems', 'les-sus-ctc'],
@@ -15347,7 +15347,7 @@ const LESSONS = [
   },
   {
     id: 'sus-us-3-2', topic: 'sustainment', level: 3, order: 2, addedIn: '2026.12',
-    title: 'Factories and lessons',
+    title: 'Factories and Lessons',
     objective: 'After this lesson you can describe US production rates, their bottlenecks and the effect of Ukraine on stocks.',
     intro: 'The industrial base behind the guns. The Ukraine entry is reported, not confirmed.',
     entryIds: ['joint-eq-sus-production', 'joint-eq-sus-bottlenecks', 'les-sus-stocks', 'les-sus-ukraine'],
@@ -15382,7 +15382,7 @@ const LESSONS = [
   },
   {
     id: 'sus-us-3-3', topic: 'sustainment', level: 3, order: 3, addedIn: '2026.12',
-    title: 'Training the tail',
+    title: 'Training the Tail',
     objective: 'After this lesson you can describe how sustainment soldiers are trained and how training centres test logistics.',
     intro: 'The entry on gunnery certification critiques is analysis, not confirmed.',
     entryIds: ['usa-trn-sus-schools', 'usa-trn-sus-ctc', 'usa-trn-sus-critique'],
@@ -15416,7 +15416,7 @@ const LESSONS = [
   },
   {
     id: 'tgt-us-1-1', topic: 'digital-fires-c2', level: 1, order: 5, addedIn: '2026.12',
-    title: 'The targeting cycle',
+    title: 'The Targeting Cycle',
     objective: 'After this lesson you can name the four D3A phases, who runs them and what each produces.',
     intro: 'Decide, Detect, Deliver, Assess.',
     entryIds: ['usa-ttp-tgt-d3a', 'usa-ttp-tgt-decide', 'usa-ttp-tgt-detect', 'usa-ttp-tgt-assess'],
@@ -15451,7 +15451,7 @@ const LESSONS = [
   },
   {
     id: 'tgt-us-1-2', topic: 'digital-fires-c2', level: 1, order: 6, addedIn: '2026.12',
-    title: 'Other methods, schools and limits',
+    title: 'Other Methods, Schools and Limits',
     objective: 'After this lesson you can compare F3EAD and F2T2EA with D3A, name the joint targeting courses and describe civilian harm policy.',
     intro: 'Methods for fleeting targets, the people trained to run them, and the limits on them.',
     entryIds: ['joint-ttp-tgt-f3ead', 'joint-trn-tgt-jts', 'joint-eq-tgt-metal-parts', 'joint-ttp-tgt-chmr'],
@@ -15486,7 +15486,7 @@ const LESSONS = [
   },
   {
     id: 'mor-us-1-1', topic: 'cannon-artillery', level: 1, order: 2, addedIn: '2026.12',
-    title: 'Why mortars',
+    title: 'Why Mortars',
     objective: 'After this lesson you can explain how mortars differ from artillery and where each formation holds them.',
     intro: 'The commander’s own indirect fire.',
     entryIds: ['joint-ttp-mor-role', 'usa-org-mor-ibct', 'usa-org-mor-sbct', 'usa-org-mor-abct'],
@@ -15521,7 +15521,7 @@ const LESSONS = [
   },
   {
     id: 'mor-us-1-2', topic: 'cannon-artillery', level: 1, order: 3, addedIn: '2026.12',
-    title: 'Three calibres',
+    title: 'Three Calibres',
     objective: 'After this lesson you can compare the 60, 81 and 120mm mortars and their effects.',
     intro: 'Weight against punch.',
     entryIds: ['joint-eq-m224a1', 'joint-eq-m252a1', 'usa-eq-m120', 'joint-eq-mor-effects'],
@@ -15556,7 +15556,7 @@ const LESSONS = [
   },
   {
     id: 'mor-us-2-1', topic: 'cannon-artillery', level: 2, order: 2, addedIn: '2026.12',
-    title: 'Fire direction and precision',
+    title: 'Fire Direction and Precision',
     objective: 'After this lesson you can describe digital and analog mortar fire control, guided rounds and the mortar’s place in targeting.',
     intro: 'From call for fire to round on target.',
     entryIds: ['usa-ttp-mor-targeting', 'usa-eq-mor-fire-control', 'usa-eq-mor-pgm', 'joint-ttp-mor-chmr'],
@@ -15591,7 +15591,7 @@ const LESSONS = [
   },
   {
     id: 'mor-us-2-2', topic: 'cannon-artillery', level: 2, order: 3, addedIn: '2026.12',
-    title: 'Marines, training and the turret',
+    title: 'Marines, Training and the Turret',
     objective: 'After this lesson you can describe Marine mortars, mortar training in both services and the turreted mortar.',
     intro: 'People and the next carrier.',
     entryIds: ['usmc-org-mor', 'usa-trn-11c', 'usmc-trn-0341', 'usa-eq-mor-nemo'],
@@ -15629,7 +15629,7 @@ const LESSONS = [
     topic: "russia",
     level: 1,
     order: 1,
-    title: "How Russia thinks about fire",
+    title: "How Russia Thinks About Fire",
     objective: "After this lesson you can describe the reconnaissance-fire and reconnaissance-strike complexes, Russian fire patterns and the artillery in a motor rifle brigade.",
     intro: "Artillery as “the God of War”. Use the US lessons as your comparison.",
     entryIds: ["rus-doc-rfc-rsc", "rus-doc-fire-forms", "rus-org-mrb", "rus-org-vdv-nbc"],
@@ -15641,7 +15641,7 @@ const LESSONS = [
     topic: "russia",
     level: 1,
     order: 2,
-    title: "Russian guns",
+    title: "Russian Guns",
     objective: "After this lesson you can compare the Msta-S, Koalitsiya-SV and Malva and say what each trades off.",
     intro: "Three 152mm guns, three answers to survival. The Tyulpan heavy mortar shows the cost of being slow.",
     entryIds: ["rus-eq-msta", "rus-eq-koalitsiya", "rus-eq-malva", "rus-eq-tyulpan"],
@@ -15653,7 +15653,7 @@ const LESSONS = [
     topic: "russia",
     level: 1,
     order: 3,
-    title: "Rockets and missiles",
+    title: "Rockets and Missiles",
     objective: "After this lesson you can describe Iskander brigades, the Tornado launchers and the thermobaric systems.",
     intro: "From 122mm salvoes to 500 km missiles.",
     entryIds: ["rus-eq-iskander", "rus-eq-tornado-g", "rus-eq-tornado-s", "rus-eq-tos"],
@@ -15665,7 +15665,7 @@ const LESSONS = [
     topic: "russia",
     level: 1,
     order: 4,
-    title: "Precision: mortars, Krasnopol and the laser drone",
+    title: "Precision: Mortars, Krasnopol and the Laser Drone",
     objective: "After this lesson you can explain how Russia gets precision from mortars and guns by laser.",
     intro: "Russia steers by laser, not GPS.",
     entryIds: ["rus-eq-mortars", "rus-eq-krasnopol", "rus-eq-orlan"],
@@ -15677,7 +15677,7 @@ const LESSONS = [
     topic: "russia",
     level: 2,
     order: 1,
-    title: "Drones and sensors that find guns",
+    title: "Drones and Sensors That Find Guns",
     objective: "After this lesson you can describe Rubicon, the Lancet, Russian counter-battery radars and the Penicillin locator.",
     intro: "Russia’s answer to finding and killing enemy artillery.",
     entryIds: ["rus-org-rubicon", "rus-eq-lancet", "rus-eq-cb-radars", "rus-eq-penicillin"],
@@ -15689,7 +15689,7 @@ const LESSONS = [
     topic: "russia",
     level: 2,
     order: 2,
-    title: "Command, fallback and the real kill chain",
+    title: "Command, Fallback and the Real Kill Chain",
     objective: "After this lesson you can describe Russian artillery command vehicles, manual fallback and why counter-battery is slower than claimed.",
     intro: "The entries on 1V198 and on the real kill chain are reported or analysis, not confirmed.",
     entryIds: ["rus-eq-c2-legacy", "rus-eq-1v198", "rus-ttp-manual-met", "rus-ttp-cb-killchain"],
@@ -15701,7 +15701,7 @@ const LESSONS = [
     topic: "russia",
     level: 4,
     order: 1,
-    title: "Barrels, shells, allies and the law",
+    title: "Barrels, Shells, Allies and the Law",
     objective: "After this lesson you can explain what limits Russian mass fire and how Russian targeting law compares with practice.",
     intro: "The entry on the law in practice is analysis, not confirmed.",
     entryIds: ["rus-sus-barrels", "rus-sus-ammunition", "rus-org-csto", "rus-les-loac"],
@@ -15713,7 +15713,7 @@ const LESSONS = [
     topic: "south-korea",
     level: 1,
     order: 1,
-    title: "An army built to win the counter-battery fight",
+    title: "An Army Built to Win the Counter-Battery Fight",
     objective: "After this lesson you can explain why ROK artillery puts counter-battery first and how it is organised.",
     intro: "Seoul is in range of North Korean guns. Compare with the US lessons as you go.",
     entryIds: ["kor-doc-history", "kor-doc-counterbattery", "kor-org-echelons", "kor-org-fso"],
@@ -15725,7 +15725,7 @@ const LESSONS = [
     topic: "south-korea",
     level: 1,
     order: 2,
-    title: "Radars, fire direction and networks",
+    title: "Radars, Fire Direction and Networks",
     objective: "After this lesson you can describe the ROK sensor-to-shooter chain from radar to combined US-ROK fires.",
     intro: "From one radar to a combined counter-fire picture.",
     entryIds: ["kor-eq-tpq74k", "kor-eq-btcs", "kor-eq-atcis", "kor-eq-jfos"],
@@ -15737,7 +15737,7 @@ const LESSONS = [
     topic: "south-korea",
     level: 1,
     order: 3,
-    title: "The K9 family, the K105HT and the Skyfall mortar",
+    title: "The K9 Family, the K105HT and the Skyfall Mortar",
     objective: "After this lesson you can compare the main ROK guns and mortars and their resupply.",
     intro: "Fast in, fast out, and fed under armour.",
     entryIds: ["kor-eq-k9", "kor-eq-k9a2", "kor-eq-k10", "kor-eq-k105ht", "kor-eq-ksm120"],
@@ -15749,7 +15749,7 @@ const LESSONS = [
     topic: "south-korea",
     level: 1,
     order: 4,
-    title: "Rockets, the artillery-killer missile and drones",
+    title: "Rockets, the Artillery-Killer Missile and Drones",
     objective: "After this lesson you can explain how Chunmoo, KTSSM and Warmate 3 fill gaps that tube artillery cannot.",
     intro: "The entry on future trends is analysis, not confirmed.",
     entryIds: ["kor-eq-chunmoo", "kor-eq-ktssm", "kor-eq-warmate", "kor-les-trends"],
@@ -15761,7 +15761,7 @@ const LESSONS = [
     topic: "ukraine",
     level: 1,
     order: 1,
-    title: "Outgunned: structure for a long war",
+    title: "Outgunned: Structure for a Long War",
     objective: "After this lesson you can explain Ukraine’s starting position and why it reorganised into corps and Brigade Artillery Groups.",
     intro: "From 2 to 1 against, to 10 to 1. The lessons entry is analysis, not confirmed.",
     entryIds: ["ukr-doc-baseline", "ukr-les-lessons", "ukr-org-corps", "ukr-org-bag"],
@@ -15773,7 +15773,7 @@ const LESSONS = [
     topic: "ukraine",
     level: 1,
     order: 2,
-    title: "The digital kill chain",
+    title: "The Digital Kill Chain",
     objective: "After this lesson you can describe Delta, GIS Arta and the gun-level apps, and how sensors feed them.",
     intro: "Software from volunteers became the backbone of Ukrainian fires.",
     entryIds: ["ukr-eq-delta", "ukr-eq-gisarta", "ukr-eq-kropyva", "ukr-ttp-sensors"],
@@ -15785,7 +15785,7 @@ const LESSONS = [
     topic: "ukraine",
     level: 1,
     order: 3,
-    title: "Precision, survival and supply",
+    title: "Precision, Survival and Supply",
     objective: "After this lesson you can explain sensor-fuzed rounds, roving guns and Ukraine’s domestic production.",
     intro: "The entries on dropping shells from drones and on civilian harm are reported or analysis, not confirmed.",
     entryIds: ["ukr-eq-sfm", "ukr-ttp-drone-drop", "ukr-ttp-roving-gun", "ukr-sus-industry", "ukr-les-chmr"],
@@ -15797,7 +15797,7 @@ const LESSONS = [
     topic: "china",
     level: 1,
     order: 1,
-    title: "A joint army built for system destruction",
+    title: "A Joint Army Built for System Destruction",
     objective: "After this lesson you can describe the PLA’s theatre and group army structure and its idea of system destruction warfare.",
     intro: "Compare with US and Russian structures as you go.",
     entryIds: ["chn-org-reform", "chn-org-group-army", "chn-org-amphib", "chn-doc-system-destruction"],
@@ -15809,7 +15809,7 @@ const LESSONS = [
     topic: "china",
     level: 1,
     order: 2,
-    title: "Sensing and precise shells",
+    title: "Sensing and Precise Shells",
     objective: "After this lesson you can describe how PLA sensors and command networks feed artillery, and its guided shells.",
     intro: "From radar to the best weapon in seconds.",
     entryIds: ["chn-org-ssf-icp", "chn-eq-sensors", "chn-eq-guided-shells"],
@@ -15821,7 +15821,7 @@ const LESSONS = [
     topic: "china",
     level: 1,
     order: 3,
-    title: "Guns, rockets and people",
+    title: "Guns, Rockets and People",
     objective: "After this lesson you can compare the PLA’s main guns and rocket launcher and explain its concerns about commanders.",
     intro: "New hardware, and the PLA’s own doubts about using it.",
     entryIds: ["chn-eq-pcl181", "chn-eq-plz05", "chn-eq-phl191", "chn-eq-tactical", "chn-les-human"],
@@ -15833,7 +15833,7 @@ const LESSONS = [
     topic: "japan",
     level: 1,
     order: 1,
-    title: "Fires for island defence, and the rules",
+    title: "Fires for Island Defence, and the Rules",
     objective: "After this lesson you can explain how Japan brings joint fires to a landing force and the legal conditions on its use of force.",
     intro: "Who calls the fires, who fires alongside, and when Japan may strike.",
     entryIds: ["jpn-trn-ardb-jtac", "jpn-ttp-allied-fires", "jpn-ttp-three-conditions"],
@@ -15845,7 +15845,7 @@ const LESSONS = [
     topic: "japan",
     level: 1,
     order: 2,
-    title: "Guns, shells and supply",
+    title: "Guns, Shells and Supply",
     objective: "After this lesson you can describe Japan’s new guns and mortars, its cluster munition ban and armoured resupply.",
     intro: "The Type 19, its guided shells, and what Japan gave up.",
     entryIds: ["jpn-eq-type19", "jpn-eq-mortars", "jpn-eq-vulcano", "jpn-pol-cluster", "jpn-eq-type99-arv"],
@@ -15857,7 +15857,7 @@ const LESSONS = [
     topic: "japan",
     level: 1,
     order: 3,
-    title: "Find, compute and train",
+    title: "Find, Compute and Train",
     objective: "After this lesson you can describe how Japan locates enemy guns, computes firing data and trains its gunners.",
     intro: "From the radar to the gun display, and the school behind it.",
     entryIds: ["jpn-eq-jtps-p16", "jpn-eq-fccs", "jpn-ttp-tfd", "jpn-trn-fuji"],
@@ -15869,7 +15869,7 @@ const LESSONS = [
     topic: "japan",
     level: 1,
     order: 4,
-    title: "Missiles, drones and stockpiles",
+    title: "Missiles, Drones and Stockpiles",
     objective: "After this lesson you can describe Japan’s anti-ship and long-range missiles, its loitering munitions, air defence for gun areas and its ammunition build-up.",
     intro: "Sea denial, new strike weapons, and the stocks to keep firing.",
     entryIds: ["jpn-org-ssm", "jpn-eq-type25", "jpn-eq-lm", "jpn-eq-type11", "jpn-sus-budget"],
@@ -15881,7 +15881,7 @@ const LESSONS = [
     topic: "australia",
     level: 1,
     order: 1,
-    title: "Who links the fires, and who owns the guns",
+    title: "Who Links the Fires, and Who Owns the Guns",
     objective: "After this lesson you can describe how Australian artillery links fires to manoeuvre units and how its regiments and the 10th (Fires) Brigade are organised.",
     intro: "Teams forward, regiments with brigades, long-range fires in one brigade.",
     entryIds: ["aus-org-jft-jfecc", "aus-les-littoral", "aus-org-brigade-arty", "aus-org-10-bde"],
@@ -15893,7 +15893,7 @@ const LESSONS = [
     topic: "australia",
     level: 1,
     order: 2,
-    title: "Guns, rockets and what they fire",
+    title: "Guns, Rockets and What They Fire",
     objective: "After this lesson you can describe Australia’s AS9 Huntsman, HIMARS and PrSM programme, loitering munitions, munition suite and cluster munition law.",
     intro: "The weapons, and the law on what they may fire.",
     entryIds: ["aus-eq-as9", "aus-eq-himars", "aus-eq-lm", "aus-eq-munitions", "aus-pol-cluster"],
@@ -15905,7 +15905,7 @@ const LESSONS = [
     topic: "australia",
     level: 1,
     order: 3,
-    title: "Find, compute and decide",
+    title: "Find, Compute and Decide",
     objective: "After this lesson you can describe how Australia acquires targets, computes firing data and controls targeting.",
     intro: "Drones in an artillery regiment, the command post, and the human decision.",
     entryIds: ["aus-org-20-regt", "aus-ttp-ta-layers", "aus-ttp-cp", "aus-eq-c2", "aus-ttp-targeting"],
@@ -15917,7 +15917,7 @@ const LESSONS = [
     topic: "australia",
     level: 1,
     order: 4,
-    title: "Survive and sustain",
+    title: "Survive and Sustain",
     objective: "After this lesson you can explain how Australian artillery survives and how it is supplied, from the gun line to home production.",
     intro: "Move fast, defend the guns, keep the ammunition coming.",
     entryIds: ["aus-ttp-survive", "aus-eq-ad", "aus-sus-arty-log", "aus-sus-gweo"],
