@@ -7178,7 +7178,7 @@ const APP_DATA = [
       'The data shows where the chain stalls, such as message translation between networks or hardware failures, so it can be fixed before deployment.'
     ],
     sources: [],
-    confidence: 'Confirmed',
+    confidence: 'Analysis',
     asOf: '2026-11',
     relatedIds: ['usa-trn-odst', 'usa-trn-jfo', 'usa-trn-c2-schools']
   },
@@ -7260,7 +7260,7 @@ const APP_DATA = [
       'Accurate forecasting keeps the forward units armed for the deep fight.'
     ],
     sources: [],
-    confidence: 'Confirmed',
+    confidence: 'Analysis',
     asOf: '2026-11',
     relatedIds: ['les-lm-attrition', 'usa-org-lasso-platoons']
   },
@@ -7736,17 +7736,17 @@ const APP_DATA = [
     title: 'HIMARS and MLRS in the Counter-Fire Role',
     what: [
       'The M142 HIMARS is wheeled. The M270 MLRS is tracked. Both fire guided rockets (GMLRS) for deep proactive and rapid reactive counter-fire.',
-      'Reported, not confirmed: the performance and cost claims below rest on an informal source.'
+      'Analysis: the performance and cost claims below rest on an informal source and are not confirmed.'
     ],
     how: [
-      'Reported: both can halt, fire and displace in less than a minute.'
+      'Analysis: both can halt, fire and displace in less than a minute.'
     ],
     why: [
-      'Reported: rockets are more cost-effective and versatile than tube artillery for long-range counter-battery strikes.',
-      'Reported: they outrange enemy cannon, so they can fire from relative safety behind friendly lines.'
+      'Analysis: rockets are more cost-effective and versatile than tube artillery for long-range counter-battery strikes.',
+      'Analysis: they outrange enemy cannon, so they can fire from relative safety behind friendly lines.'
     ],
     sources: [],
-    confidence: 'Reported',
+    confidence: 'Analysis',
     asOf: '2026-11',
     relatedIds: ['usa-ttp-cf-weapon-choice', 'usa-org-cf-210-fab']
   },
@@ -10419,7 +10419,7 @@ const APP_DATA = [
     sources: [
       { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
     ],
-    confidence: 'Confirmed',
+    confidence: 'Analysis',
     asOf: '2026-11',
     relatedIds: ['usa-eq-m109a7', 'usa-org-sus-maint-levels']
   },
@@ -10446,7 +10446,7 @@ const APP_DATA = [
     sources: [
       { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
     ],
-    confidence: 'Confirmed',
+    confidence: 'Analysis',
     asOf: '2026-11',
     relatedIds: ['usa-eq-m109a7', 'usa-eq-sus-systems']
   },
@@ -11062,7 +11062,8 @@ const APP_DATA = [
       'Targeting relies more and more on joint assets: aircraft, naval fires and cyber. Staff must know how to combine them.'
     ],
     sources: [
-      {"title": "Joint Targeting School", "publisher": "Joint Chiefs of Staff (J7)", "year": "", "url": "https://www.jcs.mil/Doctrine/Joint-Training/Joint-Functional-Schools/JTS"}
+      {"title": "Joint Targeting School", "publisher": "Joint Chiefs of Staff (J7)", "year": "", "url": "https://www.jcs.mil/Doctrine/Joint-Training/Joint-Functional-Schools/JTS"},
+      {"title": "Leaders increase interoperability through Joint Firepower Course", "publisher": "U.S. Army", "year": "2015", "url": "https://www.army.mil/article/147321/leaders_increase_interoperability_through_joint_firepower_course"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
