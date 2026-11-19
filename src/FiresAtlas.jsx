@@ -16492,14 +16492,15 @@ function RangeRings() {
   const countriesOf = (k) => Object.keys(COUNTRY_COLOUR).filter((c) => RANGE_DATA.some((x) => x.k === k && x.c === c));
   const [L, setL] = useState('United States');
   const [Rt, setRt] = useState('Russia');
-  const [off, setOff] = useState([]); // weapons the learner has unticked
+  const [sel, setSel] = useState(null); // ticked weapons; null = the first weapon of each army
   const avail = countriesOf(kind);
   const left = avail.includes(L) ? L : avail[0];
   const right = avail.includes(Rt) && Rt !== left ? Rt : avail.find((c) => c !== left) || null;
   const colL = RANGE_DATA.filter((x) => x.k === kind && x.c === left);
   const colR = right ? RANGE_DATA.filter((x) => x.k === kind && x.c === right) : [];
-  const shown = colL.concat(colR).filter((x) => !off.includes(x.n));
-  const toggle = (n) => setOff(off.includes(n) ? off.filter((x) => x !== n) : off.concat([n]));
+  const ticked = sel || [colL[0], colR[0]].filter(Boolean).map((x) => x.n);
+  const shown = colL.concat(colR).filter((x) => ticked.includes(x.n));
+  const toggle = (n) => setSel(ticked.includes(n) ? ticked.filter((x) => x !== n) : ticked.concat([n]));
   const maxKm = niceMax(Math.max(1, ...shown.flatMap((x) => x.a.map((a) => a.km))));
   const C = 200, RAD = 180;
   const rOf = (km) => (km / maxKm) * RAD;
@@ -16509,7 +16510,7 @@ function RangeRings() {
     <div className="space-y-1.5 min-w-0">
       {list.length === 0 && <div className={`p-2 text-sm ${t.faint}`}>None in this group.</div>}
       {list.map((x) => {
-        const on = !off.includes(x.n);
+        const on = ticked.includes(x.n);
         return (
           <div key={x.n} className={`rounded-lg border ${t.card}`} style={on ? { borderLeft: '4px solid ' + countryColour(x.c) } : undefined}>
             <button type="button" onClick={() => toggle(x.n)} aria-pressed={on} className="w-full flex items-start gap-2 p-2 text-left">
@@ -16534,14 +16535,14 @@ function RangeRings() {
     <div className="space-y-3">
       <div>
         <h2 className="text-xl font-bold">Ranges compared</h2>
-        <p className={`mt-1 text-sm ${t.muted}`}>Pick two armies. Untick a weapon to hide its rings. Solid ring: standard round; dashed or dotted: longer-range rounds.</p>
+        <p className={`mt-1 text-sm ${t.muted}`}>Pick two armies. The first weapon of each is shown; tick others to add them. Solid ring: standard round; dashed or dotted: longer-range rounds.</p>
       </div>
       <div className="flex gap-2 overflow-x-auto pb-1">
-        {RANGE_KINDS.map((k) => <Chip key={k} on={kind === k} onClick={() => { setKind(k); setOff([]); }}>{k}</Chip>)}
+        {RANGE_KINDS.map((k) => <Chip key={k} on={kind === k} onClick={() => { setKind(k); setSel(null); }}>{k}</Chip>)}
       </div>
       <div className="grid grid-cols-2 gap-2">
-        <Pick wide label="Left" value={left} onChange={(v) => { if (v) { setL(v); setOff([]); } }} options={avail} />
-        <Pick wide label="Right" value={right} onChange={(v) => { if (v) { setRt(v); setOff([]); } }} options={avail.filter((c) => c !== left)} />
+        <Pick wide label="Left" value={left} onChange={(v) => { if (v) { setL(v); setSel(null); } }} options={avail} />
+        <Pick wide label="Right" value={right} onChange={(v) => { if (v) { setRt(v); setSel(null); } }} options={avail.filter((c) => c !== left)} />
       </div>
       <div className={`sticky top-14 z-10 pb-2 ${t.page}`}>
         <Card className="!p-2 sm:!p-4">
