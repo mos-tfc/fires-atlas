@@ -19659,11 +19659,11 @@ function WelcomeView({ first }) {
       <section className="space-y-3">
         <H>Who It Is For</H>
         <p className="text-base leading-relaxed">Anyone who studies or practises fire support: gunners, fire support officers, planners, instructors and students.</p>
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="grid grid-cols-2 gap-2 sm:gap-3">
           {parts.map(([h, p]) => (
-            <div key={h} className={`p-3 rounded-lg border ${t.card}`}>
-              <div className="font-bold">{h}</div>
-              <div className={`text-sm mt-0.5 ${t.muted}`}>{p}</div>
+            <div key={h} className={`p-3 rounded-lg border min-w-0 ${t.card}`}>
+              <div className="font-bold text-sm sm:text-base">{h}</div>
+              <div className={`text-xs sm:text-sm mt-0.5 ${t.muted}`}>{p}</div>
             </div>
           ))}
         </div>
