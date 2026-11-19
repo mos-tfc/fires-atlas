@@ -19637,12 +19637,12 @@ function WelcomeView({ first }) {
 
       <section className={`p-4 rounded-xl border space-y-2 ${t.info}`}>
         <h2 className="text-xl font-bold">Objectives</h2>
-        <p className="text-base">Using Fires Atlas, you will be able to:</p>
+        <p className="text-base">After working through Fires Atlas, you should be able to:</p>
         <ol className="list-decimal pl-5 space-y-1.5 text-base leading-relaxed">
-          <li><span className="font-semibold">Explain the fire support system end to end:</span> how fires are linked to manoeuvre, delivered, directed, protected and sustained, and why each part works as it does.</li>
-          <li><span className="font-semibold">Compare {ALL_COUNTRIES.length} armies:</span> how each organises, equips and employs its artillery for the same tasks.</li>
-          <li><span className="font-semibold">Judge the evidence:</span> tell which lessons from recent conflicts are confirmed, which are only reported, and which are analysis.</li>
-          <li><span className="font-semibold">Bring sharper questions</span> to discussion of your own practice.</li>
+          <li><span className="font-semibold">Explain how fire support works end to end:</span> how fires are linked to manoeuvre, delivered, directed, protected and sustained, and why each part is done the way it is.</li>
+          <li><span className="font-semibold">Compare your understanding with other militaries:</span> see how different armies organise, equip and employ their artillery for the same tasks.</li>
+          <li><span className="font-semibold">Apply lessons from recent conflicts:</span> recognise what has changed in finding targets, striking them and surviving the reply, and what that means for planning and protecting fires.</li>
+          <li><span className="font-semibold">Think critically about your own practice:</span> question your assumptions with a wider view of the options other armies have chosen.</li>
         </ol>
       </section>
 
