@@ -16461,16 +16461,20 @@ function Compare() {
 // Coverage: how many entries each country has in each topic. A cell opens those entries.
 
 // ---------- explore: ranges and the military map ----------
+// Coloured column header used by the two-column (left and right) views.
+function SideHead({ country, sub }) {
+  const { t } = useApp();
+  return (
+    <div className={`p-2 rounded-lg border text-sm font-bold leading-snug min-w-0 ${t.card}`} style={{ borderLeft: '4px solid ' + countryColour(country) }}>
+      {country}{sub ? <div className={`text-xs font-medium ${t.muted}`}>{sub}</div> : null}
+    </div>
+  );
+}
 // One colour per country, used in both views (readable on light and dark backgrounds).
 const COUNTRY_COLOUR = { 'United States': '#3b82f6', Russia: '#ef4444', 'South Korea': '#14b8a6', Ukraine: '#eab308', China: '#ec4899', Japan: '#8b5cf6', Australia: '#f97316' };
 const countryColour = (c) => COUNTRY_COLOUR[c] || '#94a3b8';
 const DASHES = ['', '7 5', '2 4', '10 4 2 4'];
 const RANGE_KINDS = ['Guns', 'Mortars', 'Rockets and missiles'];
-const RANGE_PRESET = {
-  Guns: ['M777A2', '2S19 Msta-S', 'K9 Thunder', 'PCL-181', 'Type 19'],
-  Mortars: ['M224A1 (60mm)', 'M252A1 (81mm)', 'M120A1 (120mm)', 'KSM-120 (120mm)'],
-  'Rockets and missiles': ['HIMARS / M270A2', 'Tornado-S', 'K239 Chunmoo', 'PHL-191', 'Iskander-M']
-};
 const niceMax = (v) => {
   const p = Math.pow(10, Math.floor(Math.log10(v)));
   const m = [1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10].find((x) => x * p >= v);
@@ -16481,31 +16485,64 @@ const fmtKm = (km) => (km < 10 ? String(km).replace(/\.0$/, '') : Math.round(km)
 function RangeRings() {
   const { t, go } = useApp();
   const [kind, setKind] = useState('Guns');
-  const [sel, setSel] = useState(RANGE_PRESET.Guns);
-  const all = RANGE_DATA.filter((x) => x.k === kind);
-  const shown = all.filter((x) => sel.includes(x.n));
-  const pickKind = (k) => { setKind(k); setSel(RANGE_PRESET[k]); };
-  const toggle = (n) => setSel(sel.includes(n) ? sel.filter((x) => x !== n) : sel.concat([n]));
+  const countriesOf = (k) => Object.keys(COUNTRY_COLOUR).filter((c) => RANGE_DATA.some((x) => x.k === k && x.c === c));
+  const [L, setL] = useState('United States');
+  const [Rt, setRt] = useState('Russia');
+  const [off, setOff] = useState([]); // weapons the learner has unticked
+  const avail = countriesOf(kind);
+  const left = avail.includes(L) ? L : avail[0];
+  const right = avail.includes(Rt) && Rt !== left ? Rt : avail.find((c) => c !== left) || null;
+  const colL = RANGE_DATA.filter((x) => x.k === kind && x.c === left);
+  const colR = right ? RANGE_DATA.filter((x) => x.k === kind && x.c === right) : [];
+  const shown = colL.concat(colR).filter((x) => !off.includes(x.n));
+  const toggle = (n) => setOff(off.includes(n) ? off.filter((x) => x !== n) : off.concat([n]));
   const maxKm = niceMax(Math.max(1, ...shown.flatMap((x) => x.a.map((a) => a.km))));
   const C = 200, RAD = 180;
   const rOf = (km) => (km / maxKm) * RAD;
   const ticks = [0.25, 0.5, 0.75, 1].map((f) => f * maxKm);
   const outerKm = (x) => Math.max(...x.a.map((a) => a.km));
-  const order = Object.keys(COUNTRY_COLOUR).concat(uniq(all.map((x) => x.c)).filter((c) => !COUNTRY_COLOUR[c]));
-  const groups = order.map((c) => ({ c, list: all.filter((x) => x.c === c) })).filter((g) => g.list.length);
+  const column = (list) => (
+    <div className="space-y-1.5 min-w-0">
+      {list.length === 0 && <div className={`p-2 text-sm ${t.faint}`}>None in this group.</div>}
+      {list.map((x) => {
+        const on = !off.includes(x.n);
+        return (
+          <div key={x.n} className={`rounded-lg border ${t.card}`} style={on ? { borderLeft: '4px solid ' + countryColour(x.c) } : undefined}>
+            <button type="button" onClick={() => toggle(x.n)} aria-pressed={on} className="w-full flex items-start gap-2 p-2 text-left">
+              <span className={`shrink-0 mt-0.5 w-5 h-5 rounded border flex items-center justify-center ${on ? t.chipOn : t.chip}`}>{on && <Check size={14} />}</span>
+              <span className="min-w-0">
+                <span className="block text-sm font-semibold leading-snug">{x.n}</span>
+                <span className={`block text-xs ${t.muted}`}>up to {fmtKm(outerKm(x))} km{x.r ? ' · reported' : ''}</span>
+              </span>
+            </button>
+            {on && (
+              <div className={`px-2 pb-2 -mt-1 text-xs leading-snug ${t.muted}`}>
+                {x.a.map((a) => <div key={a.a}>{a.a}: {fmtKm(a.km)} km</div>)}
+                <button type="button" onClick={() => go('entry', x.id)} className={`mt-0.5 font-semibold ${t.link}`}>Entry ›</button>
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
   return (
     <div className="space-y-3">
       <div>
         <h2 className="text-xl font-bold">Ranges compared</h2>
-        <p className={`mt-1 text-sm ${t.muted}`}>Tick weapons in the list to add their rings. Solid ring: standard round; dashed or dotted: longer-range rounds.</p>
+        <p className={`mt-1 text-sm ${t.muted}`}>Pick two armies. Untick a weapon to hide its rings. Solid ring: standard round; dashed or dotted: longer-range rounds.</p>
       </div>
       <div className="flex gap-2 overflow-x-auto pb-1">
-        {RANGE_KINDS.map((k) => <Chip key={k} on={kind === k} onClick={() => pickKind(k)}>{k}</Chip>)}
+        {RANGE_KINDS.map((k) => <Chip key={k} on={kind === k} onClick={() => { setKind(k); setOff([]); }}>{k}</Chip>)}
+      </div>
+      <div className="grid grid-cols-2 gap-2">
+        <Pick wide label="Left" value={left} onChange={(v) => { if (v) { setL(v); setOff([]); } }} options={avail} />
+        <Pick wide label="Right" value={right} onChange={(v) => { if (v) { setRt(v); setOff([]); } }} options={avail.filter((c) => c !== left)} />
       </div>
       <div className={`sticky top-14 z-10 pb-2 ${t.page}`}>
         <Card className="!p-2 sm:!p-4">
           {shown.length === 0 ? <Empty>Tick at least one weapon below.</Empty> : (
-            <svg viewBox="0 0 400 400" className="w-full max-w-[270px] sm:max-w-md mx-auto block" role="img" aria-label={'Range rings for ' + shown.map((x) => x.n).join(', ')}>
+            <svg viewBox="0 0 400 400" className="w-full max-w-[250px] sm:max-w-md mx-auto block" role="img" aria-label={'Range rings for ' + shown.map((x) => x.n).join(', ')}>
               {ticks.map((km, i) => (
                 <g key={i}>
                   <circle cx={C} cy={C} r={rOf(km)} fill="none" stroke="currentColor" strokeOpacity="0.15" />
@@ -16533,36 +16570,15 @@ function RangeRings() {
               <circle cx={C} cy={C} r="3" fill="currentColor" />
             </svg>
           )}
+          <div className="grid grid-cols-2 gap-2 mt-2">
+            <SideHead country={left} sub={colL.length + ' weapon' + (colL.length === 1 ? '' : 's')} />
+            {right ? <SideHead country={right} sub={colR.length + ' weapon' + (colR.length === 1 ? '' : 's')} /> : <div />}
+          </div>
         </Card>
       </div>
-      <div className="space-y-3">
-        {groups.map(({ c, list }) => (
-          <div key={c}>
-            <div className="flex items-center gap-2 text-sm font-bold mb-1.5">
-              <span className="inline-block w-3 h-3 rounded-full" style={{ background: countryColour(c) }} />{c}
-            </div>
-            <div className="space-y-1.5">
-              {list.map((x) => {
-                const on = sel.includes(x.n);
-                return (
-                  <div key={x.n} className={`rounded-lg border ${t.card}`} style={on ? { borderLeft: '4px solid ' + countryColour(x.c) } : undefined}>
-                    <button type="button" onClick={() => toggle(x.n)} aria-pressed={on} className="w-full flex items-center gap-3 p-2.5 text-left">
-                      <span className={`shrink-0 w-5 h-5 rounded border flex items-center justify-center ${on ? t.chipOn : t.chip}`}>{on && <Check size={14} />}</span>
-                      <span className="flex-1 min-w-0 font-semibold">{x.n}{x.r && <span className={`ml-1 text-xs font-normal ${t.muted}`}>reported</span>}</span>
-                      <span className={`shrink-0 text-sm ${t.muted}`}>up to {fmtKm(outerKm(x))} km</span>
-                    </button>
-                    {on && (
-                      <div className={`px-2.5 pb-2.5 -mt-1 text-sm ${t.muted}`}>
-                        {x.a.map((a) => a.a + ' ' + fmtKm(a.km) + ' km').join(' · ')}
-                        {' '}<button type="button" onClick={() => go('entry', x.id)} className={`font-semibold ${t.link}`}>Entry ›</button>
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        ))}
+      <div className="grid grid-cols-2 gap-2">
+        {column(colL)}
+        {right ? column(colR) : <div className={`p-2 text-sm ${t.faint}`}>No second army has figures in this group.</div>}
       </div>
       <p className={`text-xs ${t.faint}`}>Maximum figures from this app’s entries. Real ranges depend on charge, round, altitude and weather. Ukraine is not listed: its entries give no weapon ranges of its own.</p>
     </div>
@@ -16573,8 +16589,8 @@ function RangeRings() {
 function MilitaryMap() {
   const { t, go, lib, setLib } = useApp();
   const [topic, setTopic] = useState(null);
-  const [a, setA] = useState(null);
-  const [b, setB] = useState(null);
+  const [a, setA] = useState('United States');
+  const [b, setB] = useState('Russia');
   const countries = ALL_COUNTRIES;
   const pairs = useMemo(() => {
     const seen = Object.create(null), out = [];
@@ -16614,14 +16630,15 @@ function MilitaryMap() {
     <div className="space-y-4">
       <div>
         <h2 className="text-xl font-bold">Military map</h2>
-        <p className={`mt-1 text-sm ${t.muted}`}>Each circle is a country, sized by its entries. A line means entries in the two armies point to each other for comparison; thicker means more links. Tap a country, then a second one, or tap a line.</p>
+        <p className={`mt-1 text-sm ${t.muted}`}>Pick two armies to see which of their entries are linked for comparison. Each circle is a country, sized by its entries; thicker lines mean more links. You can also tap the circles or lines.</p>
       </div>
-      <div className="flex flex-wrap gap-2">
-        <Pick label="Topic" value={topic} onChange={(v) => { setTopic(v); }} options={ENTRY_TOPICS.map((x) => ({ value: x.key, label: x.name }))} />
-        {(a || b) && <Chip on={false} onClick={() => { setA(null); setB(null); }}>Clear selection</Chip>}
+      <div className="grid grid-cols-2 gap-2">
+        <Pick wide label="Left" value={a} onChange={(v) => { setA(v); if (!v) setB(null); }} options={countries} />
+        <Pick wide label="Right" value={b} onChange={(v) => setB(v)} options={countries.filter((c) => c !== a)} />
       </div>
-      <Card>
-        <svg viewBox="0 0 400 400" className="w-full max-w-md mx-auto block" role="img" aria-label="Links between armies">
+      <Pick wide label="Topic" value={topic} onChange={(v) => { setTopic(v); }} options={ENTRY_TOPICS.map((x) => ({ value: x.key, label: x.name }))} />
+      <Card className="!p-2 sm:!p-4">
+        <svg viewBox="0 0 400 400" className="w-full max-w-[300px] sm:max-w-md mx-auto block" role="img" aria-label="Links between armies">
           {edges.map((e) => {
             const [x1, y1] = pos[e.c1], [x2, y2] = pos[e.c2];
             const w = 1.5 + Math.min(8, Math.sqrt(e.n) * 1.6);
@@ -16663,16 +16680,29 @@ function MilitaryMap() {
         </div>
       )}
       {a && b && (
-        <div className="space-y-2">
-          <div className="font-semibold">{a} and {b}: {pairList.length} link{pairList.length === 1 ? '' : 's'}</div>
-          {pairList.length === 0 && <Empty>No direct links between these two{topic ? ' in this topic' : ''}.</Empty>}
-          {pairList.map(([x, y]) => (
-            <div key={x.id + y.id} className={`grid grid-cols-[1fr_auto_1fr] items-stretch gap-2`}>
-              <button type="button" onClick={() => go('entry', x.id)} className={`text-left p-2.5 rounded-lg border text-sm ${t.card}`} style={{ borderLeft: '4px solid ' + countryColour(x.country) }}>{x.title}</button>
-              <span className={`self-center ${t.faint}`}>↔</span>
-              <button type="button" onClick={() => go('entry', y.id)} className={`text-left p-2.5 rounded-lg border text-sm ${t.card}`} style={{ borderLeft: '4px solid ' + countryColour(y.country) }}>{y.title}</button>
-            </div>
-          ))}
+        <div className="space-y-3">
+          <div className={`grid grid-cols-2 gap-2 sticky top-14 z-10 py-1 ${t.page}`}>
+            <SideHead country={a} sub={pairList.length + ' link' + (pairList.length === 1 ? '' : 's')} />
+            <SideHead country={b} sub={topic ? topicName(topic) : 'All topics'} />
+          </div>
+          {pairList.length === 0 && <Empty>No direct links between these two{topic ? ' in this topic' : ''}. Try another army or All topics.</Empty>}
+          {ALL_TOPICS.map((tp) => {
+            const rows = pairList.filter(([x]) => x.topic === tp.key);
+            if (!rows.length) return null;
+            return (
+              <div key={tp.key}>
+                <div className={`text-xs font-bold uppercase tracking-widest mb-1.5 ${t.muted}`}>{tp.name}</div>
+                <div className="space-y-1.5">
+                  {rows.map(([x, y]) => (
+                    <div key={x.id + y.id} className="grid grid-cols-2 gap-2">
+                      <button type="button" onClick={() => go('entry', x.id)} className={`text-left p-2 rounded-lg border text-sm leading-snug ${t.card}`}>{x.title}</button>
+                      <button type="button" onClick={() => go('entry', y.id)} className={`text-left p-2 rounded-lg border text-sm leading-snug ${t.card}`}>{y.title}</button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
         </div>
       )}
     </div>
