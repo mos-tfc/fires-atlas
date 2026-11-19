@@ -4610,7 +4610,10 @@ const APP_DATA = [
     why: [
       'The report sets this period against the present: a shift from static base-defence counterfire to rapid, EW-contested reconnaissance-strike duels.'
     ],
-    sources: [],
+    sources: [
+      {"title": "U.S. Army Deploys First Lockheed Martin EQ-36 Counterfire Target Acquisition Radars in Theater", "publisher": "Lockheed Martin", "year": "2010", "url": "https://news.lockheedmartin.com/2010-10-26-U-S-Army-Deploys-First-Lockheed-Martin-EQ-36-Counterfire-Target-Acquisition-Radars-in-Theater"},
+      {"title": "EQ-36 Counterfire Target Acquisition Radar (FY2011 Annual Report)", "publisher": "DOT&E", "year": "2011", "url": "https://www.dote.osd.mil/Portals/97/pub/reports/FY2011/army/2011eq36.pdf"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-eq-tpq53', 'usa-eq-tpq50', 'usa-eq-acoustic', 'les-ta-ukraine']
@@ -5260,7 +5263,11 @@ const APP_DATA = [
     why: [
       'In December 2023 Col. Matt Paul, Project Manager for Mission Command at PEO C3T, called the legacy code “spaghetti code” that is difficult to update whenever new munitions or sensors arrive.'
     ],
-    sources: [],
+    sources: [
+      {"title": "AFATDS Gets an Upgrade", "publisher": "U.S. Army", "year": "", "url": "https://www.army.mil/article/283097/afatds_gets_an_upgrade"},
+      {"title": "Army Seeks Industry Input on Approach to Modernizing Digital Fires Products", "publisher": "U.S. Army", "year": "2023", "url": "https://www.army.mil/article/271343/army_seeks_industry_input_on_approach_to_modernizing_digital_fires_products"},
+      {"title": "Army taking modular, microservice approach to next-generation fires system", "publisher": "DefenseScoop", "year": "2023", "url": "https://defensescoop.com/2023/12/19/army-modular-microservice-approach-next-generation-fires-afatds"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-eq-afats', 'usa-eq-axs', 'usa-ttp-afatds-arbitration']
@@ -5404,7 +5411,9 @@ const APP_DATA = [
     why: [
       'Not stated in the source.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Army awards contract for JETS handheld targeting system", "publisher": "U.S. Army", "year": "2016", "url": "https://www.army.mil/article/175956/army_awards_contract_for_jets_handheld_targeting_system"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-eq-llsr', 'usa-eq-pfd-pfm']
@@ -5493,7 +5502,9 @@ const APP_DATA = [
     why: [
       'Compact binary messages fit the narrow bandwidth of combat net radios.'
     ],
-    sources: [],
+    sources: [
+      {"title": "MCO 3093.3: Variable Message Format Minimum Implementation Requirements", "publisher": "U.S. Marine Corps", "year": "2011", "url": "https://www.marines.mil/portals/1/Publications/MCO%203093.3.pdf"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['joint-eq-link16-jreap', 'joint-eq-cot-usmtf', 'usmc-eq-cac2s']
@@ -5580,7 +5591,10 @@ const APP_DATA = [
     why: [
       'Manual re-entry adds delay and raises the risk of fratricide.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Dynamic Front 21 shows the future of modern artillery", "publisher": "U.S. Army", "year": "2021", "url": "https://www.army.mil/article/246655/dynamic_front_21_shows_the_future_of_modern_artillery"},
+      {"title": "US Army, NATO test joint artillery system at Exercise Dynamic Front 18", "publisher": "U.S. Army", "year": "2018", "url": "https://www.army.mil/article/201581/us_army_nato_test_joint_artillery_system_at_exercise_dynamic_front_18"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['joint-trn-asca-univ', 'les-c2-cjadc2-seams', 'usa-eq-afatds-arch']
@@ -5754,7 +5768,10 @@ const APP_DATA = [
     why: [
       'Multinational digital fires fail on set-up errors. The set-up is therefore rehearsed before the exercise.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Dynamic Front 21 shows the future of modern artillery", "publisher": "U.S. Army", "year": "2021", "url": "https://www.army.mil/article/246655/dynamic_front_21_shows_the_future_of_modern_artillery"},
+      {"title": "Partner nations evaluate digital call-for-fires at Bold Quest", "publisher": "U.S. Army", "year": "2015", "url": "https://www.army.mil/article/157003/Partner_nations_evaluate_digital_call_for_fires_at_Bold_Quest"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['joint-eq-asca', 'usa-trn-ta-collective']
@@ -5780,7 +5797,9 @@ const APP_DATA = [
     why: [
       'Synthetic training reduces the cost of live ammunition and aircraft.'
     ],
-    sources: [],
+    sources: [
+      {"title": "I/ITSEC 2022: MVRsimulation joint fires trainer makes accreditation progress", "publisher": "Shephard", "year": "2022", "url": "https://www.shephardmedia.com/news/training-simulation/iitsec-2022-mvrsimulations-deployable-joint-fires-trainer-achieves-interim-accreditation"}
+    ],
     confidence: 'Reported',
     asOf: '2026-11',
     relatedIds: ['usa-eq-jets', 'usa-trn-jfo']
@@ -5806,7 +5825,10 @@ const APP_DATA = [
     why: [
       'Reported: the resilience came from that separation.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Does Ukraine Already Have Functional CJADC2 Technology?", "publisher": "CSIS", "year": "", "url": "https://www.csis.org/analysis/does-ukraine-already-have-functional-cjadc2-technology"},
+      {"title": "How Ukraine's “Uber for Artillery” is Leading the Software War Against Russia", "publisher": "New America", "year": "", "url": "https://www.newamerica.org/future-frontlines/blogs/how-ukraines-uber-for-artillery-is-leading-the-software-war-against-russia/"}
+    ],
     confidence: 'Reported',
     asOf: '2026-11',
     relatedIds: ['les-c2-ukraine-ew', 'les-ukraine-uas', 'usa-ttp-mission-latency']
@@ -6404,7 +6426,10 @@ const APP_DATA = [
       'Rockets compute their technical solution at the launcher from GPS and thrust, bypassing the battery technical FDC.',
       'Mortars work with simpler mathematics because velocities are lower and ranges shorter.'
     ],
-    sources: [],
+    sources: [
+      {"title": "FM 6-40 / MCWP 3-16.4: Tactics, Techniques, and Procedures for Field Artillery Manual Cannon Gunnery", "publisher": "U.S. Army / U.S. Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf"},
+      {"title": "Armaments Center focuses on creating ballistic kernels for small arms, armored vehicles", "publisher": "U.S. Army DEVCOM", "year": "2020", "url": "https://www.army.mil/article/241742/armaments_center_focuses_on_creating_ballistic_kernels_for_small_arms_armored_vehicles"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['joint-eq-nabk', 'usa-org-fdc']
@@ -6765,7 +6790,10 @@ const APP_DATA = [
       'The Army structure changes for 2025–2029 make the division the main tactical formation and remove cavalry squadrons, Shadow and Raven unmanned aircraft and brigade military intelligence companies from the brigade.',
       'Transformation in Contact is meant to offset the brigade’s lost ability to detect and deliver fires, and to let units experiment and adapt quickly.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Army's fiscal 2026 budget proposal aims to equip infantry brigades with more kamikaze drones", "publisher": "DefenseScoop", "year": "2025", "url": "https://defensescoop.com/2025/06/27/army-fiscal-2026-budget-request-loitering-munitions-drones-lasso/"},
+      {"title": "‘Like a God-gun’: Armor unit adopts Switchblade one-way attack drones", "publisher": "Stars and Stripes", "year": "2026", "url": "https://www.stripes.com/branches/army/2026-07-13/armor-unit-switchblade-kamikaze-drones-22249918.html"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-org-arstruc-tic', 'usa-org-bde-cell', 'joint-org-lm-what', 'joint-org-lm-people']
@@ -6791,7 +6819,10 @@ const APP_DATA = [
     why: [
       'Marine Littoral Regiments and dismounted Marine forces on remote islands cannot rely on sustained joint air support or heavy towed artillery.'
     ],
-    sources: [],
+    sources: [
+      {"title": "On the frontlines of precision: Program Office Ground Weapons System advances Organic Precision Fires-Light", "publisher": "Marine Corps Systems Command", "year": "2025", "url": "https://www.marcorsyscom.marines.mil/News/News-Article-Display/Article/4360548/on-the-frontlines-of-precision-program-office-ground-weapons-system-advances-or/"},
+      {"title": "Three firms will vie for Marines' $249M loitering-munitions buy", "publisher": "Defense One", "year": "2024", "url": "https://www.defenseone.com/defense-systems/2024/04/marine-corps-chooses-trio-249m-loitering-munitions-contract/395686/"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usmc-org-mlr', 'joint-org-lm-what', 'usmc-eq-opf-l-platforms', 'joint-org-lm-people']
@@ -6907,7 +6938,10 @@ const APP_DATA = [
     why: [
       'Reported: operators can swap anti-personnel and anti-armour payloads in the field to suit the target.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Bolt", "publisher": "Anduril", "year": "", "url": "https://www.anduril.com/hardware/bolt/"},
+      {"title": "Teledyne FLIR Defense Awarded $249 Million IDIQ Contract for U.S. Marine Corps Organic Precision Fires-Light Program", "publisher": "Teledyne FLIR", "year": "2024", "url": "https://defense.flir.com/about/news/Teledyne-FLIR-Defense-Awarded-$249-Million-IDIQ-Contract-for-U.S.-Marine-Corps-Organic-Precision-Fires-Light-Program/"}
+    ],
     confidence: 'Reported',
     asOf: '2026-11',
     relatedIds: ['usmc-org-opf', 'joint-eq-lm-design-choice']
@@ -7023,7 +7057,9 @@ const APP_DATA = [
       'Hardware is only as effective as the network that binds it.',
       'A target found by any sensor must pass quickly and accurately to the best shooter.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Joint Targeting with the Advanced Field Artillery Tactical Data System (AFATDS)", "publisher": "ALSSA Center", "year": "2022", "url": "https://www.alssa.mil/News/Article/3043548/joint-targeting-with-the-advanced-field-artillery-tactical-data-system-afatds"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-eq-afatds-arch', 'joint-eq-jadocs-tais', 'joint-eq-cot-usmtf', 'usa-eq-itn-sbue', 'usa-ttp-d3a-matrices']
@@ -7050,7 +7086,9 @@ const APP_DATA = [
     why: [
       'Reported: the strike bypasses radar detection delay and can destroy the weapon before it fires.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Fighting at Machine Speed: AI and U.S. Army Counterfire Under the Law of War – Part I", "publisher": "Lieber Institute, West Point", "year": "", "url": "https://lieber.westpoint.edu/fighting-machine-speed-ai-us-army-counterfire-law-war-part-i/"}
+    ],
     confidence: 'Reported',
     asOf: '2026-11',
     relatedIds: ['usa-ttp-proactive-counterfire', 'usa-ttp-mission-latency', 'usa-ttp-radar-zones']
@@ -7166,7 +7204,10 @@ const APP_DATA = [
       'Reported: the lesson drawn is that the command and control data model, the common operating picture, must be the main integration point.',
       'Any sensor can then pass a target to any shooter.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Does Ukraine Already Have Functional CJADC2 Technology?", "publisher": "CSIS", "year": "", "url": "https://www.csis.org/analysis/does-ukraine-already-have-functional-cjadc2-technology"},
+      {"title": "How Ukraine's “Uber for Artillery” is Leading the Software War Against Russia", "publisher": "New America", "year": "", "url": "https://www.newamerica.org/future-frontlines/blogs/how-ukraines-uber-for-artillery-is-leading-the-software-war-against-russia/"}
+    ],
     confidence: 'Reported',
     asOf: '2026-11',
     relatedIds: ['les-c2-ukraine-stack', 'joint-eq-maven', 'les-tfd-software-at-gun', 'les-ukraine-uas']
@@ -8027,7 +8068,9 @@ const APP_DATA = [
     why: [
       'The relationships set priority of fires and make sure limited assets are apportioned effectively.'
     ],
-    sources: [],
+    sources: [
+      {"title": "MCWP 3-16.1: Artillery Operations", "publisher": "U.S. Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/MCWP%203-16.1%20Artillery%20Operations.pdf"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-org-corps-fab', 'usa-org-cf-echelons', 'usa-ttp-div-alloc']
@@ -8084,7 +8127,9 @@ const APP_DATA = [
     why: [
       'Its very low weight gives the mobility that light forces need.'
     ],
-    sources: [],
+    sources: [
+      {"title": "M119 howitzer still plays critical role for Army", "publisher": "U.S. Army", "year": "2015", "url": "https://www.army.mil/article/155135/M119_howitzer_still_plays_critical_role_for_Army"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-org-cannon-divarty', 'usa-ttp-survey-lay', 'usa-eq-ballistic-compare']
@@ -8111,7 +8156,10 @@ const APP_DATA = [
       'The alloys cut the weight by half against the older M198.',
       'The lower weight allows airlift over longer distances and to higher altitudes in mountains.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Team effort by Army, Marine Corps and Australia improves range and accuracy of the M777A2 howitzer", "publisher": "U.S. Army", "year": "2019", "url": "https://www.army.mil/article/228556"},
+      {"title": "PEO Ammo picks up 155mm Lightweight Howitzer program", "publisher": "U.S. Army", "year": "2011", "url": "https://www.army.mil/article/53209/peo_ammo_picks_up_155mm_lightweight_howitzer_program"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usmc-org-cannon-fd2030', 'usa-ttp-surv-displace', 'usa-eq-ballistic-compare']
@@ -8208,7 +8256,9 @@ const APP_DATA = [
       'Lower muzzle velocity means shorter range and worse accuracy unless it is corrected.',
       'DA Form 4513 serves supply accounting and safety investigation. It is also the main data source for computing remaining barrel life.'
     ],
-    sources: [],
+    sources: [
+      {"title": "FM 6-40 / MCWP 3-16.4: Tactics, Techniques, and Procedures for Field Artillery Manual Cannon Gunnery", "publisher": "U.S. Army / U.S. Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-ttp-mv', 'les-tfd-worn-barrels', 'usa-eq-erca', 'usa-eq-survey-met-devices']
@@ -8237,7 +8287,9 @@ const APP_DATA = [
       'A simple parabola ignores the aerodynamic forces on the shell.',
       'With the shared kernel, a US AFATDS terminal and an allied fire control system compute the same trajectory.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Armaments Center focuses on creating ballistic kernels for small arms, armored vehicles", "publisher": "U.S. Army DEVCOM", "year": "2020", "url": "https://www.army.mil/article/241742/armaments_center_focuses_on_creating_ballistic_kernels_for_small_arms_armored_vehicles"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['joint-eq-nabk', 'usa-eq-ballistic-compare', 'joint-eq-asca']
@@ -8267,7 +8319,9 @@ const APP_DATA = [
       'Artillery is dangerous to friendly forces if miscalculated.',
       'The reference point shows whether the gun has shifted under the recoil of sustained firing.'
     ],
-    sources: [],
+    sources: [
+      {"title": "FM 6-40 / MCWP 3-16.4: Tactics, Techniques, and Procedures for Field Artillery Manual Cannon Gunnery", "publisher": "U.S. Army / U.S. Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-ttp-survey-lay', 'usa-ttp-fdc-safety', 'usa-ttp-manual-gunnery']
@@ -8297,7 +8351,10 @@ const APP_DATA = [
     why: [
       'The branch needs technical skill, fast computation and a feel for space across the battlefield.'
     ],
-    sources: [],
+    sources: [
+      {"title": "13B Cannon Crewmember", "publisher": "428th Field Artillery Brigade, Fort Sill", "year": "", "url": "https://sill-www.army.mil/428thfa/ait/mos/13B/index.html"},
+      {"title": "U.S. Army Field Artillery School", "publisher": "Fires Center of Excellence, Fort Sill", "year": "", "url": "https://sill-www.army.mil/usafas"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-trn-fabolc', 'usa-trn-fdc-enlisted', 'usa-trn-13f', 'usa-trn-ta-pipelines']
@@ -8324,7 +8381,9 @@ const APP_DATA = [
       'A persistent problem is noted in 131A development: “tunnel vision”, deep in artillery process but weak on intelligence and manoeuvre.',
       'Senior leaders call for broadening assignments outside artillery, to produce targeting officers who can manage joint airspace and collection.'
     ],
-    sources: [],
+    sources: [
+      {"title": "U.S. Army Field Artillery School", "publisher": "Fires Center of Excellence, Fort Sill", "year": "", "url": "https://sill-www.army.mil/usafas"}
+    ],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-org-ta-mos', 'usa-org-c2-specialties', 'usa-trn-artillery-tables']
@@ -8381,7 +8440,9 @@ const APP_DATA = [
       'Reported: the assumption that GPS is always available no longer holds.',
       'Reported: crews must keep firing when networks are cut by cyber or electronic attack.'
     ],
-    sources: [],
+    sources: [
+      {"title": "Russian jamming of U.S. weapons in Ukraine forces Pentagon to adjust", "publisher": "The Washington Post", "year": "2024", "url": "https://www.washingtonpost.com/world/2024/05/24/russia-jamming-us-weapons-ukraine/"}
+    ],
     confidence: 'Reported',
     asOf: '2026-11',
     relatedIds: ['les-tfd-gps-jamming', 'les-ukraine-uas', 'usa-ttp-manual-gunnery', 'les-cf-three-minute']
@@ -10326,7 +10387,7 @@ const APP_DATA = [
       'Accurate counting also stops costly barrels being thrown away early.'
     ],
     sources: [
-      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "FM 6-40 / MCWP 3-16.4: Tactics, Techniques, and Procedures for Field Artillery Manual Cannon Gunnery", "publisher": "U.S. Army / U.S. Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10468,7 +10529,8 @@ const APP_DATA = [
       'Limitation: they are large and unarmoured unless fitted with kits, and have strong thermal and visual signatures near the front.'
     ],
     sources: [
-      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "PLS: Palletized Load System", "publisher": "Oshkosh Defense", "year": "", "url": "https://oshkoshdefense.com/vehicles/heavy-tactical-vehicles/pls/"},
+      {"title": "Palletized Load System (PLS)", "publisher": "Federation of American Scientists", "year": "", "url": "https://man.fas.org/dod-101/sys/land/pls.htm"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10495,7 +10557,7 @@ const APP_DATA = [
       'Limitation: unarmoured, and restricted to secured logistic nodes.'
     ],
     sources: [
-      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "All Terrain Lifter, Army System (ATLAS)", "publisher": "Federation of American Scientists", "year": "", "url": "https://man.fas.org/dod-101/sys/land/atlas.htm"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10583,7 +10645,8 @@ const APP_DATA = [
       'Flying heavy armour and thousands of tons of ammunition from the US is too slow in a crisis. Only the people need to fly, cutting response from weeks to days.'
     ],
     sources: [
-      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Army pre-positioned stocks support Army readiness", "publisher": "U.S. Army", "year": "2017", "url": "https://www.army.mil/article/185875/army_pre_positioned_stocks_support_army_readiness"},
+      {"title": "Army Prepositioned Stocks send strong message of deterrence", "publisher": "U.S. Army", "year": "2024", "url": "https://www.army.mil/article/281749/army_prepositioned_stocks_send_strong_message_of_deterrence"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10616,7 +10679,8 @@ const APP_DATA = [
       'A scalable industrial base sustains operations and deters adversaries who watch US stock depth.'
     ],
     sources: [
-      { title: 'Congressional Research Service and DoD Inspector General reports (named in the report, not cited individually)', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Evaluation of the DoW's Capability and Capacity to Produce 155-Millimeter Artillery Ammunition (DOWIG-2026-095)", "publisher": "DoW Office of Inspector General", "year": "2026", "url": "https://www.oversight.gov/reports/evaluation-dows-capability-and-capacity-produce-155-millimeter-artillery-ammunition"},
+      {"title": "Strengthened Army industrial base doubles artillery production", "publisher": "U.S. Army", "year": "2023", "url": "https://www.army.mil/article/271572"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10644,7 +10708,8 @@ const APP_DATA = [
       'It exposed an industrial base built for peacetime efficiency, not wartime surge.'
     ],
     sources: [
-      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "U.S. Security Assistance to Ukraine Since 2022 (IF12040)", "publisher": "Congressional Research Service", "year": "2026", "url": "https://www.everycrsreport.com/files/2026-08-31_IF12040_b732b458ee1fe7527c3424284c4b36137ae2ee3f.html"},
+      {"title": "Defense Production for Ukraine: Background and Issues for Congress (R48182)", "publisher": "Congressional Research Service", "year": "2024", "url": "https://www.everycrsreport.com/files/2024-09-16_R48182_efc76a6f433ff6ce906b442a0bf41d9f81667852.html"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10673,7 +10738,8 @@ const APP_DATA = [
       'Restarting heavy lines, securing chemical supply and training machinists takes years, so money does not yield shells at once.'
     ],
     sources: [
-      { title: 'Congressional Research Service and DoD Inspector General reports (named in the report, not cited individually)', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Evaluation of the DoW's Capability and Capacity to Produce 155-Millimeter Artillery Ammunition (DOWIG-2026-095)", "publisher": "DoW Office of Inspector General", "year": "2026", "url": "https://www.oversight.gov/reports/evaluation-dows-capability-and-capacity-produce-155-millimeter-artillery-ammunition"},
+      {"title": "Empty Bins in a Wartime Environment: The Challenge to the U.S. Defense Industrial Base", "publisher": "CSIS", "year": "2023", "url": "https://www.csis.org/analysis/empty-bins-wartime-environment-challenge-us-defense-industrial-base"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10731,7 +10797,8 @@ const APP_DATA = [
       'Moving real weight over hard ground exposes gaps in readiness, routes and time-distance planning.'
     ],
     sources: [
-      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Logistics Evolution at the National Training Center: Sustainment in a Communications-Constrained Environment", "publisher": "U.S. Army", "year": "2024", "url": "https://www.army.mil/article/277274/logistics_evolution_at_the_national_training_center_sustainment_in_a_communications_constrained_environment"},
+      {"title": "Division Sustainment at NTC Rotation 24-03", "publisher": "U.S. Army", "year": "2024", "url": "https://www.army.mil/article/277276/division_sustainment_at_ntc_rotation_24_03"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10788,7 +10855,7 @@ const APP_DATA = [
       'Reported: Ukrainian forces used dispersed systems such as Delta and Kropyva to pair sensors with guns in under a minute before moving.'
     ],
     sources: [
-      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Russian jamming of U.S. weapons in Ukraine forces Pentagon to adjust", "publisher": "The Washington Post", "year": "2024", "url": "https://www.washingtonpost.com/world/2024/05/24/russia-jamming-us-weapons-ukraine/"}
     ],
     confidence: 'Reported',
     asOf: '2026-11',
@@ -10816,7 +10883,8 @@ const APP_DATA = [
       'When links fail through jamming or incompatibility, staffs untrained in degraded, manual work cannot sustain the force.'
     ],
     sources: [
-      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Practice Makes Perfect: Training Sustainment in the Era of Contested Logistics", "publisher": "U.S. Army", "year": "", "url": "https://www.army.mil/article/286563/practice_makes_perfect_training_sustainment_in_the_era_of_contested_logistics"},
+      {"title": "Winning with Sustainment", "publisher": "U.S. Army", "year": "2025", "url": "https://www.army.mil/article/289088/winning_with_sustainment"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10994,7 +11062,7 @@ const APP_DATA = [
       'Targeting relies more and more on joint assets: aircraft, naval fires and cyber. Staff must know how to combine them.'
     ],
     sources: [
-      { title: 'No source named for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Joint Targeting School", "publisher": "Joint Chiefs of Staff (J7)", "year": "", "url": "https://www.jcs.mil/Doctrine/Joint-Training/Joint-Functional-Schools/JTS"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -11023,7 +11091,7 @@ const APP_DATA = [
       'Metal parts, not explosive filling, are the binding limit on the 100,000 target.'
     ],
     sources: [
-      { title: 'No source named for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Evaluation of the DoW's Capability and Capacity to Produce 155-Millimeter Artillery Ammunition (DOWIG-2026-095)", "publisher": "DoW Office of Inspector General", "year": "2026", "url": "https://www.oversight.gov/reports/evaluation-dows-capability-and-capacity-produce-155-millimeter-artillery-ammunition"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -11238,7 +11306,7 @@ const APP_DATA = [
       'Under Force Design and EABO, the weight of 120mm ammunition and tow vehicles did not suit the Marine Littoral Regiment’s need to move quickly and quietly between islands.'
     ],
     sources: [
-      { title: 'No source named for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Marine Corps Is Finished With Its Long-Troubled Lightweight 120mm Mortar Systems", "publisher": "The War Zone", "year": "2018", "url": "https://www.twz.com/19232/marine-corps-is-finished-with-its-long-troubled-lightweight-120mm-mortar-systems"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -11415,7 +11483,7 @@ const APP_DATA = [
       'They are vulnerable to GPS jamming.'
     ],
     sources: [
-      { title: 'No source named for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Picatinny fields first precision-guided mortars to troops in Afghanistan", "publisher": "U.S. Army", "year": "2011", "url": "https://www.army.mil/article/53988/"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -11443,7 +11511,7 @@ const APP_DATA = [
       'Commanders can still attack the enemy while keeping to civilian harm rules and the legitimacy of the operation.'
     ],
     sources: [
-      { title: 'No source named for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Civilian Harm Mitigation and Response Action Plan", "publisher": "U.S. Department of Defense", "year": "2022", "url": "https://media.defense.gov/2022/Aug/25/2003064740/-1/-1/1/CIVILIAN-HARM-MITIGATION-AND-RESPONSE-ACTION-PLAN.PDF"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -11473,7 +11541,7 @@ const APP_DATA = [
       'Direct fire turns the carrier from a support asset into an assault vehicle.'
     ],
     sources: [
-      { title: 'No source named for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Yuma Proving Ground testing cutting-edge turret system", "publisher": "U.S. Army", "year": "2024", "url": "https://www.army.mil/article/276051/yuma_proving_ground_testing_cutting_edge_turret_system"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -11503,7 +11571,8 @@ const APP_DATA = [
       'Ballistics, digital communications and fast employment need specialist training.'
     ],
     sources: [
-      { title: 'No source named for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "22-week infantry OSUT set to increase lethality, with more career fields to follow", "publisher": "U.S. Army", "year": "2019", "url": "https://www.army.mil/article/229272/22_week_infantry_osut_set_to_increase_lethality_with_more_career_fields_to_follow"},
+      {"title": "Introduction to the Doctrinal Mortar Community", "publisher": "U.S. Army", "year": "", "url": "https://www.army.mil/article/284195/introduction_to_the_doctrinal_mortar_community"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -11531,7 +11600,8 @@ const APP_DATA = [
       'It builds leaders able to run the FDC and plan fires.'
     ],
     sources: [
-      { title: 'No source named for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+      {"title": "Advanced Mortarman Course outline", "publisher": "Training Command, U.S. Marine Corps", "year": "", "url": "https://www.tecom.marines.mil/Portals/127/Docs/AdvancedMortarmanCourse.docx"},
+      {"title": "Infantry Mortar Leaders Course", "publisher": "Marine Corps Detachment, Maneuver Center of Excellence", "year": "", "url": "https://www.soieast.marines.mil/Units/Marine-Corps-Detachment-Maneuver-Center-of-Excellence/INFANTRY-MORTAR-LEADERS-COURSE/"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
