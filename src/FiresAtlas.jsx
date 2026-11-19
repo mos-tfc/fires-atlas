@@ -23,7 +23,7 @@ const FEEDBACK_FORM_URL = '';
 // Optional: the one fixed link learners keep (for example a short link you re-point after
 // each update). Every Canvas share link is a fixed copy of the app, so an old copy uses
 // this to send learners to the current one.
-const APP_LINK = '';
+const APP_LINK = 'https://fires-atlas.menofsteel.workers.dev/';
 
 // One record per release, newest first.
 // changes: [ { kind: 'new' | 'updated' | 'corrected' | 'withdrawn', entryId, topic, summary } ]
