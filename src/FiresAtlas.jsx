@@ -3811,7 +3811,7 @@ const APP_DATA = [
     why: [
       'Not stated in the source.'
     ],
-    sources: [],
+    sources: [{"title": "4th Multi-Domain Task Force Officially Activates", "publisher": "U.S. Army", "year": "2026", "url": "https://www.army.mil/article/296047/4th_multi_domain_task_force_officially_activates"}, {"title": "Army Multi-Domain Transformation: Ready to Win in Competition and Conflict (Chief of Staff Paper #1)", "publisher": "U.S. Army", "year": "2021", "url": "https://api.army.mil/e2/c/downloads/2021/03/23/eeac3d01/20210319-csa-paper-1-signed-printable.pdf"}],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-org-mdtf', 'usa-org-tfc', 'joint-eq-ta-datalinks']
@@ -5666,7 +5666,7 @@ const APP_DATA = [
     why: [
       'Not stated in the source.'
     ],
-    sources: [],
+    sources: [{"title": "Army’s TITAN platform moving into production phase with $192M delivery award for Palantir, Anduril", "publisher": "DefenseScoop", "year": "2026", "url": "https://defensescoop.com/2026/09/01/army-titan-platform-production-awards-palantir-anduril/"}, {"title": "Army awards $192M to Palantir and Anduril to produce TITAN system", "publisher": "Breaking Defense", "year": "2026", "url": "https://breakingdefense.com/2026/09/army-awards-192m-to-palantir-and-anduril-to-produce-titan-system/"}],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-eq-titan', 'joint-eq-maven', 'joint-trn-pc']
@@ -6647,7 +6647,7 @@ const APP_DATA = [
     why: [
       'Analysis: this supports continuous muzzle velocity measurement with the M90 velocimeter to counter hardware wear.'
     ],
-    sources: [],
+    sources: [{"title": "Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine", "publisher": "RUSI", "year": "2023", "url": "https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf"}],
     confidence: 'Analysis',
     asOf: '2026-11',
     relatedIds: ['usa-ttp-mv', 'usa-eq-survey-met-devices']
@@ -6821,7 +6821,7 @@ const APP_DATA = [
     why: [
       'The munitions are employed through the existing fire support system, not beside it.'
     ],
-    sources: [],
+    sources: [{"title": "131A Targeting Technician", "publisher": "U.S. Army Recruiting Command", "year": "2026", "url": "https://recruiting.army.mil/ISO/AWOR/131A/"}],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-org-fist', 'usa-org-ta-mos', 'usmc-org-ta-mos', 'usmc-org-anglico', 'usa-org-c2-specialties']
@@ -6880,7 +6880,7 @@ const APP_DATA = [
     why: [
       'Reported: the Switchblade 400 bridges the gap between the infantry variants and heavy anti-armour systems.'
     ],
-    sources: [],
+    sources: [{"title": "Switchblade 600", "publisher": "AeroVironment (manufacturer)", "year": "2026", "url": "https://www.avinc.com/lms/switchblade-600"}, {"title": "Army awards AeroVironment prototype OTA for Switchblade 400 under LASSO program", "publisher": "Military Aerospace", "year": "2025", "url": "https://www.militaryaerospace.com/home/article/55375291/army-awards-aerovironment-prototype-ota-for-switchblade-400-under-lasso-program"}],
     confidence: 'Reported',
     asOf: '2026-11',
     relatedIds: ['joint-eq-lm-design-choice', 'usa-org-lasso-platoons', 'usa-eq-ta-drones']
@@ -6932,7 +6932,7 @@ const APP_DATA = [
     why: [
       'Reported: Army Aviation can strike targets up to 160 km away while the manned helicopter stays outside enemy air defence range.'
     ],
-    sources: [],
+    sources: [{"title": "Altius", "publisher": "Anduril Industries (manufacturer)", "year": "2026", "url": "https://www.anduril.com/hardware/altius/"}],
     confidence: 'Reported',
     asOf: '2026-11',
     relatedIds: ['joint-eq-lm-design-choice', 'usa-eq-switchblade']
@@ -6961,7 +6961,7 @@ const APP_DATA = [
       'The Army choice favours range for open terrain in the European or Indo-Pacific theatres.',
       'The choices follow each service’s operating environment.'
     ],
-    sources: [],
+    sources: [{"title": "Army awards AeroVironment prototype OTA for Switchblade 400 under LASSO program", "publisher": "Military Aerospace", "year": "2025", "url": "https://www.militaryaerospace.com/home/article/55375291/army-awards-aerovironment-prototype-ota-for-switchblade-400-under-lasso-program"}],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-eq-switchblade', 'usmc-eq-opf-l-platforms', 'usa-eq-altius']
@@ -7080,7 +7080,7 @@ const APP_DATA = [
       'Static Restricted Operating Zones and reliance on the Fire Support Coordination Line are too slow for loitering munitions.',
       'The framework keeps launches immediate without overloading the JAGIC, and without risk to manned helicopters.'
     ],
-    sources: [],
+    sources: [{"title": "Airspace Control (ATP 3-52.1 multi-Service tactics, techniques and procedures)", "publisher": "ALSSA Center", "year": "2023", "url": "https://www.alssa.mil/mttps/airspace"}],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-ttp-airspace', 'usa-ttp-uas', 'usa-ttp-afatds-clearance']
@@ -7192,7 +7192,7 @@ const APP_DATA = [
       'Large numbers of cheaper, modular munitions let a force absorb the loss rates expected in a peer conflict.',
       'A handful of expensive assets cannot.'
     ],
-    sources: [],
+    sources: [{"title": "Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine", "publisher": "RUSI", "year": "2023", "url": "https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf"}, {"title": "Preliminary Lessons in Conventional Warfighting from Russia’s Invasion of Ukraine: February–July 2022", "publisher": "RUSI", "year": "2022", "url": "https://static.rusi.org/359-SR-Ukraine-Preliminary-Lessons-Feb-July-2022-web-final.pdf"}],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usa-eq-malet', 'les-ukraine-ew', 'les-lm-logistics']
@@ -7876,7 +7876,7 @@ const APP_DATA = [
       'Both sides have adapted with cheap decoys, maximum dispersion and low electronic signature.',
       'The US conclusion is that its older systems and slow command post procedures would bring heavy artillery losses without change.'
     ],
-    sources: [],
+    sources: [{"title": "Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine", "publisher": "RUSI", "year": "2023", "url": "https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf"}, {"title": "Preliminary Lessons in Conventional Warfighting from Russia’s Invasion of Ukraine: February–July 2022", "publisher": "RUSI", "year": "2022", "url": "https://static.rusi.org/359-SR-Ukraine-Preliminary-Lessons-Feb-July-2022-web-final.pdf"}],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['les-ukraine-cb', 'les-ta-ukraine', 'usa-ttp-surv-displace', 'usa-ttp-mission-latency']
@@ -7999,7 +7999,7 @@ const APP_DATA = [
       'The remaining M777 batteries are still judged critical. Precision rockets and missiles may be too scarce, costly or hard to supply for use against dispersed infantry.',
       'Congressional committees have noted the risk and pressed the Corps to keep enough cannon capacity for contingencies.'
     ],
-    sources: [],
+    sources: [{"title": "Force Design 2030 Annual Update", "publisher": "Headquarters, US Marine Corps", "year": "2023", "url": "https://www.marines.mil/Portals/1/Docs/Force_Design_2030_Annual_Update_June_2023.pdf"}],
     confidence: 'Confirmed',
     asOf: '2026-11',
     relatedIds: ['usmc-org-mlr', 'joint-eq-m777a2', 'joint-les-indopac']
