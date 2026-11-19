@@ -15997,7 +15997,7 @@ const previousVersion = () => {
 const STORE_KEY = 'fires_atlas_state_v1';
 const DEFAULT_STATE = {
   dark: true, freeStudy: false, progress: {}, review: {}, bookmarks: [], notes: {},
-  seenVersion: null, feedback: [], last: null
+  seenVersion: null, feedback: [], last: null, welcomed: false
 };
 
 function loadState() {
@@ -17800,7 +17800,10 @@ function FeedbackView({ where }) {
   const [kind, setKind] = useState(where ? 'Correction' : 'Suggestion');
   const [text, setText] = useState('');
   const [sent, setSent] = useState(null);
+  const [delivery, setDelivery] = useState(null); // 'sending' | 'delivered' | 'failed'
   const inbox = feedbackStore.list(state);
+  // On the website, feedback goes straight to the author through the site's own route. In Canvas it stays on the device.
+  const route = typeof window !== 'undefined' && window.FIRES_ATLAS_FEEDBACK;
 
   const submit = () => {
     const record = {
@@ -17810,6 +17813,13 @@ function FeedbackView({ where }) {
     feedbackStore.add(update, record);
     setSent(record);
     setText('');
+    if (route) {
+      setDelivery('sending');
+      fetch(route, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ kind: record.kind, where: record.where, about: whereLabel(record.where), text: record.text, version: record.version }) })
+        .then((r) => setDelivery(r.ok ? 'delivered' : 'failed'))
+        .catch(() => setDelivery('failed'));
+    }
   };
 
   return (
@@ -17843,8 +17853,12 @@ function FeedbackView({ where }) {
 
       {sent && (
         <div className={`p-4 rounded-xl border ${t.good}`}>
-          <div className="font-bold">Recorded. Thank you.</div>
-          {FEEDBACK_FORM_URL ? (
+          <div className="font-bold">{delivery === 'delivered' ? 'Sent to the author. Thank you.' : delivery === 'sending' ? 'Sending…' : 'Recorded. Thank you.'}</div>
+          {delivery === 'delivered' ? (
+            <div className="mt-1 text-sm">A copy is also kept in the list below, on this device.</div>
+          ) : delivery === 'failed' ? (
+            <div className="mt-1 text-sm">It could not be sent just now, so it is kept on this device. Copy it and send it to the person who shared this app with you, or try again later.</div>
+          ) : delivery === 'sending' ? null : FEEDBACK_FORM_URL ? (
             <>
               <div className="mt-1 text-sm">One more step: send it to the author. {FEEDBACK_FORM_URL.includes('{text}') ? 'Your text is already filled in on the form.' : 'Copy your text, then paste it into the form.'}</div>
               <a href={formLink(sent)} target="_blank" rel="noreferrer"
@@ -17859,7 +17873,7 @@ function FeedbackView({ where }) {
 
       <div className="space-y-3">
         <div className="flex flex-wrap items-center justify-between gap-2">
-          <h2 className="text-lg font-bold">Feedback inbox ({inbox.length})</h2>
+          <h2 className="text-lg font-bold">Your feedback on this device ({inbox.length})</h2>
           {inbox.length > 0 && <CopyBox text={() => inbox.map(feedbackText).join('\n\n')} label="Copy all" />}
         </div>
         {inbox.length === 0 ? <Empty>No feedback recorded on this device.</Empty> : inbox.map((f) => (
@@ -17881,6 +17895,130 @@ function FeedbackView({ where }) {
           </Card>
         ))}
       </div>
+    </div>
+  );
+}
+
+
+// ---------- welcome: the front page, shown on a first visit and from More > About ----------
+// Shared totals (supporters and visits) from a free public counter service. Leave COUNTER_BASE empty to switch them off.
+const COUNTER_BASE = 'https://abacus.jasoncameron.dev';
+const COUNTER_ID = 'fires-atlas-aa21bb28';
+const remember = {
+  get: (k) => { try { return window.localStorage.getItem(k); } catch (e) { return null; } },
+  set: (k) => { try { window.localStorage.setItem(k, 'true'); } catch (e) { /* storage blocked */ } }
+};
+const counter = (action, key) => fetch(COUNTER_BASE + '/' + action + '/' + encodeURIComponent(COUNTER_ID) + '/' + key, { cache: 'no-store' })
+  .then((res) => {
+    if (res.status === 404 && action === 'get') return 0;
+    if (!res.ok) throw new Error('Counter responded ' + res.status);
+    return res.json().then((d) => { if (!d || typeof d.value !== 'number') throw new Error('No value'); return d.value; });
+  });
+
+function WelcomeView({ first }) {
+  const { t, update, go, back, lib, setLib } = useApp();
+  const [supporters, setSupporters] = useState(null);
+  const [supported, setSupported] = useState(!!remember.get('fires_atlas_supported_' + COUNTER_ID));
+  const [supportError, setSupportError] = useState(false);
+  useEffect(() => {
+    if (!COUNTER_BASE) return undefined;
+    let live = true;
+    counter('get', 'supporters').then((n) => { if (live) setSupporters(n); }).catch(() => {});
+    const visitedKey = 'fires_atlas_visited_' + COUNTER_ID;
+    if (!remember.get(visitedKey)) counter('hit', 'visits').then(() => remember.set(visitedKey)).catch(() => {});
+    return () => { live = false; };
+  }, []);
+  const support = () => {
+    setSupportError(false);
+    counter('hit', 'supporters').then((n) => { setSupporters(n); setSupported(true); remember.set('fires_atlas_supported_' + COUNTER_ID); })
+      .catch(() => setSupportError(true));
+  };
+  const start = () => { update({ welcomed: true }); if (!first) back(); };
+  const explore = (tab) => { update({ welcomed: true }); setLib({ ...lib, tab }); go('library'); };
+  const H = ({ children }) => <h2 className={`text-xl font-bold ${t.link}`}>{children}</h2>;
+  const parts = [
+    ['Learn', 'Short lessons. Each covers what, how and why, then checks your understanding.'],
+    ['Library', 'Every entry, searchable by country, force, echelon and type, with side-by-side Compare.'],
+    ['Ranges and Military map', 'Weapon ranges as rings, and how the armies link and compare.'],
+    ['Developments', 'Recent artillery news, with what happened, what it means and what to watch next.'],
+    ['Ask', 'A question in plain words, answered from the entries with links to them.']
+  ];
+  return (
+    <div className="space-y-8">
+      <section className="space-y-3 pt-2">
+        <h1 className="text-4xl font-bold tracking-tight">Fires Atlas</h1>
+        <p className={`text-lg ${t.muted}`}>A learning reference on artillery and fire support worldwide, built from open sources.</p>
+        <div className="flex flex-wrap gap-2 pt-1">
+          <Btn onClick={start}><Play size={18} /> {first ? 'Start learning' : 'Back to the app'}</Btn>
+          <Btn kind="ghost" onClick={() => explore('Ranges')}><Target size={18} /> See the ranges</Btn>
+        </div>
+        <p className={`text-sm ${t.muted}`}>{APP_DATA.length} entries · {LESSONS.length} lessons · {ALL_COUNTRIES.length} armies</p>
+      </section>
+
+      <section className="space-y-3">
+        <H>Why this was built</H>
+        <p className="text-base leading-relaxed max-w-[70ch]">Artillery is changing quickly. Armies are rebuilding how they find targets, direct fire, survive counter-fire and sustain their guns. The lessons are spread across doctrine, journals and reports that few people have time to read.</p>
+        <p className="text-base leading-relaxed max-w-[70ch]">Fires Atlas brings that open material into one place, in a form that can be learned in short sittings. Every entry answers three questions: what it is, how it works, and why it is built that way.</p>
+        <p className="text-base leading-relaxed max-w-[70ch]">The aim is understanding, not memorising. Knowing why other armies made their choices helps us think more clearly about our own.</p>
+      </section>
+
+      <Card>
+        <div className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Sample entry</div>
+        <h3 className="text-xl font-bold mt-1 mb-3">Weapon-locating radar</h3>
+        <div className="space-y-3">
+          <Block kind="what" lines={['A radar that detects shells, rockets and mortar bombs while they are in flight.']} />
+          <Block kind="how" lines={['It tracks a short part of the flight path and calculates back to the firing point, usually within seconds.']} />
+          <Block kind="why" lines={['A gun that is located quickly can be engaged before it moves. This is why modern guns fire and relocate, and why the radar itself limits how long it transmits.']} />
+        </div>
+        <p className={`mt-3 text-sm italic ${t.muted}`}>Every entry in the app is built this way.</p>
+      </Card>
+
+      <section className="space-y-3">
+        <H>Who it is for</H>
+        <p className="text-base leading-relaxed">Anyone who studies or practises fire support: gunners, fire support officers, planners, instructors and students.</p>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {parts.map(([h, p]) => (
+            <div key={h} className={`p-3 rounded-lg border ${t.card}`}>
+              <div className="font-bold">{h}</div>
+              <div className={`text-sm mt-0.5 ${t.muted}`}>{p}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="space-y-3">
+        <H>Questions to carry with you</H>
+        <p className="text-base leading-relaxed max-w-[70ch]">The lessons use the United States as a worked example, because its doctrine is openly published and explains its reasons. As you read, set it against what you know of your own force.</p>
+        <ul className="list-disc pl-5 space-y-2 text-base leading-relaxed">
+          <li>How does our own force do this, and why is it different?</li>
+          <li>What would we have to change to do it their way, and what would it cost us?</li>
+          <li>Which of their problems do we share, and which do we not have?</li>
+          <li>What does their answer assume about size, money or ground that does not hold for us?</li>
+          <li>Faced with the same lesson from a recent war, what would we do first?</li>
+        </ul>
+        <p className={`text-sm ${t.muted}`}>Keep your answers for discussion with your instructor or team. Do not type details of your own force into the app.</p>
+      </section>
+
+      <section className="space-y-3">
+        <H>Your progress</H>
+        <p className="text-base leading-relaxed max-w-[70ch]">Progress is kept in this browser on this device. To move it to another device or browser, go to More, press “Copy my progress”, then paste it into “Restore” on the other one.</p>
+      </section>
+
+      {COUNTER_BASE && (
+        <section className="space-y-3">
+          <H>Show support</H>
+          <div className="flex flex-wrap items-center gap-4">
+            <Btn kind={supported ? 'ghost' : undefined} disabled={supported} onClick={support}><Star size={18} /> {supported ? 'Supported. Thank you.' : 'Show support'}</Btn>
+            {supporters !== null && <span className="text-2xl font-bold">{supporters.toLocaleString('en-GB')} <span className={`text-base font-normal ${t.muted}`}>{supporters === 1 ? 'supporter' : 'supporters'}</span></span>}
+          </div>
+          {supportError && <p className={`text-sm ${t.muted}`}>Not recorded. Check your connection and press again.</p>}
+        </section>
+      )}
+
+      <div className="flex flex-wrap gap-2">
+        <Btn onClick={start}><Play size={18} /> {first ? 'Start learning' : 'Back to the app'}</Btn>
+      </div>
+      <p className={`text-sm ${t.faint}`}>Content is drawn from open sources only.</p>
     </div>
   );
 }
@@ -17955,6 +18093,7 @@ function MoreView() {
 
       <Card>
         <div className={`divide-y ${t.dark ? 'divide-slate-800' : 'divide-slate-200'}`}>
+          <NavRow icon={<Info size={20} />} label="About Fires Atlas" hint="What it is, who it is for, and questions to carry with you" onClick={() => go('welcome')} />
           <NavRow icon={<Lightbulb size={20} />} label="Developments" hint={'Artillery news and what it means. Updated ' + DEVELOPMENTS.updated} onClick={() => go('developments')} />
           <NavRow icon={<Star size={20} />} label="What's new" hint={'Content version ' + CONTENT.version + ', released ' + CONTENT.released} onClick={() => go('news')} />
           <NavRow icon={<MessageSquare size={20} />} label="Feedback" hint="Report an error or suggest an improvement" onClick={() => go('feedback')} />
@@ -18206,7 +18345,7 @@ const TABS = [
   { view: 'more', label: 'More', Icon: Settings }
 ];
 // The tab that stays lit while a deeper page is open.
-const TAB_OF = { home: 'home', topic: 'home', lesson: 'home', library: 'library', entry: 'library', review: 'review', saved: 'saved', more: 'more', news: 'more', developments: 'more', feedback: 'more', ask: 'more' };
+const TAB_OF = { home: 'home', topic: 'home', lesson: 'home', library: 'library', entry: 'library', review: 'review', saved: 'saved', more: 'more', news: 'more', developments: 'more', feedback: 'more', ask: 'more', welcome: 'more' };
 
 export default function App() {
   const [state, update, storageOk] = useStore();
@@ -18243,6 +18382,8 @@ export default function App() {
   else if (cur.view === 'feedback') page = <FeedbackView key={paramKey} where={cur.param ? cur.param.where : null} />;
   else if (cur.view === 'ask') page = <AskView />;
   else if (cur.view === 'more') page = <MoreView />;
+  else if (cur.view === 'welcome') page = <WelcomeView />;
+  else if (!state.welcomed && !state.last && Object.keys(state.progress || {}).length === 0) page = <WelcomeView first />;
   else page = <HomeView />;
 
   const badge = (view) => (view === 'review' && due > 0 ? due : view === 'more' && unread ? '•' : null);

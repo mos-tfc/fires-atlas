@@ -12,7 +12,7 @@ Developed by ITCH.
 | `public/app.js` | The app, compiled from `src/`. This is what visitors run. |
 | `src/FiresAtlas.jsx` | The app source. The same file runs in Gemini Canvas. |
 | `src/main.jsx` | Website entry point: points the Ask page at `/api/ask` and starts the app. |
-| `worker/index.js` | Cloudflare Worker: serves `public/` and answers `POST /api/ask` with the Gemini key kept on the server. |
+| `worker/index.js` | Cloudflare Worker: serves `public/`; `POST /api/ask` (Gemini, key kept on the server); `POST /api/feedback` and the password-protected `/admin/feedback`. |
 | `wrangler.jsonc` | Worker configuration (name, static assets folder, routes that run the Worker). |
 | `build.sh` | Rebuilds `public/app.js` from `src/` (needs Bun). |
 
@@ -23,6 +23,8 @@ Developed by ITCH.
 - Settings → Variables and Secrets:
   - `GEMINI_API_KEY`: a Gemini API key from Google AI Studio, type **Secret**. Without it, every page works except Ask.
   - `GEMINI_MODEL` (optional, type Text): defaults to `gemini-3-flash-preview`.
+  - `FEEDBACK_PASSWORD` (type **Secret**): password for reading feedback at `/admin/feedback` (any user name).
+- Feedback storage: a KV namespace bound as `FEEDBACK` (declared in `wrangler.jsonc` by its ID). Learners' feedback is stored there; nothing identifying (no IP address) is kept.
 
 ## Updating
 
