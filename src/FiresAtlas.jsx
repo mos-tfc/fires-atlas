@@ -1547,6 +1547,581 @@ const DEVELOPMENTS = {
           "url": "https://breakingdefense.com/2026/08/army-taps-5-vendors-to-build-nuclear-microreactors-with-2-2b-pot/"
         }
       ]
+    },
+    {
+      "id": "dev-2026-11-rch155",
+      "country": "Others",
+      "date": "2026-05-14",
+      "topic": "Guns, Howitzers and Mortars",
+      "headline": "UK Orders 72 RCH 155 Wheeled Howitzers",
+      "what": [
+        "The UK signed a contract worth about £1 billion ($1.35 billion) with KNDS for 72 Remote-Controlled Howitzer 155mm (RCH 155) systems.",
+        "It advances the Trinity House agreement between the British and German armies. First deliveries are due in 2028.",
+        "The gun is highly automated: two crew, and it can fire on the move."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: the order reflects a shift to wheeled guns that fire and move without stopping to deploy, which improves survival against counter-battery fire.",
+        "Analysis: a two-person crew cuts manpower and logistic load.",
+        "Analysis: a common UK–German platform aids NATO interoperability."
+      ],
+      "watchFor": "Changes to Royal Artillery regiment structure to fit the smaller crews and higher mobility.",
+      "relatedIds": [
+        "usa-eq-sphm",
+        "usa-ttp-surv-displace",
+        "joint-eq-nabk"
+      ],
+      "equipment": [
+        {
+          "n": "RCH 155",
+          "q": "RCH 155 howitzer"
+        }
+      ],
+      "sources": [
+        {
+          "title": "All guns blazing: The UK sets up $1.35 billion RCH 155 artillery order",
+          "publisher": "Breaking Defense",
+          "year": "14 May 2026",
+          "url": "https://breakingdefense.com/2026/05/all-guns-blazing-the-uk-sets-up-1-35-billion-rch-155-artillery-order/"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-elsa",
+      "country": "Others",
+      "date": "2026-07-08",
+      "topic": "Rockets and Missiles",
+      "headline": "Twelve European Allies Pledge $50 Billion for Deep Precision Strike",
+      "what": [
+        "At the NATO Summit in Ankara, the UK and 11 other European allies committed $50 billion over ten years to long-range deep strike weapons.",
+        "It covers ground, air and naval capabilities, including the European Long-Range Strike Approach (ELSA) and the Stratus programme.",
+        "The aim is stealth and hypersonic weapons able to strike beyond 2,000 km."
+      ],
+      "confidence": "Confirmed",
+      "soWhat": [
+        "Analysis: pooled funding signals a move away from reliance on US long-range fires towards sovereign European deterrence.",
+        "Analysis: it reflects the lesson from Ukraine that striking logistics and command nodes deep behind the front matters."
+      ],
+      "watchFor": "Industrial contracts awarded under ELSA that turn the pledge into production lines.",
+      "relatedIds": [
+        "joint-eq-rkt-munitions",
+        "joint-ttp-rkt-roles"
+      ],
+      "sources": [
+        {
+          "title": "$50bn boost for European deep precision strike capabilities as UK leads new initiative",
+          "publisher": "GOV.UK",
+          "year": "8 Jul 2026",
+          "url": "https://www.gov.uk/government/news/50bn-boost-for-european-deep-precision-strike-capabilities-as-uk-leads-new-initiative"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-france-rocket",
+      "country": "Others",
+      "date": "2026-06",
+      "topic": "Rockets and Missiles",
+      "headline": "France Weighs HIMARS Against a Home-Grown Rocket Launcher",
+      "what": [
+        "Reported: France has set aside about €600 million to replace its Lance Roquette Unitaire (LRU) launchers.",
+        "Reported: Lockheed Martin offered HIMARS with an 18-month delivery. France prefers domestic industry and planned to test a home-grown system by mid-2026, with proposals from ArianeGroup and MBDA.",
+        "Reported: MBDA proposed the Land Cruise Missile, a ground-launched version of the Naval Cruise Missile, as a short-term solution."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: France’s choice signals European reluctance to depend on the US for land-based strike."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "joint-eq-m142",
+        "joint-eq-rkt-munitions"
+      ],
+      "equipment": [
+        {
+          "n": "LRU",
+          "q": "Lance Roquette Unitaire"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lockheed pitches HIMARS for France, with 18-month timeline offer",
+          "publisher": "Breaking Defense",
+          "year": "Jun 2026",
+          "url": "https://breakingdefense.com/2026/06/lockheed-pitches-himars-for-france-with-18-month-timeline-offer/"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-rch155-telford",
+      "country": "Others",
+      "date": "2026-08",
+      "topic": "Guns, Howitzers and Mortars",
+      "headline": "Rheinmetall to Build the British Army’s RCH 155 at Telford",
+      "what": [
+        "Reported: Rheinmetall won a major contract to manufacture the British Army’s RCH 155 howitzers at its Telford plant.",
+        "Reported: the gun is a fully automated artillery module on the Boxer 8x8 and can fire while driving."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: firing on the move aims to defeat counter-battery radar: the gun has moved several kilometres before the enemy computes where it fired from."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "usa-ttp-surv-displace",
+        "usa-eq-sphm"
+      ],
+      "equipment": [
+        {
+          "n": "RCH 155",
+          "q": "RCH 155 howitzer"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rheinmetall wins major contract to build British Army RCH 155",
+          "publisher": "Army Recognition",
+          "year": "2026",
+          "url": "https://www.armyrecognition.com/news/army-news/2026/rheinmetall-british-army-rch-155-telford-contract"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-bstrike",
+      "country": "Others",
+      "date": "2026-11",
+      "topic": "Rockets and Missiles",
+      "headline": "ArianeGroup Unveils the B-Strike 1000 Anti-Ship Ballistic Missile",
+      "what": [
+        "Reported: at Euronaval, ArianeGroup unveiled the B-Strike 1000, an anti-ship and land-attack ballistic missile concept with a 1,000 km range against moving targets.",
+        "Reported: it would fly above 120 km and arrive faster than Mach 10, about ten minutes over 1,000 km. It draws on the M51 and V-MAX programmes.",
+        "Reported: it is proposed for frigates, mobile coastal launchers and unmanned vessels. It is not yet contracted."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: European industry sees high-speed ballistic flight as the way through naval air defences.",
+        "Analysis: speed alone is not enough. A Houthi salvo of twelve anti-ship ballistic missiles earlier in the year missed a manoeuvring merchant ship; seekers and over-the-horizon targeting decide the result."
+      ],
+      "watchFor": "Whether France places a contract.",
+      "relatedIds": [
+        "les-rkt-sea-denial",
+        "usmc-eq-nmesis"
+      ],
+      "equipment": [
+        {
+          "n": "B-Strike 1000",
+          "q": "ArianeGroup B-Strike 1000"
+        }
+      ],
+      "sources": [
+        {
+          "title": "France’s ArianeGroup develops B-Strike 1000 anti-ship ballistic missile",
+          "publisher": "Army Recognition",
+          "year": "2026",
+          "url": "https://www.armyrecognition.com/news/navy-news/2026/frances-arianegroup-develops-b-strike-1000-anti-ship-ballistic-missile-with-1-000-km-range-against-moving-targets"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-bulgaria",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Guns, Howitzers and Mortars",
+      "headline": "Bulgaria Moves to Buy 57 CAESAR Howitzers",
+      "what": [
+        "Reported: Bulgaria began acquiring 57 French CAESAR 155mm wheeled howitzers.",
+        "Reported: they replace 122mm 2S1 Gvozdika (15.3 km) and towed 152mm D-20 guns (17.4 km). CAESAR reaches beyond 40 km with base-bleed ammunition."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: one more Eastern European army leaves Soviet-era guns for wheeled, automated NATO-standard artillery."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "usa-eq-sphm"
+      ],
+      "equipment": [
+        {
+          "n": "CAESAR",
+          "q": "CAESAR self-propelled howitzer"
+        },
+        {
+          "n": "2S1 Gvozdika",
+          "q": "2S1 Gvozdika"
+        },
+        {
+          "n": "D-20",
+          "q": "D-20 howitzer"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bulgaria moves toward 57 French CAESAR howitzers to modernize Soviet-era artillery",
+          "publisher": "Army Recognition",
+          "year": "2026",
+          "url": "https://www.armyrecognition.com/news/army-news/2026/bulgaria-moves-toward-57-french-caesar-howitzers-to-modernize-soviet-era-artillery"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-europuls",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Rockets and Missiles",
+      "headline": "Germany Chosen as the EuroPULS Production Hub",
+      "what": [
+        "Reported: Elbit Systems selected Germany as its main European production hub for the EuroPULS rocket launcher.",
+        "Reported: the US and US industry have declined to integrate GMLRS rockets with EuroPULS."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: a European launcher will need European rockets, which could separate Europe’s rocket artillery from US munitions."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "joint-eq-m142",
+        "joint-eq-rkt-munitions"
+      ],
+      "equipment": [
+        {
+          "n": "EuroPULS / PULS",
+          "q": "Elbit PULS rocket launcher"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Israeli Elbit selects Germany as Europe’s main EuroPULS rocket artillery production hub",
+          "publisher": "Army Recognition",
+          "year": "2026",
+          "url": "https://www.armyrecognition.com/news/army-news/2026/israeli-elbit-selects-germany-as-europes-main-europuls-rocket-artillery-production-hub"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-owe500",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Munitions and Production",
+      "headline": "Germany Leads Six Nations on the OWE 500 Plus Strike Drone",
+      "what": [
+        "Reported: Germany is leading a six-nation group developing the OWE 500 Plus, a one-way strike drone with a 500 km range, for NATO deep fires."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: European allies want their own long-range strike that does not depend on US missiles."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "joint-org-lm-what"
+      ],
+      "sources": [
+        {
+          "title": "Germany leads 6-nation development of 500 km OWE 500 Plus strike drone for NATO deep fires",
+          "publisher": "Army Recognition",
+          "year": "2026",
+          "url": "https://www.armyrecognition.com/news/aerospace-news/2026/germany-leads-6-nation-development-of-500-km-owe-500-plus-strike-drone-for-nato-deep-fires"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-estonia-iai",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Munitions and Production",
+      "headline": "Estonia Orders Long-Range Loitering Munitions from IAI",
+      "what": [
+        "Reported: Estonia ordered long-range loitering munitions from Israel Aerospace Industries to strike high-value targets deep behind enemy lines."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: a small army is buying deep strike as loitering munitions rather than missiles."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "joint-org-lm-what"
+      ],
+      "sources": [
+        {
+          "title": "Estonia orders long-range loitering munitions from IAI",
+          "publisher": "Janes",
+          "year": "2026",
+          "url": "https://www.janes.com/defence-intelligence-insights/defence-news/air/estonia-orders-long-range-loitering-munitions-from-iai"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-de-artillery-uas",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Sense and Strike",
+      "headline": "German Army Adds Drones to Brigades and an Artillery Battalion",
+      "what": [
+        "Reported: a new German medium brigade concept has Boxer-based Schakal battalions use reconnaissance and sniper platoons with drones to find targets, engaged first by organic loitering munitions and then by artillery.",
+        "Reported: Artillery Battalion 215 has set up batteries for developing and employing unmanned systems alongside its guns."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: drones and loitering munitions are being built into the artillery structure, not added from outside."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "usa-eq-ta-drones",
+        "usa-org-lasso-platoons"
+      ],
+      "equipment": [
+        {
+          "n": "Schakal",
+          "q": "Schakal Boxer infantry fighting vehicle"
+        }
+      ],
+      "sources": [
+        {
+          "title": "German Army medium brigade concept of operations revealed",
+          "publisher": "Janes",
+          "year": "2026",
+          "url": "https://www.janes.com/defence-intelligence-insights/defence-news/land/german-army-medium-brigade-concept-of-operations-revealed"
+        },
+        {
+          "title": "Bundeswehr adds unmanned systems to artillery battalion",
+          "publisher": "Janes",
+          "year": "2026",
+          "url": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/bundeswehr-adds-unmanned-systems-to-artillery-battalion-reorganises-luftwaffe-helicopter-wing"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-france-ar5",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Sense and Strike",
+      "headline": "French Army Selects the Tekever AR5 for Deep Reconnaissance",
+      "what": [
+        "Reported: a €150 million framework agreement covers at least five Tekever AR5 drone systems.",
+        "Reported: the AR5 flies up to 20 hours with a 50 kg payload, including electro-optical sensors, laser designators and radar with moving-target indication (SAR/GMTI)."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: radar that sees through cloud and smoke lets the drone track convoys and moving artillery, feed CAESAR and rocket batteries, and assess damage after the strike."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "usa-eq-ta-drones"
+      ],
+      "equipment": [
+        {
+          "n": "Tekever AR5",
+          "q": "Tekever AR5"
+        }
+      ],
+      "sources": [
+        {
+          "title": "France moves to restore long-range army reconnaissance with Tekever AR5 drones",
+          "publisher": "Army Recognition",
+          "year": "2026",
+          "url": "https://www.armyrecognition.com/news/army-news/2026/france-moves-to-restore-long-range-army-reconnaissance-with-tekever-ar5-drones"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-ejderha",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Force Protection",
+      "headline": "ASELSAN’s EJDERHA Microwave Weapon Disables 51 Drones",
+      "what": [
+        "Reported: at the Gölbek test centre, ASELSAN’s EJDERHA high-power electromagnetic weapon disabled cable-controlled drones at 1,000 m and then a swarm of 51 drones launched together.",
+        "Reported: it damages the drones’ electronics rather than jamming their links."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: it works against autonomous or wire-guided drones that jamming cannot stop, and could protect HIMARS or gun batteries while saving missiles for larger threats."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "usa-ttp-surv-cuas-gunline",
+        "usa-eq-radar-cuas"
+      ],
+      "equipment": [
+        {
+          "n": "EJDERHA",
+          "q": "ASELSAN EJDERHA"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Türkiye’s ASELSAN EJDERHA electromagnetic weapon disables 51 drones in seconds",
+          "publisher": "Army Recognition",
+          "year": "2026",
+          "url": "https://www.armyrecognition.com/news/army-news/2026/tuerkiyes-aselsan-ejderha-electromagnetic-weapon-marks-new-era-after-disabling-51-drones-in-seconds"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-de-puma",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Sense and Strike",
+      "headline": "Germany Buys 14 Puma Drones with Laser Targeting for Naval Special Forces",
+      "what": [
+        "Reported: Germany bought 14 AeroVironment Puma drones to give its naval special forces laser targeting for precision strikes."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: small teams gain their own means to find and mark targets for precision weapons."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "usa-eq-ta-drones",
+        "usa-eq-jets"
+      ],
+      "equipment": [
+        {
+          "n": "Puma",
+          "q": "AeroVironment Puma drone"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Germany buys 14 AeroVironment Puma drones to equip naval special forces with laser targeting",
+          "publisher": "Army Recognition",
+          "year": "2026",
+          "url": "https://www.armyrecognition.com/news/navy-news/2026/germany-buys-14-aerovironment-puma-drones-to-equip-naval-special-forces-with-laser-targeting"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-elbit-carrier",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Sense and Strike",
+      "headline": "Elbit Unveils a Merchant-Ship Drone Carrier for Hermes 650",
+      "what": [
+        "Reported: Elbit Systems unveiled a concept for launching Hermes 650 drones from merchant ships, to widen naval surveillance without using frigates."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: cheap platforms can carry the sensors that over-the-horizon strike depends on."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "les-rkt-sea-denial"
+      ],
+      "equipment": [
+        {
+          "n": "Hermes 650",
+          "q": "Elbit Hermes 650 Spark"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Israel’s Elbit unveils merchant ship drone carrier concept for Hermes 650 naval operations",
+          "publisher": "Army Recognition",
+          "year": "2026",
+          "url": "https://www.armyrecognition.com/news/navy-news/2026/israels-elbit-unveils-merchant-ship-drone-carrier-concept-for-hermes-650-naval-operations"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-iris-t-sls",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Force Protection",
+      "headline": "Diehl Unveils the IRIS-T SLS MK4 Mobile Air Defence System",
+      "what": [
+        "Reported: Diehl Defence introduced the IRIS-T SLS MK4, a mobile air defence missile system designed to engage drones, helicopters and loitering munitions on the move."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: air defence that keeps pace with manoeuvre units is needed to protect guns and launchers that move constantly."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "usa-org-cf-ada-protection"
+      ],
+      "equipment": [
+        {
+          "n": "IRIS-T SLS",
+          "q": "IRIS-T SLS air defence system"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Germany’s Diehl Defence unveils IRIS-T SLS MK4 mobile air defense missile system at ILA 2026",
+          "publisher": "Army Recognition",
+          "year": "2026",
+          "url": "https://www.armyrecognition.com/news/army-news/2026/germanys-diehl-defence-unveils-iris-t-sls-mk4-mobile-air-defense-missile-system-at-ila-2026"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-arge-shorad",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Force Protection",
+      "headline": "Rheinmetall, Diehl and Hensoldt Offer Short-Range Air Defence for the Bundeswehr",
+      "what": [
+        "Reported: under the ARGE NNbS working group, Rheinmetall, Diehl and Hensoldt offered a modular short-range and very-short-range air defence solution on Boxer and Eagle vehicles.",
+        "Reported: Rheinmetall also offers the Skyranger turret, which fires programmable airburst ammunition against drone swarms."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: layered, vehicle-mounted air defence is becoming a standard part of protecting a manoeuvre force and its fires."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "usa-org-cf-ada-protection",
+        "usa-ttp-surv-cuas-gunline"
+      ],
+      "equipment": [
+        {
+          "n": "Skyranger",
+          "q": "Rheinmetall Skyranger"
+        },
+        {
+          "n": "Boxer",
+          "q": "Boxer armoured vehicle"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rheinmetall, Diehl and Hensoldt working group offers SHORAD and VSHORAD for Bundeswehr",
+          "publisher": "Janes",
+          "year": "2026",
+          "url": "https://www.janes.com/defence-intelligence-insights/defence-news/weapons/rheinmetall-diehl-and-hensoldt-working-group-offers-shorad-and-vshorad-for-bundeswehr"
+        }
+      ]
+    },
+    {
+      "id": "dev-2026-11-leopard-cages",
+      "country": "Others",
+      "date": "2026",
+      "topic": "Force Protection",
+      "headline": "German Leopard 2A7A1 Tanks in Lithuania Fitted with Home-Made Drone Cages",
+      "what": [
+        "Reported: the Bundeswehr deployed Leopard 2A7A1 tanks fitted with soldier-built anti-drone cages to its units in Lithuania.",
+        "The research gives no source for this item."
+      ],
+      "confidence": "Reported",
+      "soWhat": [
+        "Analysis: the improvised cages show that every armoured and artillery vehicle now faces attack from above."
+      ],
+      "watchFor": "",
+      "relatedIds": [
+        "usa-ttp-surv-hardening"
+      ],
+      "equipment": [
+        {
+          "n": "Leopard 2A7",
+          "q": "Leopard 2A7 tank"
+        }
+      ],
+      "sources": [
+        {
+          "title": "No source named for this item in the research",
+          "publisher": "Not stated in the source",
+          "year": "",
+          "url": ""
+        }
+      ]
     }
   ],
   "archive": []
@@ -1558,7 +2133,7 @@ const EQUIPMENT_LINKS = {"usa-eq-llsr": [{"n": "AN/PED-1 LLDR", "q": "AN/PED-1 L
 
 // Key figures per system, from this app's own sources only. "(reported)" = press or vendor figure.
 // w = exact English Wikipedia article title, checked by hand; no w = no photo look-up.
-const EQUIPMENT_SPECS = {"AN/PED-1 LLDR": {"t": "Man-portable target locator and laser designator", "r": [["Crew", "2 (tripod-mounted)"], ["Laser", "1064 nm, pulse-coded"], ["Range", "10-digit target grids beyond 5 km"]]}, "M7 Bradley FIST": {"t": "Armoured fire support vehicle (ABCT)", "r": [["Sensor", "Fire Support Sensor System (FS3) mast: thermal/day optics, laser rangefinder, inertial navigation"], ["Fire control", "AFATDS / PFED inside"]], "w": "Bradley Fighting Vehicle"}, "M1131 Stryker FSV": {"t": "Wheeled fire support vehicle (SBCT)", "r": [["Sensor", "Fire Support Sensor System (FS3) mast"], ["Fire control", "AFATDS / PFED inside"]], "w": "Stryker"}, "Target Hand-off System": {"t": "USMC handheld digital fire support and CAS terminal (THS v2)", "r": [["Radios", "AN/PRC-117G, PRC-152A, PRC-163"], ["Sends", "Digital calls for fire (AFATDS), NSFS requests, digital 9-line CAS"]]}, "AN/TPQ-53": {"t": "Counter-fire / weapon-locating radar", "r": [["Crew", "5"], ["Mobility", "Two FMTV trucks; C-17 transportable"], ["Coverage", "90-degree sector or 360 degrees"], ["Range (90°)", "0.5–18 km (81mm mortar); 3–30 km (105mm); 5–100 km (rockets)"], ["Range (360°)", "3–15 km (mortars); 5–20 km (105/155mm)"], ["Accuracy", "20–30 m at 90°; 50–75 m at 360°"], ["Fleet", "189 systems (programme of record)"]], "w": "AN/TPQ-53 Quick Reaction Capability Radar"}, "AN/TPQ-50": {"t": "Lightweight counter-mortar radar", "r": [["Band", "L-band (1–2 GHz)"], ["Coverage", "360 degrees out to 10 km"], ["Accuracy", "About 50 m point-of-origin error"]]}, "AN/TPS-80 G/ATOR": {"t": "USMC multi-role AESA radar (Block 2: weapon locating)", "r": [["Coverage", "360 degrees"], ["Mobility", "Two MTVRs and one HMMWV"], ["Fleet", "45 planned (cut from 57)"]], "w": "AN/TPS-80 Ground/Air Task Oriented Radar"}, "AN/TPQ-36": {"t": "Firefinder weapon-locating radar (being phased out)", "r": [["Band", "X-band"], ["Coverage", "90-degree sector"], ["Range", "24 km max (18 km against artillery, 24 km against rockets)"]], "w": "AN/TPQ-36 Firefinder radar"}, "AN/TPQ-37": {"t": "Long-range Firefinder radar (divested)", "r": [], "w": "AN/TPQ-37 Firefinder radar"}, "JETS": {"t": "Joint Effects Targeting System: target location and designation", "r": [["Output", "40 acquisitions or fire missions per 10-hour day (operational test)"], ["Contract", "$339 million (October 2016)"]]}, "Switchblade 300": {"t": "Tube-launched, man-portable loitering munition", "r": [["Range", "20 km"], ["Endurance", "20+ minutes"], ["Warhead", "About 1.8 kg high explosive"]], "w": "AeroVironment Switchblade"}, "Switchblade 600": {"t": "Anti-armour loitering munition", "r": [["Range", "40+ km"], ["Endurance", "40+ minutes"], ["Warhead", "Javelin-derived anti-armour"]], "w": "AeroVironment Switchblade"}, "Bolt-M": {"t": "Hand-launched quadcopter loitering munition (Anduril)", "r": [["Range", "20 km (reported)"], ["Endurance", "40 minutes (reported)"], ["Warhead", "Modular, up to 1.4 kg (reported)"]]}, "Rogue 1": {"t": "Quadcopter loitering munition (Teledyne FLIR)", "r": [["Range", "20 km (reported)"], ["Endurance", "30+ minutes (reported)"], ["Warhead", "Modular anti-armour or fragmentation (reported)"]]}, "Altius-700M": {"t": "Launched effect / loitering munition (Anduril)", "r": [["Range", "About 160 km (reported)"], ["Endurance", "75 minutes (reported)"], ["Payload", "Up to 15 kg (reported)"], ["Launch", "From UH-60M (reported)"]], "w": "Anduril Altius"}, "M1299 ERCA": {"t": "155mm self-propelled howitzer programme (cancelled 2024)", "r": [["Calibre", "155mm, 58-calibre barrel"], ["Range", "70–100 km (goal)"], ["Chassis", "M109A7"]], "w": "M1299 howitzer"}, "XM1180 C-DAEM": {"t": "155mm area-effects projectile (replacing DPICM)", "r": []}, "M119A3": {"t": "105mm towed howitzer (light, airborne, air assault)", "r": [["Weight", "1,936 kg (4,268 lb) combat"], ["Range", "14 km HE; 19.5 km RAP"], ["Mobility", "Towed by HMMWV or medium truck; sling-loaded under UH-60 / CH-47"], ["Fire control", "Digital, with inertial navigation"]], "w": "M119 howitzer"}, "M777A2": {"t": "155mm towed howitzer (SBCT; all USMC cannon)", "r": [["Weight", "About 4,200 kg (US figure); 4,100 kg (Australian Army)"], ["Range", "24 km HE; 30 km RAP; 40 km Excalibur"], ["Rate of fire", "2 a minute sustained; 5 rapid (Australian Army)"], ["Mobility", "Towed by medium truck; sling-loaded under CH-47 / CH-53; C-130J and C-17A"]], "w": "M777 howitzer"}, "M777": {"same": "M777A2"}, "M109A7 Paladin": {"t": "155mm tracked self-propelled howitzer (ABCT)", "r": [["Calibre", "155mm M284, 39-calibre"], ["Weight", "35,380 kg (78,000 lb) combat"], ["Range", "24 km HE; 30 km RAP; 40 km Excalibur"], ["Rate of fire", "4 rounds a minute maximum"], ["Mobility", "675 hp; 61 km/h"], ["Resupply", "M992A3 carrier, under armour"]], "w": "M109 howitzer"}, "XM1776 (K9)": {"t": "155mm SPH-M candidate, variant of the K9", "r": [["Calibre", "155mm, 52-calibre (reported)"], ["Rate of fire", "8–9 rounds a minute, automatic loader (reported)"]], "w": "K9 Thunder"}, "Archer": {"t": "155mm wheeled self-propelled howitzer (Sweden)", "r": [["Into and out of action", "Halts, fires a burst and moves in under 20 seconds (reported)"]], "w": "Archer artillery system"}, "CAESAR": {"t": "155mm wheeled self-propelled howitzer (France)", "r": [["Range", "Beyond 40 km with base bleed (reported)"]], "w": "CAESAR self-propelled howitzer"}, "Sigma": {"t": "155mm wheeled self-propelled howitzer (Elbit)", "r": []}, "M142 HIMARS": {"t": "Wheeled rocket launcher, one pod (FMTV 6x6)", "r": [["Weight", "16,250 kg combat"], ["Crew", "3"], ["Mobility", "85–94 km/h; 480 km operating range; C-130 transportable"], ["Munitions", "GMLRS, ER GMLRS, ATACMS, PrSM"]], "w": "M142 HIMARS"}, "M270A2 MLRS": {"t": "Tracked rocket launcher, two pods (Bradley chassis)", "r": [["Weight", "About 25,191 kg loaded"], ["Crew", "3"], ["Mobility", "600 hp; 64 km/h; C-17 transportable"], ["Munitions", "GMLRS, ER GMLRS, ATACMS, PrSM"]], "w": "M270 Multiple Launch Rocket System"}, "GMLRS": {"t": "227mm guided rocket (M31 series)", "r": [["Range", "15–92 km; ER GMLRS up to 150 km"], ["Warhead", "200 lb HE unitary, or Alternative Warhead (tungsten fragments)"], ["Production", "100,000th rocket delivered (reported)"]], "w": "M270 Multiple Launch Rocket System"}, "ATACMS": {"t": "Tactical ballistic missile (M57), being replaced by PrSM", "r": [["Range", "Up to 300 km"], ["Warhead", "500 lb unitary"]], "w": "ATACMS"}, "PrSM": {"t": "Precision Strike Missile", "r": [["Range", "Increment 1: beyond 400 km (US entry); up to 500 km (Australian Government); Increment 4 goal: at least 1,000 km"], ["Seeker", "Increment 2: multi-mode, anti-ship"], ["Launchers", "HIMARS and M270A2"], ["Users", "US; Australia (co-development partner)"]], "w": "Precision Strike Missile"}, "NMESIS": {"t": "USMC ground-based anti-ship missile system (ROGUE-Fires on JLTV)", "r": [["Missile", "Naval Strike Missile"], ["Range", "Beyond 185 km"], ["Warhead", "260 lb blast-fragmentation"], ["Mobility", "C-130 transportable"]], "w": "Naval Strike Missile"}, "M795": {"t": "155mm high-explosive projectile", "r": [["Range", "About 22.5 km; 30 km with MACS charge 5"], ["Filling", "TNT; M795IM uses IMX-101"], ["Cost", "About $2,440 per live HE round (reported)"]], "w": "M795 projectile"}, "M982 Excalibur": {"t": "GPS / inertial guided 155mm projectile", "r": [["Range", "About 39.5 km (reported)"], ["Cost", "Over $84,000 each (reported)"]], "w": "M982 Excalibur"}, "M1156 PGK": {"t": "Precision guidance kit: guided fuze for the M795", "r": [["Fit", "Screws on in place of the fuze; canards correct flight (reported)"]], "w": "M1156 precision guidance kit"}, "BONUS": {"t": "155mm sensor-fuzed anti-armour round", "r": [["Range", "About 35 km (base bleed, 52-calibre guns)"], ["Submunitions", "2, on winglets, infrared and laser sensors"]], "w": "Bofors/Nexter Bonus"}, "MACS": {"t": "155mm Modular Artillery Charge System", "r": [["Items", "M231 (zones 1–2); M232A1 (zones 3–5)"]]}, "XM1155": {"t": "Developmental extended-range guided 155mm projectile", "r": [["Range", "Beyond 100 km (XM1155-SC, solid-fuel ramjet) (reported)"]]}, "M992 FAASV": {"t": "Tracked armoured ammunition carrier (M109 chassis)", "r": [["Capacity", "95 or 98 complete 155mm rounds"]], "w": "M992 field artillery ammunition supply vehicle"}, "M1075 PLS": {"t": "10x10 Palletized Load System truck", "r": [["Payload", "33,000 lb"]], "w": "Palletized Load System"}, "M985 HEMTT": {"t": "8x8 cargo truck, often with crane", "r": [["Role", "MLRS pods and palletised munitions"]], "w": "Heavy Expanded Mobility Tactical Truck"}, "ATLAS II": {"t": "All-terrain forklift for ammunition", "r": [["Lift", "10,000 lb; 4,000 lb at 21.5 ft reach"]]}, "M88A2 HERCULES": {"t": "Tracked armoured recovery vehicle", "r": [["Weight", "70 tons"], ["Boom / winch", "35-ton A-frame boom; 70-ton main winch"]], "w": "M88 recovery vehicle"}, "M1089 wrecker": {"t": "5-ton 6x6 medium wrecker", "r": [["Winches / crane", "Two 30,000 lb winches; 11,000 lb crane"]], "w": "Family of Medium Tactical Vehicles"}, "M224A1": {"t": "60mm light mortar", "r": [["Weight", "17.19 kg conventional; 8.89 kg handheld"], ["Range", "70–3,490 m"], ["Rate of fire", "Up to 30 a minute briefly; 8–20 sustained"]], "w": "M224 mortar"}, "M252A1": {"t": "81mm medium mortar", "r": [["Weight", "About 89 lb"], ["Range", "Beyond 5,800 m"], ["Rate of fire", "Up to 30 a minute"]], "w": "M252 mortar"}, "M120A1": {"t": "120mm heavy mortar (towed or dismounted)", "r": [["Weight", "About 320 lb (cannon, bipod, baseplate)"], ["Range", "7,200 m"], ["Rate of fire", "Up to 16 a minute"]], "w": "Soltam K6"}, "M1129 / M1252": {"t": "Stryker / AMPV mortar carriers (M121 120mm)", "r": [], "w": "Stryker"}, "XM395": {"t": "GPS-guided 120mm mortar round", "r": [["Setter", "XM701 PLUMSS sets coordinates before firing"]], "w": "XM395 precision guided mortar munition"}, "Patria NEMO": {"t": "120mm turreted mortar (under evaluation on AMPV)", "r": [["Loading", "Semi-automatic, single barrel, breech-loaded"]], "w": "Patria NEMO"}, "M2A2 aiming circle": {"t": "Optical compass and theodolite for laying guns", "r": []}, "AN/TMQ-52": {"t": "Meteorological Measuring Set-Profiler (MMS-P)", "r": []}, "HADES": {"t": "High-altitude jet ISR aircraft (ME-11B, Bombardier Global 6500)", "r": [["Replaces", "RC-12X Guardrail"]], "w": "Bombardier Global Express"}, "2S19 Msta-S": {"t": "152mm tracked self-propelled howitzer", "r": [["Calibre", "152mm 2A64"], ["Weight", "42 t"], ["Range", "24.7 km HE; 36 km rocket-assisted"], ["Rate of fire", "6–8 a minute sustained (M2 / SM2: up to 10)"], ["Chassis", "T-80 running gear, T-72 engine"]], "w": "2S19 Msta-S"}, "2S35 Koalitsiya-SV": {"t": "152mm self-propelled howitzer, unmanned turret", "r": [["Calibre", "152mm 2A88"], ["Weight", "55 t"], ["Range", "Over 70 km with precision-guided rounds"], ["Rate of fire", "Up to 16 a minute"], ["Chassis", "T-90"]], "w": "2S35 Koalitsiya-SV"}, "2S43 Malva": {"t": "152mm 8x8 wheeled self-propelled gun", "r": [["Calibre", "152mm 2A64"], ["Weight", "32 t"], ["Range", "24.5 km"], ["Rate of fire", "About 7 a minute"], ["Mobility", "Il-76 transportable"]], "w": "2S43 Malva"}, "2S4 Tyulpan": {"t": "240mm heavy self-propelled mortar", "r": [["Calibre", "240mm"]], "w": "2S4 Tyulpan"}, "Iskander-M": {"t": "Tactical ballistic missile system (9K720)", "r": [["Missile", "2 × 9M723 per launcher"], ["Range", "Up to 500 km"], ["Accuracy", "CEP 5–10 m"], ["Brigade", "12 rising to 16 launchers"]], "w": "9K720 Iskander"}, "Tornado-G": {"t": "122mm rocket launcher (BM-21 Grad replacement)", "r": [["Tubes", "40 × 122mm"], ["Crew", "2–3"], ["Range", "20 km standard; up to 40 km"], ["Salvo", "40 rockets in 20 seconds"], ["Chassis", "Ural-4320 6x6"]], "w": "Tornado (multiple rocket launcher)"}, "Tornado-S": {"t": "300mm rocket launcher (BM-30 Smerch upgrade)", "r": [["Tubes", "12 × 300mm"], ["Range", "70 km; 120 km guided; about 200 km (9M544, in work)"], ["Salvo", "About 40 seconds"]], "w": "Tornado (multiple rocket launcher)"}, "TOS-1A": {"t": "220mm thermobaric rocket launcher", "r": [["Tubes", "24 × 220mm"], ["Range", "About 6 km"], ["Chassis", "T-72"]], "w": "TOS-1"}, "TOS-2": {"t": "Wheeled thermobaric rocket launcher", "r": [["Range", "Up to 20 km"], ["Chassis", "6x6 Ural, own crane"]], "w": "TOS-2"}, "2S12 Sani": {"t": "120mm mortar system", "r": [["Weight", "230 kg weapon"], ["Into action", "Under 3 minutes (2S12A)"], ["Carrier", "Ural-43206 truck or MT-LB"]], "w": "2S12 Sani"}, "2B9 Vasilek": {"t": "82mm automatic mortar", "r": [["Calibre", "82mm"]], "w": "2B9 Vasilek"}, "KM-8 Gran": {"t": "120mm laser-guided mortar round", "r": [["Seeker", "9E430"]], "w": "KM-8 Gran"}, "Krasnopol": {"t": "152mm laser-guided projectile", "r": [["Range", "20–25 km (base bleed)"], ["Accuracy", "CEP 1–2 m (Krasnopol-M2)"], ["Guns", "2S19, 2S3, 2S43"]], "w": "Krasnopol (weapon system)"}, "Orlan-10": {"t": "Tactical reconnaissance drone", "r": [["Endurance", "Up to 16 hours"], ["Altitude", "Up to 5,000 m"], ["Range", "Up to 600 km in relay groups"]], "w": "STC Orlan-10"}, "Orlan-30": {"t": "Reconnaissance drone with laser designator", "r": [["Weight", "27 kg"], ["Role", "Lights targets for Krasnopol and Gran"]]}, "Lancet": {"t": "Loitering munition", "r": [["Range", "Over 40 km"], ["Endurance", "About 40 minutes"], ["Warhead", "High explosive anti-tank"]], "w": "ZALA Lancet"}, "Zoopark-1M": {"t": "Counter-battery radar (1L260)", "r": [], "w": "Zoopark-1"}, "SNAR-10M1": {"t": "Battlefield surveillance radar (Kredo-1E on MT-LBu)", "r": [["Range", "Bursts, vehicles and infantry out to 40 km"]]}, "PRP-5": {"t": "Artillery reconnaissance vehicle (BMP-3 or BTR-82A)", "r": [["Sensors", "Radar and optics; amphibious"]]}, "1B75 Penicillin": {"t": "Acoustic / thermal counter-artillery system", "r": [["Performance", "Locates firing positions within 5 seconds at up to 25 km (reported)"]], "w": "Penicillin (counter-artillery system)"}, "1V12": {"t": "Tracked artillery command and fire control vehicles (MT-LBu)", "r": []}, "1V18 / 1V19": {"t": "Wheeled battery and battalion commander vehicles (BTR-60PB)", "r": [["Sensors", "Laser rangefinders, day and night sights, aiming circles"]]}, "1V198": {"t": "Networked artillery command complex", "r": [["Reaction time", "30–60 seconds (reported)"]]}, "PAB-2M": {"t": "Periscopic aiming circle", "r": [["Magnification", "8x"]]}, "2S9 Nona-S": {"t": "120mm self-propelled gun-mortar (VDV)", "r": [["Calibre", "120mm"]], "w": "2S9 Nona"}, "TPQ-74K": {"t": "Counter-battery radar (LIG Nex1)", "r": [["Range", "Over 60 km"], ["Endurance", "8 hours continuous"]]}, "K9 Thunder": {"t": "155mm tracked self-propelled howitzer", "r": [["Calibre", "155mm 52-calibre CN98"], ["Weight", "47 t"], ["Crew", "5"], ["Stowage", "48 rounds"], ["Range", "18 km (M107); 30 km (RAP); 40–41 km (K307 BB); 54–55 km (K315)"], ["Rate of fire", "3 in 15 s burst; 6–8 a minute for 3 min; 2–3 sustained; MRSI"], ["Shoot and scoot", "Fires 30–60 s after halting; moves 30 s later"]], "w": "K9 Thunder"}, "K9A2": {"t": "155mm SPH upgrade, automated turret (planned 2027)", "r": [["Crew", "3"], ["Rate of fire", "9–10 a minute (6 sustained)"]], "w": "K9 Thunder"}, "K10": {"t": "Tracked ammunition resupply vehicle (K9 chassis)", "r": [["Capacity", "104 rounds"], ["Transfer", "12 rounds a minute by conveyor"]], "w": "K9 Thunder"}, "K105HT / K105A1": {"t": "105mm truck-mounted howitzer", "r": [["Weight", "19 t"], ["Crew", "3–4"], ["Range", "11.3 km"], ["Rate of fire", "10 a minute burst; 3 sustained"], ["Stowage", "60 rounds"], ["Into action", "Within 1 minute; moves in 30 seconds"]]}, "KSM-120 Skyfall": {"t": "120mm self-propelled rifled mortar (K200A1)", "r": [["Crew", "4"], ["Range", "8 km HE; 12 km rocket-assisted"], ["Rate of fire", "8 a minute (3 sustained)"], ["Mobility", "70 km/h"], ["Traverse", "360 degrees"]]}, "K239 Chunmoo": {"t": "8x8 multiple rocket launcher (Hanwha)", "r": [["Munitions", "130mm (20/pod); 227mm (6/pod); 239mm guided (6/pod)"], ["Range", "About 80 km (239mm guided)"], ["European fleet", "315 launchers by mid-2026, plus 18 for Croatia (reported)"]], "w": "K239 Chunmoo"}, "KTSSM": {"t": "Tactical ballistic missile against hardened artillery", "r": [["Warhead", "Penetrating thermobaric (KTSSM-I)"], ["Basing", "Fixed silos or mobile launchers"]], "w": "Ure (missile)"}, "Warmate 3": {"t": "Loitering munition (WB Group, Poland)", "r": [["Endurance", "Up to 70 minutes"], ["Range", "30 km radio; 80 km with handover"], ["Warhead", "Up to 3 kg: HE, fragmentation or HEAT (200–240mm)"]], "w": "WB Electronics Warmate"}, "BTCS": {"t": "Battalion Tactical Command System (fire direction)", "r": [["In service", "Since April 1994"], ["Carriers", "K-77 tracked or K-511 truck"]]}, "Delta": {"t": "Cloud situational awareness system", "r": [["Standards", "MIP, Link 16, Cursor on Target, APP-6 / MIL-STD-2525"]]}, "GIS Arta": {"t": "Fire mission dispatch software", "r": [["Mission time", "30–45 seconds, from 20–30 minutes (reported)"]]}, "Kropyva": {"t": "Tablet ballistic and mapping app", "r": [["Use", "About 90% of artillery units (reported)"], ["Mission time", "Under a minute (reported)"]]}, "2S22 Bohdana": {"t": "155mm wheeled self-propelled howitzer", "r": [["Fire control", "KRIP-A automated laying and ballistics"]], "w": "2S22 Bohdana"}, "ARTHUR": {"t": "Counter-battery radar (Saab)", "r": [["Range", "40 km (ARTHUR-K)"]], "w": "ARTHUR"}, "COBRA": {"t": "Counter-battery radar", "r": [["Range", "About 100 km"], ["Tracking", "Up to 40 batteries in two minutes"]], "w": "COBRA (radar)"}, "SMArt 155": {"t": "155mm sensor-fuzed anti-armour round", "r": [["Weight", "47 kg"], ["Range", "About 27.5 km"], ["Submunitions", "2, infrared and millimetre-wave sensors"]], "w": "SMArt 155"}, "Baba Yaga drone": {"t": "Heavy multirotor bomber drone", "r": [["Payload", "50–100 kg (reported)"]], "w": "Baba Yaga (aircraft)"}, "AHS Krab": {"t": "155mm tracked self-propelled howitzer (Poland)", "r": [], "w": "AHS Krab"}, "M120 Rak": {"t": "120mm turreted mortar on Rosomak (Poland)", "r": [], "w": "M120 Rak"}, "SLC-2 radar": {"t": "Mobile AESA counter-battery radar", "r": [["Range", "Artillery, mortars, rockets beyond 50 km; aircraft 120 km"]], "w": "SLC-2 Radar"}, "KVD002": {"t": "Armed reconnaissance drone with laser designator", "r": [["Role", "Surveillance, designation, damage assessment (reported)"]]}, "WS-35": {"t": "155mm guided, rocket-assisted base-bleed shell", "r": [["Weight", "18 kg"], ["Range", "Up to 100 km (WS-35B) (reported)"], ["Accuracy", "CEP about 40 m (reported)"], ["Guidance", "BeiDou and inertial"]]}, "GP155 / GP1": {"t": "155mm laser-homing shell (Krasnopol-derived)", "r": [["Weight", "52 kg"], ["Range", "4–20 km"]]}, "PCL-181": {"t": "155mm truck-mounted howitzer (export SH-15)", "r": [["Calibre", "155mm 52-calibre"], ["Weight", "25 t"], ["Crew", "6"], ["Range", "20 km HE; 53 km rocket-assisted"], ["Rate of fire", "4–6 a minute"], ["Mobility", "90 km/h; Y-9 airliftable"], ["Fleet", "Over 600"]], "w": "PCL-181"}, "PLZ-05": {"t": "155mm tracked self-propelled howitzer", "r": [["Calibre", "155mm 52-calibre"], ["Weight", "35–45 t"], ["Range", "39 km ERBB; 50 km BB + RA; up to 100 km WS-35B"], ["Rate of fire", "8–10 a minute; 4 in 15 s burst; MRSI"]], "w": "PLZ-05"}, "PHL-191 / PHL-16": {"t": "8x8 modular rocket launcher", "r": [["Weight", "45 t"], ["Munitions", "300mm (10, about 150 km); 370mm (8, about 350 km); 750mm (2, about 500 km)"]], "w": "PHL-16"}, "PHL-16": {"same": "PHL-191 / PHL-16"}, "PCL-171": {"t": "122mm howitzer on 6x6 Mengshi", "r": [["Calibre", "122mm"], ["Stowage", "28 rounds"]], "w": "PCL-171"}, "PLL-05": {"t": "120mm wheeled gun-mortar (WZ551)", "r": [["Weight", "16.5 t"], ["Crew", "4"], ["Stowage", "36 rounds"], ["Mobility", "Amphibious, up to 8 km/h in water"]], "w": "PLL-05"}, "PCP-001": {"t": "82mm automatic mortar on 4x4 Mengshi", "r": [["Calibre", "82mm"], ["Mobility", "Over 100 km/h on roads"]]}, "Hornet": {"t": "Loitering munition (Perennial Autonomy)", "r": [["Use", "Over 10,000 used by Ukraine (reported)"]]}, "Typhon": {"t": "Containerised ground launcher (Mk 70 Mod 1)", "r": [["Battery", "16 ready cells (reported)"]], "w": "Typhon missile system"}, "Tomahawk": {"t": "Cruise missile", "r": [["Range", "1,600–2,500 km (reported)"]], "w": "Tomahawk missile"}, "Vulcano": {"t": "155mm guided long-range projectile family (Leonardo)", "r": [["Range", "Approaching 70 km (155 GLR); beyond 70 km (US Vulcano-derived round) (reported)"], ["Guidance", "GPS and inertial, sub-calibre with fins (reported)"]]}, "Harpia-A1": {"t": "Long-range flying-wing loitering munition", "r": [["Range", "1,000 km (claimed) (reported)"], ["Endurance", "At least 6 hours (reported)"], ["Weight", "250 kg; warhead over 50 kg (reported)"]]}, "V-BAT": {"t": "Vertical take-off surveillance drone (Shield AI)", "r": [["Taiwan order", "280 drones (reported)"]], "w": "Shield AI MQ-35 V-BAT"}, "30mm Bushmaster": {"t": "30mm cannon used against drones (M-ACE guided)", "r": [], "w": "Mk44 Bushmaster II"}, "Arion-SMET": {"t": "Unmanned ground vehicle for resupply and casualty evacuation (Hanwha)", "r": []}, "Depesha": {"t": "Unmanned ground supply vehicle (Depesha-MK, Rostec)", "r": []}, "IAI Harop": {"t": "Loitering munition (Israel)", "r": [], "w": "IAI Harop"}, "K1000ULE": {"t": "Electric vertical take-off reconnaissance drone", "r": []}, "K9PL / K9": {"t": "155mm tracked SPH built to Polish requirements (K9 family)", "r": [["Fit", "FONET communications, TOPAZ fire control (reported)"], ["Order", "146 K9PL (second contract) after 212 K9A1 (reported)"]], "w": "K9 Thunder"}, "LUCAS": {"t": "Loitering munition for battalion-level strike", "r": [], "w": "Low-cost Uncrewed Combat Attack System"}, "LoyalEye": {"t": "Airborne radar (Saab) flown on MQ-9B", "r": []}, "MALET": {"t": "Air-dropped mortar-round munition for drones", "r": [["Rounds", "60mm and 81mm; 120mm also reported (reported)"]]}, "MQ-9B": {"t": "Medium-altitude long-endurance drone", "r": []}, "PAC-3 MSE": {"t": "Patriot interceptor missile", "r": [["Contract", "$53.9 billion production (reported)"]], "w": "MIM-104 Patriot"}, "Sgt Stout M-SHORAD": {"t": "Stryker short-range air defence vehicle", "r": []}, "Type 12": {"t": "Japanese surface-to-ship missile", "r": [["Flight", "Low, sea-skimming (reported)"], ["Seeker", "Active radar homing (reported)"], ["Units", "Surface-to-ship missile regiments, south-western islands (reported)"]], "w": "Type 12 surface-to-ship missile"}, "Type 19": {"t": "155mm wheeled self-propelled howitzer (Japan Steel Works)", "r": [["Calibre", "155mm, 52-calibre (reported)"], ["Crew", "5 (reported)"], ["Range", "30 km HE; 40 km base bleed (reported)"], ["Loading", "Automatic projectile loader; charges by hand (reported)"], ["Chassis", "8x8 Rheinmetall MAN truck (reported)"]], "w": "Type 19 155 mm wheeled self-propelled howitzer"}, "120mm RT": {"t": "120mm rifled towed mortar (French design, made by Howa)", "r": [["Mounting", "Towed, or on the Type 96 carrier (reported)"]], "w": "Mortier 120 mm Rayé Tracté Modèle F1"}, "L16 81mm": {"t": "81mm mortar (British design, made by Howa)", "r": [["Range", "About 5,600 m (report does not say which mortar) (reported)"], ["Carry", "Man-portable loads: baseplate, bipod, barrel (reported)"]], "w": "L16 81mm mortar"}, "Type 96 mortar": {"t": "Tracked 120mm self-propelled mortar", "r": [], "w": "Type 96 120 mm self-propelled mortar"}, "Type 25 HVGP": {"t": "Ground-launched hyper velocity glide projectile (Mitsubishi Heavy Industries)", "r": [["In service", "From 31 March 2026 (reported)"], ["Flight", "Rocket boost, then irregular high-speed glide (reported)"]], "w": "Hyper Velocity Gliding Projectile"}, "JTPS-P16": {"t": "JGSDF counter-battery radar", "r": [["Output", "Firing point sent through FCCS to cue counter-battery fire"]]}, "FCCS": {"t": "Fire Combat Command and Control System (Japan)", "r": [["Role", "Target processing and technical fire direction; replaced FADAC"]]}, "Type 11 SAM": {"t": "Short-range surface-to-air missile", "r": [["Range", "Up to about 10 km (reported)"], ["Launcher", "Quadruple, on Type 73 heavy truck (reported)"], ["Seeker", "Active radar homing (reported)"]]}, "Type 99 ARV": {"t": "Tracked armoured ammunition resupply vehicle", "r": [["Transfer", "Conveyor into the howitzer"], ["Protection", "Armour against small arms and fragments; NBC-sealed"]], "w": "Type 99 155 mm self-propelled howitzer"}, "Type 99 SPH": {"t": "155mm tracked self-propelled howitzer", "r": [], "w": "Type 99 155 mm self-propelled howitzer"}, "AS9 Huntsman": {"t": "155mm tracked self-propelled howitzer, Australian K9 (Hanwha, Geelong)", "r": [["Stowage", "48 rounds"], ["Laying", "Automatic, at the press of a button"], ["Fleet", "30, for 4th Regiment RAA"], ["Built", "2026–2028"]], "w": "K9 Thunder"}, "AS10 AARV": {"t": "Tracked armoured ammunition resupply vehicle (K10-based)", "r": [["Capacity", "104 rounds"], ["Fleet", "15"]], "w": "K9 Thunder"}, "OWL-B": {"t": "Australian one-way attack loitering munition (Innovaero)", "r": []}, "Integrator": {"t": "Tactical drone (Insitu), catapult launch, skyhook recovery", "r": [["Video range", "Beyond 25 km; endurance not published"], ["Ground station", "In Bushmaster vehicles"], ["Replaced", "RQ-7B Shadow 200"]], "w": "Boeing Insitu RQ-21 Blackjack"}, "AN/TPQ-48": {"t": "Lightweight counter-mortar radar", "r": [["Coverage", "360 degrees to 10.2 km"], ["Set-up", "Under 20 minutes"], ["Modes", "Sense and warn; counter-fire"]]}, "Vector AI": {"t": "Backpack-portable small drone (Quantum Systems)", "r": [["Set-up", "Flying in about three minutes, no tools"]]}, "NASAMS": {"t": "Ground-based air defence system", "r": [["Missile", "AIM-120 AMRAAM"], ["Radar (Australia)", "CEAFAR AESA on Hawkei and HX77 vehicles"], ["Unit (Australia)", "16th Regiment RAA, two batteries by end 2026"]], "w": "NASAMS"}, "Hawkei": {"t": "Australian 4x4 protected vehicle", "r": [], "w": "Hawkei"}, "Bushmaster": {"t": "Australian protected mobility vehicle, used for command posts", "r": [["HIMARS support", "15 command variants (LAND 4111)"]], "w": "Bushmaster Protected Mobility Vehicle"}};
+const EQUIPMENT_SPECS = {"AN/PED-1 LLDR": {"t": "Man-portable target locator and laser designator", "r": [["Crew", "2 (tripod-mounted)"], ["Laser", "1064 nm, pulse-coded"], ["Range", "10-digit target grids beyond 5 km"]]}, "M7 Bradley FIST": {"t": "Armoured fire support vehicle (ABCT)", "r": [["Sensor", "Fire Support Sensor System (FS3) mast: thermal/day optics, laser rangefinder, inertial navigation"], ["Fire control", "AFATDS / PFED inside"]], "w": "Bradley Fighting Vehicle"}, "M1131 Stryker FSV": {"t": "Wheeled fire support vehicle (SBCT)", "r": [["Sensor", "Fire Support Sensor System (FS3) mast"], ["Fire control", "AFATDS / PFED inside"]], "w": "Stryker"}, "Target Hand-off System": {"t": "USMC handheld digital fire support and CAS terminal (THS v2)", "r": [["Radios", "AN/PRC-117G, PRC-152A, PRC-163"], ["Sends", "Digital calls for fire (AFATDS), NSFS requests, digital 9-line CAS"]]}, "AN/TPQ-53": {"t": "Counter-fire / weapon-locating radar", "r": [["Crew", "5"], ["Mobility", "Two FMTV trucks; C-17 transportable"], ["Coverage", "90-degree sector or 360 degrees"], ["Range (90°)", "0.5–18 km (81mm mortar); 3–30 km (105mm); 5–100 km (rockets)"], ["Range (360°)", "3–15 km (mortars); 5–20 km (105/155mm)"], ["Accuracy", "20–30 m at 90°; 50–75 m at 360°"], ["Fleet", "189 systems (programme of record)"]], "w": "AN/TPQ-53 Quick Reaction Capability Radar"}, "AN/TPQ-50": {"t": "Lightweight counter-mortar radar", "r": [["Band", "L-band (1–2 GHz)"], ["Coverage", "360 degrees out to 10 km"], ["Accuracy", "About 50 m point-of-origin error"]]}, "AN/TPS-80 G/ATOR": {"t": "USMC multi-role AESA radar (Block 2: weapon locating)", "r": [["Coverage", "360 degrees"], ["Mobility", "Two MTVRs and one HMMWV"], ["Fleet", "45 planned (cut from 57)"]], "w": "AN/TPS-80 Ground/Air Task Oriented Radar"}, "AN/TPQ-36": {"t": "Firefinder weapon-locating radar (being phased out)", "r": [["Band", "X-band"], ["Coverage", "90-degree sector"], ["Range", "24 km max (18 km against artillery, 24 km against rockets)"]], "w": "AN/TPQ-36 Firefinder radar"}, "AN/TPQ-37": {"t": "Long-range Firefinder radar (divested)", "r": [], "w": "AN/TPQ-37 Firefinder radar"}, "JETS": {"t": "Joint Effects Targeting System: target location and designation", "r": [["Output", "40 acquisitions or fire missions per 10-hour day (operational test)"], ["Contract", "$339 million (October 2016)"]]}, "Switchblade 300": {"t": "Tube-launched, man-portable loitering munition", "r": [["Range", "20 km"], ["Endurance", "20+ minutes"], ["Warhead", "About 1.8 kg high explosive"]], "w": "AeroVironment Switchblade"}, "Switchblade 600": {"t": "Anti-armour loitering munition", "r": [["Range", "40+ km"], ["Endurance", "40+ minutes"], ["Warhead", "Javelin-derived anti-armour"]], "w": "AeroVironment Switchblade"}, "Bolt-M": {"t": "Hand-launched quadcopter loitering munition (Anduril)", "r": [["Range", "20 km (reported)"], ["Endurance", "40 minutes (reported)"], ["Warhead", "Modular, up to 1.4 kg (reported)"]]}, "Rogue 1": {"t": "Quadcopter loitering munition (Teledyne FLIR)", "r": [["Range", "20 km (reported)"], ["Endurance", "30+ minutes (reported)"], ["Warhead", "Modular anti-armour or fragmentation (reported)"]]}, "Altius-700M": {"t": "Launched effect / loitering munition (Anduril)", "r": [["Range", "About 160 km (reported)"], ["Endurance", "75 minutes (reported)"], ["Payload", "Up to 15 kg (reported)"], ["Launch", "From UH-60M (reported)"]], "w": "Anduril Altius"}, "M1299 ERCA": {"t": "155mm self-propelled howitzer programme (cancelled 2024)", "r": [["Calibre", "155mm, 58-calibre barrel"], ["Range", "70–100 km (goal)"], ["Chassis", "M109A7"]], "w": "M1299 howitzer"}, "XM1180 C-DAEM": {"t": "155mm area-effects projectile (replacing DPICM)", "r": []}, "M119A3": {"t": "105mm towed howitzer (light, airborne, air assault)", "r": [["Weight", "1,936 kg (4,268 lb) combat"], ["Range", "14 km HE; 19.5 km RAP"], ["Mobility", "Towed by HMMWV or medium truck; sling-loaded under UH-60 / CH-47"], ["Fire control", "Digital, with inertial navigation"]], "w": "M119 howitzer"}, "M777A2": {"t": "155mm towed howitzer (SBCT; all USMC cannon)", "r": [["Weight", "About 4,200 kg (US figure); 4,100 kg (Australian Army)"], ["Range", "24 km HE; 30 km RAP; 40 km Excalibur"], ["Rate of fire", "2 a minute sustained; 5 rapid (Australian Army)"], ["Mobility", "Towed by medium truck; sling-loaded under CH-47 / CH-53; C-130J and C-17A"]], "w": "M777 howitzer"}, "M777": {"same": "M777A2"}, "M109A7 Paladin": {"t": "155mm tracked self-propelled howitzer (ABCT)", "r": [["Calibre", "155mm M284, 39-calibre"], ["Weight", "35,380 kg (78,000 lb) combat"], ["Range", "24 km HE; 30 km RAP; 40 km Excalibur"], ["Rate of fire", "4 rounds a minute maximum"], ["Mobility", "675 hp; 61 km/h"], ["Resupply", "M992A3 carrier, under armour"]], "w": "M109 howitzer"}, "XM1776 (K9)": {"t": "155mm SPH-M candidate, variant of the K9", "r": [["Calibre", "155mm, 52-calibre (reported)"], ["Rate of fire", "8–9 rounds a minute, automatic loader (reported)"]], "w": "K9 Thunder"}, "Archer": {"t": "155mm wheeled self-propelled howitzer (Sweden)", "r": [["Into and out of action", "Halts, fires a burst and moves in under 20 seconds (reported)"]], "w": "Archer artillery system"}, "CAESAR": {"t": "155mm wheeled self-propelled howitzer (France)", "r": [["Range", "Beyond 40 km with base bleed (reported)"]], "w": "CAESAR self-propelled howitzer"}, "Sigma": {"t": "155mm wheeled self-propelled howitzer (Elbit)", "r": []}, "M142 HIMARS": {"t": "Wheeled rocket launcher, one pod (FMTV 6x6)", "r": [["Weight", "16,250 kg combat"], ["Crew", "3"], ["Mobility", "85–94 km/h; 480 km operating range; C-130 transportable"], ["Munitions", "GMLRS, ER GMLRS, ATACMS, PrSM"]], "w": "M142 HIMARS"}, "M270A2 MLRS": {"t": "Tracked rocket launcher, two pods (Bradley chassis)", "r": [["Weight", "About 25,191 kg loaded"], ["Crew", "3"], ["Mobility", "600 hp; 64 km/h; C-17 transportable"], ["Munitions", "GMLRS, ER GMLRS, ATACMS, PrSM"]], "w": "M270 Multiple Launch Rocket System"}, "GMLRS": {"t": "227mm guided rocket (M31 series)", "r": [["Range", "15–92 km; ER GMLRS up to 150 km"], ["Warhead", "200 lb HE unitary, or Alternative Warhead (tungsten fragments)"], ["Production", "100,000th rocket delivered (reported)"]], "w": "M270 Multiple Launch Rocket System"}, "ATACMS": {"t": "Tactical ballistic missile (M57), being replaced by PrSM", "r": [["Range", "Up to 300 km"], ["Warhead", "500 lb unitary"]], "w": "ATACMS"}, "PrSM": {"t": "Precision Strike Missile", "r": [["Range", "Increment 1: beyond 400 km (US entry); up to 500 km (Australian Government); Increment 4 goal: at least 1,000 km"], ["Seeker", "Increment 2: multi-mode, anti-ship"], ["Launchers", "HIMARS and M270A2"], ["Users", "US; Australia (co-development partner)"]], "w": "Precision Strike Missile"}, "NMESIS": {"t": "USMC ground-based anti-ship missile system (ROGUE-Fires on JLTV)", "r": [["Missile", "Naval Strike Missile"], ["Range", "Beyond 185 km"], ["Warhead", "260 lb blast-fragmentation"], ["Mobility", "C-130 transportable"]], "w": "Naval Strike Missile"}, "M795": {"t": "155mm high-explosive projectile", "r": [["Range", "About 22.5 km; 30 km with MACS charge 5"], ["Filling", "TNT; M795IM uses IMX-101"], ["Cost", "About $2,440 per live HE round (reported)"]], "w": "M795 projectile"}, "M982 Excalibur": {"t": "GPS / inertial guided 155mm projectile", "r": [["Range", "About 39.5 km (reported)"], ["Cost", "Over $84,000 each (reported)"]], "w": "M982 Excalibur"}, "M1156 PGK": {"t": "Precision guidance kit: guided fuze for the M795", "r": [["Fit", "Screws on in place of the fuze; canards correct flight (reported)"]], "w": "M1156 precision guidance kit"}, "BONUS": {"t": "155mm sensor-fuzed anti-armour round", "r": [["Range", "About 35 km (base bleed, 52-calibre guns)"], ["Submunitions", "2, on winglets, infrared and laser sensors"]], "w": "Bofors/Nexter Bonus"}, "MACS": {"t": "155mm Modular Artillery Charge System", "r": [["Items", "M231 (zones 1–2); M232A1 (zones 3–5)"]]}, "XM1155": {"t": "Developmental extended-range guided 155mm projectile", "r": [["Range", "Beyond 100 km (XM1155-SC, solid-fuel ramjet) (reported)"]]}, "M992 FAASV": {"t": "Tracked armoured ammunition carrier (M109 chassis)", "r": [["Capacity", "95 or 98 complete 155mm rounds"]], "w": "M992 field artillery ammunition supply vehicle"}, "M1075 PLS": {"t": "10x10 Palletized Load System truck", "r": [["Payload", "33,000 lb"]], "w": "Palletized Load System"}, "M985 HEMTT": {"t": "8x8 cargo truck, often with crane", "r": [["Role", "MLRS pods and palletised munitions"]], "w": "Heavy Expanded Mobility Tactical Truck"}, "ATLAS II": {"t": "All-terrain forklift for ammunition", "r": [["Lift", "10,000 lb; 4,000 lb at 21.5 ft reach"]]}, "M88A2 HERCULES": {"t": "Tracked armoured recovery vehicle", "r": [["Weight", "70 tons"], ["Boom / winch", "35-ton A-frame boom; 70-ton main winch"]], "w": "M88 recovery vehicle"}, "M1089 wrecker": {"t": "5-ton 6x6 medium wrecker", "r": [["Winches / crane", "Two 30,000 lb winches; 11,000 lb crane"]], "w": "Family of Medium Tactical Vehicles"}, "M224A1": {"t": "60mm light mortar", "r": [["Weight", "17.19 kg conventional; 8.89 kg handheld"], ["Range", "70–3,490 m"], ["Rate of fire", "Up to 30 a minute briefly; 8–20 sustained"]], "w": "M224 mortar"}, "M252A1": {"t": "81mm medium mortar", "r": [["Weight", "About 89 lb"], ["Range", "Beyond 5,800 m"], ["Rate of fire", "Up to 30 a minute"]], "w": "M252 mortar"}, "M120A1": {"t": "120mm heavy mortar (towed or dismounted)", "r": [["Weight", "About 320 lb (cannon, bipod, baseplate)"], ["Range", "7,200 m"], ["Rate of fire", "Up to 16 a minute"]], "w": "Soltam K6"}, "M1129 / M1252": {"t": "Stryker / AMPV mortar carriers (M121 120mm)", "r": [], "w": "Stryker"}, "XM395": {"t": "GPS-guided 120mm mortar round", "r": [["Setter", "XM701 PLUMSS sets coordinates before firing"]], "w": "XM395 precision guided mortar munition"}, "Patria NEMO": {"t": "120mm turreted mortar (under evaluation on AMPV)", "r": [["Loading", "Semi-automatic, single barrel, breech-loaded"]], "w": "Patria NEMO"}, "M2A2 aiming circle": {"t": "Optical compass and theodolite for laying guns", "r": []}, "AN/TMQ-52": {"t": "Meteorological Measuring Set-Profiler (MMS-P)", "r": []}, "HADES": {"t": "High-altitude jet ISR aircraft (ME-11B, Bombardier Global 6500)", "r": [["Replaces", "RC-12X Guardrail"]], "w": "Bombardier Global Express"}, "2S19 Msta-S": {"t": "152mm tracked self-propelled howitzer", "r": [["Calibre", "152mm 2A64"], ["Weight", "42 t"], ["Range", "24.7 km HE; 36 km rocket-assisted"], ["Rate of fire", "6–8 a minute sustained (M2 / SM2: up to 10)"], ["Chassis", "T-80 running gear, T-72 engine"]], "w": "2S19 Msta-S"}, "2S35 Koalitsiya-SV": {"t": "152mm self-propelled howitzer, unmanned turret", "r": [["Calibre", "152mm 2A88"], ["Weight", "55 t"], ["Range", "Over 70 km with precision-guided rounds"], ["Rate of fire", "Up to 16 a minute"], ["Chassis", "T-90"]], "w": "2S35 Koalitsiya-SV"}, "2S43 Malva": {"t": "152mm 8x8 wheeled self-propelled gun", "r": [["Calibre", "152mm 2A64"], ["Weight", "32 t"], ["Range", "24.5 km"], ["Rate of fire", "About 7 a minute"], ["Mobility", "Il-76 transportable"]], "w": "2S43 Malva"}, "2S4 Tyulpan": {"t": "240mm heavy self-propelled mortar", "r": [["Calibre", "240mm"]], "w": "2S4 Tyulpan"}, "Iskander-M": {"t": "Tactical ballistic missile system (9K720)", "r": [["Missile", "2 × 9M723 per launcher"], ["Range", "Up to 500 km"], ["Accuracy", "CEP 5–10 m"], ["Brigade", "12 rising to 16 launchers"]], "w": "9K720 Iskander"}, "Tornado-G": {"t": "122mm rocket launcher (BM-21 Grad replacement)", "r": [["Tubes", "40 × 122mm"], ["Crew", "2–3"], ["Range", "20 km standard; up to 40 km"], ["Salvo", "40 rockets in 20 seconds"], ["Chassis", "Ural-4320 6x6"]], "w": "Tornado (multiple rocket launcher)"}, "Tornado-S": {"t": "300mm rocket launcher (BM-30 Smerch upgrade)", "r": [["Tubes", "12 × 300mm"], ["Range", "70 km; 120 km guided; about 200 km (9M544, in work)"], ["Salvo", "About 40 seconds"]], "w": "Tornado (multiple rocket launcher)"}, "TOS-1A": {"t": "220mm thermobaric rocket launcher", "r": [["Tubes", "24 × 220mm"], ["Range", "About 6 km"], ["Chassis", "T-72"]], "w": "TOS-1"}, "TOS-2": {"t": "Wheeled thermobaric rocket launcher", "r": [["Range", "Up to 20 km"], ["Chassis", "6x6 Ural, own crane"]], "w": "TOS-2"}, "2S12 Sani": {"t": "120mm mortar system", "r": [["Weight", "230 kg weapon"], ["Into action", "Under 3 minutes (2S12A)"], ["Carrier", "Ural-43206 truck or MT-LB"]], "w": "2S12 Sani"}, "2B9 Vasilek": {"t": "82mm automatic mortar", "r": [["Calibre", "82mm"]], "w": "2B9 Vasilek"}, "KM-8 Gran": {"t": "120mm laser-guided mortar round", "r": [["Seeker", "9E430"]], "w": "KM-8 Gran"}, "Krasnopol": {"t": "152mm laser-guided projectile", "r": [["Range", "20–25 km (base bleed)"], ["Accuracy", "CEP 1–2 m (Krasnopol-M2)"], ["Guns", "2S19, 2S3, 2S43"]], "w": "Krasnopol (weapon system)"}, "Orlan-10": {"t": "Tactical reconnaissance drone", "r": [["Endurance", "Up to 16 hours"], ["Altitude", "Up to 5,000 m"], ["Range", "Up to 600 km in relay groups"]], "w": "STC Orlan-10"}, "Orlan-30": {"t": "Reconnaissance drone with laser designator", "r": [["Weight", "27 kg"], ["Role", "Lights targets for Krasnopol and Gran"]]}, "Lancet": {"t": "Loitering munition", "r": [["Range", "Over 40 km"], ["Endurance", "About 40 minutes"], ["Warhead", "High explosive anti-tank"]], "w": "ZALA Lancet"}, "Zoopark-1M": {"t": "Counter-battery radar (1L260)", "r": [], "w": "Zoopark-1"}, "SNAR-10M1": {"t": "Battlefield surveillance radar (Kredo-1E on MT-LBu)", "r": [["Range", "Bursts, vehicles and infantry out to 40 km"]]}, "PRP-5": {"t": "Artillery reconnaissance vehicle (BMP-3 or BTR-82A)", "r": [["Sensors", "Radar and optics; amphibious"]]}, "1B75 Penicillin": {"t": "Acoustic / thermal counter-artillery system", "r": [["Performance", "Locates firing positions within 5 seconds at up to 25 km (reported)"]], "w": "Penicillin (counter-artillery system)"}, "1V12": {"t": "Tracked artillery command and fire control vehicles (MT-LBu)", "r": []}, "1V18 / 1V19": {"t": "Wheeled battery and battalion commander vehicles (BTR-60PB)", "r": [["Sensors", "Laser rangefinders, day and night sights, aiming circles"]]}, "1V198": {"t": "Networked artillery command complex", "r": [["Reaction time", "30–60 seconds (reported)"]]}, "PAB-2M": {"t": "Periscopic aiming circle", "r": [["Magnification", "8x"]]}, "2S9 Nona-S": {"t": "120mm self-propelled gun-mortar (VDV)", "r": [["Calibre", "120mm"]], "w": "2S9 Nona"}, "TPQ-74K": {"t": "Counter-battery radar (LIG Nex1)", "r": [["Range", "Over 60 km"], ["Endurance", "8 hours continuous"]]}, "K9 Thunder": {"t": "155mm tracked self-propelled howitzer", "r": [["Calibre", "155mm 52-calibre CN98"], ["Weight", "47 t"], ["Crew", "5"], ["Stowage", "48 rounds"], ["Range", "18 km (M107); 30 km (RAP); 40–41 km (K307 BB); 54–55 km (K315)"], ["Rate of fire", "3 in 15 s burst; 6–8 a minute for 3 min; 2–3 sustained; MRSI"], ["Shoot and scoot", "Fires 30–60 s after halting; moves 30 s later"]], "w": "K9 Thunder"}, "K9A2": {"t": "155mm SPH upgrade, automated turret (planned 2027)", "r": [["Crew", "3"], ["Rate of fire", "9–10 a minute (6 sustained)"]], "w": "K9 Thunder"}, "K10": {"t": "Tracked ammunition resupply vehicle (K9 chassis)", "r": [["Capacity", "104 rounds"], ["Transfer", "12 rounds a minute by conveyor"]], "w": "K9 Thunder"}, "K105HT / K105A1": {"t": "105mm truck-mounted howitzer", "r": [["Weight", "19 t"], ["Crew", "3–4"], ["Range", "11.3 km"], ["Rate of fire", "10 a minute burst; 3 sustained"], ["Stowage", "60 rounds"], ["Into action", "Within 1 minute; moves in 30 seconds"]]}, "KSM-120 Skyfall": {"t": "120mm self-propelled rifled mortar (K200A1)", "r": [["Crew", "4"], ["Range", "8 km HE; 12 km rocket-assisted"], ["Rate of fire", "8 a minute (3 sustained)"], ["Mobility", "70 km/h"], ["Traverse", "360 degrees"]]}, "K239 Chunmoo": {"t": "8x8 multiple rocket launcher (Hanwha)", "r": [["Munitions", "130mm (20/pod); 227mm (6/pod); 239mm guided (6/pod)"], ["Range", "About 80 km (239mm guided)"], ["European fleet", "315 launchers by mid-2026, plus 18 for Croatia (reported)"]], "w": "K239 Chunmoo"}, "KTSSM": {"t": "Tactical ballistic missile against hardened artillery", "r": [["Warhead", "Penetrating thermobaric (KTSSM-I)"], ["Basing", "Fixed silos or mobile launchers"]], "w": "Ure (missile)"}, "Warmate 3": {"t": "Loitering munition (WB Group, Poland)", "r": [["Endurance", "Up to 70 minutes"], ["Range", "30 km radio; 80 km with handover"], ["Warhead", "Up to 3 kg: HE, fragmentation or HEAT (200–240mm)"]], "w": "WB Electronics Warmate"}, "BTCS": {"t": "Battalion Tactical Command System (fire direction)", "r": [["In service", "Since April 1994"], ["Carriers", "K-77 tracked or K-511 truck"]]}, "Delta": {"t": "Cloud situational awareness system", "r": [["Standards", "MIP, Link 16, Cursor on Target, APP-6 / MIL-STD-2525"]]}, "GIS Arta": {"t": "Fire mission dispatch software", "r": [["Mission time", "30–45 seconds, from 20–30 minutes (reported)"]]}, "Kropyva": {"t": "Tablet ballistic and mapping app", "r": [["Use", "About 90% of artillery units (reported)"], ["Mission time", "Under a minute (reported)"]]}, "2S22 Bohdana": {"t": "155mm wheeled self-propelled howitzer", "r": [["Fire control", "KRIP-A automated laying and ballistics"]], "w": "2S22 Bohdana"}, "ARTHUR": {"t": "Counter-battery radar (Saab)", "r": [["Range", "40 km (ARTHUR-K)"]], "w": "ARTHUR"}, "COBRA": {"t": "Counter-battery radar", "r": [["Range", "About 100 km"], ["Tracking", "Up to 40 batteries in two minutes"]], "w": "COBRA (radar)"}, "SMArt 155": {"t": "155mm sensor-fuzed anti-armour round", "r": [["Weight", "47 kg"], ["Range", "About 27.5 km"], ["Submunitions", "2, infrared and millimetre-wave sensors"]], "w": "SMArt 155"}, "Baba Yaga drone": {"t": "Heavy multirotor bomber drone", "r": [["Payload", "50–100 kg (reported)"]], "w": "Baba Yaga (aircraft)"}, "AHS Krab": {"t": "155mm tracked self-propelled howitzer (Poland)", "r": [], "w": "AHS Krab"}, "M120 Rak": {"t": "120mm turreted mortar on Rosomak (Poland)", "r": [], "w": "M120 Rak"}, "SLC-2 radar": {"t": "Mobile AESA counter-battery radar", "r": [["Range", "Artillery, mortars, rockets beyond 50 km; aircraft 120 km"]], "w": "SLC-2 Radar"}, "KVD002": {"t": "Armed reconnaissance drone with laser designator", "r": [["Role", "Surveillance, designation, damage assessment (reported)"]]}, "WS-35": {"t": "155mm guided, rocket-assisted base-bleed shell", "r": [["Weight", "18 kg"], ["Range", "Up to 100 km (WS-35B) (reported)"], ["Accuracy", "CEP about 40 m (reported)"], ["Guidance", "BeiDou and inertial"]]}, "GP155 / GP1": {"t": "155mm laser-homing shell (Krasnopol-derived)", "r": [["Weight", "52 kg"], ["Range", "4–20 km"]]}, "PCL-181": {"t": "155mm truck-mounted howitzer (export SH-15)", "r": [["Calibre", "155mm 52-calibre"], ["Weight", "25 t"], ["Crew", "6"], ["Range", "20 km HE; 53 km rocket-assisted"], ["Rate of fire", "4–6 a minute"], ["Mobility", "90 km/h; Y-9 airliftable"], ["Fleet", "Over 600"]], "w": "PCL-181"}, "PLZ-05": {"t": "155mm tracked self-propelled howitzer", "r": [["Calibre", "155mm 52-calibre"], ["Weight", "35–45 t"], ["Range", "39 km ERBB; 50 km BB + RA; up to 100 km WS-35B"], ["Rate of fire", "8–10 a minute; 4 in 15 s burst; MRSI"]], "w": "PLZ-05"}, "PHL-191 / PHL-16": {"t": "8x8 modular rocket launcher", "r": [["Weight", "45 t"], ["Munitions", "300mm (10, about 150 km); 370mm (8, about 350 km); 750mm (2, about 500 km)"]], "w": "PHL-16"}, "PHL-16": {"same": "PHL-191 / PHL-16"}, "PCL-171": {"t": "122mm howitzer on 6x6 Mengshi", "r": [["Calibre", "122mm"], ["Stowage", "28 rounds"]], "w": "PCL-171"}, "PLL-05": {"t": "120mm wheeled gun-mortar (WZ551)", "r": [["Weight", "16.5 t"], ["Crew", "4"], ["Stowage", "36 rounds"], ["Mobility", "Amphibious, up to 8 km/h in water"]], "w": "PLL-05"}, "PCP-001": {"t": "82mm automatic mortar on 4x4 Mengshi", "r": [["Calibre", "82mm"], ["Mobility", "Over 100 km/h on roads"]]}, "Hornet": {"t": "Loitering munition (Perennial Autonomy)", "r": [["Use", "Over 10,000 used by Ukraine (reported)"]]}, "Typhon": {"t": "Containerised ground launcher (Mk 70 Mod 1)", "r": [["Battery", "16 ready cells (reported)"]], "w": "Typhon missile system"}, "Tomahawk": {"t": "Cruise missile", "r": [["Range", "1,600–2,500 km (reported)"]], "w": "Tomahawk missile"}, "Vulcano": {"t": "155mm guided long-range projectile family (Leonardo)", "r": [["Range", "Approaching 70 km (155 GLR); beyond 70 km (US Vulcano-derived round) (reported)"], ["Guidance", "GPS and inertial, sub-calibre with fins (reported)"]]}, "Harpia-A1": {"t": "Long-range flying-wing loitering munition", "r": [["Range", "1,000 km (claimed) (reported)"], ["Endurance", "At least 6 hours (reported)"], ["Weight", "250 kg; warhead over 50 kg (reported)"]]}, "V-BAT": {"t": "Vertical take-off surveillance drone (Shield AI)", "r": [["Taiwan order", "280 drones (reported)"]], "w": "Shield AI MQ-35 V-BAT"}, "30mm Bushmaster": {"t": "30mm cannon used against drones (M-ACE guided)", "r": [], "w": "Mk44 Bushmaster II"}, "Arion-SMET": {"t": "Unmanned ground vehicle for resupply and casualty evacuation (Hanwha)", "r": []}, "Depesha": {"t": "Unmanned ground supply vehicle (Depesha-MK, Rostec)", "r": []}, "IAI Harop": {"t": "Loitering munition (Israel)", "r": [], "w": "IAI Harop"}, "K1000ULE": {"t": "Electric vertical take-off reconnaissance drone", "r": []}, "K9PL / K9": {"t": "155mm tracked SPH built to Polish requirements (K9 family)", "r": [["Fit", "FONET communications, TOPAZ fire control (reported)"], ["Order", "146 K9PL (second contract) after 212 K9A1 (reported)"]], "w": "K9 Thunder"}, "LUCAS": {"t": "Loitering munition for battalion-level strike", "r": [], "w": "Low-cost Uncrewed Combat Attack System"}, "LoyalEye": {"t": "Airborne radar (Saab) flown on MQ-9B", "r": []}, "MALET": {"t": "Air-dropped mortar-round munition for drones", "r": [["Rounds", "60mm and 81mm; 120mm also reported (reported)"]]}, "MQ-9B": {"t": "Medium-altitude long-endurance drone", "r": []}, "PAC-3 MSE": {"t": "Patriot interceptor missile", "r": [["Contract", "$53.9 billion production (reported)"]], "w": "MIM-104 Patriot"}, "Sgt Stout M-SHORAD": {"t": "Stryker short-range air defence vehicle", "r": []}, "Type 12": {"t": "Japanese surface-to-ship missile", "r": [["Flight", "Low, sea-skimming (reported)"], ["Seeker", "Active radar homing (reported)"], ["Units", "Surface-to-ship missile regiments, south-western islands (reported)"]], "w": "Type 12 surface-to-ship missile"}, "Type 19": {"t": "155mm wheeled self-propelled howitzer (Japan Steel Works)", "r": [["Calibre", "155mm, 52-calibre (reported)"], ["Crew", "5 (reported)"], ["Range", "30 km HE; 40 km base bleed (reported)"], ["Loading", "Automatic projectile loader; charges by hand (reported)"], ["Chassis", "8x8 Rheinmetall MAN truck (reported)"]], "w": "Type 19 155 mm wheeled self-propelled howitzer"}, "120mm RT": {"t": "120mm rifled towed mortar (French design, made by Howa)", "r": [["Mounting", "Towed, or on the Type 96 carrier (reported)"]], "w": "Mortier 120 mm Rayé Tracté Modèle F1"}, "L16 81mm": {"t": "81mm mortar (British design, made by Howa)", "r": [["Range", "About 5,600 m (report does not say which mortar) (reported)"], ["Carry", "Man-portable loads: baseplate, bipod, barrel (reported)"]], "w": "L16 81mm mortar"}, "Type 96 mortar": {"t": "Tracked 120mm self-propelled mortar", "r": [], "w": "Type 96 120 mm self-propelled mortar"}, "Type 25 HVGP": {"t": "Ground-launched hyper velocity glide projectile (Mitsubishi Heavy Industries)", "r": [["In service", "From 31 March 2026 (reported)"], ["Flight", "Rocket boost, then irregular high-speed glide (reported)"]], "w": "Hyper Velocity Gliding Projectile"}, "JTPS-P16": {"t": "JGSDF counter-battery radar", "r": [["Output", "Firing point sent through FCCS to cue counter-battery fire"]]}, "FCCS": {"t": "Fire Combat Command and Control System (Japan)", "r": [["Role", "Target processing and technical fire direction; replaced FADAC"]]}, "Type 11 SAM": {"t": "Short-range surface-to-air missile", "r": [["Range", "Up to about 10 km (reported)"], ["Launcher", "Quadruple, on Type 73 heavy truck (reported)"], ["Seeker", "Active radar homing (reported)"]]}, "Type 99 ARV": {"t": "Tracked armoured ammunition resupply vehicle", "r": [["Transfer", "Conveyor into the howitzer"], ["Protection", "Armour against small arms and fragments; NBC-sealed"]], "w": "Type 99 155 mm self-propelled howitzer"}, "Type 99 SPH": {"t": "155mm tracked self-propelled howitzer", "r": [], "w": "Type 99 155 mm self-propelled howitzer"}, "AS9 Huntsman": {"t": "155mm tracked self-propelled howitzer, Australian K9 (Hanwha, Geelong)", "r": [["Stowage", "48 rounds"], ["Laying", "Automatic, at the press of a button"], ["Fleet", "30, for 4th Regiment RAA"], ["Built", "2026–2028"]], "w": "K9 Thunder"}, "AS10 AARV": {"t": "Tracked armoured ammunition resupply vehicle (K10-based)", "r": [["Capacity", "104 rounds"], ["Fleet", "15"]], "w": "K9 Thunder"}, "OWL-B": {"t": "Australian one-way attack loitering munition (Innovaero)", "r": []}, "Integrator": {"t": "Tactical drone (Insitu), catapult launch, skyhook recovery", "r": [["Video range", "Beyond 25 km; endurance not published"], ["Ground station", "In Bushmaster vehicles"], ["Replaced", "RQ-7B Shadow 200"]], "w": "Boeing Insitu RQ-21 Blackjack"}, "AN/TPQ-48": {"t": "Lightweight counter-mortar radar", "r": [["Coverage", "360 degrees to 10.2 km"], ["Set-up", "Under 20 minutes"], ["Modes", "Sense and warn; counter-fire"]]}, "Vector AI": {"t": "Backpack-portable small drone (Quantum Systems)", "r": [["Set-up", "Flying in about three minutes, no tools"]]}, "NASAMS": {"t": "Ground-based air defence system", "r": [["Missile", "AIM-120 AMRAAM"], ["Radar (Australia)", "CEAFAR AESA on Hawkei and HX77 vehicles"], ["Unit (Australia)", "16th Regiment RAA, two batteries by end 2026"]], "w": "NASAMS"}, "Hawkei": {"t": "Australian 4x4 protected vehicle", "r": [], "w": "Hawkei"}, "Bushmaster": {"t": "Australian protected mobility vehicle, used for command posts", "r": [["HIMARS support", "15 command variants (LAND 4111)"]], "w": "Bushmaster Protected Mobility Vehicle"}, "RCH 155": {"t": "155mm wheeled remote-controlled howitzer (Boxer 8x8)", "r": [["Feature", "Fully automated; fires on the move (reported)"], ["UK order", "72 systems, deliveries from 2028 (reported)"]], "w": "RCH 155"}, "B-Strike 1000": {"t": "Anti-ship / land-attack ballistic missile concept", "r": [["Range", "1,000 km (reported)"], ["Speed", "Above Mach 10 (reported)"]]}, "2S1 Gvozdika": {"t": "122mm tracked self-propelled howitzer", "r": [["Range", "15.3 km (reported)"]], "w": "2S1 Gvozdika"}, "D-20": {"t": "152mm towed howitzer", "r": [["Range", "17.4 km (reported)"]], "w": "152 mm gun-howitzer D-20"}, "Tekever AR5": {"t": "Medium-altitude surveillance drone", "r": [["Endurance", "Up to 20 hours (reported)"], ["Payload", "50 kg: EO, laser designator, SAR/GMTI radar (reported)"]]}, "EJDERHA": {"t": "High-power electromagnetic counter-drone weapon (ASELSAN)", "r": [["Test", "Defeated drones at 1,000 m and a 51-drone swarm (reported)"]], "w": "Aselsan Ejderha/AD 200"}, "Boxer": {"t": "8x8 armoured vehicle (carrier for RCH 155 and Skyranger)", "r": [], "w": "Boxer (armoured fighting vehicle)"}, "EuroPULS / PULS": {"t": "Modular rocket launcher (Elbit)", "r": [], "w": "PULS (multiple rocket launcher)"}, "Hermes 650": {"t": "Surveillance drone (Elbit)", "r": []}, "IRIS-T SLS": {"t": "Mobile short-range air defence system (Diehl)", "r": [["Targets", "Drones, helicopters, loitering munitions, on the move (MK4) (reported)"]], "w": "IRIS-T SL"}, "LRU": {"t": "French rocket launcher (Lance Roquette Unitaire), to be replaced", "r": [], "w": "M270 Multiple Launch Rocket System"}, "Leopard 2A7": {"t": "Main battle tank (2A7A1 with anti-drone cages)", "r": [], "w": "Leopard 2"}, "Puma": {"t": "Small hand-launched drone (AeroVironment), laser targeting", "r": [], "w": "AeroVironment RQ-20 Puma"}, "Schakal": {"t": "Boxer-based German battalion vehicle (medium brigade)", "r": []}, "Skyranger": {"t": "Gun-based short-range air defence system", "r": [], "w": "Skyranger 30"}};
 
 // Maximum ranges in km for the Ranges view, from this app's entries only (id = source entry; r = reported figures).
 // Each army's main weapon comes first in its group: the Ranges view starts with that one ticked.
@@ -18241,7 +18816,8 @@ function DevelopmentsView() {
   const [topic, setTopic] = useState(null);
   const [conf, setConf] = useState(null);
   const items = DEVELOPMENTS.items.slice().sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
-  const countries = uniq(items.map((i) => i.country)).sort();
+  // Featured armies A–Z, then Others (news from armies without their own lessons yet).
+  const countries = uniq(items.map((i) => i.country)).sort((x, y) => (x === 'Others') - (y === 'Others') || x.localeCompare(y));
   const topics = uniq(items.map((i) => i.topic)).sort();
   const shown = items.filter((i) => (!country || i.country === country) && (!topic || i.topic === topic) && (!conf || i.confidence === conf));
   const filtered = country || topic || conf;
