@@ -18374,26 +18374,28 @@ function HomeView() {
         {ALL_TOPICS.length === 0 ? <Empty>No topics have been added yet.</Empty> : (
           <div className="space-y-5">
             {PARTS.map((pt) => {
-              const inPart = ALL_TOPICS.filter((x) => x.part === pt.part);
+              // Country topics (Part 5) run A–Z by country; other parts keep their teaching order.
+              const inPart = ALL_TOPICS.filter((x) => x.part === pt.part)
+                .sort((x, y) => (x.country && y.country ? x.country.localeCompare(y.country) : 0));
               if (inPart.length === 0) return null;
               return (
                 <div key={pt.part}>
                   <div className={`text-xs font-bold uppercase tracking-widest mb-2 ${t.muted}`}>Part {pt.part} · {pt.name}</div>
-                  <div className="grid gap-3 sm:grid-cols-2">
+                  <div className="grid grid-cols-2 gap-2 sm:gap-3">
                     {inPart.map((topic) => {
                       const list = lessonsOf(topic.key);
                       const done = list.filter((l) => lessonStatus(l, state).passed).length;
                       const count = uniq(list.flatMap((l) => l.entryIds)).length;
                       return (
-                        <button key={topic.key} type="button" onClick={() => go('topic', topic.key)} className={`text-left rounded-xl border p-4 ${t.card}`}>
-                          {topic.country && <div className={`text-xs font-bold uppercase tracking-widest mb-0.5 ${t.country}`}>{topic.country}</div>}
-                          <div className="flex items-start gap-2">
-                            {React.createElement(topicIcon(topic), { size: 20, className: `shrink-0 mt-1 ${topic.country ? t.country : t.link}` })}
-                            <div className="font-bold text-lg leading-snug">{topic.name}</div>
+                        <button key={topic.key} type="button" onClick={() => go('topic', topic.key)} className={`flex flex-col text-left rounded-xl border p-3 sm:p-4 min-w-0 ${t.card}`}>
+                          {topic.country && <div className={`text-xs font-bold uppercase tracking-widest mb-1 ${t.country}`}>{topic.country}</div>}
+                          <div className="flex items-start gap-1.5 sm:gap-2">
+                            {React.createElement(topicIcon(topic), { size: 18, className: `shrink-0 mt-0.5 sm:mt-1 ${topic.country ? t.country : t.link}` })}
+                            <div className="font-bold text-sm sm:text-lg leading-snug">{topic.name}</div>
                           </div>
-                          <div className={`mt-1 text-sm line-clamp-2 sm:line-clamp-none ${t.muted}`}>{topic.description}</div>
-                          <div className="mt-3"><ProgressBar value={list.length ? done / list.length : 0} /></div>
-                          <div className={`mt-2 text-sm ${t.muted}`}>{done} of {list.length} lessons passed · {count} entries</div>
+                          <div className={`mt-1 text-xs sm:text-sm line-clamp-3 sm:line-clamp-none ${t.muted}`}>{topic.description}</div>
+                          <div className="mt-auto pt-3"><ProgressBar value={list.length ? done / list.length : 0} /></div>
+                          <div className={`mt-1.5 text-xs sm:text-sm ${t.muted}`}>{done}/{list.length} lessons<span className="hidden sm:inline"> passed</span> · {count} entries</div>
                         </button>
                       );
                     })}
