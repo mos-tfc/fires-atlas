@@ -17930,12 +17930,9 @@ function RangeRings() {
       })}
     </div>
   );
-  return (
-    <div className="space-y-3">
-      <div>
-        <h2 className="text-xl font-bold">Ranges Compared</h2>
-        <p className={`mt-1 text-sm ${t.muted}`}>Pick two armies. The first weapon of each is shown; tick others to add them. Solid ring: standard round; dashed or dotted: longer-range rounds.</p>
-      </div>
+  // Picker block: above the diagram on phones, at the top of the right column on wide screens.
+  const controls = (
+    <>
       <div className="flex gap-2 overflow-x-auto pb-1">
         {RANGE_KINDS.map((k) => <Chip key={k} on={kind === k} onClick={() => { setKind(k); setSel(null); }}>{k}</Chip>)}
       </div>
@@ -17943,6 +17940,15 @@ function RangeRings() {
         <Pick wide label="Left" value={left} onChange={(v) => { if (v) { setL(v); setSel(null); } }} options={avail} />
         <Pick wide label="Right" value={right} onChange={(v) => { if (v) { setRt(v); setSel(null); } }} options={avail.filter((c) => c !== left)} />
       </div>
+    </>
+  );
+  return (
+    <div className="space-y-3">
+      <div>
+        <h2 className="text-xl font-bold">Ranges Compared</h2>
+        <p className={`mt-1 text-sm ${t.muted}`}>Pick two armies. The first weapon of each is shown; tick others to add them. Solid ring: standard round; dashed or dotted: longer-range rounds.</p>
+      </div>
+      <div className="space-y-3 lg:hidden">{controls}</div>
       <div className="lg:grid lg:grid-cols-2 lg:gap-6">
       <div className={`sticky top-14 lg:top-20 self-start z-10 pb-2 ${t.page}`}>
         <Card className="!p-2 sm:!p-4">
@@ -17982,6 +17988,7 @@ function RangeRings() {
         </Card>
       </div>
       <div className="space-y-3">
+      <div className="hidden lg:block space-y-3">{controls}</div>
       <div className="grid grid-cols-2 gap-2">
         {column(colL)}
         {right ? column(colR) : <div className={`p-2 text-sm ${t.faint}`}>No second army has figures in this group.</div>}
@@ -18035,6 +18042,7 @@ function KillChain() {
       </g>
     );
   };
+  const armyPick = <Pick wide label="Army" value={key} onChange={(v) => v && pick(v)} options={KILL_CHAINS.map((c) => ({ value: c.key, label: c.c + ': ' + c.name }))} />;
   const path = KC_PATH[cur.act];
   const lineCol = cur.act === 'laser' ? '#ef4444' : cur.act === 'fire' ? '#f59e0b' : col;
   return (
@@ -18043,7 +18051,7 @@ function KillChain() {
         <h2 className="text-xl font-bold">Kill Chain</h2>
         <p className={`mt-1 text-sm ${t.muted}`}>How each army closes the loop from finding a target to striking it. Press Play, or step through.</p>
       </div>
-      <Pick wide label="Army" value={key} onChange={(v) => v && pick(v)} options={KILL_CHAINS.map((c) => ({ value: c.key, label: c.c + ': ' + c.name }))} />
+      <div className="lg:hidden">{armyPick}</div>
       <div className="lg:grid lg:grid-cols-2 lg:gap-6">
       <div className={`sticky top-14 lg:top-20 self-start z-10 pb-2 ${t.page}`}>
         <Card className="!p-2 sm:!p-4">
@@ -18074,6 +18082,7 @@ function KillChain() {
         </Card>
       </div>
       <div className="space-y-3">
+      <div className="hidden lg:block">{armyPick}</div>
       <Card>
         <div className="flex flex-wrap items-center gap-2">
           <span className="text-xs font-bold uppercase tracking-widest" style={{ color: col }}>Step {step + 1} of {steps.length} · {cur.label}</span>
@@ -18142,6 +18151,16 @@ function MilitaryMap() {
   const uniqBy = (list) => list.filter((e, i) => list.findIndex((o) => o.id === e.id) === i);
   const linkedL = uniqBy(pairList.map(([x]) => x));
   const linkedR = uniqBy(pairList.map(([, y]) => y));
+  // Picker block: above the diagram on phones, at the top of the right column on wide screens.
+  const mapControls = (
+    <>
+      <div className="grid grid-cols-2 gap-2">
+        <Pick wide label="Left" value={a} onChange={(v) => { setA(v); if (!v) setB(null); }} options={countries} />
+        <Pick wide label="Right" value={b} onChange={(v) => setB(v)} options={countries.filter((c) => c !== a)} />
+      </div>
+      <Pick wide label="Topic" value={topic} onChange={(v) => { setTopic(v); }} options={ENTRY_TOPICS.map((x) => ({ value: x.key, label: x.name }))} />
+    </>
+  );
   const partners = a && !b ? edges.filter((e) => e.c1 === a || e.c2 === a).map((e) => ({ c: e.c1 === a ? e.c2 : e.c1, n: e.n })).sort((p, q) => q.n - p.n) : [];
   return (
     <div className="space-y-4">
@@ -18149,11 +18168,7 @@ function MilitaryMap() {
         <h2 className="text-xl font-bold">Military Map</h2>
         <p className={`mt-1 text-sm ${t.muted}`}>Pick two armies to see which of their entries are linked for comparison. Each circle is a country, sized by its entries; thicker lines mean more links. You can also tap the circles or lines.</p>
       </div>
-      <div className="grid grid-cols-2 gap-2">
-        <Pick wide label="Left" value={a} onChange={(v) => { setA(v); if (!v) setB(null); }} options={countries} />
-        <Pick wide label="Right" value={b} onChange={(v) => setB(v)} options={countries.filter((c) => c !== a)} />
-      </div>
-      <Pick wide label="Topic" value={topic} onChange={(v) => { setTopic(v); }} options={ENTRY_TOPICS.map((x) => ({ value: x.key, label: x.name }))} />
+      <div className="space-y-3 lg:hidden">{mapControls}</div>
       <div className="lg:grid lg:grid-cols-2 lg:gap-6">
       <div className="lg:sticky lg:top-20 self-start">
       <Card className="!p-2 sm:!p-4">
@@ -18189,6 +18204,7 @@ function MilitaryMap() {
       </Card>
       </div>
       <div className="space-y-3 mt-4 lg:mt-0">
+      <div className="hidden lg:block space-y-3">{mapControls}</div>
       {!a && <p className={`text-sm ${t.muted}`}>{pairs.length} links between armies{topic ? ' in this topic' : ''}. Most run through the United States, because each country module was written to compare with it.</p>}
       {a && !b && (
         <div className="space-y-2">
