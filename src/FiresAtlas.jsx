@@ -16728,6 +16728,12 @@ function MilitaryMap() {
   const on = (e) => (a && b ? (e.c1 === a && e.c2 === b) || (e.c1 === b && e.c2 === a) : a ? e.c1 === a || e.c2 === a : true);
   const pairList = a && b ? pairs.filter(([x, y]) => (x.country === a && y.country === b) || (x.country === b && y.country === a))
     .map(([x, y]) => (x.country === a ? [x, y] : [y, x])) : [];
+  // Each linked entry once, under its own topic, in its own army's column.
+  const linkCount = Object.create(null);
+  pairList.forEach(([x, y]) => { linkCount[x.id] = (linkCount[x.id] || 0) + 1; linkCount[y.id] = (linkCount[y.id] || 0) + 1; });
+  const uniqBy = (list) => list.filter((e, i) => list.findIndex((o) => o.id === e.id) === i);
+  const linkedL = uniqBy(pairList.map(([x]) => x));
+  const linkedR = uniqBy(pairList.map(([, y]) => y));
   const partners = a && !b ? edges.filter((e) => e.c1 === a || e.c2 === a).map((e) => ({ c: e.c1 === a ? e.c2 : e.c1, n: e.n })).sort((p, q) => q.n - p.n) : [];
   return (
     <div className="space-y-4">
@@ -16785,24 +16791,29 @@ function MilitaryMap() {
       {a && b && (
         <div className="space-y-3">
           <div className={`grid grid-cols-2 gap-2 sticky top-14 z-10 py-1 ${t.page}`}>
-            <SideHead country={a} sub={pairList.length + ' link' + (pairList.length === 1 ? '' : 's')} />
-            <SideHead country={b} sub={topic ? topicName(topic) : 'All topics'} />
+            <SideHead country={a} sub={linkedL.length + ' linked ' + (linkedL.length === 1 ? 'entry' : 'entries')} />
+            <SideHead country={b} sub={linkedR.length + ' linked ' + (linkedR.length === 1 ? 'entry' : 'entries')} />
           </div>
-          {pairList.length === 0 && <Empty>No direct links between these two{topic ? ' in this topic' : ''}. Try another army or All topics.</Empty>}
+          {pairList.length === 0 ? <Empty>No direct links between these two{topic ? ' in this topic' : ''}. Try another army or All topics.</Empty>
+            : <p className={`text-sm ${t.muted}`}>{pairList.length} link{pairList.length === 1 ? '' : 's'}{topic ? ' in ' + topicName(topic) : ''}. Each entry is listed once, under its own topic; open it to see what it is linked to.</p>}
           {ALL_TOPICS.map((tp) => {
-            const rows = pairList.filter(([x]) => x.topic === tp.key);
-            if (!rows.length) return null;
+            const l = linkedL.filter((e) => e.topic === tp.key);
+            const r = linkedR.filter((e) => e.topic === tp.key);
+            if (!l.length && !r.length) return null;
+            const cell = (list) => (
+              <div className="space-y-1.5 min-w-0">
+                {list.length === 0 ? <div className={`p-2 text-sm ${t.faint}`}>—</div> : list.map((e) => (
+                  <button key={e.id} type="button" onClick={() => go('entry', e.id)} className={`w-full text-left p-2 rounded-lg border text-sm leading-snug ${t.card}`}>
+                    <span className="font-semibold">{e.title}</span>
+                    <span className={`block text-xs ${t.muted}`}>linked to {linkCount[e.id]} {linkCount[e.id] === 1 ? 'entry' : 'entries'}</span>
+                  </button>
+                ))}
+              </div>
+            );
             return (
               <div key={tp.key}>
                 <div className={`text-xs font-bold uppercase tracking-widest mb-1.5 ${t.muted}`}>{tp.name}</div>
-                <div className="space-y-1.5">
-                  {rows.map(([x, y]) => (
-                    <div key={x.id + y.id} className="grid grid-cols-2 gap-2">
-                      <button type="button" onClick={() => go('entry', x.id)} className={`text-left p-2 rounded-lg border text-sm leading-snug ${t.card}`}>{x.title}</button>
-                      <button type="button" onClick={() => go('entry', y.id)} className={`text-left p-2 rounded-lg border text-sm leading-snug ${t.card}`}>{y.title}</button>
-                    </div>
-                  ))}
-                </div>
+                <div className="grid grid-cols-2 gap-2">{cell(l)}{cell(r)}</div>
               </div>
             );
           })}
