@@ -34,3 +34,22 @@ Cloudflare redeploys on every push to `main`.
 ## Content
 
 Open sources only. No classified, restricted, export-controlled or leaked material.
+
+## Agent team
+
+Claude Code subagents live in `.claude/agents/`. They are available in any Claude Code session opened in this repository
+(ask, for example, "Use Sentry to check this branch"). Shared files: `ops/AGENT_RULES.md` (rules), `ops/LESSONS.md`
+(past mistakes and their checks), `ops/TASKS.md` (schedule, open items, log), `ops/research/` (country research notes).
+
+| Agent | Job |
+|---|---|
+| Herald | Front page, What's New, README |
+| Sentry | Regression guard: checks and the Lessons Register |
+| Observer | Learner feedback, app review, improvements |
+| Recce | Research lead: weekly news, monthly sweep; tasks the eight country researchers (`recce-<country>`) |
+| Armourer | Videos, equipment cards, specs, country data |
+| Instructor | Lessons, links, exercises that make learners apply what they read |
+| Adjutant | Weekly follow-up of all agents; summary to the owner |
+
+Checks: `node tools/check.mjs` (content, links between entries, equipment, videos, style) and
+`python3 tools/check_links.py --videos --sources` (live clips and source pages). Agents open pull requests; the owner merges.

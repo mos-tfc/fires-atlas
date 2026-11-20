@@ -1,0 +1,28 @@
+# Lessons Register
+
+Mistakes already made on Fires Atlas, and the check that stops each one coming back.
+Every agent reads this before starting. **Sentry** owns it: add a row whenever a new mistake is found.
+
+| # | Mistake (what happened) | Rule | How to check |
+|---|---|---|---|
+| L1 | AI research reports (Gemini) gave invented URLs and wrong publication IDs; most links were dead or pointed at unrelated pages. | Never add a source you have not opened. Never build a URL by changing an ID. | `python3 tools/check_links.py --sources`; read the page title, not just the status. |
+| L2 | army.mil article numbers and armypubs PUB_IDs are reused: a link that loads can still be the wrong story or manual. | Match the page title to the source title before adding it. | Title check; `tools/check.mjs` warns on armypubs links. |
+| L3 | .mil sites return 403 to scripts, so a working page looks broken. | A 403 from .mil is not proof a page is gone. Confirm by searching for its exact title and URL. | Note "verified by search index" in the task log. |
+| L4 | "Corrections" from AI reports were wrong (Switchblade 400, TITAN award, 4th MDTF were all real). | Do not change a claim on one report's say-so. Verify with a dated primary source; otherwise leave it and log it. | Two independent sources, or one official. |
+| L5 | Linking an older edition of a manual as the source for current doctrine. | Link the same or a superseding edition only. | Compare edition dates. |
+| L6 | Equipment named only in the entry title (or as a short form, plural, "-M2" suffix) did not open its card. | Every system in EQUIPMENT_LINKS must open from its card's title or text. Add short forms in `a`. | `node tools/check.mjs` (equipment warnings). |
+| L7 | Equipment aliases matched wrong words ("ATOR", "Type", "81mm"). | Bare calibres and common words are never aliases (KIT_STOP). Proper names need 5+ letters. | Read the matched text in the audit. |
+| L8 | YouTube search results included deleted (404) and embed-blocked (401) clips. | Every clip passes YouTube oEmbed before it is added; re-check weekly. | `python3 tools/check_links.py --videos`. |
+| L9 | Search hits included combat strike footage, clickbait, games (War Thunder, Arma) and the wrong system. | Hand-check title and channel. Combat footage only with the `warn` field, and only after the owner approves it. | Armourer review list. |
+| L10 | Country pill said "Australia" for AS10, a Korean K10 design; "Others" hid the real army. | Keep army (`c`) and design country (`o`) separate. Name the army (Germany, Bulgaria), never "Others". | `tools/check.mjs` fails on "Others" or missing VIDEO_META. |
+| L11 | "Used by" overstated systems that are only on trial or candidates (Sigma, CAESAR in the US). | Army means: the army whose section covers it (in service, ordered or on trial). Say which in the entry. | Read the entry before labelling. |
+| L12 | A setting read when the module loaded (COUNTER_BASE) was empty on the website, so the Support button vanished. | Read window settings lazily, inside functions. | Load the front page on the website after each release. |
+| L13 | A bare filename in a script wrote to the wrong folder. | Always write with the full path from the repository root. | Review `git status` before committing. |
+| L14 | Title case missed some headings and hyphenated parts. | Title case for every title, label and heading, hyphen parts included; official names keep their own form. | Read the changed screens. |
+| L15 | Back button lost view settings; a closed card reopened on the wrong country. | Views remember their state (useRemembered); test Back after each navigation change. | Manual test on a phone. |
+| L16 | Repeated glossary terms were underlined many times in one card. | Only the first mention of a term or system in a card is a link. | Manual check of a long entry. |
+| L17 | Marking many entries "updated" for a source-only change would flag them all as changed for learners. | Only content changes go in CHANGELOG `changes`. Source additions go in the summary or the task log. | Review the CHANGELOG diff. |
+| L18 | Risk of own-force material entering a public app. | Open sources on other armies only. Never Singapore Armed Forces material. Learners keep own-force answers offline. | `tools/check.mjs` fails on SAF terms. |
+| L19 | Personal details in public places. | Never put the owner's name, email or unit in commits, pages or requests. Commits use the noreply address. | Review commit author and text. |
+| L20 | Secrets. | Never commit tokens, passwords or keys. They live in Cloudflare secrets or the GitHub app. | `git diff` before commit. |
+| L21 | Publishing without review. | Agents work on a branch and open a pull request. The owner merges. Nothing goes to `main` directly. | Adjutant checks no direct pushes. |
