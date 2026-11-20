@@ -31,7 +31,7 @@ const CHANGELOG = [
   {
     version: '2026.12',
     date: '2026-11-16',
-    summary: 'Twelve United States modules and seven other armies (Russia, South Korea, Ukraine, China, Japan, Australia, North Korea), with Developments news, Ranges, the Military Map and the Kill Chain.',
+    summary: 'Twelve United States modules and seven other armies (Russia, South Korea, Ukraine, China, Japan, Australia, North Korea), with Developments news, Ranges, the Military Map and the Kill Chain. Added 20 November: equipment cards opened from the text, 190 short videos with a Videos tab, checked source links for most United States entries, and an A to Z Glossary.',
     changes: [
       { kind: 'new', entryId: "kpa-ttp-arty-groups", topic: "north-korea", summary: "New entry: Artillery Groups for the Breakthrough." },
       { kind: 'new', entryId: "kpa-org-coastal", topic: "north-korea", summary: "New entry: Coastal Artillery and the Limits of Air and Sea Support." },
@@ -20068,7 +20068,9 @@ function WelcomeView({ first }) {
   const H = ({ children }) => <h2 className={`text-xl font-bold ${t.link}`}>{children}</h2>;
   const parts = [
     ['Learn', 'Short lessons. Each covers what, how and why, then checks your understanding.'],
-    ['Library', 'Every entry, searchable by country, force, echelon and type, with side-by-side Compare.'],
+    ['Library', 'Every entry, searchable by country, force, echelon and type, with side-by-side Compare and an A to Z Glossary.'],
+    ['Equipment Cards', 'Tap any underlined weapon or sensor for its photo, key figures, the armies that use it and where it was designed.'],
+    ['Videos', 'Short clips of the equipment in action, filtered by country and weapon type, and in each equipment card.'],
     ['Ranges and Military Map', 'Weapon ranges as rings, and how the armies link and compare.'],
     ['Kill Chain', 'Watch armies go from finding a target to striking it, step by step, with sourced timings.'],
     ['Developments', 'Recent artillery news, with what happened, what it means and what to watch next.'],
@@ -20082,7 +20084,7 @@ function WelcomeView({ first }) {
         <div className="flex flex-wrap gap-2 pt-1">
           <Btn onClick={start}><Play size={18} /> {first ? 'Start learning' : 'Back to the app'}</Btn>
         </div>
-        <p className={`text-sm ${t.muted}`}>{APP_DATA.length} entries · {LESSONS.length} lessons · {ALL_COUNTRIES.length} armies</p>
+        <p className={`text-sm ${t.muted}`}>{APP_DATA.length} entries · {LESSONS.length} lessons · {ALL_COUNTRIES.length} armies · {Object.keys(VIDEO_META).length} equipment cards · {Object.values(VIDEO_LINKS).reduce((a, l) => a + l.filter((c) => c.ok).length, 0)} videos</p>
       </section>
 
       <section className={`p-4 rounded-xl border space-y-2 ${t.info}`}>
@@ -20099,7 +20101,7 @@ function WelcomeView({ first }) {
       <section className="space-y-3">
         <H>Why This Was Built</H>
         <p className="text-base leading-relaxed max-w-[70ch]">Artillery is changing quickly. Armies are rebuilding how they find targets, direct fire, survive counter-fire and sustain their guns. The lessons are spread across doctrine, journals and reports that few people have time to read.</p>
-        <p className="text-base leading-relaxed max-w-[70ch]">Fires Atlas brings that open material into one place, in a form that can be learned in short sittings. Every entry answers three questions: what it is, how it works, and why it is built that way.</p>
+        <p className="text-base leading-relaxed max-w-[70ch]">Fires Atlas brings that open material into one place, in a form that can be learned in short sittings. Every entry answers three questions: what it is, how it works, and why it is built that way. Equipment cards and short videos then show the systems themselves.</p>
       </section>
 
       <section className="space-y-3">
@@ -20161,7 +20163,7 @@ function WelcomeView({ first }) {
       <div className="flex flex-wrap gap-2">
         <Btn onClick={start}><Play size={18} /> {first ? 'Start learning' : 'Back to the app'}</Btn>
       </div>
-      <p className={`text-sm ${t.faint}`}>Content is drawn from open sources only.</p>
+      <p className={`text-sm ${t.faint}`}>Content is drawn from open sources only. Videos play from YouTube; their content is the uploader’s.</p>
     </div>
   );
 }
