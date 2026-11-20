@@ -8,7 +8,7 @@ Status: Open · In progress · Waiting on owner · Done.
 
 | Agent | Cadence | Job |
 |---|---|---|
-| Recce | Weekly (Mon) and monthly (first Mon) | Developments news; monthly sweep of all eight armies |
+| Recce | Weekly (Mon) and monthly (first Mon) | Developments news; monthly sweep of all nine armies |
 | Armourer | Weekly (Wed) | Videos and source links still work; new clips for systems without one; equipment data complete |
 | Sentry | Every pull request, and weekly (Thu) | Run checks; compare against the Lessons Register |
 | Observer | Weekly (Fri) | Learner feedback; review the app; propose improvements |
@@ -22,7 +22,8 @@ Status: Open · In progress · Waiting on owner · Done.
 - [ ] Owner: install the Claude GitHub app on the organisation, so scheduled agents can open pull requests.
 - [ ] Owner: run the gap-fill research prompts for the seven armies; Recce and Instructor load the results.
 - [ ] Kill chains for China, Japan and North Korea; ranges for Ukraine and Australia (after research).
-- [ ] 13 systems without a video (Armourer).
+- [ ] 13 systems without a video, plus 4 Indonesian (Armourer).
+- [ ] Owner: review 36 pending Indonesian clips at ?review.
 - [ ] About 37 US entries name a source with no public link (Recce / Sentry: find public versions or leave named).
 - [ ] Developments refresh due about 4 Jan 2027 (Recce).
 - [ ] Phone test of Videos tab, Glossary A to Z, equipment pills (owner).
@@ -30,9 +31,15 @@ Status: Open · In progress · Waiting on owner · Done.
 ## Log
 
 ### Herald
+- 2026-11-20 · Front page counts and What's New summary updated for Indonesia (nine armies) · Done
 ### Sentry
+- 2026-11-20 · Indonesia report: 60 source links checked (46 OK, 1 verified by search, 10 blocked, 1 image-only, 2 wrong, 0 dead); 2 wrong + 1 suspect dropped; 3 claims corrected; AXYS-ISR and drone/cyber lessons rated Analysis (only source could not be opened); 2 bad relatedIds caught by tools/check.mjs · Done
 ### Observer
 ### Recce
+- 2026-11-20 · Indonesia added from owner's research report: 26 entries, 19 glossary terms, 5 news items, kill chain, 4 range sets; recce-indonesia researcher added · Done
 ### Armourer
+- 2026-11-20 · Indonesia: specs, photos and country data for 24 systems; 36 YouTube clips (oEmbed-checked) added as pending; no clip yet for AV-UCF, Pindad Mo-3, Minibe, AXYS-ISR · Waiting on owner (review clips at ?review)
 ### Instructor
+- 2026-11-20 · Indonesia: 5 lessons, 35 exercises (mostly scenario, one predict each on Indonesia's choices) · Done
 ### Adjutant
+- 2026-11-20 · Open: owner to review 36 Indonesian clips; Developments refresh about 4 Jan 2027 now includes Indonesia · Open

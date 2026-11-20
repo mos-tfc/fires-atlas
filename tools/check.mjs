@@ -74,7 +74,7 @@ for (const [id, kit] of Object.entries(D.EQUIPMENT_LINKS)) {
 for (const it of D.DEVELOPMENTS.items) if (asList(it.equipment).length) kitIn(it.equipment, [it.headline, ...asList(it.what), ...asList(it.soWhat)], it.id);
 
 // Videos
-const main = ['United States', 'Russia', 'South Korea', 'Ukraine', 'China', 'Japan', 'Australia', 'North Korea'];
+const main = ['United States', 'Russia', 'South Korea', 'Ukraine', 'China', 'Japan', 'Australia', 'North Korea', 'Indonesia'];
 let clips = 0, live = 0;
 const vids = new Set();
 for (const [n, list] of Object.entries(D.VIDEO_LINKS)) {
