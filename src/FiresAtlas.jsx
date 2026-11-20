@@ -19518,7 +19518,14 @@ function VideoLibrary() {
                 <div className="font-bold text-sm sm:text-base leading-snug break-words">{n}</div>
                 <div className="text-xs sm:text-sm leading-snug line-clamp-2 mt-0.5">{c.t}</div>
                 <div className={`text-xs mt-1 ${t.muted} truncate`}>{c.ch}</div>
-                <div className={`text-xs mt-0.5 ${t.faint} truncate`}>{m.c.join(', ')}{m.k ? ' · ' + m.k : ''}</div>
+                <div className="flex flex-wrap gap-1 mt-1.5">
+                  {m.c.map((cty) => (
+                    <span key={cty} className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full border text-[11px] leading-tight font-medium ${t.chip}`}>
+                      <span className="w-2 h-2 rounded-full shrink-0" style={{ background: COUNTRY_COLOUR[cty] || '#94a3b8' }} />{cty}
+                    </span>
+                  ))}
+                  {m.k && <span className={`inline-flex items-center px-1.5 py-0.5 rounded-full border text-[11px] leading-tight font-medium ${t.chip}`}>{m.k}</span>}
+                </div>
               </div>
             </button>
           ))}
