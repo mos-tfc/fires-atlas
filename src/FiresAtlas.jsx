@@ -17860,7 +17860,7 @@ function Library() {
   return (
     <div className="space-y-4">
       <div className="flex gap-2 overflow-x-auto pb-1">
-        {['Entries', 'Compare', 'Coverage', 'Map', 'Ranges', 'Kill Chain', 'Videos', 'Glossary'].map((tab) => (
+        {['Entries', 'Compare', 'Map', 'Ranges', 'Videos', 'Kill Chain', 'Coverage', 'Glossary'].map((tab) => (
           <Chip key={tab} on={lib.tab === tab} onClick={() => setLib({ ...lib, tab })}>{tab}</Chip>
         ))}
       </div>
