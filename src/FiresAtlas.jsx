@@ -19393,14 +19393,13 @@ function VideoClip({ c }) {
   );
 }
 
-function KitVideos({ n }) {
+function KitVideos({ clips }) {
   const { t } = useApp();
-  const clips = videosFor(n);
   if (!clips.length) return null;
   return (
     <div>
       <div className={`text-xs font-bold uppercase tracking-widest mb-1 ${t.muted}`}>Watch</div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 gap-3">
         {clips.map((c) => <VideoClip key={c.v} c={c} />)}
       </div>
       <div className={`mt-1 text-xs ${t.faint}`}>Videos play from YouTube. Their content and any claims in them are the uploader’s, not this app’s.</div>
@@ -19421,6 +19420,13 @@ function KitCard({ k, onClose }) {
   }, [k.n]);
   const rows = spec ? asList(spec.r) : [];
   const hasPhoto = wiki && typeof wiki === 'object' && wiki.img && !imgFail;
+  // Videos sit beside the photo and figures on wider screens; on phones a tab switches between them.
+  const clips = videosFor(k.n);
+  const [tab, setTab] = useState('info');
+  const wide = typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia('(min-width: 768px)').matches;
+  const split = clips.length > 0 && wide;
+  const showInfo = !clips.length || wide || tab === 'info';
+  const showWatch = clips.length > 0 && (wide || tab === 'watch');
   return (
     <Card className="relative">
       <CardCloseX onClose={onClose} />
@@ -19429,7 +19435,18 @@ function KitCard({ k, onClose }) {
         <h2 className="text-xl sm:text-2xl font-bold leading-snug mt-0.5">{k.n}</h2>
         {spec && spec.t && <div className={`mt-0.5 text-sm ${t.muted}`}>{spec.t}</div>}
       </div>
-      <div className="mt-4 space-y-4">
+      {clips.length > 0 && !wide && (
+        <div className={`mt-3 grid grid-cols-2 gap-1 p-1 rounded-lg ${t.soft}`} role="tablist">
+          {[['info', 'Overview'], ['watch', 'Watch (' + clips.length + ')']].map(([id, label]) => (
+            <button key={id} type="button" role="tab" aria-selected={tab === id} onClick={() => setTab(id)}
+              className={`flex items-center justify-center gap-1.5 py-2 rounded-md text-sm font-semibold ${tab === id ? t.card + ' shadow-sm' : t.muted}`}>
+              {id === 'watch' && <Play size={14} />}{label}
+            </button>
+          ))}
+        </div>
+      )}
+      <div className={split ? 'mt-4 grid grid-cols-2 gap-5 items-start' : 'mt-4'}>
+      {showInfo && <div className="space-y-4 min-w-0">
         {!noPhoto && wiki === 'loading' && (
           <div className={`text-sm ${t.faint}`}>Loading photo from Wikipedia…</div>
         )}
@@ -19468,13 +19485,14 @@ function KitCard({ k, onClose }) {
           )}
           <div className={`mt-1 text-xs ${t.faint}`}>From this app’s own sources. “(reported)” marks a press or vendor figure. A figure not listed is not stated in our sources.</div>
         </div>
-        <KitVideos n={k.n} />
         <div className="text-sm">
           <a href={specsUrl(k.q)} target="_blank" rel="noreferrer" className={`underline underline-offset-2 ${t.link}`}>Search Wikipedia</a>
           {' · '}
           <a href={photosUrl(k.q)} target="_blank" rel="noreferrer" className={`underline underline-offset-2 ${t.link}`}>Google Images</a>
           <span className={t.faint}> (opens outside the app, not checked)</span>
         </div>
+      </div>}
+      {showWatch && <div className={`min-w-0 ${split ? 'sticky top-20' : ''}`}><KitVideos clips={clips} /></div>}
       </div>
       <CardCloseFoot onClose={onClose} />
     </Card>
