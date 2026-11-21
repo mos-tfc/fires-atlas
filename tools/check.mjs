@@ -98,7 +98,8 @@ for (const g of D.GLOSSARY) { if (terms.has(g.term)) fail('Duplicate glossary te
 
 // Style: no own-force material, no intensifiers in entry text
 const allText = D.APP_DATA.map((e) => [e.title, ...asList(e.what), ...asList(e.how), ...asList(e.why)].join(' ')).join('\n');
-if (/\bSAF\b|Singapore Armed Forces|SAFTI|\bSAR\s?21\b/.test(allText)) fail('Own-force (Singapore) material found in entries: open sources on other armies only');
+const hasSG = D.APP_DATA.some((e) => e.country === 'Singapore');
+if (!hasSG && /\bSAF\b|Singapore Armed Forces|SAFTI|\bSAR\s?21\b|\bSingapore\b/.test(allText)) warn('Singapore reference before the Singapore module is loaded: hold it back until the owner’s open-source report is in (L18)');
 for (const w of ['devastating', 'massive', 'incredibly', 'absolutely', 'game-chang']) if (new RegExp('\\b' + w, 'i').test(allText)) warn('Intensifier in entry text: ' + w);
 
 console.log(`Content ${D.CONTENT.version}: ${D.APP_DATA.length} entries, ${D.GLOSSARY.length} terms, ${D.LESSONS.length} lessons, ${exercises} exercises, ${D.TOPICS.length} topics`);

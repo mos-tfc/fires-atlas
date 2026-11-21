@@ -19,7 +19,7 @@ title (title case), what [], how [], why [], sources [{title, publisher, year, u
 
 ## Non-negotiable
 1. **Open sources only.** Nothing classified, restricted, export-controlled or leaked.
-2. **No own-force material.** Never add Singapore Armed Forces information. The app covers other armies.
+2. **Singapore only from the owner’s open-source report.** Singapore and SAF content may be added only from an open-source report the owner has shared, checked like any other army. Never add internal, restricted or personal knowledge of the SAF. Until that report is loaded, leave Singapore references out and list them in `ops/TASKS.md` to add later.
 3. **Verify every link yourself** (open it, match its title). Never invent or edit a URL. See L1 to L5.
 4. **Do not change a claim** without a dated primary source. Log doubts instead.
 5. **Review before publishing.** Work on a branch named `agent/<name>/<yyyy-mm-dd>`, open a pull request with a plain summary,

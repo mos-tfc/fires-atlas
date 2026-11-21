@@ -26,6 +26,7 @@ Status: Open · In progress · Waiting on owner · Done.
 - [ ] Owner: review 58 pending clips (36 Indonesian, 22 Malaysian) at ?review.
 - [ ] About 37 US entries name a source with no public link (Recce / Sentry: find public versions or leave named).
 - [ ] Developments refresh due about 4 Jan 2027 (Recce).
+- [ ] When the owner shares an open-source Singapore report: add Singapore as an army (Recce, Sentry, Armourer, Instructor), then restore held-back references: Singapore in the FPDA partner lists (Malaysia JTAC entry: Bersama Shield, Bersama Lima); the March 2026 Singapore Parliament discussion of Indonesia’s KHAN missile (official Hansard only); cross-links from Indonesia and Malaysia entries. Never use the Senang Diri (kementah) blog posts flagged by Sentry without the owner’s review.
 - [ ] Phone test of Videos tab, Glossary A to Z, equipment pills (owner).
 
 ## Log
