@@ -17443,7 +17443,27 @@ const LESSONS = [
 // ==========================================
 
 const SECTIONS = ['Forces', 'TTPs', 'Equipment', 'Training', 'Lessons'];
-const ECHELON_ORDER = ['Company', 'Battalion', 'Brigade', 'Division', 'Corps', 'Theatre'];
+// Echelons from smallest to largest. Equivalent levels share one filter step: a battery is the artillery company,
+// and a regiment (Japan, North Korea, Indonesia) sits between battalion and division like a brigade.
+const ECHELON_LEVELS = [
+  { label: 'Company / Battery', values: ['Company', 'Battery'] },
+  { label: 'Battalion', values: ['Battalion'] },
+  { label: 'Regiment / Brigade', values: ['Regiment', 'Brigade'] },
+  { label: 'Division', values: ['Division'] },
+  { label: 'Corps', values: ['Corps'] },
+  { label: 'Theatre', values: ['Theatre'] }
+];
+const ECHELON_ORDER = ECHELON_LEVELS.flatMap((l) => l.values);
+const echelonRank = (x) => { const i = ECHELON_ORDER.indexOf(x); return i < 0 ? 99 : i; };
+const sortEchelons = (list) => asList(list).slice().sort((a, b) => echelonRank(a) - echelonRank(b));
+// True when an entry belongs to a filter step (a level label, or a single echelon name); "All" matches every step.
+const inEchelon = (e, step) => {
+  const lv = ECHELON_LEVELS.find((l) => l.label === step);
+  const vals = lv ? lv.values : [step];
+  return asList(e.echelon).some((x) => vals.includes(x) || x === 'All');
+};
+// Country order in every picker and filter: United States first (the worked example), then A to Z, Others last.
+const byCountry = (a, b) => (b === 'United States') - (a === 'United States') || (a === 'Others') - (b === 'Others') || String(a).localeCompare(String(b));
 const CONFIDENCES = ['Confirmed', 'Reported', 'Analysis'];
 const PASS_MARK = 0.8;
 const DAY = 24 * 60 * 60 * 1000;
@@ -17460,18 +17480,20 @@ const LESSON_BY_ID = Object.create(null);
 LESSONS.forEach((l) => { LESSON_BY_ID[l.id] = l; });
 
 // Filters are built from the data, so a new country, force, echelon or topic needs no code change.
-const ALL_FORCES = uniq(APP_DATA.map((e) => e.force)).filter((f) => f && f !== 'Multiple');
+const ALL_FORCES = uniq(APP_DATA.map((e) => e.force)).filter((f) => f && f !== 'Multiple')
+  .sort((a, b) => byCountry((APP_DATA.find((e) => e.force === a) || {}).country, (APP_DATA.find((e) => e.force === b) || {}).country));
 // The country each named force belongs to, so entries marked Multiple stay with their own country.
 const FORCE_COUNTRY = Object.create(null);
 APP_DATA.forEach((e) => { if (e.force && e.force !== 'Multiple' && !FORCE_COUNTRY[e.force]) FORCE_COUNTRY[e.force] = e.country; });
 const ALL_ECHELONS = (() => {
   const used = uniq(APP_DATA.flatMap((e) => asList(e.echelon))).filter((x) => x !== 'All' && x !== 'N/A');
-  return ECHELON_ORDER.filter((x) => used.includes(x)).concat(used.filter((x) => !ECHELON_ORDER.includes(x)));
+  return ECHELON_LEVELS.filter((l) => l.values.some((v) => used.includes(v))).map((l) => l.label)
+    .concat(used.filter((x) => !ECHELON_ORDER.includes(x)));
 })();
 const ALL_TOPICS = TOPICS.slice().sort((a, b) => a.order - b.order);
 // Topics that hold Library entries (country topics hold lessons only; their entries sit in the functional topics).
 const ENTRY_TOPICS = ALL_TOPICS.filter((x) => APP_DATA.some((e) => e.topic === x.key));
-const ALL_COUNTRIES = uniq(APP_DATA.map((e) => e.country)).filter(Boolean);
+const ALL_COUNTRIES = uniq(APP_DATA.map((e) => e.country)).filter(Boolean).sort(byCountry);
 // Country topics (Part 5) keep the country in its own field; outside Learn the name reads “Country: title”.
 // One icon per topic; every country topic shares the flag.
 const TOPIC_ICON = { liaison: Users, 'cannon-artillery': Crosshair, 'rocket-missile-artillery': Rocket, 'loitering-munitions': Plane,
@@ -17800,7 +17822,7 @@ function EntryCard({ entry, startOpen, query, onClose }) {
           ) : (
             <>
               <Tag>{entry.force}</Tag>
-              {asList(entry.echelon).filter((x) => x !== 'N/A').map((x) => <Tag key={x}>{x}</Tag>)}
+              {sortEchelons(entry.echelon).filter((x) => x !== 'N/A').map((x) => <Tag key={x}>{x}</Tag>)}
               <Tag>{entry.module}</Tag>
             </>
           )}
@@ -17932,7 +17954,7 @@ function Library() {
     (!f.country || e.country === f.country) &&
     (!f.section || e.module === f.section) &&
     (!f.force || e.force === f.force || (e.force === 'Multiple' && e.country === FORCE_COUNTRY[f.force])) &&
-    (!f.echelon || asList(e.echelon).includes(f.echelon) || asList(e.echelon).includes('All')) &&
+    (!f.echelon || inEchelon(e, f.echelon)) &&
     (!f.conf || e.confidence === f.conf) &&
     (!f.changed || entryChange(e, state.seenVersion)) &&
     (!q || entryText(e).includes(q))
@@ -18007,7 +18029,8 @@ const COMPARE_SIDES = (() => {
   });
   const countriesWithForce = uniq(seen.map((k) => k.split(' · ')[0]));
   uniq(APP_DATA.map((e) => e.country)).filter((c) => c && !countriesWithForce.includes(c)).forEach((c) => seen.push(c + ' · Multiple'));
-  return seen;
+  // Stable sort: countries in picker order, forces within a country in the order they first appear.
+  return seen.slice().sort((x, y) => byCountry(x.split(' · ')[0], y.split(' · ')[0]));
 })();
 
 const SECTION_LABELS = { Forces: 'Organisation', TTPs: 'Procedures', Equipment: 'Equipment', Training: 'Training', Lessons: 'Lessons' };
@@ -18037,7 +18060,7 @@ function Compare() {
       e.country === country &&
       (!topic || e.topic === topic) &&
       (e.force === force || e.force === 'Multiple') &&
-      (!ech || asList(e.echelon).includes(ech) || asList(e.echelon).includes('All')));
+      (!ech || inEchelon(e, ech)));
   };
   const left = find(a), right = find(b);
   const rows = ALL_TOPICS.map((tp) => ({ tp, l: left.filter((e) => e.topic === tp.key), r: right.filter((e) => e.topic === tp.key) }))
@@ -18140,7 +18163,7 @@ const fmtKm = (km) => (km < 10 ? String(km).replace(/\.0$/, '') : Math.round(km)
 function RangeRings() {
   const { t, go } = useApp();
   const [kind, setKind] = useRemembered('ranges.kind', 'Guns');
-  const countriesOf = (k) => Object.keys(COUNTRY_COLOUR).filter((c) => RANGE_DATA.some((x) => x.k === k && x.c === c));
+  const countriesOf = (k) => Object.keys(COUNTRY_COLOUR).filter((c) => RANGE_DATA.some((x) => x.k === k && x.c === c)).sort(byCountry);
   const [L, setL] = useRemembered('ranges.left', 'United States');
   const [Rt, setRt] = useRemembered('ranges.right', 'Russia');
   const [sel, setSel] = useRemembered('ranges.sel', null); // ticked weapons; null = the first weapon of each army
@@ -18294,7 +18317,7 @@ function KillChain() {
       </g>
     );
   };
-  const armyPick = <Pick wide label="Army" value={key} onChange={(v) => v && pick(v)} options={KILL_CHAINS.map((c) => ({ value: c.key, label: c.c + ': ' + c.name }))} />;
+  const armyPick = <Pick wide label="Army" value={key} onChange={(v) => v && pick(v)} options={KILL_CHAINS.slice().sort((x, y) => byCountry(x.c, y.c)).map((c) => ({ value: c.key, label: c.c + ': ' + c.name }))} />;
   const path = KC_PATH[cur.act];
   const lineCol = cur.act === 'laser' ? '#ef4444' : cur.act === 'fire' ? '#f59e0b' : col;
   return (
@@ -19022,7 +19045,7 @@ function EntryStep({ entry, onNext }) {
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-1.5">
         <Tag>{entry.force}</Tag>
-        {asList(entry.echelon).filter((x) => x !== 'N/A').map((x) => <Tag key={x}>{x}</Tag>)}
+        {sortEchelons(entry.echelon).filter((x) => x !== 'N/A').map((x) => <Tag key={x}>{x}</Tag>)}
         <ConfBadge value={entry.confidence} />
       </div>
       <h2 className="text-xl sm:text-2xl font-bold leading-snug"><KitTitle text={entry.title} /></h2>
@@ -19593,7 +19616,7 @@ function VideoLibrary() {
   // Country: one of the eight armies matches a system it uses or designed (NASAMS, Norway and US, is under United States);
   // Others matches a system serving with any other army.
   const main = MAIN_ARMIES();
-  const countries = main.filter((c) => all.some((x) => x.m.c.includes(c) || originsOf(x.m.o).includes(c))).sort((a, b) => a.localeCompare(b)).concat(['Others']);
+  const countries = main.filter((c) => all.some((x) => x.m.c.includes(c) || originsOf(x.m.o).includes(c))).sort(byCountry).concat(['Others']);
   const inCountry = (x) => country === 'Others' ? x.m.c.some((c) => !main.includes(c)) : (x.m.c.includes(country) || originsOf(x.m.o).includes(country));
   const list = all.filter((x) => (!country || inCountry(x)) && (!kind || x.m.k === kind) &&
     (!needle || (x.n + ' ' + x.c.t + ' ' + x.c.ch).toLowerCase().includes(needle)));
@@ -19873,7 +19896,7 @@ function DevelopmentsView() {
   const [conf, setConf] = useRemembered('dev.conf', null);
   const items = DEVELOPMENTS.items.slice().sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
   // Featured armies A–Z, then Others (news from armies without their own lessons yet).
-  const countries = uniq(items.map((i) => i.country)).sort((x, y) => (x === 'Others') - (y === 'Others') || x.localeCompare(y));
+  const countries = uniq(items.map((i) => i.country)).sort(byCountry);
   const topics = uniq(items.map((i) => i.topic)).sort();
   const shown = items.filter((i) => (!country || i.country === country) && (!topic || i.topic === topic) && (!conf || i.confidence === conf));
   const filtered = country || topic || conf;
