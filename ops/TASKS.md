@@ -21,7 +21,8 @@ Status: Open · In progress · Waiting on owner · Done.
 - [ ] Owner: move the repository to the GitHub organisation; reconnect Cloudflare; new token (old one expires about 19 Dec 2026).
 - [ ] Owner: install the Claude GitHub app on the organisation, so scheduled agents can open pull requests.
 - [ ] Owner: run the gap-fill research prompts for the seven armies; Recce and Instructor load the results.
-- [ ] Kill chains for China, Japan and North Korea; ranges for Ukraine and Australia (after research).
+- [x] Kill chains for China, Japan and North Korea (21 Nov 2026, from existing entries); second chains for US, Russia, Ukraine, South Korea, Australia, Malaysia, Singapore.
+- [ ] Ranges for Ukraine and Australia (after research). Indonesia has one chain only (no second sensor path well sourced).
 - [ ] 13 systems without a video, plus 4 Indonesian (Armourer).
 - [ ] Owner: review 64 pending clips (36 Indonesian, 22 Malaysian, 6 Singaporean) at ?review.
 - [ ] About 37 US entries name a source with no public link (Recce / Sentry: find public versions or leave named).
@@ -41,6 +42,7 @@ Status: Open · In progress · Waiting on owner · Done.
 - 2026-11-20 · Indonesia report: 60 source links checked (46 OK, 1 verified by search, 10 blocked, 1 image-only, 2 wrong, 0 dead); 2 wrong + 1 suspect dropped; 3 claims corrected; AXYS-ISR and drone/cyber lessons rated Analysis (only source could not be opened); 2 bad relatedIds caught by tools/check.mjs · Done
 ### Observer
 ### Recce
+- 2026-11-21 · Kill Chain: 10 new chains (18 in total), every step tied to an existing entry; target node labelled 'Target' throughout · Done
 - 2026-11-21 · Singapore added from owner's open-source report: 25 entries, 16 glossary terms, 3 news items, kill chain (radar counter-fire to HIMARS), ranges; recce-singapore added · Done
 - 2026-11-21 · Malaysia added from owner's research report: 25 entries, 14 glossary terms, 5 news items, kill chain (drone to ASTROS salvo), 5 range sets; recce-malaysia added · Done
 - 2026-11-20 · Indonesia added from owner's research report: 26 entries, 19 glossary terms, 5 news items, kill chain, 4 range sets; recce-indonesia researcher added · Done
