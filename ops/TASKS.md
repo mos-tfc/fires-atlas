@@ -8,7 +8,7 @@ Status: Open · In progress · Waiting on owner · Done.
 
 | Agent | Cadence | Job |
 |---|---|---|
-| Recce | Weekly (Mon) and monthly (first Mon) | Developments news; monthly sweep of all ten armies |
+| Recce | Weekly (Mon) and monthly (first Mon) | Developments news; monthly sweep of all eleven armies |
 | Armourer | Weekly (Wed) | Videos and source links still work; new clips for systems without one; equipment data complete |
 | Sentry | Every pull request, and weekly (Thu) | Run checks; compare against the Lessons Register |
 | Observer | Weekly (Fri) | Learner feedback; review the app; propose improvements |
@@ -23,10 +23,11 @@ Status: Open · In progress · Waiting on owner · Done.
 - [ ] Owner: run the gap-fill research prompts for the seven armies; Recce and Instructor load the results.
 - [ ] Kill chains for China, Japan and North Korea; ranges for Ukraine and Australia (after research).
 - [ ] 13 systems without a video, plus 4 Indonesian (Armourer).
-- [ ] Owner: review 58 pending clips (36 Indonesian, 22 Malaysian) at ?review.
+- [ ] Owner: review 64 pending clips (36 Indonesian, 22 Malaysian, 6 Singaporean) at ?review.
 - [ ] About 37 US entries name a source with no public link (Recce / Sentry: find public versions or leave named).
 - [ ] Developments refresh due about 4 Jan 2027 (Recce).
-- [ ] When the owner shares an open-source Singapore report: add Singapore as an army (Recce, Sentry, Armourer, Instructor), then restore held-back references: Singapore in the FPDA partner lists (Malaysia JTAC entry: Bersama Shield, Bersama Lima); the March 2026 Singapore Parliament discussion of Indonesia’s KHAN missile (official Hansard only); cross-links from Indonesia and Malaysia entries. Never use the Senang Diri (kementah) blog posts flagged by Sentry without the owner’s review.
+- [x] Singapore added from the owner's open-source report (21 Nov 2026); FPDA partner list restored in the Malaysia JTAC entry.
+- [ ] Optional: the March 2026 Singapore Parliament discussion of Indonesia's KHAN missile, only if the official Hansard record (sprs.parl.gov.sg) is found; the report cited a third-party site.
 - [ ] Phone test of Videos tab, Glossary A to Z, equipment pills (owner).
 
 ## Log
@@ -35,16 +36,20 @@ Status: Open · In progress · Waiting on owner · Done.
 - 2026-11-21 · What's New summary: nine other armies including Malaysia; front-page counts update themselves · Done
 - 2026-11-20 · Front page counts and What's New summary updated for Indonesia (nine armies) · Done
 ### Sentry
+- 2026-11-21 · Singapore: 23 links (22 OK, 1 blocked → replaced by MINDEF release); unofficial order-of-battle details (from a Wikipedia page citing a personal X account) left out; overstatements corrected (TMG 'progressively introduced', 2 Oct unveiling, SIGMA resemblance only, Primus/HIMARS figures Reported, Wallaby 6 Sep–2 Nov, SAF-wide simulation figure, ST Engineering claims removed) · Done
 - 2026-11-21 · Malaysia: 114 links checked (75 OK, 22 by search, 14 blocked, 1 wrong, 1 dead, 1 image-only); wrong, dead and blocked dropped; 6 claims corrected (Keris Strike dates, Paveway, CAESAR airlift, G5 tender, repair tender, ARTHUR value not used); Singapore blog sources excluded. Indonesia: 6 unconfirmed blocked links removed, 2 claims corrected · Done
 - 2026-11-20 · Indonesia report: 60 source links checked (46 OK, 1 verified by search, 10 blocked, 1 image-only, 2 wrong, 0 dead); 2 wrong + 1 suspect dropped; 3 claims corrected; AXYS-ISR and drone/cyber lessons rated Analysis (only source could not be opened); 2 bad relatedIds caught by tools/check.mjs · Done
 ### Observer
 ### Recce
+- 2026-11-21 · Singapore added from owner's open-source report: 25 entries, 16 glossary terms, 3 news items, kill chain (radar counter-fire to HIMARS), ranges; recce-singapore added · Done
 - 2026-11-21 · Malaysia added from owner's research report: 25 entries, 14 glossary terms, 5 news items, kill chain (drone to ASTROS salvo), 5 range sets; recce-malaysia added · Done
 - 2026-11-20 · Indonesia added from owner's research report: 26 entries, 19 glossary terms, 5 news items, kill chain, 4 range sets; recce-indonesia researcher added · Done
 ### Armourer
+- 2026-11-21 · Singapore: 16 new systems, 6 matched (HIMARS, GMLRS, TPQ-53, ARTHUR, TPQ-36/37); 6 clips pending; origin pills handle 'reported' and 'not disclosed' · Waiting on owner (?review)
 - 2026-11-21 · Malaysia: 25 new systems with specs and country data, 7 matched to existing cards (Malaysia added to their armies), 23 clips pending review; no clip for 11 systems · Waiting on owner (?review)
 - 2026-11-20 · Indonesia: specs, photos and country data for 24 systems; 36 YouTube clips (oEmbed-checked) added as pending; no clip yet for AV-UCF, Pindad Mo-3, Minibe, AXYS-ISR · Waiting on owner (review clips at ?review)
 ### Instructor
+- 2026-11-21 · Singapore: 5 lessons, 35 exercises; corrected after Sentry (Primus weight, ST Engineering, Afghanistan question, unit numbers) · Done
 - 2026-11-21 · Malaysia: 5 lessons, 35 exercises, comparisons with the US and Indonesia · Done
 - 2026-11-20 · Indonesia: 5 lessons, 35 exercises (mostly scenario, one predict each on Indonesia's choices) · Done
 ### Adjutant
