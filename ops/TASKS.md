@@ -56,6 +56,7 @@ Status: Open · In progress · Waiting on owner · Done.
 - 2026-11-21 · Malaysia: 5 lessons, 35 exercises, comparisons with the US and Indonesia · Done
 - 2026-11-20 · Indonesia: 5 lessons, 35 exercises (mostly scenario, one predict each on Indonesia's choices) · Done
 ### Liaison
+- 2026-11-21 · 19 links: added Freedom Shield (US–ROK), Southern Jackaroo (AUS–US–JPN–ROK), Joint Sea (China–Russia, naval), Operation Interflex/Kudu (Ukraine–Australia, training programme), Kursk (North Korea–Russia, operational cooperation); full 2025 participant lists for Super Garuda Shield (13 nations) and Talisman Sabre (19 nations). Every army now linked. Sources: official releases and established press; defence.gov.au and .mil pages verified by search (blocked to scripts) · Done
 - 2026-11-21 · EXERCISES data (14 exercises, 9 army-to-army links) built from entries; Military Map 'Joint Exercises' mode; 'Trains with' on country pages; check.mjs validates exercises. Next: confirm full participant lists against official releases (e.g. other nations at Super Garuda Shield and Talisman Sabre), add Korean and Japanese–Australian exercises · Open
 - 2026-11-21 · Created. Exercises previously lived only inside each army's entries (17 named: Super Garuda Shield, Talisman Sabre, Keris Strike, Lembing Sakti, Wallaby, Tiger Balm, Forging Sabre, Thunder Warrior, Keris MAREX, Bersama Shield, Bersama Lima, Dynamic Front, Bold Quest, Orient Shield, CSTO exercises); no cross-army exercise view yet · Open (owner decision)
 
