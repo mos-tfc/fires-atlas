@@ -26,3 +26,4 @@ Every agent reads this before starting. **Sentry** owns it: add a row whenever a
 | L19 | Personal details in public places. | Never put the owner's name, email or unit in commits, pages or requests. Commits use the noreply address. | Review commit author and text. |
 | L20 | Secrets. | Never commit tokens, passwords or keys. They live in Cloudflare secrets or the GitHub app. | `git diff` before commit. |
 | L21 | Publishing without review. | Agents work on a branch and open a pull request. The owner merges. Nothing goes to `main` directly. | Adjutant checks no direct pushes. |
+| L22 | Indonesia was imported with 17 different "force" values (each service mix), which filled the Compare and Force pickers. | One force name per army (e.g. "Indonesian Army (TNI-AD)"), plus "Multiple" for joint, Marine-only or industry entries. Service detail goes in the entry text. | Count distinct `force` values per country before committing. |
