@@ -31,7 +31,7 @@ const CHANGELOG = [
   {
     version: '2026.12',
     date: '2026-11-16',
-    summary: 'Twelve United States modules and ten other armies (Russia, South Korea, Ukraine, China, Japan, Australia, North Korea, Indonesia, Malaysia, Singapore), with Developments news, Ranges, the Military Map and Sensor to Shooter chains. Added 20 November: equipment cards opened from the text, 190 short videos with a Videos tab, checked source links for most United States entries, and an A to Z Glossary.',
+    summary: 'Twelve United States modules and ten other armies (Russia, South Korea, Ukraine, China, Japan, Australia, North Korea, Indonesia, Malaysia, Singapore), with Developments news, Ranges, the Military Map and the Kill Chain. Added 20 November: equipment cards opened from the text, 190 short videos with a Videos tab, checked source links for most United States entries, and an A to Z Glossary.',
     changes: [
       { kind: 'new', entryId: "sgp-org-overview", topic: "singapore", summary: "New entry: Singapore Artillery and HQ Sense and Strike." },
       { kind: 'new', entryId: "sgp-org-storm", topic: "singapore", summary: "New entry: STORM Teams: One Forward Team for Artillery and Air Strikes." },
@@ -562,7 +562,7 @@ const TOPICS = [
   {
     key: "south-korea",
     country: "South Korea",
-    name: "Artillery and the Counter-Battery Chain",
+    name: "Artillery and the Counter-Battery Kill Chain",
     part: 5,
     order: 14,
     description: "How the Republic of Korea Army organises and equips its artillery to win the counter-battery fight against North Korea: doctrine, radars and fire control, the K9 family, mortars, rockets, missiles and loitering munitions."
@@ -17276,7 +17276,7 @@ const LESSONS = [
     topic: "russia",
     level: 2,
     order: 2,
-    title: "Command, Fallback and the Real Targeting Chain",
+    title: "Command, Fallback and the Real Kill Chain",
     objective: "After this lesson you can describe Russian artillery command vehicles, manual fallback and why counter-battery is slower than claimed.",
     intro: "The entries on 1V198 and on the real kill chain are reported or analysis, not confirmed.",
     entryIds: ["rus-eq-c2-legacy", "rus-eq-1v198", "rus-ttp-manual-met", "rus-ttp-cb-killchain"],
@@ -17360,7 +17360,7 @@ const LESSONS = [
     topic: "ukraine",
     level: 1,
     order: 2,
-    title: "The Digital Targeting Chain",
+    title: "The Digital Kill Chain",
     objective: "After this lesson you can describe Delta, GIS Arta and the gun-level apps, and how sensors feed them.",
     intro: "Software from volunteers became the backbone of Ukrainian fires.",
     entryIds: ["ukr-eq-delta", "ukr-eq-gisarta", "ukr-eq-kropyva", "ukr-ttp-sensors"],
@@ -18116,7 +18116,7 @@ function Library() {
   return (
     <div className="space-y-4">
       <div className="flex gap-2 overflow-x-auto pb-1">
-        {['Entries', 'Compare', 'Map', 'Ranges', 'Videos', 'Sensor to Shooter', 'Coverage', 'Glossary'].map((tab) => (
+        {['Entries', 'Compare', 'Map', 'Ranges', 'Videos', 'Kill Chain', 'Coverage', 'Glossary'].map((tab) => (
           <Chip key={tab} on={lib.tab === tab} onClick={() => setLib({ ...lib, tab })}>{tab}</Chip>
         ))}
       </div>
@@ -18163,7 +18163,7 @@ function Library() {
       {lib.tab === 'Coverage' && <Coverage />}
       {lib.tab === 'Map' && <MilitaryMap />}
       {lib.tab === 'Ranges' && <RangeRings />}
-      {(lib.tab === 'Sensor to Shooter' || lib.tab === 'Kill Chain') && <KillChain />}
+      {(lib.tab === 'Kill Chain' || lib.tab === 'Sensor to Shooter') && <KillChain />}
       {lib.tab === 'Glossary' && <GlossaryList />}
       {lib.tab === 'Videos' && <VideoLibrary />}
     </div>
@@ -18187,7 +18187,7 @@ const COMPARE_SIDES = (() => {
 
 const SECTION_LABELS = { Forces: 'Organisation', TTPs: 'Procedures', Equipment: 'Equipment', Training: 'Training', Lessons: 'Lessons' };
 
-// Settings of the Compare, Ranges, Map and Sensor to Shooter views, kept while the app is open so that
+// Settings of the Compare, Ranges, Map and Kill Chain views, kept while the app is open so that
 // opening an entry and pressing Back returns to the same armies, step and choices.
 const VIEW_MEMORY = Object.create(null);
 function useRemembered(key, init) {
@@ -18428,7 +18428,7 @@ function RangeRings() {
 }
 
 
-// ---------- sensor to shooter (formerly Kill Chain): animated find → decide → strike → assess ----------
+// ---------- kill chain: animated find → decide → strike → assess ----------
 const KC_POS = { S: [150, 52], C: [70, 178], G: [205, 196], G2: [292, 220], T: [330, 88] };
 const KC_PATH = {
   detect: 'M150,52 L330,88', laser: 'M150,52 L330,88', assess: 'M150,52 L330,88',
@@ -18475,14 +18475,14 @@ function KillChain() {
   return (
     <div className="space-y-3">
       <div>
-        <h2 className="text-xl font-bold">Sensor to Shooter</h2>
+        <h2 className="text-xl font-bold">Kill Chain</h2>
         <p className={`mt-1 text-sm ${t.muted}`}>How each army closes the loop from finding a target to striking it. Press Play, or step through.</p>
       </div>
       <div className="lg:hidden">{armyPick}</div>
       <div className="lg:grid lg:grid-cols-2 lg:gap-6">
       <div className={`sticky top-14 lg:top-20 self-start z-10 pb-2 ${t.page}`}>
         <Card className="!p-2 sm:!p-4">
-          <svg viewBox="0 0 400 260" className="w-full mx-auto block" style={{ maxWidth: diagMax(400, 44) }} role="img" aria-label={chain.c + ' sensor-to-shooter chain, step ' + (step + 1) + ': ' + cur.label}>
+          <svg viewBox="0 0 400 260" className="w-full mx-auto block" style={{ maxWidth: diagMax(400, 44) }} role="img" aria-label={chain.c + ' kill chain, step ' + (step + 1) + ': ' + cur.label}>
             <line x1="250" y1="10" x2="250" y2="250" stroke="currentColor" strokeOpacity="0.12" strokeDasharray="4 6" />
             <text x="390" y="250" fontSize="11" textAnchor="end" fill="currentColor" opacity="0.5">enemy side</text>
             {path && (
@@ -18862,7 +18862,7 @@ function HomeView() {
             { icon: Lightbulb, name: 'Developments', text: DEVELOPMENTS.items.length + ' news items and what they mean. Updated ' + DEVELOPMENTS.updated + '.', open: () => go('developments') },
             { icon: Target, name: 'Ranges', text: 'Guns, mortars and missiles compared as rings.', open: () => explore('Ranges') },
             { icon: Share2, name: 'Military Map', text: 'How the armies in this app link and compare.', open: () => explore('Map') },
-            { icon: Zap, name: 'Sensor to Shooter', text: 'Watch armies go from finding a target to striking it.', open: () => explore('Sensor to Shooter') }
+            { icon: Zap, name: 'Kill Chain', text: 'Watch armies go from finding a target to striking it.', open: () => explore('Kill Chain') }
           ].map((c) => (
             <button key={c.name} type="button" onClick={c.open} className={`flex flex-col text-left rounded-xl border p-3 sm:p-4 min-w-0 ${t.card}`}>
               <div className="flex items-start gap-1.5 sm:gap-2">
@@ -20330,7 +20330,7 @@ function WelcomeView({ first }) {
     ['Equipment Cards', 'Tap any underlined weapon or sensor for its photo, key figures, the armies that use it and where it was designed.'],
     ['Videos', 'Short clips of the equipment in action, filtered by country and weapon type, and in each equipment card.'],
     ['Ranges and Military Map', 'Weapon ranges as rings, and how the armies link and compare.'],
-    ['Sensor to Shooter', 'Watch armies go from finding a target to striking it, step by step, with sourced timings.'],
+    ['Kill Chain', 'Watch armies go from finding a target to striking it, step by step, with sourced timings.'],
     ['Developments', 'Recent artillery news, with what happened, what it means and what to watch next.'],
     ['Ask', 'A question in plain words, answered from the entries with links to them.']
   ];
