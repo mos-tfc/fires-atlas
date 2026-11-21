@@ -15,7 +15,7 @@ const kitCode = src.slice(a, b);
 
 const D = new Function(block + '\n' + kitCode + `
 return { CONTENT, CHANGELOG, TOPICS, APP_DATA, GLOSSARY, LESSONS, DEVELOPMENTS, EQUIPMENT_LINKS, EQUIPMENT_SPECS,
-  VIDEO_LINKS, VIDEO_META, RANGE_DATA, KILL_CHAINS, kitAliases };`)();
+  VIDEO_LINKS, VIDEO_META, RANGE_DATA, KILL_CHAINS, EXERCISES, kitAliases };`)();
 
 const fails = [], warns = [];
 const fail = (m) => fails.push(m), warn = (m) => warns.push(m);
@@ -52,6 +52,14 @@ for (const it of D.DEVELOPMENTS.items) for (const r of asList(it.relatedIds)) if
 // Ranges and kill chains point at real entries
 for (const r of D.RANGE_DATA) if (!ids.has(r.id)) fail(`Range ${r.n}: entry ${r.id} missing`);
 for (const c of D.KILL_CHAINS) for (const s of c.steps) if (s.id && !ids.has(s.id)) fail(`Kill chain ${c.c}: step entry ${s.id} missing`);
+
+// Exercises: entries exist, armies are armies in the app, every exercise has a linked source
+const armies = new Set(D.APP_DATA.map((e) => e.country));
+for (const x of asList(D.EXERCISES)) {
+  for (const id of asList(x.entryIds)) if (!ids.has(id)) fail(`Exercise ${x.id}: entry ${id} missing`);
+  for (const c of asList(x.armies)) if (!armies.has(c)) fail(`Exercise ${x.id}: "${c}" is not an army in the app (put it under "others")`);
+  if (!asList(x.sources).some((s) => s.url)) fail(`Exercise ${x.id}: no linked source`);
+}
 
 // Equipment: every listed system must open from its card's title or text
 const kits = new Map();
