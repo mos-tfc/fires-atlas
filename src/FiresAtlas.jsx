@@ -17593,14 +17593,16 @@ const LESSONS = [
 // ==========================================
 
 const SECTIONS = ['Forces', 'TTPs', 'Equipment', 'Training', 'Lessons'];
-// Echelons from smallest to largest. Equivalent levels share one filter step: a battery is the artillery company,
-// and a regiment (Japan, North Korea, Indonesia) sits between battalion and division like a brigade.
+// Echelons from smallest to largest. Equivalent levels share one filter step: a battery is the artillery company;
+// a regiment (Japan, North Korea, Indonesia) sits between battalion and division like a brigade; corps-sized "armies"
+// (China's group armies, Russia's combined arms armies, Japan's regional armies) sit with corps; Theatre covers theatre
+// and joint commands (China's theatre commands, Russia's military districts, Ukraine's operational commands).
 const ECHELON_LEVELS = [
   { label: 'Company / Battery', values: ['Company', 'Battery'] },
   { label: 'Battalion', values: ['Battalion'] },
   { label: 'Regiment / Brigade', values: ['Regiment', 'Brigade'] },
   { label: 'Division', values: ['Division'] },
-  { label: 'Corps', values: ['Corps'] },
+  { label: 'Corps / Army', values: ['Corps', 'Army'] },
   { label: 'Theatre', values: ['Theatre'] }
 ];
 const ECHELON_ORDER = ECHELON_LEVELS.flatMap((l) => l.values);
