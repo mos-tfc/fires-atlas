@@ -14,6 +14,7 @@ Status: Open · In progress · Waiting on owner · Done.
 | Observer | Weekly (Fri) | Learner feedback; review the app; propose improvements |
 | Instructor | Fortnightly | Lessons, links between entries, questions that make learners apply what they read |
 | Herald | After any user-facing change, and weekly (Sat) | Front page, What's New summary, hand-over notes |
+| Liaison | Monthly, and after each new army or exercise | Exercises between armies, partnerships, shared equipment, cross-army links |
 | Adjutant | Weekly (Sun) | Follow up every agent; one summary to the owner |
 
 ## Open items (carried over from the follow-up tracker, 20 Nov 2026)
@@ -54,5 +55,8 @@ Status: Open · In progress · Waiting on owner · Done.
 - 2026-11-21 · Singapore: 5 lessons, 35 exercises; corrected after Sentry (Primus weight, ST Engineering, Afghanistan question, unit numbers) · Done
 - 2026-11-21 · Malaysia: 5 lessons, 35 exercises, comparisons with the US and Indonesia · Done
 - 2026-11-20 · Indonesia: 5 lessons, 35 exercises (mostly scenario, one predict each on Indonesia's choices) · Done
+### Liaison
+- 2026-11-21 · Created. Exercises currently live only inside each army's entries (17 named: Super Garuda Shield, Talisman Sabre, Keris Strike, Lembing Sakti, Wallaby, Tiger Balm, Forging Sabre, Thunder Warrior, Keris MAREX, Bersama Shield, Bersama Lima, Dynamic Front, Bold Quest, Orient Shield, CSTO exercises); no cross-army exercise view yet · Open (owner decision)
+
 ### Adjutant
 - 2026-11-20 · Open: owner to review 36 Indonesian clips; Developments refresh about 4 Jan 2027 now includes Indonesia · Open

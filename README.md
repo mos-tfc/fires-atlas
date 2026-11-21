@@ -49,6 +49,7 @@ Claude Code subagents live in `.claude/agents/`. They are available in any Claud
 | Recce | Research lead: weekly news, monthly sweep; tasks the eleven country researchers (`recce-<country>`) |
 | Armourer | Videos, equipment cards, specs, country data |
 | Instructor | Lessons, links, exercises that make learners apply what they read |
+| Liaison | Links between armies: joint exercises, partnerships, shared equipment, cross-army links |
 | Adjutant | Weekly follow-up of all agents; summary to the owner |
 
 Checks: `node tools/check.mjs` (content, links between entries, equipment, videos, style) and
