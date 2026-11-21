@@ -15,22 +15,30 @@ Status: Open · In progress · Waiting on owner · Done.
 | Instructor | Fortnightly | Lessons, links between entries, questions that make learners apply what they read |
 | Herald | After any user-facing change, and weekly (Sat) | Front page, What's New summary, hand-over notes |
 | Liaison | Monthly, and after each new army or exercise | Exercises between armies, partnerships, shared equipment, cross-army links |
+| Signaller | Daily (max 3 prompts a day to the owner) | Research prompts, follow-ups, returns; learner experience |
+| Archivist | Until cleared | Public links for the ~37 US entries with named-only sources |
 | Adjutant | Weekly (Sun) | Follow up every agent; one summary to the owner |
 
 ## Open items (carried over from the follow-up tracker, 20 Nov 2026)
 
 - [ ] Owner: move the repository to the GitHub organisation; reconnect Cloudflare; new token (old one expires about 19 Dec 2026).
 - [ ] Owner: install the Claude GitHub app on the organisation, so scheduled agents can open pull requests.
-- [ ] Owner: run the gap-fill research prompts for the seven armies; Recce and Instructor load the results.
+- [ ] Owner: gap-fill research, paced by Signaller (max 3 a day; see ops/RESEARCH_QUEUE.md).
 - [x] Kill chains for China, Japan and North Korea (21 Nov 2026, from existing entries); second chains for US, Russia, Ukraine, South Korea, Australia, Malaysia, Singapore.
 - [ ] Ranges for Ukraine and Australia (after research). Indonesia has one chain only (no second sensor path well sourced).
 - [ ] 13 systems without a video, plus 4 Indonesian (Armourer).
 - [ ] Owner: review 64 pending clips (36 Indonesian, 22 Malaysian, 6 Singaporean) at ?review.
-- [ ] About 37 US entries name a source with no public link (Recce / Sentry: find public versions or leave named).
+- [ ] About 37 US entries name a source with no public link: Archivist searches; unresolved go to Signaller as one owner prompt; otherwise stay named (owner decision 21 Nov).
 - [ ] Developments refresh due about 4 Jan 2027 (Recce).
 - [x] Singapore added from the owner's open-source report (21 Nov 2026); FPDA partner list restored in the Malaysia JTAC entry.
 - [ ] Optional: the March 2026 Singapore Parliament discussion of Indonesia's KHAN missile, only if the official Hansard record (sprs.parl.gov.sg) is found; the report cited a third-party site.
 - [ ] Phone test of Videos tab, Glossary A to Z, equipment pills (owner).
+
+## Owner decisions (21 Nov 2026)
+- Retire the Google Sites front page (owner unpublishes it in Google; nothing in the app links to it).
+- Keep the Canvas copy as a backup.
+- Purge old Git history after the move to the GitHub organisation.
+- Add the feedback password as a cloud secret after the move.
 
 ## Log
 
@@ -59,6 +67,12 @@ Status: Open · In progress · Waiting on owner · Done.
 - 2026-11-21 · 19 links: added Freedom Shield (US–ROK), Southern Jackaroo (AUS–US–JPN–ROK), Joint Sea (China–Russia, naval), Operation Interflex/Kudu (Ukraine–Australia, training programme), Kursk (North Korea–Russia, operational cooperation); full 2025 participant lists for Super Garuda Shield (13 nations) and Talisman Sabre (19 nations). Every army now linked. Sources: official releases and established press; defence.gov.au and .mil pages verified by search (blocked to scripts) · Done
 - 2026-11-21 · EXERCISES data (14 exercises, 9 army-to-army links) built from entries; Military Map 'Joint Exercises' mode; 'Trains with' on country pages; check.mjs validates exercises. Next: confirm full participant lists against official releases (e.g. other nations at Super Garuda Shield and Talisman Sabre), add Korean and Japanese–Australian exercises · Open
 - 2026-11-21 · Created. Exercises previously lived only inside each army's entries (17 named: Super Garuda Shield, Talisman Sabre, Keris Strike, Lembing Sakti, Wallaby, Tiger Balm, Forging Sabre, Thunder Warrior, Keris MAREX, Bersama Shield, Bersama Lima, Dynamic Front, Bold Quest, Orient Shield, CSTO exercises); no cross-army exercise view yet · Open (owner decision)
+
+### Signaller
+- 2026-11-21 · Created; 7 current gap-fill prompts generated; day 1 handed to owner: Ukraine, China, South Korea · Handed out
+
+### Archivist
+- 2026-11-21 · Created; first pass started · In progress
 
 ### Adjutant
 - 2026-11-20 · Open: owner to review 36 Indonesian clips; Developments refresh about 4 Jan 2027 now includes Indonesia · Open

@@ -50,6 +50,8 @@ Claude Code subagents live in `.claude/agents/`. They are available in any Claud
 | Armourer | Videos, equipment cards, specs, country data |
 | Instructor | Lessons, links, exercises that make learners apply what they read |
 | Liaison | Links between armies: joint exercises, partnerships, shared equipment, cross-army links |
+| Signaller | Owner's research coordinator: max 3 prompts a day, follow-ups, returns; learner experience |
+| Archivist | Public links for entries that name a source without a link |
 | Adjutant | Weekly follow-up of all agents; summary to the owner |
 
 Checks: `node tools/check.mjs` (content, links between entries, equipment, videos, style) and
