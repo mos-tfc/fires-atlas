@@ -72,7 +72,7 @@ Status: Open · In progress · Waiting on owner · Done.
 - 2026-11-21 · Created; 7 current gap-fill prompts generated; day 1 handed to owner: Ukraine, China, South Korea · Handed out
 
 ### Archivist
-- 2026-11-21 · Created; first pass started · In progress
+- 2026-11-21 · First pass: 27 of 43 named sources linked across 25 entries (armypubs public releases, irp.fas.org, marines.mil, army.mil); FM 3-09 linked to the superseding 2024 edition; FM 3-09.8 citation corrected to TC 3-09.81; 11 sources queued for the owner's combined prompt; STANAG 4355 and the LLDR technical manual left named only · Done
 
 ### Adjutant
 - 2026-11-20 · Open: owner to review 36 Indonesian clips; Developments refresh about 4 Jan 2027 now includes Indonesia · Open

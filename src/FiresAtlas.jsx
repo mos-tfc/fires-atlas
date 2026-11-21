@@ -2303,8 +2303,8 @@ const APP_DATA = [
       'Pushing FOs to platoons solves line-of-sight blind spots in urban or broken terrain where one company OP cannot see everything.'
     ],
     sources: [
-      { title: 'ATP 3-09.30: Observed Fires', publisher: 'Headquarters, Dept. of the Army', year: '2017', url: '' },
-      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: '' }
+      {"title": "ATP 3-09.30, Observed Fires", "publisher": "Headquarters, Department of the Army", "year": "2017", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN5011_ATP%203-09x30%20FINAL%20WEB.pdf"},
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2335,8 +2335,8 @@ const APP_DATA = [
       'A 13A Captain FSO holds peer rank with company commanders and the battalion S-3, ensuring authority during clearance.'
     ],
     sources: [
-      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: '' },
-      { title: 'ATP 3-90.5: Combined Arms Battalion', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: '' }
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"},
+      {"title": "ATP 3-90.5, Combined Arms Battalion", "publisher": "Headquarters, Department of the Army", "year": "2021", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32974-ATP_3-90.5-000-WEB-1.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2483,7 +2483,7 @@ const APP_DATA = [
       'Centralising long-range rocket artillery at the corps level allows the commander to weight the main effort across a massive geographical frontage without physically repositioning assets across contested terrain.'
     ],
     sources: [
-      { title: 'FM 3-09 Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2024', url: '' }
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -2631,7 +2631,7 @@ const APP_DATA = [
       'Solves historic friction between air and ground components. Without the BCD, Army deep targets would be ignored in the ATO, and Air Force strikes might inadvertently target advancing friendly ground forces (fratricide).'
     ],
     sources: [
-      { title: 'ATP 3-09.13 The Battlefield Coordination Detachment', publisher: 'Headquarters, Dept. of the Army', year: '2015', url: '' }
+      {"title": "ATP 3-09.13, The Battlefield Coordination Detachment", "publisher": "Headquarters, Department of the Army", "year": "2015", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/atp3_09x13.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -2659,7 +2659,7 @@ const APP_DATA = [
       'While the BCD handles deliberate 72-hour planning, the ASOC and ALO solve the problem of immediate, dynamic combat execution, ensuring air power can be synchronised safely within minutes when troops take contact.'
     ],
     sources: [
-      { title: 'JP 3-09 Joint Fire Support', publisher: 'Joint Chiefs of Staff', year: '2019', url: '' }
+      {"title": "JP 3-09, Joint Fire Support", "publisher": "Joint Chiefs of Staff", "year": "2019", "url": "https://irp.fas.org/doddir/dod/jp3_09.pdf"}
     ],
     confidence: 'Reported',
     asOf: '2026-11',
@@ -2687,7 +2687,7 @@ const APP_DATA = [
       'Digital targeting systems transmit coordinates, but not context. These detachments solve the problem of pilot situational awareness, preventing fratricide and ensuring all assets operate from a unified targeting plan.'
     ],
     sources: [
-      { title: 'ATP 3-09.13 The Battlefield Coordination Detachment', publisher: 'Headquarters, Dept. of the Army', year: '2015', url: '' }
+      {"title": "ATP 3-09.13, The Battlefield Coordination Detachment", "publisher": "Headquarters, Department of the Army", "year": "2015", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/atp3_09x13.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -2716,7 +2716,7 @@ const APP_DATA = [
       'Ranging rounds warn the enemy to take cover or displace within 60 seconds and expose the firing battery to enemy counter-battery radars.'
     ],
     sources: [
-      { title: 'ATP 3-09.30: Observed Fires', publisher: 'Headquarters, Dept. of the Army', year: '2017', url: '' }
+      {"title": "ATP 3-09.30, Observed Fires", "publisher": "Headquarters, Department of the Army", "year": "2017", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN5011_ATP%203-09x30%20FINAL%20WEB.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2771,7 +2771,7 @@ const APP_DATA = [
       'A well-placed CFL lets artillery engage targets beyond a ridge or river immediately without waiting for voice clearance from manoeuvre companies.'
     ],
     sources: [
-      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: '' }
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -2853,7 +2853,7 @@ const APP_DATA = [
       'Eliminates line-of-sight blind spots without exposing human observers on prominent hilltops.'
     ],
     sources: [
-      { title: 'ATP 3-09.30: Observed Fires', publisher: 'Headquarters, Dept. of the Army', year: '2017', url: '' },
+      {"title": "ATP 3-09.30, Observed Fires", "publisher": "Headquarters, Department of the Army", "year": "2017", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN5011_ATP%203-09x30%20FINAL%20WEB.pdf"},
       { title: 'Congressional Research Service: US Army Transformation in Contact', publisher: 'CRS', year: '2024', url: '' }
     ],
     confidence: 'Confirmed',
@@ -3044,7 +3044,7 @@ const APP_DATA = [
       'Artillery is never held in reserve, but centralised at the highest level necessary. Centralising HIMARS at corps prevents fracturing the fleet across divisions, allowing the corps commander to mass overwhelming rocket fires at the decisive point.'
     ],
     sources: [
-      { title: 'FM 3-09 Fire Support and Field Artillery Operations', publisher: 'Headquarters Dept of the Army', year: '2024', url: '' }
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"}
     ],
     confidence: 'Reported',
     asOf: '2026-11',
@@ -3153,7 +3153,7 @@ const APP_DATA = [
       'Compresses sensor-to-shooter timelines from minutes to seconds and eliminates voice grid-transcription errors.'
     ],
     sources: [
-      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: '' }
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -3269,7 +3269,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'US Army Fires Center of Excellence (FCoE) Course Catalog', publisher: 'US Army', year: '2023', url: '' },
-      { title: 'TC 3-09.8: Fire Support Certification', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: '' }
+      {"title": "TC 3-09.8, Fire Support and Field Artillery Certification and Qualification", "publisher": "Headquarters, Department of the Army", "year": "2020", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN30053-TC_3-09.8-001-WEB-1.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',
@@ -5726,7 +5726,7 @@ const APP_DATA = [
       'Not stated in the source.'
     ],
     sources: [
-      { title: 'No. 25-999', publisher: 'Center for Army Lessons Learned', year: '2025', url: '' }
+      {"title": "Fires' Cell Transition to SBU-E (CALL No. 25-999, May 2025)", "publisher": "Center for Army Lessons Learned (U.S. Army)", "year": "2025", "url": "https://www.army.mil/article/285484/fires_cell_transition_to_sbu_e"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -5990,7 +5990,7 @@ const APP_DATA = [
       'One generator was a single point of failure for every digital system at once.'
     ],
     sources: [
-      { title: 'No. 25-999', publisher: 'Center for Army Lessons Learned', year: '2025', url: '' }
+      {"title": "Fires' Cell Transition to SBU-E (CALL No. 25-999, May 2025)", "publisher": "Center for Army Lessons Learned (U.S. Army)", "year": "2025", "url": "https://www.army.mil/article/285484/fires_cell_transition_to_sbu_e"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -6050,7 +6050,7 @@ const APP_DATA = [
     ],
     sources: [
       { title: 'FY24 CTC Trends, No. 25-07', publisher: 'Center for Army Lessons Learned', year: '2025', url: '' },
-      { title: 'No. 25-999', publisher: 'Center for Army Lessons Learned', year: '2025', url: '' }
+      {"title": "Fires' Cell Transition to SBU-E (CALL No. 25-999, May 2025)", "publisher": "Center for Army Lessons Learned (U.S. Army)", "year": "2025", "url": "https://www.army.mil/article/285484/fires_cell_transition_to_sbu_e"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -6310,8 +6310,8 @@ const APP_DATA = [
       'Without it, the battery’s rounds would spread unpredictably and not mass.'
     ],
     sources: [
-      { title: 'MCWP 3-16.7: Marine Artillery Survey Operations', publisher: 'US Marine Corps', year: '', url: '' },
-      { title: 'FM 3-09.8: Field Artillery Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: '' }
+      {"title": "MCRP 3-10E.6 (formerly MCWP 3-16.7), Marine Artillery Survey Operations", "publisher": "US Marine Corps", "year": "2002", "url": "https://www.marines.mil/Portals/59/Publications/MCRP%203-10E.6%20Formerly%20MCWP%203-16.7.pdf"},
+      {"title": "TC 3-09.81, Field Artillery Manual Cannon Gunnery", "publisher": "Headquarters, Department of the Army", "year": "2016", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc3_09x81.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -6373,7 +6373,7 @@ const APP_DATA = [
       'A gun with a badly worn barrel and a gun with a new barrel can then hit the same target at the same time.'
     ],
     sources: [
-      { title: 'TC 3-09.81: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: '' }
+      {"title": "TC 3-09.81, Field Artillery Manual Cannon Gunnery", "publisher": "Headquarters, Department of the Army", "year": "2016", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc3_09x81.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -6469,7 +6469,7 @@ const APP_DATA = [
       'Manual computation is significantly slower, and highly vulnerable to arithmetic error under stress.'
     ],
     sources: [
-      { title: 'TC 3-09.81: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: '' }
+      {"title": "TC 3-09.81, Field Artillery Manual Cannon Gunnery", "publisher": "Headquarters, Department of the Army", "year": "2016", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc3_09x81.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -6717,7 +6717,7 @@ const APP_DATA = [
       'That puts a renewed premium on the five requirements for accurate predicted fire (accurate met, survey and muzzle velocity), since the munition will not correct itself in flight.'
     ],
     sources: [
-      { title: 'Reporting on GPS jamming and guided munitions', publisher: 'Kyiv Post', year: '', url: '' }
+      {"title": "Analysis: Off Target – Are Kyiv’s GPS-Aided Weapons Susceptible to Kremlin EW Jamming?", "publisher": "Kyiv Post", "year": "2024", "url": "https://www.kyivpost.com/post/33448"}
     ],
     confidence: 'Reported',
     asOf: '2026-11',
@@ -8514,7 +8514,7 @@ const APP_DATA = [
       'The aim is to prove the network is resilient before combat, across more than one pathway.'
     ],
     sources: [
-      { title: 'TC 3-09.8, Field Artillery Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: '' }
+      {"title": "TC 3-09.8, Fire Support and Field Artillery Certification and Qualification", "publisher": "Headquarters, Department of the Army", "year": "2020", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN30053-TC_3-09.8-001-WEB-1.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10191,7 +10191,7 @@ const APP_DATA = [
       'The fires cell keeps allocations matched to the digital fire plan in AFATDS.'
     ],
     sources: [
-      { title: 'ATP 4-90: Brigade Support Battalion', publisher: 'Headquarters, Dept. of the Army', year: '2026', url: '' }
+      {"title": "ATP 4-90, Brigade Support Battalion", "publisher": "Headquarters, Department of the Army", "year": "2026", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45712-ATP_4-90-000-WEB-1.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10220,7 +10220,7 @@ const APP_DATA = [
       'Forward mechanics swap modules rather than attempt complex repair in contested areas. This shrinks the forward footprint and returns systems to the fight faster.'
     ],
     sources: [
-      { title: 'ATP 4-90: Brigade Support Battalion', publisher: 'Headquarters, Dept. of the Army', year: '2026', url: '' }
+      {"title": "ATP 4-90, Brigade Support Battalion", "publisher": "Headquarters, Department of the Army", "year": "2026", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45712-ATP_4-90-000-WEB-1.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10280,7 +10280,7 @@ const APP_DATA = [
       'Tracked howitzers use a great deal of diesel. A battery without fuel cannot make a survivability move.'
     ],
     sources: [
-      { title: 'ATP 4-90: Brigade Support Battalion', publisher: 'Headquarters, Dept. of the Army', year: '2026', url: '' }
+      {"title": "ATP 4-90, Brigade Support Battalion", "publisher": "Headquarters, Department of the Army", "year": "2026", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45712-ATP_4-90-000-WEB-1.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -10430,7 +10430,7 @@ const APP_DATA = [
       'Cannon ammunition stays modular to allow variable charges and many shell and fuze combinations.'
     ],
     sources: [
-      { title: 'ATP 3-09.50: The Field Artillery Cannon Battery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: '' }
+      {"title": "ATP 3-09.50, The Field Artillery Cannon Battery", "publisher": "Headquarters, Department of the Army", "year": "2016", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/atp3_09x50.pdf"}
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
