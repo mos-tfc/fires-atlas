@@ -20127,12 +20127,22 @@ function DevelopmentsView() {
   const [country, setCountry] = useRemembered('dev.country', null);
   const [topic, setTopic] = useRemembered('dev.topic', null);
   const [conf, setConf] = useRemembered('dev.conf', null);
+  const [year, setYear] = useRemembered('dev.year', null);
+  const [month, setMonth] = useRemembered('dev.month', null);
   const items = DEVELOPMENTS.items.slice().sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+  // Dates are YYYY-MM-DD, YYYY-MM or YYYY. Items with only a year sit under "Month not stated".
+  const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  const yearOf = (i) => String(i.date).slice(0, 4);
+  const monthOf = (i) => (String(i.date).length >= 7 ? String(i.date).slice(5, 7) : 'none');
+  const years = uniq(items.map(yearOf)).sort().reverse();
+  const inYear = items.filter((i) => !year || yearOf(i) === year);
+  const months = uniq(inYear.map(monthOf)).sort((a, b) => (a === 'none') - (b === 'none') || b.localeCompare(a))
+    .map((m) => ({ value: m, label: (m === 'none' ? 'Month not stated' : MONTHS[Number(m) - 1]) + ' (' + inYear.filter((i) => monthOf(i) === m).length + ')' }));
   // Featured armies A–Z, then Others (news from armies without their own lessons yet).
   const countries = uniq(items.map((i) => i.country)).sort(byCountry);
   const topics = uniq(items.map((i) => i.topic)).sort();
-  const shown = items.filter((i) => (!country || i.country === country) && (!topic || i.topic === topic) && (!conf || i.confidence === conf));
-  const filtered = country || topic || conf;
+  const shown = items.filter((i) => (!year || yearOf(i) === year) && (!month || monthOf(i) === month) && (!country || i.country === country) && (!topic || i.topic === topic) && (!conf || i.confidence === conf));
+  const filtered = year || month || country || topic || conf;
   return (
     <div className="space-y-4">
       <div>
@@ -20140,10 +20150,12 @@ function DevelopmentsView() {
         <p className={`mt-1 ${t.muted}`}>Selected artillery news from open sources, {DEVELOPMENTS.period}, newest first. Updated {DEVELOPMENTS.updated}. “So what” is analysis, not fact.</p>
       </div>
       <div className="flex flex-wrap items-center gap-2">
+        <Pick label="Year" value={year} options={years} onChange={(v) => { setYear(v); setMonth(null); }} />
+        <Pick label="Month" value={month} options={months} onChange={setMonth} />
         <Pick label="Country" value={country} options={countries} onChange={setCountry} />
         <Pick label="Topic" value={topic} options={topics} onChange={setTopic} />
         <Pick label="Confidence" value={conf} options={uniq(items.map((i) => i.confidence))} onChange={setConf} />
-        {filtered && <button type="button" className={`text-sm font-semibold ${t.link}`} onClick={() => { setCountry(null); setTopic(null); setConf(null); }}>Clear filters</button>}
+        {filtered && <button type="button" className={`text-sm font-semibold ${t.link}`} onClick={() => { setYear(null); setMonth(null); setCountry(null); setTopic(null); setConf(null); }}>Clear filters</button>}
       </div>
       <p className={`text-sm ${t.muted}`}>{shown.length} of {items.length} items</p>
       {shown.length === 0 ? <Empty>No items match these filters.</Empty> : (
