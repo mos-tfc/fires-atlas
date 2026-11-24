@@ -4,6 +4,8 @@ UPDATE 3 of 3: Southeast Asia and Oceania. This prompt covers 4 armies: Australi
 
 Today’s date is 24 November 2026. Use it as the end of every period below.
 
+RESEARCH PLAN. Build your plan with one step per army (Australia, Indonesia, Malaysia, Singapore), each searching all six headings for that army’s own period, then a final step to check every source link. Do not merge armies into one step or drop any heading.
+
 Each army has its own start date: report only what is new or changed between that date and today. Work through the armies in the order given, under one heading per army, and give each the same depth. If you run short of space, finish the army you are on and write "STOPPED AT: <army>" so the rest can be done in a second pass. Do not shorten later armies to fit.
 
 SOURCE RULES (read first)

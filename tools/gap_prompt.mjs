@@ -38,6 +38,7 @@ out.push(`You are researching artillery and fire support for a learning referenc
 out.push(`Country: ${country}`, withChanges
   ? `Research period: ${sinceText} to today. The reference is already current to ${sinceText}. TASK A asks only for what is new or changed since then. The other tasks are standing gaps with no date limit; use the best source of any date for them.`
   : 'This prompt fills standing gaps in the reference; there is no date limit, so use the best source of any date. Recent news is collected separately.', '');
+out.push('RESEARCH PLAN. Build your plan with one step for each TASK below, then a final step to check every source link. Do not drop any task.', '');
 out.push('SOURCE RULES (read first)', '- Every source must be a real page you opened. Give the exact page title, the publisher, the year and the full URL.',
   '- Do not build or guess URLs. If you cannot find a working link, give the title and publisher and write "No link found".',
   '- Prefer official government and armed forces pages, parliamentary and audit reports, recognised research institutes and established defence press. Mark manufacturer, state-media and single-source claims "Reported".',

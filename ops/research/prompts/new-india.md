@@ -3,6 +3,8 @@ You are researching artillery and fire support for a learning reference used by 
 Country: India
 Research date: 2026-11-24. Describe the position as of today. Include history only where it explains today’s practice. Give every date you can as day, month and year.
 
+RESEARCH PLAN. Build your plan with one step for each Part below (A to I), then a final step to check every source link. Do not drop any Part.
+
 SOURCE RULES (read first)
 - Every source must be a real page you opened. Give the exact title as it appears on the page, the publisher, the date and the full URL.
 - Do not build or guess URLs (for example by changing an ID number in a link). If you cannot find a working link, give the title and publisher and write "No link found".

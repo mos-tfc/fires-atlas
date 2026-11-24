@@ -44,6 +44,7 @@ const out = [];
 out.push('You are researching artillery and fire support for a learning reference used by military professionals. Use open sources only. Do not use classified, restricted, export-controlled or leaked material.', '');
 out.push(`UPDATE ${bi + 1} of ${batches.length}: ${region}. This prompt covers ${armies.length} ${armies.length === 1 ? 'army' : 'armies'}: ${armies.join(', ')}.`, '');
 out.push(`Today’s date is ${fmt(todayISO)}. Use it as the end of every period below.`, '');
+out.push(`RESEARCH PLAN. Build your plan with one step per army (${armies.join(', ')}), each searching all six headings for that army’s own period, then a final step to check every source link. Do not merge armies into one step or drop any heading.`, '');
 out.push(`Each army has its own start date: report only what is new or changed between that date and today. Work through the armies in the order given, under one heading per army, and give each the same depth. If you run short of space, finish the army you are on and write "STOPPED AT: <army>" so the rest can be done in a second pass. Do not shorten later armies to fit.`, '');
 out.push('SOURCE RULES (read first)', '- Every source must be a real page you opened. Give the exact page title, the publisher, the date and the full URL.',
   '- Do not build or guess URLs. If you cannot find a working link, give the title and publisher and write "No link found".',
