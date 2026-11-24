@@ -1,0 +1,738 @@
+Northeast Asia Artillery and Fire Support
+Update (1 May – 24 November 2026)
+
+This reference update records open-source artillery and fire-support developments for China,
+Japan, North Korea, and South Korea between 1 May 2026 and 24 November 2026. Across all
+four armies, recent activity focused on extending tube, rocket, and stand-off missile reach,
+automating fire control, and fielding layered counter-drone defences around firing positions. Two
+factual corrections apply to China's existing baseline entries: the Strategic Support Force was
+disbanded on 19 April 2024, and the Victory Day Parade featuring the PHL-16 rocket launcher
+took place on 3 September 2025 rather than 3 September 2026.
+Every entry draws solely on open sources within the stated period, except under Corrections
+where confirmed earlier facts rectify existing records. Lines resting on press, state-media,
+manufacturer, or single-source claims begin with "Reported:". Where intelligence agencies
+disagree—notably on North Korean shell and troop transfers to Russia—each figure is listed
+with its own source.
+China
+
+Reporting period: 1 May 2026 to 24 November 2026.
+
+1. Equipment
+
+ ● Reported: 22 November 2026 — The People's Liberation Army (PLA) has deployed at
+ least two high-power microwave (HPM) air-defence systems to counter small first-person
+ view (FPV) drones and swarms. Named directed-energy and kinetic counter-drone
+ equipment includes the Norinco OW5-A50 and CASIC LW-30 lasers, the CASIC FK-4000
+ HPM system, and programmable airburst ammunition releasing 152 tungsten-alloy
+ sub-projectiles. The PLA is also evaluating cable-cutting lasers, bladed interceptor UAVs,
+ and rotating wire barriers against fibre-optic guided drones. Source: How is the PLA
+ countering small FPV drones and their swarms?, South China Morning Post, 22
+ November 2026,
+ https://amp.scmp.com/news/china/military/article/3375313/how-pla-countering-small-fpv-d
+ rones-and-their-swarms.
+ ● Reported: 18 November 2026 — A PLA Army artillery regiment fielded an intelligent
+ artillery calibration robot nicknamed the "robot squad leader" to improve technical gunnery
+ accuracy on high-altitude plateaus. Developed with manufacturer researchers after July
+ 2025 and loaded with more than 3,000 cold, high-wind, high-altitude datasets, the system
+ automates pre-firing technical inspections and builds per-gun ballistic databases.
+ Accompanying state-media imagery showed a PLZ-89 self-propelled howitzer in live-fire
+ training. Source: PLA Army develops artillery calibration robot to improve firing accuracy
+ on plateaus, Global Times (citing PLA Daily), 18 November 2026,
+ https://www.globaltimes.cn/page/202611/1374569.shtml.
+ ● Reported: 19 July 2026 — China Military Online and the Ministry of National Defense
+ released footage of a PLA Ground Force artillery unit conducting live-fire training with a
+ PHL-191 modular rocket launcher delivering airburst fragmentation detonations. Press
+ visual analysis assessed the two four-round pods as the 370mm rocket configuration
+ (reported range 280–350 km). Official sources did not disclose the rocket designation,
+ fuze mechanism, firing range, or measured accuracy. Source: China’s PHL-191 MLRS
+ Shows How Airburst Munitions Could Transform Modern Battlefield Suppression, Army
+ Recognition (citing China Military Online / Ministry of National Defense), 19 July 2026,
+ https://www.armyrecognition.com/news/army-news/2026/chinas-phl-191-mlrs-shows-how-
+ airburst-munitions-could-transform-modern-battlefield-suppression.
+ ● Reported: 12 May 2026 — State television (CCTV-7) broadcast footage of a PGZ-09
+ self-propelled anti-aircraft gun battery from the 16th Heavy Combined Arms Regiment, 6th
+ Combined Arms Division (Xinjiang Military District) firing a new 35mm round at target
+ drones simulating cruise missiles. The barrels lacked muzzle-mounted electromagnetic
+ induction coils, leading U.S. Army University analysts to assess the projectile as an
+ armour-piercing discarding sabot (APDS) or similar kinetic round. The round is assessed
+ to address thick-cased precision glide bombs such as JDAM-LR that standard AHEAD
+ airburst sub-projectiles struggle to penetrate. Source: Air Defense Live-Fire Exercise
+ Indicates the PLAA Is Focusing on Destroying New Air Threats, Army University (China
+ Landpower Studies Center, citing 12 May 2026 CCTV broadcast), 2026,
+ https://www.army.edu/News/View/Article/4580220/air-defense-live-fire-exercise-indicates-t
+ he-plaa-is-focusing-on-destroying-new/.
+
+2. Organisation
+
+No change found.
+Searches run: PLA artillery brigade OR "artillery academy" OR "fire direction" OR sustainment
+2026 site:eng.mod.gov.cn OR site:janes.com; PLA "Information Support Force" "Strategic
+Support Force" disbanded command 2026; PLA artillery howitzer rocket launcher "PHL-191" OR
+"PCL-181" OR "PLZ-05" 2026. Sites and outlets checked: Ministry of National Defense of the
+PRC (eng.mod.gov.cn), Janes (janes.com), China Aerospace Studies Institute
+(airuniversity.af.edu), Defense News, Global Times, South China Morning Post.
+
+3. Doctrine, training and schools
+
+No change found.
+Searches run: PLA artillery brigade OR "artillery academy" OR "fire direction" OR sustainment
+2026 site:eng.mod.gov.cn OR site:janes.com; China PLA loitering munition drone artillery
+counter-battery radar 2026; "Airshow China 2026" OR "Zhuhai" November 2026 artillery
+howitzer rocket loitering munition. Sites and outlets checked: Ministry of National Defense of the
+PRC (eng.mod.gov.cn), Janes (janes.com), China Aerospace Studies Institute
+(airuniversity.af.edu), CSIS (csis.org), Global Times.
+
+4. Exercises with a fires element
+
+ ● 14 November 2026 (published) — Unnamed PLA Army brigade live-fire training
+ exercise, undisclosed location, China only. An artillery unit attached to a PLA Army
+ brigade conducted live-fire training using PCL-181 155mm wheeled self-propelled
+ howitzers. Source: Artillery troops unleash firepower, Ministry of National Defense of the
+ People's Republic of China (China Military Online), 14 November 2026,
+ http://eng.mod.gov.cn/2025xb/D/P_251753/16499717.html.
+ ● Reported: 4–5 October 2026 — Unnamed PLA layered counter-drone live-fire drills
+ (termed an "Iron Triangle" test in press coverage), undisclosed desert training area, China
+ only. PLA counter-UAS units conducted day and night engagements against simulated
+ low-altitude drone swarms using radar detection, laser dazzling, high-power microwave
+ emitters, interceptor drones, and kinetic anti-aircraft guns and missile-gun systems. Press
+ reporting identified kinetic elements as including Type 625 systems, 35mm PG99 guns,
+ and HQ-16 missiles. Sources: China “tests layered approach to countering drone
+ swarms”, Unmanned airspace (citing CCTV News / Global Times), 5 October 2026,
+ https://www.unmannedairspace.info/counter-uas-systems-and-policies/china-tests-layered
+ -approach-to-countering-drone-swarms/; China's state television airs rare footage of PLA
+ anti-drone laser, microwave equipment in live-fire drills, Global Times, 4 October 2026,
+ https://www.globaltimes.cn/page/202610/1371681.shtml; China Tests 'Iron Triangle'
+ System to Counter Drone Swarms in Major Military Exercise, Modern Diplomacy, 13
+ October 2026,
+ https://moderndiplomacy.eu/2026/10/13/china-tests-iron-triangle-system-to-counter-drone-
+ swarms-in-major-military-exercise/.
+ ● Mid-to-late September 2026 — Unnamed PLA Army brigade long-range rocket artillery
+ live-fire training exercise, undisclosed location, China only. A long-range rocket artillery
+ unit fired PHL-191 modular multiple launch rocket systems during field training. Source:
+ Long-Range Modular MLRS opens fire in training, Ministry of National Defense of the
+ People's Republic of China (China Military Online), September 2026,
+ http://eng.mod.gov.cn/2025xb/D/P_251753/16490639.html.
+ ● 13–16 September 2026 (published) — Unnamed PLA Army 76th Group Army and
+ plateau brigade artillery live-fire exercises, plateau area and undisclosed field sites, China
+ only. Artillery brigades manoeuvred into firing areas and conducted day-and-night live-fire
+ training across multiple artillery weapon types. Sources: Artillery troops unleash firepower,
+ Ministry of National Defense of the People's Republic of China (China Military Online), 16
+ September 2026, http://eng.mod.gov.cn/2025xb/H_251589/F/16486843.html; Artillerymen
+ Conduct Live-fire Combat Training, Ministry of National Defense of the People's Republic
+ of China (China Military Online), 13 September 2026,
+ http://eng.mod.gov.cn/2025xb/D/V/16485206.html.
+ ● 14 June 2026 (published) — Unnamed PLA Army brigade anti-aircraft artillery live-fire
+ training exercise, undisclosed location, China only. Anti-aircraft artillery troops fired
+ self-propelled anti-aircraft guns across multi-subject air-defence scenarios. Source:
+ Anti-Aircraft Artillery Troops Conduct Live-fire Training, Ministry of National Defense of the
+ People's Republic of China (China Military Online), 14 June 2026,
+ http://eng.mod.gov.cn/2025xb/D/V/16467118.html.
+
+5. Operations and lessons
+
+ ● 7 October 2026 — A Center for Strategic and International Studies (CSIS) review of
+ Chinese military literature found that the PLA National Defense University Joint
+ Operations College studies Russia's three-to-five-minute target-to-strike cycle, in which
+ Orlan-10 reconnaissance drones cue Kub and Lancet loitering munitions. Rather than
+ copying foreign airframes, PLA planners prioritise wiring drones directly into artillery and
+ command networks while treating electronic warfare as a deciding factor. The review
+ noted that China runs dedicated drone-swarm versus counter-drone trials and feeds
+ defensive requirements from Ukrainian strikes directly into domestic manufacturing.
+ Source: Learning Without Bleeding: China’s Lessons from the Russia-Ukraine Drone War,
+ Center for Strategic and International Studies (CSIS), 7 October 2026,
+ https://www.csis.org/analysis/learning-without-bleeding-chinas-lessons-russia-ukraine-dro
+ ne-war.
+
+6. Corrections
+
+ ● 3 September 2025 (correction to misdated 2026-09-03 news item) — The recorded
+ news item 2026-09-03 China Parades the PHL-16 Rocket Launcher is misdated by one
+ year. China's Victory Day Parade displaying the PHL-16 (PHL-191) rocket launcher took
+ place on 3 September 2025. Sources: China’s PHL-191 MLRS Shows How Airburst
+ Munitions Could Transform Modern Battlefield Suppression, Army Recognition, 19 July
+ 2026,
+ https://www.armyrecognition.com/news/army-news/2026/chinas-phl-191-mlrs-shows-how-
+ airburst-munitions-could-transform-modern-battlefield-suppression; 2025 China Victory
+ Day Parade, Wikipedia, accessed November 2026,
+ https://en.wikipedia.org/wiki/2025_China_Victory_Day_Parade.
+ ● 19 April 2024 (correction to out-of-date entry) — The existing entry Strategic Support
+ Force and the Integrated Command Platform is out of date because China disbanded the
+ Strategic Support Force (SSF) on 19 April 2024. Its missions were divided among three
+ independent arms reporting directly to the Central Military Commission: the Information
+ Support Force (network information systems and communications), the Cyberspace
+ Force, and the Aerospace Force, alongside the existing Joint Logistics Support Force.
+ Sources: Why China axed the Strategic Support Force and reshuffled the military,
+ Defense News, 26 April 2024,
+ https://www.defensenews.com/global/asia-pacific/2024/04/26/why-china-axed-the-strategi
+ c-support-force-and-reshuffled-the-military/; PLA Aerospace Power: A Primer on Trends in
+ China's Military Air, Space, and Missile Forces (5th Edition), China Aerospace Studies
+ Institute (CASI), Air University, May 2026,
+ https://www.airuniversity.af.edu/Portals/10/CASI/documents/2026-05-01%20PLA%20Prim
+ er%205th%20Edition.pdf?ver=Yqh5P4RozjLqD3H1qusJ1g%3D%3D.
+
+Entry impact (China)
+
+ ● PLA counter-FPV laser, HPM, programmable airburst, and fibre-optic drone
+ countermeasures (22 November 2026): New entry (Counter-Fire and Force Protection).
+ ● Plateau artillery calibration robot ("robot squad leader") (18 November 2026): New entry
+ (Technical Fire Direction and Gunnery).
+ ● PHL-191 airburst fragmentation rocket live-fire demonstration (19 July 2026) and
+ September 2026 PHL-191 training: Updates PHL-191 (PHL-16) Modular Rocket
+ Launcher.
+ ● PGZ-09 new 35mm kinetic round against glide bombs and drones (12 May 2026) and
+ June 2026 SPAAG live-fire training: New entry (Counter-Fire and Force Protection).
+ ● PCL-181 live-fire training (14 November 2026): Updates PCL-181 155mm Truck Howitzer.
+ ● PLA layered counter-drone desert live-fire drills (4–5 October 2026): New entry
+ (Counter-Fire and Force Protection).
+ ● 76th Group Army and plateau artillery live-fire training (13–16 September 2026): Updates
+ Group Armies and Combined Arms Brigades.
+ ● CSIS review of PLA lessons from Russia-Ukraine drone and artillery warfare (7 October
+ 2026): New entry (Loitering Munitions and Armed Drones; Counter-Fire and Force
+ Protection; Sustainment).
+ ● Correction on 3 September 2025 Victory Day Parade date: Updates PHL-191 (PHL-16)
+ Modular Rocket Launcher (and re-dates recorded news item 2026-09-03 China Parades
+ the PHL-16 Rocket Launcher).
+ ● Correction on SSF dissolution into ISF, Cyberspace Force, and Aerospace Force:
+ Updates Strategic Support Force and the Integrated Command Platform.
+Japan
+
+Reporting period: 1 May 2026 to 24 November 2026.
+
+1. Equipment
+
+ ● Reported: 4 October 2026 — The 8×8 dual-canister mobile launcher for Japan's Type 25
+ Hyper Velocity Gliding Projectile (HVGP) was observed operating at Japan Ground
+ Self-Defense Force (JGSDF) Camp Fuji in Shizuoka Prefecture for initial fielding and
+ operational evaluation. Defense Minister Shinjiro Koizumi described the Type 25
+ deliveries as the first operational delivery of domestically produced stand-off missiles to
+ Japanese units. Japan's Ministry of Defense states a Block 1 range of several hundred
+ kilometres, whereas Japanese media report up to 900 km; warhead storage at Camp Fuji
+ has not been disclosed. Sources: Japan's Type 25 Hyper Velocity Gliding Projectile
+ (HVGP) Mobile Launcher Spotted Operating at Camp Fuji, Times of Defence, 4 October
+ 2026,
+ https://www.timesofdefence.com.tr/japans-type-25-hyper-velocity-gliding-projectile-hvgp-
+ mobile-launcher-spotted-operating-at-camp-fuji/; Japan deploys Type 25 HVGP to Camp
+ Fuji, expands to Hokkaido and Kyushu, Industrial Base Alpha (secondary brief citing
+ Defence Blog), 4 October 2026,
+ https://industrialbasealpha.com/article/japan-deploys-type-25-hvgp-to-camp-fuji-expands-t
+ o-hokkaido-and-kyushu.
+ ● Reported: 3 October 2026 — The JGSDF displayed the ground launch equipment of its
+ Type 25 Surface-to-Ship Guided Missile (25SSM) to the public for the first time at Camp
+ Kengun in Kumamoto Prefecture. The Type 25 is an upgraded Type 12 cruise missile with
+ a nominal range of 1,000 km. The display took place sixteen days before the system's first
+ deployment in a large-scale field exercise. Source: Japan Puts Type 25 Missile on Public
+ View Before Keen Sword, Defense WarRoom, 4 October 2026,
+ https://defensewarroom.com/2026/10/04/japan-type-25-missile-kumamoto-display/.
+
+2. Organisation
+
+No change found. (Note: Press reporting noted Ministry of Defense plans to form new HVGP
+units at Camp Kamifurano in Hokkaido and Camp Ebino in Kyushu during fiscal 2026, ending
+March 2027, but unit activation had not been confirmed by 24 November 2026.)
+Searches run: Japan JGSDF "Surface-to-Ship Missile
+Reg[span_39](start_span)[span_39](end_span)iment" OR artillery unit formed OR disbanded
+OR "Fuji School" OR "JTPS-P16" 2026; Japan JGSDF artillery "Type 19" OR "Type 12" OR
+"Type 25" OR HVGP OR "Vulcano" OR "loitering munition" 2026. Sites and outlets checked:
+Japan Ministry of Defense (mod.go.jp), U.S. Army (army.mil), U.S. Indo-Pacific Command
+(pacom.mil), Naval News, Defence Blog, Defense WarRoom.
+
+3. Doctrine, training and schools
+
+No change found.
+Searches run: Japan JGSDF "Surface-to-Ship Missile Regiment" OR artillery unit formed OR
+disbanded OR "Fuji School" OR "JTPS-P16" 2026; Japan JGSDF "Type 19" OR "Vulcano" OR
+"loitering munition" OR "Type 25" HVGP OR "Camp Fuji" OR ammunition 2026. Sites and
+outlets checked: Japan Ministry of Defense (mod.go.jp, including Defense of Japan 2026 PDF),
+U.S. Army Pacific (usarpac.army.mil), Japan Forward, Naval News.
+
+4. Exercises with a fires element
+
+ ● 19–29 October 2026 — Exercise Keen Sword 27, held at Camp Ishigaki, the Ōnohara
+ training area in Nagasaki Prefecture, and bases across Kyushu and Okinawa.
+ Participating nations: Japan, United States, Australia, Canada, France, Germany,
+ Netherlands, New Zealand, and the Philippines. The JGSDF Western Army's 4th Division
+ and 2nd Artillery Brigade (parent formation of Kyushu's missile regiments, including the
+ Camp Kengun-based 5th Surface-to-Ship Missile Regiment) deployed the Type 25
+ Surface-to-Ship Guided Missile to Ōnohara to rehearse over-the-horizon anti-ship
+ engagements using targeting data from U.S. forces and higher headquarters; Western
+ Army did not disclose whether live Type 25 missiles were fired. Ahead of the opening,
+ U.S. Marines embarked an NMESIS anti-ship missile launcher onto a Japan Air
+ Self-Defense Force C-130 at Naha, Okinawa, on 17 October 2026. Sources: Japanese
+ troops drill with new long-range ship-killer missile, Defence Blog, 26 October 2026,
+ https://defence-blog.com/japanese-troops-drill-with-new-long-range-ship-killer-missile/;
+ KEEN SWORD 27 | NMESIS, III Marine Expeditionary Force (U.S. Marine Corps), 17
+ October 2026, https://www.iiimef.marines.mil/UnitHome?videoid=606697.
+ ● 17–24 September 2026 — Exercise Orient Shield 26, held at Camp Higashi-Chitose and
+ Yausubetsu Training Area, Hokkaido, Japan. Participating nations: Japan (JGSDF
+ Northern Army's 11th Brigade), United States (U.S. Army Pacific and 11th Airborne
+ Division), and Australia (HQ 1st (Australian) Division, combat brigades, 17th Sustainment
+ Brigade, and 10th Fires Brigade). On 22 September at Yausubetsu, JGSDF crews fired
+ MLRS rockets alongside trilateral U.S., Japanese, and Australian HIMARS live-fire
+ manoeuvres, linked through integrated tactical operations centres that produced
+ combined standard operating procedures for Orient Shield 27. Sources: “Preparation
+ Becomes Tomorrow's Shield” as Orient Shield 26 Closes, U.S. Army Pacific, 25
+ September 2026,
+ https://www.usarpac.army.mil/Our-Story/Our-News/Article-Display/Article/4612113/prepar
+ ation-becomes-tomorrows-shield-as-orient-shield-26-closes/; US, Japan, Australia
+ Showcase Strong Partnership at Orient Shield 2026 Opening Ceremony, U.S. Army, 17
+ September 2026,
+ https://www.army.mil/article/295427/us_japan_australia_showcase_strong_partnership_at
+ _orient_shield_2026_opening_ceremony.
+ ● Reported: 7 June 2026 — FY2026 Fuji Combined Firepower Exercise (Reiwa 8 Fuji Sōgō
+ Karyoku Enshū), East Fuji Manoeuvre Area, Shizuoka Prefecture, Japan only. Conducted
+ around a remote island defence scenario, the drill featured live firing by JGSDF heavy
+ mortars, artillery, tanks, and missiles. Coverage also noted the public debut of stand-off
+ counterstrike missile equipment and unmanned vehicles. Sources: [Supersonic Missiles
+ Debut] JGSDF Fuji Firepower Exercise with Remote Island Defense Scenario, Nikkei
+ (YouTube), June 2026, https://www.youtube.com/watch?v=TF3I2fbSK6A; 2026 Fuji
+ Firepower Exercise Preview (Heavy Mortar Personnel Edition), JGSDF Official Channel
+ (YouTube), May–June 2026, https://www.youtube.com/watch?v=GDpgfUcVt_w.
+
+5. Operations and lessons
+
+No change found.
+Searches run: Japan JGSDF artillery "Type 19" OR "Type 12" OR "Type 25" OR HVGP OR
+"Vulcano" OR "loitering munition" 2026; Japan JGSDF artillery live fire "Orient Shield 26" OR
+"Keen Sword 27" OR "Resolute Dragon 26" OR "Fuji Firepower" 2026. Sites and outlets
+checked: Japan Ministry of Defense (mod.go.jp), U.S. Army Pacific (usarpac.army.mil), Defence
+Blog, Naval News, Japan Forward.
+
+6. Corrections
+
+No change found.
+Searches run: Japan JGSDF artillery "Type 19" OR "Type 12" OR "Type 25" OR HVGP OR
+"Vulcano" OR "loitering munition" 2026; Japan JGSDF "Surface-to-Ship Missile Regiment" OR
+artillery unit formed OR disbanded OR "Fuji School" OR "JTPS-P16" 2026. Sites and outlets
+checked: Japan Ministry of Defense (mod.go.jp), Naval News, Defence Blog, Defense
+WarRoom, Wikipedia.
+
+Entry impact (Japan)
+
+ ● Type 25 HVGP mobile launcher observed operating at Camp Fuji (4 October 2026):
+ Updates Type 25 Long-Range Missiles and the Glide Projectile.
+ ● Type 25 SSM first public display at Camp Kengun (3 October 2026): Updates Type 25
+ Long-Range Missiles and the Glide Projectile and Surface-to-Ship Missile Regiments.
+ ● Exercise Keen Sword 27 Type 25 SSM drill with U.S. targeting integration (19–29 October
+ 2026): Updates Type 25 Long-Range Missiles and the Glide Projectile, Surface-to-Ship
+ Missile Regiments, and Combined Fires with US and Australian Artillery (expands
+ recorded news item 2026 Japan Fields the Type 25 Anti-Ship Missile in Exercises).
+ ● Exercise Orient Shield 26 MLRS and HIMARS live fire (17–24 September 2026): Updates
+ Combined Fires with US and Australian Artillery.
+ ● FY2026 Fuji Combined Firepower Exercise (7 June 2026): Updates The 120mm RT and
+ 81mm L16 Mortars, The Fuji School: Artillery Doctrine and Gunnery, and Type 25
+ Long-Range Missiles and the Glide Projectile.
+North Korea
+
+Reporting period: 1 May 2026 to 24 November 2026.
+1. Equipment
+
+ ● Reported: 22 September 2026 (published 24 September 2026) — North Korea
+ test-fired newly developed 240mm guided rockets equipped with an autonomous
+ precision-guidance system, assessed by 38 North to have been fired from the 425th
+ Mechanized Infantry Division headquarters in Sukchon County, South Pyongan Province,
+ flying 50–60 km toward an island target. State media (KCNA) claimed the munition
+ reaches 100 km in ballistic flight and 115 km in combined glide-flight mode. 38 North
+ assesses that while 2024-variant 67 km guided rockets are entering frontline units, the
+ 2026 extended-range rockets remain in development and testing. Sources: Modernizing
+ North Korea's 240 mm MLRS: Precision, Automation, and Extended Range, 38 North
+ (The Henry L. Stimson Center), 3 November 2026,
+ https://www.38north.org/2026/11/modernizing-north-koreas-240-mm-mlrs-precision-autom
+ ation-and-extended-range/; North Korea touts upgraded rocket system, urges stronger
+ firepower along border, Asia News Network (The Korea Herald), 25 September 2026
+ (updated 18 November 2026),
+ https://asianews.network/north-korea-touts-upgraded-rocket-system-urges-stronger-firepo
+ wer-along-border/.
+ ● Reported: 16–18 September 2026 (published 19 September 2026) — During a
+ munitions plant tour by Kim Jong Un, Rodong Sinmun published images of drone
+ production lines showing the Saetbyol-4 reconnaissance UAV, the Saetbyol-9 armed UAV
+ (at least six airframes visible), and an unnamed Harop-like loitering munition mounted six
+ per launch vehicle. Factory locations, output rates, and verified performance figures were
+ not disclosed. Source: North Korea Shows Its Drone Production Lines, Not Just Its
+ Drones, MigFlug Afterburner (citing Rodong Sinmun, 19 September 2026), 19 September
+ 2026,
+ https://migflug.com/afterburner/es/north-korea-drone-production-lines-saetbyol-kim-jong-u
+ n-2026/.
+ ● Reported: 25 July 2026 — Under Kim Jong Un's supervision, North Korea tested new
+ division-to-corps firepower systems, unveiling a 24-tube 240mm MLRS (expanded from
+ 12-tube M1985 and 22-tube M1991 launchers) firing 90 km extended-range guided
+ rockets with an automated fire-support process. The same test included extended-range
+ ammunition for 155mm self-propelled howitzers and tactical ballistic missiles. 38 North
+ assesses that the 24-tube launcher and 90 km rockets remain in development and
+ testing. Source: Modernizing North Korea's 240 mm MLRS: Precision, Automation, and
+ Extended Range, 38 North (The Henry L. Stimson Center), 3 November 2026,
+ https://www.38north.org/2026/11/modernizing-north-koreas-240-mm-mlrs-precision-autom
+ ation-and-extended-range/.
+ ● Reported: 26 May 2026 (published 27 May 2026) — North Korea test-fired a new
+ lightweight multi-purpose missile launching system and a multiple tactical cruise missile
+ weapon system, its eighth missile test of 2026 according to KCNA. Source: Eighth test in
+ 2026: North Korea tests new multi-purpose missile launch system: KCNA, RTL Today
+ (AFP), 27 May 2026,
+ https://today.rtl.lu/news/world/north-korea-tests-new-multi-purpose-missile-launch-system-
+ kcna-1626219140.
+2. Organisation
+
+ ● August 2026 — Ukrainian military intelligence reported that a North Korean ballistic
+ missile unit of roughly 90 personnel began deploying to Russia's western Voronezh
+ region, with Moscow expecting it eventually to operate up to 120 ballistic missiles and six
+ launchers. Ukrainian intelligence also reported in August 2026 that 400 North Korean
+ drone operators were among approximately 8,500–9,500 Korean People's Army (KPA)
+ personnel stationed in Russia's Kursk region. No domestic KPA artillery brigade mergers
+ or renamings were confirmed in open sources. Sources: North Korea's military
+ partnership with Russia has consequences far beyond Ukraine, Chatham House, 9
+ September 2026,
+ https://www.chathamhouse.org/2026/09/north-koreas-military-partnership-russia-has-cons
+ equences-far-beyond-ukraine; How North Korean forces are bolstering Russia's war
+ against Ukraine, Defense News (Reuters), 7 August 2026,
+ https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bol
+ stering-russias-war-against-ukraine/; Russia Deploys 8,500 North Korean Troops to
+ Kursk, Including 400 Drone Operators, UNITED24 Media, 21 August 2026,
+ https://united24media.com/war-in-ukraine/russia-deploys-8500-north-korean-troops-to-kur
+ sk-including-400-drone-operators-21895.
+
+3. Doctrine, training and schools
+
+ ● Reported: 25 July – 22 September 2026 — During the July and September 2026 240mm
+ MLRS tests, North Korean leadership set out three principles for conventional firepower
+ along the southern border: automation, extended range, and ultra-precision. On 22
+ September 2026, Workers' Party Central Military Commission Vice Chairman Pak
+ Jong-chon ordered units to concentrate attack capabilities on the border and complete
+ modernisation of long-range strike systems in the shortest period possible, shifting
+ emphasis from unguided area barrages toward automated point-target engagement. No
+ revised KPA artillery manuals or school courses were confirmed in open sources. Source:
+ Modernizing North Korea's 240 mm MLRS: Precision, Automation, and Extended Range,
+ 38 North (The Henry L. Stimson Center), 3 November 2026,
+ https://www.38north.org/2026/11/modernizing-north-koreas-240-mm-mlrs-precision-autom
+ ation-and-extended-range/.
+
+4. Exercises with a fires element
+
+ ● Reported: 29 October 2026 — Multi-system live-fire weapons demonstration held
+ alongside the "Unmanned Aeronautical Technology Development-2026" exhibition,
+ undisclosed location in North Korea, North Korea only. Observed by Kim Jong Un, the drill
+ featured simultaneous firing by more than ten 600mm multiple rocket launchers (called
+ "Sniper" in state media and assessed by South Korean officials as KN-25 family systems),
+ plus Harop-like loitering munitions, multipurpose armed drones, and tactical cruise
+ missiles engaging an island target and simulated South Korean guard-post and U.S. tank
+ targets. KCNA claimed 100 per cent accuracy, which no independent source has verified.
+ Sources: What Is This 600mm KN-25 System Ranged up to 400 km DPRK Showcased
+ During Live-fire Exercises - Would it Appear in russia, Defense Express, 31 October
+ 2026,
+ https://en.defence-ua.com/weapon_and_tech/what_is_this_600mm_kn_25_system_range
+ d_up_to_400_km_dprk_showcased_during_live_fire_exercises_would_it_appear_in_russi
+ a-20280.html; North Korea's Harop-Like Loitering Munition Demonstration Reveals New
+ Clues About Its Potential Combat Role, Army Recognition, 31 October 2026,
+ https://www.armyrecognition.com/news/aerospace-news/2026/north-koreas-harop-like-loit
+ ering-munition-demonstration-reveals-new-clues-about-its-potential-combat-role; South
+ Korea Establishes New Defense Drone Agency to Counter Threats from North Korea,
+ Thairath (Yonhap), 3 November 2026, https://en.thairath.co.th/news/foreign/2970054;
+ Shattered.io press summary (page title not displayed; summarising 30 October 2026
+ KCNA/Reuters/Washington Post reports), October 2026,
+ https://shattered.io/north-korea-kim-drone-expansion-600mm-rockets-100-percent-claim-2
+ 026/.
+
+5. Operations and lessons
+
+ ● November 2026 — Two analytical reviews examined KPA operational learning in
+ Russia's Kursk region, identifying battlefield adaptation in small-unit dispersion,
+ concealment, counter-drone survival, and drone-supported artillery reconnaissance and
+ fire coordination. Both studies caution that flat Ukrainian terrain differs sharply from the
+ mountainous Korean Peninsula, denser force ratios, and local electromagnetic conditions.
+ Institutional adoption across KPA units at home remains unverified without published
+ manual revisions or wider training rollout. Sources: Learning Is Not Lessons: What North
+ Korea Takes Home from Ukraine, Defense.info, November 2026,
+ https://defense.info/partners-corner/2026/11/learning-is-not-lessons-what-north-korea-take
+ s-home-from-ukraine/; Kursk as a Training Ground: What North Korea Learns from
+ Russia's War against Ukraine, EPIS Thinktank, 2026,
+ https://epis-thinktank.com/publications/kursk-as-a-training-ground-what-north-korea-learn
+ s-from-russias-war-against-ukraine.
+ ● 9 September 2026 & 7–21 August 2026 — Intelligence assessments published
+ diverging totals for North Korean munitions and manpower supporting Russia's war
+ against Ukraine. South Korea's Defence Intelligence Agency estimated more than 16,000
+ KPA personnel sent since October 2024 (including roughly 1,000 demining engineers)
+ and more than 15 million artillery rounds supplied, whereas Ukraine's military intelligence
+ reported 4 million artillery shells delivered since mid-2023 excluding mortar rounds, 148
+ KN-23 and KN-24 ballistic missiles supplied by early 2025, and roughly 25,000 KPA
+ personnel rotated in total (with 8,500 on 21 August to 9,500 on 7 August remaining in
+ Kursk outside direct operations in Ukraine). Chatham House also cited Ukrainian
+ assessments that North Korean ballistic missile accuracy narrowed from 1–3 km early in
+ the war to 50–100 m by early 2025, likely reflecting battlefield feedback, improved
+ targeting data, or Russian guidance components. Sources: North Korea's military
+ partnership with Russia has consequences far beyond Ukraine, Chatham House, 9
+ September 2026,
+ https://www.chathamhouse.org/2026/09/north-koreas-military-partnership-russia-has-cons
+ equences-far-beyond-ukraine; How North Korean forces are bolstering Russia's war
+ against Ukraine, Defense News (Reuters), 7 August 2026,
+ https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bol
+ stering-russias-war-against-ukraine/; Russia Deploys 8,500 North Korean Troops to
+ Kursk, Including 400 Drone Operators, UNITED24 Media, 21 August 2026,
+ https://united24media.com/war-in-ukraine/russia-deploys-8500-north-korean-troops-to-kur
+ sk-including-400-drone-operators-21895.
+
+6. Corrections
+
+No change found.
+Searches run: "North Korea" artillery "600mm" OR "240mm" OR "KN-25" OR "Koksan"
+OR[span_81](start_span)[span_81](end_span) "Hwasong-11" 2026; "North Korea" artillery
+Russia Ukraine shells OR Kursk OR exercise OR unit OR radar 2026; "North Korea" artillery
+doctrine OR school OR "240mm" OR "loitering munition" OR "sound-ranging" OR radar 2026.
+Sites and outlets checked: 38 North, Chatham House, Institute for the Study of War
+(understandingwar.org), Janes, Defense News, NK News.
+
+Entry impact (North Korea)
+
+ ● 24-tube 240mm MLRS (90 km, 25 July 2026), 100–115 km guided rockets (22 September
+ 2026), and extended-range 155mm SPH ammunition: Updates 240mm Rockets: From
+ Barrage to Guided Strike, Tube Artillery and Mortars by Echelon, and Wired Fire Direction,
+ New Automation and Uneven Ammunition.
+ ● Drone and Harop-like loitering-munition production lines (16–18 September 2026):
+ Updates Kumsong Loitering Munitions and the Saetbyol-9 and Sound-Ranging, Radars
+ and New Drones.
+ ● Lightweight multi-purpose missile launching system test (26 May 2026): Updates KN-09,
+ KN-25 and Hwasong-11: Missiles as Deep Artillery.
+ ● Deployment of ~90-person missile unit to Voronezh and 400 drone operators in Kursk
+ (August 2026): Updates Fighting Alongside Russia: Shared Calibres, Not Shared
+ Networks and Learning Drone War in Kursk.
+ ● Stated border firepower principles of automation, extended range, and ultra-precision
+ (July–September 2026): Updates 240mm Rockets: From Barrage to Guided Strike and
+ Wired Fire Direction, New Automation and Uneven Ammunition.
+ ● Live-fire weapons demonstration with >10 600mm "Sniper" MRLs and loitering munitions
+ (29 October 2026): Updates KN-09, KN-25 and Hwasong-11: Missiles as Deep Artillery
+ and Kumsong Loitering Munitions and the Saetbyol-9.
+ ● Analytical reviews of Kursk battlefield adaptation vs institutional transfer (November
+ 2026): Updates Learning Drone War in Kursk.
+ ● Updated ROK DIA and Ukrainian HUR figures on shell volumes, troop rotations, and
+ KN-23/KN-24 accuracy gains (August–September 2026): Updates Shells by the Million:
+ Volume, Defects and the Russia Trade, KN-09, KN-25 and Hwasong-11: Missiles as Deep
+ Artillery, and Fighting Alongside Russia: Shared Calibres, Not Shared Networks.
+South Korea
+
+Reporting period: 1 May 2026 to 24 November 2026.
+
+1. Equipment
+ ● 21 October 2026 — The South Korean military conducted the first live-fire test of a new
+ 155mm artillery shell designed to extend the firing range of the K9 self-propelled howitzer
+ by 30 per cent. The ROK defence media broadcast summary did not disclose the
+ projectile designation, exact range in kilometres, or procurement quantity. Source: K9
+ Range Increased by 30%... First Live-Fire Test of New Artillery Shell | 10/21/2026 KFN
+ Defense..., KFN Defense News (YouTube), 21 October 2026,
+ https://www.youtube.com/watch?v=SjvMq2cCzhg.
+ ● Reported: 1 October 2026 — During an official ceremony on 1 October 2026, South
+ Korea's Cheongwang Block-I laser counter-drone weapon downed two of four target
+ drones after wind damaged optical-fibre equipment. Source: Reframing drone defence:
+ The Korea Herald, Asia News Network (The Korea Herald), 9 November 2026,
+ https://asianews.network/reframing-drone-defence-the-korea-herald/.
+ ● 18 August 2026 — The U.S. Army awarded Hanwha Aerospace a US100.3 million Other
+ Transaction Agreement (cumulative face value US262.9 million) under its Mobile Tactical
+ Cannon programme for the K9MH wheeled 155mm/52-calibre howitzer. The K9MH pairs
+ the 52-calibre CN98 cannon with a K9A2-derived automated turret and a 40-round
+ magazine. Sources: South Korea's Highly Mobile 155mm Artillery System Wins U.S. Army
+ Howitzer Contract, The War Zone, 18 August 2026,
+ https://www.twz.com/land/south-koreas-highly-mobile-155mm-artillery-system-wins-u-s-ar
+ my-howitzer-contract; Army Recognition (page title not displayed), 2026,
+ https://www.armyrecognition.com/news/army-news/2026/us-army-selects-hanwha-k9mh-
+ mobile-tactical-cannon-replace-m777.
+ ● 14 August 2026 — South Korea's Defense Acquisition Program Administration (DAPA)
+ selected Hanwha Aerospace as preferred bidder to negotiate development of a
+ GPS-guided 155mm course-correction fuze for the K9 howitzer under an investment
+ exceeding US$116 million (about KRW 164.2 billion) running through 2032. The fuze uses
+ four retractable control fins compatible with the rifled 52-calibre CN98 barrel and
+ NATO-standard 155mm shells. DAPA expects the fuze to cut impact dispersion to roughly
+ one-sixth of current levels. Source: Hanwha progresses K9 precision munition tender,
+ Army Technology, 14 August 2026,
+ https://www.army-technology.com/news/hanwha-progresses-k9-precision-munition-tender/
+ .
+
+2. Organisation
+
+ ● 1–2 November 2026 — South Korea's Ministry of National Defense established the
+ Defense Drone Headquarters (also rendered Defense Drone Agency or Defense Drone
+ Command) on 1 November 2026, holding its inauguration ceremony on 2 November 2026
+ under temporary head Major General Kim Deuk-bong. Replacing the Drone Operations
+ Command founded in 2023, the reorganisation returns operational drone control directly
+ to each service under Joint Chiefs of Staff coordination. The new headquarters oversees
+ policy, combat development, counter-drone integration, fast-track commercial drone
+ certification, and acquisition support including domestic long-range loitering munitions
+ under K-LUCAS. Sources: Establishment of the Defense Drone Headquarters,
+ Indo-Pacific Record (republishing Korea Policy Briefing / ROK Ministry of National
+ Defense), 2 November 2026, https://indopacificrecord.org/record/6042.html; Defense
+ ministry launches new drone headquarters to bolster unmanned capabilities amid NK
+ threats, The Korea Herald (Yonhap), 2 November 2026,
+ https://www.koreaherald.com/article/10922592; South Korea has launched an agency for
+ defence drones, Defence24, 3 November 2026,
+ https://defence24.com/defence-policy/south-korea-has-launched-an-agency-for-defence-d
+ rones.
+
+3. Doctrine, training and schools
+
+No change found. (Note: An August 2026 U.S. Army Military Review paper examined
+conceptual options for pairing U.S. 2nd Infantry Division HIMARS with a ROK Army K9 battalion
+as a hybrid division artillery, but this was a U.S. conceptual study rather than confirmed ROK
+Army doctrine.)
+Searches run: "South Korea" ROK Army "Artillery School" OR doctrine OR "TPQ-74K" OR
+"Warmate" OR "KSM-120" OR "K105A1" 2026; "South Korea" ROK Army artillery exercise
+"Ulchi Freedom Shield" OR "Hoguk" OR live fire OR brigade OR "Artillery School" 2026. Sites
+and outlets checked: U.S. Army (army.mil), Army University Press (armyupress.army.mil), Korea
+Institute for Military Affairs (kima.re.kr), Institute for the Study of War, The Korea Herald.
+
+4. Exercises with a fires element
+
+ ● 19–23 October 2026 — Combined Ground Component Command (CGCC) Counter-Fire
+ Field Training Exercise (part of the 2026 Hoguk exercise), held at Cheorwon artillery firing
+ range, Gangwon Province, alongside an Air Defense Guided Weapon Live-Fire drill at
+ Boryeong, South Chungcheong Province. Participating nations: South Korea and the
+ United States (more than 4,100 ROK and U.S. troops under Ground Operations
+ Command / CGCC and U.S. Forces Korea intelligence and fire-support units). K9
+ self-propelled howitzers conducted live firing at Cheorwon alongside mobilised KTSSM
+ tactical missiles, K239 Chunmoo launchers, and U.S. ATACMS linked to ROK and U.S.
+ UAVs, counter-battery radars, and deep reconnaissance teams; crews also drilled
+ fortification, ammunition resupply, and gun-barrel and engine replacement, while Hybrid
+ Biho and Shingung systems fired live at simulated drones at Boryeong. Sources: Ground
+ Operations Command Conducts S. Korea-US Combined Counter-Fire Exercise, Testing
+ Operations Under All-Out War Scenario, SBS News, 23 October 2026,
+ https://news.sbs.co.kr/english/article.do?news_id=N1008812113; ROK Army stages
+ Korea-U.S. counter-fire FTX with KTSSM, K9, Chunmoo and ATACMS, Seoulz, 24
+ October 2026,
+ https://www.seoulz.com/news/rok-army-stages-korea-us-counter-fire-ftx-ktssm-k9-chunmo
+ o-atacms.
+ ● 2 July 2026 (published) — Northwestern islands maritime live-fire drills near the
+ Northern Limit Line, South Korea only. South Korean Marine units fired approximately 300
+ live rounds from K9 self-propelled howitzers, K239 Chunmoo multiple launch rocket
+ systems, and other weapons. Source: Seoul holds live-fire drills near disputed sea border
+ with North Korea, NK News, 2 July 2026,
+ https://www.nknews.org/2026/07/seoul-holds-live-fire-drills-near-disputed-sea-border-with-
+ north-korea/.
+
+5. Operations and lessons
+
+No change found. (Note: Ground Operations Command / CGCC announced plans for a
+late-October after-action review of the 19–23 October Hoguk counter-fire FTX, but no published
+review was found in open sources.)
+Searches run: "South Korea" ROK Army "K9" OR "Chunmoo" live fire exercise OR "Hoguk" OR
+"Ulchi Freedom Shield 26" May OR August OR October OR November 2026; "South Korea"
+ROK Army "Artillery School" OR doctrine OR "TPQ-74K" OR "Warmate" OR "KSM-120" OR
+"K105A1" 2026. Sites and outlets checked: SBS News, The Korea Herald, U.S. Forces Korea
+(usfk.mil), U.S. Indo-Pacific Command (pacom.mil), DVIDS (dvidshub.net), Institute for the
+Study of War.
+
+6. Corrections
+
+No change found.
+Searches run: "South Korea" OR ROK Army artillery "K9A2" OR "Chunmoo" OR "KTSSM" OR
+"155mm" ammunition OR Poongsan OR DAPA 2026; "South Korea" K9 "extended-range" OR
+"30%" 155mm shell test October 2026 OR Poongsan DAPA. Sites and outlets checked: Army
+Technology, The War Zone, Army Recognition, Defense Mirror, Korea Herald, Wikipedia.
+
+Entry impact (South Korea)
+
+ ● First live-fire test of new 155mm shell extending K9 range by 30 per cent (21 October
+ 2026): New entry (Ammunition and Effects) and updates K9 Thunder 155mm
+ Self-Propelled Howitzer.
+ ● Cheongwang Block-I counter-drone laser demonstration (1 October 2026): Updates
+ Counter-Battery First: Shoot, Scoot and Hide Underground and Where ROK Artillery Is
+ Heading.
+ ● U.S. Army OTA contract for K9MH wheeled howitzer using K9A2-derived automated turret
+ (18 August 2026): Updates K9A1 and K9A2 Upgrades and Where ROK Artillery Is
+ Heading.
+ ● DAPA selection of Hanwha Aerospace for GPS-guided 155mm course-correction fuze (14
+ August 2026): New entry (Ammunition and Effects) and updates K9 Thunder 155mm
+ Self-Propelled Howitzer.
+ ● Establishment of Defense Drone Headquarters replacing Drone Operations Command
+ and K-LUCAS loitering-munition remit (1–2 November 2026): Updates Warmate 3
+ Loitering Munitions, Artillery from Corps to Brigade, and Where ROK Artillery Is Heading.
+ ● CGCC Counter-Fire FTX during 2026 Hoguk exercise (19–23 October 2026): Updates
+ Counter-Battery First: Shoot, Scoot and Hide Underground, JFOS-K and JTIC2S: Firing
+ with the US, TPQ-74K Weapon-Locating Radar, KTSSM “Ure”: The Artillery-Killer Missile,
+ and K239 Chunmoo Rocket Launcher.
+ ● Northwestern islands K9 and K239 Chunmoo live-fire drill (2 July 2026): Updates K9
+ Thunder 155mm Self-Propelled Howitzer and K239 Chunmoo Rocket Launcher.
+Update Summary
+
+Army Items found Newest item date Stopped early (yes/no)
+China 12 22 November 2026 no
+Japan 5 29 October 2026 no
+North Korea 9 November 2026 no
+Army Items found Newest item date Stopped early (yes/no)
+South Korea 7 2 November 2026 no
+Works cited
+
+1. 2025 China Victory Day Parade - Wikipedia,
+https://en.wikipedia.org/wiki/2025_China_Victory_Day_Parade 2. How North Korean forces are
+bolstering Russia's war against Ukraine,
+https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bolsterin
+g-russias-war-against-ukraine/ 3. North Korea's military partnership with Russia has
+consequences far,
+https://www.chathamhouse.org/2026/09/north-koreas-military-partnership-russia-has-consequen
+ces-far-beyond-ukraine 4. How is the PLA countering small FPV drones and their swarms?,
+https://amp.scmp.com/news/china/military/article/3375313/how-pla-countering-small-fpv-drones-
+and-their-swarms 5. Air Defense Live-Fire Exercise Indicates the PLAA Is Focusing on,
+https://www.army.edu/News/View/Article/4580220/air-defense-live-fire-exercise-indicates-the-pla
+a-is-focusing-on-destroying-new/ 6. Artillery troops unleash firepower - Ministry of National
+Defense, http://eng.mod.gov.cn/2025xb/H_251589/F/16486843.html 7. China Tests 'Iron
+Triangle' System to Counter Drone Swarms in,
+https://moderndiplomacy.eu/2026/10/13/china-tests-iron-triangle-system-to-counter-drone-swar
+ms-in-major-military-exercise/ 8. China's state television airs rare footage of PLA anti-drone
+laser, https://www.globaltimes.cn/page/202610/1371681.shtml 9. Long-Range Modular MLRS
+opens fire in training, http://eng.mod.gov.cn/2025xb/D/P_251753/16490639.html 10.
+Artillerymen Conduct Live-fire Combat Training,
+http://eng.mod.gov.cn/2025xb/D/V/16485206.html 11. Anti-Aircraft Artillery Troops Conduct
+Live-fire Training, http://eng.mod.gov.cn/2025xb/D/V/16467118.html 12. Japan deploys Type 25
+HVGP to Camp Fuji, expands to Hokkaido,
+https://industrialbasealpha.com/article/japan-deploys-type-25-hvgp-to-camp-fuji-expands-to-hok
+kaido-and-kyushu 13. Japan's Type 25 Hyper Velocity Gliding Projectile (HVGP) Mobile,
+https://www.timesofdefence.com.tr/japans-type-25-hyper-velocity-gliding-projectile-hvgp-mobile-l
+auncher-spotted-operating-at-camp-fuji/ 14. Japan Puts Type 25 Missile on Public View Before
+Keen Sword, https://defensewarroom.com/2026/10/04/japan-type-25-missile-kumamoto-display/
+15. Japan deploys Type 25 Anti-Ship Missile in first field exercise with,
+https://www.globaldefensecorp.com/2026/11/02/japan-deploys-type-25-anti-ship-missile-in-first-fi
+eld-exercise-with-us-targeting-support/ 16. III Marine Expeditionary Force,
+https://www.iiimef.marines.mil/UnitHome?videoid=606697 17. US, Japan, Australia Showcase
+Strong Partnership at Orient Shield,
+https://www.army.mil/article/295427/us_japan_australia_showcase_strong_partnership_at_orien
+t_shield_2026_opening_ceremony 18. 2026 Fuji Firepower Exercise Preview (Heavy Mortar ... -
+YouTube, https://www.youtube.com/watch?v=GDpgfUcVt_w 19. [Supersonic Missiles Debut]
+JGSDF Fuji Firepower Exercise with, https://www.youtube.com/watch?v=TF3I2fbSK6A 20.
+North Korea touts upgraded rocket system, urges stronger firepower,
+https://asianews.network/north-korea-touts-upgraded-rocket-system-urges-stronger-firepower-al
+ong-border/ 21. North Korea Drone Production Lines Revealed | MiGFlug,
+https://migflug.com/afterburner/es/north-korea-drone-production-lines-saetbyol-kim-jong-un-202
+6/ 22. North Korea tests new multi-purpose missile launch system: KCNA,
+https://today.rtl.lu/news/world/north-korea-tests-new-multi-purpose-missile-launch-system-kcna-
+1626219140 23. Russia Deploys 8,500 North Korean Troops to Kursk, Including 400,
+https://united24media.com/war-in-ukraine/russia-deploys-8500-north-korean-troops-to-kursk-incl
+uding-400-drone-operators-21895 24. Learning Is Not Lessons: What North Korea Takes Home
+from Ukraine,
+https://defense.info/partners-corner/2026/11/learning-is-not-lessons-what-north-korea-takes-ho
+me-from-ukraine/ 25. What Is This 600mm KN-25 System Ranged up to 400 km DPRK,
+https://en.defence-ua.com/weapon_and_tech/what_is_this_600mm_kn_25_system_ranged_up
+_to_400_km_dprk_showcased_during_live_fire_exercises_would_it_appear_in_russia-20280.ht
+ml 26. Kim Orders Drone Push: 600mm Rockets, 100% Claim [2026],
+https://shattered.io/north-korea-kim-drone-expansion-600mm-rockets-100-percent-claim-2026/
+27. North Korea's Harop-Like Loitering Munition Demonstration Reveals,
+https://www.armyrecognition.com/news/aerospace-news/2026/north-koreas-harop-like-loitering-
+munition-demonstration-reveals-new-clues-about-its-potential-combat-role 28. South Korea
+Establishes New Defense Drone Agency to Counter,
+https://en.thairath.co.th/news/foreign/2970054 29. Kursk as a Training Ground: What North
+Korea Learns from Russia's,
+https://epis-thinktank.com/publications/kursk-as-a-training-ground-what-north-korea-learns-from-
+russias-war-against-ukraine 30. K9 Range Increased by 30%... First Live-Fire Test of New
+Artillery, https://www.youtube.com/watch?v=SjvMq2cCzhg 31. Reframing drone defence: The
+Korea Herald - Asia News Network,
+https://asianews.network/reframing-drone-defence-the-korea-herald/ 32. South Korea's Highly
+Mobile 155mm Artillery System Wins U.S.,
+https://www.twz.com/land/south-koreas-highly-mobile-155mm-artillery-system-wins-u-s-army-ho
+witzer-contract 33. South Korea's K9MH Wheeled Howitzer Makes US Army Debut in,
+https://www.armyrecognition.com/news/army-news/2026/us-army-selects-hanwha-k9mh-mobile-
+tactical-cannon-replace-m777 34. South Korea has launched an agency for defence drones,
+https://defence24.com/defence-policy/south-korea-has-launched-an-agency-for-defence-drones
+35. Establishment of the Defense Drone Headquarters,
+https://indopacificrecord.org/record/6042.html 36. S. Korea launches Defense Drone Agency -
+The Korea Herald, https://www.koreaherald.com/article/10922947 37. Defense ministry
+launches new drone headquarters to bolster, https://www.koreaherald.com/article/10922592 38.
+Level Reconnaissance in Large-Scale Combat Operations,
+https://www.armyupress.army.mil/Portals/7/military-review/Archives/English/Online-Exclusive/20
+26/Reconnaissance-in-LSCO/Reconnaissance-in-LSCO-UA2.pdf 39. ROK Army stages
+Korea-U.S. counter-fire FTX with KTSSM ... - Seoulz,
+https://www.seoulz.com/news/rok-army-stages-korea-us-counter-fire-ftx-ktssm-k9-chunmoo-atac
+ms 40. Seoul holds live-fire drills near disputed sea border with North Korea,
+https://www.nknews.org/2026/07/seoul-holds-live-fire-drills-near-disputed-sea-border-with-north-
+korea/
