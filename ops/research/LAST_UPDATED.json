@@ -1,0 +1,14 @@
+{
+  "_note": "Date each army's research is current to: the newest date the last returned report covered. Set by Recce when a report is loaded (or the monthly sweep is merged). tools/gap_prompt.mjs asks only for changes after this date, plus standing gaps. First values are the dates the content was loaded into the app.",
+  "United States": "2026-11-19",
+  "Russia": "2026-11-19",
+  "Ukraine": "2026-11-19",
+  "China": "2026-11-19",
+  "South Korea": "2026-11-19",
+  "North Korea": "2026-11-19",
+  "Japan": "2026-11-19",
+  "Australia": "2026-11-19",
+  "Indonesia": "2026-11-20",
+  "Malaysia": "2026-11-21",
+  "Singapore": "2026-11-21"
+}

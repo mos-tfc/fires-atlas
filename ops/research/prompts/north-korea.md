@@ -1,7 +1,7 @@
 You are researching artillery and fire support for a learning reference used by military professionals. Use open sources only. Do not use classified, restricted, export-controlled or leaked material.
 
 Country: North Korea
-Currency: as of the date you research; include history only where it explains today’s practice.
+This prompt fills standing gaps in the reference; there is no date limit, so use the best source of any date. Recent news is collected separately.
 
 SOURCE RULES (read first)
 - Every source must be a real page you opened. Give the exact page title, the publisher, the year and the full URL.
@@ -44,8 +44,6 @@ TASK C: Strengthen the evidence. These entries rest on assessment or have no lin
 
 TASK D: Key figures. For each system, give: type, calibre, combat weight, crew, range by round type, rate of fire, mobility and time into and out of action. Mark press and vendor figures "Reported"; write "Not stated" where sources give nothing.
 Systems: Saetbyol-4
-
-TASK E: Joint and combined exercises. List the exercises with a fires element that North Korea held with other armies in the last two years: name, dates, host and place, every participating nation, and what fires were practised, each with a source. The reference already has: North Korean Troops with Russian Forces in Kursk. Add others and correct participant lists.
 
 ENTRY FORMAT. Use exactly these numbered fields for every entry:
 1. Title: in title case

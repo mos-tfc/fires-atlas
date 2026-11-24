@@ -1,0 +1,376 @@
+You are researching artillery and fire support for a learning reference used by military professionals. Use open sources only. Do not use classified, restricted, export-controlled or leaked material.
+
+Country: United States
+This prompt fills standing gaps in the reference; there is no date limit, so use the best source of any date. Recent news is collected separately.
+
+SOURCE RULES (read first)
+- Every source must be a real page you opened. Give the exact page title, the publisher, the year and the full URL.
+- Do not build or guess URLs. If you cannot find a working link, give the title and publisher and write "No link found".
+- Prefer official government and armed forces pages, parliamentary and audit reports, recognised research institutes and established defence press. Mark manufacturer, state-media and single-source claims "Reported".
+- If sources disagree, give each figure with its own source. Do not fill gaps with another army’s doctrine; write "Not found in open sources: ..." instead.
+
+The reference already holds these 312 entries for United States. Do not repeat them. If one is wrong or out of date, list it under "Corrections" at the end with the entry title, what is wrong and the source.
+- Liaison and Fire Support Integration — US Army Company Fire Support Team (FIST)
+- Liaison and Fire Support Integration — US Army Battalion Fires Cell
+- Liaison and Fire Support Integration — US Army BCT Fires Cell & Army 2030 Realignment
+- Liaison and Fire Support Integration — US Army JFO & USAF TACP Split Model
+- Liaison and Fire Support Integration — Theatre Fires Command (TFC)
+- Liaison and Fire Support Integration — Multi-Domain Task Force (MDTF)
+- Liaison and Fire Support Integration — Corps Fires Cell & Field Artillery Brigade (FAB)
+- Liaison and Fire Support Integration — Force Fires Coordination Center (FFCC)
+- Liaison and Fire Support Integration — USMC Company Fire Support Team (FiST)
+- Liaison and Fire Support Integration — USMC Battalion Fire Support Coordination Center (FSCC)
+- Liaison and Fire Support Integration — USMC Regimental / Marine Littoral Regiment (MLR) FSCC
+- Liaison and Fire Support Integration — Battlefield Coordination Detachment (BCD)
+- Liaison and Fire Support Integration — Air Support Operations Center (ASOC) & Air Liaison Officer (ALO)
+- Liaison and Fire Support Integration — Ground, Naval, and Marine Liaison Detachments
+- Liaison and Fire Support Integration — US Army 6-Element Call for Fire & First-Round FFE
+- Liaison and Fire Support Integration — USMC Multi-Domain Call for Fire & Naval Surface Fire Support (NSFS)
+- Liaison and Fire Support Integration — US Army Clearance of Fires & FSCMs (CFL / FSCL / NFA)
+- Liaison and Fire Support Integration — USMC Procedural Airspace Deconfliction (ACA / Informal Separation)
+- Liaison and Fire Support Integration — US Army BCT Airspace Control (ACA / ROZ / Coordinating Altitude)
+- Liaison and Fire Support Integration — US Army FIST Integration with sUAS & Loitering Munitions
+- Liaison and Fire Support Integration — USMC Squad/Company sUAS & Organic Precision Fires (OPF)
+- Liaison and Fire Support Integration — US Army Fires Cell & Weapon-Locating Radar Zones (AN/TPQ-50 / TPQ-53)
+- Liaison and Fire Support Integration — USMC FiST & FSCC Signature Management (EMCON & Distributed C2)
+- Liaison and Fire Support Integration — The Joint Targeting Cycle (JTC)
+- Liaison and Fire Support Integration — Air Tasking Cycle & Target Nominations
+- Liaison and Fire Support Integration — Time-Sensitive Targets (TST) & Dynamic Targeting
+- Liaison and Fire Support Integration — Division Requests & FAB Allocation
+- Liaison and Fire Support Integration — Collection Priorities & Lower-Echelon Requests
+- Liaison and Fire Support Integration — AN/PED-1 Lightweight Laser Designator Rangefinder (LLDR / LLDR 2H)
+- Liaison and Fire Support Integration — M7A3/A4 Bradley FIST (BFIST) & M1131 Stryker FSV
+- Liaison and Fire Support Integration — AFATDS, PFED & ATAK (Android Precision Fires)
+- Liaison and Fire Support Integration — USMC Target Hand-Off System (THS v2) & Multi-Band Tactical Comms
+- Liaison and Fire Support Integration — HADES (High Accuracy Detection and Exploitation System)
+- Liaison and Fire Support Integration — Tactical Intelligence Targeting Access Node (TITAN)
+- Liaison and Fire Support Integration — US Army 13F AIT & 13A FABOLC Pipeline (Fort Sill, OK)
+- Liaison and Fire Support Integration — US Army Joint Fires Observer (JFO) Course (2 Weeks)
+- Liaison and Fire Support Integration — USMC 0861 Fire Support Marine, 0802 Officer & EWTG JTAC Pipeline
+- Liaison and Fire Support Integration — Project Convergence & NGC2
+- Liaison and Fire Support Integration — Ukraine (2014–Present): Ubiquitous Quadcopters & Sub-Minute Fire Loops
+- Liaison and Fire Support Integration — Ukraine (2022+): RF Direction-Finding & Dispersion of Fires Cells
+- Liaison and Fire Support Integration — Ukraine (2022+): Cross-Cueing Weapon-Locating Radars with UAS
+- Liaison and Fire Support Integration — Nagorno-Karabakh (2020): Persistent Aerial Observation Over Entrenched Positions
+- Liaison and Fire Support Integration — Gaza (2023–2024): Close-Proximity Urban Fire Support at Company/Battalion
+- Liaison and Fire Support Integration — Indo-Pacific Typhon Deployment & Sea Denial
+- Liaison and Fire Support Integration — C2 Disaggregation & Signature Management
+- Target Acquisition — US Army Target Acquisition Platoon (TAP)
+- Target Acquisition — Target Processing Section (TPS) and Counterfire Operations Section
+- Target Acquisition — US Army Target Acquisition Specialties (13R, 131A, 13A, 13F, 13J)
+- Target Acquisition — Who Controls the Radars: From Modularity to the Return of DIVARTY
+- Target Acquisition — USMC Regimental Target Acquisition Platoon
+- Target Acquisition — One Radar, Two Users: G/ATOR in the Air and Ground Elements
+- Target Acquisition — Air Naval Gunfire Liaison Company (ANGLICO)
+- Target Acquisition — USMC Target Acquisition Specialties (0842, 0847, 0803, 0802, 0844/0848, 0861)
+- Target Acquisition — 3d Marine Littoral Regiment and Target Acquisition
+- Target Acquisition — ARSTRUC 2025–2029 and Transformation in Contact: What Brigades Lost and Gained
+- Target Acquisition — 1st Cavalry Division Target Acquisition Battery (TAB)
+- Target Acquisition — Multi-Domain Commands and the Fourth MDTF
+- Target Acquisition — Where Outside Sensors Join the Artillery Picture: JAGIC, TACP and BCD
+- Target Acquisition — Data Links and Fusion: Link 16, TITAN, HADES and Maven
+- Target Acquisition — Radar Modes: Hostile, Friendly, Sense and Warn
+- Target Acquisition — Radar Site Selection and Survey
+- Target Acquisition — Cueing: Telling the Radar When to Radiate
+- Target Acquisition — Radar Zones: CFZ, CFFZ, ATIZ, CZ and the CSB
+- Target Acquisition — Coverage with More than One Radar
+- Target Acquisition — Recognising Jamming on a Weapon-Locating Radar
+- Target Acquisition — Emissions Control and Radar Survivability
+- Target Acquisition — How Accurate Is a Radar Location?
+- Target Acquisition — The Accuracy Gap and Cross-Cueing to Drones
+- Target Acquisition — AN/TPQ-53 Weapon-Locating Radar
+- Target Acquisition — AN/TPQ-50 Lightweight Counter Mortar Radar (LCMR)
+- Target Acquisition — AN/TPS-80 Ground/Air Task Oriented Radar (G/ATOR)
+- Target Acquisition — Earlier Weapon-Locating Radars
+- Target Acquisition — Acoustic and Passive Sensors
+- Target Acquisition — Drones for Artillery Target Acquisition
+- Target Acquisition — Counterfire Radars in Air Surveillance and Counter-Drone Roles
+- Target Acquisition — Individual Courses for Target Acquisition
+- Target Acquisition — Radar Section Certification and Currency
+- Target Acquisition — Collective Training Venues and Digital Readiness Tracking
+- Target Acquisition — Three Critiques of Training and Talent Management
+- Target Acquisition — Ukraine (2022–2026): The Gun Has Gone Before the Counterfire Lands
+- Target Acquisition — Nagorno-Karabakh (2020): Drones Strip Concealment from Dug-In Artillery
+- Target Acquisition — Iraq and Afghanistan (2003–2021): Radars for Static Base Defence
+- Target Acquisition — How the US Adapted, 2020–2026
+- Target Acquisition — Four Open Debates, 2025–2026
+- Target Acquisition — Recurring Weaknesses at Warfighter Exercises and Combat Training Centers
+- Digital Fires and Targeting — Two Chains: Fire Support, and Fire Direction
+- Digital Fires and Targeting — Who Runs Army Digital Fires: 13A, 13F, 13J and 131A
+- Digital Fires and Targeting — Marine Fires Agencies: Coordination Centres, FECC and DASC
+- Digital Fires and Targeting — Reported Cuts to Air Force Forward Air Control
+- Digital Fires and Targeting — The BCD’s Digital and Airspace Tasks Inside the Air Operations Center
+- Digital Fires and Targeting — The Doctrine Baseline for Digital Fires
+- Digital Fires and Targeting — Who Governs Joint Digital Fires Standards
+- Digital Fires and Targeting — Commander’s Guidance Becomes Software Rules
+- Digital Fires and Targeting — How AFATDS Ranks Fire Missions
+- Digital Fires and Targeting — Automated Clearance of Fires
+- Digital Fires and Targeting — Direct Sensor-to-Shooter Links
+- Digital Fires and Targeting — From Reactive to Proactive Counterfire
+- Digital Fires and Targeting — Measuring Fire Mission Time
+- Digital Fires and Targeting — A PACE Plan for Digital Fires
+- Digital Fires and Targeting — The Five Countermeasures When a Radar Is Jammed
+- Digital Fires and Targeting — Command Posts That Survive
+- Digital Fires and Targeting — Link 16 Over HF Radio: A Vendor Finding
+- Digital Fires and Targeting — AFATDS: Thirty Years of Code, Now Being Broken Up
+- Digital Fires and Targeting — Artillery Execution Suite (AXS): A Possible AFATDS Successor
+- Digital Fires and Targeting — AFATDS in the Marine Corps and the Effects Management Tool
+- Digital Fires and Targeting — CAC2S: The Translator Between Ground and Air Data
+- Digital Fires and Targeting — Observer Software: PF-D and PF-M
+- Digital Fires and Targeting — JETS and LLDR: Locating and Designating the Target
+- Digital Fires and Targeting — Handheld Terminals: THS V.2, ATAK and WinTAK
+- Digital Fires and Targeting — JADOCS, TAIS and CPCE, and the Frozen Air Tasking System
+- Digital Fires and Targeting — Variable Message Format (VMF): The Ground Fires Message Standard
+- Digital Fires and Targeting — Link 16 and JREAP
+- Digital Fires and Targeting — Cursor on Target and USMTF
+- Digital Fires and Targeting — ASCA: Digital Fire Missions Between Allies
+- Digital Fires and Targeting — The Radios and Networks Under Digital Fires
+- Digital Fires and Targeting — Maven Smart System (MSS)
+- Digital Fires and Targeting — TITAN Moves into Production
+- Digital Fires and Targeting — Where Digital Fires Skills Are Taught
+- Digital Fires and Targeting — Operational Digital Sustainment Training (“DST Tuesdays”)
+- Digital Fires and Targeting — ASCA University, Dynamic Front and Bold Quest
+- Digital Fires and Targeting — Simulators That Use the Real Digital Messages
+- Digital Fires and Targeting — Ukraine: Fire Control Software on Tablets
+- Digital Fires and Targeting — Ukraine: The Gains Fade Under Jamming and Decoys
+- Digital Fires and Targeting — Field Report, May 2025: How the Digital Links Failed
+- Digital Fires and Targeting — Fast Detection, Slow Hand-Over
+- Digital Fires and Targeting — Training Centre Trends: Habits and Self-Inflicted Delays
+- Digital Fires and Targeting — Analysis: Doctrine for Machine-Speed Targeting
+- Technical Fire Direction and Gunnery — Fire Direction Centers at Battery and Battalion
+- Technical Fire Direction and Gunnery — Central Control or Autonomous Guns
+- Technical Fire Direction and Gunnery — Survey and Weather Data from Higher Echelon
+- Technical Fire Direction and Gunnery — The Five Requirements for Accurate Predicted Fire
+- Technical Fire Direction and Gunnery — Processing a Mission in the Battery FDC
+- Technical Fire Direction and Gunnery — Safety: The Safety T and the Record of Missions Fired
+- Technical Fire Direction and Gunnery — Survey, Positioning and Reciprocal Laying
+- Technical Fire Direction and Gunnery — Meteorological Data Management
+- Technical Fire Direction and Gunnery — Muzzle Velocity and Barrel Wear
+- Technical Fire Direction and Gunnery — Registration and Massing Fires
+- Technical Fire Direction and Gunnery — Special Cases: High-Angle, Danger Close and Guided Munitions
+- Technical Fire Direction and Gunnery — Manual and Degraded Methods
+- Technical Fire Direction and Gunnery — NABK: The Shared NATO Ballistic Software
+- Technical Fire Direction and Gunnery — Technical Fire Direction Compared: Cannons, Rockets, Mortars
+- Technical Fire Direction and Gunnery — Survey, Met and Muzzle Velocity Devices
+- Technical Fire Direction and Gunnery — Enlisted Fire Control Pipeline: 13J and 0844
+- Technical Fire Direction and Gunnery — Officer Pipeline: Field Artillery Basic Officer Leader Course
+- Technical Fire Direction and Gunnery — Unit Certification and the Artillery Tables
+- Technical Fire Direction and Gunnery — Criticism: Loss of Manual Gunnery Skill
+- Technical Fire Direction and Gunnery — Ukraine: GPS Jamming and Guided Munitions
+- Technical Fire Direction and Gunnery — Decentralisation: Software at the Gun
+- Technical Fire Direction and Gunnery — Attrition: Worn Barrels and Mixed Ammunition
+- Technical Fire Direction and Gunnery — FDC Survivability and Emissions Control
+- Technical Fire Direction and Gunnery — Recurring FDC Weaknesses at the Combat Training Centers
+- Loitering Munitions and Armed Drones — What a Loitering Munition Is, and Why Ground Forces Want It
+- Loitering Munitions and Armed Drones — Army: LASSO Platoons in the Recon and Strike Company
+- Loitering Munitions and Armed Drones — Marine Corps: Organic Precision Fires Down to the Squad
+- Loitering Munitions and Armed Drones — Who Employs Loitering Munitions
+- Loitering Munitions and Armed Drones — Above the Division: Multi-Domain Task Forces and the BCD
+- Loitering Munitions and Armed Drones — Switchblade 300, 400 and 600
+- Loitering Munitions and Armed Drones — Bolt-M and Rogue 1 (Marine OPF-L)
+- Loitering Munitions and Armed Drones — Altius-700M Launched Effect
+- Loitering Munitions and Armed Drones — Why the Two Services Chose Different Designs
+- Loitering Munitions and Armed Drones — MALET: Mortar Rounds Dropped from Drones
+- Loitering Munitions and Armed Drones — How a Loitering Munition Plugs into the Fires Network
+- Loitering Munitions and Armed Drones — Counterfire by Custody: Striking Before the Enemy Fires
+- Loitering Munitions and Armed Drones — Airspace: The Free-Fly Zone
+- Loitering Munitions and Armed Drones — Autonomy and Human Judgement: DoD Directive 3000.09
+- Loitering Munitions and Armed Drones — Training: Loitering Munitions in the Digital Chain
+- Loitering Munitions and Armed Drones — Ukraine: The Shared Data Picture Shortens the Chain
+- Loitering Munitions and Armed Drones — Attrition: Mass Over a Few Costly Systems
+- Loitering Munitions and Armed Drones — Logistics: Treat Strike Drones as Ammunition
+- Counter-Fire and Force Protection — Who Owns Counter-Fire: The Counter-Fire Headquarters
+- Counter-Fire and Force Protection — The Staff Sections That Run the Counter-Fire Fight
+- Counter-Fire and Force Protection — A Standing Counter-Fire Mission: 210th Field Artillery Brigade, Korea
+- Counter-Fire and Force Protection — Air Defence for the Artillery: The ADA Battalion in the Strike Brigade
+- Counter-Fire and Force Protection — Proactive and Reactive Counter-Fire
+- Counter-Fire and Force Protection — The Reactive Drill and Pre-Authorisation
+- Counter-Fire and Force Protection — Choosing the Weapon and Munition for Counter-Fire
+- Counter-Fire and Force Protection — Resourcing Counter-Fire Against Close Support
+- Counter-Fire and Force Protection — Fire, Move and Hide
+- Counter-Fire and Force Protection — Dispersion Inside the Position Area
+- Counter-Fire and Force Protection — Concealment and Signature Management
+- Counter-Fire and Force Protection — Protection and Hardening
+- Counter-Fire and Force Protection — Defence Against Drones at the Gun Line
+- Counter-Fire and Force Protection — Survivability of Observers
+- Counter-Fire and Force Protection — The Trade-Off: Staying Alive Against Delivering Fire
+- Counter-Fire and Force Protection — HIMARS and MLRS in the Counter-Fire Role
+- Counter-Fire and Force Protection — M1299 Extended Range Cannon Artillery (Cancelled)
+- Counter-Fire and Force Protection — Cannon-Delivered Area Effects Munition (C-DAEM)
+- Counter-Fire and Force Protection — Training the Counter-Fire Staff
+- Counter-Fire and Force Protection — Survivability in the Artillery Tables
+- Counter-Fire and Force Protection — Published Criticisms of Counter-Fire Training
+- Counter-Fire and Force Protection — Ukraine and Nagorno-Karabakh: The Three-Minute Window
+- Counter-Fire and Force Protection — From Speed of Fire to Custody of the Target
+- Counter-Fire and Force Protection — Decentralisation: The Multifunctional Brigade-Strike Concept
+- Guns, Howitzers and Mortars — Army Structure 2025–2029: Cannon Battalions Leave the Brigade
+- Guns, Howitzers and Mortars — Force Design 2030: Marine Cannon Batteries Cut from 21 to 7
+- Guns, Howitzers and Mortars — The Four Support Relationships
+- Guns, Howitzers and Mortars — Inside the JAGIC: Layout, Shared Picture and Delegated Authority
+- Guns, Howitzers and Mortars — M119A3 105mm Towed Howitzer
+- Guns, Howitzers and Mortars — M777A2 155mm Towed Howitzer
+- Guns, Howitzers and Mortars — M109A7 Paladin 155mm Self-Propelled Howitzer
+- Guns, Howitzers and Mortars — After ERCA: The Self-Propelled Howitzer Modernization Programme
+- Guns, Howitzers and Mortars — Barrel Wear, the M90 Velocimeter and the Firing Records
+- Guns, Howitzers and Mortars — Inside the NATO Ballistic Kernel: The Trajectory Model
+- Guns, Howitzers and Mortars — Reciprocal Laying, the LARS Rule and the Safety Diagram
+- Guns, Howitzers and Mortars — The Cannon Crewmember and the Artillery Specialties
+- Guns, Howitzers and Mortars — The Technical Experts: Master Gunner and Targeting Technician
+- Guns, Howitzers and Mortars — Readiness by Continuous Kill-Chain Data
+- Guns, Howitzers and Mortars — Ukraine: Drones Push the Guns Back, Jamming Blunts Guided Rounds
+- Rocket and Missile Artillery — The Launcher Crew and Platoon
+- Rocket and Missile Artillery — The Rocket Battery and Battalion
+- Rocket and Missile Artillery — National Guard Rocket Battalions and Exercises
+- Rocket and Missile Artillery — Marine Anti-Ship Missile Batteries
+- Rocket and Missile Artillery — Hide, Fire, Reload: The Launcher Cycle
+- Rocket and Missile Artillery — Processing a Rocket Mission: The Launcher Computes Its Own Solution
+- Rocket and Missile Artillery — Target Location Standards for Guided Rockets
+- Rocket and Missile Artillery — Clearing Airspace for Rockets and Missiles
+- Rocket and Missile Artillery — What Rockets Are for: The Four Roles
+- Rocket and Missile Artillery — HIMARS Rapid Infiltration (HI-RAIN)
+- Rocket and Missile Artillery — Reloading at the Launcher
+- Rocket and Missile Artillery — Firing Under Satellite Navigation Jamming
+- Rocket and Missile Artillery — M142 HIMARS Launcher
+- Rocket and Missile Artillery — M270A2 MLRS Launcher
+- Rocket and Missile Artillery — The Rocket and Missile Family: GMLRS, ATACMS and PrSM
+- Rocket and Missile Artillery — NMESIS and the ROGUE-Fires Launcher
+- Rocket and Missile Artillery — The Unmanned Launcher and the Production Surge
+- Rocket and Missile Artillery — The Practice Rocket
+- Rocket and Missile Artillery — Training the Launcher Crew: The 13M Pipeline
+- Rocket and Missile Artillery — Qualifying Launcher Crews: The Tables
+- Rocket and Missile Artillery — Ukraine: Guided Rockets Proved, Then Jammed and Outspent
+- Rocket and Missile Artillery — Where Cannon Stop and Rockets Take Over
+- Rocket and Missile Artillery — The Debate: Sea Denial from the Land
+- Ammunition and Effects — Who Picks the Shell and Fuze
+- Ammunition and Effects — Commander’s Guidance and the Attack Guidance Matrix
+- Ammunition and Effects — Who Approves Special Munitions
+- Ammunition and Effects — Rules of Engagement and Legal Review
+- Ammunition and Effects — Suppress, Neutralise, Destroy
+- Ammunition and Effects — Matching Shell and Fuze to the Target
+- Ammunition and Effects — Fuze Functions and the Multi-Option Fuze
+- Ammunition and Effects — Sheaf Patterns
+- Ammunition and Effects — Volume, Timing and Surprise
+- Ammunition and Effects — Precision or Area Fire
+- Ammunition and Effects — Smoke and Illumination
+- Ammunition and Effects — Artillery-Delivered Mines
+- Ammunition and Effects — Risk Estimate Distances
+- Ammunition and Effects — Collateral Damage Estimation
+- Ammunition and Effects — The M795 High Explosive Shell and Insensitive Explosive
+- Ammunition and Effects — Excalibur and the Precision Guidance Kit
+- Ammunition and Effects — BONUS Sensor-Fuzed Anti-Armour Round
+- Ammunition and Effects — Cluster Munition Policy
+- Ammunition and Effects — Modular Artillery Charge System
+- Ammunition and Effects — Rocket Warheads and the Alternative Warhead
+- Ammunition and Effects — XM1155 Ramjet Projectile
+- Ammunition and Effects — NATO Ammunition Interchangeability
+- Ammunition and Effects — Training Ammunition and STRAC
+- Ammunition and Effects — Certification for Collateral Damage Estimators
+- Ammunition and Effects — What Concrete Rounds Do Not Teach
+- Ammunition and Effects — Ukraine: Jammed Precision, Cheap Drones and the Return of Mass
+- Ammunition and Effects — Buying for Jamming and for Depth
+- Ammunition and Effects — Combat Training Centre Weaknesses in Munition Choice
+- Sustainment — Who Sustains the Artillery Battalion
+- Sustainment — Who Plans and Controls Ammunition
+- Sustainment — Field and Sustainment Maintenance
+- Sustainment — Marine Distributed Sustainment
+- Sustainment — Medical and Fuel Support to the Guns
+- Sustainment — Ammunition from Factory to Gun
+- Sustainment — Required and Controlled Supply Rates
+- Sustainment — Configured Loads
+- Sustainment — Field Resupply Methods
+- Sustainment — Handling Rocket and Cannon Ammunition
+- Sustainment — Dispersed Caches and Unmanned Resupply
+- Sustainment — Barrel Life and Replacement
+- Sustainment — Common Failures and Readiness Reporting
+- Sustainment — Spare Parts and Commonality
+- Sustainment — Remote Maintenance Support
+- Sustainment — M992A3 Ammunition Carrier (FAASV)
+- Sustainment — Load-Handling Trucks: PLS and HEMTT
+- Sustainment — ATLAS II Rough-Terrain Forklift
+- Sustainment — Recovery: M88A2 HERCULES and M1089 Wrecker
+- Sustainment — Ammunition and Maintenance Software
+- Sustainment — Army Prepositioned Stocks
+- Sustainment — Munitions Production Rates
+- Sustainment — Ukraine Transfers and US Stocks
+- Sustainment — Industrial Bottlenecks
+- Sustainment — Ammunition and Maintainer Courses
+- Sustainment — Logistic Friction at the Training Centres
+- Sustainment — Firing Well, Resupplying Badly
+- Sustainment — Ukraine: Hunted Depots and Convoys
+- Sustainment — Training Centre Trends in Sustainment
+- Digital Fires and Targeting — Decide, Detect, Deliver, Assess
+- Digital Fires and Targeting — Deciding: The Working Group and the Board
+- Digital Fires and Targeting — Detecting: The Field Artillery Intelligence Officer
+- Digital Fires and Targeting — Assessing: Did the Attack Work
+- Digital Fires and Targeting — F3EAD and F2T2EA
+- Digital Fires and Targeting — The Joint Targeting School and the Joint Firepower Course
+- Digital Fires and Targeting — 155mm Production: Metal Parts and Load Plants
+- Digital Fires and Targeting — Civilian Harm Mitigation and Response
+- Guns, Howitzers and Mortars — Mortars and How They Differ from Artillery
+- Guns, Howitzers and Mortars — Mortars in the Targeting Cycle
+- Guns, Howitzers and Mortars — Mortars in the Infantry Brigade Combat Team
+- Guns, Howitzers and Mortars — Mortars in the Stryker Brigade Combat Team
+- Guns, Howitzers and Mortars — Mortars in the Armored Brigade Combat Team
+- Guns, Howitzers and Mortars — Marine Mortars and the End of the 120mm
+- Guns, Howitzers and Mortars — M224A1 60mm Light Mortar
+- Guns, Howitzers and Mortars — M252A1 81mm Medium Mortar
+- Guns, Howitzers and Mortars — M120A1 and M121 120mm Heavy Mortars
+- Guns, Howitzers and Mortars — Mortar Ammunition Effects
+- Guns, Howitzers and Mortars — Mortar Fire Control: Digital and Analog
+- Guns, Howitzers and Mortars — Guided 120mm Mortar Rounds
+- Guns, Howitzers and Mortars — Mortars and Civilian Harm
+- Guns, Howitzers and Mortars — Turreted Mortar: Patria NEMO on the AMPV
+- Guns, Howitzers and Mortars — Army Mortar Training: 11C and the Mortar Leader Course
+- Guns, Howitzers and Mortars — Marine Mortar Training: 0341
+
+TASK A: Strengthen the evidence. These entries rest on assessment or have no linked source. For each, find an official or established source that confirms or corrects it, or write "No public source found":
+- The Joint Targeting Cycle (JTC)
+- Time-Sensitive Targets (TST) & Dynamic Targeting
+- Collection Priorities & Lower-Echelon Requests
+- AN/PED-1 Lightweight Laser Designator Rangefinder (LLDR / LLDR 2H)
+- M7A3/A4 Bradley FIST (BFIST) & M1131 Stryker FSV
+- US Army Joint Fires Observer (JFO) Course (2 Weeks)
+- Project Convergence & NGC2
+- Ukraine (2022+): Cross-Cueing Weapon-Locating Radars with UAS
+- Nagorno-Karabakh (2020): Persistent Aerial Observation Over Entrenched Positions
+- Gaza (2023–2024): Close-Proximity Urban Fire Support at Company/Battalion
+- C2 Disaggregation & Signature Management
+- The Accuracy Gap and Cross-Cueing to Drones
+- Recurring Weaknesses at Warfighter Exercises and Combat Training Centers
+- Analysis: Doctrine for Machine-Speed Targeting
+- NABK: The Shared NATO Ballistic Software
+- Attrition: Worn Barrels and Mixed Ammunition
+- Training: Loitering Munitions in the Digital Chain
+- Logistics: Treat Strike Drones as Ammunition
+- Survivability of Observers
+- HIMARS and MLRS in the Counter-Fire Role
+- National Guard Rocket Battalions and Exercises
+- The Debate: Sea Denial from the Land
+- Volume, Timing and Surprise
+- Precision or Area Fire
+- NATO Ammunition Interchangeability
+- Common Failures and Readiness Reporting
+- Spare Parts and Commonality
+- Remote Maintenance Support
+- Firing Well, Resupplying Badly
+
+TASK B: Key figures. For each system, give: type, calibre, combat weight, crew, range by round type, rate of fire, mobility and time into and out of action. Mark press and vendor figures "Reported"; write "Not stated" where sources give nothing.
+Systems: AN/TPQ-37, XM1180 C-DAEM, Sigma, M1129 / M1252, M2A2 aiming circle, AN/TMQ-52
+
+ENTRY FORMAT. Use exactly these numbered fields for every entry:
+1. Title: in title case
+2. Area: one of the ten areas above
+3. Section: Forces, TTPs, Equipment, Training or Lessons
+4. Force: the service or branch
+5. Echelon: Company, Battery, Battalion, Regiment, Brigade, Division, Corps or Theatre
+6. What: 1 or 2 sentences
+7. How: 3 to 5 numbered points
+8. Why: 1 or 2 sentences
+9. Compare with the US: one factual sentence
+10. Confidence: Confirmed (official or primary source), Reported (press, vendor or a single unverified source) or Analysis (assessment)
+11. As of: month and year
+12. Sources: title, publisher, year and full URL for each
+
+FOR LEARNERS. Each entry teaches one point a reader can remember and compare. Keep each line short and concrete. Prefer one strong official source over several weak ones.
+
+STYLE. Plain, factual UK English. Short sentences. No intensifiers such as "highly", "massive", "devastating", "absolutely" or "incredibly". Start a line with "Reported:" when that line rests on press or vendor claims, even inside a Confirmed entry. Keep official names in their own spelling.
