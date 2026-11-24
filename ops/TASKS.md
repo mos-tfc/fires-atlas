@@ -82,3 +82,5 @@ Status: Open · In progress · Waiting on owner · Done.
 - Instructor: Wed 06:00 SGT (cron 0 22 * * 2 UTC), on even ISO weeks only. One PR.
 - Monthly Sweep: 1st of the month 08:00 SGT (cron 0 0 1 * * UTC). Country researchers, then Liaison and Sentry. One PR.
 - All run on Sonnet 5.5 with no connectors, on agent/<name>/<date> branches; the owner merges.
+- 2026-11-24 · Owner's regional update 1 (US, Russia, Ukraine; 1 May–24 Nov 2026) loaded: 19 Developments items, Daring Warrior added, Orient Shield updated. Every source opened or, where the site blocks scripts, confirmed by exact-title search (L1–L5). Dropped: Kerch Bridge strike (only blog and Wikipedia sources), PrSM $8.4bn (third-hand via Anadolu), nuclear-forces exercise and civilian strikes (out of scope), DA PAM 600-3 career guidance (link blocked, unconfirmed), JR3 practice rocket and drone-unit recruitment (low learner value), 'HI-RAIN' label and 4MDTF HIMARS detail (not on the cited pages). Corrected: CSG 'contract' is a selection to compete for task orders; Daring Warrior ran 29 Aug–22 Sep (not 28 Sep); Paladin award dated 16 Jun (BAE). Dates for US, Russia, Ukraine set to 2026-11-24.
+

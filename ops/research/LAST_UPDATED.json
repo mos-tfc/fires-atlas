@@ -1,8 +1,8 @@
 {
   "_note": "Date each army's research is current to: the newest date the last returned report covered. Set by Recce when a report is loaded (or the monthly sweep is merged). tools/mass_prompt.mjs asks for changes after this date (never a window shorter than one month). First pass set to 1 May 2026, the start of the period the app's Developments cover, because the original research was general rather than dated.",
-  "United States": "2026-05-01",
-  "Russia": "2026-05-01",
-  "Ukraine": "2026-05-01",
+  "United States": "2026-11-24",
+  "Russia": "2026-11-24",
+  "Ukraine": "2026-11-24",
   "China": "2026-05-01",
   "South Korea": "2026-05-01",
   "North Korea": "2026-05-01",

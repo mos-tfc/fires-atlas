@@ -1,0 +1,718 @@
+Artillery and Fire Support Reference
+Update 1 of 3: United States, Russia and
+Ukraine (1 May 2026 to 24 November
+2026)
+
+This reference update records confirmed open-source developments in artillery, rocket and
+missile fires, fire control, unmanned strike integration, organisation, doctrine, exercises and
+combat lessons for the United States, Russia and Ukraine between 1 May 2026 and 24
+November 2026. Previously recorded entries and news items are omitted unless materially
+updated. Lines resting on press, vendor, state-media or single-source claims begin with
+Reported:.
+Across the reporting window, three operational trends stand out. The United States expanded
+long-range rocket production and ammunition plant modernisation while a Government
+Accountability Office audit warned that munitions growth lacked a requirement-linked strategy.
+Russia scaled its Rubicon unmanned centre and continued deliveries of Krasnopol-M2 guided
+shells and Planshet fire control systems while stockpiling newly built wheeled howitzers near
+Finland. Ukraine sustained land-attack Neptune cruise missile strikes at 170–430 km against
+Russian airfields and defence plants, integrating Navy missile units into deep joint targeting.
+United States
+
+1. Equipment
+
+Reported: 2026-11-23 — Lockheed Martin completed a third test of its Joint Reduced Range
+Rocket (JR3) at Yuma Proving Ground, Arizona, firing 24 training rounds. The rocket is being
+evaluated as a potential replacement for current U.S. Army HIMARS and M270 practice
+ammunition. Source: Lockheed Martin completes third JR3 rocket test for potential U.S. Army
+HIMARS and M270 training ammunition replacement, Defence Industry Europe, 23 November
+2026,
+https://defence-industry.eu/lockheed-martin-completes-third-jr3-rocket-test-for-potential-u-s-arm
+y-himars-and-m270-training-ammunition-replacement/.
+Reported: 2026-11-17 — Lockheed Martin stated that it expanded Guided Multiple Launch
+Rocket System (GMLRS) production capacity to 14,000 rockets per year to support the U.S.
+Army. The company also reported that the 150 km Extended-Range GMLRS (ER GMLRS)
+completed operational testing of its Unitary and Alternative Warhead variants and passed its
+U.S. Army Milestone C review, moving toward production and fielding on existing HIMARS and
+M270 launchers. Source: GMLRS at Scale: Delivering for the Army Today, Advancing What's
+Next, Lockheed Martin, 17 November 2026,
+https://www.lockheedmartin.com/en-us/news/features/2026/gmlrs-at-scale-delivering-for-the-arm
+y-today-advancing-whats-next.html.
+Reported: 2026-11-06 — Czechoslovak Group (CSG) announced that it secured a U.S. Army
+framework contract for ammunition plant modernisation under a $4.2 billion programme. Specific
+task-order values, plant locations and output quantities were not disclosed in the release.
+Source: CSG Secures U.S. Army Framework Contract for Ammunition Plant Modernization
+Under $4.2 Billion Program, GlobeNewswire (Czechoslovak Group), 6 November 2026,
+https://www.globenewswire.com/news-release/2026/11/06/3397335/0/en/csg-secures-u-s-army-f
+ramework-contract-for-ammunition-plant-modernization-under-4-2-billion-program.html.
+Reported: 2026-10-12 — Hanwha Defense USA and the U.S. Army unveiled the XM1776
+Mobile Tactical Cannon (MTC), an American wheeled 155mm variant of Hanwha's K9 howitzer
+family, at the AUSA 2026 Annual Meeting. The unveiling followed a 19 August 2026 U.S. Army
+contract for nine prototype systems with an option for nine more; the contract value was not
+stated. Hanwha is establishing a Phase I U.S. integration and test facility in Opelika, Alabama.
+Source: US Army, Hanwha unveil XM1776 Mobile Tactical Cannon, Hanwha, 13 October 2026,
+https://www.hanwha.com/newsroom/news/press-releases/us-army-hanwha-unveil-xm1776-mobi
+le-tactical-cannon.do.
+Reported: 2026-08 — Lockheed Martin's Kodiak containerised launcher completed its first
+integrated live-fire test using a Reduced-Range Practice Rocket. The containerised launcher is
+designed to carry up to 12 GMLRS rockets. Source: GMLRS at Scale: Delivering for the Army
+Today, Advancing What's Next, Lockheed Martin, 17 November 2026,
+https://www.lockheedmartin.com/en-us/news/features/2026/gmlrs-at-scale-delivering-for-the-arm
+y-today-advancing-whats-next.html.
+Reported: 2026-06-17 — BAE Systems won a $535 million U.S. Army contract to build
+additional M109A7 Paladin self-propelled howitzers and M992A3 ammunition carriers. Vehicle
+quantities for the June 2026 award were not stated. Source: BAE Systems wins $535m contract
+for US Army M109A7 howitzers, Army Technology, 17 June 2026,
+https://www.army-technology.com/news/bae-systems-m109a7-paladin-2/.
+Reported: 2026-06 — The U.S. Army awarded Lockheed Martin an $8.4 billion contract
+modification in June 2026 to increase Precision Strike Missile (PrSM) production capacity,
+according to Anadolu Agency citing The Defence Post. Missile quantities were not stated.
+Source: US-Iran war ushers in new era of missile warfare, The Express Tribune (Anadolu
+Agency), 14 September 2026,
+https://tribune.com.pk/story/2629251/us-iran-war-ushers-in-new-era-of-missile-warfare.
+Reported: 2026-05-04 — The U.S. Army awarded AeroVironment a prototype agreement for the
+Switchblade 400 loitering munition under the Low Altitude Stalking and Strike Ordnance
+(LASSO) programme. Neither contract value nor prototype quantity was disclosed. Source:
+Army awards deal to AV for new Switchblade 400 kamikaze drone to support LASSO program,
+DefenseScoop, 4 May 2026,
+https://defensescoop.com/2026/05/04/army-award-aerovironment-switchblade-400-drone-lasso-
+program/.
+Reported: 2026-05 — Lockheed Martin received a $3 billion U.S. Army production award in May
+2026 for continued production and delivery of standard-range and extended-range GMLRS
+rockets. Round quantities were not stated. Source: GMLRS at Scale: Delivering for the Army
+Today, Advancing What's Next, Lockheed Martin, 17 November 2026,
+https://www.lockheedmartin.com/en-us/news/features/2026/gmlrs-at-scale-delivering-for-the-arm
+y-today-advancing-whats-next.html.
+
+2. Organisation
+
+2026-10-08 — The U.S. Army officially activated the 4th Multi-Domain Task Force (4MDTF) at
+Founder's Field, Fort Carson, Colorado, under Col. Hugh W. A. Jones and subordinate to 7th
+Infantry Division (Multi-Domain Command – Pacific). The Indo-Pacific-focused unit numbers
+nearly 2,100 soldiers and incorporates long-range precision fires including M142 HIMARS.
+Official activation documentation identifies Bravo Company, 1st Battalion, 10th Field Artillery
+Regiment as assigned to the formation. Sources: 4th Multi-Domain Task Force Officially
+Activates, U.S. Army, 8 October 2026,
+https://www.army.mil/article/296047/4th_multi_domain_task_force_officially_activates; US Army
+activates new multi-domain task force to 'deny, disrupt' enemies in Indo-Pacific, Defense News,
+9 October 2026,
+https://www.defensenews.com/global/asia-pacific/2026/10/09/us-army-activates-new-multi-doma
+in-task-force-to-deny-disrupt-enemies-in-indo-pacific/.
+
+3. Doctrine, training and schools
+
+Reported: 2026-11-17 — U.S. Army 25th Infantry Division units rehearsed rapid air-mobile
+HIMARS deployment and firing drills in Hawaii ahead of missions in the Philippines. Launchers
+conducted live-fire missions and rapid displacement to practise expeditionary HIMARS Rapid
+Infiltration (HI-RAIN) procedures for Pacific island operations. Source: U.S. Army Rehearses
+Rapid HIMARS Island-Hopping Strikes to Strengthen Pacific Warfare Capabilities, Army
+Recognition, 17 November 2026,
+https://www.armyrecognition.com/news/army-news/2026/u-s-army-rehearses-rapid-himars-islan
+d-hopping-strikes-to-strengthen-pacific-warfare-capabilities.
+2026-07-13 — Headquarters, Department of the Army published updated Field Artillery Branch
+officer career guidance under DA PAM 600-3. The guidance sets key developmental and
+broadening assignment expectations from lieutenant to colonel, including Battalion Fire Support
+Officer service for captains before battery command. Colonels are advised to hold at least Level
+I completion with a 3A Additional Skill Identifier to remain competitive for tactical brigade
+command. Source: FIELD ARTILLERY BRANCH – 13 July 2026 (DA PAM 600-3 FA CAO), U.S.
+Army, 13 July 2026 (uploaded 23 July 2026),
+https://api.army.mil/e2/c/downloads/2026/07/23/e1c05864/da-pam-600-03-fa-cao-jul-2026.pdf.
+
+4. Exercises with a fires element
+
+2026-08-29 to 2026-09-28 — The 11th edition of Exercise Daring Warrior took place at Fort Sill,
+Oklahoma, United States. Participating nations were Singapore (about 110 Singapore Armed
+Forces personnel from 23rd Battalion, Singapore Artillery) and the United States (about 50 U.S.
+Army personnel from 75th Field Artillery Brigade, including 3rd Battalion, 13th Field Artillery
+Regiment). Both forces conducted combined live-fire operations using Singapore's High Mobility
+Artillery Rocket System (HIMARS) and the U.S. Army's Multiple Launch Rocket System
+(MLRS). Sources: Minister of State for Defence Desmond Choo Visits SAF’s Artillery Live-Firing
+Exercise in the United States, Ministry of Defence (Singapore), 23 September 2026,
+https://www.mindef.gov.sg/news-and-events/latest-releases/23sep26-nr/; 75th Field Artillery
+Brigade, Singapore Complete Monthlong Exercise, U.S. Indo-Pacific Command, 29 September
+2026,
+https://www.pacom.mil/Media/News/News-Articles/Article/4614413/75th-field-artillery-brigade-sin
+gapore-complete-monthlong-exercise/.
+2026-09-19 — During Exercise Orient Shield 26 at Yausubetsu Training Area, Hokkaido, Japan,
+1-17 Long Range Fires Battalion (3d Multi-Domain Task Force) conducted reconnaissance,
+mission rehearsals and M142 HIMARS live-fire operations. Official releases documented
+participation by the United States, Japan and Australia in closing events, with United Kingdom
+personnel also observing balloon and drone launches. Source: U.S. Army HIMARS
+Reconnaissance and Live-Fire B-Roll During Orient Shield 26, U.S. Central Command (U.S.
+Army Japan release), 19 September 2026,
+https://www.centcom.mil/OPERATIONS-AND-EXERCISES/EPIC-FURY/videoid/1024306/dvpmo
+duleid/41413/dvpTag/Shield/.
+
+5. Operations and lessons
+
+2026-11-19 — The U.S. Government Accountability Office (GAO) publicly released Report
+GAO-27-109420, an unclassified version of its 24 September 2026 classified audit, finding that
+the 2026 conflict with Iran reinforced persistent Department of Defense munitions shortages.
+GAO reported that DoD lacks an overarching plan linking production and funding to total
+requirements, lacks a single empowered implementing office and fails to reconcile its Munitions
+Readiness Initiative tool regularly with service databases. The audit cited the U.S. Army's
+155mm shell production ramp-up as reactive to partner-support shortfalls rather than driven by
+DoD's total munitions requirement; DoD generally concurred with all four recommendations.
+Source: DOD Munitions: Planning and Leadership Needed to Address Persistent Shortages,
+U.S. Government Accountability Office (GAO-27-109420), 19 November 2026,
+https://www.gao.gov/products/gao-27-109420.
+Reported: 2026-09-14 — An operational review of missile warfare in the 2026 U.S.–Iran conflict
+highlighted the Precision Strike Missile (PrSM) as expanding mobile ground-launched reach to
+roughly 500 km with two missiles per HIMARS or M270A2 pod against time-sensitive
+air-defence and missile sites. U.S. Central Command stated that PrSM made its combat debut
+during opening strikes on 28 February–1 March 2026 (prior to this reporting period), though an
+open-source Hague Code of Conduct (HCoC) assessment noted that CENTCOM promotional
+video clips included ATACMS M57A1 launch imagery and lacked launch-site or impact
+verification. Combat consumption during the conflict contributed to accelerated PrSM production
+funding. Sources: US-Iran war ushers in new era of missile warfare, The Express Tribune
+(Anadolu Agency), 14 September 2026,
+https://tribune.com.pk/story/2629251/us-iran-war-ushers-in-new-era-of-missile-warfare; First use
+of the Precision Strike Missile (PrSM) – 2026 Iran war, Hague Code of Conduct (HCoC), date
+not stated on page,
+https://www.nonproliferation.eu/hcoc/first-use-of-the-precision-strike-missile-prsm-2026-iran-war/
+.
+
+6. Corrections
+
+No change found.
+Searches run:
+ ● "ATP 3-09" OR "FM 3-09" OR "TC 3-09" OR "JP 3-09" OR "MCTP 3-10F" 2026 published
+ OR updated (checked Army Publishing Directorate index via Military Toolkit, Line of
+ Departure, Modern War Institute, Marines.mil — confirmed FM 3-09 remained dated 12
+ August 2024 and ATP 3-09.90 remained dated 12 October 2017).
+ ● "US Army" OR "Marine Corps" artillery OR PrSM OR HIMARS lessons OR review OR
+ report 2026 Iran OR GAO (checked GAO, DefenseScoop, Defense One, Military Times,
+ The War Zone, HCoC).
+ ● "US Army" OR "USMC" "DIVARTY" OR "Field Artillery Brigade" OR "Multi-Domain Task
+ Force" OR "MDTF" OR "artillery battalion" activated OR inactivated OR reflagged OR
+ reorganized 2026 (checked Army.mil, Defense News, DVIDS, Army Recognition).
+
+Entry impact
+
+ ● 2026-11-23 JR3 training rocket test: updates The Practice Rocket.
+ ● 2026-11-17 GMLRS 14,000/year capacity and ER GMLRS Milestone C: updates The
+ Rocket and Missile Family: GMLRS, ATACMS and PrSM, The Unmanned Launcher
+ and the Production Surge and Munitions Production Rates.
+ ● 2026-11-06 CSG ammunition plant modernisation framework contract: updates 155mm
+ Production: Metal Parts and Load Plants and Industrial Bottlenecks.
+ ● 2026-10-12 XM1776 Mobile Tactical Cannon unveiling and prototype contract: updates
+ After ERCA: The Self-Propelled Howitzer Modernization Programme (and clarifies
+ wheeled configuration for XM1776 (K9)).
+ ● 2026-08 Kodiak containerised 12-rocket launcher live-fire test: updates The Unmanned
+ Launcher and the Production Surge.
+ ● 2026-06-17 BAE Systems $535 million M109A7/M992A3 contract: updates M109A7
+ Paladin 155mm Self-Propelled Howitzer and M992A3 Ammunition Carrier (FAASV).
+ ● 2026-06 Lockheed Martin $8.4 billion PrSM production modification: updates The Rocket
+ and Missile Family: GMLRS, ATACMS and PrSM and The Unmanned Launcher and
+ the Production Surge.
+ ● 2026-05-04 AeroVironment Switchblade 400 prototype agreement: updates Switchblade
+ 300, 400 and 600 and Army: LASSO Platoons in the Recon and Strike Company.
+ ● 2026-05 Lockheed Martin $3 billion GMLRS production award: updates The Rocket and
+ Missile Family: GMLRS, ATACMS and PrSM and Munitions Production Rates.
+ ● 2026-10-08 4th Multi-Domain Task Force activation: updates Multi-Domain Commands
+ and the Fourth MDTF and Multi-Domain Task Force (MDTF).
+ ● 2026-11-17 25th Infantry Division HI-RAIN rehearsal: updates HIMARS Rapid Infiltration
+ (HI-RAIN).
+ ● 2026-07-13 DA PAM 600-3 Field Artillery officer career guidance: updates Officer
+ Pipeline: Field Artillery Basic Officer Leader Course and Three Critiques of Training
+ and Talent Management.
+ ● 2026-08-29 to 2026-09-28 Exercise Daring Warrior 2026: New entry.
+ ● 2026-09-19 Exercise Orient Shield 26 HIMARS live fire: updates Orient Shield.
+ ● 2026-11-19 GAO-27-109420 munitions shortages audit: updates Munitions Production
+ Rates, Ukraine Transfers and US Stocks and Industrial Bottlenecks.
+ ● 2026-09-14 PrSM operational review in the 2026 Iran conflict: updates The Rocket and
+ Missile Family: GMLRS, ATACMS and PrSM and New entry (2026 Iran Conflict:
+ Long-Range Precision Fires).
+The financial scale of U.S. fires procurement between May and November 2026 reflects
+simultaneous investment in deep-strike rocket capacity, ammunition industrial infrastructure and
+armoured cannon sustainment, even as GAO warned that production increases lacked a unified
+requirement-linked strategy.
+Russia
+1. Equipment
+
+Reported: 2026-11-19 — Rostec's High Precision Systems holding delivered another batch of
+152mm Krasnopol-M2 guided artillery projectiles. The company also reported completing
+annual-contract deliveries of Planshet-M-IR (armoured-chassis) and Planshet-A (portable)
+automated fire control systems for towed artillery, self-propelled artillery, mortars and MLRS,
+alongside guidance drives for MLRS and self-propelled guns. Exact delivery quantities were not
+disclosed. Source: Russia Increases Deliveries of Krasnopol-M2 Guided Artillery Sheels and
+Planshet Fire Control Systems, Deagel.com (citing Rostec), 19 November 2026,
+https://www.deagel.com/news/n000029079.
+Reported: 2026-10-20 — Expected production of the wheeled 152mm 2S44 Giatsint-K
+self-propelled howitzer totalled 18 units in 2025 and 36 units in 2026, according to Defense
+Express citing Russian investigative outlet Important Stories. Rather than deploying all newly
+built 2S43 Malva and 2S44 Giatsint-K systems to Ukraine, Russia has stockpiled newly
+manufactured vehicles in mobilisation reserves at Base No. 374 in Karelia, 185 km from the
+Finnish border. Source: New Details Emerge About Production of russian Malva, Giatsint-K
+Howitzers Being Stockpiled 200 km From Finland, Defense Express, 20 October 2026,
+https://en.defence-ua.com/news/new_details_emerge_about_production_of_russian_malva_giat
+sint_k_howitzers_being_stockpiled_200_km_from_finland-20158.html.
+Reported: 2026-10-16 — Rostec announced expanded production of Krasnopol
+precision-guided artillery shells for counter-battery fire and strikes against armoured vehicles,
+UAV control stations and command posts. Production volumes were not disclosed. Source:
+Rostec Boosts Krasnopol Shell Production for Precision Artillery Strikes, Voyennoye Delo (citing
+Rostec / Russian Ministry of Defence), 16 October 2026,
+https://voennoedelo.com/en/posts/id21050-russia-expands-krasnopol-precision-shell-production
+.
+Reported: 2026-10-02 — During the final phase of Exercise Zentr-2026, Russia showcased
+"Product 347", a ground vehicle firing LMUR missiles (originally helicopter armament) in a
+surface-to-surface mode. Also displayed was the Derivatsiya-PVO vehicle armed with a 57mm
+Type 2A90 automatic cannon rated to 6 km against ground targets and 4.5 km against air
+targets at roughly 120 rounds per minute (148-round capacity). Source: “Zentr-2026”
+Maneuvers: Putin Showcases His New Arsenal, Militär Aktuell, 4 October 2026,
+https://militaeraktuell.at/en/zentr-2026-maneuvers-putin-showcases-his-new-arsenal/.
+
+2. Organisation
+
+Reported: 2026-11-18 — Russian Ministry of Defence officials stated that dedicated drone units
+have been formed across the armed forces. Contract recruitment for unmanned systems troops
+reportedly reached 98.7% of its 2026 target through 96 recruitment centres across 87 federal
+regions. Source: Russia Forms Drone Units as Recruitment Reaches 98.7%, Voyennoye Delo
+(citing Russian Ministry of Defence), 18 November 2026,
+https://voennoedelo.com/en/posts/id22346-russia-forms-drone-units-as-recruitment-reaches-98.
+7.
+2026-06-12 — A Foreign Policy Research Institute (FPRI) study documented that Russia's
+Center for Advanced Unmanned Technologies "Rubicon" expanded from 1,450 personnel in
+2025 to roughly 5,000 personnel by 2026 as a group-of-forces level asset. Its enlarged combat
+detachments combine four officer-led FPV platoons (three platoons of eight three-person teams
+and a fourth platoon of six four-person crews) with a 72-person fixed-wing FPV group. Each
+detachment also fields a 69-person reconnaissance-strike group (four S-350NJ Supercam and
+four Zala ISR/Lancet teams), a 29-person counter-UAS and electronic warfare group and a
+15-person communications platoon. Source: Inside Rubicon: The Structure of Russia’s Elite
+Drone Center, Foreign Policy Research Institute, 12 June 2026,
+https://www.fpri.org/article/2026/06/inside-rubicon-the-structure-of-russias-elite-drone-center/.
+
+3. Doctrine, training and schools
+
+Reported: 2026-10-04 — For Exercise Zentr-2026, the Russian Ministry of Defence deliberately
+selected units without prior combat experience in Ukraine and required them to execute all tasks
+using combat methods derived from the Ukraine war. Exercise scenarios integrated dense
+UAV-supported fires and formally incorporated the concept of a "security zone in adjacent
+territories" into regular manoeuvre schedules. Source: “Zentr-2026” Maneuvers: Putin
+Showcases His New Arsenal, Militär Aktuell, 4 October 2026,
+https://militaeraktuell.at/en/zentr-2026-maneuvers-putin-showcases-his-new-arsenal/.
+2026-06-12 — FPRI documented that the Rubicon Centre trains conventional Russian units in
+updated unmanned tactics, techniques and procedures (TTPs) and counter-UAS methods.
+Unlike regular formations, Rubicon detachments receive systems directly from manufacturers
+and provide direct operational feedback to shorten hardware and software iteration cycles.
+Source: Inside Rubicon: The Structure of Russia’s Elite Drone Center, Foreign Policy Research
+Institute, 12 June 2026,
+https://www.fpri.org/article/2026/06/inside-rubicon-the-structure-of-russias-elite-drone-center/.
+
+4. Exercises with a fires element
+
+Reported: 2026-09-28 to 2026-10-03 — Russia held the strategic command-and-staff exercise
+Zentr-2026 across 11 training grounds—including Chebarkul in Chelyabinsk Oblast, observed
+by President Vladimir Putin on 2 October—and in the Caspian Sea, involving over 47,000
+troops, about 2,000 weapons and equipment items, 90 aircraft and 77 ships and boats. The
+manoeuvre was linked to the CSTO Vzaimodeistvie-2026 exercise; open-source coverage
+documented Chinese Type 99A tanks and an observing Afghan Taliban delegation, though a
+complete list of foreign troop-contributing nations was not confirmed in open sources. The
+Russian Ministry of Defence stated that forces carried out live launches of Iskander-M missiles
+and Tornado multiple launch rocket systems, while Chebarkul drills employed 567 drones, over
+50 robotic systems, aerial incendiary drops and ground-launched LMUR demonstrations.
+Sources: “Zentr-2026” Maneuvers: Putin Showcases His New Arsenal, Militär Aktuell, 4 October
+2026, https://militaeraktuell.at/en/zentr-2026-maneuvers-putin-showcases-his-new-arsenal/;
+Russian Ministry of Defense: "Center 2026" exercises featured launches of Iskander-M and
+Tornado-..., YouTube news clip (citing Russian Ministry of Defence), date not stated on clip,
+https://www.youtube.com/shorts/XCc3EvcVfPw.
+2026-05-19 to 2026-05-21 — Russia conducted a strategic and non-strategic nuclear forces
+exercise alongside Belarus, whose Defence Ministry stated on 20 May that Russian troops
+placed nuclear weapons on high alert. On 21 May 2026, strategic launches comprised a mobile
+Yars ICBM from a Krona shelter at Plesetsk and air-launched cruise missiles from Tu-95MS
+bombers operating from Ukrainka, alongside MiG-31 sorties carrying Kinzhal missiles. Specific
+ground-launched Iskander-M live firings were not confirmed in the retrieved open-source
+analyses. Sources: Exercise of strategic forces held in May, Russian Strategic Nuclear Forces
+(Pavel Podvig), 21 May 2026,
+https://russianforces.org/blog/2026/05/exercise_of_strategic_forces_h.shtml; Mark B. Schneider,
+Russia’s May 2026 Nuclear Exercise, No. 666, August 3, 2026, National Institute for Public
+Policy, 3 August 2026,
+https://nipp.org/information_series/mark-b-schneider-russias-may-2026-nuclear-exercise-no-666
+-august-3-2026/.
+
+5. Operations and lessons
+
+2026-11-19 to 2026-11-20 — Russian forces launched their largest missile and drone strike of
+November 2026 against Ukrainian infrastructure and Kyiv bridges, while intentionally routing two
+suspected missiles and a jet-powered drone into southeastern Polish airspace near the Nowa
+Deba training ground during the European Koalicja exercise. In a separate strike on Kryvyi Rih
+reported by local administration head Oleksandr Vilkul and Associated Press, two ballistic
+missiles were followed by three rockets striking emergency rescue crews, killing two civilians
+and wounding 60. Sources: Russian Offensive Campaign Assessment, November 20, 2026,
+Institute for the Study of War, 20 November 2026,
+https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-n
+ovember-20-2026/; Associated Press report on Kryvyi Rih and Nowa Deba strikes, Associated
+Press, November 2026 (exact day not stated in retrieved excerpt),
+https://apnews.com/article/russia-ukraine-war-missile-zelenskyy-trump-bfdee2ffadc2693e7338d
+6822e5356ef.
+Reported: 2026-11-11 and 2026-11-20 — Ukrainian forces struck a Rubicon drone unit base in
+occupied territory overnight on 10–11 November 2026 and a second Rubicon deployment site in
+Russia's Kursk Oblast on 20 November 2026. Both strikes highlight the vulnerability of
+concentrated specialist drone detachments once geolocated. Sources: Ukrainian forces strike
+Russian elite 'Rubicon' drone unit deployment site in Russian Kursk Oblast, The Kyiv
+Independent, 20 November 2026,
+https://kyivindependent.com/ukrainian-forces-strike-russian-elite-rubicon-drone-unit-deployment-
+site-in-russian-kursk-oblast/; Ukraine strikes elite Russian 'Rubicon' drone unit in occupied
+territory, The Independent, 11 November 2026,
+https://www.independent.co.uk/news/world/europe/ukraine-strike-rubicon-drone-base-b3082846
+.html.
+Reported: 2026-09-04 to 2026-11-20 — Ukraine's Ministry of Defence reported hitting a Russian
+Iskander-M launcher in Kursk Oblast during October 2026, while President Volodymyr
+Zelenskyy stated on 20 November that overnight strikes hit three Russian ballistic missile
+launchers, destroying one and potentially damaging two. Earlier, on 4 September 2026,
+Ukraine's 22nd Separate Mechanized Brigade reported destroying a wheeled 2S43 Malva
+152mm howitzer with reconnaissance-cued FPV drones. Sources: Ukraine’s October deep
+strikes hit 7 defense industry enterprises and 3 russian military airfields, Ministry of Defence of
+Ukraine, 3 November 2026,
+https://mod.gov.ua/en/news/ukraine-strikes-russian-defense-industry-october-2026; Ukraine's
+FPV Drones Burn Rare Russian 2S43 Malva, One of Moscow's Newest Howitzers, Video,
+UNITED24 Media, 4 September 2026,
+https://united24media.com/war-in-ukraine/ukraines-fpv-drones-burn-rare-russian-2s43-malva-on
+e-of-moscows-newest-howitzers-video-22233; Daily Update: Russia Loses 1,730 Troops, 24
+Armored Vehicles, and 2 Air Defense Systems in One Day, UNITED24 Media, November 2026
+(exact day not stated in retrieved excerpt),
+https://united24media.com/war-in-ukraine/daily-update-russia-loses-1730-troops-24-armored-ve
+hicles-and-2-air-defense-systems-in-one-day-24585.
+2026-06-12 — FPRI assessed that Rubicon detachments shortened Russian sensor-to-shooter
+timelines against Ukrainian logistics and UAS teams in Kursk Oblast (supporting the recapture
+of the Sudzha salient) and Donetsk Oblast. Although Rubicon complicated Ukrainian frontline
+sustainment, its operations had not produced an operational breakthrough. Rapid expansion to
+roughly 5,000 personnel diluted recruitment quality and strained frontline support pipelines.
+Source: Inside Rubicon: The Structure of Russia’s Elite Drone Center, Foreign Policy Research
+Institute, 12 June 2026,
+https://www.fpri.org/article/2026/06/inside-rubicon-the-structure-of-russias-elite-drone-center/.
+
+6. Corrections
+
+No change found.
+Searches run:
+ ● Russia artillery howitzer Malva Giatsint-K Msta Tornado Iskander delivery 2026 May June
+ July August September October November (checked Defense Express, Militarnyi, Army
+ Recognition, Deagel, UNITED24 Media).
+ ● Russia artillery Krasnopol Iskander Tornado Malva delivery 2026 (checked Deagel,
+ Voyennoye Delo, Army Recognition, Defence24, Militarnyi, GUR War & Sanctions).
+ ● Russia artillery brigade division regiment formed Rubicon drone unit 2026 (checked FPRI,
+ Voyennoye Delo, The Independent, The Kyiv Independent).
+ ● Russia military exercise artillery rocket firing 2026 (checked Militär Aktuell, ISW, Critical
+ Threats, Russian Strategic Nuclear Forces, NIPP, Associated Press).
+
+Entry impact
+
+ ● 2026-11-19 Krasnopol-M2 and Planshet-M-IR / Planshet-A deliveries: updates 2K25
+ Krasnopol Laser-Guided Shell and 1V198 Networked Fire Control and Strelets (or
+ New entry: Planshet-M-IR and Planshet-A Fire Control Systems).
+ ● 2026-10-20 2S44 Giatsint-K production figures and Base No. 374 Karelia stockpiling:
+ updates 2S43 Malva Wheeled Howitzer and New entry (2S44 Giatsint-K Wheeled
+ Howitzer).
+ ● 2026-10-16 Expanded Krasnopol production: updates 2K25 Krasnopol Laser-Guided
+ Shell.
+ ● 2026-10-02 Product 347 ground-launched LMUR and Derivatsiya-PVO showcase: New
+ entry.
+ ● 2026-11-18 Unmanned Systems Troops unit formation and 98.7% recruitment: updates
+ The Rubicon Drone Centre and New entry (Russian Unmanned Systems Forces).
+ ● 2026-06-12 Rubicon expansion to ~5,000 personnel and detachment structure: updates
+ The Rubicon Drone Centre.
+ ● 2026-10-04 Zentr-2026 integration of Ukraine combat methods for non-deployed units:
+ updates The Reconnaissance-Fire and Reconnaissance-Strike Complexes.
+ ● 2026-06-12 Rubicon doctrinal/training hub and manufacturer feedback loop: updates The
+ Rubicon Drone Centre and The Reconnaissance-Fire and Reconnaissance-Strike
+ Complexes.
+ ● 2026-09-28 to 2026-10-03 Exercise Zentr-2026: New entry and updates CSTO
+ Exercises: Interaction, Search and Echelon 2026.
+ ● 2026-05-19 to 2026-05-21 Strategic and non-strategic nuclear forces exercise: updates
+ Iskander-M Missile Brigades.
+ ● 2026-11-19 to 2026-11-20 Polish airspace missile incursions and Kryvyi Rih double-tap
+ strike: updates Iskander-M Missile Brigades and The Law on Paper and Strikes in
+ Practice.
+ ● 2026-11-11 and 2026-11-20 Ukrainian strikes on Rubicon bases: updates The Rubicon
+ Drone Centre.
+ ● 2026-09-04 to 2026-11-20 Iskander-M launcher and 2S43 Malva losses: updates
+ Iskander-M Missile Brigades and 2S43 Malva Wheeled Howitzer.
+ ● 2026-06-12 FPRI assessment of Rubicon operational impact and constraints: updates
+ The Rubicon Drone Centre and Counter-Battery in Practice: The Promise and the
+ Friction.
+The mid-2026 structural audit of Russia's Rubicon Centre illustrates how Moscow is scaling
+tactical reconnaissance-strike integration outside traditional artillery brigades while facing
+personnel-quality and sustainment limits.
+Ukraine
+
+1. Equipment
+
+Reported: 2026-11-16 — Defense Express assessed that Ukraine's increased land-attack cruise
+missile strike tempo between August and November 2026 indicates expanded domestic output
+and technical upgrades across the Neptune missile family. Observed engagement ranges of
+170–430 km indicate operational fielding of both the R-360L "Long Neptune" (range up to 1,000
+km, 260 kg warhead) and the intermediate-range R-360M "Fat Neptune" (range of several
+hundred kilometres); production quantities remain undisclosed. Sources: Five Successful
+Neptune Cruise Missile Strikes in 30 Days: How Many Su-34s and Defense Industry Facilities
+Were Hit?, Defense Express, 16 November 2026,
+https://en.defence-ua.com/weapon_and_tech/five_successful_neptune_cruise_missile_strikes_i
+n_30_days_how_many_su_34s_and_defense_industry_facilities_were_hit-20442.html; Ukraine
+Ramps Up Neptune Missile Strikes, Targets Drone Manufacturing Facility in russia's
+Rostov-on-Don, Defense Express, 14 November 2026,
+https://en.defence-ua.com/news/ukraine_ramps_up_neptune_missile_strikes_targets_drone_m
+anufacturing_facility_in_russias_rostov_on_don-20418.html.
+2026-11-03 — The Ministry of Defence of Ukraine stated that its Defence Procurement Agency
+(DOT) launched procurement tenders for long-range deep-strike UAVs based on MoD technical
+specifications. Tender values and aircraft quantities were not disclosed. Source: Ukraine’s
+October deep strikes hit 7 defense industry enterprises and 3 russian military airfields, Ministry
+of Defence of Ukraine, 3 November 2026,
+https://mod.gov.ua/en/news/ukraine-strikes-russian-defense-industry-october-2026.
+Reported: 2026-06-16 — Ukraine's Luch Design Bureau and European missile producer MBDA
+signed a memorandum of understanding (letter of intent) to jointly develop an upgraded
+long-range Neptune-2 cruise missile, reported as 6 metres long with a 50-centimetre body
+diameter. No binding production contract, value or operational timeline was announced. Earlier,
+on 10 June 2026, Defender Media reported that MBDA became a strategic partner of Ukrainian
+Armor to co-develop deep-strike and counter-UAS capabilities. Sources: Ukrainian design
+bureau Luch to develop the Neptune-2 missile jointly with European defence giant MBDA,
+Defender Media, 17 June 2026, https://thedefender.media/en/2026/06/mbda-luch-neptun2/;
+MBDA to Help Ukraine Develop New Neptune-2 Cruise Missile, Envanter Medya, 12 July 2026,
+https://envantermedya.com/en/mbda-ukraine-neptune-2-cruise-missile/.
+
+2. Organisation
+
+No change found.
+Searches run:
+ ● Ukraine artillery brigade fire support 2026 (checked MilitaryLand, Militarnyi, Azov official
+ unit portal, Join U Army, Ukrainska Pravda — confirmed 7th Artillery Brigade of 2nd
+ Khartia Corps was revealed on 6–7 April 2026, prior to 1 May 2026, and 8th Artillery
+ Brigade "Harmash" lacked a dated activation within the window).
+ ● Ukraine artillery brigade corps liaison fire support Delta Kropyva 2026 (checked Jane's
+ Defence News, RaccoonMerch AFU structure review).
+
+3. Doctrine, training and schools
+
+No change found.
+Searches run:
+ ● Ukraine artillery brigade corps liaison fire support Delta Kropyva 2026 (checked Jane's
+ Defence News — a report on Delta becoming the sole data-transfer source across the
+ AFU lacked a verifiable publication date in the retrieved excerpt).
+ ● Ukraine artillery brigade fire support 2026 (checked Militarnyi, Ukrainska Pravda, Ministry
+ of Defence of Ukraine — confirmed KRIP-A automated fire control was unveiled on 3 April
+ 2026, prior to 1 May 2026).
+
+4. Exercises with a fires element
+
+No change found.
+Searches run:
+ ● Ukraine artillery brigade fire support 2026 and Russia military exercise artillery rocket
+ firing 2026 (checked Associated Press, UkrMedia, Ministry of Defence of Ukraine —
+ confirmed the European Coalition of the Willing Koalicja deployment exercise in Nowa
+ Deba, Poland from 9 November 2026 involved European troops rehearsing postwar
+ regeneration rather than Ukrainian live-fire artillery participation).
+
+5. Operations and lessons
+
+Reported: 2026-11-16 to 2026-11-19 — On the night of 16–17 November 2026, Ukrainian
+forces struck the Kerch (Crimean) Bridge using a combined salvo of domestically built Neptune
+missiles, an FP-5 Flamingo cruise missile and seven Destinus Ruta missiles, reportedly
+collapsing a road span over 270 metres long while leaving the rail span intact. On 19 November
+2026, Ukrainian forces fired additional Neptune missiles at the rail section, reportedly damaging
+one of the two rail tracks. Independent satellite or official damage verification was not present in
+the retrieved secondary accounts. Sources: From Soviet Factories to Drone Superpower: How
+Ukraine Rebuilt Its Arms Industry, MigFlug, date not stated on page,
+https://migflug.com/afterburner/it/ukraine-defence-industry-soviet-legacy-drone-superpower-202
+6/; R-360 Neptune, Wikipedia, date not stated on page,
+https://en.wikipedia.org/wiki/R-360_Neptune.
+Reported: 2026-11-13 — On the night of 13 November 2026, the Ukrainian Navy fired
+land-attack Neptune cruise missiles at three drone-industry facilities in Rostov-on-Don, Russia:
+Ionos LLC (production and storage for Alyosha strike FPV drones) and Aero-Hit LLC (service,
+maintenance and logistics centre for Veles FPV drones supporting Russian operations in the
+Kherson sector). Ukrainian Navy video showed a warehouse gutted by fire; this was Ukraine's
+ninth reported Neptune strike since 12 August 2026. The operation illustrates cross-service
+fire-support integration in which naval coastal missile units strike deep logistics sustaining
+Russian tactical drones against Ukrainian ground forces. Sources: Ukraine's Neptune Missiles
+Hit Facilities Producing russian Alyosha and Veles FPV Drones, Defense Express, 13
+November 2026,
+https://en.defence-ua.com/news/ukraines_neptune_missiles_hit_facilities_producing_russian_al
+yosha_and_veles_fpv_drones_video-20411.html; Ukraine Ramps Up Neptune Missile Strikes,
+Targets Drone Manufacturing Facility in russia's Rostov-on-Don, Defense Express, 14
+November 2026,
+https://en.defence-ua.com/news/ukraine_ramps_up_neptune_missile_strikes_targets_drone_m
+anufacturing_facility_in_russias_rostov_on_don-20418.html.
+2026-10-01 to 2026-11-13 — The Ministry of Defence of Ukraine reported hitting at least 30
+targets in Russia during October 2026, including seven defence-industry plants
+(Proton-Electrotex missile electronics in Oryol at ~170 km, Kamensky Combine solid rocket
+propellant in Rostov Oblast at ~200 km, Energiya missile-battery plant in Lipetsk at ~280 km
+and Redkino Pilot Plant missile-fuel plant in Tver at ~500 km), three airfields, a 55Zh6U Nebo-U
+radar (~450 km), an Iskander-M launcher in Kursk Oblast and a field artillery depot. The MoD
+explicitly credited the Missile Forces of the Ukrainian Navy using Neptune coastal missile
+systems with destroying two Su-34 aircraft at Marinovka airfield on 29 October (stating ~300 km
+distance). Reported: Defense Express tracked five Neptune strikes between 15 October and 13
+November 2026—Borisoglebsk (~340 km, 15 October, six Su-34s hit), Marinovka (~430 km, 29
+October, two Su-34s hit, differing from the MoD's ~300 km figure), Kamensk-Shakhtinsky (~190
+km, 31 October, versus the MoD's ~200 km), Proton-Electrotech (~170 km, dated 7 November
+despite appearing in the MoD's 3 November October summary) and Rostov-on-Don UAV plants
+(13 November)—attributing air-defence penetration to coordinated multi-weapon salvos.
+Sources: Ukraine’s October deep strikes hit 7 defense industry enterprises and 3 russian
+military airfields, Ministry of Defence of Ukraine, 3 November 2026,
+https://mod.gov.ua/en/news/ukraine-strikes-russian-defense-industry-october-2026; Five
+Successful Neptune Cruise Missile Strikes in 30 Days: How Many Su-34s and Defense Industry
+Facilities Were Hit?, Defense Express, 16 November 2026,
+https://en.defence-ua.com/weapon_and_tech/five_successful_neptune_cruise_missile_strikes_i
+n_30_days_how_many_su_34s_and_defense_industry_facilities_were_hit-20442.html.
+Reported: 2026-09-09 — On the night of 9 September 2026, Ukrainian Defence Forces carried
+out a combined Long Neptune cruise missile and one-way attack UAV strike on Novorossiysk
+naval base, hitting port infrastructure and a Project 21631 Buyan-M missile corvette (visually
+confirmed). Naval News assessed that heavier cruise-missile warheads inflicted greater
+structural damage than drone-only attacks, contributing to six of nine Black Sea Fleet missile
+carriers being out of service. Source: Long Neptune Strike: Ukraine’s New Cruise Missile
+Cripples Russian Warships in Novorossiysk, Naval News, 11 September 2026,
+https://www.navalnews.com/naval-news/2026/09/ukraine-strikes-russian-black-sea-fleet-long-ne
+ptune-missiles/.
+Reported: 2026-09-04 — Ukraine's 22nd Separate Mechanized Brigade reported locating a
+Russian 2S43 Malva wheeled 152mm howitzer by reconnaissance drone and destroying it with
+multiple FPV drones, reflecting continued brigade-level counter-battery engagement using
+organic strike drones. Source: Ukraine’s FPV Drones Burn Rare Russian 2S43 Malva, One of
+Moscow’s Newest Howitzers, Video, UNITED24 Media, 4 September 2026,
+https://united24media.com/war-in-ukraine/ukraines-fpv-drones-burn-rare-russian-2s43-malva-on
+e-of-moscows-newest-howitzers-video-22233.
+
+6. Corrections
+
+No change found.
+Searches run:
+ ● Ukraine Bohdana Neptune missile 2026 (checked Ministry of Defence of Ukraine,
+ Defense Express, Naval News, Defender Media, Envanter Medya, Ukrainska Pravda,
+ Kyiv Post).
+ ● Ukraine artillery brigade fire support 2026 (checked MilitaryLand, Militarnyi, Ukrainska
+ Pravda).
+ ● Ukraine artillery brigade corps liaison fire support Delta Kropyva 2026 (checked Jane's
+ Defence News).
+
+Entry impact
+
+ ● 2026-11-16 Expanded Neptune output and R-360L "Long Neptune" / R-360M "Fat
+ Neptune" operational variants: New entry (Rocket and Missile Artillery: Neptune and
+ Long Neptune Cruise Missiles).
+ ● 2026-11-03 MoD / DOT procurement tenders for long-range deep-strike UAVs: updates
+ Drones, Radars and Decoys and New entry (Rocket and Missile Artillery / Deep-Strike
+ UAVs).
+ ● 2026-06-16 Luch–MBDA Neptune-2 MoU and MBDA–Ukrainian Armor partnership: New
+ entry (Rocket and Missile Artillery: Neptune and Long Neptune Cruise Missiles).
+ ● 2026-11-16 to 2026-11-19 Combined Neptune, FP-5 Flamingo and Ruta strikes on the
+ Kerch Bridge: New entry (Rocket and Missile Artillery: Ukrainian Indigenous Deep-Strike
+ Missiles).
+ ● 2026-11-13 Ukrainian Navy Neptune strike on Rostov-on-Don FPV drone plants: New
+ entry (Rocket and Missile Artillery: Neptune and Long Neptune Cruise Missiles; also
+ addresses Liaison and Fire Support Integration via naval missile fires supporting
+ ground-force sectors).
+ ● 2026-10-01 to 2026-11-13 October–November deep-strike campaign against airfields,
+ missile plants and Iskander-M launchers: New entry (Rocket and Missile Artillery:
+ Neptune and Long Neptune Cruise Missiles; also addresses Liaison and Fire Support
+ Integration via joint Defence Forces and Navy Missile Forces targeting).
+ ● 2026-09-09 Combined Long Neptune and OWA-UAV strike on Novorossiysk: New entry
+ (Rocket and Missile Artillery: Neptune and Long Neptune Cruise Missiles).
+ ● 2026-09-04 22nd Separate Mechanized Brigade FPV drone destruction of 2S43 Malva:
+ updates Drones, Radars and Decoys.
+The October–November 2026 Neptune strike sequence fills a prior gap in coverage of Ukrainian
+rocket and missile artillery, illustrating both the operational reach of Ukraine's land-attack
+variants and the cross-service integration of Ukrainian Navy Missile Forces into deep counter-air
+and counter-industry targeting.
+Update Summary
+
+Army Items found Newest item date Stopped early (yes/no)
+United States 16 2026-11-23 no
+Russia 14 2026-11-20 no
+Ukraine 8 2026-11-19 no
+Works cited
+
+1. CSG Secures U.S. Army Framework Contract for Ammunition,
+https://www.globenewswire.com/news-release/2026/11/06/3397335/0/en/csg-secures-u-s-army-f
+ramework-contract-for-ammunition-plant-modernization-under-4-2-billion-program.html 2.
+GMLRS at Scale: Delivering for the Army Today, Advancing What's,
+https://www.lockheedmartin.com/en-us/news/features/2026/gmlrs-at-scale-delivering-for-the-arm
+y-today-advancing-whats-next.html 3. DOD Munitions: Planning and Leadership Needed to
+Address ... - GAO, https://www.gao.gov/products/gao-27-109420 4. Inside Rubicon: The
+Structure of Russia's Elite Drone Center,
+https://www.fpri.org/article/2026/06/inside-rubicon-the-structure-of-russias-elite-drone-center/ 5.
+Russia Increases Deliveries of Krasnopol-M2 Guided Artillery,
+https://www.deagel.com/news/n000029079 6. Five Successful Neptune Cruise Missile Strikes in
+30 Days: How Many Su-34s and Defense Industry Facilities Were Hit?,
+https://en.defence-ua.com/weapon_and_tech/five_successful_neptune_cruise_missile_strikes_i
+n_30_days_how_many_su_34s_and_defense_industry_facilities_were_hit-20442.html 7.
+Lockheed Martin completes third JR3 rocket test for potential U.S.,
+https://defence-industry.eu/lockheed-martin-completes-third-jr3-rocket-test-for-potential-u-s-arm
+y-himars-and-m270-training-ammunition-replacement/ 8. U.S. Army, Hanwha unveil XM1776
+Mobile Tactical Cannon,
+https://www.hanwha.com/newsroom/news/press-releases/us-army-hanwha-unveil-xm1776-mobi
+le-tactical-cannon.do 9. BAE Systems wins $535m contract for US Army M109A7 howitzers,
+https://www.army-technology.com/news/bae-systems-m109a7-paladin-2/ 10. US-Iran war
+ushers in new era of missile warfare,
+https://tribune.com.pk/story/2629251/us-iran-war-ushers-in-new-era-of-missile-warfare 11. Army
+awards deal to AV for new Switchblade 400 kamikaze drone to,
+https://defensescoop.com/2026/05/04/army-award-aerovironment-switchblade-400-drone-lasso-
+program/ 12. US Army activates new multi-domain task force to 'deny, disrupt,
+https://www.defensenews.com/global/asia-pacific/2026/10/09/us-army-activates-new-multi-doma
+in-task-force-to-deny-disrupt-enemies-in-indo-pacific/ 13. 4th Multi-Domain Task Force Officially
+Activates | Article - Army.mil,
+https://www.army.mil/article/296047/4th_multi_domain_task_force_officially_activates 14. U.S.
+Army Rehearses Rapid HIMARS Island-Hopping Strikes to,
+https://www.armyrecognition.com/news/army-news/2026/u-s-army-rehearses-rapid-himars-islan
+d-hopping-strikes-to-strengthen-pacific-warfare-capabilities 15. Field Artillery Branch – 13 July
+2026 PG 1 - Army.mil,
+https://api.army.mil/e2/c/downloads/2026/07/23/e1c05864/da-pam-600-03-fa-cao-jul-2026.pdf
+16. Minister of State for Defence Desmond Choo Visits SAF's Artillery,
+https://www.mindef.gov.sg/news-and-events/latest-releases/23sep26-nr/ 17. 75th Field Artillery
+Brigade, Singapore Complete Monthlong Exercise,
+https://www.pacom.mil/Media/News/News-Articles/Article/4614413/75th-field-artillery-brigade-sin
+gapore-complete-monthlong-exercise/ 18. U.S. Central Command | Operation Epic Fury,
+https://www.centcom.mil/OPERATIONS-AND-EXERCISES/EPIC-FURY/videoid/1024306/dvpmo
+duleid/41413/dvpTag/Shield/ 19. First use of the Precision Strike Missile (PrSM) – 2026 Iran war
+- HCoC,
+https://www.nonproliferation.eu/hcoc/first-use-of-the-precision-strike-missile-prsm-2026-iran-war/
+20. Precision Strike Missile, made possible by Trump's treaty withdrawal,
+https://defensescoop.com/2026/03/05/prsm-precision-strike-missile-iran-operation-epic-fury/ 21.
+Combat Debut of the Precision Strike Missile (PrSM): Implications,
+https://smallwarsjournal.com/2026/03/23/combat-debut-of-the-precision-strike-missile-prsm-impli
+cations/ 22. ATP 3-09.90: DIVISION ARTILLERY OPERATIONS ... - Military Toolkit,
+https://www.militarytoolkit.com/regulations/army/atp-3-09-90 23. FM 3-09: FIRE SUPPORT AND
+FIELD ARTILLERY OPERATIONS, https://www.militarytoolkit.com/regulations/army/fm-3-09 24.
+Krasnopol-M2 guided artillery shell - War & Sanctions,
+https://war-sanctions.gur.gov.ua/en/page-krasnopol 25. Russia Expands Krasnopol Precision
+Shell Production,
+https://voennoedelo.com/en/posts/id21050-russia-expands-krasnopol-precision-shell-production
+26. "Zentr-2026" Maneuvers: Putin Showcases His New Arsenal,
+https://militaeraktuell.at/en/zentr-2026-maneuvers-putin-showcases-his-new-arsenal/ 27. Russia
+Forms Drone Units as Recruitment Reaches 98.7%,
+https://voennoedelo.com/en/posts/id22346-russia-forms-drone-units-as-recruitment-reaches-98.
+7 28. Russian Ministry of Defense: "Center 2026" exercises ... - YouTube,
+https://www.youtube.com/shorts/XCc3EvcVfPw 29. Exercise of strategic forces held in May -
+Blog, https://russianforces.org/blog/2026/05/exercise_of_strategic_forces_h.shtml 30. Mark B.
+Schneider, Russia's May 2026 Nuclear Exercise, No. 666,
+https://nipp.org/information_series/mark-b-schneider-russias-may-2026-nuclear-exercise-no-666
+-august-3-2026/ 31. European troops from 11 countries hold a drill in Poland for a potential
+postwar Ukraine mission,
+https://apnews.com/article/poland-ukraine-military-exercise-peace-france-britain-a28d60d1b370
+93199dd017472028d7ac 32. Russian Offensive Campaign Assessment, November 20, 2026,
+https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-n
+ovember-20-2026/ 33. Ballistic missile attack on Zelenskyy's hometown in central Ukraine kills 2
+and wounds scores,
+https://apnews.com/article/russia-ukraine-war-missile-zelenskyy-trump-bfdee2ffadc2693e7338d
+6822e5356ef 34. Ukraine strikes elite Russian 'Rubicon' drone unit in occupied territory,
+https://www.independent.co.uk/news/world/europe/ukraine-strike-rubicon-drone-base-b3082846
+.html 35. Ukrainian forces strike Russian elite 'Rubicon' drone unit,
+https://kyivindependent.com/ukrainian-forces-strike-russian-elite-rubicon-drone-unit-deployment-
+site-in-russian-kursk-oblast/ 36. Daily Update: Russia Loses 1,730 Troops, 24 Armored Vehicles
+and 2 Air Defense Systems in One Day,
+https://united24media.com/war-in-ukraine/daily-update-russia-loses-1730-troops-24-armored-ve
+hicles-and-2-air-defense-systems-in-one-day-24585 37. Ukraine's FPV Drones Burn Rare
+Russian 2S43 Malva, One of,
+https://united24media.com/war-in-ukraine/ukraines-fpv-drones-burn-rare-russian-2s43-malva-on
+e-of-moscows-newest-howitzers-video-22233 38. Ukraine to develop anti-ship Neptune-2
+missile jointly with MBDA, https://thedefender.media/en/2026/06/mbda-luch-neptun2/ 39.
+MBDA-Ukraine Deal: New Neptune-2 Cruise Missile Underway,
+https://envantermedya.com/en/mbda-ukraine-neptune-2-cruise-missile/ 40. Artillery Brigade of
+Khartia Corps Revealed - MilitaryLand.net,
+https://militaryland.net/news/artillery-brigade-of-khartia-corps-revealed/ 41. 8th Artillery Brigade
+"Harmash" | 1st Corps NGU "Azov",
+https://azov.army/en/units/1st-corps-azov/8th-artillery-brigade-harmash/ 42. Ukraine's Delta
+system to become 'only source for data transfers,
+https://www.janes.com/defence-intelligence-insights/defence-news/c4isr/ukraines-delta-system-t
+o-become-only-source-for-data-transfers-across-afu 43. Ukraine develops automated artillery
+fire control system KRIP-A, https://www.pravda.com.ua/eng/news/2026/04/03/8028679/ 44.
+Ukraine’s Arms Industry: From Soviet Legacy to Drone Superpower,
+https://migflug.com/afterburner/it/ukraine-defence-industry-soviet-legacy-drone-superpower-202
+6/ 45. R-360 Neptune - Wikipedia, https://en.wikipedia.org/wiki/R-360_Neptune 46. Long
+Neptune Strike: Ukraine's New Cruise Missile ... - Naval News,
+https://www.navalnews.com/naval-news/2026/09/ukraine-strikes-russian-black-sea-fleet-long-ne
+ptune-missiles/

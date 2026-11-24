@@ -9,7 +9,7 @@ Status: Queued · Handed out (date) · Returned (date) · Done (date) · Named o
 
 | # | Prompt | Why it matters for learners | Status |
 |---|---|---|---|
-| 0 | Monthly updates: Americas and Europe; Northeast Asia; Southeast Asia and Oceania (`prompts/update-*.md`) | Keeps every army current | Handed out (24 Nov, week 1) |
+| 0 | Monthly updates: Americas and Europe; Northeast Asia; Southeast Asia and Oceania (`prompts/update-*.md`) | Keeps every army current | Update 1 (Americas and Europe) returned and loaded 24 Nov: 19 news items, 2 exercises; updates 2 and 3 handed out (24 Nov, week 1) |
 | 0a | New army: India (`prompts/new-india.md`, from `node tools/new_country_prompt.mjs "India"`) | Twelfth army; already in Super Garuda Shield and Talisman Sabre | Queued (week 2) |
 | 1 | Ukraine gap fill (`prompts/ukraine.md`) | 13 entries; no liaison or rocket entries; no training entries | Queued (week 2; first version handed out 21 Nov) |
 | 2 | China gap fill (`prompts/china.md`) | 12 entries; four areas missing (drones, gunnery, counter-fire, sustainment) | Queued (week 2; first version handed out 21 Nov) |
