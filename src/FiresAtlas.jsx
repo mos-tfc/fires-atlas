@@ -18122,11 +18122,13 @@ function Library() {
     (!q || entryText(e).includes(q))
   ), [f, q, state.seenVersion]);
   const anyFilter = Object.values(f).some(Boolean) || q;
+  // Coverage moved to More; send anyone who last left the Library on it back to Entries.
+  useEffect(() => { if (lib.tab === 'Coverage') setLib({ ...lib, tab: 'Entries' }); }, [lib.tab]);
 
   return (
     <div className="space-y-4">
       <div className="flex gap-2 overflow-x-auto pb-1">
-        {['Entries', 'Compare', 'Map', 'Ranges', 'Videos', 'Kill Chain', 'Coverage', 'Glossary'].map((tab) => (
+        {['Entries', 'Compare', 'Map', 'Ranges', 'Videos', 'Kill Chain', 'Glossary'].map((tab) => (
           <Chip key={tab} on={lib.tab === tab} onClick={() => setLib({ ...lib, tab })}>{tab}</Chip>
         ))}
       </div>
@@ -18170,7 +18172,6 @@ function Library() {
         </>
       )}
       {lib.tab === 'Compare' && <Compare />}
-      {lib.tab === 'Coverage' && <Coverage />}
       {lib.tab === 'Map' && <MilitaryMap />}
       {lib.tab === 'Ranges' && <RangeRings />}
       {(lib.tab === 'Kill Chain' || lib.tab === 'Sensor to Shooter') && <KillChain />}
@@ -18754,10 +18755,11 @@ function MilitaryMap() {
 }
 
 function Coverage() {
-  const { t, lib, setLib } = useApp();
-  const open = (country, topic) => setLib({ ...lib, tab: 'Entries', query: '', filters: { country, topic } });
+  const { t, lib, setLib, go } = useApp();
+  const open = (country, topic) => { setLib({ ...lib, tab: 'Entries', query: '', filters: { country, topic } }); go('library'); };
   return (
     <div className="space-y-3">
+      <h1 className="text-2xl font-bold">Coverage</h1>
       <p className={t.muted}>Entries per country and topic. A dash means nothing has been added yet. Tap a number to open those entries.</p>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border-collapse">
@@ -20595,6 +20597,7 @@ function MoreView() {
       <Card>
         <div className={`divide-y ${t.dark ? 'divide-slate-800' : 'divide-slate-200'}`}>
           <NavRow icon={<Info size={20} />} label="About Fires Atlas" hint="What it is, who it is for, and questions to carry with you" onClick={() => go('welcome')} />
+          <NavRow icon={<BookOpen size={20} />} label="Coverage" hint="How many entries each army has in each topic" onClick={() => go('coverage')} />
           <NavRow icon={<Lightbulb size={20} />} label="Developments" hint={'Artillery news and what it means. Updated ' + DEVELOPMENTS.updated} onClick={() => go('developments')} />
           <NavRow icon={<Star size={20} />} label="What's new" hint={'Content version ' + CONTENT.version + ', released ' + CONTENT.released} onClick={() => go('news')} />
           <NavRow icon={<MessageSquare size={20} />} label="Feedback" hint="Report an error or suggest an improvement" onClick={() => go('feedback')} />
@@ -20846,7 +20849,7 @@ const TABS = [
   { view: 'more', label: 'More', Icon: Settings }
 ];
 // The tab that stays lit while a deeper page is open.
-const TAB_OF = { home: 'home', topic: 'home', lesson: 'home', library: 'library', entry: 'library', review: 'review', saved: 'saved', more: 'more', news: 'more', developments: 'more', dev: 'more', kit: 'library', feedback: 'more', ask: 'more', welcome: 'more' };
+const TAB_OF = { home: 'home', topic: 'home', lesson: 'home', library: 'library', entry: 'library', review: 'review', saved: 'saved', more: 'more', news: 'more', developments: 'more', dev: 'more', kit: 'library', feedback: 'more', ask: 'more', welcome: 'more', coverage: 'more' };
 
 export default function App() {
   const [state, update, storageOk] = useStore();
@@ -20887,6 +20890,7 @@ export default function App() {
   else if (cur.view === 'ask') page = <AskView />;
   else if (cur.view === 'more') page = <MoreView />;
   else if (cur.view === 'welcome') page = <WelcomeView />;
+  else if (cur.view === 'coverage') page = <Coverage />;
   else if (!state.welcomed && !state.last && Object.keys(state.progress || {}).length === 0) page = <WelcomeView first />;
   else page = <HomeView />;
 
