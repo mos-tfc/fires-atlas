@@ -17633,6 +17633,13 @@ const ENTRY_BY_ID = Object.create(null);
 APP_DATA.forEach((e) => { ENTRY_BY_ID[e.id] = e; });
 const LESSON_BY_ID = Object.create(null);
 LESSONS.forEach((l) => { LESSON_BY_ID[l.id] = l; });
+// Estimated time for a lesson: reading at about 180 words a minute plus about 45 seconds per question, rounded.
+const wordCount = (x) => String(x || '').split(/\s+/).filter(Boolean).length;
+const lessonMinutes = (l) => {
+  let words = wordCount(l.intro) + wordCount(l.objective);
+  for (const id of l.entryIds || []) { const e = ENTRY_BY_ID[id]; if (e) words += wordCount([e.title, ...asList(e.what), ...asList(e.how), ...asList(e.why)].join(' ')); }
+  return Math.max(1, Math.round(words / 180 + (l.exercises || []).length * 0.75));
+};
 
 // Filters are built from the data, so a new country, force, echelon or topic needs no code change.
 const ALL_FORCES = uniq(APP_DATA.map((e) => e.force)).filter((f) => f && f !== 'Multiple')
@@ -19062,7 +19069,7 @@ function TopicView({ topicKey }) {
                     </span>
                     <span className="block font-bold text-sm sm:text-base leading-snug">{l.title}</span>
                     <span className={`mt-auto pt-2 block text-xs sm:text-sm ${t.muted}`}>
-                      {l.entryIds.length} entries · {l.exercises.length} questions
+                      ~{lessonMinutes(l)} min · {l.exercises.length} questions
                       {s.best !== null ? ` · best ${Math.round(s.best * 100)}%` : ''}
                       {!s.open ? ' · pass the one before to unlock' : ''}
                     </span>
