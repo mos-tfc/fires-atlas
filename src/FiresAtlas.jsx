@@ -19071,7 +19071,6 @@ function TopicView({ topicKey }) {
                     <span className={`mt-auto pt-2 block text-xs sm:text-sm ${t.muted}`}>
                       ~{lessonMinutes(l)} min · {l.exercises.length} questions
                       {s.best !== null ? ` · best ${Math.round(s.best * 100)}%` : ''}
-                      {!s.open ? ' · pass the one before to unlock' : ''}
                     </span>
                     {s.changed && <span className="block mt-1"><Tag tone="info"><Star size={12} /> Changed since you passed</Tag></span>}
                   </button>
