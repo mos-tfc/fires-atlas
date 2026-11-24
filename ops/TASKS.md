@@ -60,6 +60,7 @@ Status: Open · In progress · Waiting on owner · Done.
 - 2026-11-21 · Malaysia: 25 new systems with specs and country data, 7 matched to existing cards (Malaysia added to their armies), 23 clips pending review; no clip for 11 systems · Waiting on owner (?review)
 - 2026-11-20 · Indonesia: specs, photos and country data for 24 systems; 36 YouTube clips (oEmbed-checked) added as pending; no clip yet for AV-UCF, Pindad Mo-3, Minibe, AXYS-ISR · Waiting on owner (review clips at ?review)
 ### Instructor
+- 2026-11-25 · Fortnightly review: 7 recall exercises rewritten as scenarios (usa-org-bcd, joint-eq-hades, usa-trn-jfo, les-nk-2020, joint-ttp-rkt-reload, usa-org-sus-maint-levels; Gaza scenario on les-gaza-2023); 153 reciprocal relatedIds added (Singapore back-links removed by Sentry, L18); glossary NALE and MARLE added; entry counts reported (US 312, others 12 to 27); proposals for owner in PR · Waiting on owner (PR)
 - 2026-11-21 · Singapore: 5 lessons, 35 exercises; corrected after Sentry (Primus weight, ST Engineering, Afghanistan question, unit numbers) · Done
 - 2026-11-21 · Malaysia: 5 lessons, 35 exercises, comparisons with the US and Indonesia · Done
 - 2026-11-20 · Indonesia: 5 lessons, 35 exercises (mostly scenario, one predict each on Indonesia's choices) · Done
