@@ -76,3 +76,9 @@ Status: Open · In progress · Waiting on owner · Done.
 
 ### Adjutant
 - 2026-11-20 · Open: owner to review 36 Indonesian clips; Developments refresh about 4 Jan 2027 now includes Indonesia · Open
+
+## Schedules (cloud routines, created 24 Nov 2026; manage at https://claude.ai/code/routines)
+- Weekly Review: Mon 06:00 SGT (cron 0 22 * * 0 UTC). Recce news, Armourer, Observer, Sentry, Herald, Signaller (writes ops/research/THIS_WEEK.md), Adjutant. One PR.
+- Instructor: Wed 06:00 SGT (cron 0 22 * * 2 UTC), on even ISO weeks only. One PR.
+- Monthly Sweep: 1st of the month 08:00 SGT (cron 0 0 1 * * UTC). Country researchers, then Liaison and Sentry. One PR.
+- All run on Sonnet 5.5 with no connectors, on agent/<name>/<date> branches; the owner merges.
