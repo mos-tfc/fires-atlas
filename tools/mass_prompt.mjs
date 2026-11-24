@@ -1,6 +1,7 @@
-// Builds ONE mass-update research prompt covering every army, each from its own "researched up to" date.
-// Usage (repository root):  node tools/mass_prompt.mjs > ops/research/prompts/mass-update.md
-// Used by Signaller. Per-army deep gap prompts still come from tools/gap_prompt.mjs.
+// Builds the monthly update prompts: one per region, at most 5 armies each, every army from its own "researched up to" date.
+// Usage (repository root):  node tools/mass_prompt.mjs
+// Writes ops/research/prompts/update-<n>-<region>.md (old update files are replaced) and lists them.
+// Regions and dates: ops/research/LAST_UPDATED.json. Used by Signaller. Per-army gap prompts come from tools/gap_prompt.mjs.
 import fs from 'node:fs';
 
 const src = fs.readFileSync(new URL('../src/FiresAtlas.jsx', import.meta.url), 'utf8').split('\n');
@@ -15,11 +16,30 @@ const AREA = { liaison: 'Liaison and Fire Support Integration', 'cannon-artiller
   'technical-fire-direction': 'Technical Fire Direction and Gunnery', 'digital-fires-c2': 'Digital Fires and Targeting', 'counterfire-survivability': 'Counter-Fire and Force Protection', sustainment: 'Sustainment' };
 const areas = D.TOPICS.filter((t) => t.part !== 5);
 const fmt = (d) => new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
-const armies = Object.keys(LEDGER).filter((k) => !k.startsWith('_'));
+const MAX = 5;
+const all = Object.keys(LEDGER).filter((k) => !k.startsWith('_'));
+const G = Object.fromEntries(Object.entries(LEDGER._groups || {}).filter(([k]) => !k.startsWith('_')));
+const placed = new Set(Object.values(G).flat());
+const missing = Object.values(G).flat().filter((c) => !all.includes(c));
+if (missing.length) { console.error('In a region but with no date: ' + missing.join(', ')); process.exit(1); }
+const rest = all.filter((c) => !placed.has(c));
+if (rest.length) G['Other armies'] = rest;
+const batches = [];
+for (const [region, list] of Object.entries(G)) {
+  const parts = Math.ceil(list.length / MAX);
+  for (let p = 0; p < parts; p++) {
+    const size = Math.ceil(list.length / parts);
+    batches.push({ region: parts > 1 ? `${region} (${p + 1} of ${parts})` : region, armies: list.slice(p * size, (p + 1) * size) });
+  }
+}
+const dir = new URL('../ops/research/prompts/', import.meta.url);
+for (const f of fs.readdirSync(dir)) if (/^(update-|mass-update)/.test(f)) fs.unlinkSync(new URL(f, dir));
+batches.forEach(({ region, armies }, bi) => {
 
 const out = [];
 out.push('You are researching artillery and fire support for a learning reference used by military professionals. Use open sources only. Do not use classified, restricted, export-controlled or leaked material.', '');
-out.push(`This is a MASS UPDATE covering ${armies.length} armies. Each army has its own start date: report only what is new or changed between that date and today. Work through the armies in the order given, under one heading per army, and give each the same depth. If you run short of space, finish the army you are on and write "STOPPED AT: <army>" so the rest can be done in a second pass. Do not shorten later armies to fit.`, '');
+out.push(`UPDATE ${bi + 1} of ${batches.length}: ${region}. This prompt covers ${armies.length} ${armies.length === 1 ? 'army' : 'armies'}: ${armies.join(', ')}.`, '');
+out.push(`Each army has its own start date: report only what is new or changed between that date and today. Work through the armies in the order given, under one heading per army, and give each the same depth. If you run short of space, finish the army you are on and write "STOPPED AT: <army>" so the rest can be done in a second pass. Do not shorten later armies to fit.`, '');
 out.push('SOURCE RULES (read first)', '- Every source must be a real page you opened. Give the exact page title, the publisher, the date and the full URL.',
   '- Do not build or guess URLs. If you cannot find a working link, give the title and publisher and write "No link found".',
   '- Prefer official government and armed forces pages, parliamentary and audit reports, recognised research institutes and established defence press. Mark manufacturer, state-media and single-source claims "Reported".',
@@ -49,4 +69,8 @@ for (const c of armies) {
   out.push('');
 }
 out.push('FORMAT. Plain, factual UK English. Short sentences. No intensifiers such as "highly", "massive", "devastating" or "unprecedented". Start a line with "Reported:" when it rests on press or vendor claims. Keep official names in their own spelling. End with one table: Army | Items found | Newest item date | Stopped early (yes/no).');
-console.log(out.join('\n'));
+const slug = region.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const file = `update-${bi + 1}-${slug}.md`;
+  fs.writeFileSync(new URL(file, dir), out.join('\n') + '\n');
+  console.log(`${file}\t${armies.join(', ')}`);
+});

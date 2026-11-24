@@ -23,7 +23,7 @@ Status: Open · In progress · Waiting on owner · Done.
 
 - [ ] Owner: move the repository to the GitHub organisation; reconnect Cloudflare; new token (old one expires about 19 Dec 2026).
 - [ ] Owner: install the Claude GitHub app on the organisation, so scheduled agents can open pull requests.
-- [ ] Owner: one mass update a month plus up to 3 gap-fill prompts a week, paced by Signaller (see ops/RESEARCH_QUEUE.md).
+- [ ] Owner: regional update prompts once a month (max 5 armies each) plus up to 3 gap-fill prompts in other weeks, paced by Signaller (see ops/RESEARCH_QUEUE.md).
 - [x] Kill chains for China, Japan and North Korea (21 Nov 2026, from existing entries); second chains for US, Russia, Ukraine, South Korea, Australia, Malaysia, Singapore.
 - [ ] Ranges for Ukraine and Australia (after research). Indonesia has one chain only (no second sensor path well sourced).
 - [ ] 13 systems without a video, plus 4 Indonesian (Armourer).

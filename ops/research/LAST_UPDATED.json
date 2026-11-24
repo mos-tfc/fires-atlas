@@ -10,5 +10,25 @@
   "Australia": "2026-11-19",
   "Indonesia": "2026-11-20",
   "Malaysia": "2026-11-21",
-  "Singapore": "2026-11-21"
+  "Singapore": "2026-11-21",
+  "_groups": {
+    "_note": "Update prompts are built per region, at most 5 armies each. Add a new army to its region; a region with more than 5 is split automatically. Armies not listed here go into an 'Other armies' prompt.",
+    "Americas and Europe": [
+      "United States",
+      "Russia",
+      "Ukraine"
+    ],
+    "Northeast Asia": [
+      "China",
+      "Japan",
+      "North Korea",
+      "South Korea"
+    ],
+    "Southeast Asia and Oceania": [
+      "Australia",
+      "Indonesia",
+      "Malaysia",
+      "Singapore"
+    ]
+  }
 }
