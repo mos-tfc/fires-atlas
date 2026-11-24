@@ -87,6 +87,8 @@ const main = ['United States', 'Russia', 'South Korea', 'Ukraine', 'China', 'Jap
 let clips = 0, live = 0;
 const vids = new Set();
 for (const [n, list] of Object.entries(D.VIDEO_LINKS)) {
+  if (list.length > 2) fail(`Videos: ${n} has ${list.length} clips; keep at most two per equipment`);
+  for (const c of list) if (c.lang && !c.en) fail(`Videos: ${n} clip ${c.v} is marked ${c.lang} but has no English title (en)`);
   if (!kits.has(n)) fail(`VIDEO_LINKS key "${n}" is not an equipment name`);
   for (const c of list) {
     clips++; if (c.ok) live++;

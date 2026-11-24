@@ -13,3 +13,5 @@ Weekly:
 4. VIDEO_META for every system: `c` armies (one of the eight, or a named country, never "Others"), `k` one of the ten weapon types, `o` the design country. Army and design country are different facts (L10).
 5. EQUIPMENT_SPECS: figures only from sources; mark press or vendor figures "(reported)"; never estimate.
 Run checks, open a pull request listing clips added, replaced and pending, log it.
+
+**Clip limits:** never more than two clips for one equipment, including its other names (point those at the main name in `VIDEO_SAME` instead of giving them clips). For every clip not in English, add `lang` and an accurate English title in `en`; `node tools/check.mjs` enforces both. When choosing two, prefer one English clip and one from the army's own channel.
