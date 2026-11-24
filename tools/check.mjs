@@ -51,6 +51,7 @@ for (const l of D.LESSONS) {
 for (const it of D.DEVELOPMENTS.items) for (const r of asList(it.relatedIds)) if (!ids.has(r)) fail(`${it.id}: relatedId ${r} missing`);
 // Ranges and kill chains point at real entries
 for (const r of D.RANGE_DATA) if (!ids.has(r.id)) fail(`Range ${r.n}: entry ${r.id} missing`);
+{ const seenC = new Set(); for (const c of D.KILL_CHAINS) { if (seenC.has(c.c)) fail(`Kill chain: more than one chain for ${c.c}; keep one general chain per army (L30)`); seenC.add(c.c); } }
 for (const c of D.KILL_CHAINS) for (const s of c.steps) if (s.id && !ids.has(s.id)) fail(`Kill chain ${c.c}: step entry ${s.id} missing`);
 
 // Exercises: entries exist, armies are armies in the app, every exercise has a linked source

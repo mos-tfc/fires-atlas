@@ -77,8 +77,8 @@ if (kitsUsed.length) p(`The reference already holds these systems this army uses
 p('');
 
 p('PART D: KILL CHAIN',
-  'Describe one typical chain from finding a target to striking it, as this army practises it. If it also runs a second, different chain (for example drone-cued strikes besides radar counter-fire), describe that too; no more than two.',
-  'For each chain give:',
+  'Describe ONE typical chain from finding a target to striking it, as this army practises it. Keep it general: where the army uses several sensors (for example drones, radars and observers), name them together in the Find step rather than writing a separate chain for each.',
+  'Give:',
   '- Name: a short title, for example "Radar Counter-Fire" or "Drone to Rocket Strike"',
   '- Nodes: Sensor, Command or fire direction node, Shooter (gun or launcher). The last node is always called "Target".',
   '- 4 to 6 steps in order. For each: Action (Find, Report, Decide, Designate, Task, Fire, Move or Assess), one sentence, the time it takes if a source states one (otherwise leave blank), and the title of the Part B entry that supports it.',
