@@ -1,0 +1,21 @@
+{
+  "_note": "Every data set in the app's content block, and where the new-army prompt (tools/new_country_prompt.mjs) asks for it. tools/check.mjs fails if the app gains a data set that is not listed here, so the prompt cannot fall behind the app. When you add a data set, add a part to the prompt and list it here.",
+  "APP_DATA": "PART B: Entries",
+  "EQUIPMENT_LINKS": "PART C: Systems (the entries each system appears in)",
+  "EQUIPMENT_SPECS": "PART C: Systems (key figures)",
+  "VIDEO_META": "PART C: Systems (type, armies using it, designed in)",
+  "RANGE_DATA": "PART C: Systems (range by round type; main weapon)",
+  "VIDEO_LINKS": "PART H: Video sources",
+  "KILL_CHAINS": "PART D: Kill Chain",
+  "EXERCISES": "PART E: Exercises and partnerships",
+  "GLOSSARY": "PART F: Glossary",
+  "DEVELOPMENTS": "PART G: Recent developments",
+  "LESSONS": "Built by Instructor from PART A and PART B (lesson track, four levels)",
+  "TOPICS": "PART A: Overview (the army's own lesson track title and theme)",
+  "CONTENT": "App setting, not researched",
+  "CHANGELOG": "App setting, not researched",
+  "PARTS": "App setting, not researched",
+  "LEVELS": "App setting, not researched",
+  "FEEDBACK_FORM_URL": "App setting, not researched",
+  "APP_LINK": "App setting, not researched"
+}

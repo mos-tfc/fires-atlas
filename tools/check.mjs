@@ -110,6 +110,13 @@ const hasSG = D.APP_DATA.some((e) => e.country === 'Singapore');
 if (!hasSG && /\bSAF\b|Singapore Armed Forces|SAFTI|\bSAR\s?21\b|\bSingapore\b/.test(allText)) warn('Singapore reference before the Singapore module is loaded: hold it back until the owner’s open-source report is in (L18)');
 for (const w of ['devastating', 'massive', 'incredibly', 'absolutely', 'game-chang']) if (new RegExp('\\b' + w, 'i').test(allText)) warn('Intensifier in entry text: ' + w);
 
+
+// New-army research prompt must cover every data set in the content block (ops/research/PROMPT_COVERAGE.json).
+{
+  const cov = JSON.parse(fs.readFileSync(new URL('../ops/research/PROMPT_COVERAGE.json', import.meta.url), 'utf8'));
+  for (const m of block.matchAll(/^const ([A-Z][A-Z_]+)\s*=/gm)) if (!cov[m[1]]) fail(`Data set ${m[1]} is not in ops/research/PROMPT_COVERAGE.json: add a part to tools/new_country_prompt.mjs that asks for it, then list it there`);
+}
+
 console.log(`Content ${D.CONTENT.version}: ${D.APP_DATA.length} entries, ${D.GLOSSARY.length} terms, ${D.LESSONS.length} lessons, ${exercises} exercises, ${D.TOPICS.length} topics`);
 console.log(`Equipment ${kits.size} systems; videos ${clips} clips (${live} live, ${clips - live} pending)`);
 warns.forEach((w) => console.log('WARN ' + w));

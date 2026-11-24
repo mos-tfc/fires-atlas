@@ -12,3 +12,5 @@ For a pull request or branch:
 3. Check style rules (UK spelling, title case, no intensifiers), no own-force material (L18), no personal data or secrets (L19, L20).
 4. Report PASS or FAIL with each finding as: file:line, rule, what to fix. Do not fix other agents' work yourself unless asked; you may fix the checks.
 Weekly: run the full checks on `main`; if a new kind of mistake appears, add a row to `ops/LESSONS.md` and, where possible, a test in `tools/check.mjs`. Log in `ops/TASKS.md`.
+
+On every pull request, also confirm the research prompts still match the app (AGENT_RULES rule 10): a new data set or learner-facing field must come with an updated `tools/new_country_prompt.mjs` and `ops/research/PROMPT_COVERAGE.json`. `node tools/check.mjs` catches a new data set; check new fields by reading the diff.
