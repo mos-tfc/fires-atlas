@@ -27,7 +27,7 @@ Status: Open · In progress · Waiting on owner · Done.
 - [x] Kill chains for China, Japan and North Korea (21 Nov 2026, from existing entries); second chains for US, Russia, Ukraine, South Korea, Australia, Malaysia, Singapore. 24 Nov 2026: owner asked for one general chain per army; the pairs were merged (sensors named together in the Find step).
 - [ ] Ranges for Ukraine and Australia (after research). Indonesia has one chain only (no second sensor path well sourced).
 - [ ] 13 systems without a video, plus 4 Indonesian (Armourer).
-- [ ] Owner: review 64 pending clips (36 Indonesian, 22 Malaysian, 6 Singaporean) at ?review.
+- [x] Owner: review 64 pending clips (36 Indonesian, 22 Malaysian, 6 Singaporean) at ?review. (owner approved all, 24 Nov 2026)
 - [ ] About 37 US entries name a source with no public link: Archivist searches; unresolved go to Signaller as one owner prompt; otherwise stay named (owner decision 21 Nov).
 - [ ] Developments refresh due about 4 Jan 2027 (Recce).
 - [x] Singapore added from the owner's open-source report (21 Nov 2026); FPDA partner list restored in the Malaysia JTAC entry.
