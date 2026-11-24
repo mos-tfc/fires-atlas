@@ -1,0 +1,815 @@
+Artillery and Fire Support Update:
+Southeast Asia and Oceania (1 May to 24
+November 2026)
+
+This open-source update records verified changes in artillery and fire support from 1 May 2026
+to 24 November 2026 for four armies: Australia, Indonesia, Malaysia, and Singapore. Across the
+four forces, 33 new or corrective items were verified after excluding events already recorded in
+the baseline reference. Australia accounted for 15 items, led by accelerated M142 HIMARS
+deliveries, initial AS9 Huntsman field deployment, and a second domestic 155mm shell forging
+contract. Indonesia recorded 3 items, centred on a parliamentary briefing confirming new field
+and air-defence artillery battalions within a 750-battalion expansion plan and a framework export
+deal for Bayraktar Kizilelma unmanned combat aircraft. Malaysia recorded 8 items, including
+fire-control standardisation across 29 towed G5 155mm howitzers and training infrastructure
+actions at its artillery school. Singapore recorded 7 items, including official confirmation that its
+Truck Mounted Gun will replace both legacy 155mm howitzers, United States Foreign Military
+Sale approval for HIMARS fire-control upgrades, and bilateral rocket live firing in the United
+States.
+Official government, parliamentary, audit, and armed forces disclosures provide the primary
+evidence base. Items resting on defence press, manufacturer statements, or single social-media
+posts begin with "Reported:" and are weighed against official releases. Where open sources
+disagree on quantities, course lengths, or exercise dates, each figure is stated alongside its
+source.
+Australia (1 May 2026 to 24 November 2026)
+
+1. Equipment
+
+ ● 7 October 2026: The Australian Army received its second tranche of M142 HIMARS
+ launchers from the United States two years ahead of schedule, one year after the first
+ tranche arrived. The government did not publish the number of launchers in this batch,
+ but confirmed a peak fleet of up to 90 HIMARS units backed by up to A37 billion over ten
+ years for targeting and long-range strike and up to A36 billion for the Guided Weapons
+ and Explosive Ordnance (GWEO) Enterprise. The release also confirmed that a second
+ domestic missile manufacturing factory will open near Newcastle, New South Wales, in
+ 2027 alongside the existing South Australia facility. Source: "Albanese Government
+ continues to strengthen Army's long-range strike capability | Defence Ministers",
+ Australian Government, Defence Ministers (Department of Defence), 7 October 2026,
+ https://www.minister.defence.gov.au/media-releases/2026-10-07/albanese-government-co
+ ntinues-strengthen-armys-long-range-strike-capability.
+ ● Reported: Autumn 2026 (published prior to 16 October 2026): Electro Optic Systems
+ (EOS) supplied small numbers of R400 Slinger remote weapon stations to the Australian
+ Army for Project LAND 156 counter-drone trials, mounted on Hawkei protected mobility
+ vehicles. Source: "Land Forces 2026: Australia decides", Global Defence Technology
+ (NRI Digital), Autumn 2026,
+ https://defence.nridigital.com/global_defence_technology_aut26/land_forces_2026_austra
+ lia_decides.
+ ● 8 June 2026: The Australian Government signed an A$72 million contract with
+ Rheinmetall NIOA Munitions to build a second domestic large-calibre artillery forging
+ capability at Maryborough, Queensland. The contractor-owned, contractor-operated forge
+ is scheduled to begin operating by the end of 2028, initially producing 15,000 155mm
+ M795 projectiles per year for the M777A2 and AS9 Huntsman howitzers, with capacity to
+ scale higher. Source: "Australia fires up second artillery forging capability | Defence
+ Ministers", Australian Government, Defence Ministers (Department of Defence), 8 June
+ 2026,
+ https://www.minister.defence.gov.au/media-releases/2026-06-08/australia-fires-up-second
+ -artillery-forging-capability.
+ ● 4 June 2026 (live fire conducted May 2026): Gunners from 4th Regiment, Royal
+ Australian Artillery, fired the first Australian-built AS9 Huntsman 155mm self-propelled
+ howitzers at Puckapunyal Training Area, Victoria. The live-fire serials concluded the
+ inaugural operator course a few months after the first guns came off the Geelong
+ production line. Janes reported that the live firing took place in May 2026. Sources:
+ "Australian-built howitzer sends the thunder | Defence", Australian Department of
+ Defence, 4 June 2026,
+ https://www.defence.gov.au/news-events/news/2026-06-04/australian-built-howitzer-send
+ s-thunder; "Special Report: Australian Army fields first AS9 Huntsman artillery", Janes, 6
+ July 2026,
+ https://www.janes.com/defence-intelligence-insights/defence-news/land/special-report-aus
+ tralian-army-fields-first-as9-huntsman-artillery.
+
+2. Organisation
+
+ ● 7 October 2026: The Australian Government confirmed the establishment of a second
+ long-range fires regiment within 10th Fires Brigade, operating alongside the Army's first
+ long-range fires regiment based in Adelaide. The second regiment supports the expanded
+ M142 HIMARS fleet. Source: "Albanese Government continues to strengthen Army's
+ long-range strike capability | Defence Ministers", Australian Government, Defence
+ Ministers (Department of Defence), 7 October 2026,
+ https://www.minister.defence.gov.au/media-releases/2026-10-07/albanese-government-co
+ ntinues-strengthen-armys-long-range-strike-capability.
+ ● Reported: 6 July 2026: 4th Regiment, Royal Australian Artillery (supporting 3rd Brigade in
+ Townsville), began transitioning from towed M777 howitzers to AS9 Huntsman
+ self-propelled howitzers. Major Fergus Robinson, commander of 106 Battery, told Janes
+ that the change supports 3rd Brigade's shift towards a heavy armoured formation, while
+ Major General Ash Collingburn marked the delivery of the regiment's first AS9 battery in
+ remarks reported by Defence Connect. Sources: "Special Report: Australian Army fields
+ first AS9 Huntsman artillery", Janes, 6 July 2026,
+ https://www.janes.com/defence-intelligence-insights/defence-news/land/special-report-aus
+ tralian-army-fields-first-as9-huntsman-artillery; "Bringing the big guns, as the Australian
+ Army prepares for war | Digital Magazine Land 2026 - Defence Connect", Defence
+ Connect, 2026,
+ https://defenceconnect.com.au/digital-magazine/2026/dc-land-2026/ed2-bringing-the-big-
+ guns-as-the-australia-army-prepares-for-war.
+
+3. Doctrine, training and schools
+
+ ● July 2026: The Australian Army published its 2026 National Defence Strategy
+ contribution fact sheet, formalising its strategy of denial in the littoral environment. The
+ document integrates 10th Brigade's long-range fires (HIMARS, PrSM, and GMLRS) and
+ ground-based air defence (NASAMS) with protected mobile close fires (AS9 Huntsman)
+ and domestically produced landing craft. Source: "The Australian Army Contribution to the
+ National Defence Strategy / 2026", Australian Army, July 2026,
+ https://www.army.gov.au/sites/default/files/2026-07/Australian%20Army%20Contribution%
+ 20to%20the%20National%20Defence%20Strategy%20fact%20sheet%202026.pdf.
+ ● 4 June 2026: The School of Artillery at Puckapunyal, Victoria, completed the Australian
+ Army's inaugural AS9 Huntsman operator course for 30 gunners from 4th Regiment,
+ Royal Australian Artillery, covering tracked vehicle driving and automated gun laying.
+ Sources disagree on course duration: the Australian Department of Defence (4 June
+ 2026) and Australian Defence Magazine (4 June 2026) report a six-week course, whereas
+ Janes (6 July 2026) reports a two-month operator course for drivers, loaders, gunners,
+ and assistant gunners, followed by a one-month commander's course for bombardiers
+ and commanders. Sources: "Australian-built howitzer sends the thunder | Defence",
+ Australian Department of Defence, 4 June 2026,
+ https://www.defence.gov.au/news-events/news/2026-06-04/australian-built-howitzer-send
+ s-thunder; "AS9 Huntsman fires during training course", Australian Defence Magazine, 4
+ June 2026,
+ https://www.australiandefence.com.au/news/news/as9-huntsman-fires-during-training-cou
+ rse; "Special Report: Australian Army fields first AS9 Huntsman artillery", Janes, 6 July
+ 2026,
+ https://www.janes.com/defence-intelligence-insights/defence-news/land/special-report-aus
+ tralian-army-fields-first-as9-huntsman-artillery.
+ ● 13 May 2026: 10th Fires Brigade validated ship-to-shore beach landings of an Australian
+ HIMARS launcher and resupply vehicle from a Landing Craft Mechanised Mark 8 (LCM-8)
+ at Cowley Beach Training Area, Queensland. Defence stated that Australian HIMARS are
+ now cleared to deploy via all major in-service lift platforms and ship-to-shore connectors,
+ ahead of future work on Army's incoming littoral manoeuvre vessels. Source: "Army
+ proves HIMARS deployability from ship to shore | Defence", Australian Department of
+ Defence, 13 May 2026,
+ https://www.defence.gov.au/news-events/news/2026-05-13/army-proves-himars-deployabi
+ lity-from-ship-shore.
+
+4. Exercises with a fires element
+
+ ● 12–20 October 2026 — Exercise Keris Woomera 26: Conducted predominantly in East
+ Java (opening in Banyuwangi and including Pusat Latihan Pertempuran Marinir 5), the
+ Bali Sea, and the North Indian Ocean, Indonesia, between Australia (approximately 1,000
+ personnel) and Indonesia (approximately 1,235 personnel). Australian Army elements,
+ including gunners from 14th Regiment, Royal Australian Artillery, deployed and fired two
+ M142 HIMARS launchers overseas for the first time, alongside two M777 155mm
+ howitzers and RAAF No. 4 Squadron PC-21 forward air control aircraft. Live-fire serials
+ integrated these assets with Indonesian Army and Marine 105mm howitzers and an
+ Indonesian multiple launch rocket system; exact rocket and shell counts fired were not
+ disclosed. Sources: "Australia and Indonesia conclude major exercise | Defence",
+ Australian Department of Defence, 20 October 2026,
+ https://www.defence.gov.au/news-events/news/2026-10-20/australia-indonesia-conclude-
+ major-exercise; "Keris Woomera | Defence Activities | Defence", Australian Department of
+ Defence, October 2026,
+ https://www.defence.gov.au/defence-activities/exercises/keris-woomera.
+ ● August 2026 — Exercise Pozieres Run: Conducted at Townsville Field Training Area,
+ Queensland, by Australia's 1st (Australian) Division with Australian forces only. The
+ Australian-made AS9 Huntsman 155mm self-propelled howitzer made its field debut
+ during the exercise, rehearsing rapid movement from hides into firing positions. Reported:
+ Army Technology also documented a 10th Fires Brigade HIMARS live-fire serial at
+ Townsville Field Training Area during Exercise Pozieres Run; specific munition types and
+ quantities fired were not disclosed. Sources: "Huntsman tested in the field | Army News",
+ Australian Department of Defence (Army News), 20 August 2026,
+ https://news.defence.gov.au/army/activity/2026-08-20/huntsman-tested-field; "Australia
+ receives second HIMARS tranche two years ahead of schedule", Army Technology, 9
+ October 2026, https://www.army-technology.com/news/australia-himars-second-tranche/.
+ ● 29 May to 3 July 2026 (opening ceremony 3 June 2026) — Exercise Southern
+ Jackaroo 2026: Conducted at Townsville Field Training Area, Queensland, with Australia,
+ Japan, and the United States conducting the core combined arms live-fire activity
+ alongside Papua New Guinea Defence Force and Republic of Korea Armed Forces
+ participants. Defence described the multinational live-fire activity as the largest in the
+ exercise's history; documented elements included live-fire breaching and demolitions, a
+ US Army mortar test on 3 June 2026, and reconnaissance flights by Australia's 2nd
+ Cavalry Regiment using the Quantum Vector AI drone. Exact artillery and mortar munition
+ types and round counts fired were not disclosed in open sources. Sources: "Scaling up
+ the blast", Australian Department of Defence, 24 July 2026,
+ https://www.defence.gov.au/news-events/news/2026-07-24/scaling-up-blast; "Partner
+ nations rehearse for war", Australian Department of Defence, 11 June 2026,
+ https://www.defence.gov.au/news-events/news/2026-06-11/partner-nations-rehearse-war;
+ "New drone uses AI on Southern Jackaroo | Defence", Australian Department of Defence,
+ 8 July 2026,
+ https://www.defence.gov.au/news-events/news/2026-07-08/new-drone-uses-ai-southern-j
+ ackaroo; "U.S., Australia, Japan begin Exercise Southern Jackaroo 2026 > U.S. Pacific
+ Command > News Articles", U.S. Indo-Pacific Command, 29 May 2026,
+ https://www.pacom.mil/Media/News/News-Articles/Article/4504650/us-australia-japan-begi
+ n-exercise-southern-jackaroo-2026/; "File:Southern Jackaroo 26- U S Army Soldier
+ Observes Mortar Test (9777255).jpg", Wikimedia Commons (US Army), 3 June 2026,
+ https://commons.wikimedia.org/wiki/File:Southern_Jackaroo_26-U_S_Army_Soldier_Obs
+ erves_Mortar_Test(9777255).jpg.
+
+5. Operations and lessons
+
+ ● June 2026 (audit status as at June 2026): An Australian National Audit Office (ANAO)
+ performance audit of the A$1.1 billion Strategic Domestic Munitions Manufacturing
+ contract with Thales Australia found that critical assets at both Commonwealth-owned
+ factories (Mulwala and Benalla) were assessed as below target condition as at April 2026,
+ with remediation ongoing. As at June 2026, Defence had approved three remediation
+ plans submitted by Thales to address performance shortfalls, though implementation
+ remained at an early stage and Defence's AusTender reporting did not accurately reflect
+ total work placed under the contract. Source: "Defence's Management of Contracts for the
+ Supply of Munitions – Part 2", Australian National Audit Office (ANAO), 2026 (status as at
+ June 2026),
+ https://www.anao.gov.au/work/performance-audit/defences-management-of-contracts-for-t
+ he-supply-of-munitions-part-2.
+ ● 29 May 2026 (and 22 May 2026): Australian Army instructors mentoring Ukrainian
+ non-commissioned officers on Operation Kudu reported absorbing battlefield lessons from
+ drone-saturated combat. Training adaptations included weaving counter-drone awareness
+ across all tactical drills rather than treating it as a standalone lesson, standing beside
+ vertical cover such as trees to lower visual signature instead of defaulting to prone
+ positions, and planning for prolonged casualty care when persistent drone observation
+ prevents medical evacuation within the "golden hour". Sources: "Adapting to a
+ fast-moving battlefield", Australian Department of Defence, 29 May 2026,
+ https://www.defence.gov.au/news-events/news/2026-05-29/adapting-fast-moving-battlefiel
+ d; "Training to lead in the chaos of modern war", Australian Department of Defence, 22
+ May 2026,
+ https://www.defence.gov.au/news-events/news/2026-05-22/training-lead-chaos-modern-w
+ ar.
+
+6. Corrections
+
+ ● 7 October 2026: Existing open-source baselines citing a 42-launcher HIMARS fleet and a
+ single long-range fires regiment (14th Regiment, RAA) are now out of date. The
+ Australian Government confirmed on 7 October 2026 that peak capability will reach up to
+ 90 HIMARS units across two long-range fires regiments in 10th Fires Brigade, achieving
+ full operational capability four years ahead of schedule. Source: "Albanese Government
+ continues to strengthen Army's long-range strike capability | Defence Ministers",
+ Australian Government, Defence Ministers (Department of Defence), 7 October 2026,
+ https://www.minister.defence.gov.au/media-releases/2026-10-07/albanese-government-co
+ ntinues-strengthen-armys-long-range-strike-capability.
+
+Entry impact (Australia)
+
+ ● Second HIMARS tranche, 90-launcher ceiling, Newcastle missile factory, and schedule
+ correction: updates HIMARS, GMLRS and PrSM (LAND 8113) and Making Missiles and
+ Shells at Home (GWEO).
+ ● EOS R400 Slinger on Hawkei trials: updates Air and Counter-Drone Defence of Fires:
+ NASAMS and LAND 156.
+ ● Maryborough 155mm M795 forging contract: updates Making Missiles and Shells at
+ Home (GWEO) and The 155mm and Rocket Munition Suite.
+ ● AS9 Huntsman first live firing and inaugural School of Artillery course: updates AS9
+ Huntsman Self-Propelled Howitzer and The Command Post, Gunnery and Range Safety.
+ ● Second long-range fires regiment in 10th Fires Brigade: updates The 10th (Fires) Brigade.
+ ● 4th Regiment, RAA (106 Battery) transition to AS9 Huntsman: updates Brigade
+ Regiments, M777A2 and Infantry Mortars and AS9 Huntsman Self-Propelled Howitzer.
+ ● 2026 National Defence Strategy fact sheet and HIMARS LCM-8 beach landing: updates
+ Littoral Fires: When the Guns Cannot Reach and HIMARS, GMLRS and PrSM (LAND
+ 8113).
+ ● Exercise Keris Woomera 26 (first overseas HIMARS firing): updates HIMARS, GMLRS
+ and PrSM (LAND 8113) and Littoral Fires: When the Guns Cannot Reach.
+ ● Exercise Pozieres Run (AS9 field debut and HIMARS live fire): updates AS9 Huntsman
+ Self-Propelled Howitzer and The 10th (Fires) Brigade.
+ ● Exercise Southern Jackaroo 2026 (combined live fire, mortar test, and Vector AI): updates
+ Radars, Small Drones and Target Processing and Joint Fires Teams and JFECCs.
+ ● ANAO Mulwala and Benalla audit: updates Making Missiles and Shells at Home (GWEO).
+ ● Operation Kudu counter-drone survivability lessons: updates Surviving: Guns, HIMARS
+ and Command Posts.
+Indonesia (1 May 2026 to 24 November 2026)
+
+1. Equipment
+
+ ● Reported: 6 May 2026 (published 8 and 14 May 2026): Türkiye's Baykar Technologies
+ and Indonesia's PT Republik Aero Dirgantara (Republikorp) signed a framework
+ agreement at the SAHA 2026 exhibition in Istanbul to export the Bayraktar Kizilelma
+ unmanned combat aerial vehicle, with deliveries targeted from 2028 alongside local
+ production and maintenance centres. Press sources report differing quantity terms: Asian
+ Defence Journal (14 May 2026) and MigFlug (20 November 2026) cite an initial order of
+ 12 aircraft with an option for up to 48 additional units, whereas Envanter Medya lists 12
+ aircraft in a 23 September 2026 summary and up to 48 aircraft overall in a 19 November
+ 2026 report. Contract value was not disclosed. Sources: "SAHA 2026: Baykar signs
+ agreement to export Kizilelma to Indonesia", Janes, 8 May 2026,
+ https://www.janes.com/defence-intelligence-insights/defence-news/defence/saha-2026-ba
+ ykar-signs-agreement-to-export-kizilelma-to-indonesia; "Indonesia Becomes First Export
+ Buyer Of Baykar Kizilelma | Asian Defence Journal", Asian Defence Journal, 14 May
+ 2026,
+ https://adj.com.my/2026/05/14/indonesia-becomes-first-export-buyer-of-baykar-kizilelma/;
+ "Indonesia–Türkiye Defence Industry Relations: Co-Production on Every Layer
+ (2015–2026)", Envanter Medya, 23 September 2026,
+ https://envantermedya.com/en/en-indonesia-turkiye-defence-industry-relations/;
+ "Bayraktar KIZILELMA: Türkiye Inducts First Three Unmanned Fighters", MigFlug, 20
+ November 2026,
+ https://migflug.com/afterburner/bayraktar-kizilelma-first-three-unmanned-fighters-delivered
+ -turkiye-2026/.
+(Note: The 4 July 2026 Batulicin munitions factory groundbreaking, 20 October 2026 ITBM-600
+live firing, 4 November 2026 Pindad palm-oil cellulose propellant plan, and 15 November 2026
+ANKA Navy aviator training completion are excluded as already recorded in the baseline.)
+
+2. Organisation
+
+ ● 23 November 2026: Following a joint working meeting with Commission I of the
+ Indonesian Parliament (DPR RI), Army Chief of Staff (KSAD) General Tandyo Budi Revita
+ stated that the Ministry of Defence-approved 2024–2029 strategic plan (Renstra) targets
+ the formation of approximately 750 new battalions on a one-regency-one-battalion basis.
+ Of this total, 593 are Territorial Development Infantry Battalions (Yonif TP, of which 254
+ were already built according to Defence Minister Sjafrie Sjamsoeddin), while the
+ remaining approximately 157 battalions comprise Field Artillery (Yonarmed), Air Defence
+ Artillery (Yonarhanud), Cavalry (Yonkav), Engineer (Zeni), and Medical (Yonkes) units.
+ The exact split between Yonarmed and Yonarhanud battalions was not disclosed.
+ Sources: "Menhan Sjafrie Bahas Penanganan Kelompok Ekstremis Bersenjata dan
+ Pembangunan Batalyon Teritorial Bersama Komisi I DPR RI", Ministry of Defence of the
+ Republic of Indonesia (Kemhan RI), 23 November 2026,
+ https://www.kemhan.go.id/2026/11/23/menhan-sjafrie-bahas-penanganan-kelompok-ekstr
+ emis-bersenjata-dan-pembangunan-batalyon-teritorial-bersama-komisi-i-dpr-ri.html; "TNI
+ akan Bangun 750 Batalion sampai 2029: 593 Yonif TP, Sisanya Yonarmed hingga Yonkes
+ | Indonesia Defense Magz", Indonesia Defense Magazine, 23 November 2026,
+ https://indonesiadefense.com/tni-akan-bangun-750-batalion-sampai-2029-593-yonif-tp-sis
+ anya-yonarmed-hingga-yonkes; "KSAD Targetkan 750 Batalyon TNI AD Terbentuk pada
+ 2029", LensaHukum, 24 November 2026,
+ https://lensahukum.co.id/target-pembentukan-750-batalyon.
+
+3. Doctrine, training and schools
+
+No change found.
+Searches run: "TNI AD" OR "Yonarmed" OR "Yonarhanud" OR "Pusdikarmed" 2026 artileri OR
+meriam OR roket OR doktrin OR dibentuk; "TNI" OR "Pussenarmed" OR "Yonarmed" "Papua"
+OR "doktrin" OR "dibentuk" OR "diresmikan" OR "Keris MAREX" 2026; site:kemhan.go.id OR
+site:indonesiadefense.com "Yonarmed" OR "Yonarhanud" OR "CAESAR" OR "ASTROS" OR
+"KHAN" OR "Pusdikarmed" 2026. Outlets and official sites checked: Kemhan RI (kemhan.go.id),
+Pusdikarmed TNI AD (pusdikarmed.tni-ad.mil.id), TNI (tni.mil.id), TNI AL (tnial.mil.id), Indonesia
+Defense Magazine (indonesiadefense.com), Janes, and Antara.
+
+4. Exercises with a fires element
+
+ ● 12–20 October 2026 — Exercise Keris Woomera 26: Conducted predominantly in East
+ Java (opening in Banyuwangi and including Pusat Latihan Pertempuran Marinir 5), the
+ Bali Sea, and the North Indian Ocean, Indonesia, between Indonesia (approximately
+ 1,235 TNI personnel) and Australia (approximately 1,000 ADF personnel). Indonesian
+ fires elements comprised a TNI Army 105mm howitzer section, a TNI Marine Corps
+ 105mm howitzer section, a Marine Multiple Launch Rocket System, TNI Air Force
+ EMB-314 Super Tucano aircraft, and TNI Joint Terminal Attack Controllers. These forces
+ conducted live-fire engagements and joint artillery integration alongside Australian M777
+ 155mm howitzers and Australian HIMARS launchers; specific Indonesian rocket models
+ and round counts fired were not disclosed. Sources: "Keris Woomera | Defence Activities |
+ Defence", Australian Department of Defence, October 2026,
+ https://www.defence.gov.au/defence-activities/exercises/keris-woomera; "Australia and
+ Indonesia conclude major exercise | Defence", Australian Department of Defence, 20
+ October 2026,
+ https://www.defence.gov.au/news-events/news/2026-10-20/australia-indonesia-conclude-
+ major-exercise.
+(Note: Super Garuda Shield 26's 7 September 2026 combined joint land strike is excluded as
+already recorded. Exercise Keris MAREX 2026, held 16–20 November 2026 in Surabaya
+between the Indonesian Marine Corps and US Marine Corps, focused on amphibious combat
+planning and tactical exchanges with no live artillery or rocket firing reported.)
+
+5. Operations and lessons
+
+No change found.
+Searches run: "TNI" OR "Pussenarmed" OR "Yonarmed" "Papua" OR "doktrin" OR "dibentuk"
+OR "diresmikan" OR "Keris MAREX" 2026; site:kemhan.go.id OR site:indonesiadefense.com
+"Yonarmed" OR "Yonarhanud" OR "CAESAR" OR "ASTROS" OR "KHAN" OR "Pusdikarmed"
+2026; Indonesia artillery OR howitzer OR mortar OR "CAESAR" OR "ASTROS" OR "KHAN" OR
+"ITBM-600" OR "ANKA" OR "loitering" OR "Pindad" 2026. Outlets and official sites checked: TNI
+(tni.mil.id), Kemhan RI (kemhan.go.id), Indonesia Defense Magazine (indonesiadefense.com),
+Kompas, Tribunnews, and Janes.
+
+6. Corrections
+
+No change found.
+Searches run: Indonesia artillery OR howitzer OR mortar OR "CAESAR" OR "ASTROS" OR
+"KHAN" OR "ITBM-600" OR "ANKA" OR "loitering" OR "Pindad" 2026; Indonesia "CAESAR" OR
+"ASTROS" OR "KHAN" OR "Baykar" OR "Roketsan" OR "Kizilelma" OR "ANKA" OR "Pindad"
+2026 -Batulicin -"palm oil"; site:kemhan.go.id OR site:indonesiadefense.com "Yonarmed" OR
+"Yonarhanud" OR "CAESAR" OR "ASTROS" OR "KHAN" OR "Pusdikarmed" 2026. Outlets and
+official sites checked: Kemhan RI (kemhan.go.id), Janes, Indonesia Defense Magazine
+(indonesiadefense.com), Asian Defence Journal, and Envanter Medya.
+
+Entry impact (Indonesia)
+
+ ● Bayraktar Kizilelma export framework agreement with Republikorp: updates Elang Hitam,
+ Kizilelma and CH-4: Three Paths to Armed Drones.
+ ● 2024–2029 strategic plan for 750 battalions including Yonarmed and Yonarhanud:
+ updates Two Services, Kostrad and Kodam: How Indonesia Organises Its Artillery and
+ Arhanud: Air and Drone Defence for the Guns.
+ ● Exercise Keris Woomera 26 joint live-fire integration with Australian M777 and HIMARS:
+ updates From Seminars to Joint Fires: Linking Guns, Rockets and Missiles and Many
+ Suppliers, One Fire Plan: Interoperability Friction.
+Malaysia (1 May 2026 to 24 November 2026)
+
+1. Equipment
+
+ ● Reported: 4 November 2026: Advanced Defence Systems Sdn Bhd (ADS) is upgrading
+ Royal Artillery Regiment Denel G5 Mk III 155mm towed howitzers from the legacy Thales
+ AS2000 fire-control system to the AS4000 Integrated Fire Control System (IFCS) at its
+ facility in Pagoh, Johor. The RM36.7 million contract covers 29 systems (approximately
+ RM1.27 million per gun, including hardware, installation, supply, and delivery) following a
+ 2024 public tender. This standardises the G5 fire-control architecture with the Malaysian
+ Army's 105mm LG1 Mk III howitzers (1 RAD) and 120mm 2R2M mortars (12 RAMD
+ Mechanised and 1 KAD); the number of upgraded G5 guns completed to date was not
+ disclosed. Source: "Integrated Fire Control System on the G5 Howitzers - Malaysian
+ Defence", Malaysian Defence, 4 November 2026,
+ https://www.malaysiandefence.com/integrated-fire-control-system-on-the-g5-howitzers/.
+ ● Reported: 18 June 2026: The Royal Malaysian Air Force (RMAF) commenced operations
+ with its Turkish Aerospace ANKA-S unmanned aerial vehicles at Labuan following
+ deliveries earlier in 2026 and contractor test flights from 3 April 2026. Defence Minister
+ Datuk Seri Mohamed Khaled Nordin confirmed Malaysia is seeking additional ANKA-S
+ aircraft. Regional press reports put the initial three-aircraft acquisition at RM423.8 million
+ (approximately US$103 million), covering ground control stations and two years of
+ personnel training, with three additional aircraft sought in a second phase for South China
+ Sea and Sabah surveillance. Sources: "Malaysia seeks additional Anka UAVs", Janes, 18
+ June 2026,
+ https://www.janes.com/defence-intelligence-insights/defence-news/air/malaysia-seeks-ad
+ ditional-anka-uavs; Kompas (citing The Star), 20 November 2026,
+ http://www.kompas.com/tren/read/2026/11/20/170000165/malaysia-lirik-gamer-gen-z-untu
+ k-jadi-operator-drone-militer; Hindustan Times (citing Malay Mail, 17 June 2026),
+ https://www.hindustantimes.com/trending/malaysian-military-looks-to-recruit-video-gamers
+ -to-strengthen-drone-capabilities-101795170869929.html.
+(Note: The 16 June 2026 order for 18 CAESAR howitzers, 22 October 2026 Chaiseri contract
+for 34 CAESAR support vehicles, and 17 November 2026 Letter of Intent for 36 additional LG1
+Mk III guns are excluded as already recorded, save for the official KNDS handover date and
+industrial clarification under Corrections below.)
+
+2. Organisation
+
+No change found.
+Searches run: "Rejimen Artileri Diraja" OR "Tentera Darat" artileri OR meriam OR roket OR
+mortar OR "GAPU" OR "61 RAD" OR "PUSARTI" 2026; Malaysia "Royal Artillery" OR "Rejimen
+Artileri Diraja" OR "CAESAR" OR "LG1" OR "ASTROS" OR "G5" OR "mortar" OR "loitering" OR
+"ANKA" 2026; Malaysia "Briged Artileri Roket" OR "PUSARTI" OR "GAPU" OR "loitering
+munition" OR "AS4000" 2026. Outlets and official sites checked: Air Times News Network
+(airtimes.my), Malaysian Defence (malaysiandefence.com), Bernama, Astro Awani, Utusan
+Malaysia, and Janes.
+
+3. Doctrine, training and schools
+
+ ● 18 November 2026: Malaysia's Public Works Department (Jabatan Kerja Raya, JKR)
+ updated contract requirement documents for the design-and-build pre-qualification tender
+ to develop the Artillery Training Centre (Pusat Latihan Artileri, PUSARTI) at Kem Syed
+ Sirajuddin, Gemas, Negeri Sembilan. Source: "Kenyataan Tender" (listing: "PRA
+ KELAYAKAN UNTUK PEMBANGUNAN PUSAT LATIHAN ARTILERI (PUSARTI), KEM
+ SYED SIRAJUDDIN, GEMAS, NEGERI SEMBILAN (REKA DAN BINA)"), Jabatan Kerja
+ Raya (JKR) Malaysia, updated 18 November 2026,
+ https://tender.jkr.gov.my/kenyataan/tender.
+ ● 17 November 2026: The Malaysian Army Combat Training Centre (PULADA) in Johor
+ concluded an 81mm Mortar Platoon Commander Course, with regional attendance
+ confirmed by the graduation of a Royal Brunei Land Force mortar platoon officer from the
+ 3rd Battalion Support Company. Source: "RBLF Officer Completes 81mm Mortar Platoon
+ Commander Course in PULADA, Malaysia", Royal Brunei Land Force, Ministry of
+ Defence Brunei, 17 November 2026,
+ https://land.mindef.gov.bn/rblf-officer-completes-81mm-mortar-platoon-commander-cours
+ e-in-pulada-malaysia/.
+ ● 19 October 2026: The Malaysian Ministry of Defence closed a quotation notice for the
+ rental of an Artillery Observer Fire Control Training System simulator and an Aircraft
+ Recognition Training System simulator for PUSARTI for December 2026. Contract value
+ was not disclosed. Sources: "Tawaran — Perkhidmatan Sewaan Simulator ... Pusat
+ Latihan Artileri (PUSARTI) bagi Bulan Disember 2026", Ministry of Finance Malaysia
+ (MyProcurement), closed 19 October 2026,
+ https://myprocurement.treasury.gov.my/advertisements/quotation/4eb80ac5bac93f599923
+ 8076248b9bac; "Perkhidmatan Sewaan Simulator Artillery Observer Fire Control Training
+ System dan Aircraft Recognition Training System untuk Pusat Latihan Artileri bagi Bulan
+ Disember 2026", TenderPanel, closed 19 October 2026,
+ https://www.tenderpanel.com/tender/perkhidmatan-sewaan-simulator-artillery-observer-fir
+ e-control-training-system-dan-aircraft-recognition-training-system-untuk-pusat-latihan-artil
+ eri-bagi-bulan-disember-2026-qt260000000030709.
+
+4. Exercises with a fires element
+
+ ● 7/12–21 October 2026 — Exercise Bersama Lima 2026: Hosted by Singapore across
+ the Kuala Lumpur and Singapore Flight Information Regions, Singapore, and the South
+ China Sea, involving all five Five Power Defence Arrangements (FPDA) nations:
+ Australia, Malaysia, New Zealand, Singapore, and the United Kingdom. Sources report
+ two start dates: SecurityStudies.info (9 October 2026) states Singapore commenced
+ hosting the ten-day exercise on 7 October 2026, whereas the Civil Aviation Authority of
+ Singapore airspace notice sets active exercise airspace and Air Defence Exercise
+ (ADEX) windows from 12 to 21 October 2026. Confirmed fires and air-defence serials
+ comprised ADEX periods, a Naval Firing Area, naval gunfire direction, and naval air
+ defence alongside a Company Land Assault; open sources did not confirm Malaysian
+ Army land artillery or mortar firings. Sources: "FPDA Militaries Participate in Exercise
+ Bersama Lima 2026 | Ministry of Defence", Ministry of Defence, Singapore, 23 October
+ 2026, https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-nr2/;
+ "AIRSPACE CLOSURE KUALA LUMPUR AND SINGAPORE FIRS EXERCISE
+ BERSAMA LIMA 2026 120001UTC OCT 2026 TO 211100UTC OCT 2026", Civil Aviation
+ Authority of Singapore (CAAS), 9 July 2026,
+ https://aim-sg.caas.gov.sg/aim-content/uploads/aip/20-AUG-2026/AIP/2026-07-09-000000
+ /html/eSUP/SG-eSUP-2026-167-en-GB.html; "Singapore Report (2026-10-09)",
+ SecurityStudies.info, 9 October 2026,
+ https://www.securitystudies.info/country/singapore/reports/singapore-report-2026-10-09-0
+ 623/.
+ ● Reported: 2026 (exact date not disclosed) — Exercise Lembing Sakti 2026: A single
+ social-media report stated that Malaysia's Rocket Artillery Brigade (Briged Artileri Roket)
+ conducted Exercise Lembing Sakti 2026 with ASTROS II multiple launch rocket systems
+ to assess readiness under the Army Training and Evaluation System (ARTEP). Dates,
+ firing range location, participating partner nations, and rocket types fired were not
+ confirmed in official Malaysian Army releases or established defence press. Source:
+ "LEMBING SAKTI 2026: THE READINESS AND EFFICIENCY OF THE ROCKET
+ ARTILLERY BRIGADE ARE TESTED : r/SEAMilitaryOnlyFans", Reddit (single-source
+ social-media post), 2026,
+ https://www.reddit.com/r/SEAMilitaryOnlyFans/comments/1vf3vke/lembing_sakti_2026_th
+ e_readiness_and_efficiency/.
+(Note: LKT 2026 on 30 June 2026 and Keris Strike 26 in July 2026 are excluded as already
+recorded.)
+
+5. Operations and lessons
+
+No change found.
+Searches run: Malaysia "Tentera Darat" OR "RAD" OR "MINDEF" artillery OR "CAESAR" OR
+"ASTROS" OR "LG1" lessons OR operations OR cancelled OR correction 2026; "Rejimen
+Artileri Diraja" OR "Tentera Darat" artileri OR meriam OR roket OR mortar OR "GAPU" OR "61
+RAD" OR "PUSARTI" 2026. Outlets and official sites checked: Malaysian Defence
+(malaysiandefence.com), Air Times News Network (airtimes.my), Defence Security Asia
+(defencesecurityasia.com), The Edge Malaysia, and Janes.
+
+6. Corrections
+
+ ● Reported: 19 November 2026: Clarification to recorded news item 2026-11-17 Malaysia
+ Signs Letter of Intent for 36 More LG1 Mk III Guns. While Malaysian Defence reported the
+ Letter of Intent on 17 November 2026, manufacturer KNDS N.V. issued its official
+ handover release from Kuala Lumpur on 19 November 2026 during the official visit of
+ French President Emmanuel Macron and Armed Forces Minister Catherine Vautrin.
+ KNDS confirmed that Advanced Defence Systems Sdn Bhd (ADS) will assemble the 36
+ additional 105LG guns locally and integrate an Integrated Fire Control System under
+ Malaysia's Industrial Collaboration Programme. Sources: "MALAYSIA HAND OVER A
+ LETTER OF INTENT TO KNDS FOR THE PROCUREMENT OF ARTILLERY 105MM
+ LIGHT GUN SYSTEMS | Media - EQS News", KNDS N.V. (via EQS News), 19 November
+ 2026,
+ https://www.eqs-news.com/news/media/malaysia-hand-over-a-letter-of-intent-to-knds-for-t
+ he-procurement-of-artillery-105mm-light-gun-systems/0e308028-96a5-4cb4-a91e-e6829a
+ 88951d_en; "LOI for Four CSAR Helicopters for RMAF, 105mm guns and MLU for
+ Submarines", Malaysian Defence, 17 November 2026,
+ https://www.malaysiandefence.com/loi-for-six-csar-helicopters-for-rmaf/.
+
+Entry impact (Malaysia)
+
+ ● AS4000 IFCS upgrade for 29 G5 Mk III howitzers: updates AS4000: One Fire Control
+ System for Guns and Heavy Mortars and 155mm General Support: G5 Mk III Now,
+ CAESAR Next.
+ ● RMAF ANKA-S operational start at Labuan and Phase 2 three-aircraft requirement:
+ updates ANKA-S over Sabah: Surveillance First.
+ ● JKR PUSARTI redevelopment pre-qualification and MINDEF simulator rental quotation:
+ updates PUSARTI: The Artillery School.
+ ● PULADA 81mm Mortar Platoon Commander Course with regional attendance: updates
+ Battalion Mortars: 60mm, 81mm and the 120mm 2R2M.
+ ● Exercise Bersama Lima 2026: updates Joint Air-Land Fires and JTACs and GAPU:
+ Short-Range Air Defence inside the Artillery.
+ ● Exercise Lembing Sakti 2026 (single-source report): updates The Rocket Artillery Brigade
+ and ASTROS II and Lembing Sakti: Coastal Rocket Fires with US HIMARS.
+ ● KNDS 19 November 2026 handover release confirming ADS local assembly and IFCS
+ integration for 36 105LG guns: updates 105mm Close Support: From Mod 56 to LG1 Mk
+ III and Local Assembly and Repair: ADS and the 2026 Industry Policy.
+Singapore (1 May 2026 to 24 November 2026)
+
+1. Equipment
+
+ ● 6 October 2026: Following the 2 October 2026 public unveiling during the 6th Singapore
+ Division's 50th anniversary events, the Ministry of Defence confirmed in an official Media
+ Reply that the fully automated Truck Mounted Gun will progressively replace both the
+ tracked SSPH Primus and the towed FH-2000 155mm howitzers, without naming the
+ manufacturers of either system. Reported: AsiaOne and Australian Defence Magazine (8
+ October 2026) noted "SIGMA" inscribed on the Truck Mounted Gun in open-source
+ photographs, linking it to Elbit Systems' 15 November 2021 US106 million (S135.7 million)
+ contract with an unnamed Asia-Pacific customer. Press assessments of the nine-canister
+ (3×3) Precision Land Shooter diverged—Janes noted an external resemblance to Rafael's
+ Spike non-line-of-sight (NLOS) missile launcher while Asian Military Review described it
+ as a loitering munition—and neither identification has been confirmed by MINDEF.
+ Sources: "Media Reply on Truck Mounted Gun and Precision Land Shooter | Ministry of
+ Defence", Ministry of Defence, Singapore, 6 October 2026,
+ https://www.mindef.gov.sg/news-and-events/latest-releases/06oct26-mq/; "Singapore
+ Army unveils new automated artillery, precision strike systems, Singapore News -
+ AsiaOne", AsiaOne, 8 October 2026,
+ https://www.asiaone.com/singapore/singapore-army-new-artillery-precision-land-shooter-s
+ ystems; "Singapore revealed as Sigma howitzer customer", Australian Defence Magazine,
+ 8 October 2026,
+ https://www.australiandefence.com.au/defence/land/singapore-revealed-as-sigma-howitze
+ r-customer.
+ ● 15 June 2026: The United States Department of State approved a possible Foreign
+ Military Sale (Transmittal #26-67) to Singapore for 18 Common Fire Control System
+ (CFCS) upgrade kits for the M142 HIMARS at an estimated total cost of US$73 million.
+ The package covers support equipment, technical documentation, spare parts, training,
+ and US Government and contractor engineering and logistics support, with Lockheed
+ Martin (Dallas, Texas) as principal contractor. Source: "Singapore – Common Fire Control
+ System", United States Department of State (Bureau of Political-Military Affairs), 15 June
+ 2026,
+ https://www.state.gov/releases/bureau-of-political-military-affairs/2026/06/singapore-com
+ mon-fire-control-system.
+2. Organisation
+
+No change found.
+Searches run: "Singapore Army" OR "Singapore Artillery" OR "Sense and Strike" HIMARS OR
+Primus OR Pegasus OR mortar OR "Truck Mounted Gun" OR "DROID" OR radar OR loitering
+2026 site:mindef.gov.sg OR site:defencepioneer.sg; Singapore Army artillery OR HIMARS OR
+Primus OR "Truck Mounted Gun" OR "Precision Land Shooter" OR "TPQ-53" OR "DROID" OR
+"Sense and Strike" 2026. Outlets and official sites checked: Ministry of Defence Singapore
+(mindef.gov.sg), Singapore Army (army.gov.sg), Pioneer (defencepioneer.sg), Janes, AsiaOne,
+and GBP Aerospace & Defence.
+
+3. Doctrine, training and schools
+
+No change found.
+Searches run: Singapore "Artillery Institute" OR "MINDEF" artillery OR Primus OR mortar OR
+"STORM" OR "DROID" doctrine OR safety OR review OR lessons 2026; "Singapore Army" OR
+"Singapore Artillery" OR "Sense and Strike" HIMARS OR Primus OR Pegasus OR mortar OR
+"Truck Mounted Gun" OR "DROID" OR radar OR loitering 2026 site:mindef.gov.sg OR
+site:defencepioneer.sg. Outlets and official sites checked: Ministry of Defence Singapore
+(mindef.gov.sg), Singapore Army (army.gov.sg), Pioneer (defencepioneer.sg), Central
+Manpower Base (cmpb.gov.sg), and Janes.
+
+4. Exercises with a fires element
+
+ ● Reported: 16–21 November 2026 — Exercise Agni Warrior 2026: The 14th edition of
+ this bilateral artillery exercise between India (Indian Army) and Singapore (Singapore
+ Armed Forces delegation) was conducted in a Table Top Exercise (TTX) format paired
+ with an Indian Army equipment display. No live artillery firing took place. Primary defence
+ press reporting (BW Defence, 17 November 2026) did not specify the venue, and
+ secondary media and study-guide attributions conflicted between Jalandhar and Devlali.
+ Source: "India-Singapore Strengthen Defence Ties Through Agni Warrior 2026", BW
+ Defence, 17 November 2026,
+ https://bwdefence.com/article/india-singapore-strengthen-defence-ties-through-agni-warri
+ or-2026-634034.
+ ● 7/12–21 October 2026 — Exercise Bersama Lima 2026: Hosted by Singapore across
+ the Kuala Lumpur and Singapore Flight Information Regions, Singapore, and the South
+ China Sea, involving Australia, Malaysia, New Zealand, Singapore, and the United
+ Kingdom (FPDA). Sources differ on the start date: SecurityStudies.info (9 October 2026)
+ reports a start on 7 October 2026, whereas CAAS airspace notices define active airspace
+ and ADEX windows from 12 to 21 October 2026. Confirmed fires and air-defence
+ components comprised ADEX periods, a Naval Firing Area, naval gunfire direction, and
+ naval air defence alongside a Company Land Assault; open sources did not confirm
+ Singapore Army artillery or mortar firings. Sources: "FPDA Militaries Participate in
+ Exercise Bersama Lima 2026 | Ministry of Defence", Ministry of Defence, Singapore, 23
+ October 2026, https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-nr2/;
+ "AIRSPACE CLOSURE KUALA LUMPUR AND SINGAPORE FIRS EXERCISE
+ BERSAMA LIMA 2026 120001UTC OCT 2026 TO 211100UTC OCT 2026", Civil Aviation
+ Authority of Singapore (CAAS), 9 July 2026,
+ https://aim-sg.caas.gov.sg/aim-content/uploads/aip/20-AUG-2026/AIP/2026-07-09-000000
+ /html/eSUP/SG-eSUP-2026-167-en-GB.html; "Singapore Report (2026-10-09)",
+ SecurityStudies.info, 9 October 2026,
+ https://www.securitystudies.info/country/singapore/reports/singapore-report-2026-10-09-0
+ 623/.
+ ● 29 August to 28 September 2026 — Exercise Daring Warrior 2026: The 11th edition of
+ this bilateral artillery live-firing exercise took place at Fort Sill, Oklahoma, United States,
+ involving approximately 110 personnel from the Singapore Army's 23rd Battalion,
+ Singapore Artillery (operating M142 HIMARS), and approximately 50 personnel from the
+ US Army's 75th Field Artillery Brigade (operating Multiple Launch Rocket Systems). Both
+ HIMARS and MLRS units conducted live rocket firings during the exercise, which was
+ visited by Minister of State for Defence Desmond Choo; specific rocket types and
+ quantities fired were not disclosed. Source: "Minister of State for Defence Desmond Choo
+ Visits SAF’s Artillery Live-Firing Exercise in the United States | Ministry of Defence",
+ Ministry of Defence, Singapore, 23 September 2026,
+ https://www.mindef.gov.sg/news-and-events/latest-releases/23sep26-nr/.
+(Note: Exercise Tiger Balm 2026 on 16 May 2026 and Exercise Wallaby 2026 forward support
+on 25 October 2026 are excluded as already recorded.)
+
+5. Operations and lessons
+
+No change found.
+Searches run: Singapore "Artillery Institute" OR "MINDEF" artillery OR Primus OR mortar OR
+"STORM" OR "DROID" doctrine OR safety OR review OR lessons 2026; "Singapore Army" OR
+"Singapore Artillery" OR "Sense and Strike" HIMARS OR Primus OR Pegasus OR mortar OR
+"Truck Mounted Gun" OR "DROID" OR radar OR loitering 2026 site:mindef.gov.sg OR
+site:defencepioneer.sg. Outlets and official sites checked: Ministry of Defence Singapore
+(mindef.gov.sg), Singapore Army (army.gov.sg), Pioneer (defencepioneer.sg), and Janes.
+
+6. Corrections
+
+ ● 6 October 2026: Existing baseline entries covering the Truck Mounted Gun, SSPH
+ Primus, and FH-2000 must be updated to reflect MINDEF's official 6 October 2026 Media
+ Reply confirming that the automated Truck Mounted Gun will progressively replace both
+ the tracked SSPH Primus and the towed FH-2000. Source: "Media Reply on Truck
+ Mounted Gun and Precision Land Shooter | Ministry of Defence", Ministry of Defence,
+ Singapore, 6 October 2026,
+ https://www.mindef.gov.sg/news-and-events/latest-releases/06oct26-mq/.
+ ● 7 May 2026 (Federal Register publication of 1 April 2026 approval): Existing baseline
+ entry M31 Unitary GMLRS: One Precise Warhead is now incomplete because the United
+ States Department of State approved a possible US$83.14 million Foreign Military Sale
+ (Transmittal #26-24) to Singapore on 1 April 2026—published in the US Federal Register
+ on 7 May 2026—covering 45 pods of M30A2 Guided Multiple Launch Rocket
+ System-Alternative Warhead (GMLRS-AW) rockets. As a congressional notification of a
+ possible sale, the notice confirms US export approval rather than completed delivery.
+ Sources: "Singapore – Guided Multiple Launch Rocket System-Alternative Warhead",
+ United States Department of State (Bureau of Political-Military Affairs), 1 April 2026,
+ https://www.state.gov/singapore-guided-multiple-launch-rocket-system-alternative-warhea
+ d; "Arms Sales Notification", Federal Register (United States Government), 7 May 2026,
+ https://www.federalregister.gov/documents/2026/05/07/2026-09003/arms-sales-notificatio
+ n.
+
+Entry impact (Singapore)
+
+ ● MINDEF Media Reply on Truck Mounted Gun replacing SSPH Primus and FH-2000 (plus
+ press SIGMA and Precision Land Shooter identification): updates Truck Mounted Gun:
+ The Next Generation Howitzer, SSPH Primus: The Locally Built Tracked Howitzer, SLWH
+ Pegasus and FH-2000: Light and Long Towed Guns, and Precision Land Shooter: A New
+ Strike System for Built-Up Areas.
+ ● US$73 million FMS approval for 18 HIMARS Common Fire Control System upgrade kits:
+ updates HIMARS: Singapore’s Long-Range Precision Rockets and CCIS and BMS: The
+ Digital Link from Sensor to Shooter.
+ ● Exercise Agni Warrior 2026 (TTX with India): updates Training Overseas: Thunder
+ Warrior, Forging Sabre and Wallaby (or New entry covering bilateral artillery training with
+ India).
+ ● Exercise Bersama Lima 2026: updates STORM Teams: One Forward Team for Artillery
+ and Air Strikes and HQ Sense and Strike: Finding and Hitting under One Headquarters.
+ ● Exercise Daring Warrior 2026 (23 SA HIMARS live fire at Fort Sill): updates HIMARS:
+ Singapore’s Long-Range Precision Rockets and Training Overseas: Thunder Warrior,
+ Forging Sabre and Wallaby (or New entry covering Fort Sill HIMARS training).
+ ● M30A2 GMLRS-AW 45-pod FMS approval correction: updates M31 Unitary GMLRS: One
+ Precise Warhead.
+Summary Table
+
+Army Items found Newest item date Stopped early (yes/no)
+Australia 15 20 October 2026 no
+Indonesia 3 23 November 2026 no
+Malaysia 8 19 November 2026 no
+Singapore 7 21 November 2026 no
+Works cited
+
+1. Australian-built howitzer sends the thunder - Defence,
+https://www.defence.gov.au/news-events/news/2026-06-04/australian-built-howitzer-sends-thun
+der 2. Huntsman tested in the field | Army News - Service newspapers,
+https://news.defence.gov.au/army/activity/2026-08-20/huntsman-tested-field 3.
+PERKHIDMATAN SEWAAN SIMULATOR ARTILLERY OBSERVER,
+https://www.tenderpanel.com/tender/perkhidmatan-sewaan-simulator-artillery-observer-fire-contr
+ol-training-system-dan-aircraft-recognition-training-system-untuk-pusat-latihan-artileri-bagi-bulan
+-disember-2026-qt260000000030709 4. Kenyataan Tender JKR,
+https://tender.jkr.gov.my/kenyataan/tender 5. Integrated Fire Control System on the G5
+Howitzers,
+https://www.malaysiandefence.com/integrated-fire-control-system-on-the-g5-howitzers/ 6. Media
+Reply on Truck Mounted Gun and Precision Land Shooter,
+https://www.mindef.gov.sg/news-and-events/latest-releases/06oct26-mq/ 7. Singapore –
+Common Fire Control System - State Department,
+https://www.state.gov/releases/bureau-of-political-military-affairs/2026/06/singapore-common-fir
+e-control-system 8. Australia receives second HIMARS batch two years ahead of schedule,
+https://defencefulcrum.com/article/australia-second-himars-batch-early-delivery 9. Land Forces
+2026: Australia decides - Global Defence Technology,
+https://defence.nridigital.com/global_defence_technology_aut26/land_forces_2026_australia_de
+cides 10. Special Report: Australian Army fields first AS9 Huntsman artillery,
+https://www.janes.com/defence-intelligence-insights/defence-news/land/special-report-australian
+-army-fields-first-as9-huntsman-artillery 11. Bringing the big guns, as the Australian Army
+prepares for war,
+https://defenceconnect.com.au/digital-magazine/2026/dc-land-2026/ed2-bringing-the-big-guns-a
+s-the-australia-army-prepares-for-war 12. Australian Army Contribution to the National Defence
+Strategy fact,
+https://www.army.gov.au/sites/default/files/2026-07/Australian%20Army%20Contribution%20to%
+20the%20National%20Defence%20Strategy%20fact%20sheet%202026.pdf 13. AS9 Huntsman
+fires during training course,
+https://www.australiandefence.com.au/news/news/as9-huntsman-fires-during-training-course
+14. Army proves HIMARS deployability from ship to shore - Defence,
+https://www.defence.gov.au/news-events/news/2026-05-13/army-proves-himars-deployability-fro
+m-ship-shore 15. Keris Woomera | Defence Activities,
+https://www.defence.gov.au/defence-activities/exercises/keris-woomera 16. Australia receives
+second HIMARS tranche two years ahead of,
+https://www.army-technology.com/news/australia-himars-second-tranche/ 17. Scaling up the
+blast - Defence, https://www.defence.gov.au/news-events/news/2026-07-24/scaling-up-blast 18.
+Partner forces team up to sharpen combat skills - Defence,
+https://www.defence.gov.au/news-events/news/2026-06-25/partner-forces-team-up-sharpen-co
+mbat-skills 19. Partner nations rehearse for war - Defence,
+https://www.defence.gov.au/news-events/news/2026-06-11/partner-nations-rehearse-war 20.
+U.S., Australia, Japan begin Exercise Southern Jackaroo 2026,
+https://www.marines.mil/News/News-Display/Article/4507273/us-australia-japan-begin-exercise-
+southern-jackaroo-2026/ 21. New drone uses AI on Southern Jackaroo - Defence,
+https://www.defence.gov.au/news-events/news/2026-07-08/new-drone-uses-ai-southern-jackaro
+o 22. File:Southern Jackaroo 26- U S Army Soldier Observes Mortar Test,
+https://commons.wikimedia.org/wiki/File:Southern_Jackaroo_26-_U_S_Army_Soldier_Observes
+_Mortar_Test_(9777255).jpg 23. Defence's Management of Contracts for the Supply of
+Munitions,
+https://www.anao.gov.au/work/performance-audit/defences-management-of-contracts-for-the-su
+pply-of-munitions-part-2 24. Adapting to a fast-moving battlefield - Defence,
+https://www.defence.gov.au/news-events/news/2026-05-29/adapting-fast-moving-battlefield 25.
+Training to lead in the chaos of modern war - Defence,
+https://www.defence.gov.au/news-events/news/2026-05-22/training-lead-chaos-modern-war 26.
+Royal Australian Artillery - Wikipedia, https://en.wikipedia.org/wiki/Royal_Australian_Artillery 27.
+Indonesia–Türkiye Defence Industry Relations 2015–2026,
+https://envantermedya.com/en/en-indonesia-turkiye-defence-industry-relations/ 28.
+BAYRAKTAR KIZILELMA - SAHA EXPO, https://www.sahaexpo.com/showday/saha-day-3.pdf
+29. SAHA 2026: Baykar signs agreement to export Kizilelma to Indonesia,
+https://www.janes.com/defence-intelligence-insights/defence-news/defence/saha-2026-baykar-s
+igns-agreement-to-export-kizilelma-to-indonesia 30. Bayraktar KIZILELMA: First Three Jets
+Delivered | MiGFlug,
+https://migflug.com/afterburner/bayraktar-kizilelma-first-three-unmanned-fighters-delivered-turkiy
+e-2026/ 31. Kizilelma Enters Turkey's Inventory: First 3 Jets Delivered,
+https://envantermedya.com/en/kizilelma-enters-turkey-inventory-first-3-jets/ 32. KSAD Targetkan
+750 Batalyon TNI AD Terbentuk pada 2029,
+https://lensahukum.co.id/target-pembentukan-750-batalyon 33. Menhan Sjafrie Sebut
+Pembangunan Yonif TP di 514 Kabupaten/Kota Bagian dari Strategi Pertahanan,
+https://www.tribunnews.com/nasional/7915504/menhan-sjafrie-sebut-pembangunan-yonif-tp-di-
+514-kabupatenkota-bagian-dari-strategi-pertahanan 34. Kementerian Pertahanan Republik
+Indonesia,
+https://www.kemhan.go.id/2026/11/23/menhan-sjafrie-bahas-penanganan-kelompok-ekstremis-b
+ersenjata-dan-pembangunan-batalyon-teritorial-bersama-komisi-i-dpr-ri.html 35. Keris MAREX
+Archives - GBP, https://gbp.com.sg/regional_tag/keris-marex/?regional= 36. Marinir TNI AL dan
+AS Fokus Perencanaan Tempur Amfibi di Keris,
+https://indonesiadefense.com/marinir-tni-al-dan-as-fokus-perencanaan-tempur-amfibi-di-keris-m
+arex-2026 37. Marinir RI dan AS Mulai Latma Keris MAREX 2026 di Surabaya - GBP,
+https://gbp.com.sg/regional_stories/marinir-ri-dan-as-mulai-latma-keris-marex-2026-di-surabaya/
+38. Malaysia seeks additional Anka UAVs - Jane's Defence,
+https://www.janes.com/defence-intelligence-insights/defence-news/air/malaysia-seeks-additional
+-anka-uavs 39. Malaysia Lirik Gamer Gen Z untuk Jadi Operator Drone Militer,
+http://www.kompas.com/tren/read/2026/11/20/170000165/malaysia-lirik-gamer-gen-z-untuk-jadi-
+operator-drone-militer 40. Malaysian military looks to recruit video gamers to strengthen drone
+capabilities,
+https://www.hindustantimes.com/trending/malaysian-military-looks-to-recruit-video-gamers-to-str
+engthen-drone-capabilities-101795170869929.html 41. RBLF OFFICER COMPLETES 81MM
+MORTAR PLATOON,
+https://land.mindef.gov.bn/rblf-officer-completes-81mm-mortar-platoon-commander-course-in-pu
+lada-malaysia/ 42. Tawaran Perolehan Kerajaan - MYPROCUREMENT,
+https://myprocurement.treasury.gov.my/advertisements/quotation/4eb80ac5bac93f59992380762
+48b9bac 43. AIP Supplement 167/2026 - AIM-SG,
+https://aim-sg.caas.gov.sg/aim-content/uploads/aip/20-AUG-2026/AIP/2026-07-09-000000/html/
+eSUP/SG-eSUP-2026-167-en-GB.html 44. FPDA Militaries Participate in Exercise Bersama
+Lima 2026, https://www.mindef.gov.sg/news-and-events/latest-releases/23oct26-nr2/ 45.
+Singapore Security Report — October 09, 2026 — SecurityStudies.info,
+https://www.securitystudies.info/country/singapore/reports/singapore-report-2026-10-09-0623/
+46. SINGAPORE SECURITY ANALYSIS REPORT,
+https://www.securitystudies.info/reports/Southeast%20Asia/Singapore/Singapore_2026-11-06.p
+df 47. LEMBING SAKTI 2026: THE READINESS AND EFFICIENCY OF,
+https://www.reddit.com/r/SEAMilitaryOnlyFans/comments/1vf3vke/lembing_sakti_2026_the_rea
+diness_and_efficiency/ 48. LOI for Four CSAR Helicopters for RMAF, 105mm guns and MLU for,
+https://www.malaysiandefence.com/loi-for-six-csar-helicopters-for-rmaf/ 49. MALAYSIA HAND
+OVER A LETTER OF INTENT TO KNDS FOR THE,
+https://www.eqs-news.com/news/media/malaysia-hand-over-a-letter-of-intent-to-knds-for-the-pro
+curement-of-artillery-105mm-light-gun-systems/0e308028-96a5-4cb4-a91e-e6829a88951d_en
+50. Singapore Unveils Next Generation Land Artillery Systems - GBP,
+https://gbp.com.sg/stories/singapore-unveils-next-generation-land-artillery-systems/ 51.
+Singapore Army unveils new automated artillery, precision strike,
+https://www.asiaone.com/singapore/singapore-army-new-artillery-precision-land-shooter-system
+s 52. Singapore revealed as Sigma howitzer customer,
+https://www.australiandefence.com.au/defence/land/singapore-revealed-as-sigma-howitzer-cust
+omer 53. India-Singapore Strengthen Defence Ties Through Agni Warrior 2026,
+https://bwdefence.com/article/india-singapore-strengthen-defence-ties-through-agni-warrior-202
+6-634034 54. Yudh Sainya Abhyas 2026 Complete Guide | PDF - Scribd,
+https://www.scribd.com/document/1062443528/Yudh-Sainya-Abhyas-2026-Complete-Guide 55.
+Jalandhar: India Singapore Military Exercise #Gallery,
+https://www.socialnews.xyz/2026/11/17/jalandhar-india-singapore-military-exercise-gallery/ 56.
+Singapore Approved For GMLRS Procurement,
+https://adj.com.my/2026/04/05/singapore-approved-for-gmlrs-procurement/ 57. Singapore –
+Guided Multiple Launch Rocket System-Alternative,
+https://www.state.gov/singapore-guided-multiple-launch-rocket-system-alternative-warhead 58.
+Arms Sales Notification - Federal Register,
+https://www.federalregister.gov/documents/2026/05/07/2026-09003/arms-sales-notification
