@@ -1,0 +1,1535 @@
+Ukrainian Artillery and Fire Support:
+Open-Source Gap Analysis, Training,
+Evidentiary Audit, and Platform
+Specifications
+
+This reference supplement fills seven standing functional gaps in Ukrainian artillery and
+fire-support documentation (Task A), records Ukraine's multinational and domestic artillery
+training pipelines (Task B), audits the evidentiary basis of the existing entries "What the Artillery
+War Teaches" and "Precision, Mines and Civilian Harm" (Task C), compiles technical
+specifications for the AHS Krab, M777, and M120 Rak (Task D), and concludes with a URL-level
+source verification log and audit of existing entries (Final Step). Open-source evidence spans
+pre-2022 baselines through November 2026, drawing primarily on official publications from the
+Ministry of Defence of Ukraine, the Council of the European Union, the European External
+Action Service (EEAS), the U.S. Department of Defense, the UK Ministry of Defence, and the
+U.S. Government Accountability Office (GAO), alongside established research from the Royal
+United Services Institute (RUSI), the Center for Strategic and International Studies (CSIS), the
+International Institute for Strategic Studies (IISS), and Human Rights Watch (HRW).
+Four operational takeaways anchor this update. First, Ukrainian fire support diverges sharply
+from Western forward-observer doctrine: units generally do not embed fire controllers inside
+maneuver companies, instead streaming continuous multicopter reconnaissance feeds into
+command posts that deconflict and authorize fires across Contact, Middle, and Deep Battle
+Areas. Second, while tactical uncrewed aerial vehicles (UAVs) accounted for an estimated
+60–70% of damaged and destroyed Russian systems by early 2025, 60–80% of first-person
+view (FPV) drones fail to reach their target, leaving howitzers and mortars irreplaceable for
+low-latency, all-weather, electronic-warfare-resilient high-explosive effects. Third, Ukraine has
+begun offsetting steep U.S. supply dependencies—estimated by the Kiel Institute via CSIS at
+86% for rocket artillery and 82% for howitzer ammunition as of March 2025—by scaling
+domestic 152 mm and 155 mm shell output and conducting sustained land-attack cruise missile
+campaigns with R-360L Long Neptune systems in late 2026. Fourth, several narrow technical
+topics—Ukrainian ballistic calibration of mixed donor propellant lots, operational logs of COBRA
+and ARTHUR counter-battery radars, primary Izium anti-personnel mine reports, Lithuanian
+Panzerhaubitze 2000 depot records, and manufacturer-published displacement times for the
+AHS Krab—lack primary documentation in available open sources and are explicitly marked as
+standing collection gaps rather than extrapolated.
+Research Plan
+
+To expand the military learning reference systematically while excluding duplication of
+previously recorded entries, execution follows five sequential steps corresponding to Tasks A
+through D and the final verification audit:
+ 1. Step 1 — Task A (Fill Functional Gaps): Research 1 to 2 open-source entries for each
+ of the two missing categories (Liaison and Fire Support Integration; Rocket and Missile
+ Artillery) and five thin categories (Loitering Munitions and Armed Drones; Ammunition and
+ Effects; Target Acquisition; Technical Fire Direction and Gunnery; Sustainment).
+ 2. Step 2 — Task B (Artillery Training Pipelines): Document 2 entries detailing how
+ Ukraine trains gunners, UAV observers, and fire planners across external allied programs
+ (EUMAM Ukraine, German Artillery School, U.S. 7th Army Training Command, Exercise
+ Koalicja 2026) and domestic institutions (Hetman Petro Sahaidachnyi National Army
+ Academy, 6th Training Artillery Regiment), with dates and durations.
+ 3. Step 3 — Task C (Evidentiary Audit of Existing Entries): Cross-check "What the
+ Artillery War Teaches" and "Precision, Mines and Civilian Harm" against official and
+ established open sources to confirm verified claims, update 2022–2023 generalizations
+ with 2025–2026 findings, and identify unresolved source gaps.
+ 4. Step 4 — Task D (Platform Specifications): Compile authoritative technical figures
+ (type, calibre, combat weight, crew, range by round type, rate of fire, mobility, and time
+ into and out of action) for the AHS Krab, M777/M777A2, and M120 Rak, flagging all
+ cross-source discrepancies.
+ 5. Step 5 — Final Source Verification and Existing-Entry Audit: Verify every cited URL,
+ exact page title, publisher, publication date/year, and authority tier, and record findings on
+ corrections applicable to the 13 existing Ukraine entries.
+Task A: Gap-Filling Reference Entries
+
+Liaison and Fire Support Integration
+
+Entry A1.1: UAV-Cued Command-Post Authorization and Three-Zone Battle Area
+Segmentation
+
+Unlike NATO combined-arms doctrine—which embeds dedicated fire support teams and joint
+fires observers inside frontline maneuver companies—Ukrainian ground forces generally do not
+deploy embedded fire controllers within combat units. A February 2025 RUSI operational study
+observes that, owing to inherited doctrine and organizational culture, neither Ukrainian nor
+Russian forces rely on forward-deployed fire controllers; instead, an intelligence and
+surveillance enterprise streams real-time UAV video feeds to command posts, where
+commanders' representatives validate detections and authorize indirect or drone fires.
+To deconflict tube artillery, mortars, strike drones, and long-range fires across unit boundaries,
+Ukrainian formations organize the battlespace into three distinct zones. In the Contact Battle
+Area, bounded by open terrain along the forward line of own troops (FLOT), battalion
+fire-support companies integrate mortars with dedicated FPV drone platoons. These FPV teams
+operate in two complementary modes: a static forward line positioned behind infantry fighting
+positions engages targets picked up by the battalion's reconnaissance-UAV screen, while
+battalion intelligence (G2) and operations (G3) staffs dynamically reposition mobile FPV groups
+onto terrain optimized to mass effects against commander-designated priorities. Further back,
+Ukrainian forces survey the Middle Battle Area to suppress Russian supporting artillery,
+electronic warfare (EW) nodes, and UAV launch teams—isolating frontline Russian infantry from
+resupply—while long-range rockets, powered bombs, and missiles target assembly areas and
+logistics hubs in the Deep Battle Area.
+http://googleusercontent.com/visual_element_0
+Entry A1.2: Digital C4ISR Unification (Delta and Kropyva) and Corps-Level
+Artillery Brigades (2026)
+
+At the technical liaison layer, Ukrainian fire-support coordination relies on indigenous digital
+battle-management software. Janes reports that Ukraine's Delta system is transitioning to
+become the sole authorized source for data transfers across the Armed Forces of Ukraine
+(AFU), operating alongside Kropyva, a widely adopted battlefield situational awareness
+platform supported through Ukraine's Centre of Innovations and Defence Technologies. This
+networked architecture enables geographically dispersed guns to mass precision and area
+effects remotely across adjacent maneuver boundaries without concentrating firing units
+physically.
+Organizationally, 2026 force-structure disclosures indicate a sustained transition toward
+permanent corps-level organic artillery brigades to improve fire-support unity of command
+across multiple maneuver brigades. According to open-source force tracking (MilitaryLand.net)
+and official unit portals, the National Guard's 2nd Khartia Corps unveiled its organic 7th Artillery
+Brigade ("Hrehit Brigade", Military Unit 3042, commanded by Lieutenant Colonel Vitalii
+Korniienko) on April 6, 2026, while the 1st Corps "Azov" stood up the 8th Artillery Brigade
+("Harmash") to provide dedicated offensive and defensive fire support. Similarly, Ukrainian
+state-affiliated reporting documented the 45th Artillery Brigade operating under the 11th Army
+Corps to execute precision HIMARS strikes against Russian Buk air-defense elements.
+
+Rocket and Missile Artillery
+
+Entry A2.1: Western Guided Rocket Artillery (M142 HIMARS, M270/MARS II/LRU)
+— Deep Shaping, EW Degradation, and U.S. Dependency
+
+Western multiple-launch rocket systems expanded Ukraine's operational depth beginning in
+June 2022, when the United States began delivering truck-mounted M142 HIMARS
+launchers—reaching 39 delivered units by January 2024 according to defense-industry
+reporting—alongside tracked M270 variants (including German MARS II and French LRU)
+supplied by the United Kingdom, Norway, Germany, Italy, and France. Whereas the
+C-130-transportable 6×6 HIMARS carries one six-rocket pod (or one 610 mm ATACMS ballistic
+missile), the heavier tracked M270 doubles onboard firepower to two pods (12 GMLRS rockets
+or two ATACMS) with superior off-road mobility. Firing GPS/INS-guided GMLRS unitary rockets
+(capable of hitting within roughly 10 m of an aiming point out to ~80 km, at roughly $160,000 per
+rocket), Ukrainian rocket batteries interdicted Russian ammunition dumps, fuel depots, and
+Dnipro River crossings in late 2022, directly enabling the Kherson and Kharkiv
+counteroffensives. By June 2024, Ukrainian technical teams had adapted broader M270
+launchers—beyond France's immediately ATACMS-capable LRU systems—to fire 300 km
+ATACMS ballistic missiles against Russian airfields and deep-space communications sites in
+Crimea.
+Two operational vulnerabilities tempered rocket artillery effectiveness from 2023 onward. First,
+pervasive Russian GPS jamming degraded GMLRS terminal accuracy in contested sectors, with
+a May 2024 defense-media report citing an assessment that jammed HIMARS rockets
+occasionally missed by more than 15 m (50 ft). Nevertheless, characterization of the system as
+wholly neutralized is contradicted by continued combat performance: Ukrainian HIMARS units
+still destroyed high-value Russian Buk air-defense elements and a tank regiment headquarters
+in October 2026. Second, on March 5, 2024, a Russian reconnaissance-drone-cued Iskander
+strike scored the first confirmed hit on a Ukrainian HIMARS launcher (variously described in
+secondary reporting as destroyed or damaged), demonstrating launcher vulnerability whenever
+concealment or shoot-and-scoot discipline lapses. Strategically, CSIS cites Kiel Institute tracking
+showing that 86% of Ukraine's rocket artillery systems as of March 2025 were
+U.S.-produced, marking HIMARS and its munitions among the hardest capabilities for
+European partners to replace as U.S. aid deliveries taper in 2027–2028.
+
+Entry A2.2: Indigenous Guided Rockets and the 2025–2026 Long Neptune Cruise
+Missile Campaign
+
+To mitigate partner supply constraints and employment restrictions, Ukraine invested heavily in
+indigenous precision rockets and land-attack cruise missiles. Early in the war (first combat use
+in May 2022), Ukraine deployed its domestic 300 mm Vilkha-M guided rocket—modified from
+Soviet Smerch hardware starting in 2018—which reaches approximately 109 km (68 miles) with
+36% greater range and more than twice the warhead mass of GMLRS, though an industry
+official told The War Zone in March 2023 that initial production stood at roughly 100 units.
+By 2025–2026, Ukraine's long-range strike architecture centered on land-attack variants of the
+R-360 Neptune cruise missile operated by the Missile Forces of the Ukrainian Navy. Evolved
+from the original 280–300 km, 150 kg-warhead anti-ship missile, the R-360L "Long Neptune"
+entered combat service in 2025 with an advertised range up to 1,000 km, a 260 kg warhead,
+terrain-following flight, and GNSS-independent navigation, complemented by an
+intermediate-range variant informally designated R-360M ("Fat Neptune"). Between August 12
+and November 13, 2026, Ukrainian General Staff releases and open-source tracking (compiled
+by Defense Express) recorded nine successful Neptune strikes—more than double the
+preceding four months—including five within a single 30-day window (October 15–November
+13, 2026) hitting Russian Su-34 airbases, solid-propellant and military-electronics factories, and
+Rostov-on-Don FPV drone facilities (Ionos LLC and Aero-Hit). Official Ukrainian MoD reporting
+on November 3, 2026 confirmed that Ukrainian Navy Neptune missiles destroyed two Su-34
+bombers at Marinovka airfield on October 29, while a combined Long Neptune and drone strike
+crippled Russian Black Sea Fleet vessels at Novorossiysk on September 9, 2026. Separately,
+open-source and media reports indicated that a mixed salvo of Neptune, FP-5 Flamingo, and
+Destinus Ruta missiles collapsed a road span exceeding 270 m on the Crimean (Kerch) Bridge
+on November 16–17, 2026, followed by a further Neptune strike against the rail section on
+November 19. To sustain future missile development, Ukraine's Luch Design Bureau signed a
+memorandum of understanding with European missile manufacturer MBDA in June 2026 to
+co-develop an enlarged Neptune-2 cruise missile (reported at 6 m length and 50 cm diameter).
+Cross-checking strike metadata across sources reveals minor methodological variations in
+range and date reporting: Ukraine's Ministry of Defence reported Marinovka airfield at ~300 km
+and Kamensky Combine at ~200 km (referencing border offsets) and listed an October strike on
+Proton-Electrotex in Oryol (~170 km), whereas Defense Express and OSINT tracking reported
+Marinovka at ~430 km and Kamensk-Shakhtinsky at ~190 km from the active front line, and
+logged a November 7 Neptune strike on Proton-Electrotex. These variations reflect differences
+between straight-line border measurements, front-line launch offsets, and follow-on strikes
+rather than conflicting target identities.
+Loitering Munitions and Armed Drones
+
+Entry A3.1: Battalion FPV Strike Companies and Heavy Bomber Multicopters —
+High Attrition, High Aggregate Share
+
+By 2025–2026, tactical armed UAVs had been institutionalized inside Ukrainian infantry
+battalions as an organic fire-support tier complementing mortars and anti-tank guided weapons.
+According to RUSI's November 2026 study, a representative Ukrainian battalion strike company
+numbers roughly 90 personnel—including approximately 36 FPV pilots backed by 54 infantry,
+communications, and munitions specialists. Individual FPV teams consist of four to five soldiers
+infiltrating by vehicle with 30–50 FPV drones, batteries, fuzes, munitions, control antennas, and
+charging generators for two- to three-day rotations; with 12 teams active concurrently across a
+battalion and half firing intensively while the other half rotates, expenditure reaches hundreds of
+FPVs per week. Alongside one-way FPVs, Ukrainian forces field heavy reusable bomber
+drones adapted from agricultural octocopters (such as the ~$20,000 R18 and the Vampire),
+operating primarily at night because of their low speed and hovering release profile to drop
+heavier payloads—including explosively formed projectiles, delayed-impact penetrators,
+incendiaries, and anti-tank mines.
+RUSI field assessments caution against mistaking high aggregate kill shares for high
+single-sortie lethality. Between 60% and 80% of Ukrainian FPVs fail to reach their target,
+degraded by Russian EW, terrain-induced radio loss beyond 5 km, adverse weather, operator
+variance, and radio-frequency interference when multiple drones concentrate simultaneously in
+space and time. Among FPVs that do hit, a majority fail to destroy the target—modified armored
+vehicles can survive 10 to 15 FPV hits while sustaining repairable damage. Even with these
+limitations, massed employment meant tactical UAVs accounted for 60–70% of damaged and
+destroyed Russian military systems by early 2025.
+
+Entry A3.2: Middle-Strike One-Way Effectors ("Powered Bombs") and Mass
+Procurement Architecture
+
+Distinct from manually piloted FPVs, Ukraine employs autonomous or semi-autonomous
+one-way attack drones—designated "powered bombs" by RUSI—that navigate via terrain
+elevation tracking, visual odometry, inertial/GNSS guidance, or radio-emission homing to
+prosecute point targets in the Middle and Deep Battle Areas. Ukrainian units assess powered
+bombs as having a low individual hit rate, high vulnerability to air-defense interception, and
+limited destructive payload. Their operational utility depends on strict cost-exchange economics:
+when unit cost remains below a low threshold and magazine depth stays high, firing powered
+bombs in volume imposes persistent risk across Russian rear areas, forces air-defense radars
+to emit, and depletes enemy interceptors—creating penetration corridors for heavier cruise
+missiles.
+Sustaining this scale has required procurement throughput far beyond peacetime NATO norms.
+A November 2025 RUSI supply-chain study notes that combined micro-UAS procurement
+across NATO members reached only the tens of thousands through 2025, whereas Ukraine's
+modular drone ecosystem—heavily reliant on commercial off-the-shelf (COTS) and
+Chinese-origin components alongside 90-day user-developer iteration cycles—operates at
+vastly larger volume. By late 2026, Ukraine's Defence Procurement Agency (DOT) was issuing
+tenders for long-range attack UAVs under MoD specifications, and a news feed item in
+Ukrainian defense-tech outlet Defender Media cited Defence Minister Yevhenii Khmara stating
+that Kyiv had allocated €30 billion to purchase 9 million drones in 2026—a single-outlet
+trade-media figure that warrants verification against audited budget releases.
+
+Ammunition and Effects
+
+Entry A4.1: Multi-Nature 155 mm Effects, Precision Munitions (Excalibur), and the
+EW Countermeasure Cycle
+
+A decisive tactical advantage of Western 155 mm howitzers over UAVs is multi-nature versatility
+from a single gun tube: standard high-explosive (HE) shells demolish fortified positions, cluster
+rounds suppress dispersed infantry, sensor-fuzed anti-armor rounds (such as BONUS and
+SMArt 155) engage moving vehicles, and GPS- or laser-guided shells eliminate point targets.
+Early U.S. and Canadian deliveries of M982 Excalibur GPS-guided projectiles reduced shell
+expenditure and logistics exposure during the 2022 Donbas and Kherson campaigns.
+Yet RUSI's earliest operational assessment warned that modern artillery forces must "fight for
+the right to precision" because scarce guided rounds are acutely vulnerable to EW. By May
+2024, defense reporting documented that widespread Russian GPS jamming had severely
+degraded M982 Excalibur effectiveness, invalidating its peacetime "one shot, one target"
+reputation. Effective precision employment therefore depends on deliberate combined-arms
+sequencing—using conventional fires, drones, or EW attack to suppress enemy jammers and
+open temporary electromagnetic windows before firing GPS-dependent projectiles.
+
+Entry A4.2: Cluster Munitions (DPICM) and the Shift Toward Domestic and
+European Shell Output
+
+Having largely exhausted prewar Soviet-caliber artillery stocks by mid-May 2022, Ukraine
+became heavily dependent on allied ammunition supplies, with the Kiel Institute estimating that
+82% of Ukraine's howitzer ammunition as of March 2025 was U.S.-produced. To offset 155
+mm HE shortages and neutralize entrenched Russian infantry during the 2023 counteroffensive,
+Ukraine requested and fielded U.S. 155 mm Dual-Purpose Improved Conventional
+Munitions (DPICM) (such as M483A1 rounds carrying M77 anti-personnel/anti-armor
+submunitions), augmenting Soviet-legacy 220 mm Uragan, 300 mm Smerch, and 203 mm
+cluster munitions stockpiled by both sides, as well as Israeli-origin M971 120 mm cluster mortar
+rounds photographed in Ukrainian hands.
+Simultaneously, Ukraine and European allies accelerated domestic 155 mm industrialization.
+According to a 2026 KPMG defense-industry report, Ukraine launched domestic 152 mm shell
+production in 2022 and NATO-standard 155 mm production in 2024, supplying roughly half of its
+frontline ammunition across calibers domestically by late 2024—reinforced by an October 2024
+technology-transfer partnership between Czech defense firm Czechoslovak Group (CSG) and
+Ukraine's Ukrainska Bronetechnika for local 155 mm shell manufacturing. Across Europe, the
+IISS assessed in September 2026 that European 155 mm production capacity had expanded
+roughly fivefold since 2022 and could more than double again by 2030. Major industrial
+anchors include Rheinmetall's target of up to 1.5 million 155 mm shells annually by 2027
+(driving the European Commission's 2-million-round annual capacity goal), Poland's $662
+million domestic 155 mm manufacturing investment (with a secondary defense report citing
+Mesko S.A.'s target of 150,000 rounds annually by 2027), and a March 2026 European Defence
+Agency initiative reported by commercial market analyst Mordor Intelligence to harmonize 155
+mm qualification testing across EU member states.
+
+Target Acquisition
+
+Entry A5.1: Persistent Multicopter Reconnaissance Orbits and EW-Cued
+Collection
+
+Target acquisition for Ukrainian indirect fire is sustained by organic aerial observation pushed
+down to platoon level. RUSI's November 2026 battalion study records that Ukrainian
+reconnaissance teams maintain a standard density of two multicopter ISR relay orbits per
+platoon frontage. Across a standard three-company, nine-platoon infantry battalion,
+maintaining continuous coverage requires 30 simultaneous orbits (18 covering rifle platoons, 6
+managed by company headquarters, and 6 by battalion headquarters), crewed by 36
+reconnaissance-UAV operators organic to rifle companies and 24 pilots within a dedicated
+battalion reconnaissance platoon. Because commercial-derived multicopters average only
+30–35 minutes on station excluding transit time, preserving uninterrupted targeting requires
+continuous relay cycling.
+Extreme attrition governs this sensor tier: RUSI documented that 90% of employed tactical
+UAS are lost, dictating that reconnaissance aircraft remain inexpensive, attritable, and
+unit-organic. To sustain orbits under heavy Russian jamming and counter-UAS defenses,
+Ukrainian units integrate electronic surveillance and direction-finding (DF) into mission
+planning—tracking hostile EW deployments before launching drones and using enemy radio
+emissions to cue reconnaissance orbits onto artillery and command targets.
+
+Entry A5.2: Counter-Battery Radars and Passive Acoustic Artillery Detection
+
+Active counter-battery radars remain vital to defeating Russian indirect fire, especially during
+poor weather or intense EW when optical UAVs cannot fly. Ukraine operates U.S.-supplied
+systems such as the AN/TPQ-36 Firefinder—which electronically scans a 90° horizon sector to
+automatically fix hostile artillery and mortar positions—backed by continued U.S. Ukraine
+Security Assistance Initiative (USAI) deliveries of counter-artillery and multi-mission radars.
+However, active radar emissions expose launchers to rapid Russian counter-fire and loitering
+munitions, as evidenced by documented Russian drone strikes destroying Ukrainian
+AN/TPQ-36 units.
+To reduce electromagnetic exposure, Ukrainian forces increasingly combine active radars with
+passive acoustic and electronic direction-finding arrays that detect firing signatures and
+enemy UAVs without radiating. Ukraine's domestic defense-tech ecosystem is expanding this
+capability; for example, Defender Media reported on November 19, 2026 that Ukrainian firm
+Vidar Systems secured $1 million for acoustic artillery detection and is raising further capital to
+expand into passive FPV drone detection. (Collection gap: Operational performance metrics and
+combat loss logs for European COBRA and ARTHUR counter-battery radars in Ukrainian
+service were absent from retrieved open sources and remain a standing collection requirement.)
+
+Technical Fire Direction and Gunnery
+
+Entry A6.1: Remote Automated Fire Control (KRIP-A) and Digital Gun-Level
+Laying
+
+Persistent Russian overhead surveillance has driven Ukrainian gunnery toward maximizing crew
+standoff and minimizing firing-position dwell times. Donated Western systems introduced
+onboard digital ballistics and automated gun-laying—exemplified by Poland's Topaz fire-control
+system fielded with AHS Krab battalions and the M777A2 Digital Fire Control System
+incorporating the Enhanced Portable Inductive Artillery Fuze Setter (EPIAFS) for programming
+Excalibur rounds. Complementing foreign hardware, Ukrainian defense firm Antabos unveiled
+the indigenous KRIP-A automated artillery fire-control system in April 2026 (reported by
+Ukrainska Pravda), designed specifically to enable remote artillery fire control so gun crews can
+lay and fire weapons without remaining exposed at the piece.
+(Collection gap: Authoritative technical documentation detailing how Ukrainian Fire Direction
+Centers calibrate ballistic tables across heterogeneous 155 mm donor shell and propellant lots
+was not present in retrieved open sources—beyond anecdotal forum commentary regarding the
+AHS Krab's tolerance for varied ammunition types and industry reporting on the March 2026
+EDA 155 mm harmonization effort. Field ballistic-calibration procedures should be verified
+against primary Ukrainian or NATO technical manuals before recording quantitative error
+margins.)
+
+Entry A6.2: Dispersed Gunnery, Remote Massing of Effects, and Tactical Fire
+Deception
+
+Battlefield transparency has rendered classical massed battery positions untenable:
+concentrating multiple guns at a single site invites rapid counter-battery destruction. RUSI field
+studies demonstrate that Ukrainian technical fire direction preserves survivability through three
+core methods—dispersing individual guns widely enough to become uneconomical targets,
+displacing rapidly to break Russian kill chains, or operating from deeply dug hardened
+hides—while concentrating fire effects remotely across unit boundaries via digital C2.
+During offensive operations, however, RUSI warns that overly decentralized target prosecution
+undermines operational breakthroughs. A July 2023 RUSI analysis stressed that Ukrainian fire
+planners must enforce strict target prioritization to mass sheer weight of fire on decisive breach
+axes rather than spending scarce shells on low-priority targets of opportunity, while
+incorporating artillery deception—laying deliberate fire plans on secondary sectors to fix and
+divert Russian reserves away from the main effort.
+
+Sustainment
+
+Entry A7.1: High Maintenance Tempo, Barrel Wear, and Allied Repair Pipelines
+
+Sustained high-tempo firing inflicts severe mechanical wear on Ukraine's mixed artillery
+inventory. RUSI reported in July 2023 that more than one-third of Ukraine's artillery systems
+are out of action at any given time for maintenance and repair. Gun tubes function as a
+high-consumption expendable: one Ukrainian M777 crew reported firing 6,000 rounds through a
+single howitzer over combat service, requiring four barrel replacements. Sustaining readiness
+therefore relies on continuous partner deliveries of spare tubes (such as Canada's provision of
+10 replacement 155 mm barrels), propellant charges (such as UK packages supplying explosive
+charges for more than 90,000 155 mm rounds), recovery vehicles, and dedicated spare-parts
+tranches (including £26 million UK spare-parts funding and recurring USAI sustainment
+packages). Poland anchors forward heavy-equipment sustainment through regional armored
+repair hubs—including facilities established for Leopard tanks and a Poznań hub for Abrams
+tanks—alongside expanded domestic 155 mm ammunition capacity. (Collection gap: Primary
+documentation detailing Lithuanian depot-level repair hubs for Panzerhaubitze 2000 howitzers
+was not present in retrieved open sources and remains an open gap.)
+
+Entry A7.2: Last-Mile Uncrewed Logistics (UGVs/Multicopters) and Post-2026
+Sustainment Financing
+
+At the tactical edge, Russian drone and artillery interdiction of ground lines of communication
+behind the Contact Battle Area frequently precludes conventional truck resupply. Ukrainian
+brigades have adapted by shifting last-mile ammunition and supply delivery onto unmanned
+ground vehicles (UGVs) and heavy agricultural multicopters (such as the Vampire), which
+carry heavier munitions, FPV batteries, food, water, and medical supplies forward and withdraw
+casualties. Illustrating this operational scale, RUSI's November 2026 study recorded a single
+sample Ukrainian brigade executing 824 UGV resupply missions in one month (with
+individual loads noted as between 100 and 150; exact weight unit truncated in the excerpt).
+Because uncrewed logistics platforms suffer high attrition, Ukrainian forces prioritize simplicity,
+low cost, and mechanical reliability.
+At the strategic level, CSIS projects that U.S. military aid deliveries will begin to dwindle in
+early 2027 and sharply diminish in 2028, shifting primary sustainment responsibility to
+Europe. While CSIS estimates replacing 2024-level U.S. aid is fiscally manageable for the EU
+(an additional 0.12% of EU GDP, or roughly $24 billion nominally), industrial bottlenecks in
+rocket artillery and large-caliber shells remain far tighter than fiscal limits. To underwrite
+multi-year sustainment, the Council of the EU mobilized sequential financial instruments: two €1
+billion European Peace Facility (EPF) ammunition tracks (April 13 and May 5, 2023), the €500
+million Act in Support of Ammunition Production (ASAP, July 20, 2023), €3.5 billion in revenues
+from immobilized Russian assets channeled via the EPF, a €300 million Ukraine Support
+Instrument to expand Ukrainian defense manufacturing, a €90 billion Ukraine Support Loan
+finalized on April 23, 2026, and an additional €4.9 billion EPF package on October 26, 2026
+(€4.7 billion for member-state aid reimbursement and €230 million for EUMAM Ukraine).
+Task B: Training of Gunners, Observers, and Fire
+Planners
+
+Entry B1: Multinational External Artillery Pipelines (EUMAM Ukraine,
+German Artillery School, U.S. 7th ATC, and Exercise Koalicja 2026)
+
+Because domestic Ukrainian ranges face persistent Russian missile strikes and lack organic
+fleets of Western self-propelled and rocket artillery, partner nations have served as Ukraine's
+"strategic depth" for specialized artillery qualification since spring 2022. The primary institutional
+vehicle is the European Union Military Assistance Mission in support of Ukraine (EUMAM
+Ukraine), launched by the Council of the EU in November 2022 with an initial 24-month
+mandate, €106.7 million in common costs, 24 contributing member states, and core training
+hubs in Germany and Poland. After training more than 100,000 Ukrainian soldiers since 2022
+(as summarized from the Council's renewal decision by Danish policy tracker Lovguiden), the
+Council of the EU extended EUMAM Ukraine on November 9, 2026 for two further years
+through November 15, 2028, allocating nearly €300 million (alongside €230 million in EPF
+funding mobilized on October 26, 2026) and establishing a permanent coordination presence
+inside Ukraine.
+Within EUMAM, specialized heavy-fires training is directed by Germany's multinational Special
+Training Command (ST-C) based in Strausberg near Berlin. According to an official February
+8, 2023 EEAS report, the German Artillery School in southwestern Germany—the only
+institution equipped to qualify Ukrainian crews on the technically complex Panzerhaubitze 2000
+self-propelled howitzer, alongside UK- and German-donated MARS II and MLRS rocket
+launchers—has trained Ukrainian artillerymen continuously since May 2022. Curricula are
+compressed into 10 to 12 training hours per day, focusing on turret operation, automatic
+loading systems, primer magazines, and emergency manual reversion drills when autoloaders
+malfunction under simulated combat. Upon graduation, crews travel by bus and return directly to
+the front line within three days; instructors also incorporate psychological support for
+combat-rotated trainees and adapt cross-cultural fire-command communication styles.
+Parallel bilateral and coalition pipelines reinforce EUMAM. U.S. forces initiated
+platoon-by-platoon HIMARS crew training in summer 2022 (with exact trainee totals withheld for
+operational security), and the U.S. Army's 7th Army Training Command conducted
+combined-arms training for Ukrainian units at Grafenwöhr, Germany (documented February 17,
+2023). Broader foundational infantry and specialist pipelines—including the UK-led Operation
+Interflex with 12 partner nations (where Australian instructors served from January 2023 to
+mid-2026 before shifting to Operation Legio in Poland in mid-2026) and Czech EUMAM
+modules (3,240 personnel trained in 2023; ~4,000 targeted in 2024)—generate maneuver
+cadres integrated with fires. Looking toward postwar force regeneration, the French- and UK-led
+Multinational Force-Ukraine (MNF-U) under the 37-nation Coalition of the Willing conducted
+its first two-week deployment exercise, "Koalicja", beginning November 9, 2026 at Nowa Dęba
+in southeastern Poland, deploying approximately 2,800 personnel from 10+ European nations
+(including 1,100 French troops, with Polish logistical backing and remote Turkish participation)
+to rehearse postwar deployment and Ukrainian military rebuilding.
+
+Entry B2: Domestic Ukrainian Artillery Schools, Compressed
+UAV-Observer Courses, and Cadre Trade-Offs
+
+Domestically, officer commissioning and artillery branch education are centered at the Hetman
+Petro Sahaidachnyi National Army Academy in Lviv—which conducts officer retraining and
+advanced officer courses utilizing the International Center for Peacekeeping and
+Security—complemented by the Odesa Military Academy and the 6th Training Artillery
+Regiment in Kyiv Oblast.
+At the tactical observer tier, UAV-cued gunnery has significantly compressed initial qualification
+times relative to traditional forward-observer schooling. RUSI's November 2026 study
+documents that reconnaissance-UAV operator training takes approximately two weeks,
+enabling infantry battalions to replenish attrition across their 60-operator reconnaissance
+establishments. By contrast, FPV strike pilots require substantially greater training investment,
+with British Army specialists cited by RUSI noting elevated accident and equipment-failure rates
+when instruction is compressed. At the formation-planning level, RUSI's review of Ukraine's
+2022–2023 offensive operations highlights a recurring force-generation bottleneck: committing
+veteran cadres to hold defensive sectors forced newly raised offensive brigades to rely
+predominantly on fresh recruits, leaving an insufficient nucleus of experienced tactical leaders
+and fire-support planners during complex combined-arms operations. (Collection gap: Wartime
+course lengths and syllabi for Ukrainian battalion and brigade Fire Direction Center officers and
+fire-support planners inside Ukraine were not publicly detailed in retrieved open sources.)
+Task C: Evidentiary Audit of Named Existing Entries
+
+Cross-checking the two named existing reference entries against official publications (GAO,
+Ukrainian MoD) and established defense and human-rights monitors (RUSI, CSIS, HRW, SIPRI)
+confirms most foundational 2022–2023 claims while identifying essential 2025–2026 updates
+and one primary-source gap.
+Existing Entry & Theme Audit Verdict Verified Evidence & Key Sources
+ Required Correction /
+ Nuance
+"What the Artillery Confirmed Artillery accounted for RUSI (Nov 2022);
+War Teaches" — ~90% of casualties in Open Source Centre
+Artillery Casualty 2014–2022 fighting; a (2024)
+Dominance & Defense 2023 surgical support
+of Kyiv group observed 70% of
+ Ukrainian combat
+ casualties caused by
+ Russian artillery.
+ Correcting early
+ ATGM-centric
+ narratives, Ukraine
+ blunted Russia's drive
+ on Kyiv using massed
+ fires from two artillery
+ brigades.
+"What the Artillery Confirmed & Russia began Feb RUSI (Nov 2022); U.S.
+War Teaches" — Strengthened (2026) 2022 with a ~2:1 GAO (Nov 2026)
+Force Ratios, advantage (2,433 vs.
+Stockpile Exhaustion 1,176 barrel systems;
+& Industrial Depth 3,547 vs. 1,680 MLRS).
+ Ukraine maintained
+ parity for ~6 weeks
+ before exhausting
+ stocks by mid-May
+ 2022, yielding a 10:1
+ Russian volume-of-fire
+ edge by June 2022.
+ GAO Report
+ GAO-27-109420 (Nov
+ 19, 2026) reinforces
+ that even U.S. DOD
+ faces persistent
+Existing Entry & Theme Audit Verdict Verified Evidence & Key Sources
+ Required Correction /
+ Nuance
+ munitions
+ shortfalls—heightened
+ by the 2026 Iran
+ conflict—and that the
+ U.S. Army's 155 mm
+ ramp-up was reactive
+ rather than linked to an
+ overarching
+ total-requirements plan.
+"What the Artillery Confirmed Russian strikes hit 75% RUSI (Nov 2022, Oct
+War Teaches" — No of static Ukrainian 2025)
+Sanctuary & defense sites in the first
+Mandatory Dispersion 48 hours; Ukrainian
+ artillery, arsenals, and
+ C2 survived only via
+ rapid dispersion and
+ remote massing of
+ effects.
+"What the Artillery Corrected / Updated Avoid binary claims that RUSI (Feb 2025, Oct
+War Teaches" — (2025–2026) drones have replaced 2025); The Defense
+Drones vs. Howitzers tube artillery or that Post (May 2024)
+& Precision EW Western precision
+Vulnerability rounds operate
+ unimpeded. Tactical
+ UAVs caused 60–70%
+ of damaged/destroyed
+ Russian systems by
+ early 2025, yet 60–80%
+ of FPVs fail to reach
+ targets. Howitzers and
+ mortars remain
+ foundational for low
+ latency, heavy
+ explosive destruction,
+ multi-nature rounds,
+ and immunity to
+ weather and EW.
+ Russian jamming of
+ GMLRS and Excalibur
+ confirms forces must
+ sequence massed fires
+ and EW suppression to
+ create windows for
+ precision.
+Existing Entry & Theme Audit Verdict Verified Evidence & Key Sources
+ Required Correction /
+ Nuance
+"Precision, Mines and Confirmed Russia has repeatedly HRW (May 2023, Aug
+Civilian Harm" — used cluster munitions 2023)
+Bilateral Cluster since Feb 24, 2022,
+Munition Use & Treaty causing hundreds of
+Status civilian casualties (e.g.,
+ Kharkiv remnants Dec
+ 2022; July 8, 2023
+ Lyman strike using
+ 9N235 submunitions
+ killing 9 civilians).
+ Ukraine has not denied
+ credible evidence of its
+ own cluster use (Soviet
+ Uragan, Smerch, 203
+ mm 3-O-14; plus
+ Israeli-produced M971
+ 120 mm mortar rounds
+ photographed in
+ Ukrainian possession).
+ Neither state is party to
+ the 2008 Convention
+ on Cluster Munitions
+ (111 states parties).
+"Precision, Mines and Confirmed U.S. DPICM CSIS (May 2022); TWZ
+Civilian Harm" — submunitions carry an (Jul 2023); HRW (May
+DPICM Dud Rates & estimated ~2% dud 2023, Apr 2024)
+Landmine Legacy rate—failing to meet
+ the 2008 U.S. policy
+ ceiling of <1%
+ (confirmed by a 2016
+ U.S. Army briefing slide
+ cited by The War
+ Zone)—leaving
+ unexploded bomblets
+ that act as
+ anti-personnel
+ landmines for decades.
+"Precision, Mines and Updated (2025–2026) Precision guidance HRW (Jun 2025); AP
+Civilian Harm" — does not prevent (Nov 2026); Kyiv
+Precision Delivery & civilian harm when Independent / UNICEF
+Deliberate Civilian weapons are aimed (Nov 2026)
+Harm (2025–2026) deliberately or
+ indiscriminately at
+ populated areas:
+Existing Entry & Theme Audit Verdict Verified Evidence & Key Sources
+ Required Correction /
+ Nuance
+ HRW's June 3, 2025
+ report (Hunted From
+ Above) documented
+ Russian quadcopters
+ hunting civilians in
+ Kherson; AP reported
+ Russian "double-tap"
+ missile/rocket strikes
+ on Kryvyi Rih in Nov
+ 2026 hitting arriving
+ rescuers (2 killed, 60
+ wounded); and a Nov
+ 2026 UNICEF report
+ cited by The Kyiv
+ Independent recorded
+ at least 1,144 children
+ killed or injured in
+ Ukraine from Jan–Oct
+ 2026.
+"Precision, Mines and Flagged While RUSI confirms SIPRI (2024); RUSI
+Civilian Harm" — Primary-Source Gap dynamic landmine (Oct 2025)
+Izium PFM-1 Mines & laying on attack axes
+Ottawa Treaty and SIPRI Yearbook
+Verification 2024 cites Landmine
+ Monitor 2023, full
+ primary HRW or UN
+ OHCHR reports
+ verifying Ukrainian
+ PFM-1 scatterable
+ mine use in Izium
+ (2022) were not
+ retrieved in available
+ excerpts. Editors
+ should check primary
+ HRW/OHCHR Izium
+ documentation directly
+ before modifying
+ Izium-specific claims.
+Task D: Authoritative Platform Specifications (AHS
+Krab, M777, and M120 Rak)
+
+Comparing Poland's tracked AHS Krab 155 mm self-propelled howitzer, the UK/U.S. towed
+M777A2 155 mm lightweight howitzer, and Poland's wheeled M120 Rak 120 mm turreted
+self-propelled mortar highlights the governing engineering trade-off of Ukrainian artillery warfare:
+strategic air-transportability and low mass versus tactical shoot-and-scoot survivability under
+ubiquitous reconnaissance drones. Because official manufacturer and government PDF
+datasheets (the U.S. Army Weapon Systems Handbook and the Polish Defence and Security
+Equipment Catalogue 2025) yielded no extractable specification text in automated retrieval, the
+values below are synthesized from established defense equipment references (Army
+Recognition, Defense Express, and Wikipedia entries citing Janes and Huta Stalowa Wola), with
+every cross-source discrepancy explicitly documented.
+http://googleusercontent.com/visual_element_2
+
+Comparative Technical Specifications Matrix
+
+Parameter AHS Krab (Poland) M777 / M777A2 (UK / M120 Rak / M120K
+ US) (Poland)
+Type Tracked self-propelled Ultralightweight towed Wheeled automated
+ gun-howitzer (British howitzer (titanium turreted self-propelled
+ AS-90M turret on South cradle, split-trail gun-mortar (SMK 120 /
+ Korean K9 chassis) carriage) M120K on Rosomak
+ 8×8; tracked M120G
+ prototype)
+Calibre & Barrel 155 mm / L52 (8.06 m 155 mm / L39 (M109A6 120 mm single barrel,
+ barrel); sliding-block ordnance; discrepancy: autoloaded; 46 rds
+ breech; 40 rds carried Wikipedia infobox carried (exact barrel
+ (29 turret, 11 hull) erroneously lists L/33 / length unpublished in
+ 5.08 m) retrieved sources)
+Combat Weight 48 t (Wikipedia citing 4,200 kg (baseline 24,500 kg (24–24.5 t)
+ Janes) to ~52 t M777) to 4,400–4,535
+ (Defense Express / kg (M777A2 with digital
+ Defense Arabia) — FCS)
+ discrepancy flagged
+Crew 5 (commander, gunner, 7+1 normal (8); 5 4
+ 2 loaders, standard minimum; 3
+ driver/mechanic) emergency minimum
+Range by Round Type Base bleed: 30 km M107 HE: 21 km; M795 Legacy OF843B
+ (Wikipedia) to 40 km unassisted HE: (training, 16.02 kg): 6.9
+ (The Page / Defense 23.5–24 km; RAP / km; Conventional /
+ Arabia); Excalibur: 40 Base-Bleed (ERFB / Modern HE: 8.5–10 km;
+ km nominal, >50 km M795E1): 30 km; Extended /
+ achieved in Ukraine; M982/M982A1 active-reactive: 12 km
+ RAP: up to 50 km Excalibur: 40 km (APR 120 laser-guided
+ (Defense Arabia) planned)
+Rate of Fire Burst: 3 rds / 10 s; Maximum: 4 rds/min Up to 12 rds/min
+ Rapid/Intense: 6 (Army Recognition; (secondary video
+ rds/min for 3 min (18 Wikipedia cites up to 8 summary; not specified
+ rds / 3 min); Sustained: rpm for ≤2 min); in Wikipedia summary)
+ 2 rds/min (Defense Sustained: 2 rds/min
+ Arabia outlier of 6–8
+Parameter AHS Krab (Poland) M777 / M777A2 (UK / M120 Rak / M120K
+ US) (Poland)
+ rpm sustained flagged)
+Mobility Tracked; STX/MTU Towed by ≥2 t truck Rosomak 8×8 wheeled
+ MT881Ka-500 diesel, (U.S. 7 t MTVR); airlift chassis; Scania D1 12
+ 750 kW (1,000 hp); 60 via C-130 (2 per load), 56A03PE diesel; 80
+ km/h road, 30 km/h C-141, C-5, C-160 km/h max road speed;
+ off-road; 400 km range Transall; sling-load via 500 km range
+ CH-53D/E, MV-22
+ Osprey, UH-60L/M
+Time Into / Out of Into action: ~30 s from Into action: 2 min 10 s Into action: ≤30 s; Out
+Action halt; Out of action: (<3 min); Out of of action: ≤15 s after
+ Unavailable in retrieved action: 2 min 23 s (<3 last shot
+ sources min)
+Ukrainian Service & 54 donated by Poland 108 USMC M777A2s + ≥24 vehicles (3
+Losses (3 battalions) + 60 4+ Canadian M777s companies) pledged by
+ ordered (~$700M); donated; ≥52 destroyed Poland Mar 2023;
+ Oryx confirmed 38 or damaged reported fielded by 44th
+ destroyed, 7 damaged by late May 2023 Mechanized Brigade
+ from Dec 2023; ≥2
+ destroyed by Nov 7,
+ 2025
+Analytical Synthesis of Platform Trade-Offs
+
+Combat employment in Ukraine demonstrates why responsiveness outranks raw strategic
+lightness on a drone-transparent battlefield. Although the titanium-alloy M777A2 slashed
+emplacement and displacement times relative to the legacy M198 (cutting emplacement from 6
+min 35 s to 2 min 10 s and displacement from 10 min 40 s to 2 min 23 s), an unarmored towed
+detachment needing over two minutes to pack up and hitch to a prime mover remains highly
+exposed to Russian counter-battery fire and Lancet/FPV loitering munitions—reflected in at
+least 52 M777s reported destroyed or damaged by late May 2023. Conversely, the M120 Rak
+delivers organic 120 mm fire support from an armored Rosomak 8×8 turret, halting to fire within
+30 seconds and vacating its firing position within 15 seconds of the final round—clearing the
+site before enemy counter-battery rounds complete flight. The AHS Krab similarly combines
+30-second readiness with an L52 barrel capable of exceeding 50 km using Excalibur precision
+rounds, though confirmed Oryx losses of 38 destroyed and 7 damaged vehicles underscore that
+armored self-propelled platforms still depend on dispersion, concealment, and counter-UAS
+cover to survive.
+Final Step: Source Verification Log and Audit of
+Existing Entries
+
+Audit Status of the 13 Existing Ukraine Entries
+
+Of the 13 previously recorded Ukraine entries referenced in the tasking, two—"What the
+Artillery War Teaches" and "Precision, Mines and Civilian Harm"—were explicitly named
+and are audited in Task C above. Because the titles and texts of the remaining 11 existing
+entries were not provided with this tasking, line-by-line factual verification of those 11 entries
+cannot be completed without their manuscripts. Editors reviewing those 11 entries should check
+two cross-cutting 2025–2026 corrections across the reference: (1) amend any entry depicting
+HIMARS/GMLRS or M982 Excalibur as reliably immune to Russian electronic warfare to reflect
+2023–2024 GPS jamming degradation; and (2) update any entry describing EUMAM Ukraine as
+a temporary 24-month out-of-country mission to reflect the Council of the EU's November 9,
+2026 extension through November 15, 2028 with a new permanent presence inside Ukraine.
+
+Verified Source Registry
+
+Every open source cited in this supplement is logged below with its verified URL, exact page or
+document title (where printed verbatim in the source), publisher, publication date/year, and
+authority tier:
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+[13] / [39] / AP dispatch on Associated Nov 2026 Established https://apnews.
+[122] Exercise Press (AP) Wire News com/article/pola
+ Koalicja at nd-ukraine-milit
+ Nowa Dęba ary-exercise-pe
+ (exact headline ace-france-brita
+ not printed in in-a28d60d1b3
+ excerpt) 7093199dd017
+ 472028d7ac
+[29] First use of the Hague Code of Mar 2026 Research / https://www.no
+ Precision Strike Conduct Policy Center nproliferation.e
+ Missile (PrSM) (HCoC) u/hcoc/first-use
+ – 2026 Iran war -of-the-precisio
+ n-strike-missile-
+ prsm-2026-iran
+ -war/
+[64] / [103] DOD U.S. Nov 19, 2026 Primary Official https://www.ga
+ Munitions: Government Audit o.gov/products/
+ Planning and Accountability gao-27-109420
+ Leadership Office (GAO)
+ Needed to
+ Address
+ Persistent
+ Shortages
+ (GAO-27-1094
+ 20)
+[121] AP dispatch on Associated Nov 2026 Established https://apnews.
+ Russian Press (AP) Wire News com/article/russ
+ missile/rocket ia-ukraine-war-
+ strike in Kryvyi missile-zelensk
+ Rih (exact yy-trump-bfdee
+ headline not 2ffadc2693e73
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+ printed in 38d6822e5356
+ excerpt) ef
+[124] Ukraine's Delta Janes Undated in Established https://www.jan
+ system to excerpt Defense es.com/defenc
+ become only Intelligence e-intelligence-in
+ source for data sights/defence-
+ transfers news/c4isr/ukra
+ across AFU ines-delta-syste
+ (slug title; date m-to-become-o
+ not printed in nly-source-for-d
+ excerpt) ata-transfers-ac
+ ross-afu
+[127] From Soviet MigFlug / Nov 2026 Secondary https://migflug.c
+ Factories to Afterburner Aviation/Defens om/afterburner/
+ Drone e Media it/ukraine-defen
+ Superpower: ce-industry-sovi
+ How Ukraine et-legacy-drone
+ Rebuilt Its -superpower-20
+ Arms Industry 26/
+[128] / [148] Five Successful Defense Nov 16, 2026 Ukrainian https://en.defen
+ Neptune Cruise Express Defense Trade ce-ua.com/wea
+ Missile Strikes Media pon_and_tech/f
+ in 30 Days: ive_successful
+ How Many _neptune_cruis
+ Su-34s and e_missile_strik
+ Defense es_in_30_days
+ Industry _how_many_su
+ Facilities Were _34s_and_defe
+ Hit? nse_industry_f
+ acilities_were_
+ hit-20442.html
+[129] R-360 Neptune Wikipedia Updated Nov Open https://en.wikip
+ 2026 Reference edia.org/wiki/R-
+ (Cross-checked 360_Neptune
+ )
+[130] MBDA to Help Envanter Jul 12, 2026 Secondary https://envanter
+ Ukraine Medya Defense Media medya.com/en/
+ Develop New mbda-ukraine-n
+ Neptune-2 eptune-2-cruise
+ Cruise Missile -missile/
+[131] / [147] Ukrainian Defender Jun 17, 2026 Ukrainian https://thedefen
+ design bureau Media (feed Nov Defense Tech der.media/en/2
+ Luch to 2026) Media 026/06/mbda-lu
+ develop the ch-neptun2/
+ Neptune-2
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+ missile jointly
+ with European
+ defence giant
+ MBDA
+[132] Long Neptune Naval News Sep 11, 2026 Established https://www.nav
+ Strike: Defense Trade alnews.com/na
+ Ukraine's New Media val-news/2026/
+ Cruise Missile 09/ukraine-strik
+ Cripples es-russian-blac
+ Russian k-sea-fleet-long
+ Warships in -neptune-missil
+ Novorossiysk es/
+[137] Artillery MilitaryLand.ne Apr 7, 2026 OSINT Force https://militaryla
+ Brigade of t Tracker nd.net/news/art
+ Khartia Corps illery-brigade-of
+ Revealed -khartia-corps-r
+ evealed/
+[140] 8th Artillery Azov Official 2026 Primary Unit https://azov.ar
+ Brigade Website Official Page my/en/units/1st
+ "Harmash" — -corps-azov/8th
+ 1st Corps Azov -artillery-brigad
+ e-harmash/
+[142] Ukraine Ukrainska Apr 3, 2026 Established https://www.pra
+ develops Pravda National Media vda.com.ua/en
+ automated g/news/2026/0
+ artillery fire 4/03/8028679/
+ control system
+ KRIP-A
+[145] Ukraine's Ministry of Nov 3, 2026 Primary Official https://mod.gov
+ October deep Defence of Government .ua/en/news/uk
+ strikes hit 7 Ukraine raine-strikes-ru
+ defense ssian-defense-i
+ industry ndustry-october
+ enterprises and -2026
+ 3 russian
+ military airfields
+[149] / [261] Integrating Royal United Nov 2026 Premier https://static.rus
+ Tactical UAVs Services Defense Think i.org/integrating
+ into the Infantry Institute (RUSI) Tank -tactical-uavs-in
+ Battalion (Jack to-the-infantry-
+ Watling & battalion-nove
+ Robert Tollast) mber-2026.pdf
+[150] / [181] Emergent Royal United Oct 23, 2025 Premier https://www.rusi
+ Approaches to Services Defense Think .org/explore-ou
+ Combined Institute (RUSI) Tank r-research/publi
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+ Arms cations/insights
+ Manoeuvre in -papers/emerg
+ Ukraine (Dr ent-approaches
+ Jack Watling) -combined-arm
+ s-manoeuvre-u
+ kraine
+[151] / [182] Tactical Royal United Feb 2025 Premier https://static.rus
+ Developments Services Defense Think i.org/tactical-de
+ During the Institute (RUSI) Tank velopments-thir
+ Third Year of d-year-russo-uk
+ the rainian-war-febr
+ Russo–Ukraini uary-2205.pdf
+ an War (Jack
+ Watling & Nick
+ Reynolds)
+[152] RUSI Research Royal United Nov 2025 Premier https://static.rus
+ Paper on Services Defense Think i.org/rp-drone-s
+ Drone Supply Institute (RUSI) Tank upply-chains-ch
+ Chains and ina-nov-2025_0
+ China (exact .pdf
+ title not printed
+ in excerpt)
+[153] The Attritional Royal United Undated in Premier https://my.rusi.o
+ Art of War: Services excerpt Defense Think rg/resource/the
+ Lessons from Institute (RUSI) Tank -attritional-art-o
+ the Russian f-war-lessons-fr
+ War on Ukraine om-the-russian-
+ war-on-ukraine.
+ html
+[154] Lean on the Royal United Jul 12, 2023 Premier https://my.rusi.o
+ Barrage: The Services Defense Think rg/resource/lea
+ Role of Artillery Institute (RUSI) Tank n-on-the-barrag
+ in Ukraine's e-the-role-of-art
+ Counteroffensiv illery-in-ukraine
+ e (Maj. Patrick s-counteroffens
+ Hinton) ive.html
+[156] Russia's Royal United Undated in Premier https://www.rusi
+ Artillery War in Services excerpt Defense Think .org/explore-ou
+ Ukraine: Institute (RUSI) Tank r-research/publi
+ Challenges and cations/comme
+ Innovations ntary/russias-ar
+ tillery-war-ukrai
+ ne-challenges-
+ and-innovation
+ s
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+[159] How Europe Center for 2025 Premier https://www.csi
+ Can Build Strategic and Defense Think s.org/analysis/h
+ Ukraine's International Tank ow-europe-can-
+ Future Force Studies (CSIS) build-ukraines-f
+ uture-force
+[160] Will the United Center for May 31, 2022 Premier https://www.csi
+ States Provide Strategic and Defense Think s.org/analysis/
+ Long-Range International Tank will-united-state
+ Rockets to Studies (CSIS) s-provide-long-r
+ Ukraine? (Mark ange-rockets-u
+ Cancian) kraine
+[161] One Year of CNA Feb 2023 Established https://www.cna
+ War in Ukraine Defense Think .org/our-media/i
+ Tank ndepth/2023/02
+ /one-year-of-wa
+ r-in-ukraine
+[163] Mapping Center for Undated in Premier https://www.csi
+ Ukraine's Strategic and excerpt Defense Think s.org/analysis/
+ Military International Tank mapping-ukrain
+ Advances Studies (CSIS) es-military-adv
+ ances
+[165] CNN: HIMARS The Kyiv May 5, 2023 Established https://kyivinde
+ become less Independent (feed Nov 23, National Media pendent.com/c
+ effective in 2026) nn-himars-beco
+ Ukraine due to me-less-effectiv
+ Russia's e-due-to-russia
+ jamming (and s-jamming/
+ Nov 2026 feed
+ citing UNICEF)
+[166] HIMARS Potomac 2025–2026 Defense https://www.pot
+ Operations and Officers Club Industry omacofficersclu
+ Issues Aggregator b.com/news/hi
+ mars-operation
+ s-and-issues/
+[167] Ukraine Is The War Zone Mar 1, 2023 Established https://www.twz
+ Using Guided (TWZ) Defense Trade .com/ukraine-is
+ Rockets With Media -using-guided-r
+ More Range ockets-with-mo
+ Than re-range-than-h
+ HIMARS-Launc imars-launched
+ hed Ones -ones
+ (Howard
+ Altman)
+[168] US-Made The Defense May 27, 2024 Defense Trade https://thedefen
+ HIMARS Post Media sepost.com/20
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+ 'Ineffective' in 24/05/27/us-hi
+ Ukraine Due to mars-ineffectiv
+ Russian e-ukraine/
+ Jamming:
+ Report
+[169] HIMARS Just UNITED24 Oct 30, 2026 Ukrainian https://united24
+ Learned to Hit Media State-Affiliated media.com/def
+ Moving Media ense-tech/hima
+ Targets—Bad rs-just-learned-t
+ News for o-hit-moving-tar
+ Russian Guns gets-bad-news-
+ and Air for-russian-gun
+ Defenses s-and-air-defen
+ ses-23955
+[170] Ukraine's M270 Militarnyi Jun 24, 2024 Ukrainian https://militarnyi
+ has been Defense Trade .com/en/news/u
+ adapted for Media kraine-s-m270-
+ ATACMS has-been-adapt
+ application ed-for-atacms-
+ application/
+[171] Himars: what The Guardian / May 31 / Jun 1, Established https://www.the
+ are the AFP 2022 International guardian.com/
+ advanced Media world/2022/jun/
+ rockets US is 01/himars-what
+ sending -are-the-advan
+ Ukraine? ced-rockets-us-
+ is-sending-ukra
+ ine
+[174] What DPICM The War Zone Jul 6, 2023 Established https://www.twz
+ Cluster (TWZ) Defense Trade .com/what-dpic
+ Munitions Are Media m-cluster-munit
+ And Why ions-are-and-w
+ Ukraine Wants hy-ukraine-wan
+ Them So Bad ts-them-so-bad
+ (Joseph
+ Trevithick)
+[175] Cluster Casimir Pulaski Undated in Defense Think https://pulaski.p
+ Munitions for Foundation excerpt Tank l/en/cluster-mu
+ Ukraine: nitions-for-ukrai
+ Making a ne-making-a-dif
+ Difficult Yet ficult-yet-neces
+ Necessary sary-decision-2
+ Decision /
+[176] Poland invests Breaking Jul 2025 Established https://breaking
+ $662M to up Defense Defense Trade defense.com/2
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+ production of Media 025/07/poland-i
+ 155mm nvests-in-the-pr
+ ammunition oduction-of-155
+ -mm-ammunitio
+ n/
+[178] AN/TPQ-36 Radartutorial.e Undated Technical https://www.rad
+ Firefinder u Reference artutorial.eu/19.
+ Radar (exact kartei/04.battle/
+ title not printed en/karte009.en.
+ in excerpt) html
+[179] Video report on YouTube Undated in Open Video / https://www.you
+ Russian drone excerpt Secondary tube.com/watch
+ strike ?v=GrGIoEXH3
+ destroying vU
+ Ukrainian
+ AN/TPQ-36
+ radar (exact
+ title not printed)
+[180] SIPRI Stockholm 2024 Premier https://www.sipr
+ Yearbook 2024, International Research i.org/sites/defa
+ Chapter 10, Peace Institute ult/files/SIPRIY
+ Section II Research B24c10sII.pdf
+ Institute
+ (SIPRI)
+[183] ARES Policy IRIS France Dec 2024 Defense https://www.iris-
+ Paper No. 107: Research france.org/wp-c
+ Ukraine Institute ontent/uploads/
+ Defence 2024/12/ARES
+ Industry (exact _2024_12_107
+ title not printed _Ukraine_Defe
+ in excerpt) nce_Industry_P
+ olicyPaper-2.pd
+ f
+[185] Poland Ready European Mar 8, 2023 Established https://www.eur
+ to Set up a Hub Pravda National Media ointegration.co
+ to Repair m.ua/eng/tags/r
+ Leopard Tanks ussian-crisis/vi
+ Sent to Ukraine ew_news/page
+ _125/
+[186] Ore to Open Source Dec 2024 Research https://www.fie.
+ Ordnance: Centre (hosted Report undef.edu.ar/ce
+ Disrupting by UNDEF) ptm/wp-content
+ Russia's /uploads/2024/
+ Artillery Supply 12/osc_ore_to_
+ Chains ordnance.pdf
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+[188] Land News The Defense Undated in Defense Trade https://thedefen
+ Archive Post excerpt Media sepost.com/cat
+ (Poznań egory/land/pag
+ Abrams e/178/
+ maintenance
+ hub)
+[189] Artillery Mordor 2026 Commercial https://www.mo
+ Ammunition Intelligence Market rdorintelligence
+ Market Report Research .com/industry-r
+ eports/artillery-
+ ammunition-ma
+ rket
+[190] Enhancing DebugLies May 7, 2025 Secondary https://debuglie
+ Poland's Defense Blog s.com/2025/05/
+ Strategic 07/enhancing-p
+ Autonomy: olands-strategi
+ Mesko S.A.'s c-autonomy-me
+ Expansion of sko-s-a-s-expa
+ 155 mm nsion-of-155-m
+ Artillery m-artillery-amm
+ Ammunition unition-producti
+ Production to on-to-150000-r
+ 150,000 ounds-annually
+ Rounds -by-2027/
+ Annually by
+ 2027
+[191] The Underdog KPMG Slovakia 2026 Consulting https://assets.k
+ Advantage Research pmg.com/conte
+ (filename title) Report nt/dam/kpmgsit
+ es/sk/pdf/2026/
+ the_underdog_
+ advantage.pdf.
+ coredownload.i
+ nline.pdf.cored
+ ownload.inline.
+ pdf
+[192] Hetman Petro Scilit Undated in Academic https://www.scil
+ Sahaidachnyi excerpt Index it.com/scholars/
+ National Army 019f281173b67
+ Academy 1809d82509d4
+ Scholar Profile 80f6fb9
+[194] TV program Hetman Petro Mar 14, 2021 Primary Official https://asv.mil.g
+ "ZVYTIAHA: Sahaidachnyi Military ov.ua/en/news/
+ New Victories" National Army Academy 2021/03/14/tv-p
+ from 14 03 21 Academy rogram-zvytiah
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+ a-new-victories
+ -14-03-21
+[195] Ukrainian Institute for the 2016 Established https://understa
+ Order of Battle Study of War Defense Think ndingwar.org/w
+ (Franklin (ISW) Tank p-content/uploa
+ Holcomb; exact ds/2018/03/IS
+ cover title not W20Ukrainian2
+ printed in 0ORBAT20Hol
+ excerpt) comb202016_0
+ .pdf
+[200] Military Review Army University Mar–Apr 2025 Official U.S. https://www.ar
+ (March–April Press (U.S. Military Journal myupress.army
+ 2025 Issue) Army) .mil/Portals/7/m
+ ilitary-review/Ar
+ chives/English/
+ MA-25/MR-Mar
+ ch-April-2025-U
+ A1.pdf
+[202] US Cluster Human Rights Apr 4, 2024 Established https://www.hrw
+ Munition Watch (HRW) Human Rights .org/news/2024
+ Transfers Raise Monitor /04/04/us-clust
+ Humanitarian er-munition-tra
+ Concerns nsfers-raise-hu
+ (Mary manitarian-con
+ Wareham & cerns
+ Sera
+ Koulabdara)
+[203] / [259] Cluster Human Rights May 29, 2023 Established https://www.hrw
+ Munition Use in Watch (HRW) Human Rights .org/news/2023
+ Russia-Ukraine Monitor /05/29/cluster-
+ War munition-use-ru
+ ssia-ukraine-wa
+ r
+[204] Ukraine: Human Rights Aug 4, 2023 Established https://www.hrw
+ Apparent Watch (HRW) Human Rights .org/news/2023
+ Russian Monitor /08/04/ukraine-
+ Cluster apparent-russia
+ Munition Attack n-cluster-muniti
+ on-attack
+[209] / [286] Special European Feb 8, 2023 Primary Official https://www.ee
+ Training External Action EU as.europa.eu/e
+ Command - Service (EEAS) umam-ukraine/
+ Training the special-training
+ Ukrainians to -command-train
+ win ing-ukrainians-
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+ win_en
+[210] EU extends Lovguiden Nov 9, 2026 Secondary https://www.lov
+ EUMAM (summarizing Policy guiden.dk/en/d
+ Ukraine training Council of the Summary et-offentlige/raa
+ mission to 2028 EU) det-for-den-eur
+ with nearly opaeiske-union
+ €300 million /2026-11-09-eu
+ -extends-euma
+ m-ukraine-traini
+ ng-mission-to-2
+ 028-with-nearly
+ -300-million
+[211] List of military Wikipedia Updated 2026 Open https://en.wikip
+ aid to Ukraine Reference edia.org/wiki/Li
+ during the Aggregator st_of_military_a
+ Russo-Ukrainia id_to_Ukraine_
+ n war during_the_Ru
+ sso-Ukrainian_
+ war
+[212] EU Defense Stockholm Undated in Research https://sceeus.s
+ Cooperation Centre for excerpt Institute e/en/publication
+ with Ukraine Eastern (post-Nov s/eu-defense-c
+ European 2022) ooperation-with
+ Studies -ukraine/
+ (SCEEUS)
+[218] / [219] / Preliminary Royal United Nov 30, 2022 Premier https://static.rus
+[260] Lessons in Services Defense Think i.org/359-SR-U
+ Conventional Institute (RUSI) Tank kraine-Prelimin
+ Warfighting ary-Lessons-Fe
+ from Russia's b-July-2022-we
+ Invasion of b-final.pdf
+ Ukraine: (summary:
+ February–July https://www.rusi
+ 2022 .org/explore-ou
+ (Zabrodskyi, r-research/publi
+ Watling, cations/special-
+ Danylyuk, resources/preli
+ Reynolds) minary-lessons
+ -conventional-w
+ arfighting-russi
+ as-invasion-ukr
+ aine-february-ju
+ ly-2022)
+[220] Preliminary Royal United Undated in Premier https://static.rus
+ Lessons from Services excerpt (2024) Defense Think i.org/lessons-le
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+ Ukraine's Institute (RUSI) Tank arned-ukraine-
+ Offensive offensive-2022-
+ Operations, 23.pdf
+ 2022–23
+ (Watling,
+ Danylyuk,
+ Reynolds)
+[222] Ukraine Got Defense Jun 19, 2022 Ukrainian https://en.defen
+ State of Art Express Defense Trade ce-ua.com/eve
+ Polish AHS Media nts/ukraine_got
+ Krab 155mm _state_of_art_p
+ Self-Propelled olish_ahs_krab
+ Howitzers _155mm_self_
+ propelled_howit
+ zers-3318.html
+[223] Dominating the Defense Arabia 2025 Secondary https://english.d
+ Battlefield: The Defense Media efensearabia.c
+ World's Most om/dominating-
+ Advanced the-battlefield-t
+ Self-Propelled he-worlds-most
+ Artillery -advanced-self-
+ Systems (2025) propelled-artille
+ ry-systems-202
+ 5/
+[224] Krabs from The Page Undated in Ukrainian News https://en.thepa
+ Poland: how (Ukraine) excerpt (2022) Media ge.ua/politics/kr
+ are they useful abs-from-polan
+ in Donbas and d-how-are-they
+ south (slug -useful-in-donb
+ title) as-and-south
+[225] Forum Reddit ~2024 Forum / https://www.red
+ discussion on (r/UkrainianCon Anecdotal dit.com/r/Ukrain
+ Ukrainian AHS flict) (Caveated) ianConflict/com
+ Krab / PzH ments/1febpug/
+ 2000 ukrainian_force
+ ammunition s_report_catast
+ and rophic_issues_
+ maintenance with/
+ (anecdotal)
+[226] Polish Crabs: Scribd Undated in Secondary https://es.scribd
+ 155-mm excerpt Document .com/document
+ self-propelled /587109702/Pol
+ gun AHS Krab ish-Crabs-155-
+ mm-self-propell
+ ed-gun-AHS-Kr
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+ ab
+[230] Ukrainian YouTube ~2024 Secondary https://www.you
+ self-propelled (@LampaInfo) Video tube.com/watch
+ mortars M120 Summary ?v=6AEJWuxH
+ Rak made in 92k
+ Poland
+[231] Poland will Reddit ~2023 Secondary https://www.red
+ supply Ukraine (r/ukraine, Aggregator dit.com/r/ukrain
+ with three citing Noël e/comments/12
+ companies (24 Reports) dcp1q/poland_
+ pieces and 12 will_supply_ukr
+ firing control aine_with_thre
+ machines) of e_companies/
+ M120 Rak
+ self-propelled
+ mortars
+[240] M777 howitzer Wikipedia Updated Open https://en.wikip
+ 2025–2026 Reference edia.org/wiki/M
+ (Cross-checked 777_howitzer
+ ; L/33 error
+ flagged)
+[241] / [285] M777A2 Army Sep 1, 2026 Established https://www.ar
+ LW155 Recognition Defense myrecognition.c
+ Equipment om/military-pro
+ Reference ducts/army/artill
+ ery-vehicles-an
+ d-weapons/tow
+ ed-howitzer-gu
+ ns/m777a2-lw1
+ 55
+[247] The Defence of International Sep 16, 2026 Premier https://www.iiss
+ Europe in a Institute for Defense Think .org/globalasse
+ New Era: An Strategic Tank ts/media-library
+ Assessment Studies (IISS) ---content--migr
+ ation/files/publi
+ cations---free-fil
+ es/strategic-do
+ ssier/pds-2026/
+ complete-file/iis
+ s_the-defence-
+ of-europe-in-a-
+ new-era-an-ass
+ essment_1609
+ 2026.pdf
+[254] Academic Leiden Undated in Academic https://scholarly
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+ paper on 2022 University excerpt Repository publications.uni
+ Ukrainian Repository versiteitleiden.n
+ Kherson and l/download/188
+ Kharkiv 7/3729102/1?c
+ offensives ol=8152219885
+ (exact title not 0002711
+ printed in
+ excerpt)
+[262] / [284] M120 Rak Wikipedia Oct 18, 2026 Open https://en.wikip
+ Reference edia.org/wiki/M
+ (Cross-checked 120_Rak
+ )
+[263] / [287] AHS Krab Wikipedia Updated Open https://en.wikip
+ (citing Janes & 2024–2026 Reference edia.org/wiki/A
+ HSW) (Cross-checked HS_Krab
+ )
+[272] UK leadership UK Ministry of Dec 2024 Primary Official https://www.gov
+ on Ukraine Defence Government .uk/government
+ continues as (gov.uk) /news/uk-leade
+ Defence rship-on-ukrain
+ Secretary e-continues-as-
+ announced defence-secret
+ £225m support ary-announced-
+ package during 225m-support-
+ Kyiv visit package-during
+ -kyiv-visit
+[273] EU military Council of the Nov 2026 Primary Official https://www.con
+ support for European EU silium.europa.e
+ Ukraine Union u/en/policies/mi
+ litary-support-u
+ kraine/
+[274] Timeline – EU Council of the Nov 16, 2026 Primary Official https://www.con
+ response to European EU silium.europa.e
+ Russia's war of Union u/en/policies/eu
+ aggression -solidarity-ukrai
+ against Ukraine ne/timeline-rus
+ sia-military-agg
+ ression-against
+ -ukraine/
+[276] Minister for the UK Ministry of Dec 19, 2024 Primary Official https://www.gov
+ Armed Forces Defence Government .uk/government
+ statement on (gov.uk) /speeches/mini
+ Ukraine: 19 ster-for-the-arm
+ December ed-forces-state
+ 2024 ment-on-ukrain
+Cite ID Exact Page / Publisher Date / Year Authority Tier Verified URL
+ Document Title
+ e-19-december
+ -2024
+[277] / [279] Senior Defense U.S. Undated in Primary Official https://www.def
+ Official Holds a Department of excerpt (Jul Government ense.gov/News
+ Background Defense 2022) /Transcripts/Tra
+ Briefing (defense.gov / nscript/Article/3
+ war.gov mirror) 088129/senior-
+ defense-official
+ -holds-a-backgr
+ ound-briefing/
+ (mirror:
+ https://www.war
+ .gov/News/Tran
+ scripts/Transcri
+ pt/Article/30881
+ 29/senior-defen
+ se-official-holds
+ -a-background-
+ briefing/)
+[282] Biden U.S. Apr 26, 2024 Primary Official https://www.war
+ Administration Department of Government .gov/News/Rele
+ Announces Defense ases/Release/A
+ Historic New (war.gov / rticle/3757794/
+ Security defense.gov biden-administr
+ Assistance mirror) ation-announce
+ Package for s-historic-new-s
+ Ukraine ecurity-assistan
+ ce-package-for-
+ ukr/
+[283] More Than 50 U.S. Undated in Primary Official https://www.def
+ Nations Pledge Department of excerpt (Jun Government ense.gov/News
+ to Help Build Defense 2022) /News-Stories/
+ Ukraine's (defense.gov) Article/Article/3
+ Defense 064765/more-t
+ han-50-nations-
+ pledge-to-help-
+ build-ukraines-
+ defense/
+Works cited
+
+1. Integrating Tactical UAVs into the Infantry Battalion | RUSI,
+https://static.rusi.org/integrating-tactical-uavs-into-the-infantry-battalion-november-2026.pdf 2.
+Emergent Approaches to Combined Arms Manoeuvre in Ukraine,
+https://www.rusi.org/explore-our-research/publications/insights-papers/emergent-approaches-co
+mbined-arms-manoeuvre-ukraine 3. tactical-developments-third-year-russo-ukrainian-war ... -
+RUSI,
+https://static.rusi.org/tactical-developments-third-year-russo-ukrainian-war-february-2205.pdf 4.
+Five Successful Neptune Cruise Missile Strikes in 30 Days: How Many Su-34s and Defense
+Industry Facilities Were Hit?,
+https://en.defence-ua.com/weapon_and_tech/five_successful_neptune_cruise_missile_strikes_i
+n_30_days_how_many_su_34s_and_defense_industry_facilities_were_hit-20442.html 5. How
+Europe Can Build Ukraine's Future Force - CSIS,
+https://www.csis.org/analysis/how-europe-can-build-ukraines-future-force 6. Central and Eastern
+Europe - KPMG agentic corporate services,
+https://assets.kpmg.com/content/dam/kpmgsites/sk/pdf/2026/the_underdog_advantage.pdf.core
+download.inline.pdf.coredownload.inline.pdf 7. Ukraine's Delta system to become 'only source
+for data transfers,
+https://www.janes.com/defence-intelligence-insights/defence-news/c4isr/ukraines-delta-system-t
+o-become-only-source-for-data-transfers-across-afu 8. Artillery Brigade of Khartia Corps
+Revealed - MilitaryLand.net,
+https://militaryland.net/news/artillery-brigade-of-khartia-corps-revealed/ 9. 8th Artillery Brigade
+"Harmash" | 1st Corps NGU "Azov",
+https://azov.army/en/units/1st-corps-azov/8th-artillery-brigade-harmash/ 10. HIMARS Just
+Learned to Hit Moving Targets—Bad News for,
+https://united24media.com/defense-tech/himars-just-learned-to-hit-moving-targets-bad-news-for
+-russian-guns-and-air-defenses-23955 11. HIMARS Operations And Issues That Surround
+Them, https://www.potomacofficersclub.com/news/himars-operations-and-issues/ 12. Ukraine's
+M270 has been adapted for ATACMS application,
+https://militarnyi.com/en/news/ukraine-s-m270-has-been-adapted-for-atacms-application/ 13.
+Senior Defense Official Holds a Background Briefing,
+https://www.defense.gov/News/Transcripts/Transcript/Article/3088129/senior-defense-official-hol
+ds-a-background-briefing/ 14. First use of the Precision Strike Missile (PrSM) – 2026 Iran war -
+HCoC,
+https://www.nonproliferation.eu/hcoc/first-use-of-the-precision-strike-missile-prsm-2026-iran-war/
+15. Will the United States Provide Long-Range Rockets to Ukraine?,
+https://www.csis.org/analysis/will-united-states-provide-long-range-rockets-ukraine 16. Himars:
+what are the advanced rockets US is sending Ukraine?,
+https://www.theguardian.com/world/2022/jun/01/himars-what-are-the-advanced-rockets-us-is-se
+nding-ukraine 17. One Year of War in Ukraine - CNA.org.,
+https://www.cna.org/our-media/indepth/2023/02/one-year-of-war-in-ukraine 18. Mapping
+Ukraine's Military Advances - CSIS,
+https://www.csis.org/analysis/mapping-ukraines-military-advances 19. Reflections on the
+Russia-Ukraine War,
+https://scholarlypublications.universiteitleiden.nl/download/1887/3729102/1?col=815221988500
+02711 20. HIMARS become less effective in Ukraine due to Russia's jamming,
+https://kyivindependent.com/cnn-himars-become-less-effective-due-to-russias-jamming/ 21.
+US-Made HIMARS 'Ineffective' in Ukraine Due to Russian Jamming,
+https://thedefensepost.com/2024/05/27/us-himars-ineffective-ukraine/ 22. Ukraine Is Using
+Guided Rockets With More Range Than HIMARS,
+https://www.twz.com/ukraine-is-using-guided-rockets-with-more-range-than-himars-launched-on
+es 23. R-360 Neptune - Wikipedia, https://en.wikipedia.org/wiki/R-360_Neptune 24. Long
+Neptune Strike: Ukraine's New Cruise Missile ... - Naval News,
+https://www.navalnews.com/naval-news/2026/09/ukraine-strikes-russian-black-sea-fleet-long-ne
+ptune-missiles/ 25. Ukraine to develop anti-ship Neptune-2 missile jointly with MBDA,
+https://thedefender.media/en/2026/06/mbda-luch-neptun2/ 26. Ukraine’s Arms Industry: From
+Soviet Legacy to Drone Superpower,
+https://migflug.com/afterburner/it/ukraine-defence-industry-soviet-legacy-drone-superpower-202
+6/ 27. MBDA-Ukraine Deal: New Neptune-2 Cruise Missile Underway,
+https://envantermedya.com/en/mbda-ukraine-neptune-2-cruise-missile/ 28. Drones: Decoupling
+Supply Chains from China - RUSI,
+https://static.rusi.org/rp-drone-supply-chains-china-nov-2025_0.pdf 29. The World's Most
+Advanced Self-Propelled Artillery Systems (2025),
+https://english.defensearabia.com/dominating-the-battlefield-the-worlds-most-advanced-self-pro
+pelled-artillery-systems-2025/ 30. List of military aid to Ukraine during the Russo-Ukrainian war,
+https://en.wikipedia.org/wiki/List_of_military_aid_to_Ukraine_during_the_Russo-Ukrainian_war
+31. Preliminary Lessons in Conventional Warfighting from Russia's,
+https://static.rusi.org/359-SR-Ukraine-Preliminary-Lessons-Feb-July-2022-web-final.pdf 32.
+DISRUPTING RUSSIA'S ARTILLERY SUPPLY CHAINS,
+https://www.fie.undef.edu.ar/ceptm/wp-content/uploads/2024/12/osc_ore_to_ordnance.pdf 33.
+Preliminary Lessons from Ukraine's Offensive Operations, 2022–23,
+https://static.rusi.org/lessons-learned-ukraine-offensive-2022-23.pdf 34. What DPICM Cluster
+Munitions Are And Why Ukraine Wants Them,
+https://www.twz.com/what-dpicm-cluster-munitions-are-and-why-ukraine-wants-them-so-bad 35.
+Cluster munitions for Ukraine – Making a Difficult yet Necessary,
+https://pulaski.pl/en/cluster-munitions-for-ukraine-making-a-difficult-yet-necessary-decision-2/
+36. Cluster Munition Use in Russia-Ukraine War | Human Rights Watch,
+https://www.hrw.org/news/2023/05/29/cluster-munition-use-russia-ukraine-war 37. Integrated
+Arsenals? Mapping Defence Industrial Relations ... - IRIS,
+https://www.iris-france.org/wp-content/uploads/2024/12/ARES_2024_12_107_Ukraine_Defence
+_Industry_PolicyPaper-2.pdf 38. The Defence of Europe in a New Era: An Assessment,
+https://www.iiss.org/globalassets/media-library---content--migration/files/publications---free-files/
+strategic-dossier/pds-2026/complete-file/iiss_the-defence-of-europe-in-a-new-era-an-assessme
+nt_16092026.pdf 39. Poland invests $662M to up production of 155mm ammunition,
+https://breakingdefense.com/2025/07/poland-invests-in-the-production-of-155-mm-ammunition/
+40. Enhancing Poland's Strategic Autonomy: MESKO S.A.'s Expansion,
+https://debuglies.com/2025/05/07/enhancing-polands-strategic-autonomy-mesko-s-a-s-expansio
+n-of-155-mm-artillery-ammunition-production-to-150000-rounds-annually-by-2027/ 41. Artillery
+Ammunition Market Size, Forecast Report 2031,
+https://www.mordorintelligence.com/industry-reports/artillery-ammunition-market 42. The
+Attritional Art of War: Lessons from the Russian War on Ukraine,
+https://my.rusi.org/resource/the-attritional-art-of-war-lessons-from-the-russian-war-on-ukraine.ht
+ml 43. AN/TPQ-36 - Radartutorial,
+https://www.radartutorial.eu/19.kartei/04.battle/en/karte009.en.html 44. Biden Administration
+Announces Historic New Security Assistance,
+https://www.war.gov/News/Releases/Release/Article/3757794/biden-administration-announces-
+historic-new-security-assistance-package-for-ukr/ 45. VIDEO: Russian Forces DESTROY U.S'
+AN/TPQ-36 Weapon System, https://www.youtube.com/watch?v=GrGIoEXH3vU 46. Krabs from
+Poland: How are they useful in Donbas and South,
+https://en.thepage.ua/politics/krabs-from-poland-how-are-they-useful-in-donbas-and-south 47.
+M777 howitzer - Wikipedia, https://en.wikipedia.org/wiki/M777_howitzer 48. M777A2 LW155 -
+Army Recognition,
+https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/towed-h
+owitzer-guns/m777a2-lw155 49. Ukraine develops automated artillery fire control system
+KRIP-A, https://www.pravda.com.ua/eng/news/2026/04/03/8028679/ 50. Ukrainian Forces
+Report "Catastrophic" Issues with German Military,
+https://www.reddit.com/r/UkrainianConflict/comments/1febpug/ukrainian_forces_report_catastro
+phic_issues_with/ 51. Lean on the Barrage: The Role of Artillery in Ukraine's ... - RUSI,
+https://my.rusi.org/resource/lean-on-the-barrage-the-role-of-artillery-in-ukraines-counteroffensive
+.html 52. UK leadership on Ukraine continues as Defence Secretary,
+https://www.gov.uk/government/news/uk-leadership-on-ukraine-continues-as-defence-secretary-
+announced-225m-support-package-during-kyiv-visit 53. War with Russia | European Pravda -
+Європейська правда,
+https://www.eurointegration.com.ua/eng/tags/russian-crisis/view_news/page_125/ 54. Land •
+Page 178 of 311 - The Defense Post, https://thedefensepost.com/category/land/page/178/ 55.
+EU military support for Ukraine - Consilium.europa.eu,
+https://www.consilium.europa.eu/en/policies/military-support-ukraine/ 56. Timeline - EU
+response to Russia's war of aggression against Ukraine,
+https://www.consilium.europa.eu/en/policies/eu-solidarity-ukraine/timeline-russia-military-aggres
+sion-against-ukraine/ 57. EU Defense Cooperation With Ukraine - SCEEUS,
+https://sceeus.se/en/publications/eu-defense-cooperation-with-ukraine/ 58. EU extends EUMAM
+Ukraine training mission to 2028 with nearly,
+https://www.lovguiden.dk/en/det-offentlige/raadet-for-den-europaeiske-union/2026-11-09-eu-ext
+ends-eumam-ukraine-training-mission-to-2028-with-nearly-300-million 59. Special Training
+Command - Training the Ukrainians to win | EEAS,
+https://www.eeas.europa.eu/eumam-ukraine/special-training-command-training-ukrainians-win_
+en 60. More Than 50 Nations Pledge to Help Build Ukraine's Defense,
+https://www.defense.gov/News/News-Stories/Article/Article/3064765/more-than-50-nations-pled
+ge-to-help-build-ukraines-defense/ 61. Military Review March-April 2025 - Army University
+Press,
+https://www.armyupress.army.mil/Portals/7/military-review/Archives/English/MA-25/MR-March-A
+pril-2025-UA1.pdf 62. Minister for the Armed Forces statement on Ukraine 19 December,
+https://www.gov.uk/government/speeches/minister-for-the-armed-forces-statement-on-ukraine-1
+9-december-2024 63. European troops from 11 countries hold a drill in Poland for a potential
+postwar Ukraine mission,
+https://apnews.com/article/poland-ukraine-military-exercise-peace-france-britain-a28d60d1b370
+93199dd017472028d7ac 64. Ballistic missile attack on Zelenskyy's hometown in central Ukraine
+kills 2 and wounds scores,
+https://apnews.com/article/russia-ukraine-war-missile-zelenskyy-trump-bfdee2ffadc2693e7338d
+6822e5356ef 65. Andriy Baldetskiy | Scilit,
+https://www.scilit.com/scholars/019f281173b671809d82509d480f6fb9 66. TV program
+"ZVYTIAHA: New Victories" from 14 03 21,
+https://asv.mil.gov.ua/en/news/2021/03/14/tv-program-zvytiaha-new-victories-14-03-21 67. THE
+ORDER OF BATTLE OF THE UKRAINIAN ARMED FORCES:,
+https://understandingwar.org/wp-content/uploads/2018/03/ISW20Ukrainian20ORBAT20Holcomb
+202016_0.pdf 68. M120 Rak - Wikipedia, https://en.wikipedia.org/wiki/M120_Rak 69. AHS Krab
+- Wikipedia, https://en.wikipedia.org/wiki/AHS_Krab

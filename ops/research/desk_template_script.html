@@ -1,0 +1,11 @@
+<script>
+document.querySelectorAll('button.copy').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var pre = document.getElementById(b.dataset.target);
+    var text = pre.textContent;
+    var done = function () { var t = document.getElementById('toast'); t.textContent = 'Copied'; t.hidden = false; setTimeout(function () { t.hidden = true; }, 1600); };
+    var fallback = function () { var d = pre.closest('details'); if (d) d.open = true; var r = document.createRange(); r.selectNodeContents(pre); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); var t = document.getElementById('toast'); t.textContent = 'Selected. Copy with your device'; t.hidden = false; setTimeout(function () { t.hidden = true; }, 2200); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, fallback); else fallback();
+  });
+});
+</script>

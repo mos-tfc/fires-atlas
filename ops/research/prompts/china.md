@@ -16,7 +16,7 @@ The reference already holds these 12 entries for China. Do not repeat them. If o
 - Guns, Howitzers and Mortars — Group Armies and Combined Arms Brigades
 - Guns, Howitzers and Mortars — Amphibious Brigades Opposite Taiwan
 - Digital Fires and Targeting — System Destruction Warfare
-- Digital Fires and Targeting — Strategic Support Force and the Integrated Command Platform
+- Digital Fires and Targeting — From Strategic Support Force to Information Support Force: The Integrated Command Platform
 - Target Acquisition — SLC-2 Radar and the KVD002 Drone
 - Ammunition and Effects — WS-35 and GP155 Guided Shells
 - Guns, Howitzers and Mortars — PCL-181 155mm Truck Howitzer

@@ -25,3 +25,6 @@ Each time you run:
 - **Not overwhelmed:** watch size. If an army passes about 30 entries or a lesson passes 6 entries, ask Instructor to split or trim before adding more; prefer improving existing entries over adding new ones.
 
 Log each hand-out, return and reminder in `ops/TASKS.md` under Signaller. Never send prompts outside the owner's limit, and never include anything internal or personal (rule 2 for Singapore).
+
+**Research Desk stays current.** The owner's Research Desk shows only open prompts. `ops/research/DESK.json` is its source: whenever you hand out prompts, or a report is loaded into the app, update DESK.json (remove loaded prompts, add the next ones, update "status" and "next"), regenerate the prompt files, and run `python3 tools/build_desk.py`. Cloud runs cannot republish the page, so include the DESK.json change in your pull request; the main session republishes the page to the same link when the report is loaded or the pull request is merged. Never leave a returned prompt on the Desk.
+

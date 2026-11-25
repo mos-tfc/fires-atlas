@@ -1,7 +1,7 @@
 # Research Queue
 
 Owned by **Signaller**. Monthly, in the first week: **one update prompt per region, at most 5 armies each** (changes since each army's date in `research/LAST_UPDATED.json`; `node tools/mass_prompt.mjs` writes them all). Other weeks: at most **3 gap-fill prompts**. Never more than 3 prompts in a week or 3 open at once.
-The current prompts are shown to the owner on the Research Desk page: https://claude.ai/artifact/NjnHgsE85gLcGz1PJt9rTV
+The open prompts (and only those) are on are shown to the owner on the Research Desk page: https://claude.ai/artifact/NjnHgsE85gLcGz1PJt9rTV
 Prompts live in `ops/research/prompts/` and are regenerated just before hand-out. Gap-fill prompts (`node tools/gap_prompt.mjs "<Country>"`) cover standing gaps only; add `--with-changes` to include news since the army's date.
 Status: Queued · Handed out (date) · Returned (date) · Done (date) · Named only
 
@@ -11,8 +11,9 @@ Status: Queued · Handed out (date) · Returned (date) · Done (date) · Named o
 |---|---|---|---|
 | 0 | Monthly updates: Americas and Europe; Northeast Asia; Southeast Asia and Oceania (`prompts/update-*.md`) | Keeps every army current | Update 1 (Americas and Europe) returned and loaded 24 Nov: 19 news items, 2 exercises; update 2 (Northeast Asia) returned and loaded 24 Nov: 13 news items, 2 exercises, 2 corrections; update 3 (Southeast Asia and Oceania) returned and loaded 24 Nov: 10 news items, 2 exercises updated. All three monthly updates done |
 | 0a | New army: India (`prompts/new-india.md`, from `node tools/new_country_prompt.mjs "India"`) | Twelfth army; already in Super Garuda Shield and Talisman Sabre | Done (25 Nov): 20 entries, 5 lessons, 5 news, kill chain, 2 exercises. Next gap fill: the May 2025 India–Pakistan clash (not in the report) |
-| 1 | Ukraine gap fill (`prompts/ukraine.md`) | 13 entries; no liaison or rocket entries; no training entries | Queued (week 2; first version handed out 21 Nov) |
-| 2 | China gap fill (`prompts/china.md`) | 12 entries; four areas missing (drones, gunnery, counter-fire, sustainment) | Queued (week 2; first version handed out 21 Nov) |
+| 0b | India gap fill (`prompts/india.md`, focus: May 2025 India–Pakistan clash) | Recent combat lessons missing from the first report | Handed out (25 Nov) |
+| 1 | Ukraine gap fill (`prompts/ukraine.md`) | 13 entries; no liaison or rocket entries; no training entries | Done (25 Nov): 12 entries added, 2 entries corrected |
+| 2 | China gap fill (`prompts/china.md`) | 12 entries; four areas missing (drones, gunnery, counter-fire, sustainment) | Handed out (25 Nov) |
 | 3 | South Korea gap fill (`prompts/south-korea.md`) | 17 entries; no ammunition or training entries | Queued (week 3; first version handed out 21 Nov) |
 | 4 | Japan gap fill (`prompts/japan.md`) | 17 entries; no lessons entries | Queued (week 3) |
 | 5 | North Korea gap fill (`prompts/north-korea.md`) | 18 entries; 5 rest on assessment only; no training entries | Queued (week 3) |

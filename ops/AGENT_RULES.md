@@ -32,6 +32,8 @@ title (title case), what [], how [], why [], sources [{title, publisher, year, u
 
 10. **Keep research prompts in step with the app.** A pull request that adds a new kind of content (a data set, or a field learners see) also updates `tools/new_country_prompt.mjs` (and `tools/gap_prompt.mjs` if relevant) and `ops/research/PROMPT_COVERAGE.json`. `node tools/check.mjs` fails on a data set the prompt does not cover. Sentry checks this on every pull request.
 
+11. **Research Desk.** When an owner's report is loaded, the same change removes its prompt from `ops/research/DESK.json` and rebuilds the Desk (`python3 tools/build_desk.py`); the page is republished to the same link. The Desk never shows prompts that are already done.
+
 ## Pull request summary (template)
 - What changed (one line per item, with entry ids)
 - Sources added, and how each was verified
