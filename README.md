@@ -46,7 +46,7 @@ Claude Code subagents live in `.claude/agents/`. They are available in any Claud
 | Herald | Front page, What's New, README |
 | Sentry | Regression guard: checks and the Lessons Register |
 | Observer | Learner feedback, app review, improvements |
-| Recce | Research lead: weekly news, monthly sweep; tasks the eleven country researchers (`recce-<country>`) |
+| Recce | Research lead: weekly news, monthly sweep; tasks the twelve country researchers (`recce-<country>`) |
 | Armourer | Videos, equipment cards, specs, country data |
 | Instructor | Lessons, links, exercises that make learners apply what they read |
 | Liaison | Links between armies: joint exercises, partnerships, shared equipment, cross-army links |
