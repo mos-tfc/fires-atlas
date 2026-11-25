@@ -1,0 +1,254 @@
+<title>Fires Atlas Research Desk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+/* Layout: one narrow column; today's three prompts as cards, then the queue. Signal-orange accent from the artillery app. */
+:root { --bg:#f6f5f2; --card:#ffffff; --fg:#1d2128; --muted:#5d6470; --line:#dfe1e5; --accent:#c2410c; --accent-fg:#ffffff; --code:#f1f2f4;
+  --display:"Space Grotesk", "Segoe UI", system-ui, sans-serif; --body:Inter, "Segoe UI", system-ui, sans-serif; --mono:"JetBrains Mono", ui-monospace, Menlo, monospace; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#14171c; --card:#1c2027; --fg:#e7e9ec; --muted:#a2a9b4; --line:#2e333c; --accent:#fb923c; --accent-fg:#1a1208; --code:#232831; color-scheme:dark; } }
+:root[data-theme="dark"] { --bg:#14171c; --card:#1c2027; --fg:#e7e9ec; --muted:#a2a9b4; --line:#2e333c; --accent:#fb923c; --accent-fg:#1a1208; --code:#232831; color-scheme:dark; }
+body { background:var(--bg); color:var(--fg); font:15px/1.55 var(--body); }
+.wrap { max-width:720px; margin:0 auto; padding-block:28px 48px; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); display:grid; gap:18px; }
+h1 { font:700 1.7rem/1.2 var(--display); margin:0; text-wrap:balance; }
+.lead { color:var(--muted); margin:6px 0 0; max-width:62ch; }
+.limit { display:inline-flex; gap:8px; align-items:center; font-size:.85rem; font-weight:600; border:1px solid var(--line); border-radius:999px; padding:4px 12px; background:var(--card); width:max-content; max-width:100%; }
+.dot { width:8px; height:8px; border-radius:50%; background:var(--accent); }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; display:grid; gap:10px; min-width:0; }
+.card-head { display:flex; justify-content:space-between; align-items:flex-start; gap:12px; flex-wrap:wrap; }
+.eyebrow { font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-weight:600; }
+h2 { font:700 1.25rem/1.2 var(--display); margin:2px 0 0; }
+.why { margin:0; color:var(--muted); }
+button.copy { font:600 .9rem var(--body); background:var(--accent); color:var(--accent-fg); border:0; border-radius:8px; padding:9px 14px; cursor:pointer; min-height:40px; }
+button.copy:focus-visible, summary:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+details summary { cursor:pointer; font-weight:600; font-size:.9rem; }
+pre { background:var(--code); border-radius:8px; padding:12px; overflow-x:auto; font:12.5px/1.5 var(--mono); white-space:pre-wrap; word-break:break-word; margin:10px 0 0; max-height:420px; overflow-y:auto; }
+.return { background:var(--card); border:1px dashed var(--line); border-radius:12px; padding:14px 16px; }
+.return h3, .queue h3 { font:700 1rem var(--display); margin:0 0 6px; }
+.return p { margin:0; color:var(--muted); }
+.queue ul { list-style:none; padding:0; margin:0; display:grid; gap:8px; }
+.queue li { display:grid; grid-template-columns:64px minmax(0,1fr); gap:2px 12px; padding:10px 0; border-top:1px solid var(--line); }
+.day { font-size:.78rem; font-weight:600; color:var(--accent); grid-row:span 2; padding-top:2px; }
+.who { font-weight:600; }
+.note { color:var(--muted); font-size:.9rem; }
+.toast { position:fixed; left:50%; transform:translateX(-50%); bottom:calc(16px + env(safe-area-inset-bottom, 0px)); background:var(--fg); color:var(--bg); padding:8px 14px; border-radius:8px; font-weight:600; font-size:.9rem; }
+</style>
+<div class="wrap">
+  <header>
+    <h1>Research Desk</h1>
+    <p class="lead">Your open research prompts, at most three a week. When a report comes back and is loaded into the app, its prompt is removed here and the next one moves up.</p>
+  </header>
+  <div class="limit"><span class="dot"></span>Loaded so far: November updates 1–3 (24 Nov) and India (25 Nov)</div>
+  <section class="return"><h3>Before you click Start research</h3><p>Gemini shows a research plan first. Check it has one step per army (or per Part or Task), that each step covers everything the prompt asks, and that its dates run from the start date in the prompt to today. If a step is missing, merged or dated wrong, click Edit plan and ask for it to be added. Then start.</p></section>
+  <article class="card">
+  <div class="card-head"><div><div class="eyebrow">Gap fill · this week</div><h2>Ukraine</h2></div><button class="copy" data-target="p0" type="button">Copy prompt</button></div>
+  <p class="why">13 entries. No liaison or rocket entries, no training entries.</p>
+  <details><summary>Show the prompt (63 lines)</summary><pre id="p0">You are researching artillery and fire support for a learning reference used by military professionals. Use open sources only. Do not use classified, restricted, export-controlled or leaked material.
+
+Country: Ukraine
+This prompt fills standing gaps in the reference; there is no date limit, so use the best source of any date. Recent news is collected separately.
+
+RESEARCH PLAN. Build your plan with one step for each TASK below, then a final step to check every source link. Do not drop any task.
+
+SOURCE RULES (read first)
+- Every source must be a real page you opened. Give the exact page title, the publisher, the year and the full URL.
+- Do not build or guess URLs. If you cannot find a working link, give the title and publisher and write &quot;No link found&quot;.
+- Prefer official government and armed forces pages, parliamentary and audit reports, recognised research institutes and established defence press. Mark manufacturer, state-media and single-source claims &quot;Reported&quot;.
+- If sources disagree, give each figure with its own source. Do not fill gaps with another army’s doctrine; write &quot;Not found in open sources: ...&quot; instead.
+
+The reference already holds these 13 entries for Ukraine. Do not repeat them. If one is wrong or out of date, list it under &quot;Corrections&quot; at the end with the entry title, what is wrong and the source.
+- Guns, Howitzers and Mortars — Outgunned from the Start
+- Counter-Fire and Force Protection — What the Artillery War Teaches
+- Guns, Howitzers and Mortars — From Brigades to an 18-corps Army
+- Guns, Howitzers and Mortars — Brigade Artillery Groups and Corps Artillery Brigades
+- Digital Fires and Targeting — Delta: The Shared Battle Picture
+- Digital Fires and Targeting — GIS Arta: “Uber for Artillery”
+- Technical Fire Direction and Gunnery — Kropyva, Armor and KRIP-A: Fire Control at the Gun
+- Target Acquisition — Drones, Radars and Decoys
+- Ammunition and Effects — SMArt 155 and BONUS: Sensor-Fuzed Rounds
+- Loitering Munitions and Armed Drones — Dropping Artillery Shells from Drones
+- Counter-Fire and Force Protection — Roving Guns: Speed Is Survival
+- Sustainment — Making Shells at Home
+- Digital Fires and Targeting — Precision, Mines and Civilian Harm
+
+TASK A: Fill the gaps. Write 1 or 2 entries for each of these areas:
+- Liaison and Fire Support Integration: MISSING
+- Rocket and Missile Artillery: MISSING
+- Loitering Munitions and Armed Drones: THIN (1 entry)
+- Ammunition and Effects: THIN (1 entry)
+- Target Acquisition: THIN (1 entry)
+- Technical Fire Direction and Gunnery: THIN (1 entry)
+- Sustainment: THIN (1 entry)
+
+TASK B: Training. Write 1 or 2 entries on how Ukraine trains its gunners, observers and fire planners: schools, courses and major exercises, with dates.
+
+TASK C: Strengthen the evidence. These entries rest on assessment or have no linked source. For each, find an official or established source that confirms or corrects it, or write &quot;No public source found&quot;:
+- What the Artillery War Teaches
+- Precision, Mines and Civilian Harm
+
+TASK D: Key figures. For each system, give: type, calibre, combat weight, crew, range by round type, rate of fire, mobility and time into and out of action. Mark press and vendor figures &quot;Reported&quot;; write &quot;Not stated&quot; where sources give nothing.
+Systems: AHS Krab, M777, M120 Rak
+
+ENTRY FORMAT. Use exactly these numbered fields for every entry:
+1. Title: in title case
+2. Area: one of the ten areas above
+3. Section: Forces, TTPs, Equipment, Training or Lessons
+4. Force: the service or branch
+5. Echelon: Company, Battery, Battalion, Regiment, Brigade, Division, Corps or Theatre
+6. What: 1 or 2 sentences
+7. How: 3 to 5 numbered points
+8. Why: 1 or 2 sentences
+9. Compare with the US: one factual sentence
+10. Confidence: Confirmed (official or primary source), Reported (press, vendor or a single unverified source) or Analysis (assessment)
+11. As of: month and year
+12. Sources: title, publisher, year and full URL for each
+
+FOR LEARNERS. Each entry teaches one point a reader can remember and compare. Keep each line short and concrete. Prefer one strong official source over several weak ones.
+
+STYLE. Plain, factual UK English. Short sentences. No intensifiers such as &quot;highly&quot;, &quot;massive&quot;, &quot;devastating&quot;, &quot;absolutely&quot; or &quot;incredibly&quot;. Start a line with &quot;Reported:&quot; when that line rests on press or vendor claims, even inside a Confirmed entry. Keep official names in their own spelling.
+</pre></details>
+</article>
+  <article class="card">
+  <div class="card-head"><div><div class="eyebrow">Gap fill · this week</div><h2>China</h2></div><button class="copy" data-target="p1" type="button">Copy prompt</button></div>
+  <p class="why">12 entries. Four areas missing: drones, gunnery, counter-fire and sustainment.</p>
+  <details><summary>Show the prompt (57 lines)</summary><pre id="p1">You are researching artillery and fire support for a learning reference used by military professionals. Use open sources only. Do not use classified, restricted, export-controlled or leaked material.
+
+Country: China
+This prompt fills standing gaps in the reference; there is no date limit, so use the best source of any date. Recent news is collected separately.
+
+RESEARCH PLAN. Build your plan with one step for each TASK below, then a final step to check every source link. Do not drop any task.
+
+SOURCE RULES (read first)
+- Every source must be a real page you opened. Give the exact page title, the publisher, the year and the full URL.
+- Do not build or guess URLs. If you cannot find a working link, give the title and publisher and write &quot;No link found&quot;.
+- Prefer official government and armed forces pages, parliamentary and audit reports, recognised research institutes and established defence press. Mark manufacturer, state-media and single-source claims &quot;Reported&quot;.
+- If sources disagree, give each figure with its own source. Do not fill gaps with another army’s doctrine; write &quot;Not found in open sources: ...&quot; instead.
+
+The reference already holds these 12 entries for China. Do not repeat them. If one is wrong or out of date, list it under &quot;Corrections&quot; at the end with the entry title, what is wrong and the source.
+- Liaison and Fire Support Integration — From Military Regions to Joint Theatre Commands
+- Guns, Howitzers and Mortars — Group Armies and Combined Arms Brigades
+- Guns, Howitzers and Mortars — Amphibious Brigades Opposite Taiwan
+- Digital Fires and Targeting — System Destruction Warfare
+- Digital Fires and Targeting — From Strategic Support Force to Information Support Force: The Integrated Command Platform
+- Target Acquisition — SLC-2 Radar and the KVD002 Drone
+- Ammunition and Effects — WS-35 and GP155 Guided Shells
+- Guns, Howitzers and Mortars — PCL-181 155mm Truck Howitzer
+- Guns, Howitzers and Mortars — PLZ-05 155mm Tracked Howitzer
+- Rocket and Missile Artillery — PHL-191 (PHL-16) Modular Rocket Launcher
+- Guns, Howitzers and Mortars — PCL-171 and Self-Propelled Mortars
+- Liaison and Fire Support Integration — The “Five Cannots”: The PLA’s Own Doubts
+
+TASK A: Fill the gaps. Write 1 or 2 entries for each of these areas:
+- Rocket and Missile Artillery: THIN (1 entry)
+- Loitering Munitions and Armed Drones: MISSING
+- Ammunition and Effects: THIN (1 entry)
+- Target Acquisition: THIN (1 entry)
+- Technical Fire Direction and Gunnery: MISSING
+- Counter-Fire and Force Protection: MISSING
+- Sustainment: MISSING
+
+TASK B: Training. Write 1 or 2 entries on how China trains its gunners, observers and fire planners: schools, courses and major exercises, with dates.
+
+TASK C: Lessons. Write 1 or 2 entries on what China’s artillery has learned, or is reported to have learned, from operations, exercises or recent conflicts.
+
+ENTRY FORMAT. Use exactly these numbered fields for every entry:
+1. Title: in title case
+2. Area: one of the ten areas above
+3. Section: Forces, TTPs, Equipment, Training or Lessons
+4. Force: the service or branch
+5. Echelon: Company, Battery, Battalion, Regiment, Brigade, Division, Corps or Theatre
+6. What: 1 or 2 sentences
+7. How: 3 to 5 numbered points
+8. Why: 1 or 2 sentences
+9. Compare with the US: one factual sentence
+10. Confidence: Confirmed (official or primary source), Reported (press, vendor or a single unverified source) or Analysis (assessment)
+11. As of: month and year
+12. Sources: title, publisher, year and full URL for each
+
+FOR LEARNERS. Each entry teaches one point a reader can remember and compare. Keep each line short and concrete. Prefer one strong official source over several weak ones.
+
+STYLE. Plain, factual UK English. Short sentences. No intensifiers such as &quot;highly&quot;, &quot;massive&quot;, &quot;devastating&quot;, &quot;absolutely&quot; or &quot;incredibly&quot;. Start a line with &quot;Reported:&quot; when that line rests on press or vendor claims, even inside a Confirmed entry. Keep official names in their own spelling.
+</pre></details>
+</article>
+  <article class="card">
+  <div class="card-head"><div><div class="eyebrow">Gap fill · this week</div><h2>India</h2></div><button class="copy" data-target="p2" type="button">Copy prompt</button></div>
+  <p class="why">New army. Starts with the May 2025 India–Pakistan clash, which the first report left out, then the remaining gaps.</p>
+  <details><summary>Show the prompt (63 lines)</summary><pre id="p2">You are researching artillery and fire support for a learning reference used by military professionals. Use open sources only. Do not use classified, restricted, export-controlled or leaked material.
+
+Country: India
+This prompt fills standing gaps in the reference; there is no date limit, so use the best source of any date. Recent news is collected separately.
+
+RESEARCH PLAN. Build your plan with one step for each TASK below, then a final step to check every source link. Do not drop any task.
+
+SOURCE RULES (read first)
+- Every source must be a real page you opened. Give the exact page title, the publisher, the year and the full URL.
+- Do not build or guess URLs. If you cannot find a working link, give the title and publisher and write &quot;No link found&quot;.
+- Prefer official government and armed forces pages, parliamentary and audit reports, recognised research institutes and established defence press. Mark manufacturer, state-media and single-source claims &quot;Reported&quot;.
+- If sources disagree, give each figure with its own source. Do not fill gaps with another army’s doctrine; write &quot;Not found in open sources: ...&quot; instead.
+
+The reference already holds these 20 entries for India. Do not repeat them. If one is wrong or out of date, list it under &quot;Corrections&quot; at the end with the entry title, what is wrong and the source.
+- Liaison and Fire Support Integration — The Regiment of Artillery: Organisation
+- Liaison and Fire Support Integration — Fire Support with Infantry and Armour
+- Guns, Howitzers and Mortars — The Field Artillery Rationalisation Plan: Everything to 155mm
+- Guns, Howitzers and Mortars — Dhanush 155mm/45 Towed Howitzer
+- Guns, Howitzers and Mortars — ATAGS: The Indian 155mm/52 Towed Gun
+- Guns, Howitzers and Mortars — K9 Vajra-T Tracked Self-Propelled Howitzer
+- Rocket and Missile Artillery — Pinaka Rocket Launcher
+- Rocket and Missile Artillery — BM-30 Smerch: Deep Rocket Fire
+- Loitering Munitions and Armed Drones — Loitering Munitions in the Artillery: Shaktibaan and Divyastra
+- Ammunition and Effects — 155mm Ammunition: One Family for Every Gun
+- Target Acquisition — Swathi Weapon Locating Radar
+- Technical Fire Direction and Gunnery — Gun Computers, Muzzle Velocity Radars and Automatic Laying
+- Digital Fires and Targeting — Shakti: India’s Artillery Command and Control System
+- Counter-Fire and Force Protection — Shoot and Scoot
+- Sustainment — Building Guns at Home: State Factories and Private Firms
+- Technical Fire Direction and Gunnery — The School of Artillery, Deolali
+- Liaison and Fire Support Integration — Yudh Abhyas 2026: Indian and US Gunners Fire Together
+- Counter-Fire and Force Protection — Kargil 1999: Massed Guns and the Missing Radars
+- Loitering Munitions and Armed Drones — Why India Is Buying Mobility and Loitering Munitions
+- Guns, Howitzers and Mortars — Guns for the Mountains: M777 and a Paradroppable 105mm
+
+TASK A: The May 2025 India–Pakistan clash (Operation Sindoor). Write 2 or 3 entries on the artillery, rocket, drone, loitering munition and counter-battery side: what Indian fires units did, which systems were used, what each side claims, and the lessons India has drawn or is reported to have drawn. Give each side&#x27;s claims with their own sources; mark official claims that no one else confirms as &quot;Reported&quot;.
+
+TASK B: Fill the gaps. Write 1 or 2 entries for each of these areas:
+- Ammunition and Effects: THIN (1 entry)
+- Target Acquisition: THIN (1 entry)
+- Digital Fires and Targeting: THIN (1 entry)
+- Sustainment: THIN (1 entry)
+
+TASK C: Strengthen the evidence. These entries rest on assessment or have no linked source. For each, find an official or established source that confirms or corrects it, or write &quot;No public source found&quot;:
+- Why India Is Buying Mobility and Loitering Munitions
+
+ENTRY FORMAT. Use exactly these numbered fields for every entry:
+1. Title: in title case
+2. Area: one of the ten areas above
+3. Section: Forces, TTPs, Equipment, Training or Lessons
+4. Force: the service or branch
+5. Echelon: Company, Battery, Battalion, Regiment, Brigade, Division, Corps or Theatre
+6. What: 1 or 2 sentences
+7. How: 3 to 5 numbered points
+8. Why: 1 or 2 sentences
+9. Compare with the US: one factual sentence
+10. Confidence: Confirmed (official or primary source), Reported (press, vendor or a single unverified source) or Analysis (assessment)
+11. As of: month and year
+12. Sources: title, publisher, year and full URL for each
+
+FOR LEARNERS. Each entry teaches one point a reader can remember and compare. Keep each line short and concrete. Prefer one strong official source over several weak ones.
+
+STYLE. Plain, factual UK English. Short sentences. No intensifiers such as &quot;highly&quot;, &quot;massive&quot;, &quot;devastating&quot;, &quot;absolutely&quot; or &quot;incredibly&quot;. Start a line with &quot;Reported:&quot; when that line rests on press or vendor claims, even inside a Confirmed entry. Keep official names in their own spelling.
+</pre></details>
+</article>
+  <section class="return"><h3>When a report is ready</h3><p>Upload the PDF in the Claude session. Every source is checked before anything goes into the app.</p></section>
+  <section class="queue"><h3>Coming next</h3><ul><li><span class="day">Next week</span><span class="who">South Korea</span><span class="note">17 entries; no ammunition or training entries</span></li><li><span class="day">Next week</span><span class="who">Japan</span><span class="note">17 entries; no lessons from operations</span></li><li><span class="day">Next week</span><span class="who">North Korea</span><span class="note">18 entries; five rest on assessment only; no training</span></li><li><span class="day">Week after</span><span class="who">Australia</span><span class="note">18 entries; no training entries</span></li><li><span class="day">Week after</span><span class="who">Russia</span><span class="note">27 entries; thin on liaison, ammunition and gunnery</span></li><li><span class="day">Week after</span><span class="who">US source links</span><span class="note">One combined prompt for sources the Archivist agent could not find</span></li><li><span class="day">1 December</span><span class="who">Monthly updates</span><span class="note">Four regional prompts (South Asia now included), from 24 November 2026</span></li></ul></section>
+</div>
+<div class="toast" id="toast" hidden>Copied</div>
+<script>
+document.querySelectorAll('button.copy').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var pre = document.getElementById(b.dataset.target);
+    var text = pre.textContent;
+    var done = function () { var t = document.getElementById('toast'); t.textContent = 'Copied'; t.hidden = false; setTimeout(function () { t.hidden = true; }, 1600); };
+    var fallback = function () { var d = pre.closest('details'); if (d) d.open = true; var r = document.createRange(); r.selectNodeContents(pre); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); var t = document.getElementById('toast'); t.textContent = 'Selected. Copy with your device'; t.hidden = false; setTimeout(function () { t.hidden = true; }, 2200); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, fallback); else fallback();
+  });
+});
+</script>

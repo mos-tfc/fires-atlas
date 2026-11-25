@@ -7,6 +7,8 @@ const country = process.argv[2];
 // Changes since the last update normally come from the monthly mass update (tools/mass_prompt.mjs).
 // Add --with-changes to put them in this army's prompt too (e.g. when only one army needs an update).
 const withChanges = process.argv.includes('--with-changes');
+// --focus "<text>": a specific question to research first (e.g. a recent conflict the reference lacks).
+const fi = process.argv.indexOf('--focus'); const focus = fi > 0 ? process.argv[fi + 1] : '';
 const LEDGER = JSON.parse(fs.readFileSync(new URL('../ops/research/LAST_UPDATED.json', import.meta.url), 'utf8'));
 if (!country) { console.error('Give a country name, e.g. "South Korea"'); process.exit(1); }
 const src = fs.readFileSync(new URL('../src/FiresAtlas.jsx', import.meta.url), 'utf8').split('\n');
@@ -47,8 +49,9 @@ out.push(`The reference already holds these ${E.length} entries for ${country}. 
 E.forEach((e) => out.push(`- ${AREA[e.topic] || e.topic} — ${e.title}`));
 out.push('');
 let task = 'A';
+if (focus) { out.push(`TASK ${task}: ${focus}`, ''); task = 'B'; }
 if (withChanges) {
-out.push(`TASK A: What changed since ${sinceText}. List each item with its date and source, newest first:`,
+out.push(`TASK ${task}: What changed since ${sinceText}. List each item with its date and source, newest first:`,
   '- New or changed equipment: orders, deliveries, first firings, retirements, upgrades',
   '- Organisation: units formed, merged, re-equipped or renamed',
   '- Doctrine, training and schools: new publications, courses or methods',
@@ -57,7 +60,7 @@ out.push(`TASK A: What changed since ${sinceText}. List each item with its date 
   'For each, say which existing entry it updates (by title) or whether it needs a new entry. If nothing changed in an area, write "No change found". Write only what has happened; skip announcements of future plans unless officially confirmed.');
 if (news.length) out.push(`Already recorded as news (do not repeat): ${news.join('; ')}.`);
 out.push('');
-task = 'B';
+task = String.fromCharCode(task.charCodeAt(0) + 1);
 }
 if (gaps.length) {
   out.push(`TASK ${task}: Fill the gaps. Write 1 or 2 entries for each of these areas:`);
