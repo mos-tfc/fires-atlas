@@ -1,0 +1,924 @@
+India: Artillery and Fire Support Reference
+
+Research date: 24 November 2026
+
+PART A: OVERVIEW
+
+ 1. Army name: Indian Army (Regiment of Artillery). The Indian Air Force and Indian Navy
+ operate air-launched and naval strike weapons, including BrahMos, but land-based tube,
+ rocket, and surface-to-surface fire support belongs to the Indian Army.
+ 2. Theme: Massed 155mm Mediumisation, Indigenous Rockets and Mountain Firepower
+ 3. Description: The Indian Army organises its fire support under the Regiment of Artillery,
+ one of its largest combat arms, structured into regiments supporting infantry, armoured,
+ and mountain formations. Since the 1999 Kargil conflict, doctrine has prioritised
+ "mediumisation"—standardising on 155mm calibre guns—and indigenisation under the
+ Field Artillery Rationalisation Plan (FARP). Its fire support is distinct for balancing high-
+ altitude mountain warfare requirements against desert and plains mechanised
+ operations across two active borders. Recent reforms integrate indigenous rockets,
+ digital fire control, and loitering munitions into dedicated artillery formations.
+ 4. Order of battle (as of September–November 2026):
+ ○ Army / Corps level: Artillery Divisions and Independent Artillery Brigades
+ operating long-range rocket and missile systems (Pinaka, BM-30 Smerch,
+ Suryastra PULS) and counter-fire radars (Swathi WLR).
+ ○ Division level: Divisional Artillery Brigades (typically 3–5 regiments) fielding
+ 155mm towed (FH-77B Bofors, Dhanush, Sharang, M777, ATAGS on order),
+ 155mm self-propelled (K9 Vajra-T), and legacy 105mm/122mm/130mm field and
+ medium regiments.
+ ○ Regiment / Battery level: Artillery Regiments (typically 18 guns across 3
+ batteries of 6 guns, or 18 rocket launchers per regiment), plus emerging
+ Shaktibaan regiments and Divyastra batteries integrating loitering munitions.
+ ○ Active inventory (Reported as of 23 September 2026): 4,856 active artillery
+ systems—4,436 towed pieces (including 2,400 Indian Field Guns 105mm, 660
+ M-46 130mm, 520 D-30 122mm, 300 FH-77B, 180 M-46 Soltam, 159 Sharang,
+ 145 M777, 72 Dhanush), 100 K9 Vajra-T self-propelled howitzers, and 320 rocket
+ launchers (150 Agnibaan/Grad, 126 Pinaka, 42 Smerch, 2 Suryastra PULS).
+ 5. Region: South Asia (new region).
+
+PART B: ENTRIES
+
+Entry 1
+ 1. Title: Regiment of Artillery Organisation
+ 2. Area: Liaison and Fire Support Integration
+ 3. Section: Forces
+ 4. Force: Indian Army
+ 5. Echelon: Regiment / Brigade, Division, Corps / Army
+ 6. What: The Regiment of Artillery is the Indian Army's single fire-support arm, providing
+ tube, rocket, surveillance, and target acquisition assets across all operational formations.
+ 7. How:
+ 1. Regiments are grouped into Artillery Brigades at division level and Artillery
+ Divisions at corps or army level.
+ 2. Each field or medium regiment typically fields three firing batteries.
+ 3. Rocket regiments operate multi-barrel launchers such as Pinaka and Smerch for
+ deep area fires.
+ 4. Surveillance and Target Acquisition (SATA) units provide radar, drone, and
+ acoustic locating support.
+ 8. Why: Centralising fire support under one arm allows the Indian Army to mass fires
+ rapidly at decisive points, as demonstrated during the 1999 Kargil conflict.
+ 9. Compare with the US: Like the US Army Field Artillery Branch, it centralises doctrine
+ and training, though Indian artillery retains a heavier proportion of towed regiments.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: Regiment of Artillery: Structure and History, India Defence Wire, 2026, https://
+ indiadefencewire.com/defence-ecosystem/defence-equipment-in-india/artillery/regiment-
+ of-artillery-structure ; Indian Army Equipment 2026: Tanks, Artillery & Vehicles,
+ GlobalMilitary, 23 September 2026, https://www.globalmilitary.net/armies/ind/
+
+Entry 2
+
+ 1. Title: Combined-Arms Fire Support Integration
+ 2. Area: Liaison and Fire Support Integration
+ 3. Section: TTPs
+ 4. Force: Indian Army
+ 5. Echelon: Battalion, Regiment / Brigade
+ 6. What: Indian artillery integrates closely with infantry and armour through embedded
+ artillery officers and digital fire-planning networks to synchronise fire with manoeuvre.
+ 7. How:
+ 1. Artillery officers co-locate with supported infantry and armoured headquarters to
+ advise on fire planning.
+ 2. Digital fire-control nodes link observers, command posts, and firing batteries.
+ 3. Integrated Battle Groups (IBGs) practise combined-arms fire support in
+ mountainous and desert terrain.
+ 8. Why: Close integration ensures rounds land on target at the exact moment manoeuvre
+ units assault, which Indian doctrine treats as decisive.
+ 9. Compare with the US: Mirrors the US Army Fire Support Team (FiST) and Brigade Fire
+ Support Element model, though India is still rolling out Integrated Battle Groups.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: Regiment of Artillery: Structure and History, India Defence Wire, 2026, https://
+ indiadefencewire.com/defence-ecosystem/defence-equipment-in-india/artillery/regiment-
+ of-artillery-structure ; Pinaka at Yudh Abhyas: India's home-grown rocket launcher fires
+ at Mahajan, India Defence Wire, 24 September 2026, https://indiadefencewire.com/
+ articles/pinaka-at-yudh-abhyas-mahajan-rocket-launcher-drdo
+
+Entry 3
+
+ 1. Title: Field Artillery Rationalisation Plan (FARP)
+ 2. Area: Guns, Howitzers and Mortars
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Corps / Army
+ 6. What: Approved in 1999, FARP is India's long-term programme to standardise its
+ artillery on 155mm calibre systems across towed, mounted, ultra-light, and tracked
+ classes.
+ 7. How:
+ 1. Replaces legacy 105mm, 122mm, and 130mm guns with 155mm/45-calibre and
+ 155mm/52-calibre howitzers.
+ 2. Combines indigenous designs (Dhanush, ATAGS) with licence-built (K9 Vajra-T)
+ and imported (M777) platforms.
+ 3. Upgrades existing 130mm M-46 guns to 155mm/45-calibre Sharang howitzers as
+ an interim measure.
+ 8. Why: Standardising on 155mm simplifies ammunition logistics and increases range and
+ lethality across both mountain and plains sectors.
+ 9. Compare with the US: The US Army already standardised on 155mm for medium/
+ heavy tube artillery decades ago, whereas India still operates thousands of 105mm,
+ 122mm, and 130mm tubes.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: Field Artillery Rationalisation Plan, Wikipedia, 2026, https://en.wikipedia.org/
+ wiki/Field_Artillery_Rationalisation_Plan ; Artillery Systems: Mediumisation And
+ Indigenisation of Indian Artillery, Indian Military Review, 10 February 2020, https://
+ imrmedia.in/artillery-systems-mediumisation-and-indigenisation-of-indian-artillery/
+
+Entry 4
+
+ 1. Title: Dhanush 155mm/45-Calibre Towed Howitzer
+ 2. Area: Guns, Howitzers and Mortars
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Regiment / Brigade
+ 6. What: Dhanush is an indigenous 155mm/45-calibre towed howitzer developed from the
+ Bofors FH-77B design, with 72 active and additional orders planned.
+ 7. How:
+ 1. Manufactured domestically by Advanced Weapons and Equipment India Limited
+ (AWEIL).
+ 2. Reported: Fires to a range of 38–40 km, outranging the original FH-77B.
+ 3. Reported: In March 2026, India moved to order 300 additional Dhanush guns to
+ raise 15 new artillery regiments.
+ 8. Why: Dhanush provides a proven, domestically produced 155mm backbone to replace
+ ageing towed guns at scale.
+ 9. Compare with the US: Unlike the US Army's lightweight towed M777A2, Dhanush is a
+ heavier 45-calibre gun with an auxiliary power unit for short-distance self-propulsion.
+ 10. Confidence: Reported
+ 11. As of: November 2026
+ 12. Sources: India to Order 300 Dhanush 155mm Howitzers to Form 15 New Artillery
+ Regiments, Army Recognition, 6 March 2026, https://www.armyrecognition.com/news/
+ army-news/2026/india-to-order-300-dhanush-155mm-howitzers-to-form-15-new-artillery-
+ regiments ; Indian Army Equipment 2026, GlobalMilitary, 23 September 2026, https://
+ www.globalmilitary.net/armies/ind/
+
+Entry 5
+
+ 1. Title: Advanced Towed Artillery Gun System (ATAGS)
+ 2. Area: Guns, Howitzers and Mortars
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Regiment / Brigade
+ 6. What: ATAGS is an indigenous 155mm/52-calibre towed howitzer developed by DRDO
+ with Bharat Forge and Tata Advanced Systems, with 307 guns on order.
+ 7. How:
+ 1. Uses an all-electric drive for gun laying, loading, and ramming to reduce
+ hydraulic maintenance.
+ 2. Reported: Achieves a maximum range of 48 km with Extended Range Full Bore
+ Base Bleed (ERFB-BB) ammunition.
+ 3. Integrates with the Shakti ACCCS digital fire-control system and features an
+ Automatic Gun Alignment and Positioning System (AGAPS).
+ 8. Why: ATAGS gives Indian towed regiments 52-calibre range and high burst rates of fire
+ without foreign supply-chain dependencies.
+ 9. Compare with the US: ATAGS uses a 52-calibre barrel for longer range than the US
+ Army's 39-calibre M777A2, at the cost of significantly greater weight.
+ 10. Confidence: Reported
+ 11. As of: November 2026
+ 12. Sources: From Rajasthan To Siachen: ATAGS To Revolutionise Artillery Warfare For
+ Indian Army, Defence Stories, 14 July 2025, https://defencestories.com/2025/07/14/from-
+ rajasthan-to-siachen-atags-to-revolutionise-artillery-warfare-for-indian-army-1st-
+ regiment-expected-within-a-year/ ; Indian Army Equipment 2026, GlobalMilitary, 23
+ September 2026, https://www.globalmilitary.net/armies/ind/
+
+Entry 6
+
+ 1. Title: K9 Vajra-T Tracked Self-Propelled Howitzer
+ 2. Area: Guns, Howitzers and Mortars
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Regiment / Brigade, Division
+ 6. What: The K9 Vajra-T is a 155mm/52-calibre tracked self-propelled howitzer licence-built
+ in India by Larsen & Toubro from South Korea's Hanwha K9 design.
+ 7. How:
+ 1. 100 systems are in active service, with a second batch of 100 on order.
+ 2. On 26 October 2026, the Defence Acquisition Council granted Acceptance of
+ Necessity for additional K9 Vajra-T howitzers.
+ 3. Newer batches incorporate engine modifications for high-altitude mountain
+ operations alongside desert and plains roles.
+ 8. Why: Tracked self-propelled guns give mechanised formations and mountain sectors
+ mobile, armoured firepower capable of rapid shoot-and-scoot survivability.
+ 9. Compare with the US: Outranges the US Army's 39-calibre M109A7 Paladin due to its
+ 52-calibre gun tube.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: India clears fresh artillery and helicopter buys worth ₹2.12 lakh crore,
+ Economic Times Defence, 28 October 2026, https://
+ defence.economictimes.indiatimes.com/news/military-systems/india-clears-fresh-
+ artillery-and-helicopter-buys-worth-2-12-lakh-crore/135229982 ; Field Artillery
+ Rationalisation Plan, Wikipedia, 2026, https://en.wikipedia.org/wiki/
+ Field_Artillery_Rationalisation_Plan
+
+Entry 7
+
+ 1. Title: Pinaka Multi-Barrel Rocket Launcher (MBRL)
+ 2. Area: Rocket and Missile Artillery
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Regiment / Brigade, Corps / Army
+ 6. What: Pinaka is an indigenous 214mm truck-mounted rocket artillery system fielded in
+ Mk1, Mk2, Extended Range, and guided variants.
+ 7. How:
+ 1. Each launcher carries 12 rockets and can fire a full salvo in 44 seconds.
+ 2. A six-launcher battery delivers 72 rockets onto a target area in under one minute
+ before relocating ("shoot and scoot").
+ 3. On 8 July 2026, a guided Pinaka flight test at Chandipur proved the rocket at a
+ user-defined minimum range of 60 km.
+ 8. Why: Pinaka delivers rapid, high-volume area and precision fires against troop
+ concentrations, gun positions, and logistics hubs.
+ 9. Compare with the US: Pinaka bridges the gap between unguided area rockets and US
+ HIMARS/GMLRS, with guided Pinaka variants moving toward precision strike.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: Pinaka at Yudh Abhyas: India's home-grown rocket launcher fires at Mahajan,
+ India Defence Wire, 24 September 2026, https://indiadefencewire.com/articles/pinaka-at-
+ yudh-abhyas-mahajan-rocket-launcher-drdo ; Indian Artillery Systems, India Defence
+ Wire, 2026, https://indiadefencewire.com/defence-ecosystem/defence-equipment-in-
+ india/artillery/indian-artillery-systems
+
+Entry 8
+
+ 1. Title: BM-30 Smerch and Suryastra PULS Long-Range Rockets
+ 2. Area: Rocket and Missile Artillery
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Corps / Army
+ 6. What: For deep corps-level rocket fires, the Indian Army operates Russian-designed
+ 300mm BM-30 Smerch launchers and has begun inducting Suryastra (PULS) launchers.
+ 7. How:
+ 1. 42 BM-30 Smerch launchers provide heavy salvo fires out to 70–90 km.
+ 2. Reported: 2 Suryastra (PULS) multi-calibre rocket launchers are recorded in
+ active inventory as of September 2026.
+ 3. Smerch complements Pinaka by reaching deeper operational targets beyond
+ 155mm gun and standard Pinaka ranges.
+ 8. Why: Long-range rocket systems allow corps commanders to strike enemy reserves,
+ command posts, and supply nodes deep behind the front line.
+ 9. Compare with the US: Fulfills a role comparable to US Army M270A2 MLRS and
+ HIMARS battalions firing GMLRS and ATACMS.
+ 10. Confidence: Reported
+ 11. As of: November 2026
+ 12. Sources: Indian Army Equipment 2026, GlobalMilitary, 23 September 2026, https://
+ www.globalmilitary.net/armies/ind/ ; Artillery Systems: Mediumisation And Indigenisation
+ of Indian Artillery, Indian Military Review, 10 February 2020, https://imrmedia.in/artillery-
+ systems-mediumisation-and-indigenisation-of-indian-artillery/
+
+Entry 9
+ 1. Title: Loitering Munition Induction and Shaktibaan Regiments
+ 2. Area: Loitering Munitions and Armed Drones
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Regiment / Brigade, Division
+ 6. What: The Indian Army is integrating loitering munitions directly into its artillery order of
+ battle through new Shaktibaan regiments and Divyastra batteries.
+ 7. How:
+ 1. On 14 August 2026, the Ministry of Defence signed two contracts worth ₹1,577
+ crore for loitering munition systems.
+ 2. Tata Advanced Systems will supply 54 launch systems and 540 munitions; NIBE
+ Private Limited will supply 30 launch systems and 300 munitions.
+ 3. These systems equip Shaktibaan regiments and Divyastra formations for organic
+ precision strike.
+ 8. Why: Dedicated loitering munition units give artillery commanders organic, persistent
+ precision strike against high-value and mobile targets.
+ 9. Compare with the US: The US Army fields loitering munitions (such as Switchblade)
+ primarily at infantry and manoeuvre echelons, whereas India is also embedding them
+ inside dedicated artillery regiments.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: MoD inks Rs 1577 crore contracts for Loiter Munition Systems, Press
+ Information Bureau, 14 August 2026, https://www.pib.gov.in/PressReleasePage.aspx?
+ PRID=2299561 ; India signs ₹1,577-crore contracts for Army's loitering munitions, India
+ Strategic, 31 October 2026, https://www.indiastrategic.in/india-signs-%E2%82%B91577-
+ crore-contracts-for-armys-loitering-munitions-strengthening-precision-strike-capabilities/
+
+Entry 10
+
+ 1. Title: 155mm Ammunition Standardisation and Extended-Range Rounds
+ 2. Area: Ammunition and Effects
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Company / Battery, Regiment / Brigade
+ 6. What: Indian 155mm guns are required to fire NATO-standard 155mm ammunition
+ alongside indigenous extended-range base-bleed shells.
+ 7. How:
+ 1. Procurement tenders for new towed and mounted 155mm guns mandate
+ compatibility with all existing 155mm rounds in Indian Army inventory.
+ 2. Extended Range Full Bore – Base Bleed (ERFB-BB) rounds allow 52-calibre
+ guns like ATAGS to reach 48 km.
+ 3. Guided rockets are entering service for Pinaka to add precision point-target
+ effects alongside area salvos.
+ 8. Why: Ammunition commonality across diverse 155mm platforms reduces logistical
+ friction during high-intensity operations.
+ 9. Compare with the US: Both armies rely on NATO-standard 155mm projectiles, though
+ India is still phasing out legacy 105mm, 122mm, and 130mm stockpiles.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: Field Artillery Rationalisation Plan, Wikipedia, 2026, https://en.wikipedia.org/
+ wiki/Field_Artillery_Rationalisation_Plan ; From Rajasthan To Siachen: ATAGS To
+ Revolutionise Artillery Warfare For Indian Army, Defence Stories, 14 July 2025, https://
+ defencestories.com/2025/07/14/from-rajasthan-to-siachen-atags-to-revolutionise-
+ artillery-warfare-for-indian-army-1st-regiment-expected-within-a-year/
+
+Entry 11
+
+ 1. Title: Swathi Weapon Locating Radar (WLR)
+ 2. Area: Target Acquisition
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Regiment / Brigade, Division
+ 6. What: Swathi is an indigenous C-band phased-array counter-battery radar developed by
+ DRDO's LRDE and built by Bharat Electronics Limited (BEL).
+ 7. How:
+ 1. Detects and tracks incoming 81mm+ mortars (2–20 km), 105mm+ artillery shells
+ (2–30 km), and 120mm+ unguided rockets (4–48 km).
+ 2. Tracks up to 7 targets simultaneously and stores up to 99 weapon locations on a
+ 100 × 100 km digital map.
+ 3. Operates in two modes: Weapon Location Mode for enemy guns and Direction of
+ Own Artillery Fire (DOOAF) Mode to adjust friendly fire.
+ 4. Fielded in Plains (Tatra 8×8, 43 in service) and Mountains Mk2 (Tatra 6×6, 6 in
+ service) variants.
+ 8. Why: Swathi closed the counter-battery gap exposed during the 1999 Kargil War, where
+ enemy artillery caused the majority of Indian casualties.
+ 9. Compare with the US: Performs the same counter-fire locating mission as the US
+ Army's AN/TPQ-53 radar, with a dedicated lighter variant for Himalayan terrain.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: DRDO Hands Over its Developed Products to Indian Army, Press Information
+ Bureau, 2 March 2017, https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=158803 ;
+ Swathi Weapon Locating Radar, Wikipedia, 2026, https://en.wikipedia.org/wiki/
+ Swathi_Weapon_Locating_Radar
+
+Entry 12
+
+ 1. Title: Onboard Gun Ballistic Computers and Muzzle Velocity Radars
+ 2. Area: Technical Fire Direction and Gunnery
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Company / Battery
+ 6. What: Modern Indian howitzers such as ATAGS and Dhanush incorporate onboard
+ ballistic computers, muzzle velocity radars, and inertial alignment systems.
+ 7. How:
+ 1. Automatic Gun Alignment and Positioning Systems (AGAPS) enable rapid laying
+ without manual survey.
+ 2. Muzzle velocity radars measure projectile exit speed to refine firing solutions.
+ 3. Optronic and thermal sights allow direct-fire and night operations in low visibility.
+ 8. Why: Automating technical gunnery shortens the time from halting to first round fired
+ and improves first-round accuracy.
+ 9. Compare with the US: Equivalent to the Digital Fire Control System (DFCS) fitted to US
+ Army M777A2 and M109A7 howitzers.
+ 10. Confidence: Reported
+ 11. As of: November 2026
+ 12. Sources: From Rajasthan To Siachen: ATAGS To Revolutionise Artillery Warfare For
+ Indian Army, Defence Stories, 14 July 2025, https://defencestories.com/2025/07/14/from-
+ rajasthan-to-siachen-atags-to-revolutionise-artillery-warfare-for-indian-army-1st-
+ regiment-expected-within-a-year/
+
+Entry 13
+
+ 1. Title: Project Shakti (ACCCS) Digital Fire Control
+ 2. Area: Digital Fires and Targeting
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Company / Battery, Regiment / Brigade, Division, Corps / Army
+ 6. What: Project Shakti is the Indian Army's indigenous Artillery Combat Command and
+ Control System (ACCCS), developed by DRDO and BEL to automate artillery C2.
+ 7. How:
+ 1. Automates technical fire control and tactical fire control across echelons.
+ 2. Manages fire planning, deployment management, and operational logistics.
+ 3. Links target acquisition sensors directly to firing units such as ATAGS and Pinaka
+ batteries.
+ 8. Why: Shakti reduces sensor-to-shooter latency and allows commanders to concentrate
+ fires across multiple regiments simultaneously.
+ 9. Compare with the US: Functions as the Indian equivalent of the US Army's Advanced
+ Field Artillery Tactical Data System (AFATDS).
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: SHAKTI dedication to Indian Army, Press Information Bureau, 12 June 2009,
+ https://www.pib.gov.in/newsite/erelcontent.aspx?relid=49161 ; Advanced Towed Artillery
+ Gun System (ATAGS), Drishti IAS, 16 August 2022, https://www.drishtiias.com/daily-
+ updates/daily-news-analysis/advanced-towed-artillery-gun-system-atags
+
+Entry 14
+
+ 1. Title: Shoot-and-Scoot Counter-Fire Survivability
+ 2. Area: Counter-Fire and Force Protection
+ 3. Section: TTPs
+ 4. Force: Indian Army
+ 5. Echelon: Company / Battery
+ 6. What: Indian rocket and self-propelled artillery units practise rapid "shoot-and-scoot"
+ drills to evade enemy counter-battery fire.
+ 7. How:
+ 1. Pinaka batteries fire a 72-rocket salvo in under 44 seconds and immediately
+ displace.
+ 2. Tracked K9 Vajra-T and upcoming 155mm/52-calibre Mounted Gun Systems
+ (MGS) provide rapid relocation after firing.
+ 3. Swathi WLR units are designed to decamp quickly if threatened by incoming
+ counter-fire.
+ 8. Why: Modern counter-battery radars and drones make static firing positions untenable in
+ high-intensity conflict.
+ 9. Compare with the US: Aligns closely with US Army survivability move doctrine for
+ HIMARS and Paladin batteries.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: Pinaka at Yudh Abhyas: India's home-grown rocket launcher fires at Mahajan,
+ India Defence Wire, 24 September 2026, https://indiadefencewire.com/articles/pinaka-at-
+ yudh-abhyas-mahajan-rocket-launcher-drdo ; India clears fresh artillery and helicopter
+ buys worth ₹2.12 lakh crore, Economic Times Defence, 28 October 2026, https://
+ defence.economictimes.indiatimes.com/news/military-systems/india-clears-fresh-
+ artillery-and-helicopter-buys-worth-2-12-lakh-crore/135229982
+
+Entry 15
+
+ 1. Title: Indigenous Manufacturing and Private-Sector Sustainment
+ 2. Area: Sustainment
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Corps / Army
+ 6. What: India is shifting artillery production and sustainment from state-run ordnance
+ factories alone to a dual public-private industrial base.
+ 7. How:
+ 1. Private firms—including Bharat Forge (KSSL), Tata Advanced Systems (TASL),
+ Larsen & Toubro, and NIBE—produce guns, launchers, and loitering munitions.
+ 2. ATAGS production is split 60% to Bharat Forge and 40% to TASL.
+ 3. High-altitude and desert trials enforce a minimum 20-year service life and 1,500
+ equivalent full-charge barrel life on new towed gun tenders.
+ 8. Why: Domestic production insulates India from foreign supply disruptions during
+ protracted conflicts.
+ 9. Compare with the US: Mirrors the US defence industrial base model, though India's
+ private-sector artillery manufacturing has scaled up much more recently.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: Field Artillery Rationalisation Plan, Wikipedia, 2026, https://en.wikipedia.org/
+ wiki/Field_Artillery_Rationalisation_Plan ; Indian Artillery Systems, India Defence Wire,
+ 2026, https://indiadefencewire.com/defence-ecosystem/defence-equipment-in-india/
+ artillery/indian-artillery-systems
+
+Entry 16
+
+ 1. Title: School of Artillery, Deolali
+ 2. Area: Technical Fire Direction and Gunnery
+ 3. Section: Training
+ 4. Force: Indian Army
+ 5. Echelon: Corps / Army
+ 6. What: The School of Artillery at Deolali, Maharashtra, is the Indian Army's premier
+ institution for gunnery, tactics, doctrine, and artillery trials.
+ 7. How:
+ 1. Houses the Faculty of Gunnery, Faculty of Doctrine and Tactics, Trials and
+ Technology Wing, and simulator facilities.
+ 2. Uses the adjacent Deolali Field Firing Ranges for live-fire training and equipment
+ evaluation.
+ 3. Conducts the annual Exercise Topchi firepower demonstration and hosts allied
+ delegations, including the Sri Lankan Army in October 2026 and Singapore
+ Armed Forces for Exercise Agni Warrior.
+ 8. Why: Centralised training ensures uniform gunnery standards and rapid dissemination of
+ new equipment TTPs across the Regiment of Artillery.
+ 9. Compare with the US: Direct counterpart to the US Army Field Artillery School at Fort
+ Sill, Oklahoma.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: School of Artillery: Training Gunners to Destroy Enemy, Bharat Shakti, 12 July
+ 2025, https://bharatshakti.in/school-of-artillery-training-gunners-to-destroy-enemy/ ; Sri
+ Lankan Army artillery delegation trains in India as military ties deepen, Tamil Guardian,
+ 27 October 2026, https://www.tamilguardian.com/content/sri-lankan-army-delegation-
+ visits-artillery-training-facilities-india
+
+Entry 17
+ 1. Title: Exercise Yudh Abhyas 2026 Joint Artillery Drills
+ 2. Area: Liaison and Fire Support Integration
+ 3. Section: Training
+ 4. Force: Indian Army
+ 5. Echelon: Battalion, Regiment / Brigade
+ 6. What: Held from 15 September 2026 at Mahajan Field Firing Ranges (Rajasthan) and
+ Auli (Uttarakhand), Exercise Yudh Abhyas 2026 featured joint Indian and US artillery
+ live-fire drills.
+ 7. How:
+ 1. Indian gunners fired M777, Dhanush, and Pinaka systems alongside US troops
+ from the 11th Airborne Division.
+ 2. Practised target identification, fire-support coordination, and Integrated Battle
+ Group tactics in desert and mountain terrain.
+ 3. Integrated AH-64E Apache attack helicopters with ground fires.
+ 8. Why: Bilateral live-fire exercises refine interoperability and validate Indian indigenous
+ systems like Pinaka and Dhanush in combined operations.
+ 9. Compare with the US: Directly tests procedural interoperability between Indian ACCCS/
+ observer drills and US Army airborne fire-support procedures.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: Pinaka at Yudh Abhyas: India's home-grown rocket launcher fires at Mahajan,
+ India Defence Wire, 24 September 2026, https://indiadefencewire.com/articles/pinaka-at-
+ yudh-abhyas-mahajan-rocket-launcher-drdo ; India-US troops conduct artillery drills with
+ M777, Dhanush, Pinaka during Exercise Yudh Abhyas 2026, The Economic Times, 23
+ September 2026, https://m.economictimes.com/news/defence/india-us-troops-conduct-
+ artillery-drills-with-m777-dhanush-pinaka-during-exercise-yudh-abhyas-2026/
+ articleshow/134424983.cms
+
+Entry 18
+
+ 1. Title: Kargil War Massed Fires and Counter-Battery Lessons
+ 2. Area: Counter-Fire and Force Protection
+ 3. Section: Lessons
+ 4. Force: Indian Army
+ 5. Echelon: Division, Corps / Army
+ 6. What: The 1999 Kargil conflict proved that massed 155mm medium artillery was
+ decisive in mountain assaults, while exposing a critical lack of weapon-locating radars.
+ 7. How:
+ 1. Indian forces deployed up to 120 guns to support single battalion attacks, such
+ as at Tololing, establishing a norm of ~100 tubes per mountain battalion assault.
+ 2. Because India lacked modern fire-finding radars, enemy artillery caused roughly
+ 80% of Indian casualties.
+ 3. These lessons directly drove the Field Artillery Rationalisation Plan (155mm
+ standardisation) and the indigenous Swathi WLR programme.
+ 8. Why: Kargil remains the foundational operational reference for Indian mountain fire-
+ support density and counter-battery investment.
+ 9. Compare with the US: While the US Army shifted toward precision-guided munitions for
+ low-density counter-insurgency in the 2000s, India retained a doctrine of massed 155mm
+ volume fires.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: Artillery Systems: Mediumisation And Indigenisation of Indian Artillery, Indian
+ Military Review, 10 February 2020, https://imrmedia.in/artillery-systems-mediumisation-
+ and-indigenisation-of-indian-artillery/ ; Swathi Weapon Locating Radar, Wikipedia, 2026,
+ https://en.wikipedia.org/wiki/Swathi_Weapon_Locating_Radar
+
+Entry 19
+
+ 1. Title: Contemporary Conflict Lessons: Drones and Self-Propelled Mobility
+ 2. Area: Loitering Munitions and Armed Drones
+ 3. Section: Lessons
+ 4. Force: Indian Army
+ 5. Echelon: Regiment / Brigade, Division
+ 6. What: Lessons from recent high-intensity conflicts have accelerated India's acquisition
+ of loitering munitions and tracked self-propelled howitzers.
+ 7. How:
+ 1. The October 2026 approval for additional K9 Vajra-T guns reflects renewed
+ emphasis on mobility, precision, and survivability against counter-fire.
+ 2. The August 2026 ₹1,577-crore loitering munition contracts embed kamikaze
+ drones into artillery doctrine via Shaktibaan regiments.
+ 3. High-altitude engine upgrades on newer K9 Vajra-T batches adapt mobile
+ firepower for northern mountain borders.
+ 8. Why: Static towed batteries are vulnerable to drone-directed counter-fire, forcing a shift
+ toward armoured mobility and organic unmanned strike.
+ 9. Compare with the US: Parallels the US Army's post-2022 pivot toward mobile fires and
+ attritable unmanned systems.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: India clears fresh artillery and helicopter buys worth ₹2.12 lakh crore,
+ Economic Times Defence, 28 October 2026, https://
+ defence.economictimes.indiatimes.com/news/military-systems/india-clears-fresh-
+ artillery-and-helicopter-buys-worth-2-12-lakh-crore/135229982 ; India signs ₹1,577-crore
+ contracts for Army's loitering munitions, India Strategic, 31 October 2026, https://
+ www.indiastrategic.in/india-signs-%E2%82%B91577-crore-contracts-for-armys-loitering-
+ munitions-strengthening-precision-strike-capabilities/
+
+Entry 20
+ 1. Title: Mountain Air-Mobile Fire Support (M777 and Paradroppable 105mm)
+ 2. Area: Guns, Howitzers and Mortars
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Regiment / Brigade
+ 6. What: To project firepower into roadless Himalayan sectors, the Indian Army operates
+ 145 US-origin M777 ultra-light howitzers and is pursuing paradroppable 105mm
+ mounted guns.
+ 7. How:
+ 1. M777 howitzers can be underslung by heavy-lift helicopters to rapidly reinforce
+ mountain ridges.
+ 2. India and the US have discussed upgrading Indian M777s to an extended-range
+ (M777 ER) standard.
+ 3. On 11 April 2025, the DAC granted Acceptance of Necessity for a 105mm/37-
+ calibre paradroppable mounted gun system.
+ 8. Why: High-altitude borders lack dense road networks, requiring artillery that can be
+ airlifted or airdropped into isolated valleys.
+ 9. Compare with the US: Both armies use the M777 for air-mobile light formations, though
+ India's primary deployment environment is extreme high-altitude mountain terrain.
+ 10. Confidence: Confirmed
+ 11. As of: November 2026
+ 12. Sources: Field Artillery Rationalisation Plan, Wikipedia, 2026, https://en.wikipedia.org/
+ wiki/Field_Artillery_Rationalisation_Plan ; Indian Artillery Systems, India Defence Wire,
+ 2026, https://indiadefencewire.com/defence-ecosystem/defence-equipment-in-india/
+ artillery/indian-artillery-systems
+
+PART C: SYSTEMS
+ Name Type Designed in Key figures Range by Main weapon
+ round type
+ Calibre:
+ 155mm/45-cal; Reported: 38–
+Dhanush India (derived Weight/Crew/ 40 km
+(155mm/45- Guns and from Swedish RoF/Mobility/ (standard/ER
+calibre) Howitzers Bofors FH-77B) Into-out-of- not
+ action: Not differentiated)
+ stated in open
+ sources
+ATAGS Calibre: Main weapon
+(Advanced India (DRDO, 155mm/52-cal; Reported: Up (flagship
+Towed Artillery Guns and Bharat Forge, RoF: Reported to 48 km indigenous
+Gun System / Howitzers TASL) 6 rds/min; (ERFB-BB) 155mm
+Amogh) Mobility: Towed system)
+ by 6×6 HMV,
+ 45 km self-
+ propulsion; Into
+ action:
+ Reported ~85
+ sec; Weight/
+ Crew: Not
+ stated
+ Calibre:
+ South Korea 155mm/52-cal;
+ (licence-built in Mobility:
+ India by L&T); Tracked self-
+K9 Vajra-T Guns and also used by propelled; Not stated in
+ Howitzers South Korea, Weight/Crew/ cited sources
+ Poland, RoF/Into-out-
+ Australia, of-action: Not
+ others stated in cited
+ sources
+ Calibre:
+ United 155mm/39-cal;
+ Kingdom / Mobility:
+M777 Ultra- Guns and United States; Towed / air- Not stated in
+Light Howitzer Howitzers also used by mobile; Weight/ cited sources
+ US, Australia, Crew/RoF/Into-
+ Canada, out-of-action:
+ Ukraine Not stated in
+ cited sources
+ Calibre:
+Sharang India (upgrade 155mm/45-cal;
+(155mm/45- Guns and of Soviet Mobility: Not stated in
+calibre M-46 Howitzers 130mm M-46) Towed; Weight/ cited sources
+upgrade) Crew/RoF: Not
+ stated
+ Calibre:
+ 214mm; 12 Guided variant:
+ rockets per 60 km
+Pinaka (Mk1 / India (DRDO); launcher; RoF: minimum range
+Mk2 / ER / Rockets and exported to 12 rockets in tested (8 July
+Guided) Missiles Armenia 44 sec (72 per 2026); other
+ 6-launcher variants: Not
+ battery under 1 stated in cited
+ min); Mobility: sources
+ Truck-mounted
+ Calibre:
+ 300mm;
+ Russia (Soviet Mobility:
+BM-30 Smerch Rockets and Union); used Wheeled Reported: 70–
+ Missiles by Russia, launcher; 90 km
+ others Weight/Crew/
+ RoF: Not
+ stated
+ Calibre/Weight/
+Suryastra Rockets and Israel (Elbit Crew/RoF/ Not stated in
+(PULS) Missiles PULS, adapted Mobility: Not cited sources
+ for India) stated in cited
+ sources
+ C-band phased
+ array; Tatra
+ 8×8 (Plains) or Detection
+ 6×6 range: 2–20 km
+ (Mountains); 2- (81mm+
+Swathi WLR India (DRDO vehicle system; mortars), 2–30
+(Plains Mk1 / Sensors and LRDE / BEL); Tracks 7 km (105mm+
+Mountains Targeting exported to targets guns), 4–48 km
+Mk2) Armenia simultaneously, (120mm+
+ stores 99 rockets);
+ locations; Into Instrumented:
+ action: 30 min; 50 km
+ Altitude: up to
+ 4,900 m
+ Digital C2
+ network for
+ technical/
+Project Shakti Command and India (DRDO / tactical fire N/A
+(ACCCS) Control BEL) control, fire
+ planning,
+ deployment,
+ and logistics
+
+PART D: KILL CHAIN
+
+ ● Name: Sensor-to-Shooter Counter-Fire and Area Strike
+ ● Nodes: Sensor (Swathi WLR, Forward Observers, UAVs) → Command / Fire Direction
+ Node (Project Shakti ACCCS) → Shooter (Pinaka MBRL / ATAGS / K9 Vajra-T Battery)
+ → Target
+ 1. Find: Swathi WLR detects incoming enemy artillery trajectories (or observers/drones
+ locate enemy troop concentrations) and plots coordinates on a digital map. (Supporting
+ entry: Swathi Weapon Locating Radar (WLR))
+ 2. Report: Target coordinates are transmitted digitally from the sensor to the Artillery
+ Combat Command and Control System (Project Shakti). (Supporting entry: Project
+ Shakti (ACCCS) Digital Fire Control)
+ 3. Decide & Task: The command post evaluates target priority via Shakti tactical fire
+ control and assigns the mission to an available firing battery (such as Pinaka or ATAGS).
+ (Supporting entry: Project Shakti (ACCCS) Digital Fire Control)
+ 4. Fire: The firing battery computes technical firing data (via onboard ballistic computers/
+ AGAPS) and executes the fire mission—for Pinaka, 72 rockets across six launchers in
+ under 44 seconds (Reported, India Defence Wire, 24 September 2026). (Supporting
+ entry: Pinaka Multi-Barrel Rocket Launcher (MBRL))
+ 5. Move: Immediately after completing the salvo, the launchers or self-propelled guns
+ displace to avoid enemy counter-battery fire ("shoot and scoot"). (Supporting entry:
+ Shoot-and-Scoot Counter-Fire Survivability)
+ 6. Assess: Swathi WLR (in DOOAF mode), observers, or drones verify round impact and
+ battle damage to determine whether re-engagement is required. (Supporting entry:
+ Swathi Weapon Locating Radar (WLR))
+
+PART E: EXERCISES AND PARTNERSHIPS
+
+Bilateral and Multilateral Exercises (2024–2026)
+
+ ● Exercise Yudh Abhyas 2026
+ ○ Latest dates: Opened 15 September 2026.
+ ○ Host & place: India (Mahajan Field Firing Ranges, Rajasthan, and Auli,
+ Uttarakhand).
+ ○ Participants: India, United States (11th Airborne Division).
+ ○ Fires practised: Live firing of M777, Dhanush, and Pinaka; target identification;
+ joint fire-support coordination with Apache helicopters.
+ ○ Sources: India Defence Wire, 24 September 2026, https://indiadefencewire.com/
+ articles/pinaka-at-yudh-abhyas-mahajan-rocket-launcher-drdo ; The Economic
+ Times, 23 September 2026, https://m.economictimes.com/news/defence/india-
+ us-troops-conduct-artillery-drills-with-m777-dhanush-pinaka-during-exercise-
+ yudh-abhyas-2026/articleshow/134424983.cms
+ ● Exercise Agni Warrior 2024 (13th Edition)
+ ○ Latest dates: 28–30 November 2024.
+ ○ Host & place: India (Devlali Field Firing Ranges, Maharashtra).
+ ○ Participants: India, Singapore.
+ ○ Fires practised: Dedicated bilateral artillery exercise covering firepower
+ planning, live firing of indigenous artillery guns, and joint artillery drills.
+ ○ Sources: Vajiram & Ravi, 1 December 2024, https://vajiramandravi.com/current-
+ affairs/exercise-agni-warrior/ ; Adda247, 2024, https://www.adda247.com/
+ question-answer/in-november-2024-india-and-singapore-conducted-a-joint-
+ military-exercise-named-agni-warrior-2024-where-was-this-exercise-held/
+ q.v1.60e9cb57-99c9-43c5-a39d-f1c0722aa28a-en
+
+Confirmation of Reference Records
+
+ ● Talisman Sabre: Confirmed, with role updated. India was an observer in 2021 and
+ 2023, and upgraded to participant in Talisman Sabre 2025 (led by Australia and the US
+ with ~19 nations). Specific Indian artillery live-fire participation was not found in open
+ sources. (Source: BattleIAS, 25 July 2025, https://battleias.com/current-affairs/
+ 2025-07-25-indian-officers-in-talisman-sabre-bel-radar-contract/ )
+ ● Super Garuda Shield: Not found in open sources: India's specific fires role in Super
+ Garuda Shield 2025–2026. The exercise is led by Indonesia and the US with 13
+ participants and 11 observers in 2025, expanding in August 2026.
+
+Alliances, Partnerships and Standing Arrangements
+
+ ● United States: Foreign Military Sales (M777), ongoing M777 ER upgrade discussions,
+ and annual Yudh Abhyas joint artillery drills.
+ ● South Korea: Industrial co-production between Hanwha and India's Larsen & Toubro for
+ the K9 Vajra-T tracked self-propelled howitzer.
+ ● Japan: Letter of Intent signed at Tokyo 2+2 opening Indian firing ranges to host
+ Japanese live-fire training, including surface-to-ship missiles.
+ ● Singapore: Standing bilateral artillery training arrangement under Exercise Agni Warrior
+ at Deolali.
+ ● Sri Lanka: Defence cooperation agreement (April 2025) and artillery training exchanges
+ at the School of Artillery, Deolali (October 2026).
+ ● Armenia: Defence export partnership; Armenia is an export customer for India's Pinaka
+ MBRL and Swathi WLR.
+
+PART F: GLOSSARY
+ Term Full form Plain meaning Context
+ Artillery Combat India's digital fire-
+ACCCS Command and Control control and artillery C2 Indian Army
+ System network, known as
+ Project Shakti.
+ Automatic Gun Onboard inertial/digital
+AGAPS Alignment and system that aligns ATAGS / Modern Indian
+ Positioning System howitzers guns
+ automatically.
+ Formal Defence
+AoN Acceptance of Acquisition Council Indian MoD
+ Necessity approval to begin
+ procurement.
+ Armament Research DRDO's Pune-based
+ARDE and Development laboratory leading DRDO
+ Establishment ATAGS and Pinaka
+ design.
+ATAGS Advanced Towed Indigenous 155mm/52- FARP / Indian Army
+ Artillery Gun System calibre towed howitzer.
+ State-owned
+BEL Bharat Electronics electronics firm Indian defence industry
+ Limited producing Swathi WLR
+ and Shakti ACCCS.
+ India's apex body for
+DAC Defence Acquisition approving major Indian MoD
+ Council military capital
+ procurements.
+ Swathi WLR operating
+DOOAF Direction of Own mode used to track and Swathi WLR
+ Artillery Fire adjust friendly artillery
+ rounds.
+ Defence Research and India's primary state
+DRDO Development military R&D agency. Indian MoD
+ Organisation
+ Aerodynamic 155mm
+ERFB-BB Extended Range Full projectile with base 155mm Ammunition
+ Bore – Base Bleed bleed for extended
+ range.
+ 1999 master plan to
+FARP Field Artillery standardise Indian Indian Army
+ Rationalisation Plan artillery on 155mm
+ calibre.
+ Combined-arms Indian Army (Note:
+IBG Integrated Battle Group brigade-sized formation Different from US
+ integrating manoeuvre Brigade Combat Team
+ and fires. terminology)
+ Electronics and Radar DRDO laboratory that
+LRDE Development designed the Swathi DRDO
+ Establishment WLR.
+ Multi-Barrel Rocket Truck-mounted multiple Indian Army (Note: US
+MBRL Launcher rocket launcher (e.g. Army uses MLRS)
+ Pinaka, Smerch).
+ 155mm/52-calibre FARP (Note: In US
+MGS Mounted Gun System howitzer mounted on a Army, MGS historically
+ wheeled truck chassis. meant Stryker Mobile
+ Gun System)
+ Surveillance and Target Artillery units operating
+SATA Acquisition radars, drones, and Indian Army
+ locating sensors.
+ New Indian Army
+Shaktibaan Shaktibaan Regiment artillery regiment format Indian Army
+ integrating loitering
+ munitions.
+WLR Weapon Locating Counter-battery radar Indian Army
+ Radar such as Swathi.
+
+PART G: RECENT DEVELOPMENTS (May–November
+2026)
+
+ 1. 26 October 2026 — DAC clears additional K9 Vajra-T self-propelled howitzers
+ ○ What: The Defence Acquisition Council granted Acceptance of Necessity for
+ additional K9 Vajra-T tracked self-propelled howitzers as part of a ₹2.12 lakh
+ crore procurement round.
+ ○ So What: Expands armoured, mobile 155mm/52-calibre firepower for both plains
+ and high-altitude mountain sectors.
+ ○ Confidence: Confirmed
+ ○ Source: India clears fresh artillery and helicopter buys worth ₹2.12 lakh crore,
+ Economic Times Defence, 28 October 2026, https://
+ defence.economictimes.indiatimes.com/news/military-systems/india-clears-fresh-
+ artillery-and-helicopter-buys-worth-2-12-lakh-crore/135229982
+ 2. 27 October 2026 — Sri Lankan Army artillery delegation trains at Deolali
+ ○ What: A Sri Lankan Army artillery delegation visited the School of Artillery in
+ Deolali, touring gunnery, tactics, simulator, and field firing range facilities.
+ ○ So What: Reinforces India's role as a regional artillery training hub in South Asia.
+ ○ Confidence: Confirmed
+ ○ Source: Sri Lankan Army artillery delegation trains in India as military ties
+ deepen, Tamil Guardian, 27 October 2026, https://www.tamilguardian.com/
+ content/sri-lankan-army-delegation-visits-artillery-training-facilities-india
+ 3. 15–24 September 2026 — Indian and US troops conduct joint artillery drills at
+ Yudh Abhyas 2026
+ ○ What: Indian Army gunners fired Pinaka, Dhanush, and M777 systems alongside
+ the US 11th Airborne Division at Mahajan Field Firing Ranges and Auli.
+ ○ So What: Validates Indian indigenous rocket and gun systems in combined-arms
+ interoperability with US forces.
+ ○ Confidence: Confirmed
+ ○ Source: Pinaka at Yudh Abhyas: India's home-grown rocket launcher fires at
+ Mahajan, India Defence Wire, 24 September 2026, https://indiadefencewire.com/
+ articles/pinaka-at-yudh-abhyas-mahajan-rocket-launcher-drdo
+ 4. 14 August 2026 — MoD signs ₹1,577-crore loitering munition contracts
+ ○ What: The Ministry of Defence signed contracts with Tata Advanced Systems (54
+ launchers, 540 munitions) and NIBE (30 launchers, 300 munitions) to equip
+ Shaktibaan regiments and Divyastra formations.
+ ○ So What: Formally embeds organic loitering munition precision strike into the
+ Indian Army's artillery order of battle.
+ ○ Confidence: Confirmed
+ ○ Source: MoD inks Rs 1577 crore contracts for Loiter Munition Systems, Press
+ Information Bureau, 14 August 2026, https://www.pib.gov.in/
+ PressReleasePage.aspx?PRID=2299561
+ 5. 8 July 2026 — Guided Pinaka rocket completes minimum-range flight test
+ ○ What: DRDO conducted a flight test of the guided Pinaka rocket at Chandipur,
+ proving it at a user-defined minimum range of 60 km.
+ ○ So What: Advances the transition of Pinaka from an unguided area-fire rocket to
+ a long-range precision weapon.
+ ○ Confidence: Reported
+ ○ Source: Pinaka at Yudh Abhyas: India's home-grown rocket launcher fires at
+ Mahajan, India Defence Wire, 24 September 2026, https://indiadefencewire.com/
+ articles/pinaka-at-yudh-abhyas-mahajan-rocket-launcher-drdo
+
+PART H: VIDEO SOURCES
+
+ ● Official YouTube Channels:
+ ○ ADGPI – Indian Army (Additional Directorate General of Public Information)
+ ○ Ministry of Defence, India
+ ○ DRDO (Defence Research and Development Organisation)
+ ○ PIB India
+ ● Local Search Terms (Hindi / Devanagari and English):
+ ○ ATAGS: एटीएजीएस तोप / ATAGS howitzer firing
+ ○ Dhanush: धनुष तोप भारतीय सेना / Dhanush 155mm gun
+ ○ K9 Vajra-T: के9 वज्र तोप / K9 Vajra-T firing
+ ○ Pinaka:  पनाका रॉकेट लॉन्चर / Pinaka MBRL salvo
+ ○ Swathi WLR: स्वा त रडार भारतीय सेना / Swathi Weapon Locating Radar
+ ○ Exercise Topchi: एक्सरसाइज तोपची देवलाली / Exercise Topchi School of
+ Artillery
+
+PART I: OPEN QUESTIONS AND CONFLICTS
+
+ 1. Total K9 Vajra-T fleet size after the October 2026 DAC approval:
+ ○ Conflict: Economic Times Defence (28 October 2026) reports that the newly
+ cleared Vajra order takes the total fleet to 335 systems. Wikipedia's FARP
+ summary (citing India Today, 10 June 2026, and 26 October 2026 DAC approval)
+ cites an additional tranche of 300 systems on top of the existing 100 active and
+ 100 on order (which would total 500).
+ ○ Status: Unclear until final contract signature specifies exact unit quantities.
+ 2. Dhanush active inventory vs. new 300-gun order:
+ ○ Conflict: GlobalMilitary (23 September 2026) lists 72 Dhanush active and 42 on
+ order (the original 114-gun batch), whereas Army Recognition (6 March 2026)
+ reported India moving to order 300 additional Dhanush howitzers for 15 new
+ regiments. Whether the 300-gun contract has been formally signed as of 24
+ November 2026 is not confirmed in PIB releases.
+ 3. Suryastra (PULS) rocket launcher status:
+ ○ Unclear: GlobalMilitary (23 September 2026) lists 2 Suryastra (PULS) launchers
+ in active service, but official MoD/PIB confirmation of regiment-level induction
+ and ammunition types is not found in open sources.
+
+For a closer look at how Indian Army gunners train and conduct live-fire demonstrations at
+Deolali, see School of Artillery: Forging Warriors, which covers the School of Artillery and its
+annual Exercise Topchi firepower showcase.
+

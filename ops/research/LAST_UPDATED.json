@@ -29,6 +29,10 @@
       "Indonesia",
       "Malaysia",
       "Singapore"
+    ],
+    "South Asia": [
+      "India"
     ]
-  }
+  },
+  "India": "2026-11-24"
 }
