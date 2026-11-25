@@ -19465,7 +19465,7 @@ export default function App() {
             </button>
           )}
           {page}
-          <div className={`mt-10 pt-4 border-t text-center text-sm font-medium ${t.border} ${t.muted}`}>Built from open sources · Researched with Gemini · Built with Claude · Curated by ITCH</div>
+          <div className={`mt-10 pt-4 border-t text-center text-sm font-medium ${t.border} ${t.muted}`}><div>Built from open sources · Researched with Gemini</div><div className="mt-0.5">Built with Claude · Curated by ITCH</div></div>
         </main>
 
         <nav className={`sm:hidden fixed bottom-0 inset-x-0 z-40 border-t ${t.nav}`}>
