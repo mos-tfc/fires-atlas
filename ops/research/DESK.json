@@ -1,18 +1,55 @@
 {
   "_note": "The owner's open research prompts. Update this file whenever a report is loaded (remove its prompt, add the next) and rebuild: python3 tools/build_desk.py. The main session republishes the page to the same Research Desk link.",
-  "status": "Loaded so far: November updates 1–3 (24 Nov) and India (25 Nov)",
+  "status": "Loaded so far: November updates 1–3 (24 Nov), India (25 Nov), Ukraine gap fill (25 Nov)",
   "active": [
-    {"label": "Gap fill · this week", "title": "Ukraine", "prompt": "ops/research/prompts/ukraine.md", "why": "13 entries. No liaison or rocket entries, no training entries."},
-    {"label": "Gap fill · this week", "title": "China", "prompt": "ops/research/prompts/china.md", "why": "12 entries. Four areas missing: drones, gunnery, counter-fire and sustainment."},
-    {"label": "Gap fill · this week", "title": "India", "prompt": "ops/research/prompts/india.md", "why": "New army. Starts with the May 2025 India–Pakistan clash, which the first report left out, then the remaining gaps."}
+    {
+      "label": "Gap fill · this week",
+      "title": "China",
+      "prompt": "ops/research/prompts/china.md",
+      "why": "12 entries. Four areas missing: drones, gunnery, counter-fire and sustainment."
+    },
+    {
+      "label": "Gap fill · this week",
+      "title": "India",
+      "prompt": "ops/research/prompts/india.md",
+      "why": "New army. Starts with the May 2025 India–Pakistan clash, which the first report left out, then the remaining gaps."
+    }
   ],
   "next": [
-    {"when": "Next week", "who": "South Korea", "note": "17 entries; no ammunition or training entries"},
-    {"when": "Next week", "who": "Japan", "note": "17 entries; no lessons from operations"},
-    {"when": "Next week", "who": "North Korea", "note": "18 entries; five rest on assessment only; no training"},
-    {"when": "Week after", "who": "Australia", "note": "18 entries; no training entries"},
-    {"when": "Week after", "who": "Russia", "note": "27 entries; thin on liaison, ammunition and gunnery"},
-    {"when": "Week after", "who": "US source links", "note": "One combined prompt for sources the Archivist agent could not find"},
-    {"when": "1 December", "who": "Monthly updates", "note": "Four regional prompts (South Asia now included), from 24 November 2026"}
+    {
+      "when": "Next week",
+      "who": "South Korea",
+      "note": "17 entries; no ammunition or training entries"
+    },
+    {
+      "when": "Next week",
+      "who": "Japan",
+      "note": "17 entries; no lessons from operations"
+    },
+    {
+      "when": "Next week",
+      "who": "North Korea",
+      "note": "18 entries; five rest on assessment only; no training"
+    },
+    {
+      "when": "Week after",
+      "who": "Australia",
+      "note": "18 entries; no training entries"
+    },
+    {
+      "when": "Week after",
+      "who": "Russia",
+      "note": "27 entries; thin on liaison, ammunition and gunnery"
+    },
+    {
+      "when": "Week after",
+      "who": "US source links",
+      "note": "One combined prompt for sources the Archivist agent could not find"
+    },
+    {
+      "when": "1 December",
+      "who": "Monthly updates",
+      "note": "Four regional prompts (South Asia now included), from 24 November 2026"
+    }
   ]
 }
