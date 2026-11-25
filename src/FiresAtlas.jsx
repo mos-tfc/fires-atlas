@@ -18988,6 +18988,11 @@ function WelcomeView({ first }) {
       </section>
 
       <section className="space-y-3">
+        <H>How It Is Made</H>
+        <p className="text-base leading-relaxed max-w-[70ch]">Fires Atlas is built only from public sources. Research is drafted with Google’s Gemini and the app is built with Anthropic’s Claude. Every source is opened and checked before it goes in, each entry shows its sources and a confidence label (Confirmed, Reported or Analysis), and weak or unverifiable claims are left out.</p>
+      </section>
+
+      <section className="space-y-3">
         <H>What You Take Away</H>
         <p className="text-base leading-relaxed max-w-[70ch]">Every army must find, decide, strike, survive and sustain. Comparing how each does it shows you:</p>
         <ul className="list-disc pl-5 space-y-1.5 text-base leading-relaxed">
@@ -19455,7 +19460,7 @@ export default function App() {
             </button>
           )}
           {page}
-          <div className={`mt-10 pt-4 border-t text-center text-sm font-medium ${t.border} ${t.muted}`}>Developed by ITCH</div>
+          <div className={`mt-10 pt-4 border-t text-center text-sm font-medium ${t.border} ${t.muted}`}>Built from open sources · Researched with Gemini · Built with Claude · Curated by ITCH</div>
         </main>
 
         <nav className={`sm:hidden fixed bottom-0 inset-x-0 z-40 border-t ${t.nav}`}>
