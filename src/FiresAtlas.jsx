@@ -18998,7 +18998,7 @@ function WelcomeView({ first }) {
 
       <section className="space-y-3">
         <H>How It Is Made</H>
-        <p className="text-base leading-relaxed max-w-[70ch]">Fires Atlas is built only from public sources. Research is drafted with Google’s Gemini and the app is built with Anthropic’s Claude. Every source is opened and checked before it goes in, each entry shows its sources and a confidence label (Confirmed, Reported or Analysis), and weak or unverifiable claims are left out.</p>
+        <p className="text-base leading-relaxed max-w-[70ch]">Fires Atlas is built only from public sources. Research is drafted with the Deep Research function of Google’s Gemini, and the app is built with Anthropic’s Claude. Every source is opened and checked before it goes in, each entry shows its sources and a confidence label (Confirmed, Reported or Analysis), and weak or unverifiable claims are left out.</p>
       </section>
 
       <section className="space-y-3">
