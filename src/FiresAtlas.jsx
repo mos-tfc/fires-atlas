@@ -18964,9 +18964,7 @@ function WelcomeView({ first }) {
       <section className="space-y-3 pt-2">
         <h1 className="text-4xl font-bold tracking-tight">Fires Atlas</h1>
         <p className={`text-lg ${t.muted}`}>A learning reference on artillery and fire support worldwide, built from open sources.</p>
-        <div className="flex flex-wrap gap-2 pt-1">
-          <Btn onClick={start}><Play size={18} /> {first ? 'Start learning' : 'Back to the app'}</Btn>
-        </div>
+        {first && <div className="flex flex-wrap gap-2 pt-1"><Btn onClick={start}><Play size={18} /> Start learning</Btn></div>}
         <p className={`text-sm ${t.muted}`}>{APP_DATA.length} entries · {LESSONS.length} lessons · {ALL_COUNTRIES.length} armies · {Object.keys(VIDEO_META).length} equipment cards · {Object.values(VIDEO_LINKS).reduce((a, l) => a + l.filter((c) => c.ok).length, 0)} videos</p>
       </section>
 
@@ -19048,9 +19046,7 @@ function WelcomeView({ first }) {
         </section>
       )}
 
-      <div className="flex flex-wrap gap-2">
-        <Btn onClick={start}><Play size={18} /> {first ? 'Start learning' : 'Back to the app'}</Btn>
-      </div>
+      {first && <div className="flex flex-wrap gap-2"><Btn onClick={start}><Play size={18} /> Start learning</Btn></div>}
       <p className={`text-sm ${t.faint}`}>Content is drawn from open sources only. Videos play from YouTube; their content is the uploader’s.</p>
     </div>
   );
