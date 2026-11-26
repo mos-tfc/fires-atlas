@@ -11,11 +11,7 @@ const withChanges = process.argv.includes('--with-changes');
 const fi = process.argv.indexOf('--focus'); const focus = fi > 0 ? process.argv[fi + 1] : '';
 const LEDGER = JSON.parse(fs.readFileSync(new URL('../ops/research/LAST_UPDATED.json', import.meta.url), 'utf8'));
 if (!country) { console.error('Give a country name, e.g. "South Korea"'); process.exit(1); }
-const src = fs.readFileSync(new URL('../src/FiresAtlas.jsx', import.meta.url), 'utf8').split('\n');
-const st = src.findIndex((l) => l.includes('CONTENT BLOCK')) - 1;
-const li = src.findIndex((l) => l.startsWith('const LESSONS'));
-let end = li; while (!src[end].startsWith('// =====')) end++;
-const D = new Function(src.slice(st, end).join('\n') + '\nreturn { TOPICS, APP_DATA, EQUIPMENT_LINKS, EQUIPMENT_SPECS, VIDEO_LINKS, EXERCISES, DEVELOPMENTS };')();
+const D = await import('../src/content/index.js');
 
 const E = D.APP_DATA.filter((e) => e.country === country);
 if (!E.length) { console.error('No entries for ' + country); process.exit(1); }

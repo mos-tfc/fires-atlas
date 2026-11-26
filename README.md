@@ -10,7 +10,8 @@ Developed by ITCH.
 |---|---|
 | `public/index.html` | The page. Loads Tailwind CSS, React and the icon library from pinned CDN versions, then `app.js`. |
 | `public/app.js` | The app, compiled from `src/`. This is what visitors run. |
-| `src/FiresAtlas.jsx` | The app source. The same file runs in Gemini Canvas. |
+| `src/FiresAtlas.jsx` | The app source (React code only). It imports all data from `src/content/`. |
+| `src/content/` | The data, one file per data set (`app_data.js` entries, `lessons.js`, `glossary.js`, `developments.js`, `topics.js` and so on), re-exported by `src/content/index.js`. |
 | `src/main.jsx` | Website entry point: points the Ask page at `/api/ask` and starts the app. |
 | `worker/index.js` | Cloudflare Worker: serves `public/`; `POST /api/ask` (Gemini, key kept on the server); `POST /api/feedback` and the password-protected `/admin/feedback`. |
 | `wrangler.jsonc` | Worker configuration (name, static assets folder, routes that run the Worker). |
@@ -28,7 +29,7 @@ Developed by ITCH.
 
 ## Updating
 
-Replace `src/FiresAtlas.jsx`, run `./build.sh`, commit `src/` and `public/app.js` together.
+Replace `src/FiresAtlas.jsx` (or the changed files in `src/content/`), run `./build.sh`, commit `src/` and `public/app.js` together.
 Cloudflare redeploys on every push to `main`.
 
 ## Content

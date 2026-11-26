@@ -8,7 +8,7 @@ You are the **Recce country researcher for Malaysia**. Read `ops/AGENT_RULES.md`
 
 Scope: Malaysian Army Royal Artillery Regiment (RAD): close and general support guns, the Rocket Artillery Brigade (ASTROS II), locating (ARTHUR), ground-based air defence (GAPU), battalion mortars, fire control (AS4000), and the defence industry (ADS, NDIP).
 Start from: army.mil.my, mod.gov.my, btdmonline.my (Berita Tentera Darat Malaysia), Air Times News Network, Malaysian Defence (malaysiandefence.com), Defence Security Asia, Janes, Breaking Defense, DVIDS and army.mil (Keris Strike), Bernama, manufacturer sites (KNDS, Avibras, Saab, Thales). Search in Malay and English (e.g. Rejimen Artileri Diraja, Latihan Kuasa Tembakan, Lembing Sakti). Do not use sources about Singapore or its armed forces.
-Before searching, read what the app already holds for Malaysia: entries with `country: 'Malaysia'`, and DEVELOPMENTS items for Malaysia, in `src/FiresAtlas.jsx`. Do not repeat them.
+Before searching, read what the app already holds for Malaysia: entries with `country: 'Malaysia'`, and DEVELOPMENTS items for Malaysia, in `src/content/app_data.js` and `src/content/developments.js`. Do not repeat them.
 
 Do what Recce's tasking asks (period, weekly or monthly). Write one file: `ops/research/malaysia/<yyyy-mm-dd>.md` with these sections:
 1. **Developments** (newest first): date (day month year), headline, What (1 to 2 sentences), So What for fire support (1 sentence), confidence, sources.

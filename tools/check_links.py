@@ -8,7 +8,9 @@ Writes nothing; prints a report. Exit code 1 if a video is gone or blocked.
 import json, re, sys, concurrent.futures as cf
 import requests
 
-SRC = open('src/FiresAtlas.jsx', encoding='utf8').read()
+import glob
+# App code plus the data files in src/content/ (the data no longer sits in FiresAtlas.jsx).
+SRC = ''.join(open(p, encoding='utf8').read() + '\n' for p in ['src/FiresAtlas.jsx'] + sorted(glob.glob('src/content/*.js')))
 H = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36'}
 
 def videos():

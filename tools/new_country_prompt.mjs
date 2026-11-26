@@ -8,11 +8,7 @@ import fs from 'node:fs';
 const country = process.argv[2];
 if (!country) { console.error('Give a country name, e.g. "India"'); process.exit(1); }
 const src = fs.readFileSync(new URL('../src/FiresAtlas.jsx', import.meta.url), 'utf8');
-const L = src.split('\n');
-const st = L.findIndex((l) => l.includes('CONTENT BLOCK')) - 1;
-const li = L.findIndex((l) => l.startsWith('const LESSONS'));
-let end = li; while (!L[end].startsWith('// =====')) end++;
-const D = new Function(L.slice(st, end).join('\n') + '\nreturn { TOPICS, APP_DATA, EXERCISES, VIDEO_META, KILL_CHAINS };')();
+const D = await import('../src/content/index.js'); // the data lives in src/content/; ECHELON_LEVELS stays in the app code
 const ech = src.slice(src.indexOf('const ECHELON_LEVELS'), src.indexOf('const ECHELON_ORDER'));
 const ECHELONS = [...ech.matchAll(/label: '([^']+)'/g)].map((m) => m[1]);
 const LEDGER = JSON.parse(fs.readFileSync(new URL('../ops/research/LAST_UPDATED.json', import.meta.url), 'utf8'));
