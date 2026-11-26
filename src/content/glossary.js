@@ -449,5 +449,10 @@ export const GLOSSARY = [
   {"term": "MBRL", "full": "Multi-Barrel Rocket Launcher", "plain": "India’s term for a truck-mounted multiple rocket launcher such as Pinaka.", "context": "India. The US Army says MLRS."},
   {"term": "SATA", "full": "Surveillance and Target Acquisition", "plain": "Indian artillery units that operate radars, drones and other locating sensors.", "context": "India."},
   {"term": "Shaktibaan", "full": "Shaktibaan regiment", "plain": "A new Indian artillery regiment type built around loitering munitions.", "context": "India."},
-  {"term": "Swathi", "full": "Swathi Weapon Locating Radar", "plain": "India’s own counter-battery radar, built by Bharat Electronics.", "context": "India."}
+  {"term": "Swathi", "full": "Swathi Weapon Locating Radar", "plain": "India’s own counter-battery radar, built by Bharat Electronics.", "context": "India."},
+  {"term": "MILES", "full": "Multiple Integrated Laser Engagement System", "plain": "Laser and sensor kit fitted to weapons and soldiers so that hits can be scored in training without live rounds.", "context": "US and ROK armies; the Korean version is not compatible with all US weapons."},
+  {"term": "JAAT", "full": "Joint Air Attack Team", "plain": "Attack helicopters, close air support aircraft and artillery striking one target area together, kept apart by agreed separation.", "context": "US and ROK forces."},
+  {"term": "LAMD", "full": "Low-Altitude Missile Defense", "plain": "South Korea’s planned system to intercept artillery rockets fired at Seoul and key facilities, often called a Korean Iron Dome.", "context": "South Korea; deployment planned by 2029."},
+  {"term": "KCTC", "full": "Korea Combat Training Center", "plain": "The ROK Army’s brigade training centre at Inje-gun, with a full-time opposing force.", "context": "South Korea."},
+  {"term": "Unit of fire", "full": "Unit of fire", "plain": "A planning quantity of ammunition per weapon; in the KPA source cited, 120 rounds per gun.", "context": "Used by several armies with different values."}
 ];
