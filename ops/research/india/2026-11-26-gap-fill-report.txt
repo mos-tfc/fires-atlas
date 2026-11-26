@@ -1,0 +1,938 @@
+India Artillery and Fire Support
+Reference: Operation Sindoor,
+Gap-Filling Entries and Source
+Verification
+
+This supplement adds ten structured entries and one evidence verification update to the India
+artillery and fire support reference, using open sources current to November 2026. Task A
+delivers three entries on the May 2025 India–Pakistan clash (Operation Sindoor), separating
+confirmed deployments from unverified claims by both governments. Task B fills the four thin
+reference areas—Ammunition and Effects, Target Acquisition, Digital Fires and Targeting, and
+Sustainment—with seven non-overlapping entries. Task C replaces assessment in Why India Is
+Buying Mobility and Loitering Munitions with official Ministry of Defence (MoD) contracts and
+policy releases from 2023 to 2026, followed by a Corrections section covering dated items in
+existing entries.
+Two evidentiary caveats apply throughout. First, wartime battle damage assessments,
+shootdown tallies and counter-battery losses from May 2025 remain disputed between New
+Delhi and Islamabad; every uncorroborated official or press claim is marked Reported:. Second,
+India does not publish unit-level artillery establishments, post-2017 War Wastage Reserve
+holdings or May 2025 ammunition expenditure; those omissions are stated plainly as not found
+in open sources.
+Task A: The May 2025 India–Pakistan Clash (Operation
+Sindoor)
+
+Operation Sindoor (7–10 May 2025) was the first India–Pakistan crisis in which both sides
+combined cross-Line of Control (LoC) precision artillery, one-way attack drones, cruise missiles
+and conventionally armed short-range ballistic missiles inside a four-day escalation cycle. The
+phased fires timeline below maps the action-reaction sequence and separates confirmed
+system employment from contested claims before the three reference entries examine LoC
+artillery, unmanned and missile duels, and post-conflict lessons.
+
+Entry A1
+
+ 1. Title: Operation Sindoor: Air-Mobilised Artillery and LoC Counter-Battery
+ 2. Area: Counter-Fire and Force Protection
+ 3. Section: Lessons
+ 4. Force: Indian Army (Regiment of Artillery and Infantry)
+ 5. Echelon: Regiment
+ 6. What: During Operation Sindoor (7–10 May 2025), Indian artillery executed the Army's
+ first air-mobilised inter-command gun deployment and fired precision 155mm strikes
+ across the Line of Control (LoC). Heavy LoC artillery and mortar exchanges followed the
+ initial strikes and caused a major share of total conflict casualties on both sides.
+7. How:
+ 1. Reported: 302 Medium Regiment, led by Col Koshank Lamba (awarded the Vir
+ Chakra), air-mobilised M777 155mm ultra-light howitzers underslung from Indian Air
+ Force CH-47 Chinook and Mi-17 V5 helicopters with ammunition, communications,
+ target acquisition gear and force-protection stores.
+ 2. Reported: On 7 May 2025, Indian Army guns and loitering munitions hit seven of
+ the nine designated militant sites. 302 Medium Regiment fired US-made M982
+ Excalibur guided shells, while 1988 (Independent) Medium Battery (under Lt Col
+ Sushil Bisht, Vir Chakra) deployed at night using current satellite imagery.
+ 3. Reported: Both artillery units practised rapid extrication and shoot-and-scoot drills
+ under Pakistani counter-bombardment; Lt Col Bisht's battery redeployed under
+ shelling to strike a second target.
+ 4. Reported: Indian state media and open-source accounts reported Pakistani artillery
+ and mortar fire across Poonch, Rajouri, Kupwara, Baramulla, Uri and Akhnoor,
+ causing civilian deaths in Poonch. Infantry mortar detachments, including a 4th
+ Battalion Dogra Regiment platoon under Naib Subedar Satish Kumar (Vir Chakra),
+ conducted counter-mortar fire that suppressed enemy fire and destroyed two
+ surveillance cameras without friendly losses.
+ 5. Reported: Pakistani academic and press accounts stated Pakistan accelerated LoC
+ artillery and drone fire in response, alleged Indian strikes killed at least 31 people
+ and injured 71 (citing Reuters), and claimed damage to civilian areas and the
+ Neelum–Jhelum Hydropower Plant. Not found in open sources: direct
+ Inter-Services Public Relations (ISPR) LoC counter-battery logs, verified tactical
+ battle damage or total round expenditure on either side.
+8. Why: Air-mobilising lightweight 155mm howitzers let India mass precision indirect fire in
+ Northern Command without telegraphing road convoys. Pairing guided shells with night
+ deployment and swift extrication reduced exposure to Pakistani counter-battery fire in
+ observed mountain sectors.
+9. Compare with the US: The US Army similarly uses CH-47 helicopters to air-assault
+ M777A2 howitzers firing M982A1 Excalibur shells, though US units rely on continuous
+ brigade-to-company digital fire-control links.
+10. Confidence: Reported (gallantry citations and unit roles come from established Indian
+ press; official MoD releases confirm Army LoC retaliation and nine strikes without naming
+ gun units).
+11. As of: November 2026
+12. Sources:
+ ○ When air-mobilised guns fired deadly barrages, The Tribune (Vijay Mohan), 2026,
+ https://www.tribuneindia.com/news/operation-sindoor-one-year/when-air-mobilised-
+ guns-fired-deadly-barrages/
+ ○ MINISTRY OF DEFENCE; YEAR END REVIEW - 2025, Press Information Bureau
+ (PIB), Ministry of Defence, 2025,
+ https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang
+ =2
+ ○ Four Days in May: The India-Pakistan Crisis of 2025, Stimson Center (Christopher
+ Clary), 2025,
+ https://www.stimson.org/2025/four-days-in-may-the-india-pakistan-crisis-of-2025/
+ ○ After 'Operation Sindoor' Pakistan Army resorts to heavy artillery fire on J&K LoC,
+ DD News, 2025,
+ https://ddnews.gov.in/en/after-operation-sindoor-pakistan-army-resorts-to-heavy-arti
+ llery-fire-on-jk-loc/
+ ○ The Critical Review of Social Sciences Studies, Vol. 4, No. 1 (May 2025 Crisis
+ Deterrence Analysis), CRSSS (Pakistan), 2026,
+ https://thecrsss.com/index.php/Journal/article/download/1373/1340/2931
+ ○ Annals of Human and Social Sciences, Vol. 6, No. 3 (May 2025 Escalation Study),
+ AHSS (Pakistan), 2025,
+ https://ojs.ahss.org.pk/journal/article/download/1008/1045/1900
+
+Entry A2
+
+ 1. Title: Operation Sindoor: Loitering Munitions, Drones and Missile Duels
+ 2. Area: Loitering Munitions and Armed Drones
+ 3. Section: Lessons
+ 4. Force: Tri-Services (Indian Army, Indian Air Force and Indian Navy)
+ 5. Echelon: Theatre
+ 6. What: Operation Sindoor was the first India–Pakistan conflict in which both sides
+ conducted offensive drone warfare, cruise missile strikes and conventionally armed
+ short-range ballistic missile (SRBM) launches. Indian loitering munitions targeted enemy
+ air defences, while a layered air-defence and counter-UAS grid defeated Pakistani drone
+ and missile salvos.
+ 7. How:
+ 1. Indian forces fired BrahMos and SCALP-EG cruise missiles alongside loitering
+ munitions from Indian territory without crossing the border. Reported: Defence
+ reporting identified Israeli-origin Harop and Bengaluru-assembled SkyStriker
+ loitering munitions; official Indian releases claimed initial strikes finished in 23
+ minutes, neutralised an air-defence system at Lahore on 8 May and struck
+ Pakistani airbases including Nur Khan (Chaklala), Sargodha, Rafiqui, Rahimyar
+ Khan, Jacobabad, Sukkur and Bholari.
+ 2. Reported: On 7–8 May, India stated Pakistan launched drones—including
+ Turkish-origin Yiha-III kamikaze drones, whose debris was recovered—and missiles
+ toward 15 northern and western Indian locations. Indian media cited roughly 400
+ drones across 36 locations on 8–9 May, though Stimson noted the true scale
+ remained unclear.
+ 3. Under Operation Bunyanum Marsoos on 10 May, Pakistan officially confirmed
+ launching conventionally armed Fatah-I and Fatah-II SRBMs; India also reported
+ recovering Hatf-I debris and intercepting Pakistani drones aimed at airfields and
+ Army ammunition depots.
+ 4. India's Integrated Air Command and Control System (IACCS) linked Army
+ Akashteer and Navy Trigun networks across four tiers: counter-UAS, shoulder-fired
+ missiles, upgraded low-level air-defence (LLAD) guns firing air-burst rounds, and
+ surface-to-air missiles (Akash, Pechora, OSA-AK and S-400), intercepting incoming
+ drones and a Fatah-II over Sirsa. Reported: Indian analysts also credited the
+ indigenous D-4 counter-drone system with jamming and laser interdiction.
+ 5. Reported: Competing claims remain unresolved. India acknowledged limited drone
+ damage at Udhampur, Pathankot, Adampur and Bhuj and zero pilot losses while
+ declining to confirm aircraft losses; foreign government officials told international
+ media at least one or two Indian aircraft were downed. IAF Chief Amar Preet Singh
+ claimed Akash downed five Pakistani fighters, which Stimson assessed as
+ unsupported by public evidence. Pakistan claimed major damage to 15 Indian
+ airbases and destruction of an S-400 component at Adampur without releasing
+ public imagery, while Pakistani channels (Geo, Dunya, ARY) claimed 25 to 32
+ Indian drones shot down.
+ 8. Why: Dense surface-to-air missile envelopes kept manned aircraft inside their own
+ airspace, pushing deep strike and SEAD roles onto standoff missiles and loitering
+ munitions. Upgraded legacy air-defence guns offered a lower-cost layer against small
+ drones than missile interceptors.
+ 9. Compare with the US: The US Army similarly integrates short-range air defence and
+ counter-UAS under its Integrated Battle Command System (IBCS), but does not field
+ dedicated artillery regiments built around long-range loitering munitions such as Harop.
+ 10. Confidence: Confirmed (for core weapon families deployed and official Indian and
+ Pakistani acknowledgements; all unverified shootdowns, swarm counts and battle
+ damage assessments are marked Reported:).
+ 11. As of: November 2026
+ 12. Sources:
+ ○ Operation SINDOOR: The Rise of Aatmanirbhar Innovation in National Security,
+ Press Information Bureau (PIB), Ministry of Defence, 2025,
+ https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128746
+ ○ MINISTRY OF DEFENCE; YEAR END REVIEW - 2025, Press Information Bureau
+ (PIB), Ministry of Defence, 2025,
+ https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang
+ =2
+ ○ Four Days in May: The India-Pakistan Crisis of 2025, Stimson Center (Christopher
+ Clary), 2025,
+ https://www.stimson.org/2025/four-days-in-may-the-india-pakistan-crisis-of-2025/
+ ○ Military Lessons From Operation Sindoor, Carnegie Endowment for International
+ Peace (Dinakar Peri), 2025,
+ https://carnegieendowment.org/india/research/2025/10/military-lessons-from-operati
+ on-sindoor
+ ○ Operation Sindoor: Rewriting the India Pakistan Rulebook (NDP-13), Centre for Air
+ Power Studies (CAPS), 2025,
+ https://capssindia.org/wp-content/uploads/2025/12/NDP-13-Operation-Sindoor.pdf
+ ○ Pakistan's military slams India's 'Bollywood-style' documentary, Asia News Network
+ / Dawn (quoting ISPR DG Lt Gen Ahmed Sharif Chaudhry), 2026,
+ https://asianews.network/pakistans-military-slams-indias-bollywood-style-document
+ ary/
+
+Entry A3
+
+ 1. Title: Post-Sindoor Fires Lessons: Force Restructuring, C4I and Procurement
+ 2. Area: Liaison and Fire Support Integration
+ 3. Section: Lessons
+ 4. Force: Indian Army and Integrated Defence Staff
+ 5. Echelon: Theatre
+ 6. What: Following Operation Sindoor, Indian military leaders accelerated force restructuring
+ around organic drone and loitering-munition units, proposed a dedicated
+ rocket-cum-missile force, and highlighted C4I integration and acquisition speed as
+ primary constraints.
+7. How:
+ 1. Official MoD releases confirmed deployment of newly created Rudra brigades,
+ Bhairav battalions and Divyastra artillery batteries along the Northern Front by
+ December 2025, followed by public unveiling of Shaktibaan and Divyastra
+ unmanned combat support elements in January 2026. Reported: Chief of the Army
+ Staff Gen Upendra Dwivedi announced these formations alongside Ashni infantry
+ drone platoons on 26 July 2025.
+ 2. Chief of Defence Staff Gen Anil Chauhan listed post-Sindoor unmanned priorities:
+ modular UAV architectures, startup and DRDO test beds, stealth UAVs,
+ manned-unmanned teaming, swarm drones, AI integration and directed-energy
+ weapons.
+ 3. Reported: Ahead of Army Day in January 2026, Gen Dwivedi stated India needed a
+ dedicated rocket-cum-missile force. Prime Minister Narendra Modi also announced
+ Mission Sudarshan Chakra after Operation Sindoor, which ORF reports aims for
+ nationwide layered air and missile defence by 2035.
+ 4. To replenish and harden precision stocks, Washington cleared a possible sale of
+ 216 M982A1 Excalibur shells in November 2025, and India's Defence Acquisition
+ Council (DAC) approved Artillery Regiment loitering munitions and long-range
+ guided Pinaka rockets on 29 December 2025. Reported: ORF noted late-2025
+ emergency procurement of indigenous drones worth over ₹5,000 crore requiring
+ testing under "Sindoor-like" jamming conditions.
+ 5. Assessments by Carnegie, ORF and CENJOWS identified four systemic gaps
+ exposed by the clash: slow regular procurement forcing reliance on emergency
+ powers, tactical datalink constraints across mixed platforms, persistent ISR and
+ intelligence-fusion limits, and weak strategic communication during rapid escalation.
+8. Why: Operation Sindoor showed that India's strike hardware had outpaced its joint
+ tactical networks and standard procurement timelines. Embedding drones, jamming
+ resilience and guided replenishment inside artillery and combined-arms formations aims
+ to compress the sensor-to-shooter cycle before the next crisis.
+9. Compare with the US: The US Army similarly combines long-range precision fires,
+ intelligence and air defence in theatre-level Multi-Domain Task Forces (MDTFs), whereas
+ India is grafting drone-artillery units onto existing corps and brigades while theatre
+ commands remain incomplete.
+10. Confidence: Confirmed (for official MoD restructuring deployments, CDS priorities, DAC
+ approvals and DSCA Excalibur notification; press and think-tank items are marked
+ Reported: or attributed as assessments).
+11. As of: November 2026
+12. Sources:
+ ○ Operation Sindoor demonstrated operational effectiveness and strategic value of
+ indigenous Unmanned Aerial Vehicles & Counter-Unmanned Aircraft Systems, says
+ Chief of Defence Staff, Press Information Bureau (PIB), Ministry of Defence, 2025,
+ https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2145420&reg=3&lang
+ =2
+ ○ MINISTRY OF DEFENCE; YEAR END REVIEW - 2025, Press Information Bureau
+ (PIB), Ministry of Defence, 2025,
+ https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang
+ =2
+ ○ Military Lessons From Operation Sindoor, Carnegie Endowment for International
+ Peace (Dinakar Peri), 2025,
+ https://carnegieendowment.org/india/research/2025/10/military-lessons-from-operati
+ on-sindoor
+ ○ Weapons Without Networks: India’s Precision Strike and Command Architecture
+ Gap, Observer Research Foundation (Abhishek), 2026,
+ https://www.orfonline.org/research/weapons-without-networks-india-s-precision-strik
+ e-and-command-architecture-gap
+ ○ Operation Sindoor: India's Technological Assertion and the World's Strategic
+ Response, Centre for Joint Warfare Studies (CENJOWS) (Dr Sudesh Vasudeva
+ and Brig Arun Sahgal), 2025,
+ https://cenjows.in/wp-content/uploads/2025/12/Dr-Sudesh-Vasudeva-and-Brig-Arun
+ -Sahgal_WA.pdf
+ ○ India looking at raising rocket-cum-missile force: Army Chief, The Economic Times,
+ 2026,
+ https://m.economictimes.com/news/defence/india-looking-at-raising-rocket-cum-mis
+ sile-force-army-chief/articleshow/126510469.cms
+ ○ Operation Sindoor Special Report (Post-Op Sindoor Air Defence and Drone
+ Procurement), Observer Research Foundation (ed. Kartik Bommakanti), 2026,
+ https://www.orfonline.org/public/uploads/upload/20260326100414.pdf
+Task B: Standing Reference Gaps
+
+Ammunition and Effects
+
+Entry B1
+
+ 1. Title: M982A1 Excalibur: Precision-Guided 155mm Projectiles
+ 2. Area: Ammunition and Effects
+ 3. Section: Equipment
+ 4. Force: Indian Army (Regiment of Artillery)
+ 5. Echelon: Brigade
+ 6. What: India fields US-made M982/M982A1 Excalibur GPS-guided 155mm shells for
+ first-round precision engagement against point targets along the LoC and Line of Actual
+ Control. After Operation Sindoor, Washington cleared a follow-on Foreign Military Sale of
+ up to 216 M982A1 rounds in November 2025.
+ 7. How:
+ 1. Reported: India first procured Excalibur projectiles in 2019 for use with its M777
+ ultra-light howitzers. Not found in open sources: total Indian Excalibur holdings prior
+ to November 2025 or exact round counts fired in May 2025.
+ 2. Reported: Open technical references list the projectile at 48 kg and 1.0 m long, with
+ deployable glide fins reaching roughly 40 km from 39-calibre guns (such as M777)
+ and up to 50 km from 52-calibre howitzers. Circular error probable (CEP) is cited as
+ 4 m in open technical specifications, whereas Indian press reporting cites accuracy
+ down to 2 m.
+ 3. Reported: Beyond the M777, Indian press accounts state Excalibur is compatible
+ with the Bofors FH-77B, Dhanush (45-calibre), ATAGS (52-calibre) and K9 Vajra-T
+ (52-calibre).
+ 4. On 19 November 2025, the US Defense Security Cooperation Agency (DSCA)
+ notified Congress (Transmittal No. 25-107) of a possible sale of up to 216 M982A1
+ tactical projectiles for an estimated $47.1 million, including Portable Electronic Fire
+ Control Systems (PEFCS) with Improved Platform Integration Kits (iPIK), primers,
+ propellant charges, technical data and repair-and-return services.
+ 5. Reported: Open-source accounts of Ukraine combat use noted that Russian
+ electronic warfare cut Excalibur hit efficiency from 70% to 6% within six weeks,
+ illustrating GPS-jamming risk against modern adversaries.
+ 8. Why: Guided shells let brigades destroy hardened bunkers or point targets with single
+ rounds rather than multi-battery barrages, cutting helicopter lift weight in mountains and
+ limiting collateral damage. High cost—roughly
+ 218, 000𝑝𝑒𝑟𝑟𝑜𝑢𝑛𝑑𝑝𝑎𝑐𝑘𝑎𝑔𝑒𝑑𝑖𝑛𝐼𝑛𝑑𝑖𝑎'𝑠2025𝐹𝑀𝑆𝑛𝑜𝑡𝑖𝑓𝑖𝑐𝑎𝑡𝑖𝑜𝑛(47.1 million divided across
+ 216 rounds plus fire-control kits and support; FY2021 US budget data reported $112,800
+ per shell)—restricts employment to priority targets.
+ 9. Compare with the US: India buys the same M982A1 Excalibur round and PEFCS
+ fire-control hardware used by US Army and Marine Corps M777A2 batteries, though US
+ forces hold deeper stocks and supplement Excalibur with cheaper Precision Guidance
+ Kits (PGK).
+ 10. Confidence: Confirmed (for the November 2025 DSCA sale quantity, estimated cost and
+ ancillary kits; technical range/CEP figures and May 2025 combat usage are marked
+ Reported:).
+ 11. As of: November 2026
+ 12. Sources:
+ ○ India – Excalibur Projectiles (Transmittal No. 25-107), US Defense Security
+ Cooperation Agency (DSCA), 2025,
+ https://www.dsca.mil/Press-Media/Major-Arms-Sales/Article-Display/Article/433751
+ 8/india-excalibur-projectiles
+ ○ US approves Javelin, Excalibur sales to India, Janes (Sohini Mandal), 2025,
+ https://www.janes.com/defence-intelligence-insights/defence-news/weapons/us-app
+ roves-javelin-excalibur-sales-to-india
+ ○ When air-mobilised guns fired deadly barrages, The Tribune (Vijay Mohan), 2026,
+ https://www.tribuneindia.com/news/operation-sindoor-one-year/when-air-mobilised-
+ guns-fired-deadly-barrages/
+ ○ India to buy Javelin from the US, SP's Land Forces, 2026,
+ https://www.spslandforces.com/features/?id=307&h=India-to-buy-Javelin-from-the-
+ US
+
+Entry B2
+
+ 1. Title: Bi-Modular Charge System, Electronic Fuzes and Guided Pinaka Munitions
+ 2. Area: Ammunition and Effects
+ 3. Section: Equipment
+ 4. Force: Indian Army (Regiment of Artillery)
+ 5. Echelon: Regiment
+ 6. What: India is modernising artillery propellants, fuzes and rocket warheads by shifting
+ from bag charges to Bi-Modular Charge Systems (BMCS), contracting domestic electronic
+ fuzes, and fielding extended-range, guided and area-denial rockets for Pinaka.
+7. How:
+ 1. The Cabinet Committee on Security sanctioned a Nalanda, Bihar factory in
+ November 2001 (estimated cost ₹941.13 crore) to make 200,000 BMCS units
+ annually for 155mm guns, but Comptroller and Auditor General (CAG) audits in
+ 2010 and 2016 documented procedural lapses, corruption controversies over the
+ Israel Military Industries plant contract and prolonged import reliance.
+ 2. Reported: After tie-ups with two foreign OEMs and an initial DRDO project
+ struggled, indigenous BMCS production progressed via state factories and private
+ Indian firms including Solar Industries. Official MoD releases confirm modernised
+ 155mm guns such as Dhanush fire both legacy charge bags and BMCS.
+ 3. To resolve artillery fuze shortfalls noted in earlier analyses, the MoD signed a
+ 10-year, ₹5,336 crore contract with Bharat Electronics Limited (BEL) in 2023 for
+ electronic fuzes.
+ 4. For rocket artillery, DRDO and Indian industry developed Enhanced Pinaka,
+ Extended Range Pinaka (Pinaka-ER), Area Denial Munition (ADM) Type-1
+ (dual-purpose improved conventional munition, DPICM) contracted with Economic
+ Explosive Limited, and Guided Pinaka rockets.
+ 5. On 29 December 2025, the DAC accorded Acceptance of Necessity for Long
+ Range Guided Rocket Ammunition for the Pinaka Multiple Launch Rocket System.
+ Not found in open sources: exact warhead weights, submunition counts per ADM
+ rocket or unit prices.
+8. Why: Standardising on rigid modular charges raises rate of fire, simplifies automatic
+ loading on 155mm/52-calibre guns and lowers barrel wear, while domestic electronic
+ fuzes and guided Pinaka rockets ease foreign supply bottlenecks.
+9. Compare with the US: The US Army fielded its Modular Artillery Charge System (MACS)
+ and Guided Multiple Launch Rocket System (GMLRS) decades earlier, whereas India is
+ still scaling domestic BMCS output and transitioning Pinaka from unguided area rockets
+ to guided munitions.
+10. Confidence: Confirmed (for CAG Nalanda audit findings, Dhanush BMCS compatibility,
+ BEL fuze contract, Pinaka ADM Type-1 contract and December 2025 DAC guided rocket
+ approval; private BMCS lines are marked Reported:).
+11. As of: November 2026
+12. Sources:
+ ○ Audit Report on Procurement of Stores and Machinery in Ordnance Factories
+ (Report No. 15 of 2010), Comptroller and Auditor General of India (CAG), 2010,
+ https://d1jmc0u14z2tmp.cloudfront.net/uploads/download_audit_report/2010/Union
+ _Performance_Defence_Procurement_Stores_and_Machinery_15_2010.pdf
+ ○ Union Government (Defence Services) Army, Ordnance Factories and Defence
+ Public Sector Undertakings (Report No. 19 of 2016), Comptroller and Auditor
+ General of India (CAG), 2016,
+ https://cag.gov.in/webroot/uploads/download_audit_report/2016/Union_Government
+ _Defence_Services_Army_Ordnance_Factories_and_Defence_PSUs_Report_19_
+ 2016.pdf
+ ○ Dhanush 155mm Artillery Gun Release (PIB PRID 1565315), Press Information
+ Bureau (PIB), Ministry of Defence, 2019,
+ https://www.pib.gov.in/PressReleasePage.aspx?PRID=1565315
+ ○ MINISTRY OF DEFENCE - YEAR END REVIEW 2023, Press Information Bureau
+ (PIB), Ministry of Defence, 2023,
+ https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1989502
+ ○ MINISTRY OF DEFENCE; YEAR END REVIEW - 2025, Press Information Bureau
+ (PIB), Ministry of Defence, 2025,
+ https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang
+ =2
+ ○ DRDO successfully test fires Enhanced Pinaka Rocket, Press Information Bureau
+ (PIB), Ministry of Defence, 2021,
+ https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1730354
+
+Target Acquisition
+
+Entry B3
+
+ 1. Title: Surveillance and Target Acquisition Units: Radars, LORROS and UAVs
+ 2. Area: Target Acquisition
+ 3. Section: Forces
+ 4. Force: Indian Army (Regiment of Artillery)
+ 5. Echelon: Regiment
+ 6. What: Beyond Swathi weapon-locating radars, the Regiment of Artillery operates
+ Surveillance and Target Acquisition (SATA) regiments and independent SATA batteries as
+ the Army's primary organic target-acquisition force. These units combine battlefield
+ surveillance radars, long-range electro-optical sensors and UAVs to locate targets and
+ direct fire.
+ 7. How:
+ 1. Official MoD honours lists confirm active SATA regiments (such as 21 SATA
+ Regiment and 203 SATA Regiment) and independent SATA batteries (such as 617,
+ 627 and 630 SATA Batteries) within the Regiment of Artillery. The 2023 MoD Year
+ End Review confirmed SATA unit reorganisation alongside operationalisation of
+ Heron Mk II remotely piloted aircraft.
+ 2. Reported: Centre for Land Warfare Studies (CLAWS) analysis notes SATA ground
+ surveillance uses three tiers of Battlefield Surveillance Radars (BFSR)—short-,
+ medium- and long-range—to detect moving personnel and vehicles.
+ 3. Reported: Day-and-night electro-optical observation relies on the Long Range
+ Reconnaissance and Observation System (LORROS), fielded for roughly two
+ decades and identified by CLAWS as needing a longer-range, higher-resolution
+ successor.
+ 4. Aerial target acquisition pairs Heron medium-altitude long-endurance UAVs with
+ newer tactical aircraft; in January 2026, PIB confirmed fielding of ZOLT, an
+ indigenous tactical hybrid UAV employed specifically to direct artillery fire, alongside
+ swarm and tethered surveillance drones.
+ 5. Not found in open sources: personnel establishments, exact sensor counts per
+ SATA regiment or current operational availability rates.
+ 8. Why: Grouping radars, electro-optical devices and UAVs inside artillery-controlled SATA
+ formations lets corps and divisional headquarters observe depth areas continuously and
+ pass coordinates directly to gun and rocket units.
+ 9. Compare with the US: The US Army places target-acquisition platoons inside field
+ artillery battalions and relies on aviation-branch Shadow and Gray Eagle UAS rather than
+ maintaining standalone artillery SATA regiments.
+ 10. Confidence: Confirmed (for SATA unit designations, ongoing reorganisation, Heron Mk II
+ operationalisation and ZOLT artillery-direction UAV; BFSR tiers and LORROS
+ replacement requirements are marked Reported:).
+ 11. As of: November 2026
+ 12. Sources:
+ ○ MINISTRY OF DEFENCE - YEAR END REVIEW 2023, Press Information Bureau
+ (PIB), Ministry of Defence, 2023,
+ https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1989502
+ ○ 77th Republic Day Parade: Kartavya Path set to unveil unique mix of 150 years of
+ ‘Vande Mataram’ and the nation’s progress & military might, immersed in rich
+ cultural diversity and Jan Bhagidari, Press Information Bureau (PIB), Ministry of
+ Defence, 2026, https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218449
+ ○ CLAWS Journal (Futuristic Equipment in the Artillery Regiments), Centre for Land
+ Warfare Studies (P.K. Chakravorty), year not stated in extract,
+ https://ojs.indrastra.com/index.php/clawsjournal/article/download/121/127/126
+ ○ Gallantry and Distinguished Service Awards Lists (Regiment of Artillery — SATA
+ Units), Press Information Bureau (PIB), 2025–2026,
+ https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc20268
+ 14958201.pdf and
+ https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc20258
+ 14608801.pdf
+
+Digital Fires and Targeting
+
+The two entries below examine opposite sides of India's digital fires architecture: the 2025
+fielding of the SANJAY Battlefield Surveillance System at brigade-to-corps echelons, and the
+tactical C4I void below brigade level left by programme cancellations and communications
+delays. The architectural schematic below contrasts these operational upper networks against
+the broken below-brigade seam.
+
+Entry B4
+
+ 1. Title: SANJAY: India’s Automated Battlefield Surveillance System
+ 2. Area: Digital Fires and Targeting
+ 3. Section: Equipment
+ 4. Force: Indian Army
+ 5. Echelon: Corps
+ 6. What: SANJAY is the Indian Army's automated Battlefield Surveillance System (BSS),
+ jointly developed with Bharat Electronics Limited (BEL) for ₹2,402 crore and flagged off on
+ 24 January 2025. It fuses ground and aerial sensor feeds into a single Common
+ Surveillance Picture for field formations.
+ 7. How:
+ 1. Developed indigenously under the "Buy (Indian)" category, SANJAY automates
+ intake from all ground and aerial battlefield sensors.
+ 2. Built-in software checks report veracity, strips duplicate tracks and fuses inputs
+ through analytics into a unified Common Surveillance Picture.
+ 3. Surveillance data travels over a secured Army Data Network and Satellite
+ Communication Network.
+ 4. A Centralised Web Application delivers real-time inputs to Command Headquarters,
+ Army Headquarters and the Indian Army Decision Support System.
+ 5. Induction across all operational brigades, divisions and corps was scheduled in
+ three phases between March and October 2025. Not found in open sources: public
+ confirmation of phase-three completion or technical interface details linking
+ SANJAY directly to the Shakti ACCCS fire-control network.
+ 8. Why: Automated multi-sensor deconfliction replaces slow manual plotting across
+ Himalayan and western borders, accelerating situational awareness for conventional and
+ sub-conventional operations.
+ 9. Compare with the US: SANJAY performs an operational sensor-fusion role comparable
+ to the US Army's Distributed Common Ground System–Army (DCGS-A) and TITAN
+ intelligence architectures, though SANJAY stops at brigade headquarters rather than
+ extending to manoeuvre companies.
+ 10. Confidence: Confirmed (official MoD PIB release specifying cost, developer, architecture
+ and induction phases).
+ 11. As of: November 2026
+ 12. Sources:
+ ○ Raksha Mantri Shri Rajnath Singh flags-off ‘SANJAY - The Battlefield Surveillance
+ System’ from New Delhi, Press Information Bureau (PIB), Ministry of Defence,
+ 2025, https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2095712
+ ○ SANJAY Battlefield Surveillance System, SP's Land Forces (Lt Gen P.C. Katoch,
+ Retd), 2025,
+ https://www.spslandforces.com/experts-speak/?id=1238&h=SANJAY-Battlefield-Sur
+ veillance-System
+ ○ The Fusion Race: Why Seeing Together Will Decide the Next War, Centre for Joint
+ Warfare Studies (CENJOWS) (Lt Gen A.B. Shivane, Retd), 2026,
+ https://cenjows.in/wp-content/uploads/2026/09/Lt-Gen-Shivane_WA.pdf
+
+Entry B5
+
+ 1. Title: The C4I and Kill-Chain Gap: BMS Cancellation and TCS Delays
+ 2. Area: Digital Fires and Targeting
+ 3. Section: Lessons
+ 4. Force: Indian Army and Tri-Services
+ 5. Echelon: Corps
+ 6. What: India's precision strike platforms have outpaced its tactical command-and-control
+ networks, creating what defence analysts call an "effect-layer inversion". Although
+ tri-service air-defence networking operated coherently during Operation Sindoor,
+ programme cancellations and communications delays leave a digital gap below brigade
+ level and across service seams.
+ 7. How:
+ 1. Between FY 2019–20 and FY 2024–25, Indian defence capital expenditure rose
+ 52% to ₹1.72 lakh crore, funding long-range systems such as extended-range
+ Pinaka, Pralay, BrahMos, Rafale and MQ-9B drones.
+ 2. In July 2018, the Army foreclosed the Battlefield Management System (BMS) after
+ seven years of development and an estimated ₹5,000 crore spent on prototypes;
+ BMS was meant to connect battalion headquarters digitally to companies and
+ platoons, and no follow-on system was fielded seven years later.
+ 3. The Tactical Communication System (TCS), intended to replace legacy radios with
+ encrypted digital links from corps down to section level, remained unfielded after 25
+ years of development as of July 2026.
+ 4. Kill-chain latency therefore accumulates in processing and manual hierarchical
+ approval chains rather than detection or flight time, constraining weapons reaching
+ 300–400 km.
+ 5. Operation Sindoor showed a sharp split: the air-defence triad (IAF IACCS, Army
+ Akashteer contracted with BEL for ₹2,400 crore in 2023, and Navy Trigun)
+ performed coherently, whereas post-conflict reviews flagged tactical datalink limits
+ on the IAF's mixed fleet and persistent inter-service seams.
+ 8. Why: Long-range guns and missiles lose responsiveness against moving targets when
+ frontline observers and joint headquarters cannot pass verified coordinates digitally
+ across echelons and services. Network integration, rather than platform acquisition, has
+ emerged as a primary constraint on Indian joint fires.
+ 9. Compare with the US: Whereas the US military is linking tactical manoeuvre units,
+ artillery fire direction and joint sensors under Combined Joint All-Domain Command and
+ Control (CJADC2), India retains strong single-service networks separated by
+ below-brigade and inter-service seams.
+ 10. Confidence: Analysis (based on Observer Research Foundation and CENJOWS studies
+ plus official PIB contract records for Akashteer).
+ 11. As of: November 2026
+ 12. Sources:
+ ○ Weapons Without Networks: India’s Precision Strike and Command Architecture
+ Gap (ORF Issue Brief No. 886), Observer Research Foundation (Abhishek), 2026,
+ https://www.orfonline.org/research/weapons-without-networks-india-s-precision-strik
+ e-and-command-architecture-gap
+ ○ The Fusion Race: Why Seeing Together Will Decide the Next War, Centre for Joint
+ Warfare Studies (CENJOWS) (Lt Gen A.B. Shivane, Retd), 2026,
+ https://cenjows.in/wp-content/uploads/2026/09/Lt-Gen-Shivane_WA.pdf
+ ○ MINISTRY OF DEFENCE - YEAR END REVIEW 2023, Press Information Bureau
+ (PIB), Ministry of Defence, 2023,
+ https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1989502
+
+Sustainment
+
+Sustaining massed artillery and guided munitions requires adequate War Wastage Reserves
+(WWR), dependable factory output and modernised depot accounting. The scorecard below
+presents the baseline quantitative findings from the 2015 and 2017 Comptroller and Auditor
+General (CAG) audits—the latest public official stockpile reviews—before the two Sustainment
+entries examine reserve governance, Ordnance Factory corporatisation and forward
+maintenance.
+
+Entry B6
+
+ 1. Title: War Wastage Reserves and Ammunition Stockpile Management
+2. Area: Sustainment
+3. Section: Lessons
+4. Force: Indian Army
+5. Echelon: Corps
+6. What: The Indian Army sizes its War Wastage Reserve (WWR) for 40 days of intense
+ two-front combat, yet CAG audits exposed chronic shortfalls in high-calibre artillery and
+ tank rounds alongside depot bottlenecks. Emergency procurement powers later helped
+ rebuild reserves ahead of Operation Sindoor.
+7. How:
+ 1. WWR scales cover 30 days intense (I) and 30 days normal (N) combat—calculated
+ as 40 (I) days at one intense day per three normal days—yet Army Headquarters
+ indented against a lower Minimum Acceptable Risk Level (MARL) of 20 (I) days
+ (50% of WWR).
+ 2. CAG Report No. 19 of 2015 (covering 2008–09 to 2012–13) found ammunition
+ types in the critical under-10-day category rose from 15% in March 2009 to 50% in
+ March 2013, while critical high-calibre shortages reached up to 84%.
+ 3. The Ordnance Factory Board (OFB), supplying 80–90% of Army ammunition,
+ missed first Roll-on Indent targets across up to 73% of types; none of 17 import
+ cases sanctioned in July 2013 reached contract by December 2014.
+ 4. CAG inspections recorded ₹8,119 crore of depot stock unavailable for issue: ₹3,578
+ crore segregated after accidents awaiting sentencing, ₹2,109 crore awaiting major
+ repair, ₹1,618 crore rejected for quality defects and ₹814 crore unserviceable within
+ shelf life, alongside a 10-year delay in depot computerisation.
+ 5. Reported: Press summaries of a July 2017 CAG follow-up found no major WWR
+ improvement since 2013, with 61 of 152 critical types below 10 days and 77–88%
+ of training ammunition below five days. Subsequent emergency procurement
+ powers cushioned readiness before Operation Sindoor. Not found in open sources:
+ post-2017 WWR percentages or May 2025 expenditure.
+8. Why: High-intensity border clashes burn through artillery magazines quickly; weak quality
+ assurance, slow import contracting and paper-bound depots can starve gun regiments
+ even when budgets exist.
+9. Compare with the US: The US Army also faced 155mm war-reserve strain during the
+ Ukraine war, but tracks munitions across networked enterprise logistics rather than
+ uncomputerised depots.
+10. Confidence: Confirmed (for 2015 CAG audit findings and WWR definitions; 2017 CAG
+ press summaries and pre-Sindoor stocking assessments are marked Reported:).
+11. As of: November 2026
+12. Sources:
+ ○ Report No. 19 of 2015 - Union Government (Defence Services) Army and
+ Ordnance Factories (Performance Audit of Ammunition Management in Army),
+ Comptroller and Auditor General of India (CAG), 2015,
+ https://cag.gov.in/defence/new-delhi-i/en/audit-report/details/1740 (text extract:
+ https://www.scribd.com/document/264719598/CAG-report)
+ ○ Ammunition for the Indian Army: C&AG Rings Alarm Bells, Manohar Parrikar
+ Institute for Defence Studies and Analyses (MP-IDSA) (Amit Cowshish), 2015,
+ https://idsa.in/publisher/comments/ammunition-for-the-indian-army-cag-rings-alarm-
+ bells
+ ○ Indian Army's ammunition stock will exhaust after 10 days of war: CAG report, India
+ Today (Sudhi Ranjan Sen), 2017,
+ https://www.indiatoday.in/india/story/indian-army-ammunition-war-supply-shortfall-c
+ ag-report-1025676-2017-07-21
+ ○ 55 per cent ammo below minimum stock level, no significant improvement in
+ shortages since 2013: CAG, ThePrint (Manu Pubby), 2017,
+ https://theprint.in/report/55-per-cent-ammo-below-minimum-stock-level-no-significa
+ nt-improvement-in-shortages-since-2013-cag/3635/
+ ○ Military Lessons From Operation Sindoor, Carnegie Endowment for International
+ Peace (Dinakar Peri), 2025,
+ https://carnegieendowment.org/india/research/2025/10/military-lessons-from-operati
+ on-sindoor
+
+Entry B7
+
+ 1. Title: Corporatised Munitions Supply and Forward Maintenance
+ 2. Area: Sustainment
+ 3. Section: Forces
+ 4. Force: Ministry of Defence and Indian Army (Corps of Electronics and Mechanical
+ Engineers)
+ 5. Echelon: Theatre
+ 6. What: India dissolved the Ordnance Factory Board into seven corporate Defence Public
+ Sector Undertakings (DPSUs) in 2021 to fix supply shortfalls, while pairing foreign
+ life-cycle support for imported guns with forward-area drone maintenance vehicles.
+ 7. How:
+ 1. Following Cabinet approval on 16 June 2021, the MoD converted 41 state ordnance
+ factories into seven DPSUs after 30 September 2021, supported by an ₹8,745
+ crore capital expenditure fund running from FY 2021–22 through FY 2026–27.
+ 2. Artillery supply split chiefly between two new DPSUs: Munitions India Limited
+ (Pune, manufacturing ammunition and explosives at plants including Ammunition
+ Factory Khadki and Cordite Factory Aruvankadu) and Advanced Weapons and
+ Equipment India Limited (Kanpur, manufacturing weapons including Gun Carriage
+ Factory Jabalpur).
+ 3. Reported: Foreign Military Sales sustainment remains necessary for imported
+ US-origin fires gear; arms-trade tracking records a May 2026 US Congressional
+ notification for $230 million in M777A2 ultra-light howitzer support, alongside
+ repair-and-return services confirmed in the November 2025 Excalibur DSCA notice.
+ 4. At the tactical edge, the Corps of Electronics and Mechanical Engineers (EME)
+ introduced the Drone Shakti Lorry—displayed at the January 2026 Republic Day
+ parade—to support Army drone operations in forward areas.
+ 5. Not found in open sources: unit-level barrel replacement rates, M777A2 spares
+ availability or post-2021 Munitions India Limited on-time delivery metrics for 155mm
+ shells.
+ 8. Why: Splitting state factories into product-focused corporations with dedicated capex
+ aims to improve quality control and accountability, while OEM support deals and mobile
+ EME workshops keep mixed imported and unmanned fleets serviceable near the front.
+ 9. Compare with the US: The US Army sustains cannon and munitions mainly through
+ government-owned, contractor-operated (GOCO) plants and organic brigade support
+ battalions, whereas India relies on newly corporatised state DPSUs supplemented by
+ private domestic vendors and foreign OEM support packages.
+ 10. Confidence: Confirmed (for OFB corporatisation structure, ₹8,745 crore capex fund,
+ Excalibur repair-and-return support and EME Drone Shakti Lorry; the May 2026 M777A2
+ support notification is marked Reported:).
+ 11. As of: November 2026
+ 12. Sources:
+ ○ Standing Committee on Defence (2024–25), Eighteenth Lok Sabha, Fourth Report:
+ Demands for Grants (2024–25) of Ordnance (Coordination and Services) — New
+ DPSUs, Lok Sabha Secretariat, Parliament of India, 2024,
+ https://sansad.in/getFile/lsscommittee/Defence/18_Defence_4.pdf?source=loksabh
+ adocs
+ ○ 77th Republic Day Parade: Kartavya Path set to unveil unique mix of 150 years of
+ ‘Vande Mataram’ and the nation’s progress & military might, immersed in rich
+ cultural diversity and Jan Bhagidari, Press Information Bureau (PIB), Ministry of
+ Defence, 2026, https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218449
+ ○ U.S.-India Arms Sales (Tracking Official Congressional Notifications), Forum on the
+ Arms Trade, 2026, https://www.forumarmstrade.org/usindia.html
+ ○ India – Excalibur Projectiles (Transmittal No. 25-107), US Defense Security
+ Cooperation Agency (DSCA), 2025,
+ https://www.dsca.mil/Press-Media/Major-Arms-Sales/Article-Display/Article/433751
+ 8/india-excalibur-projectiles
+Task C: Evidence Strengthening — Why India Is
+Buying Mobility and Loitering Munitions
+
+The existing entry Why India Is Buying Mobility and Loitering Munitions previously rested on
+assessment without linked primary sources. Official Ministry of Defence press releases from
+2023 to 2026 now confirm both halves of the thesis with signed domestic contracts, explicit
+terrain rationales and fielded formations, while defence press and think-tank studies document
+the external war lessons shaping those buys.
+The chart below aggregates six confirmed domestic MoD contracts signed between 2023 and
+August 2026—exceeding ₹20,300 crore in total—to show how mobility and loitering-munition
+buys sit alongside major outlays for fuzes, surveillance fusion and air-defence networking.
+
+Confirmed Official Evidence (Mobility)
+
+ 1. All-terrain and high-altitude tracked mobility: On 20 December 2024, the MoD signed
+ a ₹7,628.70 crore contract with Larsen & Toubro for follow-on 155mm/52-calibre K9
+ VAJRA-T self-propelled tracked guns. The PIB release states the official rationale directly:
+ cross-country mobility, deeper precision strikes, higher rate of fire and full operational
+ capability across all terrains, including sub-zero temperatures in high-altitude areas.
+ 2. High-mobility wheeled mounts and gun tractors: The 2023 MoD Year End Review
+ confirmed March 2023 DAC approval for 155mm/52-calibre ATAGS alongside High
+ Mobility and Gun Towing Vehicles. On 25 January 2026, PIB confirmed that Shaktibaan
+ and Divyastra unmanned elements are mounted on specialised High Mobility Vehicles
+ (HMV 6x6), while a 2026 PIB release also lists the Mounted Gun System (MGS).
+Confirmed Official Evidence (Loitering Munitions)
+
+ 1. Combat validation and operational role: PIB's 14 May 2025 Operation Sindoor release
+ confirmed that loitering munitions searched, hovered over target areas and struck
+ high-value radar and missile sites, citing Bengaluru-based Alpha Design Technologies'
+ partnership with Israel's Elbit Systems on SkyStriker. Chief of Defence Staff Gen Anil
+ Chauhan officially stated in 2025 that Operation Sindoor demonstrated the operational
+ effectiveness and strategic value of indigenous UAVs and counter-UAS.
+ 2. Dedicated formations and fielded inventory: The 2025 MoD Year End Review
+ confirmed Northern Front deployment of Divyastra batteries and December 2025 DAC
+ approval of a Loiter Munition System for Artillery Regiments. PIB's 25 January 2026
+ parade release confirmed that Shaktibaan and Divyastra operate HAROP, Mini HARPY,
+ Peacekeeper, ATS (Extended Range), ATS (Medium Range) and SKY STRIKER loitering
+ munitions plus long-range drones exceeding 1,000 km.
+ 3. Contracted domestic acquisition: On 14 August 2026, the MoD signed ₹1,577 crore
+ contracts with Tata Advanced Systems Limited (TASL) and Nibe Pvt Ltd for Loiter
+ Munition Systems for the Indian Army.
+
+Press-Reported Doctrinal Drivers
+
+ ● Reported: Director General of Artillery Lt Gen Adosh Kumar stated in September 2024
+ that the Army was conducting trials to acquire long-range loitering munitions.
+ ● Reported: Economic Times Defence (November 2026), Carnegie Endowment (October
+ 2025) and Observer Research Foundation (March 2026) report that lessons from the
+ Russia–Ukraine war, the Armenia–Azerbaijan conflict and Operation Sindoor pushed the
+ Army toward shoot-and-scoot mobility, jamming-resilient domestic drones (over ₹5,000
+ crore in late-2025 emergency procurement) and integrated gun-drone strike architectures.
+
+Verification Sources for Task C
+
+ ● Aatmanirbhar Bharat: MoD inks Rs 7,629 crore contract with L&T for K9 VAJRA-T
+ Self-Propelled Tracked Artillery Guns for Indian Army, Press Information Bureau (PIB),
+ Ministry of Defence, 2024,
+ https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086514
+ ● Aatmanirbhar Bharat: MoD inks Rs 1,577 crore contracts for Loiter Munition Systems for
+ Indian Army, Press Information Bureau (PIB), Ministry of Defence, 2026,
+ https://www.pib.gov.in/PressReleasePage.aspx?PRID=2299561 (vendors named in PIB
+ Photo Album: https://www.pib.gov.in/ShowAlbum.aspx?albumid=227621&reg=48&lang=1)
+ - MINISTRY OF DEFENCE; YEAR END REVIEW - 2025, Press Information Bureau (PIB),
+ Ministry of Defence, 2025,
+ https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang=2
+ ● 77th Republic Day Parade: Kartavya Path set to unveil unique mix of 150 years of ‘Vande
+ Mataram’ and the nation’s progress & military might, immersed in rich cultural diversity
+ and Jan Bhagidari, Press Information Bureau (PIB), Ministry of Defence, 2026,
+ https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218449
+ ● Operation SINDOOR: The Rise of Aatmanirbhar Innovation in National Security, Press
+ Information Bureau (PIB), Ministry of Defence, 2025,
+ https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128746
+ ● Indian Army planning to induct long-range suicide drones, long-range rockets, India
+ Today, 2024,
+ https://www.indiatoday.in/india/story/indian-army-planning-to-induct-long-range-suicide-dr
+ ones-long-range-rockets-2607725-2024-09-28
+ ● Indian Army's next-gen artillery gets smarter, longer range and more precise, The
+ Economic Times (ETDefence), 2026,
+ https://defence.economictimes.indiatimes.com/news/military-systems/indian-armys-next-g
+ en-artillery-gets-smarter-longer-range-and-more-precise/135949827
+ ● Operation Sindoor Special Report, Observer Research Foundation (ed. Kartik
+ Bommakanti), 2026,
+ https://www.orfonline.org/public/uploads/upload/20260326100414.pdf
+Corrections
+
+Because the body text of the twenty existing entries is not reproduced here, the table below
+flags confirmed 2023–2026 official developments that supersede older facts if still present in
+those entries.
+Existing Entry Title What Needs Updating or Official Source
+ Correcting
+K9 Vajra-T Tracked If still described solely as a PIB, MoD inks Rs 7,629 crore
+Self-Propelled Howitzer plains/desert buy, add the 20 contract with L&T for K9
+ December 2024 follow-on VAJRA-T, 2024,
+ contract with L&T (₹7,628.70 https://www.pib.gov.in/PressRel
+ crore) procured explicitly for all easePage.aspx?PRID=208651
+ terrains, including sub-zero 4
+ high-altitude areas.
+Loitering Munitions in the If framed as planned concepts PIB, Year End Review - 2025,
+Artillery: Shaktibaan and only, update to note Northern https://www.pib.gov.in/PressRel
+Divyastra Front deployment of Divyastra easeIframePage.aspx?PRID=2
+ batteries (Dec 2025), HMV 6x6 210154&reg=3&lang=2; PIB,
+ mounting, fielded systems 77th Republic Day Parade,
+ (ZOLT, HAROP, Mini HARPY, 2026,
+ Peacekeeper, ATS ER/MR, https://www.pib.gov.in/PressRel
+ SkyStriker and >1,000 km easePage.aspx?PRID=221844
+ drones) unveiled in January 9; PIB, Rs 1,577 crore
+ 2026, and ₹1,577 crore Loiter contracts for Loiter Munition
+ Munition contracts signed with Systems, 2026,
+ TASL and Nibe in August 2026. https://www.pib.gov.in/PressRel
+ easePage.aspx?PRID=229956
+ 1
+Pinaka Rocket Launcher Add the December 2025 DAC PIB, Year End Review - 2025,
+ approval for Long Range https://www.pib.gov.in/PressRel
+ Guided Rocket Ammunition, the easeIframePage.aspx?PRID=2
+ Economic Explosive Limited 210154&reg=3&lang=2; PIB,
+ contract for ADM Type-1 77th Republic Day Parade,
+ (DPICM), and the January 2026 2026,
+Existing Entry Title What Needs Updating or Official Source
+ Correcting
+ unveiling of the indigenous https://www.pib.gov.in/PressRel
+ SURYASTRA Universal Rocket easePage.aspx?PRID=221844
+ Launcher System. 9
+Building Guns at Home: State If still referring to the Ordnance Lok Sabha Secretariat,
+Factories and Private Firms Factory Board (OFB) as an Standing Committee on
+ active operator, correct to note Defence (2024–25), Fourth
+ its dissolution after 30 Report, 2024,
+ September 2021 into seven https://sansad.in/getFile/lsscom
+ DPSUs, with guns under mittee/Defence/18_Defence_4.
+ Advanced Weapons and pdf?source=loksabhadocs
+ Equipment India Limited
+ (Kanpur/Jabalpur) and
+ ammunition under Munitions
+ India Limited (Pune).
+The Field Artillery Note that 155mm conversion PIB, 77th Republic Day Parade,
+Rationalisation Plan: remains incomplete: indigenous 2026,
+Everything to 155mm 105mm Light Field Guns https://www.pib.gov.in/PressRel
+ remain in active Army service easePage.aspx?PRID=221844
+ as of January 2026, and the 9; PIB, Year End Review 2023,
+ DAC approved a new Towed https://www.pib.gov.in/PressRel
+ Gun System to replace the easeIframePage.aspx?PRID=1
+ Indian Field Gun in November 989502
+ 2023.
+Works cited
+
+1. ministry of defence; year end review - 2025,
+https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang=2 2. Four
+Days in May: The India-Pakistan Crisis of 2025 - Stimson Center,
+https://www.stimson.org/2025/four-days-in-may-the-india-pakistan-crisis-of-2025/ 3. Executive
+Summary Introduction - Cloudfront.net,
+https://d1jmc0u14z2tmp.cloudfront.net/uploads/download_audit_report/2010/Union_Performanc
+e_Defence_Procurement_Stores_and_Machinery_15_2010.pdf 4. Audit Report on Army
+Ammunition Management | PDF - Scribd,
+https://www.scribd.com/document/264719598/CAG-report 5. standing committee on defence -
+Digital Sansad,
+https://sansad.in/getFile/lsscommittee/Defence/18_Defence_4.pdf?source=loksabhadocs 6. The
+Future of Artillery in 21st Century Warfare,
+https://ojs.indrastra.com/index.php/clawsjournal/article/download/121/127/126 7. Weapons
+Without Networks: India's Precision Strike and Command,
+https://www.orfonline.org/research/weapons-without-networks-india-s-precision-strike-and-com
+mand-architecture-gap 8. MoD inks Rs 1577 crore contracts for Loiter Munition Systems for,
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2299561 9. 77th Republic Day Parade:
+Kartavya Path set to unveil unique mix of,
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218449 10. ministry of defence - year
+end review 2023, https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1989502 11.
+Indian Army's ammunition stock will exhaust after 10 days of war,
+https://www.indiatoday.in/india/story/indian-army-ammunition-war-supply-shortfall-cag-report-10
+25676-2017-07-21 12. Operation Sindoor: Drawing Lessons for India and Pakistan,
+https://www.ejsss.net.in/article_html.php?did=16113&issueno=0 13. 2025 India–Pakistan conflict
+- Wikipedia, https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict 14. After
+'Operation Sindoor' Pakistan Army resorts to heavy artillery fire,
+https://ddnews.gov.in/en/after-operation-sindoor-pakistan-army-resorts-to-heavy-artillery-fire-on-j
+k-loc/ 15. The Critical Review of Social Sciences Studies,
+https://thecrsss.com/index.php/Journal/article/download/1373/1340/2931 16. A Strategic and
+Tactical Analysis of the May 2025 India-Pakistan,
+https://ojs.ahss.org.pk/journal/article/download/1008/1045/1900 17. M982 Excalibur - Wikipedia,
+https://en.wikipedia.org/wiki/M982_Excalibur 18. Overall politico-military objective of Operation
+Sindoor was to punish,
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2149356&reg=48&lang=2 19. Rewriting
+the India Pakistan Rulebook,
+https://capssindia.org/wp-content/uploads/2025/12/NDP-13-Operation-Sindoor.pdf 20. Military
+Lessons from Operation Sindoor,
+https://carnegieendowment.org/india/research/2025/10/military-lessons-from-operation-sindoor
+21. Operation Sindoor - CENJOWS,
+https://cenjows.in/wp-content/uploads/2025/12/Dr-Sudesh-Vasudeva-and-Brig-Arun-Sahgal_WA
+.pdf 22. Operation Sindoor: Military Performance and Effectiveness,
+https://www.orfonline.org/public/uploads/upload/20260326100414.pdf 23. Operation Sindoor:
+How Pakistani media is twisting the truth,
+https://ddnews.gov.in/en/operation-sindoor-how-pakistani-media-is-twisting-the-truth/ 24. India
+looking at raising 'rocket-cum-missile' force: Army chief,
+https://m.economictimes.com/news/defence/india-looking-at-raising-rocket-cum-missile-force-ar
+my-chief/articleshow/126510469.cms 25. Operation Sindoor - Press Release:Press Information
+Bureau, https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2145420&reg=3&lang=2
+26. Indian army to build a drone force - Byline.mv, https://en.thepress.mv/18420 27. Bhairav
+Battalion: Indian Army's Light Commando Units - Anantam IAS,
+https://anantamias.com/bhairav-battalion/ 28. General Upendra Dwivedi's legacy: Transforming
+the Indian Army,
+https://timesofindia.indiatimes.com/defence/news/general-upendra-dwivedis-legacy-transformin
+g-the-indian-army-for-the-era-of-multi-domain-warfare/articleshow/132093173.cms 29. AI-Driven
+Warfare: Preparing India for Future Combat Readiness,
+https://www.drishtiias.com/daily-updates/daily-news-analysis/ai-driven-warfare-preparing-india-f
+or-future-combat-readiness 30. India to buy Javelin from the US - SP's Land Forces,
+https://www.spslandforces.com/features/?id=307&h=India-to-buy-Javelin-from-the-US 31. India
+Replenishes Stock of Excalibur Projectiles - chakranewz,
+https://chakranewz.com/critical-technologies/india-replenishes-stock-of-excalibur-projectiles 32.
+OFB Gets Bulk Production Clearance for 'Dhanush' Artillery Gun,
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=1565315 33. Report of the Comptroller
+and Auditor General of India,
+https://cag.gov.in/webroot/uploads/download_audit_report/2016/Union_Government_Defence_S
+ervices_Army_Ordnance_Factories_and_Defence_PSUs_Report_19_2016.pdf 34. Running
+Low on Ammunition - MP-IDSA, https://idsa.in/publisher/comments/running-low-on-ammunition
+35. Shell Shock Opportunity: Pradeep Metals and the Peer Race in,
+https://mrmarketsidd.substack.com/p/shell-shock-opportunity-pradeep-metals 36. OFB dissolved
+into 7 companies - StratPost, https://stratpost.com/ofb-dissolved-into-7-companies/ 37. Solar
+Industries India partners EURENCO for major artillery tender,
+https://www.ajaishukla.com/2018/06/solar-industries-india-partners-eurenco.html 38. Successful
+tests of weapon systems by DRDO - PIB,
+https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1703757 39. DRDO successfully test
+fires Enhanced Pinaka Rocket,
+https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1730354 40. ministry of defence - year
+end review 2022,
+https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1884353&reg=3&lang=2 41. S NO
+PERS NO RANK NAME ACT UNIT 1 IC-56416K COL SANJAY,
+https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc2026814958201.p
+df 42. S NO PERS NO RANK NAME ACT UNIT 1 IC-59756X COL AKHIL,
+https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025814608801.p
+df 43. This is how the Indian Artillery looks like | ADU MEDIA,
+https://www.aviation-defence-universe.com/this-is-how-the-indian-artillery-looks-like/ 44. S NO
+PERS NO RANK NAME ACT UNIT 1 IC-60186Y COL PUNEET,
+https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025814609101.p
+df 45. S NO PERS NO RANK NAME 1 IC-53329L BRIG SAQIB HUSSAIN,
+https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/aug/doc202281491501.pdf
+46. Press Release: Press Information Bureau,
+https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2086514&reg=3&lang=1 47. Indian
+Artillery : A Peep Into Its Past, Present & Future,
+https://www.aviation-defence-universe.com/indian-artillery-peep-past-present-future/ 48.
+Modernisation and Acquisition Plans - SP's Land Forces,
+https://www.spslandforces.com/story/?id=284 49. THE FUSION RACE: WHY SEEING
+TOGETHER WILL DECIDE THE,
+https://cenjows.in/wp-content/uploads/2026/09/Lt-Gen-Shivane_WA.pdf 50. 55 per cent ammo
+below minimum stock level, no significant,
+https://theprint.in/report/55-per-cent-ammo-below-minimum-stock-level-no-significant-improvem
+ent-in-shortages-since-2013-cag/3635/ 51. Audit Reports | Director General of Audit, Air Force,
+New Delhi - CAG, https://cag.gov.in/defence/new-delhi-i/en/audit-report/details/1740 52. US
+Arms Sales to India, https://www.forumarmstrade.org/usindia.html 53. Photo Album | PIB,
+https://www.pib.gov.in/ShowAlbum.aspx?albumid=227621&reg=48&lang=1 54. Indian Army's
+next-gen artillery gets smarter, longer range and more,
+https://defence.economictimes.indiatimes.com/news/military-systems/indian-armys-next-gen-arti
+llery-gets-smarter-longer-range-and-more-precise/135949827 55. DRDO to showcase cutting
+edge tech & Aatmanirbhar Bharat,
+https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2251608 56. DAC clears
+proposals worth Rs 79000 crore to enhance the,
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209422&reg=3&lang=1 57. पत्र सूचना
+कायालय, https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299561&reg=48&lang=1 58.
+Indian Army planning to induct long-range suicide drones, rockets,
+https://www.indiatoday.in/india/story/indian-army-planning-to-induct-long-range-suicide-drones-l
+ong-range-rockets-2607725-2024-09-28
