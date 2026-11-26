@@ -3190,10 +3190,10 @@ async function askGemini(history, question) {
     'You are an instructor explaining artillery and fire support to a military professional who is learning.',
     'Answer only from the ENTRIES below. They come from open sources.',
     'Structure the answer as what it is, how it works, and why it is done that way. Give the why most weight: reasoning, trade-offs and lessons.',
-    'Name the entry title you used. If an entry has confidence Reported or Analysis, say so.',
+    'Cite the entries as footnote markers in square brackets, such as [1] or [2], placed right after the fact they support. Number them in the order you first use them. Do not write entry titles or ids in the text. If an entry has confidence Reported or Analysis, say so.',
     'If the ENTRIES do not answer the question, say: "That is not in the current content." Then name the closest titles from the INDEX. Do not add facts from outside the ENTRIES.',
-    'Use plain sentences and short paragraphs. No tables. Use British English spelling, but keep the official names of US units, documents and equipment as they are.',
-    'End with one line in exactly this form: Entries: id1, id2',
+    'Use plain sentences and short paragraphs. Do not use Markdown headings (#), tables or horizontal rules; use bold sparingly. Use British English spelling, but keep the official names of US units, documents and equipment as they are.',
+    'End with one line in exactly this form, listing the entry ids in footnote order, so the first id is footnote [1]: Entries: id1, id2',
     '',
     'CONTENT VERSION: ' + CONTENT.version + ' (released ' + CONTENT.released + ')',
     'LATEST CHANGES: ' + JSON.stringify(latest || {}),
@@ -3243,16 +3243,26 @@ function splitAnswer(text) {
   return { body: lines.slice(0, -1).join('\n').trim(), ids: uniq(ids) };
 }
 
-function AnswerText({ text }) {
+// Renders an answer: strips Markdown headings and rules, keeps bold and bullets, turns [n] into footnote links.
+function AnswerText({ text, ids }) {
+  const { t, go } = useApp();
+  const refs = asList(ids);
+  const inline = (str, key) => str.split(/(\*\*.*?\*\*|\[\d+\])/g).map((part, k) => {
+    if (part.startsWith('**') && part.endsWith('**') && part.length > 4) return <strong key={key + '-' + k}>{part.slice(2, -2)}</strong>;
+    const m = part.match(/^\[(\d+)\]$/);
+    if (m) {
+      const id = refs[Number(m[1]) - 1];
+      return <sup key={key + '-' + k}>{id ? <button type="button" className={`px-px font-semibold ${t.link}`} onClick={() => go('entry', id)} title={ENTRY_BY_ID[id].title}>{m[1]}</button> : m[1]}</sup>;
+    }
+    return <React.Fragment key={key + '-' + k}>{part}</React.Fragment>;
+  });
   return (
     <>
-      {String(text).split('\n').filter((line) => line.trim()).map((line, j) => (
-        <div key={j} className={j > 0 ? 'mt-2' : ''}>
-          {line.replace(/^\s*[*-]\s+/, '• ').split(/(\*\*.*?\*\*)/g).map((part, k) => (
-            part.startsWith('**') && part.endsWith('**') ? <strong key={k}>{part.slice(2, -2)}</strong> : <React.Fragment key={k}>{part}</React.Fragment>
-          ))}
-        </div>
-      ))}
+      {String(text).split('\n').filter((line) => line.trim() && !/^\s*([-*_]\s*){3,}$/.test(line)).map((line, j) => {
+        const heading = /^\s*#{1,6}\s+/.test(line);
+        const clean = line.replace(/^\s*#{1,6}\s+/, '').replace(/^\s*[*-]\s+/, '• ');
+        return <div key={j} className={`${j > 0 ? 'mt-2' : ''} ${heading ? 'font-bold' : ''}`}>{inline(heading ? clean.replace(/\*\*/g, '') : clean, j)}</div>;
+      })}
     </>
   );
 }
@@ -3318,13 +3328,14 @@ function AskView() {
           const parsed = m.error ? { body: m.text, ids: [] } : splitAnswer(m.text);
           return (
             <div key={i} className={`max-w-[95%] px-4 py-3 rounded-2xl rounded-bl-sm border text-base leading-relaxed ${m.error ? t.bad : t.card}`}>
-              <AnswerText text={parsed.body} />
+              <AnswerText text={parsed.body} ids={parsed.ids} />
               {parsed.ids.length > 0 && (
-                <div className={`mt-3 pt-3 border-t flex flex-col items-start gap-2 ${t.border}`}>
-                  {parsed.ids.map((id) => (
-                    <button key={id} type="button" className={`text-left text-sm font-semibold underline underline-offset-2 ${t.link}`} onClick={() => go('entry', id)}>{ENTRY_BY_ID[id].title}</button>
+                <ol className={`mt-3 pt-2 border-t text-xs space-y-0.5 ${t.border} ${t.muted}`}>
+                  {parsed.ids.map((id, n) => (
+                    <li key={id} className="truncate"><span className="font-semibold">{n + 1}</span>{' '}
+                      <button type="button" className={`underline underline-offset-2 ${t.link}`} onClick={() => go('entry', id)}>{ENTRY_BY_ID[id].title}</button></li>
                   ))}
-                </div>
+                </ol>
               )}
             </div>
           );
@@ -3333,10 +3344,12 @@ function AskView() {
         <div ref={endRef} />
       </div>
 
-      <form onSubmit={(e) => { e.preventDefault(); send(input); }} className="flex gap-2">
-        <input type="text" value={input} onChange={(e) => setInput(e.target.value)} disabled={busy}
+      <form onSubmit={(e) => { e.preventDefault(); send(input); }} className="flex items-end gap-2 scroll-mb-4">
+        <textarea rows={2} value={input} disabled={busy}
+          onChange={(e) => { setInput(e.target.value); e.target.style.height = 'auto'; e.target.style.height = Math.min(e.target.scrollHeight, 160) + 'px'; }}
+          onFocus={(e) => { const el = e.target; setTimeout(() => el.scrollIntoView && el.scrollIntoView({ block: 'center', behavior: 'smooth' }), 350); }}
           placeholder="Ask about an organisation, a procedure or a lesson"
-          className={`flex-1 min-h-[48px] rounded-lg border px-4 text-base ${t.input}`} />
+          className={`flex-1 min-h-[48px] max-h-40 resize-none rounded-lg border px-4 py-3 text-base leading-snug ${t.input}`} />
         <button type="submit" aria-label="Send" disabled={busy || !input.trim()}
           className={`w-12 min-h-[48px] rounded-lg flex items-center justify-center disabled:opacity-40 ${t.btn}`}><Send size={18} /></button>
       </form>
@@ -3362,6 +3375,16 @@ export default function App() {
   const [stack, setStack] = useState([{ view: 'home', param: null }]);
   const [lib, setLib] = useState({ tab: 'Entries', query: '', filters: {} });
   const [chat, setChat] = useState([]);
+  // While a text box has focus the phone keyboard is open: hide the bottom tab bar so it cannot sit over the box.
+  const [typing, setTyping] = useState(false);
+  useEffect(() => {
+    const isText = (el) => el && (el.tagName === 'TEXTAREA' || (el.tagName === 'INPUT' && !['checkbox', 'radio', 'button', 'submit', 'range'].includes(el.type)));
+    const on = (e) => { if (isText(e.target)) setTyping(true); };
+    const off = (e) => { if (isText(e.target)) setTyping(false); };
+    document.addEventListener('focusin', on);
+    document.addEventListener('focusout', off);
+    return () => { document.removeEventListener('focusin', on); document.removeEventListener('focusout', off); };
+  }, []);
   const t = theme(state.dark);
   const cur = stack[stack.length - 1];
 
@@ -3439,7 +3462,7 @@ export default function App() {
           <div className={`mt-10 pt-4 border-t text-center text-sm font-medium ${t.border} ${t.muted}`}><div>Built from open sources · Researched with Gemini</div><div className="mt-0.5">Built with Claude · Curated by ITCH</div></div>
         </main>
 
-        <nav className={`sm:hidden fixed bottom-0 inset-x-0 z-40 border-t ${t.nav}`}>
+        <nav className={`sm:hidden fixed bottom-0 inset-x-0 z-40 border-t ${typing ? 'hidden' : ''} ${t.nav}`}>
           <div className="grid grid-cols-5">
             {TABS.map(({ view, label, Icon }) => (
               <button key={view} type="button" onClick={() => tab(view)}
