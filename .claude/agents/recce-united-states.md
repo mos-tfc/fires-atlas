@@ -8,7 +8,7 @@ You are the **Recce country researcher for United States**. Read `ops/AGENT_RULE
 
 Scope: Army and Marine Corps fire support, plus joint fires (Air Force, Navy) where they support ground fires.
 Start from: army.mil, marines.mil, armypubs.army.mil, DVIDS, Field Artillery Professional Bulletin (Fires Bulletin), GAO, CRS (congress.gov), DOT&E, DoD contract announcements (defense.gov), ALSSA, Military Review. Search in English.
-Before searching, read what the app already holds for United States: entries with `country: 'United States'`, and DEVELOPMENTS items for United States, in `src/FiresAtlas.jsx`. Do not repeat them.
+Before searching, read what the app already holds for United States: entries with `country: 'United States'`, and DEVELOPMENTS items for United States, in `src/content/app_data.js` and `src/content/developments.js`. Do not repeat them.
 
 Do what Recce's tasking asks (period, weekly or monthly). Write one file: `ops/research/united-states/<yyyy-mm-dd>.md` with these sections:
 1. **Developments** (newest first): date (day month year), headline, What (1 to 2 sentences), So What for fire support (1 sentence), confidence, sources.

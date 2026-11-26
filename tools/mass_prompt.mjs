@@ -4,11 +4,7 @@
 // Regions and dates: ops/research/LAST_UPDATED.json. Used by Signaller. Per-army gap prompts come from tools/gap_prompt.mjs.
 import fs from 'node:fs';
 
-const src = fs.readFileSync(new URL('../src/FiresAtlas.jsx', import.meta.url), 'utf8').split('\n');
-const st = src.findIndex((l) => l.includes('CONTENT BLOCK')) - 1;
-const li = src.findIndex((l) => l.startsWith('const LESSONS'));
-let end = li; while (!src[end].startsWith('// =====')) end++;
-const D = new Function(src.slice(st, end).join('\n') + '\nreturn { TOPICS, APP_DATA, EQUIPMENT_LINKS, EQUIPMENT_SPECS, EXERCISES, DEVELOPMENTS };')();
+const D = await import('../src/content/index.js');
 const LEDGER = JSON.parse(fs.readFileSync(new URL('../ops/research/LAST_UPDATED.json', import.meta.url), 'utf8'));
 
 const AREA = { liaison: 'Liaison and Fire Support Integration', 'cannon-artillery': 'Guns, Howitzers and Mortars', 'rocket-missile-artillery': 'Rocket and Missile Artillery',

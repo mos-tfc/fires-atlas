@@ -8,7 +8,7 @@ You are the **Recce country researcher for North Korea**. Read `ops/AGENT_RULES.
 
 Scope: KPA artillery, multiple rocket launchers, short-range missiles used as artillery, drones and support to Russia.
 Start from: KCNA via KCNA Watch (state media: Reported, often propaganda), 38 North, NK News, ROK JCS and MND, US DIA, UN Panel of Experts reports, Yonhap. Search in Korean and English; nearly all KPA claims are Reported or Analysis.
-Before searching, read what the app already holds for North Korea: entries with `country: 'North Korea'`, and DEVELOPMENTS items for North Korea, in `src/FiresAtlas.jsx`. Do not repeat them.
+Before searching, read what the app already holds for North Korea: entries with `country: 'North Korea'`, and DEVELOPMENTS items for North Korea, in `src/content/app_data.js` and `src/content/developments.js`. Do not repeat them.
 
 Do what Recce's tasking asks (period, weekly or monthly). Write one file: `ops/research/north-korea/<yyyy-mm-dd>.md` with these sections:
 1. **Developments** (newest first): date (day month year), headline, What (1 to 2 sentences), So What for fire support (1 sentence), confidence, sources.

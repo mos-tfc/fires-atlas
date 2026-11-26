@@ -3,9 +3,12 @@
 Read this file and `ops/LESSONS.md` before any work. Log your work in `ops/TASKS.md` under your name.
 
 ## The app
-- One React file: `src/FiresAtlas.jsx`. The **content block** (top of the file, down to the end of `LESSONS`) holds all data:
-  CONTENT, CHANGELOG, TOPICS, APP_DATA (entries), GLOSSARY, DEVELOPMENTS, EQUIPMENT_LINKS, EQUIPMENT_SPECS,
-  VIDEO_LINKS, VIDEO_META, RANGE_DATA, KILL_CHAINS, LESSONS. Below it is app code.
+- App code is one React file: `src/FiresAtlas.jsx`. All data now lives in `src/content/`, one file per data set, each `export const NAME = ...;`
+  and all re-exported by `src/content/index.js` (`src/content/package.json` sets `"type":"module"` so Node can import the folder):
+  `content.js` (CONTENT: version and date), `feedback_form_url.js`, `app_link.js`, `changelog.js`, `parts.js`, `topics.js`,
+  `app_data.js` (APP_DATA: the entries), `glossary.js`, `developments.js`, `equipment_links.js`, `equipment_specs.js`,
+  `video_links.js`, `video_meta.js`, `range_data.js`, `kill_chains.js`, `exercises.js`, `levels.js`, `lessons.js`.
+  Add or change data in those files; `src/FiresAtlas.jsx` only imports them. Tools in `tools/` import `src/content/index.js`.
 - Website: https://fires-atlas.menofsteel.workers.dev, deployed by Cloudflare on each merge to `main`.
 - Build: `./build.sh` (bun) rebuilds `public/app.js`. Always rebuild and commit `public/app.js` with a source change.
 - Checks: `node tools/check.mjs` must pass (exit 0) before any pull request. `python3 tools/check_links.py --videos` for clips.
