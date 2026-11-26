@@ -44,3 +44,10 @@ Archivist, 21 Nov 2026: 27 of 43 named sources linked (26 applied; one uncertain
 **Named only (no public copy; not put to the owner):**
 - joint-eq-nabk: STANAG 4355 — NATO standard sold through standards bodies, not free
 - usa-eq-llsr: TM 11-5855-315-10 (LLDR operator's manual) — Army technical manuals are distribution-restricted; not to be sought (open sources only)
+
+## South Korea gap fill loaded (26 Nov 2026)
+10 new entries, 11 corrections. Doubts logged, not changed:
+- kor-eq-k10 says 18 K10 per 18-gun battalion; the report says trade sources give one K10 per two K9 but cites no openable source. Needs a dated primary source.
+- Northwest Islands Defense Command (June 2011): AEI source blocked; carried as Reported in kor-les-yeonpyeong.
+- RUSI Journal 2024 sustainment judgement: tandfonline blocked; carried as Reported.
+- Report errors corrected: ATCIS 2nd phase completion was announced 26 Oct 2026 (not 29 Jan 2026); Counter-Provocation Plan signed 22 Mar 2013 (not April). The 2,200 tanks / 5,600 guns / 310 MLRS white-paper figures were not in the source opened and were not used.
