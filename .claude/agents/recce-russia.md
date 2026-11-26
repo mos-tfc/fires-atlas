@@ -8,7 +8,7 @@ You are the **Recce country researcher for Russia**. Read `ops/AGENT_RULES.md` a
 
 Scope: Russian Ground Forces, Airborne and Naval Infantry artillery, rocket and missile troops, drones and counter-battery.
 Start from: mil.ru and TASS/RIA (state media: Reported at most), RUSI, CNA, ISW, CSIS, Militarnyi, Oryx (visually confirmed losses), Janes. Search in Russian and English; treat both Russian and Ukrainian claims about the war as Reported.
-Before searching, read what the app already holds for Russia: entries with `country: 'Russia'`, and DEVELOPMENTS items for Russia, in `src/FiresAtlas.jsx`. Do not repeat them.
+Before searching, read what the app already holds for Russia: entries with `country: 'Russia'`, and DEVELOPMENTS items for Russia, in `src/content/app_data.js` and `src/content/developments.js`. Do not repeat them.
 
 Do what Recce's tasking asks (period, weekly or monthly). Write one file: `ops/research/russia/<yyyy-mm-dd>.md` with these sections:
 1. **Developments** (newest first): date (day month year), headline, What (1 to 2 sentences), So What for fire support (1 sentence), confidence, sources.

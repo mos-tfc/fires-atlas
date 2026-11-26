@@ -1,0 +1,11767 @@
+// Entry fields: id, topic, country, addedIn, updatedIn (optional), changeNote (optional),
+// module (section), force, echelon [], type, title, what [], how [], why [],
+// sources [ { title, publisher, year, url } ], confidence (Confirmed | Reported | Analysis),
+// asOf, relatedIds [].
+export const APP_DATA = [
+  // --- FORCES: US ARMY (Company to Brigade) ---
+  {
+    id: 'usa-org-fist',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Force Structure',
+    title: 'US Army Company Fire Support Team (FIST)',
+    what: [
+      'Commanded by a Fire Support Officer (FSO, 13A Lieutenant) and Fire Support Sergeant (FSNCO, 13F Staff Sergeant E-6).',
+      'Includes two-person Forward Observer (FO) parties (13F SGT/SPC) pushed down to manoeuvre platoons (or mounted in M7 BFIST / M1131 FSV vehicles in Armored/Stryker Brigade Combat Teams (BCTs)).',
+      'Personnel belong to the Field Artillery branch and attach/Operational Control (OPCON) to the supported infantry, armour, or cavalry company.'
+    ],
+    how: [
+      'The FSO co-locates with the Company Commander to plan and synchronise mortar, cannon, and air fires.',
+      'Platoon FOs move with infantry platoon leaders to spot targets in dead space and send digital or voice Calls for Fire.',
+      'Retains a direct technical fire-direction net to the supporting Field Artillery Battalion Fire Direction Center (FDC).'
+    ],
+    why: [
+      'Frees the company commander to focus on close combat while a dedicated artillery specialist manages target location and clearance.',
+      'Pushing FOs to platoons solves line-of-sight blind spots in urban or broken terrain where one company OP cannot see everything.'
+    ],
+    sources: [
+      {"title": "ATP 3-09.30, Observed Fires", "publisher": "Headquarters, Department of the Army", "year": "2017", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN5011_ATP%203-09x30%20FINAL%20WEB.pdf"},
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-org-fist', 'usa-ttp-cff', 'usa-eq-llsr', 'usa-trn-13f']
+  },
+  {
+    id: 'usa-org-bn-cell',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Battalion'],
+    type: 'Force Structure',
+    title: 'US Army Battalion Fires Cell',
+    what: [
+      'Led by the Battalion FSO (13A Captain) and Battalion FSNCO (13F Sergeant First Class E-7) inside the manoeuvre battalion Tactical Operations Center (TOC).',
+      'Works alongside an embedded US Air Force Tactical Air Control Party (TACP) led by an Air Liaison Officer (ALO) and enlisted Joint Terminal Attack Controllers (JTACs).',
+      'Coordinates battalion organic heavy mortars (81mm/120mm) with direct-support Field Artillery.'
+    ],
+    how: [
+      'Consolidates company FIST fire plans into the battalion fire support plan.',
+      'Clears targets through the Battalion S-3 / Battle Captain against friendly positions and Fire Support Coordination Measures (FSCMs).',
+      'Routes Close Air Support (CAS) requests through the co-located USAF TACP.'
+    ],
+    why: [
+      'Battalion is the lowest echelon with both organic indirect fire weapons (mortars) and a full battle staff.',
+      'A 13A Captain FSO holds peer rank with company commanders and the battalion S-3, ensuring authority during clearance.'
+    ],
+    sources: [
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"},
+      {"title": "ATP 3-90.5, Combined Arms Battalion", "publisher": "Headquarters, Department of the Army", "year": "2021", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32974-ATP_3-90.5-000-WEB-1.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-org-fscc', 'usa-ttp-clearance', 'usa-eq-afats']
+  },
+  {
+    id: 'usa-org-bde-cell',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Brigade'],
+    type: 'Force Structure',
+    title: 'US Army BCT Fires Cell & Army 2030 Realignment',
+    what: [
+      'The supporting Field Artillery Battalion Commander serves dual-hatted as the BCT Fire Support Coordinator (FSCOORD).',
+      'Staffed by the BCT FSO (13A Major), Brigade FSNCO (13F MSG E-8), Targeting Officer (131A Warrant Officer), Electronic Warfare (EW) Officer, and USAF TACP.',
+      'Under Army 2030 / Transformation in Contact, deep counterfire and long-range fires are progressively re-centralising at Division Artillery (DIVARTY).'
+    ],
+    how: [
+      'Executes the Decide, Detect, Deliver, Assess (D3A) targeting cycle across the brigade’s deep and close areas.',
+      'Establishes Radar Zones (Critical Friendly Zones (CFZs) / Call for Fire Zones (CFFZs)) for AN/TPQ-50/53 radars and deconflicts brigade airspace with the Brigade Aviation Element.'
+    ],
+    why: [
+      'Dual-hatting the FA Battalion Commander as FSCOORD aligns tactical fire planning with battery positioning and ammunition logistics.',
+      'Re-empowering DIVARTY solves the BCT’s inability to win peer counter-battery fights with a single organic cannon battalion.'
+    ],
+    sources: [
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: '' },
+      { title: 'FM 3-0: Operations (Army 2030 Force Structure)', publisher: 'Headquarters, Dept. of the Army', year: '2022', url: 'https://irp.fas.org/doddir/army/fm3-0.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-org-regt-fscc', 'usa-ttp-radar', 'usa-ttp-airspace']
+  },
+  {
+    id: 'usa-org-jfo-tacp',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Force Structure',
+    title: 'US Army JFO & USAF TACP Split Model',
+    what: [
+      'US Army 13F/13A personnel do not normally hold full JTAC certification in standard BCTs; instead, they qualify as Joint Fires Observers (JFOs).',
+      'Full terminal attack control (Type 1, 2, 3 CAS) belongs to embedded US Air Force TACP Airmen (AFSC 1Z3X1) typically pooled at Battalion/Brigade.'
+    ],
+    how: [
+      'A JFO-qualified 13F passes target grids, laser marks, and terminal guidance data to a remote USAF JTAC (at Battalion or airborne) who grants aircraft clearance.'
+    ],
+    why: [
+      'Maintaining full JTAC currency requires frequent live fixed-wing sorties that the Army cannot sustain across every company FIST.',
+      'Trade-off: Creates a two-step air-clearance link compared to the USMC model where company FiSTs hold organic JTAC/Forward Air Controller (FAC) authority.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.32: JFIRE', publisher: 'ALSA / DoD', year: '2023', url: 'https://www.alssa.mil/mttps/jfire/' },
+      { title: 'JP 3-09.3: Close Air Support', publisher: 'Joint Chiefs of Staff', year: '2019', url: 'https://irp.fas.org/doddir/dod/jp3_09_3.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-org-fist', 'usa-trn-jfo']
+  },
+
+  // --- FORCES: US ARMY & USMC (Division & Army/Theatre Echelon) ---
+  {
+    id: 'usa-org-tfc',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Theatre'],
+    type: 'Force Structure',
+    title: 'Theatre Fires Command (TFC)',
+    what: [
+      'A two-star headquarters designed to coordinate, integrate, and employ operational and strategic fires across a geographic combatant command\'s area of responsibility.',
+      'The TFC commander serves as the Fire Support Coordinator (FSCOORD) for the Theatre Army.'
+    ],
+    how: [
+      'Operates directly under the Theatre Army or Joint Force Land Component Commander (JFLCC), setting the theatre by managing target arrays that exceed the range or authority of subordinate corps.',
+      'Coordinates the employment of the Multi-Domain Task Force (MDTF) and integrates into the Joint Targeting Coordination Board (JTCB).'
+    ],
+    why: [
+      'Re-established (e.g., 56th Artillery Command) to address complex Anti-Access/Area Denial (A2/AD) threats. The Army required an intermediary HQ to manage long-range, cross-domain fires without overburdening a tactical corps headquarters.'
+    ],
+    sources: [
+      { title: 'FM 3-09 Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2024', url: '' },
+      { title: 'Military Review: Theater Armies', publisher: 'Army University Press', year: '2025', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-mdtf', 'joint-ttp-jtc']
+  },
+  {
+    id: 'usa-org-mdtf',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Theatre'],
+    type: 'Force Structure',
+    title: 'Multi-Domain Task Force (MDTF)',
+    what: [
+      'A specialised, regionally aligned formation comprising a Strategic Fires Battalion, a Multi-Domain Effects Battalion (cyber, Electronic Warfare (EW), space), an air defence battalion, and support elements.',
+      'The centrepiece of the Army\'s modernisation for penetrating near-peer A2/AD networks.'
+    ],
+    how: [
+      'During competition, maps adversary networks via non-kinetic effects. During conflict, it acts as the primary tool to disintegrate enemy air defences.',
+      'Employs the Strategic Mid-Range Fires (SMRF) Typhon system and Long-Range Hypersonic Weapon (LRHW) to strike deep command and control nodes.'
+    ],
+    why: [
+      'Traditional field artillery formations lacked the kinetic range and non-kinetic integration to dismantle layered enemy air defences.',
+      'Provides the Joint Force Commander (JFC) with a highly survivable, land-based alternative to vulnerable air or naval strike assets.'
+    ],
+    sources: [
+      { title: 'CRS Report IF12135: The U.S. Army’s Typhon (SMRF) System', publisher: 'Congressional Research Service', year: '2024', url: 'https://www.congress.gov/crs-product/IF12135' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-tfc', 'joint-les-indopac']
+  },
+  {
+    id: 'usa-org-corps-fab',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Corps'],
+    type: 'Force Structure',
+    title: 'Corps Fires Cell & Field Artillery Brigade (FAB)',
+    what: [
+      'The corps fires cell integrates all lethal and non-lethal fires for the corps. The FAB is the physical strike formation, primarily composed of High Mobility Artillery Rocket System (HIMARS) and Multiple Launch Rocket System (MLRS) battalions.'
+    ],
+    how: [
+      'The corps fires cell manages the deep fight and tasks the FAB. The FAB provides general support to the corps or reinforcing support to divisions.',
+      'Answers digital calls for fire forwarded upward from a division’s Joint Air-Ground Integration Center (JAGIC) when a target exceeds division cannon range.'
+    ],
+    why: [
+      'Centralising long-range rocket artillery at the corps level allows the commander to weight the main effort across a massive geographical frontage without physically repositioning assets across contested terrain.'
+    ],
+    sources: [
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-div-alloc']
+  },
+  {
+    id: 'usmc-org-ffcc',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Corps'],
+    type: 'Force Structure',
+    title: 'Force Fires Coordination Center (FFCC)',
+    what: [
+      'The senior fires organisation within a Marine Expeditionary Force (MEF), responsible for planning and executing MEF-level fires and targeting (USMC equivalent to an Army corps fires cell).'
+    ],
+    how: [
+      'Operates in close coordination with the Marine Air-Ground Task Force (MAGTF) Tactical Air Command Center (TACC).',
+      'Integrates naval surface fires, Marine aviation, and ground-based HIMARS or Naval Strike Missile (NMESIS) batteries, connecting downward to division Fire Support Coordination Centers (FSCCs).'
+    ],
+    why: [
+      'Ensures the MAGTF operates as a self-contained, combined-arms team, prosecuting deep targets organically before requesting external support from the broader Joint Force.'
+    ],
+    sources: [
+      { title: 'MCWP 3-31 Marine Air-Ground Task Force Fires', publisher: 'Headquarters Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/MCWP%203-31%20(Formerly%20MCWP%203-43.3).pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-regt-fscc']
+  },
+
+  // --- FORCES: USMC (Company to Brigade) ---
+  {
+    id: 'usmc-org-fist',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Company'],
+    type: 'Force Structure',
+    title: 'USMC Company Fire Support Team (FiST)',
+    what: [
+      'Organic/habitually attached team inside a Marine Rifle Company (note lowercase "i" in USMC "FiST").',
+      'Led by either an Artillery Officer (MOS 0802 Lieutenant) OR a Naval Aviator Forward Air Controller (FAC, MOS 7502 Captain) serving a ground tour.',
+      'Includes an 0861 FiST Chief (Sgt/SSgt), Forward Observers (0861), and Radio Operators (0621), with 0861s frequently certified as full JTACs.'
+    ],
+    how: [
+      'Integrates 60mm/81mm mortars, 155mm artillery, Naval Surface Fire Support (NSFS), and Marine fixed/rotary-wing CAS inside a single company team.',
+      'Because an Aviator FAC or 0861 JTAC sits inside the FiST, the company can directly execute Type 1/2/3 CAS without calling up to Battalion.'
+    ],
+    why: [
+      'Amphibious and expeditionary Marine companies frequently fight separated from battalion headquarters across islands or littoral terrain.',
+      'Placing a Naval Aviator FAC directly in an infantry company gives the ground commander native aviation expertise and autonomous terminal air control.'
+    ],
+    sources: [
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' },
+      { title: 'NAVMC 3500.7B: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2021', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-org-fist', 'usa-org-jfo-tacp', 'usmc-trn-0861', 'usmc-eq-ths']
+  },
+  {
+    id: 'usmc-org-fscc',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Battalion'],
+    type: 'Force Structure',
+    title: 'USMC Battalion Fire Support Coordination Center (FSCC)',
+    what: [
+      'Unlike the Army "Fires Cell," the USMC calls its battalion/regimental coordination hub a Fire Support Coordination Center (FSCC).',
+      'Staffed by the Battalion Fire Support Coordinator (FSC, 0802 Maj/Capt), Battalion Air Officer (Naval Aviator Maj/Capt), 0861 Fire Support Chief, and Naval Gunfire Liaison.',
+      'Under Force Design 2030, infantry battalions are restructuring into smaller, more dispersed Littoral Combat Teams (LCTs) with enhanced organic sensor/fires integration.'
+    ],
+    how: [
+      'Co-locates inside the Battalion Combat Operations Center (COC) to clear and synchronise mortars, artillery, HIMARS, naval gunfire, and Marine Aviation simultaneously.',
+      'The FSC acts as the Battalion Commander’s direct deputy for all fires clearance and FSCM management.'
+    ],
+    why: [
+      'Marine Air-Ground Task Force (MAGTF) doctrine treats aviation, artillery, and naval gunfire as one unified fires system rather than separate service channels.',
+      'Force Design 2030 pushes multi-domain sensing and long-range anti-ship/land fires coordination down to smaller battalion/regimental nodes for distributed island operations.'
+    ],
+    sources: [
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' },
+      { title: 'Force Design 2030 Annual Updates', publisher: 'Headquarters, US Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/Docs/Force_Design_2030_Annual_Update_June_2023.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-org-bn-cell', 'usmc-org-fist', 'usmc-ttp-nsfs']
+  },
+  {
+    id: 'usmc-org-regt-fscc',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Brigade'],
+    type: 'Force Structure',
+    title: 'USMC Regimental / Marine Littoral Regiment (MLR) FSCC',
+    what: [
+      'At the Infantry Regiment / Marine Expeditionary Brigade (MEB) level, the Regimental FSCC is led by the Regimental FSC (0802 LtCol/Maj) and Regimental Air Officer.',
+      'In newly formed Marine Littoral Regiments (MLRs), the FSCC coordinates closely with the Medium-Range Missile Battery (NMESIS) and Littoral Anti-Air Battalion (AN/TPS-80 G/ATOR radar).'
+    ],
+    how: [
+      'Manages deep battlespace FSCMs (Coordinated Fire Line (CFL) / Fire Support Coordination Line (FSCL)), coordinates airspace with the Direct Air Support Center (DASC), and integrates joint naval/air strikes.'
+    ],
+    why: [
+      'Bridges tactical battalion close combat with division/MEF deep fires and maritime sea-denial operations in contested littoral regions.'
+    ],
+    sources: [
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' },
+      { title: 'Tentative Manual for Expeditionary Advanced Base Operations (TM EABO)', publisher: 'Headquarters, US Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/Docs/230509-Tentative-Manual-For-Expeditionary-Advanced-Base-Operations-2nd-Edition.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-org-bde-cell', 'usmc-org-fscc']
+  },
+
+  // --- LIAISON ELEMENTS (Division & Army) ---
+  {
+    id: 'usa-org-bcd',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Theatre'],
+    type: 'Liaison Element',
+    title: 'Battlefield Coordination Detachment (BCD)',
+    what: [
+      'A specialised, regionally focused Army coordination detachment that serves as the senior liaison between the Army Forces (ARFOR) commander and the Joint Force Air Component Commander (JFACC).',
+      'Physically collocates within the Air Operations Center (AOC) on a 24-hour basis.'
+    ],
+    how: [
+      'Participates in all six stages of the Air Tasking Cycle. Submits ARFOR targets, advocates for land-force priorities during air asset apportionment, and ensures Fire Support Coordination Lines (FSCL) are respected in the Air Tasking Order (ATO).'
+    ],
+    why: [
+      'Solves historic friction between air and ground components. Without the BCD, Army deep targets would be ignored in the ATO, and Air Force strikes might inadvertently target advancing friendly ground forces (fratricide).'
+    ],
+    sources: [
+      {"title": "ATP 3-09.13, The Battlefield Coordination Detachment", "publisher": "Headquarters, Department of the Army", "year": "2015", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/atp3_09x13.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-atc', 'usa-org-tfc']
+  },
+  {
+    id: 'usaf-org-asoc',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Division', 'Corps'],
+    type: 'Liaison Element',
+    title: 'Air Support Operations Center (ASOC) & Air Liaison Officer (ALO)',
+    what: [
+      'The ASOC is an Air Force command and control entity embedded at the Army corps or division level.',
+      'Air Liaison Officers (ALOs) are Air Force officers who command the ASOC and the subordinate Tactical Air Control Parties (TACPs) attached to Army units.'
+    ],
+    how: [
+      'Processes and coordinates immediate requests for air support from ground units. Holds launch authority for airborne alert aircraft and routes them to targets.',
+      'ALOs sit directly in the Army commander’s operations centre to translate the ground scheme of manoeuvre into actionable air support requests.'
+    ],
+    why: [
+      'While the BCD handles deliberate 72-hour planning, the ASOC and ALO solve the problem of immediate, dynamic combat execution, ensuring air power can be synchronised safely within minutes when troops take contact.'
+    ],
+    sources: [
+      {"title": "JP 3-09, Joint Fire Support", "publisher": "Joint Chiefs of Staff", "year": "2019", "url": "https://irp.fas.org/doddir/dod/jp3_09.pdf"}
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-bcd']
+  },
+  {
+    id: 'joint-org-gld',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Liaison Element',
+    title: 'Ground, Naval, and Marine Liaison Detachments',
+    what: [
+      'A network of specialised liaison teams ensuring cross-domain synchronisation.',
+      'Ground Liaison Detachments (GLDs) are Army personnel embedded in Air Force wings. Naval and Amphibious Liaison Elements (NALE) and Marine Liaison Elements (MARLE) sit in the AOC.'
+    ],
+    how: [
+      'GLDs conduct pre-mission briefings with Air Force pilots, providing ground tactical context (terrain, friendly movement, enemy behaviour), and debrief pilots post-mission to extract intelligence.',
+      'NALE and MARLE ensure Tomahawk strikes or Marine aviation sorties are synchronised with the ATO.'
+    ],
+    why: [
+      'Digital targeting systems transmit coordinates, but not context. These detachments solve the problem of pilot situational awareness, preventing fratricide and ensuring all assets operate from a unified targeting plan.'
+    ],
+    sources: [
+      {"title": "ATP 3-09.13, The Battlefield Coordination Detachment", "publisher": "Headquarters, Department of the Army", "year": "2015", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/atp3_09x13.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-bcd']
+  },
+
+  // --- TTPS ---
+  {
+    id: 'usa-ttp-cff',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'US Army 6-Element Call for Fire & First-Round FFE',
+    what: [
+      'Transmitted in 3 bursts with 6 elements: (1) Observer ID & Warning Order, (2) Target Location (Grid, Polar, or Shift), (3) Target Description, Method of Engagement, and Control.',
+      'Executed digitally via Pocket-Sized Forward Entry Device (PFED) / Android Team Awareness Kit (ATAK) to Advanced Field Artillery Tactical Data System (AFATDS) or via voice net.'
+    ],
+    how: [
+      'Observers use laser rangefinders to achieve <10–20m Target Location Error (TLE), bypassing "Adjust Fire" spotting rounds in favour of immediate Fire for Effect (FFE).'
+    ],
+    why: [
+      'Ranging rounds warn the enemy to take cover or displace within 60 seconds and expose the firing battery to enemy counter-battery radars.'
+    ],
+    sources: [
+      {"title": "ATP 3-09.30, Observed Fires", "publisher": "Headquarters, Department of the Army", "year": "2017", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN5011_ATP%203-09x30%20FINAL%20WEB.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-eq-afats', 'usa-eq-llsr', 'usmc-ttp-nsfs']
+  },
+  {
+    id: 'usmc-ttp-nsfs',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'USMC',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'USMC Multi-Domain Call for Fire & Naval Surface Fire Support (NSFS)',
+    what: [
+      'USMC 0861 observers are trained to call for fire from 60/81mm mortars, 155mm howitzers, HIMARS, CAS aircraft, and Navy destroyer/cruiser 5-inch guns (NSFS).',
+      'NSFS calls account for ship movement, flat naval gun trajectories, and Line-of-Fire (LOF) safety corridors.'
+    ],
+    how: [
+      'Uses the Target Hand-off System (THS) or voice NSFS formats over High Frequency (HF) / Ultra High Frequency (UHF) / Satellite Communications (SATCOM) directly to a surface combatant’s Combat Information Center (CIC).'
+    ],
+    why: [
+      'During amphibious assaults or island defence, naval guns provide immediate heavy fire support before artillery batteries finish landing ashore.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.32: JFIRE (NSFS Chapter)', publisher: 'ALSA / DoD', year: '2023', url: 'https://www.alssa.mil/mttps/jfire/' },
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-org-fist', 'usmc-eq-ths', 'usa-ttp-cff']
+  },
+  {
+    id: 'usa-ttp-clearance',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Battalion'],
+    type: 'TTP',
+    title: 'US Army Clearance of Fires & FSCMs (CFL / FSCL / NFA)',
+    what: [
+      'Permissive measures: Coordinated Fire Line (CFL), Fire Support Coordination Line (FSCL), Free Fire Area.',
+      'Restrictive measures: Restrictive Fire Line (RFL), No-Fire Area (NFA), Restrictive Fire Area (RFA).'
+    ],
+    how: [
+      'In the Battalion TOC, the FSO and Battle Captain cross-check target grids against Joint Battle Command-Platform (JBC-P) friendly icons and Minimum Safe Distances (MSDs) before clearing the FDC to shoot.'
+    ],
+    why: [
+      'A well-placed CFL lets artillery engage targets beyond a ridge or river immediately without waiting for voice clearance from manoeuvre companies.'
+    ],
+    sources: [
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-org-bn-cell', 'usmc-ttp-airspace']
+  },
+  {
+    id: 'usmc-ttp-airspace',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'USMC',
+    echelon: ['Battalion'],
+    type: 'TTP',
+    title: 'USMC Procedural Airspace Deconfliction (ACA / Informal Separation)',
+    what: [
+      'Uses Formal and Informal Airspace Coordination Areas (ACAs) managed jointly by the FSCC Air Officer and FSC.',
+      'Supports simultaneous "Keyhole" CAS holds and continuous 155mm/mortar suppression.'
+    ],
+    how: [
+      'When a company FiST calls for both artillery and CAS on the same objective, the FiST FAC/JTAC applies lateral separation (e.g., guns shoot north of target, aircraft attack south-to-north) or brief time windows.'
+    ],
+    why: [
+      'High-angle 155mm trajectories reach >30,000 ft; procedural lateral/altitude rules allow uninterrupted combined-arms fires even under heavy EW jamming.'
+    ],
+    sources: [
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' },
+      { title: 'ATP 3-52.1: Multi-Service Airspace Control', publisher: 'ALSA / DoD', year: '2019', url: 'https://www.alssa.mil/mttps/airspace' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-org-fist', 'usa-ttp-airspace']
+  },
+  {
+    id: 'usa-ttp-airspace',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Brigade'],
+    type: 'TTP',
+    title: 'US Army BCT Airspace Control (ACA / ROZ / Coordinating Altitude)',
+    what: [
+      'Uses Airspace Coordination Areas (ACAs), Restricted Operations Zones (ROZs) for UAS, and Coordinating Altitudes.',
+      'Managed by the BCT Fires Cell and Brigade Aviation Element (BAE) via TAIS / AFATDS.'
+    ],
+    how: [
+      'Establishes pre-planned altitude or lateral blocks so Army attack helicopters, sUAS, and 155mm shells do not share the same volume simultaneously.'
+    ],
+    why: [
+      'Prevents mid-air collisions between artillery projectiles and low-flying drones/helicopters without halting all brigade fires for every air mission.'
+    ],
+    sources: [
+      { title: 'ATP 3-52.1: Multi-Service Airspace Control', publisher: 'ALSA / DoD', year: '2019', url: 'https://www.alssa.mil/mttps/airspace' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-org-bde-cell', 'usmc-ttp-airspace']
+  },
+  {
+    id: 'usa-ttp-uas',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'US Army FIST Integration with sUAS & Loitering Munitions',
+    what: [
+      'Integrates platoon/company small Unmanned Aircraft System (sUAS) (Skydio / RQ-28A, Raven) and loitering munitions (Switchblade 300/600) into FIST workflows.',
+      'Validated and accelerated under US Army Transformation in Contact brigade rotations (2024–2025).'
+    ],
+    how: [
+      'Observers pull drone Full-Motion Video (FMV) onto ATAK tablets, mensurate target grids against digital terrain data, and transmit digital Calls for Fire.'
+    ],
+    why: [
+      'Eliminates line-of-sight blind spots without exposing human observers on prominent hilltops.'
+    ],
+    sources: [
+      {"title": "ATP 3-09.30, Observed Fires", "publisher": "Headquarters, Department of the Army", "year": "2017", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN5011_ATP%203-09x30%20FINAL%20WEB.pdf"},
+      { title: 'Congressional Research Service: US Army Transformation in Contact', publisher: 'CRS', year: '2024', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-ttp-uas', 'les-ukraine-uas']
+  },
+  {
+    id: 'usmc-ttp-uas',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'USMC',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'USMC Squad/Company sUAS & Organic Precision Fires (OPF)',
+    what: [
+      'Every Marine rifle squad includes an organic sUAS operator, feeding target data directly to the company FiST.',
+      'Fielding Organic Precision Fires (OPF) man-portable and mounted loitering munitions at infantry battalion/company level.'
+    ],
+    how: [
+      'Squad/company drones locate enemy positions behind cover; the FiST either engages with organic OPF loitering munitions or passes digital grids to 81mm mortars / 155mm artillery.'
+    ],
+    why: [
+      'Gives small distributed Marine units organic over-the-hill precision strike when external air or ship support is contested.'
+    ],
+    sources: [
+      { title: 'Force Design 2030 Annual Updates', publisher: 'Headquarters, US Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/Docs/Force_Design_2030_Annual_Update_June_2023.pdf' },
+      { title: 'Marine Corps Gazette: Integrating sUAS into Company FiSTs', publisher: 'Marine Corps Association', year: '2024', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-org-fist', 'usa-ttp-uas', 'les-ukraine-uas']
+  },
+  {
+    id: 'usa-ttp-radar',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Brigade'],
+    type: 'TTP',
+    title: 'US Army Fires Cell & Weapon-Locating Radar Zones (AN/TPQ-50 / TPQ-53)',
+    what: [
+      'BCT Fires Cell manages Radar Zones with the FA Battalion Target Acquisition Platoon.',
+      'CFZs protect friendly manoeuvre / Command Posts (CPs); CFFZs cover suspected enemy battery positions.'
+    ],
+    how: [
+      'When an AN/TPQ-53 detects incoming shells originating inside a CFFZ, digital point-of-origin grids route via AFATDS for near-instant counterfire.'
+    ],
+    why: [
+      'Automates counterfire prioritisation so finite radar tracks and 155mm shells hit threats endangering the brigade main effort.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Target Acquisition', publisher: 'Headquarters, Dept. of the Army', year: '2015', url: 'https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo130847/pdf/GOVPUB-D101-PURL-gpo130847.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-org-bde-cell', 'les-ukraine-cb']
+  },
+  {
+    id: 'usmc-ttp-ew',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'USMC',
+    echelon: ['All'],
+    type: 'TTP',
+    title: 'USMC FiST & FSCC Signature Management (EMCON & Distributed C2)',
+    what: [
+      'Under Force Design 2030 and EABO doctrine, Marine FSCCs and FiSTs practice strict Emission Control (EMCON) and physical dispersion.',
+      'Replaces large tented battalion COCs with small, mobile, low-signature teams.'
+    ],
+    how: [
+      'Uses directional antennas, remoted transceivers, brief encrypted data bursts via THS, and pre-planned analog schedules when Radio Frequency (RF) / Global Positioning System (GPS) is jammed.'
+    ],
+    why: [
+      'Peer coastal/shore sensors immediately target high-power RF emitters with long-range rockets or loitering munitions.'
+    ],
+    sources: [
+      { title: 'Tentative Manual for Expeditionary Advanced Base Operations (TM EABO)', publisher: 'Headquarters, US Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/Docs/230509-Tentative-Manual-For-Expeditionary-Advanced-Base-Operations-2nd-Edition.pdf' },
+      { title: 'MCTP 3-10F: Fire Support Coordination in the Ground Combat Element', publisher: 'Headquarters, US Marine Corps', year: '2020', url: 'https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/899543/mctp-3-10f-formerly-mcwp-3-16/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-org-fscc', 'les-ukraine-ew']
+  },
+
+  // --- TTPS (Division & Army/Theatre Echelon) ---
+  {
+    id: 'joint-ttp-jtc',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Joint Targeting',
+    title: 'The Joint Targeting Cycle (JTC)',
+    what: [
+      'A six-phase, iterative process that methodically develops, prioritises, and assigns joint assets against targets to achieve the Joint Force Commander’s (JFC) objectives.'
+    ],
+    how: [
+      '1. Commander’s Objectives, 2. Target Development & Prioritization (creates the Joint Integrated Prioritized Target List (JIPTL)), 3. Capabilities Analysis, 4. Commander’s Decision, 5. Mission Planning, 6. Combat Assessment.'
+    ],
+    why: [
+      'Solves the problem of chaotic, uncoordinated strikes. Ensures all services link tactical kinetic actions directly to strategic objectives while adhering to the Law of War and minimising collateral damage.'
+    ],
+    sources: [
+      { title: 'JP 3-60 Joint Targeting', publisher: 'Headquarters Dept of Defense', year: '2024', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-atc', 'joint-ttp-tst']
+  },
+  {
+    id: 'joint-ttp-atc',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Joint Targeting',
+    title: 'Air Tasking Cycle & Target Nominations',
+    what: [
+      'A 6-stage, 72-hour planning process translating the JFC’s broad guidance into the highly detailed daily Air Tasking Order (ATO).'
+    ],
+    how: [
+      'Land force Target Nomination Lists flow upward from the corps to the BCD. The BCD advocates for these targets; if accepted by the JTCB, they are placed on the JIPTL and integrated into the ATO dictating exactly which aircraft will strike.'
+    ],
+    why: [
+      'Aircraft operations require extensive lead time for maintenance, munition loading, and airspace routing. The 72-hour cycle provides predictability to manage a theatre-wide air campaign without logistical collapse.'
+    ],
+    sources: [
+      { title: 'JP 3-30 Joint Air Operations', publisher: 'Headquarters Dept of Defense', year: '2019', url: 'https://irp.fas.org/doddir/dod/jp3_30.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-bcd']
+  },
+  {
+    id: 'joint-ttp-tst',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Dynamic Targeting',
+    title: 'Time-Sensitive Targets (TST) & Dynamic Targeting',
+    what: [
+      'The expedited prosecution of highly prioritised, fleeting targets (e.g., mobile ballistic missile launchers) that emerge outside the deliberate 72-hour ATO cycle.'
+    ],
+    how: [
+      'When a sensor detects a TST, the 6-phase JTC is compressed. Using a "kill-web" approach: if an Army MDTF can hit a TST with a Typhon missile faster than the Air Force can route a jet, the MDTF is given immediate clearance.'
+    ],
+    why: [
+      'The deliberate 72-hour cycle is fundamentally too slow for mobile targets that may only appear in the open for a few minutes. Dynamic targeting provides procedural flexibility to act immediately on perishable intelligence.'
+    ],
+    sources: [
+      { title: 'JP 3-60 Joint Targeting', publisher: 'Headquarters Dept of Defense', year: '2024', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-titan', 'joint-ttp-jtc']
+  },
+  {
+    id: 'usa-ttp-div-alloc',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Division', 'Corps'],
+    type: 'Fires Allocation',
+    title: 'Division Requests & FAB Allocation',
+    what: [
+      'The procedural mechanism through which corps and theatre long-range fires are apportioned down to the tactical division level.'
+    ],
+    how: [
+      'A division typically owns only cannon battalions (155mm/105mm). The corps allocates FAB battalions using command relationships like General Support-Reinforcing (GSR).',
+      'If a division lacks a dedicated FAB element but identifies a deep target, it sends a digital request for fire via AFATDS to the corps fires cell to execute.'
+    ],
+    why: [
+      'Artillery is never held in reserve, but centralised at the highest level necessary. Centralising HIMARS at corps prevents fracturing the fleet across divisions, allowing the corps commander to mass overwhelming rocket fires at the decisive point.'
+    ],
+    sources: [
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"}
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-corps-fab']
+  },
+  {
+    id: 'joint-ttp-collection',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Division', 'Corps', 'Theatre'],
+    type: 'Intelligence',
+    title: 'Collection Priorities & Lower-Echelon Requests',
+    what: [
+      'The hierarchical process governing the ownership of sensing assets and how lower echelons request intelligence data beyond their organic collection capability.'
+    ],
+    how: [
+      'If a division needs to look 100km deep (beyond its tactical drones), it submits a Collection Requirement to corps. If corps lacks assets, it passes the request to Theatre, where the BCD advocates for Air Force ISR support via the ATO.'
+    ],
+    why: [
+      'High-altitude staring sensors (like HADES) and national satellites are low-density, high-demand strategic assets. Strict hierarchical validation prevents squandering strategic platforms on tactical targets.'
+    ],
+    sources: [
+      { title: 'JP 3-60 Joint Targeting', publisher: 'Headquarters Dept of Defense', year: '2024', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-hades']
+  },
+
+  // --- EQUIPMENT ---
+  {
+    id: 'usa-eq-llsr',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'AN/PED-1 Lightweight Laser Designator Rangefinder (LLDR / LLDR 2H)',
+    what: [
+      'Man-portable target locator and 1064nm pulse-coded laser designator used by both US Army FISTs and USMC FiSTs.',
+      'Combines day camera, thermal sight, eye-safe Laser Rangefinder (LRF), digital compass, GPS, and detachable laser designator module.'
+    ],
+    how: [
+      'Tripod-mounted by a 2-person observer team to generate 10-digit target grids (>5 km) and terminally guide laser-guided bombs/missiles/shells.'
+    ],
+    why: [
+      'Enables first-round precision hits without bracketing. Trade-off: ~16–18 kg system weight burdens dismounted infantry observers.'
+    ],
+    sources: [
+      { title: 'TM 11-5855-315-10: Operator’s Manual for AN/PED-1 LLDR', publisher: 'Headquarters, Dept. of the Army', year: '2018', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-org-fist', 'usmc-org-fist']
+  },
+  {
+    id: 'usa-eq-bfist',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'M7A3/A4 Bradley FIST (BFIST) & M1131 Stryker FSV',
+    what: [
+      'Armored Fire Support Vehicles (FSV) in US Army Armored (M7 BFIST) and Stryker (M1131 FSV) BCTs.',
+      'Replaces the Bradley TOW pod with the Fire Support Sensor System (FS3) mast (thermal/day optics, LRF, inertial nav) + internal AFATDS/PFED.'
+    ],
+    how: [
+      'Allows mechanised/Stryker FISTs to acquire and designate targets under armour while keeping pace with tanks and infantry carriers.'
+    ],
+    why: [
+      'Dismounted FOs cannot survive artillery splinters or match mechanised tempo. Limitation: Distinctive sensor mast attracts enemy anti-tank fire.'
+    ],
+    sources: [
+      { title: 'US Army Weapon Systems Handbook', publisher: 'ASA(ALT)', year: '2022', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-org-fist', 'usa-eq-afats']
+  },
+  {
+    id: 'usa-eq-afats',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Battalion'],
+    type: 'Equipment',
+    title: 'AFATDS, PFED & ATAK (Android Precision Fires)',
+    what: [
+      'AFATDS: Automated fire support Command and Control (C2) server used by both US Army Fires Cells and USMC FSCCs.',
+      'PFED & ATAK-APF: Handheld digital Call for Fire devices carried by US Army FISTs.'
+    ],
+    how: [
+      'Laser rangefinder exports target grid via Bluetooth to PFED/ATAK → transmits digital CFF over Single Channel Ground and Airborne Radio System (SINCGARS) / PRC-152/163 → AFATDS checks FSCMs and computes gun data.'
+    ],
+    why: [
+      'Compresses sensor-to-shooter timelines from minutes to seconds and eliminates voice grid-transcription errors.'
+    ],
+    sources: [
+      {"title": "FM 3-09, Fire Support and Field Artillery Operations", "publisher": "Headquarters, Department of the Army", "year": "2024", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN41659-FM_3-09-000-WEB-2.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-org-bn-cell', 'usmc-eq-ths']
+  },
+  {
+    id: 'usmc-eq-ths',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Equipment',
+    force: 'USMC',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'USMC Target Hand-Off System (THS v2) & Multi-Band Tactical Comms',
+    what: [
+      'THS v2 is the USMC’s ruggedised handheld digital fire support and CAS terminal carried by 0861 FiSTs and FACs.',
+      'Pairs with AN/PRC-117G, PRC-152A, and PRC-163 multi-band SATCOM/UHF/VHF radios.'
+    ],
+    how: [
+      'Connects directly to LLDR/binocular rangefinders to send digital Calls for Fire (to AFATDS), NSFS requests (to Navy ships), and digital 9-line CAS briefs (to aircraft).'
+    ],
+    why: [
+      'Gives a dismounted Marine FiST one unified digital interface for artillery, naval gunfire, and close air support.'
+    ],
+    sources: [
+      { title: 'Marine Corps Systems Command (MCSC): Target Hand-off System Portfolio', publisher: 'US Marine Corps', year: '2023', url: 'https://www.marcorsyscom.marines.mil/News/Article/1958700/handheld-digital-targeting-system-provides-fire-and-air-support-to-marines' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-org-fist', 'usa-eq-afats']
+  },
+
+  // --- EQUIPMENT (Division & Army/Theatre Echelon) ---
+  {
+    id: 'joint-eq-hades',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Corps', 'Theatre'],
+    type: 'Collection Platform',
+    title: 'HADES (High Accuracy Detection and Exploitation System)',
+    what: [
+      'The US Army\'s next-generation, high-altitude jet Intelligence, Surveillance, and Reconnaissance (ISR) platform, designated ME-11B (built on the Bombardier Global 6500).',
+      'Replaces legacy turboprop RC-12X Guardrail fleets.'
+    ],
+    how: [
+      'Carries Multi-Domain Sensing System (MDSS) sensors, including Signals Intelligence (SIGINT), Electronic Intelligence (ELINT), and Synthetic Aperture Radar (SAR).',
+      'Stares deep into adversary territory from high altitudes/standoff distances, identifying mobile missile launchers and A2/AD nodes, downlinking data to theatre/corps.'
+    ],
+    why: [
+      'Driven by the urgent need to penetrate A2/AD bubbles without placing manned aircraft inside lethal threat rings. Legacy turboprops lacked the altitude and speed to survive contested areas.'
+    ],
+    sources: [
+      { title: 'U.S. Army HADES Prototype Completes First Flight', publisher: 'The Aviationist', year: '2026', url: 'https://theaviationist.com/2026/10/31/u-s-armys-hades-prototype-completes-first-flight/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-titan']
+  },
+  {
+    id: 'usa-eq-titan',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Division', 'Corps'],
+    type: 'Data Fusion Node',
+    title: 'Tactical Intelligence Targeting Access Node (TITAN)',
+    what: [
+      'A scalable, vehicle-mountable ground station system serving as the primary intelligence fusion node at corps and division levels.',
+      'Ingests data from space, high-altitude, aerial, and terrestrial sensors across all domains.'
+    ],
+    how: [
+      'Leverages advanced Artificial Intelligence (AI) and Machine Learning (ML) to rapidly process and correlate raw, multi-source sensor data (SIGINT, imagery).',
+      'Autonomously correlates tracks and, once validated by a human, passes target data directly to digital fires networks (AFATDS).'
+    ],
+    why: [
+      'Solves data latency and siloed intelligence. Previously, human analysts manually cross-referenced data from different terminals, which was too slow for Time-Sensitive Targets. TITAN compresses the sensor-to-shooter timeline from hours to minutes.'
+    ],
+    sources: [
+      { title: 'Palantir Secures $178M Army Contract to Build Next-Gen Intelligence Ground Station', publisher: 'GovCon Wire', year: '2024', url: 'https://www.govconwire.com/2024/03/palantir-secures-178m-army-contract-to-build-next-gen-intelligence-ground-station/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-hades', 'joint-ttp-tst']
+  },
+
+  // --- TRAINING ---
+  {
+    id: 'usa-trn-13f',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Training',
+    title: 'US Army 13F AIT & 13A FABOLC Pipeline (Fort Sill, OK)',
+    what: [
+      'Enlisted 13F: 10 weeks Basic Training + 13 weeks 13F Advanced Individual Training (AIT) at Fort Sill, OK.',
+      'Officers (13A): ~19-week Field Artillery Basic Officer Leader Course (FABOLC) covering both gunnery/FDC and FIST operations.',
+      'Unit Currency: Semi-annual FIST Certification (Tables I–VI) culminating in live-fire manoeuvre validation.'
+    ],
+    how: [
+      'Trains land navigation, polar/grid/shift Call for Fire, LLDR operation, Call for Fire Trainer (CFFT) simulators, and live artillery observation.'
+    ],
+    why: [
+      'Cross-training 13A officers in both gun-line FDC and forward FIST duties ensures FSOs understand ballistic limits of supporting batteries.'
+    ],
+    sources: [
+      { title: 'US Army Fires Center of Excellence (FCoE) Course Catalog', publisher: 'US Army', year: '2023', url: '' },
+      {"title": "TC 3-09.8, Fire Support and Field Artillery Certification and Qualification", "publisher": "Headquarters, Department of the Army", "year": "2020", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN30053-TC_3-09.8-001-WEB-1.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-org-fist', 'usmc-trn-0861']
+  },
+  {
+    id: 'usa-trn-jfo',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Training',
+    title: 'US Army Joint Fires Observer (JFO) Course (2 Weeks)',
+    what: [
+      '10-training-day (2-week) resident course at Fort Sill (and MTTs) governed by the Joint Fires Observer Memorandum of Agreement (MOA).',
+      'Requires semi-annual/annual simulated and live aircraft terminal-guidance currency controls.'
+    ],
+    how: [
+      'Certifies 13F/13A observers in CAS aircraft capabilities, target mensuration, laser/IR target marking, AC-130 calls, and NSFS.'
+    ],
+    why: [
+      'Provides a joint-audited credential so Air Force/Navy pilots and remote JTACs can legally rely on an Army observer’s coordinates and laser mark.'
+    ],
+    sources: [
+      { title: 'Joint Fires Observer (JFO) Memorandum of Agreement', publisher: 'Joint Chiefs of Staff / DoD', year: '2021', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-org-jfo-tacp', 'usmc-trn-0861']
+  },
+  {
+    id: 'usmc-trn-0861',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Training',
+    force: 'USMC',
+    echelon: ['Company'],
+    type: 'Training',
+    title: 'USMC 0861 Fire Support Marine, 0802 Officer & EWTG JTAC Pipeline',
+    what: [
+      'Enlisted 0861: Marine Combat Training (MCT) → Artillery Scout Observer Course (~6–7 weeks) at Fort Sill, OK.',
+      'Officers (0802): The Basic School (TBS, 26 weeks infantry leadership) → Field Artillery Officer Basic Course at Fort Sill.',
+      'Joint/Air Certification: Expeditionary Warfare Training Group (EWTG Atlantic/Pacific) Fire Support Coordination, NSFS, and JTAC courses.'
+    ],
+    how: [
+      'All Marine officers first graduate TBS as provisional rifle platoon commanders before specialising in artillery (0802) or aviation (FAC), followed by live-fire Integrated Training Exercises (ITX) at Twentynine Palms.'
+    ],
+    why: [
+      'Sending every 0802 and Aviator FAC through The Basic School creates shared infantry tactical fluency, allowing seamless FiST integration inside Marine rifle companies.'
+    ],
+    sources: [
+      { title: 'NAVMC 3500.7B: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2021', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' },
+      { title: 'EWTGLANT / EWTGPAC Course Catalogs', publisher: 'US Marine Corps', year: '2023', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-org-fist', 'usa-trn-13f']
+  },
+
+  // --- TRAINING (Division & Army/Theatre Echelon) ---
+  {
+    id: 'joint-trn-pc',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Major Exercise',
+    title: 'Project Convergence & NGC2',
+    what: [
+      'A massive, recurring campaign of learning and experimentation hosted by Army Futures Command to test AI, ML, and sensor-to-shooter networking across the joint force and coalition partners.'
+    ],
+    how: [
+      'Heavily tests the Next-Gen Command and Control (NGC2) ecosystem, an integrated data layer allowing all services to share a unified operational picture and push data from sensor to shooter seamlessly.'
+    ],
+    why: [
+      'Driven by the realisation that legacy C2 systems were too slow to create a true "kill-web." Disparate service data formats (data silos) severely delayed dynamic targeting against mobile enemy systems.'
+    ],
+    sources: [
+      { title: 'Army Public Affairs (March 2025)', publisher: 'U.S. Army', year: '2025', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-titan']
+  },
+
+  // --- LESSONS ---
+  {
+    id: 'les-ukraine-uas',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Ukraine (2014–Present): Ubiquitous Quadcopters & Sub-Minute Fire Loops',
+    what: [
+      'Both sides shifted from traditional hilltop FOs to pervasive quadcopter / fixed-wing Unmanned Aircraft System (UAS) linked to tablet C2 apps (Ukraine’s Kropyva / GIS Arta).',
+      'Sensor-to-shooter timelines compressed from 10–20 minutes down to 1–3 minutes.'
+    ],
+    how: [
+      'Live drone feeds stream directly to battalion/brigade fires cells and dispersed single guns, enabling rapid precision corrections without massing batteries.',
+      'Adopted by US Army (Transformation in Contact) and USMC (squad sUAS + FiST ATAK/THS feeds).'
+    ],
+    why: [
+      'Static human OPs on high ground are rapidly spotted and killed; pushing organic sUAS to companies democratises overhead observation.'
+    ],
+    sources: [
+      { title: 'Preliminary Lessons in Conventional Warfighting from Russia’s Invasion of Ukraine', publisher: 'RUSI', year: '2022', url: 'https://static.rusi.org/359-SR-Ukraine-Preliminary-Lessons-Feb-July-2022-web-final.pdf' },
+      { title: 'Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine', publisher: 'RUSI', year: '2023', url: 'https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-ttp-uas', 'usmc-ttp-uas']
+  },
+  {
+    id: 'les-ukraine-ew',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Ukraine (2022+): RF Direction-Finding & Dispersion of Fires Cells',
+    what: [
+      'Russian EW arrays (Torn, Leer-3) geolocated unencrypted or continuous Very High Frequency (VHF) / UHF radio emitters at command posts and OPs, cueing rocket/Lancet strikes.',
+      'Heavy GPS jamming degraded GPS-only precision munitions (e.g., Excalibur), forcing reliance on inertial/unassisted cannon fire.'
+    ],
+    how: [
+      'Fires cells broke large TOCs into buried, dispersed micro-nodes, remoted antennas via cable, and switched to burst digital transmissions.'
+    ],
+    why: [
+      'Directly drove US Army and USMC initiatives to downsize command posts and enforce strict EMCON.'
+    ],
+    sources: [
+      { title: 'Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine', publisher: 'RUSI', year: '2023', url: 'https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf' },
+      { title: 'CALL: LSCO & Command Post Survivability', publisher: 'US Army', year: '2023', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usmc-ttp-ew', 'usa-org-bde-cell']
+  },
+  {
+    id: 'les-ukraine-cb',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Brigade'],
+    type: 'Lesson',
+    title: 'Ukraine (2022+): Cross-Cueing Weapon-Locating Radars with UAS',
+    what: [
+      'Weapon-locating radars (AN/TPQ-36/50/53, Zoopark-1M) attract anti-radiation and loitering munition strikes if left radiating continuously.',
+      'Shoot-and-scoot artillery displaces in <90 seconds, making unverified radar grids stale.'
+    ],
+    how: [
+      'Radars radiate in short bursts cued by acoustic/incoming sensors, immediately sending raw grids to a tactical UAS to visually confirm the target before shooting.'
+    ],
+    why: [
+      'Protects scarce radars from enemy EW/drones while conserving 155mm ammunition for confirmed targets.'
+    ],
+    sources: [
+      { title: 'CSIS: Counter-Battery Warfare in Ukraine', publisher: 'CSIS', year: '2023', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-ttp-radar', 'les-ukraine-uas']
+  },
+  {
+    id: 'les-nk-2020',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Brigade'],
+    type: 'Lesson',
+    title: 'Nagorno-Karabakh (2020): Persistent Aerial Observation Over Entrenched Positions',
+    what: [
+      'Azerbaijani forces paired Bayraktar TB2 / Hermes 450 reconnaissance UAS and Harop loitering munitions with ground cannon/rocket artillery.'
+    ],
+    how: [
+      'UAS provided persistent overhead observation into Armenian rear areas, cueing accurate artillery onto camouflaged trenches and static guns.'
+    ],
+    why: [
+      'Demonstrated that static ground OPs and overhead earth cover fail when an opponent achieves local aerial sensor dominance.'
+    ],
+    sources: [
+      { title: 'Military Lessons of the Nagorno-Karabakh Conflict', publisher: 'RUSI', year: '2021', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-03',
+    relatedIds: ['usa-ttp-uas', 'usmc-ttp-uas']
+  },
+  {
+    id: 'les-gaza-2023',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'Lesson',
+    title: 'Gaza (2023–2024): Close-Proximity Urban Fire Support at Company/Battalion',
+    what: [
+      'Dense urban combat required clearing artillery, mortars, and air strikes within tens of metres of friendly infantry amidst multi-story rubble and tunnels.'
+    ],
+    how: [
+      'Pushed fire support and air controllers into company/battalion tactical HQs equipped with shared 3D building-numbered maps and overhead quadcopter feeds.'
+    ],
+    why: [
+      'Traditional linear phase lines cannot separate friendly and enemy units occupying adjacent buildings or subterranean levels.'
+    ],
+    sources: [
+      { title: 'Urban Warfare Project Case Studies: Gaza Operations', publisher: 'Modern War Institute at West Point', year: '2024', url: '' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-03',
+    relatedIds: ['usa-ttp-clearance', 'usmc-org-fist']
+  },
+
+  // --- LESSONS (Division & Army/Theatre Echelon) ---
+  {
+    id: 'joint-les-indopac',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Strategic Deployment',
+    title: 'Indo-Pacific Typhon Deployment & Sea Denial',
+    what: [
+      'The strategic positioning of land-based, long-range fires in the Pacific theatre to counter Chinese maritime and A2/AD expansion.'
+    ],
+    how: [
+      'The US Army deployed the Typhon (SMRF) system to the Philippines in 2024. The USMC is deploying NMESIS and Tomahawk batteries within the first island chain to contest maritime chokepoints.'
+    ],
+    why: [
+      'Land-based sea-denial imposes severe asymmetric costs on adversary navies. Mobile missile launchers dispersed across archipelagos are inherently difficult to detect compared to multi-billion-dollar surface ships.'
+    ],
+    sources: [
+      { title: 'CRS Report IF12135', publisher: 'Congressional Research Service', year: '2025', url: 'https://www.congress.gov/crs-product/IF12135' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-mdtf']
+  },
+  {
+    id: 'usa-les-survivability',
+    topic: 'liaison',
+    country: 'United States',
+    addedIn: '2026.11',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Division', 'Corps', 'Theatre'],
+    type: 'Command & Control',
+    title: 'C2 Disaggregation & Signature Management',
+    what: [
+      'Adapting survivability concepts upward to corps and theatre echelons to preserve operational C2 in Large Scale Combat Operations (LSCO).'
+    ],
+    how: [
+      'Aggressively testing the disaggregation of command posts via the NGC2 framework, making them smaller, mobile, and harder to target by EW/SIGINT.'
+    ],
+    why: [
+      'In Ukraine, massive command nodes emitting heavy RF signatures were rapidly destroyed by Russian fires. The US Army is adopting a "hide, sense, shoot, move" paradigm to survive.'
+    ],
+    sources: [
+      { title: 'LSCO & Command Post Survivability', publisher: 'US Army', year: '2024', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['les-ukraine-ew']
+  },
+  // --- TARGET ACQUISITION, UNITED STATES (added 2026.12) ---
+  {
+    id: 'usa-org-tap',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Force Structure',
+    title: 'US Army Target Acquisition Platoon (TAP)',
+    what: [
+      'A Target Acquisition Platoon (TAP) is the Army artillery unit that holds the weapon-locating radars (WLR).',
+      'In the direct support field artillery battalion of a Brigade Combat Team (BCT), the TAP has two AN/TPQ-53 radar sections and four AN/TPQ-50 radar teams.',
+      'In a DIVARTY or a Field Artillery Brigade (FAB), the TAP has two AN/TPQ-53 radar sections and two AN/TPQ-50 radar teams.',
+      'These figures are the 2015 ATP 3-09.12 baseline. Table changes after the 2021 edition are not verified in open sources.'
+    ],
+    how: [
+      'At the field artillery battalion, the TAP is paired with a Counterfire Operations Section.',
+      'A 131A warrant officer serves as TAP Leader. A 13R4O Sergeant First Class serves as TAP Platoon Sergeant.',
+      'Radar sections are positioned and tasked through Radar Deployment Orders (RDO).'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
+      { title: 'ATP 3-09.12: Field Artillery Target Acquisition', publisher: 'Headquarters, Dept. of the Army', year: '2015', url: 'https://www.bits.de/NRANEU/others/amd-us-archive/atp3_09x12%2815%29.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-tps', 'usa-org-ta-mos', 'usa-eq-tpq53', 'usa-eq-tpq50', 'usa-ttp-radar']
+  },
+  {
+    id: 'usa-org-tps',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Battalion', 'Division', 'Corps'],
+    type: 'Force Structure',
+    title: 'Target Processing Section (TPS) and Counterfire Operations Section',
+    what: [
+      'The Target Processing Section (TPS) sits inside the Tactical Operations Center (TOC) of a DIVARTY or a Field Artillery Brigade (FAB).',
+      'The Counterfire Operations Section is its counterpart at the field artillery battalion.',
+      'The TPS is the clearing house of the counterfire fight, not a passive relay.'
+    ],
+    how: [
+      'Integrates and synchronises target acquisition sensors against PIR and CCIR on enemy indirect fire systems.',
+      'Maintains the artillery order-of-battle database and the target files.',
+      'Recommends and enforces radar search zones.',
+      'Passes vetted counterfire target files across echelons to the fires cell or the delivery units.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-tap', 'usa-ttp-radar-zones', 'usa-org-wlr-control']
+  },
+  {
+    id: 'usa-org-ta-mos',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['All'],
+    type: 'Force Structure',
+    title: 'US Army Target Acquisition Specialties (13R, 131A, 13A, 13F, 13J)',
+    what: [
+      '13R, Field Artillery Firefinder Radar Operator (enlisted): operates and maintains the AN/TPQ-53 and AN/TPQ-50.',
+      '131A, Field Artillery Targeting Technician (warrant officer, WO1 to CW5): TAP Leader and targeting officer.',
+      '13A, Field Artillery Officer (2LT to COL): commands firing and Target Acquisition Batteries and field artillery battalions.',
+      '13F, Joint Fire Support Specialist (enlisted): forms the Fire Support Teams (FIST) embedded with manoeuvre units.',
+      '13J, Fire Control Specialist (enlisted, merged from 13D and 13P in 2013): operates AFATDS in fires cells and FDCs.'
+    ],
+    how: [
+      'A 13R3O (Staff Sergeant) leads a radar section, evaluates and reports targets, and recommends site positions, search sectors, CSBs, radar zones and cueing guidance.',
+      'A 13R4O (Sergeant First Class) is TAP Platoon Sergeant: conducts map and ground reconnaissance, prepares RDOs, maintains order-of-battle and target files, and drafts the target acquisition tab of the field artillery support plan.',
+      'A 131A serves as FA battalion Targeting Officer (WO1/CW2), BCT Targeting Officer (CW3), and Counterfire or Targeting Officer at DIVARTY, FAB and corps.',
+      '13F teams give visual and laser target acquisition and digital calls for fire. 13J validates sensor targets and computes firing solutions.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-tap', 'usmc-org-ta-mos', 'usa-trn-ta-pipelines', 'usa-org-fist']
+  },
+  {
+    id: 'usa-org-wlr-control',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'Command & Control',
+    title: 'Who Controls the Radars: From Modularity to the Return of DIVARTY',
+    what: [
+      'Historically, US field artillery kept aerial observers, survey teams and counterfire radars under the division artillery headquarters.',
+      'Under Army modularity, from around 2004, the Army inactivated active-component DIVARTYs. Radars were left spread across BCTs and independent Fires Brigades.',
+      'The Army began reactivating active DIVARTYs in 2014.'
+    ],
+    how: [
+      'Under ATP 3-09.12, radars are given a General Support (GS), General Support-Reinforcing (GSR) or Reinforcing mission.',
+      'The mission is executed through Radar Deployment Orders (RDO), which coordinate positioning and continuous sector coverage.'
+    ],
+    why: [
+      'The Army recognised that a decade of counterinsurgency had eroded operational-level fires competencies.',
+      'The report describes the period since 2003 as a pendulum between brigade-level decentralisation and division-level consolidation.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-tap', 'usa-org-arstruc-tic', 'usa-org-tab-1cd', 'usa-org-corps-fab']
+  },
+  {
+    id: 'usmc-org-tap',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Brigade'],
+    type: 'Force Structure',
+    title: 'USMC Regimental Target Acquisition Platoon',
+    what: [
+      'The Marine Corps centralises radar and sensor personnel at the artillery regiment, not at the battalion.',
+      'Radar operators (0842) and sensor support Marines (0847) belong to the Target Acquisition Platoon in the Headquarters Battery of the artillery regiment, such as 10th Marines or 11th Marines.'
+    ],
+    how: [
+      'The platoon sends out tailored radar detachments.',
+      'Detachments support artillery battalions, Marine Expeditionary Units (MEU) and independent task forces.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'MCWP 3-31: MAGTF Fires and Effects', publisher: 'US Marine Corps', year: '2024', url: 'https://www.marines.mil/Portals/1/Publications/MCWP%203-31%20(SECURED).pdf?ver=8-R_z1atKvJd2FRolggX6w%3D%3D' },
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' },
+      { title: '10th Marines', publisher: 'Marine Corps Gazette, Marine Corps Association', year: '', url: 'https://www.mca-marines.org/gazette/10th-marines/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-gator-split', 'usmc-org-ta-mos', 'usmc-eq-gator', 'usa-org-tap']
+  },
+  {
+    id: 'usmc-org-gator-split',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Force Structure',
+    title: 'One Radar, Two Users: G/ATOR in the Air and Ground Elements',
+    what: [
+      'The Army\'s AN/TPQ-53 belongs to the artillery. The Marine Corps shares the AN/TPS-80 G/ATOR across two elements of the MAGTF.',
+      'Air Combat Element: Marine Air Control Squadrons (MACS), such as MACS-2 and MACS-4, use G/ATOR Block 1 for short- to medium-range air defence and air surveillance.',
+      'Ground Combat Element: artillery regiments use G/ATOR Block 2, alongside Lightweight Counter Mortar Radars, for weapons locating and counterfire.'
+    ],
+    how: [
+      'Target reporting ends at the battalion or regimental Fire Support Coordination Center (FSCC), or at the MAGTF Fires and Effects Coordination Center (FECC), under MCWP 3-31 (2024).',
+      'The MAGTF FECC coordinates Fire Support Coordination Measures with higher-headquarters Joint Fires Elements.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'MCWP 3-31: MAGTF Fires and Effects', publisher: 'US Marine Corps', year: '2024', url: 'https://www.marines.mil/Portals/1/Publications/MCWP%203-31%20(SECURED).pdf?ver=8-R_z1atKvJd2FRolggX6w%3D%3D' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-tap', 'usmc-eq-gator', 'usmc-org-fscc', 'usmc-org-regt-fscc']
+  },
+  {
+    id: 'usmc-org-anglico',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'Liaison Element',
+    title: 'Air Naval Gunfire Liaison Company (ANGLICO)',
+    what: [
+      'Non-USMC joint or coalition formations tie into Marine and joint fires through ANGLICOs.',
+      'An ANGLICO is a company of roughly 150 people.',
+      'It fields Brigade Platoons, Supporting Arms Liaison Teams (SALT) of 18 to 20 people, and Firepower Control Teams (FCT) of four to seven people.'
+    ],
+    how: [
+      'Each SALT is built from an eight-person SALT headquarters and two FCTs.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'MCWP 3-31: MAGTF Fires and Effects', publisher: 'US Marine Corps', year: '2024', url: 'https://www.marines.mil/Portals/1/Publications/MCWP%203-31%20(SECURED).pdf?ver=8-R_z1atKvJd2FRolggX6w%3D%3D' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-gator-split', 'usmc-org-ta-mos']
+  },
+  {
+    id: 'usmc-org-ta-mos',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['All'],
+    type: 'Force Structure',
+    title: 'USMC Target Acquisition Specialties (0842, 0847, 0803, 0802, 0844/0848, 0861)',
+    what: [
+      '0842, Field Artillery Radar Operator (Pvt to Sgt).',
+      '0847, Field Artillery Sensor Support Marine (Pvt to Sgt).',
+      '0803, Target Acquisition Officer (warrant officer, WO to CWO5).',
+      '0802, Field Artillery Officer (2ndLt to Col).',
+      '0844, Fire Control Marine (Pvt to Sgt), and 0848, Field Artillery Operations Chief (SSgt to MGySgt).',
+      '0861, Fire Support Marine (Pvt to MGySgt).'
+    ],
+    how: [
+      '0842: radar planning, handheld GPS and hasty survey. Emplaces, operates and displaces G/ATOR Block 2 and the LCMR for counterfire.',
+      '0847: meteorological calculations, artillery survey for common grid, and observation of high-burst and mean-point-of-impact registration.',
+      '0803: plans, executes and supervises target acquisition sensors, mapping and geodesy data, radar operations and the regimental Target Acquisition Platoon.',
+      '0802: evaluates intelligence, plans targeting and directs battery, battalion, FSCC and fire support officer activities.',
+      '0844 and 0848: manage FDCs and survey. The 0848 also supervises the senior radar and sensor training events.',
+      '0861: forward observation, calls for fire, close air support coordination and naval surface fire support in FCTs and FISTs.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-tap', 'usa-org-ta-mos', 'usa-trn-radar-cert']
+  },
+  {
+    id: 'usmc-org-mlr',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Brigade'],
+    type: 'Force Structure',
+    title: '3d Marine Littoral Regiment and Target Acquisition',
+    what: [
+      'Force Design converted legacy regiments, such as the 3rd Marine Regiment, into Marine Littoral Regiments. The first is the 3d Marine Littoral Regiment (3d MLR).',
+      'The MLR integrates mobile anti-ship fires (NMESIS) and short-range air defence and counter-UAS (MADIS and L-MADIS).'
+    ],
+    how: [
+      '10th Marines is adapting lessons from Ukraine and Nagorno-Karabakh.',
+      'The manning of MLR target acquisition detachments, compared with legacy artillery regiments, is not verified in open sources.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: '10th Marines', publisher: 'Marine Corps Gazette, Marine Corps Association', year: '', url: 'https://www.mca-marines.org/gazette/10th-marines/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-tap', 'usmc-org-regt-fscc', 'les-ta-nk-2020']
+  },
+  {
+    id: 'usa-org-arstruc-tic',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'Force Structure',
+    title: 'ARSTRUC 2025–2029 and Transformation in Contact: What Brigades Lost and Gained',
+    what: [
+      'Under Army Structure (ARSTRUC) 2025–2029, divisions replace BCTs as the Army\'s principal warfighting formation.',
+      'Manoeuvre brigades lose their organic field artillery battalions, cavalry squadrons, brigade military intelligence companies, and Shadow and Raven UAS.',
+      'Transformation in Contact (TiC) brigades include the 2nd Mobile BCT (101st Airborne Division), the 2nd Light BCT (25th Infantry Division) and the 3rd Light BCT (10th Mountain Division).'
+    ],
+    how: [
+      'TiC brigades have fielded battalion-level low-cost unmanned systems (LUS) platoons, brigade UAS platoons, Recon and Strike Companies, and LASSO loitering munition teams.',
+      'LASSO deep strikes are synchronised directly through the brigade fires cell by Field Artillery Targeting Officers (131A).'
+    ],
+    why: [
+      'The near-term removal of organic sensors has degraded brigade targeting and forced heavy reliance on division assets.',
+      'The TiC fielding is meant to mitigate that gap.',
+      'Army analyses project that by 2029 brigades will have more organic detection and delivery capacity than before ARSTRUC.'
+    ],
+    sources: [
+      { title: 'Transformation in Contact and Military Intelligence', publisher: 'Line of Departure, Military Intelligence', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Military-Intelligence/Military-Intelligence-Archive/2026-July-December/Transformation-in-Contact-and-Military/' },
+      { title: 'Transformation in Contact (TiC) 2.0: Enabling DIVARTY', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://d34w7g4gy10iej.cloudfront.net/pubs/pdf_75993.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-wlr-control', 'usa-org-tab-1cd', 'usa-eq-ta-drones', 'les-ta-debates']
+  },
+  {
+    id: 'usa-org-tab-1cd',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Division'],
+    type: 'Force Structure',
+    title: '1st Cavalry Division Target Acquisition Battery (TAB)',
+    what: [
+      'Under TiC 2.0, the 1st Cavalry Division reactivated a consolidated Target Acquisition Battery (TAB) under its DIVARTY.'
+    ],
+    how: [
+      'A 2026 Field Artillery Professional Bulletin white paper describes it as the Army\'s first step towards restoring centralised division-level control of 13R radar sections.',
+      'The same paper sees it as a possible home for dedicated artillery UAS platoons.',
+      'Force-wide staffing tables for reactivated DIVARTY TABs are not verified in open sources.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'Transformation in Contact (TiC) 2.0: Enabling DIVARTY', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://d34w7g4gy10iej.cloudfront.net/pubs/pdf_75993.pdf' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-wlr-control', 'usa-org-arstruc-tic', 'usa-eq-ta-drones']
+  },
+  {
+    id: 'usa-org-mdc',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Corps', 'Theatre'],
+    type: 'Force Structure',
+    title: 'Multi-Domain Commands and the Fourth MDTF',
+    what: [
+      'On 11 July 2025 the Army merged the reactivated 56th Artillery Command with the 2nd MDTF to stand up Multi-Domain Command Europe (MDC-E).',
+      'In the Pacific, the 7th Infantry Division serves as Multi-Domain Command Pacific (MDC-P).',
+      'On 8 October 2026 the Army activated its fourth MDTF (4th MDTF) at Fort Carson, growing to nearly 2,100 soldiers under the 7th Infantry Division.',
+      'A fifth MDTF is planned by 2028.'
+    ],
+    how: [
+      'These formations combine Long-Range Fires Battalions with cyber and surveillance personnel.',
+      'They deliver deep effects including PrSM, Typhon and Dark Eagle.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [{"title": "4th Multi-Domain Task Force Officially Activates", "publisher": "U.S. Army", "year": "2026", "url": "https://www.army.mil/article/296047/4th_multi_domain_task_force_officially_activates"}, {"title": "Army Multi-Domain Transformation: Ready to Win in Competition and Conflict (Chief of Staff Paper #1)", "publisher": "U.S. Army", "year": "2021", "url": "https://api.army.mil/e2/c/downloads/2021/03/23/eeac3d01/20210319-csa-paper-1-signed-printable.pdf"}],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-mdtf', 'usa-org-tfc', 'joint-eq-ta-datalinks']
+  },
+  {
+    id: 'joint-org-ta-external',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Division', 'Theatre'],
+    type: 'Liaison Element',
+    title: 'Where Outside Sensors Join the Artillery Picture: JAGIC, TACP and BCD',
+    what: [
+      'Division: the Joint Air-Ground Integration Center (JAGIC, ATP 3-91.1) puts fires, airspace, intelligence and the Air Force ASOC in one place.',
+      'Below division: Air Force TACPs connect manoeuvre units to airborne sensors.',
+      'Theatre: the Army BCD (ATP 3-09.13) is embedded across all five divisions of the Air Force Air Operations Center (AOC).'
+    ],
+    how: [
+      'The JAGIC clears joint fires and fuses air and ground target streams.',
+      'The BCD processes Air Support Requests (Form 1972) and coordinates surface-to-surface missile passages through JFACC airspace.',
+      'The BCD has OPCON of Ground Liaison Detachments (GLD) and Reconnaissance Liaison Detachments (RLD) at flying and ISR wings.'
+    ],
+    why: [
+      'Organic radars track projectile arcs over local ranges. For deep targets and targets that are not ballistic, target processing sections and fires cells draw on joint, air and intelligence sources.',
+      'In April 2023 the Air Force proposed cutting nearly 50% of TACP billets. In February 2026, Air National Guard tactical air control units in Georgia and Iowa converted to cyber operations. Both raise concern over forward air-ground liaison capacity.'
+    ],
+    sources: [
+      { title: 'ATP 3-91.1: The Joint Air Ground Integration Center', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: '' },
+      { title: 'Handbook 19-16: Commander and Staff Guide to the Battlefield Coordination Detachment', publisher: 'Center for Army Lessons Learned', year: '2019', url: 'https://api.army.mil/e2/c/downloads/2023/01/19/61da0bba/19-16-commander-and-staff-guide-to-the-battlefield-coordination-detachment-handbook-may-19-public.pdf' },
+      { title: 'ATP 3-52.2 / MCRP 3-20.1: Theater Air-Ground System', publisher: 'Air Land Sea Space Application Center', year: '2024', url: 'https://www.alssa.mil/Portals/9/Documents/mttps/tags_2024.pdf?ver=lgt-G2npMWvqeuAV8KuTgg%3D%3D' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-bcd', 'usaf-org-asoc', 'joint-org-gld', 'usa-org-jfo-tacp', 'joint-eq-ta-datalinks']
+  },
+  {
+    id: 'joint-eq-ta-datalinks',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Division', 'Corps', 'Theatre'],
+    type: 'Data Fusion Node',
+    title: 'Data Links and Fusion: Link 16, TITAN, HADES and Maven',
+    what: [
+      'External ISR platforms share real-time tracks over Link 16.',
+      'Link 16 is extended over long-haul networks by JREAP-C, with an HF radio fallback, and by OTH-Gold and WinTAK/ATAK plugins.',
+      'Tactical cross-domain solutions pass higher-classification national data down to tactical fires networks.'
+    ],
+    how: [
+      'The Army is pairing HADES (tested at Project Convergence Capstone 6 in July 2026) with TITAN ground stations. Prototypes went to the 1st MDTF.',
+      'On 1 September 2026, Palantir and Anduril were awarded $192 million for eight more production TITAN stations running Anduril\'s Lattice C2 software.',
+      'The Maven Smart System feeds automated computer-vision detections into joint targeting workflows. It is reported to have reached Program of Record status in August 2026 and over 100,000 users by September 2026.'
+    ],
+    why: [
+      'The aim is faster sensor-to-shooter fusion across domains.'
+    ],
+    sources: [
+      { title: 'Maven Smart System', publisher: 'BD Emerson', year: '2026', url: 'https://www.bdemerson.com/article/maven-smart-system' },
+      { title: 'ATP 3-52.2 / MCRP 3-20.1: Theater Air-Ground System', publisher: 'Air Land Sea Space Application Center', year: '2024', url: 'https://www.alssa.mil/Portals/9/Documents/mttps/tags_2024.pdf?ver=lgt-G2npMWvqeuAV8KuTgg%3D%3D' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-hades', 'usa-eq-titan', 'joint-org-ta-external', 'usa-org-mdc']
+  },
+  {
+    id: 'usa-ttp-radar-modes',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Radar Modes: Hostile, Friendly, Sense and Warn',
+    what: [
+      'Weapon-locating radars work in three modes under ATP 3-09.12 and the USMC standards in NAVMC 3500.7.',
+      'Hostile Mode: finds the enemy firing point.',
+      'Friendly Mode: tracks outgoing friendly rounds.',
+      'Sense and Warn (RAM Warn): warns friendly forces of incoming rounds.'
+    ],
+    how: [
+      'Hostile Mode: the radar detects the incoming mortar, artillery or rocket round in flight and measures several points on its path. It works backward to the point of origin (POI) and forward to the predicted point of impact (PPI).',
+      'Friendly Mode: the radar tracks outgoing rounds to verify battery positioning and to carry out high-burst or registration adjustments.',
+      'A directional radar such as the AN/TPQ-53 can search a 90-degree sector, demonstrated to 100 km against 240 mm rockets, or watch a full 360 degrees (6,400 mils), demonstrated to 12–20 km across mortars, artillery and 122 mm rockets.'
+    ],
+    why: [
+      'A directional phased-array radar trades maximum detection reach for all-round awareness.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' },
+      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: 'https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2019_SARS/20-F-0568_DOC_11_ANTPQ-53_SAR_Dec_2019_Full.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-tpq53', 'usa-ttp-cueing', 'usa-ttp-radar-zones', 'usa-ttp-radar']
+  },
+  {
+    id: 'usa-ttp-radar-site',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Battalion'],
+    type: 'TTP',
+    title: 'Radar Site Selection and Survey',
+    what: [
+      'Employment starts with map reconnaissance, followed by reconnaissance of the site on the ground.',
+      'The radar is then tied onto a common grid with the firing batteries.'
+    ],
+    how: [
+      'Section leaders evaluate track volume and screening crest angles.',
+      'Nearby terrain should mask the emitter from low-angle ground observation and from direct line-of-sight jamming.',
+      'The crest must not create an excessive masking angle, which blocks incoming projectile arcs from early detection.',
+      'Crews use handheld GPS or hasty artillery survey to place the radar on the common grid.',
+      'Planners keep the stated separation between emitters when positioning more than one radar.'
+    ],
+    why: [
+      'A common grid with the firing batteries is an essential prerequisite for accurate massed counterfire.',
+      'FY2014 DOT&E testing of the AN/TPQ-53 flagged suspected radar-to-radar electromagnetic degradation when crews violated the separation guidance.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' },
+      { title: 'FY2014 Annual Report: AN/TPQ-53', publisher: 'Director, Operational Test and Evaluation', year: '2014', url: 'https://www.dote.osd.mil/Portals/97/pub/reports/FY2014/army/2014q-53counterfire_target_acquisition_radar.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-radar-modes', 'usa-ttp-cueing', 'usa-eq-tpq53']
+  },
+  {
+    id: 'usa-ttp-cueing',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Cueing: Telling the Radar When to Radiate',
+    what: [
+      'Cueing is the control of when a radar transmits.',
+      'ATP 3-09.12 emphasises situational cueing and pre-planned cueing schedules.',
+      'Cueing is tied to manoeuvre triggers, forward observers, acoustic detections or intelligence warnings.'
+    ],
+    how: [
+      'Designated cueing agents monitor cueing criteria drawn from target tables and the commander\'s guidance.',
+      'When the criteria are met, the cueing agent orders the radar section to radiate.',
+      'The operator activates the transmitter within the assigned sector and acquires the incoming rounds.',
+      'The operator computes the POI coordinates and sends the target data digitally to the fires cell.',
+      'The radar then ceases emissions.'
+    ],
+    why: [
+      'Continuous radar transmission invites signals intelligence direction finding and counterfire.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-radar-modes', 'usa-ttp-radar-survive', 'usa-ttp-radar-zones']
+  },
+  {
+    id: 'usa-ttp-radar-zones',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Radar Zones: CFZ, CFFZ, ATIZ, CZ and the CSB',
+    what: [
+      'Five standard radar management zones and boundaries are programmed into the radar processor and AFATDS.',
+      'Critical Friendly Zone (CFZ): a friendly area that needs priority protection.',
+      'Call for Fire Zone (CFFZ): a search area in enemy territory from which the commander requires immediate counterfire.',
+      'Artillery Target Intelligence Zone (ATIZ): a search area in enemy territory watched mainly for intelligence.',
+      'Censor Zone (CZ): an area from which the radar is prohibited from reporting acquisitions.',
+      'Common Sensor Boundary (CSB): a boundary between adjacent sensors or echelons.'
+    ],
+    how: [
+      'CFZ: hostile rounds impacting or threatening it trigger highest-priority counterfire.',
+      'CFFZ: an acquisition in it calls for immediate counterfire attack.',
+      'ATIZ: collects indirect-fire intelligence and order-of-battle data and does not trigger automatic fire.',
+      'CZ: placed over friendly firing batteries or protected corridors to suppress friendly clutter and false targets.',
+      'CSB: recommended by the 13R3O; it sets search responsibility and prevents duplicate processing.',
+      'Zones are programmed by 13R3O section leaders, 131A Targeting Officers and 0803 Target Acquisition Officers.'
+    ],
+    why: [
+      'Zones filter high track volumes and automate engagement priority without flooding the tactical nets.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-tps', 'usa-ttp-radar-modes', 'usa-ttp-multi-radar', 'usa-ttp-radar']
+  },
+  {
+    id: 'usa-ttp-multi-radar',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Coverage with More than One Radar',
+    what: [
+      'Unbroken coverage under counter-battery threat relies on echeloned employment of radars.',
+      'Automated RAM Warn, under ATP 3-09.12, requires two or more sensors to acquire the same incoming round at the same time.'
+    ],
+    how: [
+      'Paired radars with Reinforcing or General Support-Reinforcing missions stagger their radiation and displacement cycles.',
+      'One radar keeps watch on the sector while the second relocates, cools or is maintained.',
+      'With two, three or more AN/TPQ-50 or AN/TPQ-53 radars, sections overlap their search sectors.',
+      'RAM Warn alerts go out through the Forward Area Air Defense (FAAD) system, the ADAM element and the Air and Missile Defense Workstation (AMDWS).'
+    ],
+    why: [
+      'Overlap removes dead space behind terrain crests and makes automated RAM Warn possible.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-radar-zones', 'usa-ttp-radar-modes', 'usa-eq-radar-cuas']
+  },
+  {
+    id: 'usa-ttp-jamming-signs',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Battalion'],
+    type: 'TTP',
+    title: 'Recognising Jamming on a Weapon-Locating Radar',
+    what: [
+      'ATP 3-09.12 lists the indications that a radar is being jammed.'
+    ],
+    how: [
+      'A vertical azimuth strobe line on the operator screen.',
+      'Jam strobe printouts.',
+      'The interference indicator lights up.',
+      'Multiple short-duration phantom tracks.',
+      'On these indications the radar section carries out an Electronic Counter-Countermeasures (ECCM) drill.'
+    ],
+    why: [
+      'Radiating radars in large-scale combat operations are exposed to signal intercept, electronic attack, cyber exploitation and precision counterfire.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-radar-survive', 'usa-ttp-cueing']
+  },
+  {
+    id: 'usa-ttp-radar-survive',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Emissions Control and Radar Survivability',
+    what: [
+      'Army fires literature in 2026 sets out survivability as the combination of disciplined emissions, positional dispersion and rapid execution.'
+    ],
+    how: [
+      'Short emission windows.',
+      'Frequent displacement.',
+      'Terrain masking.',
+      'Deceptive radiating schedules.',
+      'Physical dispersion between emitters and operators.',
+      'On the AN/TPQ-53, an encrypted wireless radio lets operators run the control laptops up to 1 km from the radiating antenna truck.'
+    ],
+    why: [
+      'Remote operation separates the crew from the radio-frequency signature.'
+    ],
+    sources: [
+      { title: 'Engineering Resilient Fire Support in LSCO', publisher: 'Line of Departure, Field Artillery', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Engineering-Resilient-Fire-Support-in/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-cueing', 'usa-ttp-jamming-signs', 'usa-eq-tpq53', 'usa-les-survivability']
+  },
+  {
+    id: 'usa-ttp-poi-accuracy',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['All'],
+    type: 'TTP',
+    title: 'How Accurate Is a Radar Location?',
+    what: [
+      'December 2019 Selected Acquisition Report data give the demonstrated point-of-origin accuracy of the AN/TPQ-53.',
+      '90-degree mode: 20–30 m, or 0.2–0.3% of range.',
+      '360-degree mode: 50–75 m, or 0.5–1.0% of range.',
+      'The AN/TPQ-50 gives roughly 50 m point-of-origin error.',
+      'Target Location Error (TLE) Category I, in the 2009 change excerpt of JP 3-09.3, is a horizontal and vertical error of 0–20 feet (0–6 m).'
+    ],
+    how: [
+      'Radar error is stated as a distance or as a percentage of the range to the firing point, so it grows with range.',
+      'The figures for TLE Category II and lower in the 2019 edition of JP 3-09.3 are not available in open excerpts.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: 'https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2019_SARS/20-F-0568_DOC_11_ANTPQ-53_SAR_Dec_2019_Full.pdf' },
+      { title: 'JP 3-09.3: Close Air Support', publisher: 'Joint Chiefs of Staff', year: '2019', url: 'https://irp.fas.org/doddir/dod/jp3_09_3.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-crosscue', 'usa-eq-tpq53', 'usa-eq-tpq50']
+  },
+  {
+    id: 'usa-ttp-crosscue',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['All'],
+    type: 'TTP',
+    title: 'The Accuracy Gap and Cross-Cueing to Drones',
+    what: [
+      'There is a gap between the TLE that precision munitions need and the spread of radar point-of-origin locations.',
+      'This entry is the report\'s own analysis.'
+    ],
+    how: [
+      'At a range of 30 km (30,000 m), the tightest 0.2% bound gives 30,000 m × 0.002 = 60 m. At 0.3% it gives 90 m.',
+      '60 m is ten times wider than the 6 m Category I threshold.',
+      'A radar or SIGINT hit is cross-cued to an infrared-equipped UAS for positive visual confirmation before engagement.'
+    ],
+    why: [
+      'Raw radar locations remain sufficient for massed area suppression against unarmoured firing points.',
+      'Defeating shoot-and-scoot guns, hardened launchers or decoys increasingly depends on visual confirmation.'
+    ],
+    sources: [
+      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: 'https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2019_SARS/20-F-0568_DOC_11_ANTPQ-53_SAR_Dec_2019_Full.pdf' },
+      { title: 'JP 3-09.3: Close Air Support', publisher: 'Joint Chiefs of Staff', year: '2019', url: 'https://irp.fas.org/doddir/dod/jp3_09_3.pdf' }
+    ],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-poi-accuracy', 'usa-eq-ta-drones', 'les-ta-ukraine']
+  },
+  {
+    id: 'usa-eq-tpq53',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Equipment',
+    title: 'AN/TPQ-53 Weapon-Locating Radar',
+    what: [
+      'Made by Lockheed Martin. Used by Army BCTs, FABs and DIVARTYs, and in C-RAM and IFPC roles.',
+      'Crew of 5 on two FMTV trucks. Transportable by C-17.',
+      'First fielded as the Quick Reaction Capability EQ-36. It received its formal designation in September 2011.',
+      'It replaced both the AN/TPQ-36 and the AN/TPQ-37.',
+      'Programme of record: 189 systems. Full-Rate Production was approved on 22 December 2015. Sustainment began in FY2022.'
+    ],
+    how: [
+      'Searches a 90-degree sector or a full 360 degrees.',
+      '90-degree mode, demonstrated: 0.5–18 km (81 mm mortar), 0.5–20 km (120 mm mortar), 3–30 km (105 mm), 0.5–50 km (8-inch), 5–100 km (rockets, 80–240 mm).',
+      '360-degree mode, demonstrated: 3–15 km (mortars), 5–20 km (105/155 mm), 8–20 km (122 mm rocket).',
+      'Point-of-origin accuracy: 20–30 m or 0.2–0.3% of range at 90 degrees; 50–75 m or 0.5–1.0% at 360 degrees.',
+      'Operators can work up to 1 km from the antenna truck by wireless link.',
+      'The radar band and the emplace and displace times in minutes are not verified in open sources.'
+    ],
+    why: [
+      'In the FY2014 IOT&E, DOT&E found the radar operationally suitable (99% availability against a 95% threshold) but not operationally effective and not survivable against persistent cyber threats.',
+      'DOT&E cited reliability shortfalls, excessive false target rates and suspected radar-to-radar interference.',
+      'Software fixes followed, and Full-Rate Production was approved.',
+      'It stays on the FY2024 DOT&E oversight list, and FY2027 Army research funds a radar survivability project. The report reads this as a sign that survivability remains a challenge.'
+    ],
+    sources: [
+      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: 'https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2019_SARS/20-F-0568_DOC_11_ANTPQ-53_SAR_Dec_2019_Full.pdf' },
+      { title: 'FY2014 Annual Report: AN/TPQ-53', publisher: 'Director, Operational Test and Evaluation', year: '2014', url: 'https://www.dote.osd.mil/Portals/97/pub/reports/FY2014/army/2014q-53counterfire_target_acquisition_radar.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-tap', 'usa-ttp-radar-modes', 'usa-ttp-poi-accuracy', 'usa-eq-tpq50', 'usa-eq-wlr-predecessors', 'les-ta-iraq-afghanistan']
+  },
+  {
+    id: 'usa-eq-tpq50',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'Equipment',
+    title: 'AN/TPQ-50 Lightweight Counter Mortar Radar (LCMR)',
+    what: [
+      'Made by SRC Inc. Used by Army BCTs, FABs and DIVARTYs, and by the Marine Corps.',
+      'Covers close-in mortar and short-range rocket threats in all directions.',
+      'Operated by one or more operators or a light team.'
+    ],
+    how: [
+      'Works in the L-band (1–2 GHz).',
+      'Scans 360 degrees (6,400 mils) out to 10 km.',
+      'Set up on a tripod when dismounted, or mounted on a vehicle.',
+      'Gives Sense and Warn and counterfire at the same time.',
+      'Point-of-origin error is roughly 50 m.',
+      'Set-up time in minutes is not verified in open sources.'
+    ],
+    why: [
+      'The report assesses range as its main limit: it is of little use against longer-range cannon and heavy rocket artillery.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
+      { title: 'Selected Acquisition Report: AN/TPQ-53', publisher: 'US Department of Defense', year: '2019', url: 'https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Selected_Acquisition_Reports/FY_2019_SARS/20-F-0568_DOC_11_ANTPQ-53_SAR_Dec_2019_Full.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-tap', 'usa-eq-tpq53', 'usa-eq-wlr-predecessors', 'usa-eq-radar-cuas']
+  },
+  {
+    id: 'usmc-eq-gator',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'USMC',
+    echelon: ['Brigade', 'Division'],
+    type: 'Equipment',
+    title: 'AN/TPS-80 Ground/Air Task Oriented Radar (G/ATOR)',
+    what: [
+      'Made by Northrop Grumman. An air-cooled AESA radar with 360-degree coverage.',
+      'It combines five legacy air-defence and counterfire systems in one radar.',
+      '45 systems are planned, cut from 57. Full-Rate Production was approved on 23 May 2019.',
+      'It moves on two MTVRs (array trailer and 60 kW generator pallet) and one HMMWV (shelter).'
+    ],
+    how: [
+      'Block 1 serves air defence and air surveillance. Block 2 serves weapons locating and counterfire.',
+      'The first six low-rate production radars used Gallium Arsenide; production radars use Gallium Nitride (GaN).',
+      'Its band, counterfire range and counterfire accuracy are not verified in open sources.'
+    ],
+    why: [
+      'GAO report GAO-15-103 confirmed that the Army\'s AN/TPQ-53 could not meet key G/ATOR requirements.',
+      'DOT&E reported that G/ATOR Block 2 failed its displacement and emplacement time requirements in the FY18 operational assessment.',
+      'That is a serious limit for artillery counterfire sections, which must move far more often than air-defence sites.',
+      'DOT&E also documented software start-up instability, and noted that testing before Full-Rate Production did not cover all required target types or environments.',
+      'Reported, not confirmed: in October 2026 the US Army opened talks with Northrop Grumman to adopt G/ATOR.'
+    ],
+    sources: [
+      { title: 'FY2017 to FY2019 Annual Reports: G/ATOR', publisher: 'Director, Operational Test and Evaluation', year: '2019', url: 'https://www.dote.osd.mil/Portals/97/pub/reports/FY2019/navy/2019gator.pdf' },
+      { title: 'GAO-15-103', publisher: 'US Government Accountability Office', year: '2015', url: 'https://www.gao.gov/products/gao-15-103' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-gator-split', 'usmc-org-tap', 'usa-eq-tpq53', 'usa-eq-radar-cuas']
+  },
+  {
+    id: 'usa-eq-wlr-predecessors',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Equipment',
+    title: 'Earlier Weapon-Locating Radars',
+    what: [
+      'AN/TPQ-36 Firefinder (USMC version: AN/TPQ-46) and the long-range AN/TPQ-37.',
+      'AN/TPQ-48 and AN/TPQ-49: lightweight counter-mortar radars, the direct predecessors of the AN/TPQ-50.',
+      'AN/MPQ-4A: the Cold War mortar locator under FM 6-121 (1980), fielded alongside the moving-target radars AN/TPS-25 and AN/TPS-58.'
+    ],
+    how: [
+      'AN/TPQ-36, per secondary records: X-band, 32 frequencies, minimum 23 kW peak power, a 90-degree sector, 24 km maximum range (18 km effective against artillery, 24 km against rockets).',
+      'AN/TPQ-48: 360-degree scan, 10.2 km range, set up in under 20 minutes, Sense and Warn and Counterfire modes.',
+      'AN/MPQ-4A: 15 km range, 445-mil sector, 50 m accuracy at high angle and under 200 m at low angle, highly vulnerable to jamming.',
+      'The Army had divested the AN/TPQ-37 and was phasing out the AN/TPQ-36 by 2020–2021. ATP 3-09.12 (October 2021) kept AN/TPQ-36 procedures during the phase-out.',
+      'Performance figures for the AN/TPQ-37 and separate figures for the AN/TPQ-49 are not verified in open sources.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
+      { title: 'FM 6-121: Field Artillery Target Acquisition', publisher: 'Headquarters, Dept. of the Army', year: '1980', url: '' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-tpq53', 'usa-eq-tpq50']
+  },
+  {
+    id: 'usa-eq-acoustic',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'Equipment',
+    title: 'Acoustic and Passive Sensors',
+    what: [
+      'Passive acoustic systems detect without any radio-frequency signature, which suits strict EMCON.',
+      'Cold War sound-ranging sets (AN/TNS-10, under FM 6-121) covered a 10 × 20 km sector to an accuracy of 0–150 m.',
+      'Boomerang (Raytheon BBN) is an acoustic shooter-detection system, fielded in Mosul and Basra (2009) and in Afghanistan (2011).'
+    ],
+    how: [
+      'Strong, gusty winds made sound ranging unreliable.',
+      'In FY2002 Army experiments turned to Stryker-mounted acoustic cuers designed to wake AN/TPQ-36 and AN/TPQ-37 radars.',
+      'Boomerang, per the vendor datasheet: 26 lb, 25 W, detects more than 95% of supersonic small-arms rounds at vehicle speeds up to 60 mph, and reports azimuth and elevation (under 2.5° error) and range (±10%) in under 1.5 seconds.',
+      'Specifications and artillery fielding status of the UTAMS acoustic system are not verified in open sources.'
+    ],
+    why: [
+      'Atmospheric distortion has historically limited acoustic performance against indirect fire.',
+      'Boomerang is built only for supersonic direct-fire gunfire. It does not locate subsonic mortar or artillery rounds.'
+    ],
+    sources: [
+      { title: 'FM 6-121: Field Artillery Target Acquisition', publisher: 'Headquarters, Dept. of the Army', year: '1980', url: '' },
+      { title: 'Boomerang datasheet', publisher: 'Raytheon BBN', year: '', url: 'https://prd-sc102-cdn.rtx.com/-/media/rtx/our-company/who-we-are/bbn/boomerang/files/boomerang_data.pdf' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-cueing', 'usa-ttp-radar-survive', 'les-ta-iraq-afghanistan']
+  },
+  {
+    id: 'usa-eq-ta-drones',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Equipment',
+    title: 'Drones for Artillery Target Acquisition',
+    what: [
+      'Historically, neither Army artillery battalions nor DIVARTYs owned dedicated UAS.',
+      'They relied on brigade RQ-7B Shadow and RQ-11 Raven (in the USMC, RQ-7B and RQ-21A Blackjack), operated by manoeuvre or intelligence units.',
+      'Under ARSTRUC 2025–2029 the Army removed Shadow and Raven from brigades while developing the Future Tactical UAS (FTUAS).'
+    ],
+    how: [
+      'Model 1: TiC brigades run battalion LUS platoons, brigade UAS platoons and Recon and Strike Companies, using Ghost-X and LASSO loitering munitions integrated into the brigade fires cell.',
+      '3/10 MTN carried out 79 LASSO strikes during Combined Resolve 25-1. 2/25 LBCT fired LASSO beyond 105 mm cannon range during JPMRC 25-01.',
+      'Model 2: a 2026 Field Artillery Professional Bulletin proposal recommends that each reactivated DIVARTY TAB receive at least one organic platoon of medium- to long-range UAS and loitering munitions.',
+      'The 2026 artillery fielding status of FTUAS is not verified in open sources.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'Transformation in Contact (TiC) 2.0: Enabling DIVARTY', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://d34w7g4gy10iej.cloudfront.net/pubs/pdf_75993.pdf' },
+      { title: 'Transformation in Contact and Military Intelligence', publisher: 'Line of Departure, Military Intelligence', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Military-Intelligence/Military-Intelligence-Archive/2026-July-December/Transformation-in-Contact-and-Military/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-arstruc-tic', 'usa-org-tab-1cd', 'usa-ttp-crosscue', 'usa-ttp-uas']
+  },
+  {
+    id: 'usa-eq-radar-cuas',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division'],
+    type: 'Equipment',
+    title: 'Counterfire Radars in Air Surveillance and Counter-Drone Roles',
+    what: [
+      'Artillery radars increasingly serve air surveillance and Counter-UAS (C-UAS) as well as counterfire.',
+      'In 2026 the 75th Field Artillery Brigade operated a mobile AESA counter-battery radar designated QRCR during Exercise Daring Warrior 2026.'
+    ],
+    how: [
+      'G/ATOR does air surveillance and counterfire in one radar.',
+      'The AN/TPQ-53 and AN/TPQ-50 connect into C-RAM and IFPC architectures through FAAD and AMDWS.',
+      'QRCR was used for real-time rocket and mortar counterfire and for air defence. Its specifications are not available in open sources.',
+      'Marine Littoral Regiments use dedicated MADIS and L-MADIS counter-UAS vehicles. The DoD stood up JIATF-401 for counter-small-UAS defence in October 2026.'
+    ],
+    why: [
+      'A 2021 Military Review analysis argues that software upgrades to existing multi-mission radars are a better path than fielding dedicated single-purpose C-UAS radars.'
+    ],
+    sources: [
+      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usmc-eq-gator', 'usa-eq-tpq53', 'usa-eq-tpq50', 'usa-ttp-multi-radar']
+  },
+  {
+    id: 'usa-trn-ta-pipelines',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Individual Courses for Target Acquisition',
+    what: [
+      'Training for both services centres on Fort Sill, Oklahoma, home of the Fires Center of Excellence.',
+      'Joint fires and expeditionary schools at Nellis AFB, Coronado and Camp Lejeune add to it.',
+      '131A Warrant Officer Basic Course, Fort Sill: 30 weeks.',
+      'Joint Fires Observer (JFO) course: 2 weeks.',
+      'USMC TACP course (EWTGPAC Coronado, EWTGLANT Lejeune): 5 weeks.'
+    ],
+    how: [
+      '131A course: technical targeting, target acquisition, counterfire and intelligence-fires integration.',
+      '13R training: Firefinder radar operations (Q-50 and Q-53), TC 3-09.8 tables and maintenance.',
+      '0842 training: G/ATOR and LCMR operations, GPS and hasty survey. 0847 training: meteorological calculations, survey and registration.',
+      'Reported only: the 13A basic course at about 19 weeks, and the Joint Firepower Course at Nellis AFB at 2 weeks.',
+      'Course lengths for 13R, 13F, 0842, 0847, 0803 and 0802 are not verified in open sources.'
+    ],
+    why: [
+      'Putting Army and Marine Corps artillery instruction at Fort Sill gives both services a common technical baseline in gunnery and sensors.'
+    ],
+    sources: [
+      { title: 'TC 3-09.8: Fire Support and Field Artillery Certification and Qualification', publisher: 'Headquarters, Dept. of the Army', year: '2013', url: '' },
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-ta-mos', 'usmc-org-ta-mos', 'usa-trn-radar-cert', 'usa-trn-jfo']
+  },
+  {
+    id: 'usa-trn-radar-cert',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['Battalion'],
+    type: 'Training',
+    title: 'Radar Section Certification and Currency',
+    what: [
+      'Army 13R radar sections qualify under Chapter 5 of TC 3-09.8, progressing to Radar Table IV (Radar Operations).',
+      'Marine 0842 and 0847 keep currency on individual training and readiness (T&R) events in NAVMC 3500.7.'
+    ],
+    how: [
+      'Marine events include radar planning, emplacing the LCMR, AN/TPQ-46 or G/ATOR, sense-and-warn operations, GPS and hasty survey, and emergency equipment destruction.',
+      'The events are sustained on a strict three-month interval before unit Combat Readiness Evaluations (CRE).',
+      'TC 3-09.8 is dated November 2013 and was still cited in Army training guidance through 2024. A newer edition is not verified in open sources.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'TC 3-09.8: Fire Support and Field Artillery Certification and Qualification', publisher: 'Headquarters, Dept. of the Army', year: '2013', url: '' },
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-ta-pipelines', 'usa-trn-ta-collective', 'usmc-org-ta-mos']
+  },
+  {
+    id: 'usa-trn-ta-collective',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'Major Exercise',
+    title: 'Collective Training Venues and Digital Readiness Tracking',
+    what: [
+      'Division and DIVARTY staffs validate counterfire battle rhythms at Warfighter Exercises (WFX), run by the Mission Command Training Program at Fort Leavenworth.',
+      'BCTs and TiC formations test live and EW-contested kill chains at the National Training Center (NTC), the Joint Multinational Readiness Center (JMRC) and the Joint Pacific Multinational Readiness Center (JPMRC).'
+    ],
+    how: [
+      '2026 Army fires articles advocate weekly digital readiness tracking.',
+      'The tracking times occupation, target acquisition and fire-mission processing across every FIST, radar section, Counterfire section and brigade fires cell.'
+    ],
+    why: [
+      'The tracking is meant to bridge individual technical certification and live combat employment.'
+    ],
+    sources: [
+      { title: 'Redefining Digital Readiness', publisher: 'Line of Departure, Field Artillery', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Redefining-Digital-Readiness/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-radar-cert', 'les-ta-ctc-weak', 'joint-trn-pc']
+  },
+  {
+    id: 'usa-trn-ta-critiques',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Three Critiques of Training and Talent Management',
+    what: [
+      'Professional military literature identifies three structural weaknesses.'
+    ],
+    how: [
+      '131A career path: 13A officers have clear key developmental tracks in DA PAM 600-3. 131A Targeting Technicians lack codified gates and receive ad-hoc local assignments.',
+      'Certification: without enforcement from higher headquarters, manoeuvre commanders often accept training risk by bypassing TC 3-09.8 fire support certification gates before Combat Training Center deployments.',
+      'Judgement: soldiers can learn basic drone flight in days or weeks and pull AI-generated tracks from TITAN or Maven. Tactical ISR judgement, historically built over three to seven years of NCO leadership, cannot be compressed easily.'
+    ],
+    why: [
+      'Keeping 131As inside field artillery battalions produces one-dimensional radar specialists, unless they are broadened into S2, Assistant S3 or TAB Commander posts.',
+      'Doctrine still lacks a formal method or training for supervising autonomous targeting confidence scores and algorithmic drift.'
+    ],
+    sources: [
+      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-ta-pipelines', 'usa-org-ta-mos', 'les-ta-debates']
+  },
+  {
+    id: 'les-ta-ukraine',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Ukraine (2022–2026): The Gun Has Gone Before the Counterfire Lands',
+    what: [
+      'Russian and Ukrainian artillery routinely occupy pre-surveyed positions and displace in under one to two minutes.',
+      'Infrared-equipped drones, fused with SIGINT and networked applications such as Ukraine\'s GIS Arta, have produced a transparent attrition zone: if you can be seen, you can be killed.'
+    ],
+    how: [
+      'The reactive counterfire sequence runs: detection, identification, clearance, processing, transmission, gun lay and time of flight.',
+      'Pervasive electronic warfare degrades digital fire-mission hand-offs.',
+      'One Ukrainian estimate claims 60–80% of FPV drones fail to reach their targets.'
+    ],
+    why: [
+      'The legacy reactive sequence is too slow to hit anything other than empty berms or decoys.',
+      'High troop turnover erodes drone effectiveness and raises susceptibility to decoys.',
+      'The transparent zone stalls ground manoeuvre and logistics.'
+    ],
+    sources: [
+      { title: 'Reactive Counterfire: Why?', publisher: 'Line of Departure, Field Artillery', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Reactive-Counterfire-Why/' },
+      { title: 'Engineering Resilient Fire Support in LSCO', publisher: 'Line of Departure, Field Artillery', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Engineering-Resilient-Fire-Support-in/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-ukraine-cb', 'les-ukraine-uas', 'usa-ttp-crosscue', 'les-ta-debates']
+  },
+  {
+    id: 'les-ta-nk-2020',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Nagorno-Karabakh (2020): Drones Strip Concealment from Dug-In Artillery',
+    what: [
+      'The Second Nagorno-Karabakh War lasted 44 days.',
+      'Persistent UAVs and loitering munitions stripped concealment from dug-in artillery and armour.'
+    ],
+    how: [
+      'Defenders were flushed out of wooded terrain.'
+    ],
+    why: [
+      'The war directly shaped targeting debates in 10th Marines and in the Army.'
+    ],
+    sources: [
+      { title: '10th Marines', publisher: 'Marine Corps Gazette, Marine Corps Association', year: '', url: 'https://www.mca-marines.org/gazette/10th-marines/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-nk-2020', 'usmc-org-mlr', 'les-ta-ukraine']
+  },
+  {
+    id: 'les-ta-iraq-afghanistan',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Iraq and Afghanistan (2003–2021): Radars for Static Base Defence',
+    what: [
+      'The stabilisation campaigns drove rapid materiel innovation against static indirect fire and sniper ambushes.',
+      'The EQ-36 (later AN/TPQ-53) was urgently fielded to Iraq and Afghanistan in October 2010.',
+      'Man-portable AN/TPQ-48 and AN/TPQ-50 LCMRs were expanded.',
+      'Boomerang acoustic shooter locators were introduced in Mosul and Basra (2009) and Helmand (2011).'
+    ],
+    how: [
+      'The Marine Corps was temporarily forced to double its 0842 radar operator specialty between 2002 and 2007.',
+      'Specific lessons on US artillery radar or acoustic sensor operations in Syria are not available in open sources.'
+    ],
+    why: [
+      'The report sets this period against the present: a shift from static base-defence counterfire to rapid, EW-contested reconnaissance-strike duels.'
+    ],
+    sources: [
+      {"title": "U.S. Army Deploys First Lockheed Martin EQ-36 Counterfire Target Acquisition Radars in Theater", "publisher": "Lockheed Martin", "year": "2010", "url": "https://news.lockheedmartin.com/2010-10-26-U-S-Army-Deploys-First-Lockheed-Martin-EQ-36-Counterfire-Target-Acquisition-Radars-in-Theater"},
+      {"title": "EQ-36 Counterfire Target Acquisition Radar (FY2011 Annual Report)", "publisher": "DOT&E", "year": "2011", "url": "https://www.dote.osd.mil/Portals/97/pub/reports/FY2011/army/2011eq36.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-tpq53', 'usa-eq-tpq50', 'usa-eq-acoustic', 'les-ta-ukraine']
+  },
+  {
+    id: 'les-ta-adaptations',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'How the US Adapted, 2020–2026',
+    what: [
+      'Doctrine: FM 3-09 (2020), ATP 3-09.12 (2021), FM 3-60 (2023) and MCWP 3-31 (2024).',
+      'Structure: fires re-centred at division and theatre; the Marine Corps moved to littoral regiments (3d MLR).',
+      'Materiel: 189 AN/TPQ-53 radars fielded and the AN/TPQ-37 divested.',
+      'Training: EW-contested gunnery progressions and tracking of digital kill-chain latency.'
+    ],
+    how: [
+      'Doctrine reoriented counterfire and targeting towards peer large-scale combat operations and multi-domain convergence.',
+      'Structure changed through ARSTRUC 2025–2029, the 1st Cavalry Division TAB under TiC 2.0, the stand-up of MDC-E, MDC-P and four MDTFs, and brigade LUS and LASSO experiments.',
+      'The Army began breaking AFATDS into microservices and advanced TITAN and the Maven Smart System towards fielding.',
+      'TiC 2.0 units began testing EW-contested gunnery progressions, such as 1-7 Cav in February 2026.',
+      'Reported, not confirmed: talks in October 2026 for the Army to adopt the Marine Corps G/ATOR.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' },
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
+      { title: 'MCWP 3-31: MAGTF Fires and Effects', publisher: 'US Marine Corps', year: '2024', url: 'https://www.marines.mil/Portals/1/Publications/MCWP%203-31%20(SECURED).pdf?ver=8-R_z1atKvJd2FRolggX6w%3D%3D' },
+      { title: 'Transformation in Contact (TiC) 2.0: Enabling DIVARTY', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://d34w7g4gy10iej.cloudfront.net/pubs/pdf_75993.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-arstruc-tic', 'usa-org-mdc', 'usa-eq-tpq53', 'les-ta-debates']
+  },
+  {
+    id: 'les-ta-debates',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Four Open Debates, 2025–2026',
+    what: [
+      'Reactive or proactive counterfire.',
+      'Whether LUS and LASSO platoons can replace what brigades lost.',
+      'Airspace for dense layers of unmanned aircraft.',
+      'Machine-speed targeting under lawful human control.'
+    ],
+    how: [
+      'Army targeting technicians argue for custody-based targeting: persistent UAS keep continuous watch on enemy resupply routes, assembly areas, command nodes and pre-surveyed firing points, to strike artillery before it fires.',
+      'Practitioners debate whether the experimental platoons can replace the artillery, cavalry, intelligence and Shadow/Raven capabilities removed under ARSTRUC 2025–2029 before 2029.',
+      'TiC planners advocate standing free-fly zones for unmanned aircraft inside the Unit Airspace Plan, such as 0–500 ft AGL for short-range reconnaissance and 500–1,200 ft AGL for LASSO.',
+      'Theorists propose an HDM3 autonomous targeting method and Autonomous Targeting Cells.'
+    ],
+    why: [
+      'Effectiveness would be judged by sensor custody, not only by firing speed.',
+      'Dense unmanned traffic overwhelms traditional aviation-centred Restricted Operating Zones (ROZ) and creates launch bottlenecks.',
+      'The question is how to move from human-paced D3A to machine-speed kill webs without giving up lawful human control.',
+      'USAF TACP reductions raise a parallel concern over forward joint air-ground liaison.'
+    ],
+    sources: [
+      { title: 'Reactive Counterfire: Why?', publisher: 'Line of Departure, Field Artillery', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Reactive-Counterfire-Why/' },
+      { title: 'Transformation in Contact and Military Intelligence', publisher: 'Line of Departure, Military Intelligence', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Military-Intelligence/Military-Intelligence-Archive/2026-July-December/Transformation-in-Contact-and-Military/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-ta-ukraine', 'usa-org-arstruc-tic', 'usa-eq-ta-drones', 'joint-org-ta-external']
+  },
+  {
+    id: 'les-ta-ctc-weak',
+    topic: 'target-acquisition',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'Lesson',
+    title: 'Recurring Weaknesses at Warfighter Exercises and Combat Training Centers',
+    what: [
+      'Warfighter Exercises and the CALL trend reports (including FY24 CTC Trends, CALL No. 25-07) show persistent gaps in collective execution.',
+      'Confirmed, division and DIVARTY staffs: they struggle to delineate the deep, close and security fires fights; fail to weight the main effort with artillery; plan shallowly; and assess weakly in the Assess phase of D3A.'
+    ],
+    how: [
+      'Reported, brigade level: targeting teams over-rely on division sensors and do not synchronise organic collection and fires.',
+      'Reported: centralised command posts and undisciplined radar emissions are exposed to opposing-force electronic warfare and counterfire.',
+      'Reported: units do not rehearse the end-to-end digital FIST, radar and FDC kill chain before rotations.',
+      'Reported: loitering munition confirmations stall behind rigid airspace approval procedures.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'FY24 CTC Trends, No. 25-07', publisher: 'Center for Army Lessons Learned', year: '2025', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-ta-collective', 'les-ta-debates', 'usa-ttp-radar-survive']
+  },
+  // --- DIGITAL FIRES COMMAND AND CONTROL, UNITED STATES (added 2026.12) ---
+  {
+    id: 'joint-org-c2-two-chains',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Command & Control',
+    title: 'Two Chains: Fire Support, and Fire Direction',
+    what: [
+      'Fires command and control in both services runs on separate chains.',
+      'The fire support chain sits with the supported manoeuvre commander. It requests, prioritises and clears effects.',
+      'The fire direction and target acquisition chains sit inside the artillery formations. They allocate shooters and solve the engagement.'
+    ],
+    how: [
+      'A digital fire mission passes from one chain to the other as data, without voice relay or manual re-entry.',
+      'The Army runs AFATDS from company Fire Support Teams through battalion and brigade Fires Cells to DIVARTY and the JAGIC.',
+      'The Marine Corps runs AFATDS in its fire support coordination agencies and FECCs, alongside the aviation system CAC2S.'
+    ],
+    why: [
+      'Digital links move a mission from sensor to firing unit without relying on voice circuits.'
+    ],
+    sources: [
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' },
+      { title: 'MCWP 3-31: MAGTF Fires and Effects', publisher: 'US Marine Corps', year: '2024', url: 'https://www.marines.mil/Portals/1/Publications/MCWP%203-31%20(SECURED).pdf?ver=8-R_z1atKvJd2FRolggX6w%3D%3D' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-c2-specialties', 'usmc-org-c2-agencies', 'usa-eq-afatds-arch']
+  },
+  {
+    id: 'usa-org-c2-specialties',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion', 'Brigade', 'Division'],
+    type: 'Force Structure',
+    title: 'Who Runs Army Digital Fires: 13A, 13F, 13J and 131A',
+    what: [
+      '13F forward observers and Field Artillery officers (13A) form the Fire Support Teams and serve as Fire Support Officers.',
+      '13J Fire Control Specialists operate the AFATDS terminals in Fire Support Elements and Fire Direction Centers.',
+      'The 13J specialty was created in 2013 by merging the cannon fire direction specialty (13D) and the rocket and missile fire direction specialty (13P).',
+      '131A Field Artillery Targeting Technicians anchor targeting integration from battalion through corps.'
+    ],
+    how: [
+      'Company Fire Support Teams occupy observation posts and start the digital call for fire.',
+      'At manoeuvre battalion and brigade headquarters, the Fire Support Element or Fires Cell integrates fires with the operations staff (S3) and clears fires.',
+      '13J operators run AFATDS at the direct support artillery battalions and the firing batteries.'
+    ],
+    why: [
+      'The 131A binds Intelligence, Movement and Maneuver and Mission Command to the Fires warfighting function.'
+    ],
+    sources: [
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-fist', 'usa-org-bn-cell', 'usa-org-bde-cell', 'usa-org-ta-mos']
+  },
+  {
+    id: 'usmc-org-c2-agencies',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Command & Control',
+    title: 'Marine Fires Agencies: Coordination Centres, FECC and DASC',
+    what: [
+      'In the Ground Combat Element, battalion and regimental fire support coordination centres plan and coordinate supporting arms.',
+      'Higher-echelon Fires and Effects Coordination Centers (FECC) coordinate fire support coordination measures with Joint Fires Elements and higher headquarters.',
+      'The Direct Air Support Center (DASC) is the aviation-side agency, inside the Marine Air Command and Control System.'
+    ],
+    how: [
+      'The DASC coordinates immediate air support and works directly with ground fire support and tactical air controllers.',
+      'In the 08XX field, 0802 artillery officers, 0844 Fire Control Marines (Fire Direction Center operations), 0848 operations chiefs and 0861 observers staff the chain.',
+      'The exact split of responsibilities between the older Force Fires Coordination Centers and the FECC under the May 2024 MCWP 3-31 is not detailed in open extracts.'
+    ],
+    why: [
+      'The MAGTF binds ground and aviation fires under a single command.'
+    ],
+    sources: [
+      { title: 'MCWP 3-31: MAGTF Fires and Effects', publisher: 'US Marine Corps', year: '2024', url: 'https://www.marines.mil/Portals/1/Publications/MCWP%203-31%20(SECURED).pdf?ver=8-R_z1atKvJd2FRolggX6w%3D%3D' },
+      { title: 'Introduction to Fire Support Planning, B2C0319XQ-DM', publisher: 'US Marine Corps, The Basic School', year: '', url: 'https://www.trngcmd.marines.mil/portals/207/docs/tbs/b2c0319xq-dm.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-ffcc', 'usmc-org-fscc', 'usmc-org-regt-fscc', 'usmc-eq-cac2s']
+  },
+  {
+    id: 'usaf-org-tacp-cuts',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Liaison Element',
+    title: 'Reported Cuts to Air Force Forward Air Control',
+    what: [
+      'Reported, not confirmed: in April 2023 Air Force Times reported plans to cut nearly 50% of Tactical Air Control Party positions.',
+      'Reported, not confirmed: in February 2026 Air & Space Forces Magazine reported the Air National Guard deactivating an air control squadron in Georgia and dozens of similar posts in Iowa, to convert them to cyber operations.'
+    ],
+    how: [
+      'Fewer Air Force JTACs are available forward at battalions and brigades.',
+      'The Army relies more on its own 13F Joint Fires Observers and on centralised clearance at the JAGIC.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'Report on Tactical Air Control Party reductions', publisher: 'Air Force Times', year: '2023', url: 'https://www.airforcetimes.com/news/your-air-force/2023/04/14/air-force-looks-to-cut-nearly-50-of-tactical-air-control-party-jobs/' },
+      { title: 'Report on Air National Guard air control deactivations', publisher: 'Air & Space Forces Magazine', year: '2026', url: 'https://www.airandspaceforces.com/air-force-converting-some-tacp-units-to-cyber-in-a-push-to-counter-china' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-jfo-tacp', 'usaf-org-asoc', 'joint-org-ta-external']
+  },
+  {
+    id: 'usa-org-bcd-airspace',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Theatre'],
+    type: 'Liaison Element',
+    title: 'The BCD’s Digital and Airspace Tasks Inside the Air Operations Center',
+    what: [
+      'The Battlefield Coordination Detachment (BCD) places Army personnel in all five divisions of the Air Operations Center.',
+      'It has operational control of the Ground Liaison Detachments and Reconnaissance Liaison Detachments at Air Force wings and Navy carrier strike groups.'
+    ],
+    how: [
+      'Advocates Army Air Support Requests (Form 1972).',
+      'Submits the consolidated Army airspace plan for the Airspace Control Order (ACO).',
+      'Runs immediate clearance drills when ATACMS, GMLRS or Excalibur trajectories cross the air component’s airspace.'
+    ],
+    why: [
+      'It bridges all land forces to the Joint Force Air Component Commander inside the Theater Air-Ground System.'
+    ],
+    sources: [
+      { title: 'Handbook 19-16: Commander and Staff Guide to the Battlefield Coordination Detachment', publisher: 'Center for Army Lessons Learned', year: '2019', url: 'https://api.army.mil/e2/c/downloads/2023/01/19/61da0bba/19-16-commander-and-staff-guide-to-the-battlefield-coordination-detachment-handbook-may-19-public.pdf' },
+      { title: 'ATP 3-52.2 / MCRP 3-20.1: Theater Air-Ground System', publisher: 'Air Land Sea Space Application Center', year: '2024', url: 'https://www.alssa.mil/Portals/9/Documents/mttps/tags_2024.pdf?ver=lgt-G2npMWvqeuAV8KuTgg%3D%3D' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-bcd', 'joint-org-gld', 'joint-eq-jadocs-tais']
+  },
+  {
+    id: 'joint-doc-c2-publications',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Command & Control',
+    title: 'The Doctrine Baseline for Digital Fires',
+    what: [
+      'Fires command and control doctrine rests on publications issued largely between 2016 and 2024.',
+      'Army: FM 3-09 (30 April 2020), FM 3-60 Army Targeting (11 August 2023), ATP 3-09.12 (26 October 2021), ATP 3-09.42 Fire Support for the Brigade Combat Team (1 March 2016).',
+      'Marine Corps: MCWP 3-31 (17 May 2024), which supersedes the 3 June 2011 edition.',
+      'Joint: JP 3-09 Joint Fire Support (10 April 2019), JP 3-09.3 Close Air Support (10 June 2019), JP 3-60 Joint Targeting (28 September 2018).'
+    ],
+    how: [
+      'FM 3-60 (2023) supersedes ATP 3-60 (7 May 2015).',
+      'ATP 3-91.1, the JAGIC manual, is dated 17 April 2019.',
+      'A post-2020 update of ATP 3-09.42 is not confirmed in open sources.'
+    ],
+    why: [
+      'Operational concepts in 2025 and 2026 have outpaced the manuals.',
+      'Practices such as layering airspace for brigade loitering munitions and supervising autonomous targeting are not yet in published doctrine.'
+    ],
+    sources: [
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' },
+      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: 'https://irp.fas.org/doddir/army/fm3_60.pdf' },
+      { title: 'MCWP 3-31: MAGTF Fires and Effects', publisher: 'US Marine Corps', year: '2024', url: 'https://www.marines.mil/Portals/1/Publications/MCWP%203-31%20(SECURED).pdf?ver=8-R_z1atKvJd2FRolggX6w%3D%3D' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-doc-c2-governance', 'les-c2-autonomy-doctrine']
+  },
+  {
+    id: 'joint-doc-c2-governance',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Command & Control',
+    title: 'Who Governs Joint Digital Fires Standards',
+    what: [
+      'CJCSI 5127.01B names Joint Staff J-6 as Lead Agent and Doctrine Sponsor for core fires doctrine.',
+      'The same instruction governs the change-control bodies for Digitally Aided Close Air Support (DACAS) and Digitally Aided Fire Support.'
+    ],
+    how: [
+      'The Air Land Sea Space Application (ALSSA) Center keeps multi-service procedures in step.',
+      'ALSSA updated the Theater Air-Ground System (TAGS) manual on 22 August 2024.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'CJCSI 5127.01B', publisher: 'Joint Chiefs of Staff', year: '', url: 'https://www.jcs.mil/Portals/36/Documents/Library/Instructions/CJCSI%205127.01B.pdf' },
+      { title: 'ATP 3-52.2 / MCRP 3-20.1: Theater Air-Ground System', publisher: 'Air Land Sea Space Application Center', year: '2024', url: 'https://www.alssa.mil/Portals/9/Documents/mttps/tags_2024.pdf?ver=lgt-G2npMWvqeuAV8KuTgg%3D%3D' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-doc-c2-publications', 'joint-eq-vmf']
+  },
+  {
+    id: 'usa-ttp-d3a-matrices',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Commander’s Guidance Becomes Software Rules',
+    what: [
+      'Decide, Detect, Deliver, Assess (D3A) is the targeting method in FM 3-60 and MCWP 3-16.1A.',
+      'In the Decide phase, commanders and fires staffs build three linked control matrices.',
+      'These matrices govern the automated filtering inside AFATDS.'
+    ],
+    how: [
+      'The matrices are entered as guidance. AFATDS then filters and routes incoming missions against them.',
+      'The Attack Guidance Matrix (AGM) is one input to mission priority.',
+      'The names and contents of the three matrices were not in the research text received, so they are not listed here.'
+    ],
+    why: [
+      'Automation only reflects the commander’s intent if the guidance is entered correctly.'
+    ],
+    sources: [
+      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: 'https://irp.fas.org/doddir/army/fm3_60.pdf' },
+      { title: 'Deliberate Dynamic Targeting', publisher: 'Line of Departure, Field Artillery', year: '2024', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/FA-2024-Issue-1/Deliberate-Dynamic-Targeting/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-afatds-arbitration', 'usa-ttp-afatds-clearance']
+  },
+  {
+    id: 'usa-ttp-afatds-arbitration',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'How AFATDS Ranks Fire Missions',
+    what: [
+      'AFATDS does not rank missions on the Attack Guidance Matrix alone.',
+      'It scores priority on four variables: target type (High-Payoff Target), Priority of Fire, Target Area of Interest precedence, and On-Call Target precedence.'
+    ],
+    how: [
+      'Commanders set intervention points: the places where a human must approve a mission before it moves on to a firing unit.',
+      'Approval can sit with the Fire Support Officer or the JAGIC battle captain.',
+      'A frequent error: staffs mark third- or fourth-priority High-Payoff Targets as “Immediate” on the AGM. This distorts the AFATDS queues.'
+    ],
+    why: [
+      'Intervention points let the commander decide where automation stops and human approval begins.'
+    ],
+    sources: [
+      { title: 'Deliberate Dynamic Targeting', publisher: 'Line of Departure, Field Artillery', year: '2024', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/FA-2024-Issue-1/Deliberate-Dynamic-Targeting/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-d3a-matrices', 'usa-eq-afatds-arch', 'usa-eq-afats']
+  },
+  {
+    id: 'usa-ttp-afatds-clearance',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Automated Clearance of Fires',
+    what: [
+      'AFATDS checks each target location and gun-target line against the active fire support coordination measures.',
+      'These include Coordinated Fire Lines, Fire Support Coordination Lines, No-Fire Areas and Restricted Fire Areas.',
+      'It also checks against airspace control measures.'
+    ],
+    how: [
+      'Airspace control measures come from the Airspace Control Order through TAIS, and appear as layers on the Command Post Computing Environment (CPCE).',
+      'Clearance runs at the same time as mission routing.',
+      'In a division, the JAGIC speeds up clearance of deep or cross-boundary fires when two conditions are met: a codified delegation of authority from the commander, and collocation with the G-2 collection analysts.'
+    ],
+    why: [
+      'Clearance and fratricide prevention run with the mission, not after it.'
+    ],
+    sources: [
+      { title: 'Lessons from the Ivy Division’s Joint Air-Ground Integration Center', publisher: 'Military Review, Army University Press', year: '2021', url: 'https://www.armyupress.army.mil/Portals/7/military-review/Archives/English/MJ-21/Lewin.pdf' },
+      { title: 'ATP 3-91.1: The Joint Air Ground Integration Center', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-clearance', 'usa-ttp-airspace', 'joint-eq-jadocs-tais']
+  },
+  {
+    id: 'usa-ttp-direct-s2s',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'TTP',
+    title: 'Direct Sensor-to-Shooter Links',
+    what: [
+      'For fleeting High-Payoff Targets, doctrine authorises a direct sensor-to-shooter link.',
+      'An observer or radar sends straight to a designated battery Fire Direction Center or firing element, bypassing the intermediate fire support headquarters.'
+    ],
+    how: [
+      'Transformation in Contact brigades adapt this for their own loitering munitions such as LASSO.',
+      'Targeting Officers write the launch triggers into the Target Synchronization Matrix.',
+      'They set standing “Free-Fly” Restricted Operating Zones in the Unit Airspace Plan. Example: 0–500 ft above ground for short-range reconnaissance drones, 500–1,200 ft for loitering munitions.'
+    ],
+    why: [
+      'Short-dwell targets do not wait for a mission to pass through each headquarters.',
+      'Standing altitude layers remove repeated voice clearance delays.'
+    ],
+    sources: [
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' },
+      { title: 'Transformation in Contact and Military Intelligence', publisher: 'Line of Departure, Military Intelligence', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Military-Intelligence/Military-Intelligence-Archive/2026-July-December/Transformation-in-Contact-and-Military/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-arstruc-tic', 'usa-ttp-mission-latency', 'usa-ttp-cff']
+  },
+  {
+    id: 'usa-ttp-proactive-counterfire',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'From Reactive to Proactive Counterfire',
+    what: [
+      'Reported, not confirmed: May 2026 Army counterfire commentary argues that the reactive counterfire sequence is too slow.',
+      'The sequence is detection, identification, clearance, processing, transmission, weapon lay, and time of flight.',
+      'Reported: it routinely exceeds the displacement window of under 1–2 minutes shown by Russian and Ukrainian artillery.'
+    ],
+    how: [
+      'Planners advocate custody-based targeting and proactive counterfire.',
+      'Drones keep persistent custody of enemy batteries and track their pattern of life.',
+      'The battery is struck in its assembly area, on its resupply route or in its firing position, before it fires.'
+    ],
+    why: [
+      'A gun that moves within two minutes is gone before a reactive mission lands.'
+    ],
+    sources: [
+      { title: 'Reactive Counterfire: Why?', publisher: 'Line of Departure, Field Artillery', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Reactive-Counterfire-Why/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-ukraine-cb', 'usa-ttp-crosscue', 'usa-ttp-mission-latency']
+  },
+  {
+    id: 'usa-ttp-mission-latency',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'TTP',
+    title: 'Measuring Fire Mission Time',
+    what: [
+      'Open official sources hold no single published, service-wide end-to-end time standard for a US fire mission.',
+      'What is verified is how units measure their own delay.',
+      '1st Battalion, 37th Field Artillery logs occupation, acquisition and AFATDS processing times, section by section, every week.'
+    ],
+    how: [
+      'It measures four digital pathways.',
+      'Radar → brigade Fire Support Element → battalion FDC → battery FDC → gun line.',
+      'Fire Support Team → battalion FDC → battery FDC → gun line.',
+      'Counterfire → battalion FDC → battery FDC → gun line.',
+      'Fire Support Team → battery FDC → gun line (direct).',
+      'Times are compared with the baselines in the 7th Infantry Division Standards Red Book.'
+    ],
+    why: [
+      'Section-level timing isolates whether a delay comes from an operator, a procedure or hardware.'
+    ],
+    sources: [
+      { title: 'Redefining Digital Readiness', publisher: 'Line of Departure, Field Artillery', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Redefining-Digital-Readiness/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-odst', 'usa-ttp-direct-s2s', 'les-c2-ukraine-stack']
+  },
+  {
+    id: 'usa-ttp-fires-pace',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'A PACE Plan for Digital Fires',
+    what: [
+      'PACE means Primary, Alternate, Contingency, Emergency: four ways to pass the same traffic, in order of preference.',
+      'Combat Training Center rotations now treat degraded communications as the normal condition.'
+    ],
+    how: [
+      'A representative fires plan on the Integrated Tactical Network:',
+      'Primary: IP Upper Tactical Internet or an SBU-E local network.',
+      'Alternate: MUOS UHF satellite communications, or a mobile mesh waveform.',
+      'Contingency: line-of-sight VHF FM (SINCGARS) or High-Frequency links.',
+      'Emergency: voice call for fire.'
+    ],
+    why: [
+      'Digital fires stay resilient only if each fallback is engineered in advance.'
+    ],
+    sources: [
+      { title: 'Engineering Resilient Fire Support in LSCO', publisher: 'Line of Departure, Field Artillery', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Engineering-Resilient-Fire-Support-in/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-itn-sbue', 'les-c2-sbue-fragility', 'usa-ttp-cff']
+  },
+  {
+    id: 'usa-ttp-radar-eccm',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'The Five Countermeasures When a Radar Is Jammed',
+    what: [
+      'Under electronic attack, radar crews watch for vertical azimuth strobes, jam-strobe printouts or phantom tracks.',
+      'They then carry out five countermeasures in sequence.'
+    ],
+    how: [
+      '1. Activate Electronic Counter-Countermeasures: jam strobe and pulsed interference rejection.',
+      '2. Avoid the jammer’s sector by terrain masking.',
+      '3. Step frequencies upward.',
+      '4. Temporarily cease radiation, to deceive hostile electronic warfare.',
+      '5. Relocate.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-jamming-signs', 'usa-ttp-radar-survive', 'les-ukraine-ew']
+  },
+  {
+    id: 'usa-ttp-cp-survive',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Command & Control',
+    title: 'Command Posts That Survive',
+    what: [
+      'Surviving enemy signals intelligence, drones and precision counterfire means giving up the large tented command posts of the counterinsurgency years.',
+      'The replacement is dispersed, vehicle-mounted, modular nodes that can displace within minutes.'
+    ],
+    how: [
+      'The Army’s Command Post Integrated Infrastructure (CPI2) and CPMod programmes support this.',
+      '2026 Field Artillery survivability guidance combines four things: disciplined low-power or intermittent emissions, dispersion, terrain masking, and rapid battle-drill clearance.'
+    ],
+    why: [
+      'A command post that emits and stays in place is found and struck.'
+    ],
+    sources: [
+      { title: 'Engineering Resilient Fire Support in LSCO', publisher: 'Line of Departure, Field Artillery', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Engineering-Resilient-Fire-Support-in/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-les-survivability', 'les-c2-ctc-trends', 'usa-ttp-fires-pace']
+  },
+  {
+    id: 'joint-ttp-link16-hf',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'TTP',
+    title: 'Link 16 Over HF Radio: A Vendor Finding',
+    what: [
+      'Reported, not confirmed: laboratory measurements by the vendor Isode find that Link 16 fails over HF when sent as standard JREAP-C over TCP.',
+      'The cause given: HF delay breaks the time-reference negotiation between the two ends.'
+    ],
+    how: [
+      'Reported: the fallback is to proxy the time reference, or to change to SIMPLE framing, which has no handshake and uses 60 bytes per Link 16 message.',
+      'Reported: STANAG 5066 Annex X stream compression achieved 19% to 82%, depending on run length.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'Link 16 over HF: laboratory measurements', publisher: 'Isode (vendor)', year: '', url: 'https://www.isode.com/whitepaper/link-16-and-other-c2-protocols-over-hf-radio/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-link16-jreap', 'usa-ttp-fires-pace']
+  },
+  {
+    id: 'usa-eq-afatds-arch',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Equipment',
+    title: 'AFATDS: Thirty Years of Code, Now Being Broken Up',
+    what: [
+      'AFATDS (AN/GYK-60) is the tactical fires command and control backbone of the Army and the Marine Corps.',
+      'It integrates more than 80 battlefield systems.',
+      'It plans, prioritises and executes cannon, mortar, rocket, missile, naval gunfire and air support missions.',
+      'It was first architected in 1995.'
+    ],
+    how: [
+      'Version 7.0 moved the software towards a web-service backend that complies with the Army’s Common Operating Environment and CPCE.',
+      'Version 7.0 was under DOT&E oversight through FY2022 and was tested with PF-D Block 2 in 2021.',
+      'Beyond Version 7.0, PEO C3T began breaking AFATDS into three modular microservices, now in division-level soldier experimentation.'
+    ],
+    why: [
+      'In December 2023 Col. Matt Paul, Project Manager for Mission Command at PEO C3T, called the legacy code “spaghetti code” that is difficult to update whenever new munitions or sensors arrive.'
+    ],
+    sources: [
+      {"title": "AFATDS Gets an Upgrade", "publisher": "U.S. Army", "year": "", "url": "https://www.army.mil/article/283097/afatds_gets_an_upgrade"},
+      {"title": "Army Seeks Industry Input on Approach to Modernizing Digital Fires Products", "publisher": "U.S. Army", "year": "2023", "url": "https://www.army.mil/article/271343/army_seeks_industry_input_on_approach_to_modernizing_digital_fires_products"},
+      {"title": "Army taking modular, microservice approach to next-generation fires system", "publisher": "DefenseScoop", "year": "2023", "url": "https://defensescoop.com/2023/12/19/army-modular-microservice-approach-next-generation-fires-afatds"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-afats', 'usa-eq-axs', 'usa-ttp-afatds-arbitration']
+  },
+  {
+    id: 'usa-eq-axs',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Equipment',
+    title: 'Artillery Execution Suite (AXS): A Possible AFATDS Successor',
+    what: [
+      'Under the Army’s Next Generation Command and Control (NGC2) programme, Anduril’s Artillery Execution Suite (AXS) runs on Lattice Mesh.',
+      'It is being evaluated in exercises such as Ivy Sting 1 as a prospective replacement for the legacy AFATDS networking.'
+    ],
+    how: [
+      'Reported, not confirmed: Anduril claims that at Ivy Sting 1 gun crews became digitally ready in under 30 seconds, compared with extended troubleshooting on AFATDS.',
+      'No independent DOT&E test report is publicly available to support this vendor figure.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'How Anduril and the Army Are Rewriting Fire Missions with NGC2', publisher: 'Anduril (vendor)', year: '', url: 'https://www.anduril.com/news/how-anduril-and-the-army-are-rewriting-fire-missions-with-ngc2' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-afatds-arch', 'usa-ttp-mission-latency']
+  },
+  {
+    id: 'usmc-eq-afatds-emt',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'USMC',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'Equipment',
+    title: 'AFATDS in the Marine Corps and the Effects Management Tool',
+    what: [
+      'Marine battalions and regiments house AFATDS in their Combat Operations Centers.',
+      'Firing batteries house it in Mobile Tactical Shelters.',
+      'It is paired with the Effects Management Tool (EMT).'
+    ],
+    how: [
+      'The EMT takes Tactical Combat Operations (TCO) and JTCW situation overlays straight into the AFATDS target databases.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'U.S. Marine Corps Concepts and Programs 2013', publisher: 'US Marine Corps', year: '2013', url: 'https://www.marines.mil/Portals/1/Publications/U.S.%20Marine%20Corps%20Concepts%20and%20Programs%202013_2.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-afatds-arch', 'usmc-eq-cac2s', 'usmc-org-c2-agencies']
+  },
+  {
+    id: 'usmc-eq-cac2s',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'USMC',
+    echelon: ['Division'],
+    type: 'Data Fusion Node',
+    title: 'CAC2S: The Translator Between Ground and Air Data',
+    what: [
+      'The Common Aviation Command and Control System (CAC2S) is the system of the Marine Air Command and Control System.',
+      'At the Direct Air Support Center it is the digital translator between ground and aviation networks.',
+      'Increment I Phase 1 reached initial operational capability in 2012. Phase 2 was scheduled for fielding to the DASC in FY2018–2021.'
+    ],
+    how: [
+      'It fuses ground AFATDS traffic (VMF K-series) and GCCS and C2PC tracks with Link 16 (75-bit J-series), Link 11 (48-bit M-series), JREAP and Integrated Broadcast Service feeds.',
+      'This automates digitally aided close air support and immediate air requests.'
+    ],
+    why: [
+      'Ground networks and aviation networks use different message formats. Something must translate between them.'
+    ],
+    sources: [
+      { title: 'The Future Direct Air Support Center: Implementing Tactical Data Links', publisher: 'Air Land Sea Space Application Center', year: '2021', url: 'https://www.alssa.mil/News/Article/2601056/the-future-direct-air-support-center-implementing-tactical-data-links-to-enhanc/' },
+      { title: 'U.S. Marine Corps Concepts and Programs 2013', publisher: 'US Marine Corps', year: '2013', url: 'https://www.marines.mil/Portals/1/Publications/U.S.%20Marine%20Corps%20Concepts%20and%20Programs%202013_2.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-eq-afatds-emt', 'joint-eq-vmf', 'joint-eq-link16-jreap']
+  },
+  {
+    id: 'usa-eq-pfd-pfm',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'Observer Software: PF-D and PF-M',
+    what: [
+      'The older observer devices were the Pocket-Sized Forward Entry Device (PFED) and the Forward Observer System (FOS).',
+      'They have given way to software applications.',
+      'Precision Fires-Dismounted (PF-D) is an Android application on the Nett Warrior End User Device.',
+      'Precision Fires-Mounted (PF-M) runs on the Mounted Family of Computer Systems vehicle computers.'
+    ],
+    how: [
+      'Both generate digital calls for fire into AFATDS.',
+      'PFED and FOS are confirmed in Army procurement records and FM 3-09 (2020). Their hardware specifications are not in open documents.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-jets', 'joint-eq-observer-apps', 'usa-eq-afats']
+  },
+  {
+    id: 'usa-eq-jets',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'JETS and LLDR: Locating and Designating the Target',
+    what: [
+      'The Joint Effects Targeting System (JETS) Target Location Designation System was contracted for $339 million in October 2016.',
+      'The scale is four per infantry company: one per platoon and one for the Fire Support Team.',
+      'The Lightweight Laser Designator Rangefinder (LLDR, AN/PED-1) is crew-served. It has a Target Locator Module and a Laser Designator Module.'
+    ],
+    how: [
+      'In operational testing in Alaska, JETS averaged 40 acquisitions or fire missions per 10-hour day.',
+      'The LLDR designates stationary and moving targets for laser-guided munitions.',
+      'The Laser Target Locator Module 2 (LTLM 2) is also fielded.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      {"title": "Army awards contract for JETS handheld targeting system", "publisher": "U.S. Army", "year": "2016", "url": "https://www.army.mil/article/175956/army_awards_contract_for_jets_handheld_targeting_system"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-llsr', 'usa-eq-pfd-pfm']
+  },
+  {
+    id: 'joint-eq-observer-apps',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'Handheld Terminals: THS V.2, ATAK and WinTAK',
+    what: [
+      'The Marine Corps replaced its StrikeLink terminal with the Target Handoff System Version 2 (THS V.2), fielded from 2017.',
+      'THS V.2 combines a rugged commercial tablet, the Common Laser Range Finder – Integrated Capability, a video downlink receiver and a combat net radio.',
+      'ATAK (Android) and WinTAK (Windows) are used across the joint force.'
+    ],
+    how: [
+      'THS V.2 sends VMF K-series calls for close air support, artillery and naval gunfire directly into AFATDS.',
+      'ATAK and WinTAK run call-for-fire, CAS 9-line and free-text plugins, and an experimental Link 16 plugin, on devices such as Samsung Tactical Edition phones.',
+      'Army units report barriers linking SBU-E AFATDS to WinTAK, ATAK and Mounted Mission Command.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'U.S. Marine Corps Concepts and Programs 2013', publisher: 'US Marine Corps', year: '2013', url: 'https://www.marines.mil/Portals/1/Publications/U.S.%20Marine%20Corps%20Concepts%20and%20Programs%202013_2.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-eq-ths', 'usa-eq-pfd-pfm', 'usa-eq-itn-sbue']
+  },
+  {
+    id: 'joint-eq-jadocs-tais',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Division', 'Corps', 'Theatre'],
+    type: 'Data Fusion Node',
+    title: 'JADOCS, TAIS and CPCE, and the Frozen Air Tasking System',
+    what: [
+      'JADOCS coordinates joint targeting across land, air, maritime and special operations forces. It takes data from AFATDS, GCCS, TBMCS and TAIS.',
+      'TAIS is the Army airspace planning system.',
+      'CPCE puts boundaries and friendly locations, significant activities, air-defence tracks, and AFATDS targets and coordination measures on one map.'
+    ],
+    how: [
+      'Airspace planners use TAIS to pass Unit Airspace Plans and Airspace Control Means Requests up to the BCD for the Airspace Control Order.',
+      'The 2021 multi-service Kill Box test, reported by ALSSA in 2022, found that the Air Force’s TBMCS was frozen at the USMTF 2004 message standard, which reflects 2003 doctrine.',
+      'The Air Force decided in 2007 to replace TBMCS. It then received no upgrades, and no successor was fielded by 2022.'
+    ],
+    why: [
+      'The frozen standard complicates automated synchronisation of fire support and airspace measures between JADOCS, TBMCS, CAC2S and AFATDS.'
+    ],
+    sources: [
+      { title: 'The Future of Air-Ground Integration: Linking Sensor to Shooter in the Deep Fight', publisher: 'Air Land Sea Space Application Center', year: '2022', url: 'https://www.alssa.mil/News/Article/2667778/the-future-of-air-ground-integration-linking-sensor-to-shooter-in-the-deep-fight/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-bcd-airspace', 'usa-ttp-afatds-clearance', 'joint-eq-cot-usmtf']
+  },
+  {
+    id: 'joint-eq-vmf',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Equipment',
+    title: 'Variable Message Format (VMF): The Ground Fires Message Standard',
+    what: [
+      'Variable Message Format (VMF, MIL-STD-6017) is a bit-oriented binary message standard.',
+      'It travels over SINCGARS, line-of-sight VHF and UHF, UHF satellite and the Tactical Internet.',
+      'K02.4 is the Fire Mission message. K02.33 is the close air support 9-line.'
+    ],
+    how: [
+      'Each message gets a machine receipt and an operator reply: WILCO, CANTCO, HAVCO or CANTPRO.',
+      'Messages carry IMMEDIATE or FLASH precedence.',
+      'A gateway is needed to translate VMF to Link 16.',
+      'Reported, not confirmed: one engineering analysis puts the 9-line at under 400 bits, sent in under one second on SINCGARS.'
+    ],
+    why: [
+      'Compact binary messages fit the narrow bandwidth of combat net radios.'
+    ],
+    sources: [
+      {"title": "MCO 3093.3: Variable Message Format Minimum Implementation Requirements", "publisher": "U.S. Marine Corps", "year": "2011", "url": "https://www.marines.mil/portals/1/Publications/MCO%203093.3.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-link16-jreap', 'joint-eq-cot-usmtf', 'usmc-eq-cac2s']
+  },
+  {
+    id: 'joint-eq-link16-jreap',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Equipment',
+    title: 'Link 16 and JREAP',
+    what: [
+      'Link 16 sends fixed 75-bit words in time slots over UHF.',
+      'JREAP extends it beyond line of sight: JREAP-A over satellite, JREAP-B point to point, JREAP-C over TCP/IP.',
+      'Its messages are the J-series.'
+    ],
+    how: [
+      'Examples: J2.2 air position, J3.5 land track, J10.2 engagement status, J12.0 cease mission, J12.6 target sorting.',
+      'Aviation and naval forces use Link 16. Ground variable-message networks reach it through gateways.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'The Future Direct Air Support Center: Implementing Tactical Data Links', publisher: 'Air Land Sea Space Application Center', year: '2021', url: 'https://www.alssa.mil/News/Article/2601056/the-future-direct-air-support-center-implementing-tactical-data-links-to-enhanc/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-vmf', 'joint-ttp-link16-hf', 'joint-eq-ta-datalinks']
+  },
+  {
+    id: 'joint-eq-cot-usmtf',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Equipment',
+    title: 'Cursor on Target and USMTF',
+    what: [
+      'Cursor on Target (CoT, MIL-STD-6090) is a verbose XML format carried over IP networks. ATAK and WinTAK use it.',
+      'USMTF is formatted ASCII text. It carries the Air Tasking Order, the Airspace Control Order, kill box and airspace coordination messages.'
+    ],
+    how: [
+      'A CoT record carries an identifier, a type, how the position was obtained, start and stale times, and latitude, longitude and height.',
+      'CoT is heavy on bandwidth.',
+      'Translating between CoT and the bit-packed Link 16 or VMF loses information in both directions.'
+    ],
+    why: [
+      'Each standard trades bandwidth against detail in a different way, so none replaces the others.'
+    ],
+    sources: [
+      { title: 'The Future of Air-Ground Integration: Linking Sensor to Shooter in the Deep Fight', publisher: 'Air Land Sea Space Application Center', year: '2022', url: 'https://www.alssa.mil/News/Article/2667778/the-future-of-air-ground-integration-linking-sensor-to-shooter-in-the-deep-fight/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-vmf', 'joint-eq-link16-jreap', 'joint-eq-jadocs-tais']
+  },
+  {
+    id: 'joint-eq-asca',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Equipment',
+    title: 'ASCA: Digital Fire Missions Between Allies',
+    what: [
+      'Artillery Systems Cooperation Activities (ASCA) lets US AFATDS exchange fire missions automatically with allied fire direction systems across NATO.',
+      'Dynamic Front and ASCA University exercises involve people from 28 allied and partner nations.'
+    ],
+    how: [
+      'Four friction points persist.',
+      '1. Baselines 5.4.1.1 and 7.02 are not backward compatible, so a task force drops to the lowest common version.',
+      '2. US mission partner networks enforce NATO SECRET standards, while many allied systems run at Restricted or unclassified. Without an accredited cross-domain solution, operators re-type missions between terminals (“swivel chair”).',
+      '3. Wrong Unit Reference Numbers and NATO aliases break mission routing until rebuilt and validated with the nine-test ASCA 040 suite.',
+      '4. Allies use control methods not found in US doctrine, such as NATO’s Restricted When Ready.'
+    ],
+    why: [
+      'Manual re-entry adds delay and raises the risk of fratricide.'
+    ],
+    sources: [
+      {"title": "Dynamic Front 21 shows the future of modern artillery", "publisher": "U.S. Army", "year": "2021", "url": "https://www.army.mil/article/246655/dynamic_front_21_shows_the_future_of_modern_artillery"},
+      {"title": "US Army, NATO test joint artillery system at Exercise Dynamic Front 18", "publisher": "U.S. Army", "year": "2018", "url": "https://www.army.mil/article/201581/us_army_nato_test_joint_artillery_system_at_exercise_dynamic_front_18"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-trn-asca-univ', 'les-c2-cjadc2-seams', 'usa-eq-afatds-arch']
+  },
+  {
+    id: 'usa-eq-itn-sbue',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'Equipment',
+    title: 'The Radios and Networks Under Digital Fires',
+    what: [
+      'Lower-echelon fires used to travel on SINCGARS combat net radios, capped at 16 kbps and strictly line of sight, and on EPLRS.',
+      'The Integrated Tactical Network (ITN) now layers dual-channel software-defined radios such as the AN/PRC-158, mobile mesh networking and MUOS UHF satellite communications.',
+      'These run over Sensitive But Unclassified-Encrypted (SBU-E) enclaves.'
+    ],
+    how: [
+      'SBU-E makes it easier to connect tablets at the edge.',
+      'SBU-E AFATDS cannot connect across SIPR without cross-domain policy relief or a custom bridge, such as the 101st Airborne Division’s Automated Data Processing Gateway.',
+      'Configurations collapse when an Upper Tactical Internet SBU-E network and MUOS are linked at the same time.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      {"title": "Fires' Cell Transition to SBU-E (CALL No. 25-999, May 2025)", "publisher": "Center for Army Lessons Learned (U.S. Army)", "year": "2025", "url": "https://www.army.mil/article/285484/fires_cell_transition_to_sbu_e"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-fires-pace', 'les-c2-sbue-fragility', 'joint-eq-observer-apps']
+  },
+  {
+    id: 'joint-eq-maven',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Corps', 'Theatre'],
+    type: 'Data Fusion Node',
+    title: 'Maven Smart System (MSS)',
+    what: [
+      'The Maven Smart System (MSS), built by Palantir, grew out of Project Maven (2017) and the XVIII Airborne Corps Scarlet Dragon exercises.',
+      'It fuses computer vision from the National Geospatial-Intelligence Agency, commercial radar imagery, drone video and radar tracks into targeting options.',
+      'It is deployed in US Central Command.'
+    ],
+    how: [
+      'Reported, not confirmed: CSIS reported in June 2026 that MSS helped strike more than 1,000 targets in the first 24 hours of 2026 operations against Iran, ten times the rate before MSS.',
+      'Reported, not confirmed (secondary trackers; primary filings not retrieved): a $1.275 billion contract ceiling, Program of Record status in August 2026, more than 100,000 users by September 2026, and 13,000 strikes over 38 days.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'CSIS Outlines Army, USMC Acquisition Priorities, Hurdles', publisher: 'ExecutiveGov', year: '2026', url: 'https://www.executivegov.com/articles/csis-army-marine-corps-acquisition-priorities-report' },
+      { title: 'Maven Smart System', publisher: 'BD Emerson', year: '2026', url: 'https://www.bdemerson.com/article/maven-smart-system' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-titan-production', 'les-c2-cjadc2-seams', 'usa-eq-titan']
+  },
+  {
+    id: 'usa-eq-titan-production',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Division', 'Corps', 'Theatre'],
+    type: 'Data Fusion Node',
+    title: 'TITAN Moves into Production',
+    what: [
+      'After nine operational prototypes, one of which went to the 1st MDTF, the Army awarded Palantir and Anduril $192 million in September 2026.',
+      'The award covers eight production TITAN ground stations.',
+      'They include Basic variants, tested on JLTV and ISV-U vehicles, and Advanced variants.'
+    ],
+    how: [
+      'At Project Convergence Capstone 6 in July 2026, TITAN fused space and ground sensors and passed targeting through Anduril’s Lattice software.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [{"title": "Army’s TITAN platform moving into production phase with $192M delivery award for Palantir, Anduril", "publisher": "DefenseScoop", "year": "2026", "url": "https://defensescoop.com/2026/09/01/army-titan-platform-production-awards-palantir-anduril/"}, {"title": "Army awards $192M to Palantir and Anduril to produce TITAN system", "publisher": "Breaking Defense", "year": "2026", "url": "https://breakingdefense.com/2026/09/army-awards-192m-to-palantir-and-anduril-to-produce-titan-system/"}],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-titan', 'joint-eq-maven', 'joint-trn-pc']
+  },
+  {
+    id: 'usa-trn-c2-schools',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Training',
+    title: 'Where Digital Fires Skills Are Taught',
+    what: [
+      'At the Army Fires Center of Excellence, Fort Sill, 13A officers learn gunnery, call for fire, AFATDS and D3A targeting.',
+      '13F, 13J and 13R soldiers train there on observed fires, digital fire direction and radar operations.',
+      'Marine artillery specialties also attend initial technical schooling at Fort Sill.'
+    ],
+    how: [
+      '13F and 131A personnel also complete the Joint Fires Observer course. The Joint Firepower Course covers joint fires integration at brigade level.',
+      'Expeditionary Warfare Training Group-Pacific trains joint and Marine personnel on GCCS-J, TBMCS, AFATDS, JADOCS and JTCW.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'NAVMC 3500.7 series: Artillery Training and Readiness Manual', publisher: 'US Marine Corps', year: '2018', url: 'https://www.marines.mil/News/Publications/MCPEL/Tag/302718/navmc-35007c/' },
+      { title: 'TC 3-09.8: Fire Support and Field Artillery Certification and Qualification', publisher: 'Headquarters, Dept. of the Army', year: '2013', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-ta-pipelines', 'usa-trn-jfo', 'usa-trn-odst']
+  },
+  {
+    id: 'usa-trn-odst',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['Battalion'],
+    type: 'Training',
+    title: 'Operational Digital Sustainment Training (“DST Tuesdays”)',
+    what: [
+      'Digital fires skills fade quickly without continuous practice on the network.',
+      '1st Battalion, 37th Field Artillery runs Operational Digital Sustainment Training (ODST), known as “DST Tuesdays”.',
+      'It runs in continuous three-week cycles.'
+    ],
+    how: [
+      'Every firing battery (Alpha, Bravo and Charlie) and at least three of the nine Fire Support Teams, in rotation, must prove the end-to-end digital chain on a range.',
+      'No voice and no manual workarounds are allowed.',
+      'Section-level delay is tracked under Artillery Tables XI and XIV and Radar Table IV.',
+      'The 7th Infantry Division had to revive division-enforced fire support integration programmes, because manoeuvre commanders often skipped the digital integration when no higher headquarters checked.'
+    ],
+    why: [
+      'Units have moved away from once-a-year certification because the skill does not last a year.'
+    ],
+    sources: [
+      { title: 'Redefining Digital Readiness', publisher: 'Line of Departure, Field Artillery', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Redefining-Digital-Readiness/' },
+      { title: 'TC 3-09.8: Fire Support and Field Artillery Certification and Qualification', publisher: 'Headquarters, Dept. of the Army', year: '2013', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-mission-latency', 'usa-trn-radar-cert', 'usa-trn-c2-schools']
+  },
+  {
+    id: 'joint-trn-asca-univ',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division', 'Corps'],
+    type: 'Major Exercise',
+    title: 'ASCA University, Dynamic Front and Bold Quest',
+    what: [
+      'ASCA University is a recommended six-day event on a closed network, held ahead of Dynamic Front.',
+      'Division and corps staffs train large-scale fires synchronisation in Warfighter Exercises.',
+      'Bold Quest events characterise joint digitally aided close air support.'
+    ],
+    how: [
+      'At ASCA University, allies build and check databases and Unit Reference Numbers, and run the ASCA 040 validation tests.'
+    ],
+    why: [
+      'Multinational digital fires fail on set-up errors. The set-up is therefore rehearsed before the exercise.'
+    ],
+    sources: [
+      {"title": "Dynamic Front 21 shows the future of modern artillery", "publisher": "U.S. Army", "year": "2021", "url": "https://www.army.mil/article/246655/dynamic_front_21_shows_the_future_of_modern_artillery"},
+      {"title": "Partner nations evaluate digital call-for-fires at Bold Quest", "publisher": "U.S. Army", "year": "2015", "url": "https://www.army.mil/article/157003/Partner_nations_evaluate_digital_call_for_fires_at_Bold_Quest"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-asca', 'usa-trn-ta-collective']
+  },
+  {
+    id: 'joint-trn-c2-simulators',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'Training',
+    title: 'Simulators That Use the Real Digital Messages',
+    what: [
+      'Reported, not confirmed: vendor documents state that the Deployable and Portable Joint Fires Trainers run accredited simulation software with WinTAK and ATAK on Samsung S23 Tactical Edition devices, for Link 16 and VMF rehearsals.',
+      'Reported, not confirmed: specifications for the Army Soldier/Squad Virtual Trainer require replicas of the JETS and LLDR 3 devices that match the real ones in form and fit.'
+    ],
+    how: [
+      'Reported: the virtual trainer feeds real AFATDS computers directly.',
+      'Open official documents on the older Call For Fire Trainer were not available.'
+    ],
+    why: [
+      'Synthetic training reduces the cost of live ammunition and aircraft.'
+    ],
+    sources: [
+      {"title": "I/ITSEC 2022: MVRsimulation joint fires trainer makes accreditation progress", "publisher": "Shephard", "year": "2022", "url": "https://www.shephardmedia.com/news/training-simulation/iitsec-2022-mvrsimulations-deployable-joint-fires-trainer-achieves-interim-accreditation"}
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-jets', 'usa-trn-jfo']
+  },
+  {
+    id: 'les-c2-ukraine-stack',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Ukraine: Fire Control Software on Tablets',
+    what: [
+      'Reported, not confirmed: academic analyses describe a Ukrainian fires stack of the Delta cloud picture, the Kropyva artillery tablet application, the GIS Arta mission-routing system, commercial Starlink links and commercial radar imagery.',
+      'Reported: by bypassing multi-tier approvals, it cut sensor-to-shooter time from 30 minutes in 2022 (or 7–10 minutes on conventional baselines) to under 1 minute by 2024 in favourable conditions, and 30 seconds for FPV-assisted strikes.'
+    ],
+    how: [
+      'Reported: the applications were kept separate from a shared data model.',
+      'Drone feeds, artillery calculators and staff maps could then be joined without waiting for one large procurement programme.'
+    ],
+    why: [
+      'Reported: the resilience came from that separation.'
+    ],
+    sources: [
+      {"title": "Does Ukraine Already Have Functional CJADC2 Technology?", "publisher": "CSIS", "year": "", "url": "https://www.csis.org/analysis/does-ukraine-already-have-functional-cjadc2-technology"},
+      {"title": "How Ukraine's “Uber for Artillery” is Leading the Software War Against Russia", "publisher": "New America", "year": "", "url": "https://www.newamerica.org/future-frontlines/blogs/how-ukraines-uber-for-artillery-is-leading-the-software-war-against-russia/"}
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-c2-ukraine-ew', 'les-ukraine-uas', 'usa-ttp-mission-latency']
+  },
+  {
+    id: 'les-c2-ukraine-ew',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Ukraine: The Gains Fade Under Jamming and Decoys',
+    what: [
+      'Reported, not confirmed: Russian jamming caused an estimated 8,000–10,000 Ukrainian drone losses a month (a RUSI estimate cited in the Journal of Strategic Security).',
+      'Reported: it drove FPV mission failure rates of 60–80% (a Ukrainian estimate cited in Military Review).',
+      'Reported: artillery engagement cycles in contested sectors went back up to 2–3 minutes.'
+    ],
+    how: [
+      'Reported: inflatable and radar decoys eroded operator confidence and confused AI target recognition, most of all among less experienced operators.',
+      'Reported: Lancet loitering munitions and glide bombs punished emitters and guns that stayed in place for more than 1–2 minutes.'
+    ],
+    why: [
+      'Reported: these effects made US planners question whether reactive counterfire remains viable.'
+    ],
+    sources: [
+      { title: 'Journal of Strategic Security', publisher: 'University of South Florida', year: '', url: '' },
+      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-c2-ukraine-stack', 'les-ukraine-ew', 'usa-ttp-proactive-counterfire']
+  },
+  {
+    id: 'les-c2-sbue-fragility',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'Lesson',
+    title: 'Field Report, May 2025: How the Digital Links Failed',
+    what: [
+      'Center for Army Lessons Learned report No. 25-999 (May 2025) records failures during the move to SBU-E.',
+      'A generator failure cut Mounted Mission Command, the unclassified network, AFATDS and internet telephony at the same moment.',
+      'The signal section (S6) did not hold the Fires section’s MUOS encryption keys.'
+    ],
+    how: [
+      'MUOS links dropped under heat and caused false ping timeouts on AFATDS.',
+      'SBU-E allows only a single gateway. Operators had to set static routes by hand and unplug the MUOS Ethernet cable to configure router addresses.',
+      'Units used commercial Wi-Fi “MiFi” devices to restore the unclassified network. This severely degraded the command post’s emissions discipline.'
+    ],
+    why: [
+      'One generator was a single point of failure for every digital system at once.'
+    ],
+    sources: [
+      {"title": "Fires' Cell Transition to SBU-E (CALL No. 25-999, May 2025)", "publisher": "Center for Army Lessons Learned (U.S. Army)", "year": "2025", "url": "https://www.army.mil/article/285484/fires_cell_transition_to_sbu_e"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-itn-sbue', 'usa-ttp-fires-pace', 'les-c2-ctc-trends']
+  },
+  {
+    id: 'les-c2-cjadc2-seams',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Division', 'Corps', 'Theatre'],
+    type: 'Lesson',
+    title: 'Fast Detection, Slow Hand-Over',
+    what: [
+      'Combined Joint All-Domain Command and Control (CJADC2) experiments try to bring kill-web speed into US formations. They include Scarlet Dragon, Project Convergence Capstone 6, MSS and TITAN.',
+      'The experiments expose seams between AI targeting in the cloud and the tactical fire control systems.'
+    ],
+    how: [
+      'Three hand-overs stay manual, even when the target is found and ranked quickly.',
+      'Moving a mission through a cross-domain solution into SBU-E or SIPR AFATDS.',
+      'Bridging incompatible ASCA versions with NATO allies.',
+      'Synchronising airspace through a TBMCS frozen at the 2004 message standard.'
+    ],
+    why: [
+      'Manual “swivel chair” steps cancel the speed gained in detection.'
+    ],
+    sources: [
+      { title: 'The Future of Air-Ground Integration: Linking Sensor to Shooter in the Deep Fight', publisher: 'Air Land Sea Space Application Center', year: '2022', url: 'https://www.alssa.mil/News/Article/2667778/the-future-of-air-ground-integration-linking-sensor-to-shooter-in-the-deep-fight/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-maven', 'joint-eq-asca', 'joint-eq-jadocs-tais']
+  },
+  {
+    id: 'les-c2-ctc-trends',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Lesson',
+    title: 'Training Centre Trends: Habits and Self-Inflicted Delays',
+    what: [
+      'At the Joint Multinational Readiness Center, rotating units routinely fall back on large tented command posts.',
+      'They also emit undisciplined commercial Wi-Fi and radio signals, which invite enemy electronic warfare and indirect fire.',
+      'Degraded digital links remain the single largest self-inflicted cause of delayed digital fire missions at the training centres.'
+    ],
+    how: [
+      'The causes named are: SBU-E single-gateway errors, key custody split between the S6 and Fires sections for MUOS radios, generators as single points of failure, and PACE changeovers that were never practised.',
+      'Under ARSTRUC 2025–2029, brigades lose their own sensors and artillery. Without their own drone and loitering munition workflows and division-enforced digital training, brigade targeting risks losing tactical relevance.'
+    ],
+    why: [
+      'Technology alone does not remove organisational and procedural friction.'
+    ],
+    sources: [
+      { title: 'FY24 CTC Trends, No. 25-07', publisher: 'Center for Army Lessons Learned', year: '2025', url: '' },
+      {"title": "Fires' Cell Transition to SBU-E (CALL No. 25-999, May 2025)", "publisher": "Center for Army Lessons Learned (U.S. Army)", "year": "2025", "url": "https://www.army.mil/article/285484/fires_cell_transition_to_sbu_e"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['les-ta-ctc-weak', 'les-c2-sbue-fragility', 'usa-ttp-cp-survive']
+  },
+  {
+    id: 'les-c2-autonomy-doctrine',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Division', 'Corps'],
+    type: 'Lesson',
+    title: 'Analysis: Doctrine for Machine-Speed Targeting',
+    what: [
+      'Analysis, not confirmed fact: 2026 Military Review authors warn that FM 3-60 has no mechanism to encode a commander’s execution logic for autonomous engagement at machine speed.'
+    ],
+    how: [
+      'They propose a revised targeting method, HDM3.',
+      'They propose dedicated Autonomous Targeting Cells to monitor AI confidence scores, model drift and electronic warfare degradation.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'Military Review', publisher: 'Army University Press', year: '2026', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
+    ],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['joint-doc-c2-publications', 'joint-eq-maven']
+  },
+  // --- TECHNICAL FIRE DIRECTION AND GUNNERY, UNITED STATES (added 2026.12) ---
+  {
+    id: 'usa-org-fdc',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'Command & Control',
+    title: 'Fire Direction Centers at Battery and Battalion',
+    what: [
+      'The Fire Direction Center (FDC) turns target information into ballistic firing data.',
+      'The battalion FDC has a Fire Direction Officer (FDO, a commissioned officer), a Fire Direction Non-Commissioned Officer (FDNCO) and enlisted fire control specialists (Army 13J, Marine 0844).',
+      'The battery FDC mirrors it on a smaller scale. It is typically led by a lieutenant FDO and a staff sergeant FDNCO.',
+      'It is equipped with AFATDS terminals, tactical radios and manual gunnery equipment.'
+    ],
+    how: [
+      'The battalion FDC mainly does tactical fire direction. It validates the target against the High-Payoff Target List and Attack Guidance Matrix, coordinates airspace clearance, and routes the mission to the most suitable firing unit by range and ammunition status.',
+      'The battery FDC does technical fire direction. It turns the tactical order into gun-specific firing data: deflection, quadrant elevation and fuze time.',
+      'It sends that data to the gun line as fire commands.'
+    ],
+    why: [
+      'Splitting tactical from technical fire direction prevents overload.',
+      'A battery FDC that also had to deconflict airspace and prioritise brigade targets would be slower and more likely to breach safety.',
+      'The split keeps the battery FDC on the gunnery problem and the safety of the firing solution.'
+    ],
+    sources: [
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' },
+      { title: 'ATP 3-09.50: The Field Artillery Cannon Battery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: 'https://www.bits.de/NRANEU/others/amd-us-archive/ATP3-09-50%2816%29.pdf' },
+      { title: 'MOS 13J, Fire Control Specialist: major duties', publisher: 'Headquarters, Dept. of the Army', year: '2026', url: 'https://api.army.mil/e2/c/downloads/2026/01/13/1debb65b/13j.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-fdc-autonomous', 'usa-ttp-fdc-mission', 'usa-org-c2-specialties', 'usa-ttp-d3a-matrices']
+  },
+  {
+    id: 'usa-org-fdc-autonomous',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'Command & Control',
+    title: 'Central Control or Autonomous Guns',
+    what: [
+      'A battery traditionally operates as one six-gun element controlled by a single FDC.',
+      'Modern structures allow control to be decentralised to the platoon or to a single gun (section).'
+    ],
+    how: [
+      'In centralised operations the battery FDC computes firing data for the centre gun, the base piece. It applies small geometric corrections for the other five guns and sends the final data by voice or digital link.',
+      'The M109A7 Paladin and M777A2 carry a Digital Fire Control System (DFCS) with integral GPS and inertial navigation.',
+      'In autonomous or dispersed operations the battery FDC sends a tactical fire direction message to a specific gun, not a computed technical solution.',
+      'The gun’s onboard computer computes its own firing data from its own location and orientation.'
+    ],
+    why: [
+      'Counter-fire radars and overhead drones find and destroy centralised batteries easily.',
+      'Dispersing guns, sometimes miles apart, reduces the loss from a single counter-battery strike.',
+      'The trade-off is heavier reliance on digital communications, and a heavier burden on the Section Chief, who must now verify data the FDO used to handle.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.50: The Field Artillery Cannon Battery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: 'https://www.bits.de/NRANEU/others/amd-us-archive/ATP3-09-50%2816%29.pdf' },
+      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: 'https://www.dvidshub.net/publication/1332/field-artillery-professional-bulletin' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-fdc', 'usa-les-survivability', 'les-tfd-software-at-gun']
+  },
+  {
+    id: 'usa-org-met-survey-support',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division'],
+    type: 'Force Structure',
+    title: 'Survey and Weather Data from Higher Echelon',
+    what: [
+      'FDCs rely on outside atmospheric and geospatial data to stay accurate.',
+      'The Target Acquisition Platoon or Target Acquisition Battery provides it. These generally sit at the Field Artillery Brigade or DIVARTY.'
+    ],
+    how: [
+      'Meteorological crews use weather balloons and atmospheric profilers to produce standard met messages, for example the METB3.',
+      'A met message gives wind speed, wind direction, air temperature and air density for a series of altitude bands.',
+      'It is sent digitally to battalion and battery FDCs every few hours.',
+      'Survey teams provide high-order geodetic control points so that all units work on one grid.'
+    ],
+    why: [
+      'Weather accounts for the largest potential errors in unguided artillery fire.',
+      'Centralising met and survey at division puts every battery on a common grid and a common atmospheric baseline.',
+      'With conflicting local weather data, rounds from dispersed battalions would fly different trajectories and the division could not mass fires on one target.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Target Acquisition', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo130847/pdf/GOVPUB-D101-PURL-gpo130847.pdf' },
+      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-tap', 'usa-org-tab-1cd', 'usa-ttp-met', 'usa-ttp-survey-lay']
+  },
+  {
+    id: 'usa-ttp-five-requirements',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'The Five Requirements for Accurate Predicted Fire',
+    what: [
+      'Doctrine defines five requirements that must be met to achieve accurate first-round fire for effect without prior adjustment.'
+    ],
+    how: [
+      'The five requirements, as listed in the module 11 report: accurate target location and size; accurate firing unit location; accurate weapon and munitions information; accurate meteorological information; accurate computational procedures.',
+      'Failing any one degrades accuracy, raises ammunition use and raises the risk of collateral damage.',
+      'Weapon information includes barrel wear, logged in Equivalent Full Charges on DA Form 2408-4. A 155mm barrel reaches condemnation criteria at a bore of 157.48mm.',
+      'The same report names the inputs the FDC works with: target coordinates, weapon locations, atmospheric conditions, propellant temperatures and barrel wear data.',
+      'The FDC combines them into deflection, quadrant elevation and fuze settings.'
+    ],
+    why: [
+      'When the requirements are met, the first volley achieves surprise and maximum lethality.',
+      'When they are not, the unit must adjust fire: single rounds, corrected by the observer.',
+      'Adjustment gives up surprise, lets the enemy take cover, wastes ammunition, and exposes the firing position to counter-battery radar.'
+    ],
+    sources: [
+      { title: 'TC 3-09.81: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: '' },
+      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-registration-massing', 'usa-ttp-met', 'usa-ttp-mv', 'usa-ttp-survey-lay', 'usa-ttp-poi-accuracy']
+  },
+  {
+    id: 'usa-ttp-fdc-mission',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Processing a Mission in the Battery FDC',
+    what: [
+      'A fire mission passes through the FDC in a fixed sequence that puts safety and accuracy ahead of speed.',
+      'Independent checks at each step guard against fratricide.'
+    ],
+    how: [
+      'The observer or sensor sends the call for fire by Variable Message Format, Link 16 or voice.',
+      'The battalion or brigade Fires Cell does tactical fire direction: validates the target, clears airspace through the JAGIC, and assigns the mission to a battery by ammunition and range.',
+      'Fire order: the FDO decides munition, fuze and method of fire.',
+      'Computation: the AFATDS operator produces the digital solution. An independent manual or backup operator computes the data separately.',
+      'Safety check: the data is checked against the Safety T (DA Form 5859) for maximum and minimum quadrant elevation, left and right deflection limits, No-Fire Areas and minimum safe distances.',
+      'Verification: the FDO compares primary and backup data. Tolerances are ±3 mils in deflection and ±30 metres in range. Within tolerance, the FDO issues the fire command.',
+      'Gun line: the Section Chief verifies ammunition, charge and fuze against DA Form 4513. The DFCS or the gunner lays the piece for deflection and quadrant elevation.'
+    ],
+    why: [
+      'Dual computation stops software faults, data entry errors or corrupted met data from causing friendly-fire incidents or civilian casualties.',
+      'The FDO is the final human check before the command leaves the FDC.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.50: The Field Artillery Cannon Battery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: 'https://www.bits.de/NRANEU/others/amd-us-archive/ATP3-09-50%2816%29.pdf' },
+      { title: 'MCWP 3-16.3: Tactics, Techniques, and Procedures for the Field Artillery Cannon Battery', publisher: 'US Marine Corps', year: '', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-fdc', 'usa-ttp-fdc-safety', 'usa-ttp-manual-gunnery', 'usa-ttp-cff']
+  },
+  {
+    id: 'usa-ttp-fdc-safety',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Safety: The Safety T and the Record of Missions Fired',
+    what: [
+      'Administrative and operational protocols exist to prevent fratricide and civilian casualties in live firing.'
+    ],
+    how: [
+      'Before live fire, the FDC receives a Safety T (DA Form 5859) or builds a safety diagram from range control limits.',
+      'This sets the absolute minimum and maximum quadrant elevations and the left and right deflection limits.',
+      'Every mission is verified against these limits.',
+      'Ammunition expenditure is tracked on DA Form 4513, Record of Missions Fired, to ensure the correct charges and fuzes are loaded.'
+    ],
+    why: [
+      'Firing incidents are almost always traced to human error: a wrong grid entry, the wrong charge (for example Charge 5 instead of Charge 4), or skipped independent checks.',
+      'DA Form 4513 provides accountability and a legal record if there is an investigation.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.50: The Field Artillery Cannon Battery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: 'https://www.bits.de/NRANEU/others/amd-us-archive/ATP3-09-50%2816%29.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-fdc-mission', 'usa-trn-artillery-tables']
+  },
+  {
+    id: 'usa-ttp-survey-lay',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Survey, Positioning and Reciprocal Laying',
+    what: [
+      'Survey ensures each gun knows its exact location and the direction its barrel points relative to true north.'
+    ],
+    how: [
+      'With satellite navigation, modern guns locate themselves with onboard GPS and an Inertial Navigation System.',
+      'In degraded conditions the battery uses manual survey.',
+      'An M2A2 Aiming Circle, a precision optical compass and theodolite, is set up over a known Survey Control Point and oriented to true north.',
+      'In reciprocal laying, the Aiming Circle operator sights on the howitzer’s panoramic telescope and the gunner sights back on the Aiming Circle.',
+      'Matching reverse azimuths brings every gun parallel along a designated azimuth of fire.',
+      'The gun’s main visual reference is then transferred to a collimator placed near the gun.'
+    ],
+    why: [
+      'Artillery cannot aim directly at targets it cannot see. All direction must be set relative to a known grid.',
+      'The reciprocal lay guarantees that every gun turns to the same angle for an ordered deflection.',
+      'Without it, the battery’s rounds would spread unpredictably and not mass.'
+    ],
+    sources: [
+      {"title": "MCRP 3-10E.6 (formerly MCWP 3-16.7), Marine Artillery Survey Operations", "publisher": "US Marine Corps", "year": "2002", "url": "https://www.marines.mil/Portals/59/Publications/MCRP%203-10E.6%20Formerly%20MCWP%203-16.7.pdf"},
+      {"title": "TC 3-09.81, Field Artillery Manual Cannon Gunnery", "publisher": "Headquarters, Department of the Army", "year": "2016", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc3_09x81.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-met-survey-support', 'usa-eq-survey-met-devices', 'usa-ttp-five-requirements']
+  },
+  {
+    id: 'usa-ttp-met',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Meteorological Data Management',
+    what: [
+      'Met data management applies atmospheric conditions to the projectile’s trajectory.'
+    ],
+    how: [
+      'FDCs take in standard met messages (METB3) with up to 26 lines of data, each for a different altitude band.',
+      'AFATDS uses the Modified Point Mass model to compute how crosswinds push the shell and how air density changes drag.',
+      'Air temperature changes the speed of sound, which changes the Mach number and so the drag coefficient.',
+      'Met data is updated every 2 to 4 hours, or more often when the weather changes rapidly.'
+    ],
+    why: [
+      'A standard atmosphere assumes 59°F (15°C) and an air density of 1,225 gm/m³. Real conditions are rarely standard.',
+      'A projectile fired 20 kilometres through layered crosswinds and varying densities without met correction misses by hundreds of metres.',
+      'Stale met data introduces severe range errors.'
+    ],
+    sources: [
+      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf' },
+      { title: 'TC 3-09.81: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-met-survey-support', 'joint-eq-nabk', 'usa-ttp-five-requirements']
+  },
+  {
+    id: 'usa-ttp-mv',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Muzzle Velocity and Barrel Wear',
+    what: [
+      'The FDC tracks and corrects the speed at which the projectile leaves each tube, the muzzle velocity.'
+    ],
+    how: [
+      'Muzzle velocity is measured with an M90 velocimeter, a small Doppler radar mounted over the barrel.',
+      'The FDC tracks muzzle velocity variations caused by different propellant lots and propellant temperatures. Hot propellant burns faster and raises muzzle velocity.',
+      'The FDC also tracks the Equivalent Full Charge count of each barrel. Firing maximum charges erodes the inside of the barrel.'
+    ],
+    why: [
+      'As a barrel wears, gas escapes around the projectile’s driving band. Muzzle velocity drops and the round falls short.',
+      'From the Equivalent Full Charge count and daily velocimeter readings, the FDC applies a muzzle velocity correction for each gun.',
+      'A gun with a badly worn barrel and a gun with a new barrel can then hit the same target at the same time.'
+    ],
+    sources: [
+      {"title": "TC 3-09.81, Field Artillery Manual Cannon Gunnery", "publisher": "Headquarters, Department of the Army", "year": "2016", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc3_09x81.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-survey-met-devices', 'les-tfd-worn-barrels', 'usa-ttp-five-requirements']
+  },
+  {
+    id: 'usa-ttp-registration-massing',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Registration and Massing Fires',
+    what: [
+      'Registration supplies corrections when all five requirements cannot be met.',
+      'Massing techniques maximise shock effect on the enemy.'
+    ],
+    how: [
+      'The detailed registration procedures were not received with the source report, and follow-up research did not find them in open sources.',
+      'The report names two massing techniques: TOT and MRSI.',
+      'Reported: At My Command and Time on Target are the methods of control most useful for massing several batteries.',
+      'Reported: in a precision registration, if the probable error in range is 25 m or more, set corrective procedures apply before fire for effect.'
+    ],
+    why: [
+      'Registration solves degraded met or survey data. It re-establishes a baseline for accurate fire.',
+      'TOT and MRSI address enemy survivability: they achieve maximum fragmentation effect before the enemy can react, sound alarms and take cover.'
+    ],
+    sources: [
+      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf' },
+      { title: 'TC 3-09.81: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-five-requirements', 'usa-ttp-special-missions']
+  },
+  {
+    id: 'usa-ttp-special-missions',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Special Cases: High-Angle, Danger Close and Guided Munitions',
+    what: [
+      'Some fire missions are non-standard and need altered technical procedures.',
+      'The report names three: high-angle fire, danger close, and guided munitions.'
+    ],
+    how: [
+      'Before firing, the FDC checks site to crest clearance, the needs of high-angle fire, and minimum safe distances for friendly troops.',
+      'Danger close and precision missions: doctrine advises against high-angle fire. Its longer time of flight, lower accuracy and trajectory risk undermine the tolerances needed.',
+      'Excalibur (M982) is a 155mm fire-and-forget round guided by GPS and an inertial measurement unit.',
+      'Reported: follow-up research states that Excalibur is paired with a proximity fuze for fire for effect.'
+    ],
+    why: [
+      'High-angle fire solves terrain masking in urban canyons and mountains.',
+      'Danger close procedures prevent fratricide in close combat.',
+      'Guided munitions give precision, but need complex crypto-key logistics. That slows the technical firing process and adds work on the gun line.'
+    ],
+    sources: [
+      { title: 'TC 3-09.81: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: '' },
+      { title: 'ATP 3-09.50: The Field Artillery Cannon Battery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: 'https://www.bits.de/NRANEU/others/amd-us-archive/ATP3-09-50%2816%29.pdf' },
+      { title: 'TC 3-09.81: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://walter.bislins.ch/blog/media/2020-10-23%20Field%20Artillery%20Manual%20Cannon%20Gunnery%20tc3_09x81.pdf' },
+      { title: 'ATP 3-09.30: Observed Fires', publisher: 'Headquarters, Dept. of the Army', year: '2017', url: 'https://www.scribd.com/document/556850655/Arn5011-atp-3-09x30-Final-Web' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-registration-massing', 'les-tfd-gps-jamming']
+  },
+  {
+    id: 'usa-ttp-manual-gunnery',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Manual and Degraded Methods',
+    what: [
+      'Manual gunnery is the non-digital computation of firing data with charts and tables.'
+    ],
+    how: [
+      'Chart operators use grid sheets, plotting pins and a range-deflection protractor to measure the distance and angle from battery to target.',
+      'The FDO uses a Graphical Firing Table, a specialised logarithmic slide rule, or a Tabular Firing Table book to convert that distance into an elevation.',
+      'The computation must factor in spin drift, the curve caused by the projectile’s spin, and met corrections by hand.'
+    ],
+    why: [
+      'AFATDS can fail through electronic warfare, cyber attack or loss of power. Manual gunnery lets the battery keep firing.',
+      'Manual computation is significantly slower, and highly vulnerable to arithmetic error under stress.'
+    ],
+    sources: [
+      {"title": "TC 3-09.81, Field Artillery Manual Cannon Gunnery", "publisher": "Headquarters, Department of the Army", "year": "2016", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/tc3_09x81.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-fdc-mission', 'usa-trn-manual-skill-debate', 'usa-ttp-fires-pace']
+  },
+  {
+    id: 'joint-eq-nabk',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'NABK: The Shared NATO Ballistic Software',
+    what: [
+      'The NATO Armaments Ballistic Kernel (NABK) is the mathematical engine inside AFATDS.',
+      'It is standardised under STANAG 4355 and is fielded. NATO panels update it continuously.'
+    ],
+    how: [
+      'It uses a four-degree-of-freedom Modified Point Mass model for spin-stabilised projectiles (cannons).',
+      'It uses a five-degree-of-freedom model for fin-stabilised rockets.'
+    ],
+    why: [
+      'Before NABK, nations used different mathematical models, and impacts differed even with the same target coordinates.',
+      'Sharing NABK means a US AFATDS, a French ATLAS and a German ADLER compute the same ballistic arc.',
+      'The ASCA interface links the systems operationally, so a US observer can call for fire from a German battery.'
+    ],
+    sources: [
+      { title: 'STANAG 4355 (Edition 3): The Modified Point Mass Trajectory Model', publisher: 'NATO', year: '2009', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-afatds-arch', 'joint-eq-asca', 'usa-ttp-met']
+  },
+  {
+    id: 'usa-eq-ballistic-compare',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'Technical Fire Direction Compared: Cannons, Rockets, Mortars',
+    what: [
+      'Cannons (M777, M109A7) use a four-degree-of-freedom Modified Point Mass model that accounts for spin drift and Coriolis effect.',
+      'Rockets and missiles (HIMARS, MLRS) use five- or six-degree-of-freedom models that account for thrust and fin stabilisation.',
+      'Mortars (60mm, 81mm, 120mm) use a simple point mass model: high-angle only, no spin drift.'
+    ],
+    how: [
+      'Cannons need full met data across the atmospheric bands. The battery FDC computes the solution in AFATDS.',
+      'For rockets, the launcher computes the final solution on board. AFATDS remains the fire direction system.',
+      'Mortars often fire without met data because ranges are short. They use the LHMBC, the MFCS or manual methods.'
+    ],
+    why: [
+      'Rockets compute their technical solution at the launcher from GPS and thrust, bypassing the battery technical FDC.',
+      'Mortars work with simpler mathematics because velocities are lower and ranges shorter.'
+    ],
+    sources: [
+      {"title": "FM 6-40 / MCWP 3-16.4: Tactics, Techniques, and Procedures for Field Artillery Manual Cannon Gunnery", "publisher": "U.S. Army / U.S. Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf"},
+      {"title": "Armaments Center focuses on creating ballistic kernels for small arms, armored vehicles", "publisher": "U.S. Army DEVCOM", "year": "2020", "url": "https://www.army.mil/article/241742/armaments_center_focuses_on_creating_ballistic_kernels_for_small_arms_armored_vehicles"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-nabk', 'usa-org-fdc']
+  },
+  {
+    id: 'usa-eq-survey-met-devices',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Company', 'Division'],
+    type: 'Equipment',
+    title: 'Survey, Met and Muzzle Velocity Devices',
+    what: [
+      'These are the devices used to determine location, orientation and muzzle velocity.',
+      'The detailed description of each device was not received with the source report. The points below come from the rest of the report and from follow-up research.'
+    ],
+    how: [
+      'Onboard GPS and an Inertial Navigation System let a modern gun locate itself.',
+      'The M2A2 Aiming Circle, an optical compass and theodolite, orients the guns by reciprocal laying. A collimator near the gun then holds the reference.',
+      'The M90 velocimeter, a small Doppler radar over the barrel, measures muzzle velocity.',
+      'Met crews use weather balloons and atmospheric profilers to produce met messages.',
+      'Army: the AN/TMQ-52 Meteorological Measuring Set-Profiler (MMS-P) combines remote sensor data to give real-time met conditions across the battlespace for ballistic computation.',
+      'Marine Corps: met support uses the Meteorological Hydrogen Generator (MHG).',
+      'Marine artillery is trained in hasty survey and handheld GPS operation, so firing elements are oriented on the grid before they fire.'
+    ],
+    why: [
+      'Each device supplies one input to accurate predicted fire: where the gun is, where it points, how fast the round leaves, and what the air will do to it.'
+    ],
+    sources: [
+      { title: 'FM 6-40: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf' },
+      { title: 'Weapon Systems Handbook', publisher: 'US Army', year: '2007', url: 'https://asc.army.mil/docs/wsh2/2007-wsh.pdf' },
+      { title: 'MCRP 4-11.3E Vol. II', publisher: 'US Marine Corps', year: '', url: 'https://www.marines.mil/portals/1/MCRP%204-11.3E%20Vol.%20II%20z.pdf' },
+      { title: 'Marine Corps School of Artillery', publisher: 'US Marine Corps Training Command', year: '', url: 'https://www.trngcmd.marines.mil/units/marine-school-of-artillery/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-survey-lay', 'usa-ttp-mv', 'usa-ttp-met']
+  },
+  {
+    id: 'usa-trn-fdc-enlisted',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Enlisted Fire Control Pipeline: 13J and 0844',
+    what: [
+      'The Army trains the 13J Fire Control Specialist. The Marine Corps trains the 0844 Field Artillery Fire Control Marine.',
+      'Both are trained at Fort Sill, Oklahoma.',
+      'Failure rates for these courses were not found in open sources.'
+    ],
+    how: [
+      'The pipeline teaches both digital and manual methods.',
+      'Reported: Army 13J AIT lasts about eight weeks under the 78th Field Artillery Regiment. It centres on technical fire direction, with on-the-job instruction and simulated combat scenarios.',
+      'Marine 0844s attend the Marine Corps School of Artillery. Subjects include fire direction, radar employment, meteorology, survey and fire planning.',
+      'The length of the initial 0844 course was not found in open sources.'
+    ],
+    why: [
+      'Operators must manage the software under normal conditions, and understand the underlying mathematics if the system crashes.'
+    ],
+    sources: [
+      { title: 'MOS 13J, Fire Control Specialist: major duties', publisher: 'Headquarters, Dept. of the Army', year: '2026', url: 'https://api.army.mil/e2/c/downloads/2026/01/13/1debb65b/13j.pdf' },
+      { title: 'Fort Sill AIT guide', publisher: 'Living in Lawton (blog)', year: '', url: 'https://livinginlawtonoklahoma.com/blog/fort-sill-ait-guide-advanced-individual-training/' },
+      { title: 'Marine Corps School of Artillery', publisher: 'US Marine Corps Training Command', year: '', url: 'https://www.trngcmd.marines.mil/units/marine-school-of-artillery/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-fdc', 'usa-org-c2-specialties', 'usa-trn-c2-schools']
+  },
+  {
+    id: 'usa-trn-fabolc',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Officer Pipeline: Field Artillery Basic Officer Leader Course',
+    what: [
+      'The Field Artillery Basic Officer Leader Course (FABOLC) trains new 13A officers at Fort Sill.',
+      'It lasts 18 weeks and 4 days.',
+      'Failure rates were not found in open sources.'
+    ],
+    how: [
+      'The course covers fire support planning, gunnery mathematics and technical fire direction.',
+      'Students must pass a 200-point Fire Control Exam.',
+      'They need at least an 80% average across all blocks of instruction to graduate and be certified as a battery FDO.'
+    ],
+    why: [
+      'The FDO holds final legal and safety responsibility for every round the battery fires.',
+      'Intensive manual gunnery lets the officer picture the trajectory and catch gross safety errors from operators or software before clearing a round to fire.'
+    ],
+    sources: [
+      { title: 'Field Artillery Basic Officer Leader Course', publisher: 'US Army Fires Center of Excellence', year: '2024', url: 'https://sill-www.army.mil/428thfa/bolcb.html' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-fdc', 'usa-trn-fdc-enlisted', 'usa-ttp-manual-gunnery']
+  },
+  {
+    id: 'usa-trn-artillery-tables',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'Training',
+    title: 'Unit Certification and the Artillery Tables',
+    what: [
+      'The Artillery Tables are the progressive qualification framework that leads to live-fire authorisation.'
+    ],
+    how: [
+      'Sections and FDCs run simulated and degraded missions, for example Digital Sustainment Training on “DST Tuesdays”.',
+      'FDCs must show they can process digital missions within strict time limits and switch to manual backup charts.',
+      'Live-fire certification requires passing Artillery Table VI (section) through Table XII (battery) and Table XVIII (battalion).'
+    ],
+    why: [
+      'Certification prevents complacency and fratricide.',
+      'Before firing live ammunition, an FDC must show it can establish communications, process met data, compute accurately and pass independent safety checks.'
+    ],
+    sources: [
+      { title: 'TC 3-09.8: Fire Support and Field Artillery Certification and Qualification', publisher: 'Headquarters, Dept. of the Army', year: '', url: '' },
+      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: 'https://www.dvidshub.net/publication/1332/field-artillery-professional-bulletin' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-fdc-safety', 'usa-trn-odst', 'usa-trn-manual-skill-debate']
+  },
+  {
+    id: 'usa-trn-manual-skill-debate',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Training',
+    title: 'Criticism: Loss of Manual Gunnery Skill',
+    what: [
+      'Reported, not confirmed: professional journals frequently describe a decline in manual gunnery skill across the force.',
+      'The debate is over how to divide training time between digital software and manual charts.'
+    ],
+    how: [
+      'Reported: AFATDS is reliable and far faster in peacetime training, so FDCs rely on it too much.',
+      'Critics argue that the pipeline and unit sustainment training give too little time to the Graphical Firing Table and manual charts.'
+    ],
+    why: [
+      'Reported: units are left vulnerable if peer electronic warfare cuts digital networks or destroys command posts.'
+    ],
+    sources: [
+      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: 'https://www.dvidshub.net/publication/1332/field-artillery-professional-bulletin' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-manual-gunnery', 'usa-trn-artillery-tables', 'les-tfd-ctc']
+  },
+  {
+    id: 'les-tfd-gps-jamming',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Lesson',
+    title: 'Ukraine: GPS Jamming and Guided Munitions',
+    what: [
+      'Reported, not confirmed: Russian electronic warfare and GPS spoofing in Ukraine sharply reduced the accuracy of GPS-guided munitions such as Excalibur, JDAM and HIMARS rockets.'
+    ],
+    how: [
+      'Reported: Excalibur relies on precise GPS coordinates passed through the FDC to the projectile before firing.',
+      'When the GPS signal is jammed in terminal flight, the round cannot correct its trajectory.'
+    ],
+    why: [
+      'Reported: this forced a return to unguided massed fires.',
+      'That puts a renewed premium on the five requirements for accurate predicted fire (accurate met, survey and muzzle velocity), since the munition will not correct itself in flight.'
+    ],
+    sources: [
+      {"title": "Analysis: Off Target – Are Kyiv’s GPS-Aided Weapons Susceptible to Kremlin EW Jamming?", "publisher": "Kyiv Post", "year": "2024", "url": "https://www.kyivpost.com/post/33448"}
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-five-requirements', 'usa-ttp-special-missions', 'les-c2-ukraine-ew', 'les-ukraine-ew']
+  },
+  {
+    id: 'les-tfd-software-at-gun',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Lesson',
+    title: 'Decentralisation: Software at the Gun',
+    what: [
+      'Reported, not confirmed: in Ukraine, software such as Kropyva, Delta and GIS Arta pushes target coordinates straight to tablets at individual guns, without routing through a heavy central FDC.',
+      'Reported: the US is experimenting with similar ideas through the Artillery Execution Suite (AXS) and Lattice software.'
+    ],
+    how: [
+      'Reported (vendor material): the aim is to bypass the slow set-up of AFATDS and compute technical data at the gun in under 30 seconds.',
+      'The ballistic computation moves to the howitzer’s DFCS.'
+    ],
+    why: [
+      'Reported: large AFATDS command posts emit large electromagnetic signatures and are easy targets for drones and counter-fire.',
+      'Single guns can then hide, receive data silently, shoot and move on their own.'
+    ],
+    sources: [
+      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: 'https://www.dvidshub.net/publication/1332/field-artillery-professional-bulletin' },
+      { title: 'Anduril press material', publisher: 'Anduril (vendor)', year: '', url: '' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-fdc-autonomous', 'usa-eq-axs', 'les-c2-ukraine-stack']
+  },
+  {
+    id: 'les-tfd-worn-barrels',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'Lesson',
+    title: 'Attrition: Worn Barrels and Mixed Ammunition',
+    what: [
+      'Analysis: sustained high-volume firing in Ukraine has produced severely worn barrels, beyond their maximum Equivalent Full Charge count.',
+      'Analysis: NATO-standard ammunition from several countries has been mixed ad hoc.'
+    ],
+    how: [
+      'Analysis: a worn barrel breaks the FDC’s predicted muzzle velocity, and rounds fall dangerously short.',
+      'Analysis: 155mm ammunition is nominally standard across NATO, but different countries’ propellants burn at slightly different rates.',
+      'FDCs must track and separate these lots, or accept large range dispersion.'
+    ],
+    why: [
+      'Analysis: this supports continuous muzzle velocity measurement with the M90 velocimeter to counter hardware wear.'
+    ],
+    sources: [{"title": "Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine", "publisher": "RUSI", "year": "2023", "url": "https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf"}],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-mv', 'usa-eq-survey-met-devices']
+  },
+  {
+    id: 'les-tfd-fdc-survive',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion'],
+    type: 'Lesson',
+    title: 'FDC Survivability and Emissions Control',
+    what: [
+      'Units are moving away from large, static tent command posts (“Taj Mahals”) optimised for counter-insurgency.',
+      'FDCs are reducing both their physical and their electromagnetic footprint.'
+    ],
+    how: [
+      'Programmes such as Command Post Integrated Infrastructure (CPI2) put FDCs in highly mobile vehicles.',
+      'Emissions control protocols require minimising AFATDS and radio emissions, using directional antennas, and displacing rapidly.'
+    ],
+    why: [
+      'Static FDCs are detected by signals intelligence and destroyed by counter-battery fire or drones within minutes.',
+      'A mobile FDC that computes firing data on the move and transmits in short, encrypted bursts is vital for survival in a peer conflict.'
+    ],
+    sources: [
+      { title: 'Military Review', publisher: 'Army University Press', year: '', url: 'https://www.armyupress.army.mil/Journals/Military-Review/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-cp-survive', 'usa-les-survivability', 'usa-org-fdc-autonomous']
+  },
+  {
+    id: 'les-tfd-ctc',
+    topic: 'technical-fire-direction',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'Lesson',
+    title: 'Recurring FDC Weaknesses at the Combat Training Centers',
+    what: [
+      'Observer, Coach/Trainers at the Combat Training Centers report recurring weaknesses in FDC proficiency.'
+    ],
+    how: [
+      'FDCs struggle with digital network configuration. For example, AFATDS fails to connect across the Integrated Tactical Network because of IP or gateway configuration errors.',
+      'FDCs routinely fail to track ammunition lots properly and to update met data. This degrades unguided accuracy.'
+    ],
+    why: [
+      'Network complexity means FDC personnel spend more time troubleshooting communications than doing technical fire direction.',
+      'When the digital network fails, weak manual backup skills bring the fires process to a halt.'
+    ],
+    sources: [
+      { title: 'Combat Training Center observations', publisher: 'Center for Army Lessons Learned', year: '', url: '' },
+      { title: 'Field Artillery Professional Bulletin', publisher: 'US Army Field Artillery School', year: '', url: 'https://www.dvidshub.net/publication/1332/field-artillery-professional-bulletin' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['les-c2-ctc-trends', 'usa-eq-itn-sbue', 'usa-trn-manual-skill-debate', 'usa-ttp-met']
+  },
+  // --- LOITERING MUNITIONS AND ARMED DRONES, UNITED STATES (added 2026.12) ---
+  {
+    id: 'joint-org-lm-what',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Force Structure',
+    title: 'What a Loitering Munition Is, and Why Ground Forces Want It',
+    what: [
+      'A loitering munition combines an airborne platform with a precision-guided lethal payload.',
+      'A cruise missile flies a set path to a known target. A reusable armed drone delivers separate ordnance and returns to base.',
+      'A loitering munition stays in flight over an area, acquires targets as they appear, and destroys itself in a terminal dive.'
+    ],
+    how: [
+      'The Army’s Low Altitude Stalking and Strike Ordnance (LASSO) and the Marine Corps’ Organic Precision Fires (OPF) programmes give dismounted infantry and mechanised units their own means to detect, track and destroy high-payoff targets beyond line of sight.',
+      'Both services are restructuring to push organic precision fires down to the lowest tactical levels.'
+    ],
+    why: [
+      'Adversaries have capable electronic warfare, dense anti-access networks, and mobile artillery able to displace in under two minutes.',
+      'The Air Force is cutting its Tactical Air Control Party personnel by nearly fifty percent. Fewer Joint Terminal Attack Controllers are available to embed with ground forces.',
+      'Manoeuvre commanders can no longer count on undisputed air supremacy.'
+    ],
+    sources: [
+      { title: 'Loitering munition', publisher: 'Wikipedia', year: '', url: 'https://en.wikipedia.org/wiki/Loitering_munition' },
+      { title: 'Air Guard Cuts Tactical Air Control Units, Adds Cyber Operators', publisher: 'Air & Space Forces Magazine', year: '', url: 'https://www.airandspaceforces.com/air-force-converting-some-tacp-units-to-cyber-in-a-push-to-counter-china/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usaf-org-tacp-cuts', 'usa-org-lasso-platoons', 'usmc-org-opf']
+  },
+  {
+    id: 'usa-org-lasso-platoons',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Company', 'Brigade'],
+    type: 'Force Structure',
+    title: 'Army: LASSO Platoons in the Recon and Strike Company',
+    what: [
+      'Under Transformation in Contact, infantry and Stryker brigades are adding Low-Cost Unmanned Systems platoons and specialised strike elements.',
+      'The 2nd Light Brigade Combat Team, 25th Infantry Division, and the 3rd Light Brigade Combat Team, 10th Mountain Division, employed consolidated LASSO platoons assigned to their Recon and Strike Companies at recent combat training centre rotations.'
+    ],
+    how: [
+      'These units executed dozens of deep strikes through the brigade fires cell.',
+      'Targets were enemy command posts, air defence networks and artillery, well beyond the range of the brigades’ organic 105mm howitzers.'
+    ],
+    why: [
+      'The Army structure changes for 2025–2029 make the division the main tactical formation and remove cavalry squadrons, Shadow and Raven unmanned aircraft and brigade military intelligence companies from the brigade.',
+      'Transformation in Contact is meant to offset the brigade’s lost ability to detect and deliver fires, and to let units experiment and adapt quickly.'
+    ],
+    sources: [
+      {"title": "Army's fiscal 2026 budget proposal aims to equip infantry brigades with more kamikaze drones", "publisher": "DefenseScoop", "year": "2025", "url": "https://defensescoop.com/2025/06/27/army-fiscal-2026-budget-request-loitering-munitions-drones-lasso/"},
+      {"title": "‘Like a God-gun’: Armor unit adopts Switchblade one-way attack drones", "publisher": "Stars and Stripes", "year": "2026", "url": "https://www.stripes.com/branches/army/2026-07-13/armor-unit-switchblade-kamikaze-drones-22249918.html"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-arstruc-tic', 'usa-org-bde-cell', 'joint-org-lm-what', 'joint-org-lm-people']
+  },
+  {
+    id: 'usmc-org-opf',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Company', 'Battalion'],
+    type: 'Force Structure',
+    title: 'Marine Corps: Organic Precision Fires Down to the Squad',
+    what: [
+      'The Marine Corps is pushing organic strike down to infantry squad and platoon level through the Organic Precision Fires-Light (OPF-L) and Medium (OPF-M) programmes.',
+      'It expects to begin fielding live-warhead OPF-L systems to operational units in mid-2026.'
+    ],
+    how: [
+      'The Marine Littoral Regiment is a mobile, low-signature formation built to operate inside an adversary’s weapons engagement zone, sensing targets and delivering fires.',
+      'With OPF-L, the infantry battalion becomes able to make independent precision strikes beyond line of sight.'
+    ],
+    why: [
+      'Marine Littoral Regiments and dismounted Marine forces on remote islands cannot rely on sustained joint air support or heavy towed artillery.'
+    ],
+    sources: [
+      {"title": "On the frontlines of precision: Program Office Ground Weapons System advances Organic Precision Fires-Light", "publisher": "Marine Corps Systems Command", "year": "2025", "url": "https://www.marcorsyscom.marines.mil/News/News-Article-Display/Article/4360548/on-the-frontlines-of-precision-program-office-ground-weapons-system-advances-or/"},
+      {"title": "Three firms will vie for Marines' $249M loitering-munitions buy", "publisher": "Defense One", "year": "2024", "url": "https://www.defenseone.com/defense-systems/2024/04/marine-corps-chooses-trio-249m-loitering-munitions-contract/395686/"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-mlr', 'joint-org-lm-what', 'usmc-eq-opf-l-platforms', 'joint-org-lm-people']
+  },
+  {
+    id: 'joint-org-lm-people',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'Force Structure',
+    title: 'Who Employs Loitering Munitions',
+    what: [
+      'In the Army, employment at company and battalion falls on the Fire Support Team and field artillery personnel.',
+      'In the Marine Corps, specialised artillery personnel manage target acquisition, sensor support and deconfliction in distributed units.'
+    ],
+    how: [
+      'Army 13F Joint Fire Support Specialists serve as forward observer and sensor operator.',
+      'Army 131A Targeting Technicians, in the battalion or brigade fires cell, integrate loitering munitions into targeting.',
+      'Army 13R radar operators manage counterfire radars to locate enemy indirect fire.',
+      'Marine 0842 radar operators and 0847 sensor support Marines manage the acquisition grid.',
+      'Marine 0861 Fire Support Marines make the call for fire and exercise terminal control of the munition.',
+      'ANGLICO embeds its liaison and firepower control teams with allied or joint ground forces to coordinate fires.'
+    ],
+    why: [
+      'The munitions are employed through the existing fire support system, not beside it.'
+    ],
+    sources: [{"title": "131A Targeting Technician", "publisher": "U.S. Army Recruiting Command", "year": "2026", "url": "https://recruiting.army.mil/ISO/AWOR/131A/"}],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-fist', 'usa-org-ta-mos', 'usmc-org-ta-mos', 'usmc-org-anglico', 'usa-org-c2-specialties']
+  },
+  {
+    id: 'joint-org-lm-above-division',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Corps', 'Theatre'],
+    type: 'Force Structure',
+    title: 'Above the Division: Multi-Domain Task Forces and the BCD',
+    what: [
+      'The Army has activated the 1st and 3rd Multi-Domain Task Forces in the Pacific, the 2nd in Europe, and the 4th at Fort Carson, Colorado. A 5th is planned by 2028.',
+      'Each includes Long-Range Fires Battalions and Multi-Domain Effects Battalions.',
+      'In Europe, the 56th Artillery Command is the Theater Fires Command. It recently combined with the 2nd Multi-Domain Task Force to form Multi-Domain Command-Europe.'
+    ],
+    how: [
+      'The Battlefield Coordination Detachment (BCD) sits inside the Air Force’s air operations centre as the link between the land and air component commanders.',
+      'It supervises the Ground Liaison Detachments at Air Force wings.',
+      'It integrates Army surface-to-surface fires, including long-range loitering munitions and ATACMS, into the Air Tasking Order and the joint targeting cycle.'
+    ],
+    why: [
+      'Tactical and operational use of loitering munitions must nest within the theatre commander’s strategy.',
+      'BCD coordination keeps ground-launched loitering munitions from conflicting with fixed-wing aircraft in the same airspace.'
+    ],
+    sources: [
+      { title: 'Multi-Domain Command – Europe (video)', publisher: 'DVIDS', year: '', url: 'https://www.dvidshub.net/video/1007609/multi-domain-command-europe' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-mdtf', 'usa-org-mdc', 'usa-org-bcd', 'joint-org-gld']
+  },
+  {
+    id: 'usa-eq-switchblade',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'Equipment',
+    title: 'Switchblade 300, 400 and 600',
+    what: [
+      'Reported, not confirmed (manufacturer figures as given in the source report). All three are made by AeroVironment.',
+      'Switchblade 300 (Army and Marine Corps): 20 km range, 20+ minutes, about 1.8 kg high-explosive warhead. Tube-launched and man-portable.',
+      'Switchblade 400 (Army LASSO): 65 km range, 35 minutes, anti-armour warhead.',
+      'Switchblade 600 (Army and Marine Corps): 40+ km range, 40+ minutes, Javelin-derived anti-armour warhead.'
+    ],
+    how: [
+      'Reported: Switchblade 300 Block 20 adds range and a panning electro-optical and infrared sensor for target identification.',
+      'Reported: Switchblade 600 Block 2 adds 20% endurance and a communication relay range above 100 km.'
+    ],
+    why: [
+      'Reported: the Switchblade 400 bridges the gap between the infantry variants and heavy anti-armour systems.'
+    ],
+    sources: [{"title": "Switchblade 600", "publisher": "AeroVironment (manufacturer)", "year": "2026", "url": "https://www.avinc.com/lms/switchblade-600"}, {"title": "Army awards AeroVironment prototype OTA for Switchblade 400 under LASSO program", "publisher": "Military Aerospace", "year": "2025", "url": "https://www.militaryaerospace.com/home/article/55375291/army-awards-aerovironment-prototype-ota-for-switchblade-400-under-lasso-program"}],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-lm-design-choice', 'usa-org-lasso-platoons', 'usa-eq-ta-drones']
+  },
+  {
+    id: 'usmc-eq-opf-l-platforms',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'USMC',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'Bolt-M and Rogue 1 (Marine OPF-L)',
+    what: [
+      'Reported, not confirmed (manufacturer figures as given in the source report). Both are vertical take-off quadcopters with a 20 km range.',
+      'Bolt-M (Anduril): 40 minutes, modular warhead up to 1.4 kg. Hand-launched.',
+      'Rogue 1 (Teledyne FLIR): 30+ minutes, modular anti-armour or fragmentation warhead.'
+    ],
+    how: [
+      'Reported: Bolt-M has waypoint navigation and object tracking through Lattice software.',
+      'Reported: Rogue 1 has fuzing that lets the aircraft be recovered safely if the mission is aborted.'
+    ],
+    why: [
+      'Reported: operators can swap anti-personnel and anti-armour payloads in the field to suit the target.'
+    ],
+    sources: [
+      {"title": "Bolt", "publisher": "Anduril", "year": "", "url": "https://www.anduril.com/hardware/bolt/"},
+      {"title": "Teledyne FLIR Defense Awarded $249 Million IDIQ Contract for U.S. Marine Corps Organic Precision Fires-Light Program", "publisher": "Teledyne FLIR", "year": "2024", "url": "https://defense.flir.com/about/news/Teledyne-FLIR-Defense-Awarded-$249-Million-IDIQ-Contract-for-U.S.-Marine-Corps-Organic-Precision-Fires-Light-Program/"}
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-opf', 'joint-eq-lm-design-choice']
+  },
+  {
+    id: 'usa-eq-altius',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Division'],
+    type: 'Equipment',
+    title: 'Altius-700M Launched Effect',
+    what: [
+      'Reported, not confirmed (manufacturer figures as given in the source report). The Altius-700M is made by Anduril for the Army’s Launched Effects effort.',
+      'Range about 160 km, endurance 75 minutes, payload up to 15 kg.'
+    ],
+    how: [
+      'Reported: it is a modular launched effect that can be deployed from UH-60M Black Hawk helicopters.'
+    ],
+    why: [
+      'Reported: Army Aviation can strike targets up to 160 km away while the manned helicopter stays outside enemy air defence range.'
+    ],
+    sources: [{"title": "Altius", "publisher": "Anduril Industries (manufacturer)", "year": "2026", "url": "https://www.anduril.com/hardware/altius/"}],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-lm-design-choice', 'usa-eq-switchblade']
+  },
+  {
+    id: 'joint-eq-lm-design-choice',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Equipment',
+    title: 'Why the Two Services Chose Different Designs',
+    what: [
+      'The Marine Corps chose vertical take-off quadcopters, the Bolt-M and Rogue 1, for OPF-L.',
+      'The Army’s LASSO programme leans on the tube-launched Switchblade 400.',
+      'A defining feature of current loitering munitions is modularity: payloads can often be swapped in the field.'
+    ],
+    how: [
+      'Quadcopters need no cleared ground for launch.',
+      'A tube-launched fixed-wing design is aerodynamically efficient and reaches further.'
+    ],
+    why: [
+      'The Marine choice reflects littoral, jungle and urban fighting, where the clear terrain needed for a tube launch may not exist.',
+      'The Army choice favours range for open terrain in the European or Indo-Pacific theatres.',
+      'The choices follow each service’s operating environment.'
+    ],
+    sources: [{"title": "Army awards AeroVironment prototype OTA for Switchblade 400 under LASSO program", "publisher": "Military Aerospace", "year": "2025", "url": "https://www.militaryaerospace.com/home/article/55375291/army-awards-aerovironment-prototype-ota-for-switchblade-400-under-lasso-program"}],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-switchblade', 'usmc-eq-opf-l-platforms', 'usa-eq-altius']
+  },
+  {
+    id: 'usa-eq-malet',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion'],
+    type: 'Equipment',
+    title: 'MALET: Mortar Rounds Dropped from Drones',
+    what: [
+      'The Munitions Air-dropped Lethal Effects Tool (MALET) is a snap-on fuze and aerodynamic kit that turns standard 60mm and 81mm mortar rounds into drone-dropped munitions.',
+      'It was developed by the Army’s DEVCOM Armaments Center at Picatinny Arsenal.',
+      'The 120mm round is not used, because of size and payload limits.'
+    ],
+    how: [
+      'Reported: MALET works with the AUDIBLE release system and Gunslinger fire control software. Together they form the Picatinny Common Lethality Integration Kit (CLIK).',
+      'Reported: units can use commercial or military quadcopters as precision bombers.',
+      'Reported: the kit is non-destructive. If the drone returns with the round, the kit comes off and the round can be fired from a mortar tube.'
+    ],
+    why: [
+      'Reported: purpose-built loitering munitions are costly and strain procurement.',
+      'Reported: MALET gives mass by drawing on existing ammunition stocks.'
+    ],
+    sources: [
+      { title: 'U.S. Army Developed MALET Kit to Convert Mortar Rounds Into UAV Payloads', publisher: 'Militarnyi', year: '', url: 'https://militarnyi.com/en/news/us-army-malet-kit-convert-mortar-rounds-uav/' },
+      { title: 'US Army tests MALET kit for mortar drops from drones', publisher: 'Military Ledger', year: '', url: 'https://militaryledger.com/news/us-army-malet-mortar-drone-trial/' },
+      { title: 'From the foxhole to flight: Armaments Center’s MALET turns standard rounds into drone munitions', publisher: 'US Army', year: '2026', url: 'https://www.army.mil/article/296533/from_the_foxhole_to_flight_armaments_centers_malet_turns_standard_rounds_into_drone_munitions' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['les-lm-attrition', 'usa-eq-switchblade']
+  },
+  {
+    id: 'joint-eq-lm-network',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Equipment',
+    title: 'How a Loitering Munition Plugs into the Fires Network',
+    what: [
+      'AFATDS is the main command and control node for fires in both services.',
+      'It treats the loitering munition as one more weapon it can choose.'
+    ],
+    how: [
+      'Target data is routed through AFATDS. It applies the commander’s Attack Guidance Matrix and Target Selection Standards to choose the weapon: a 155mm howitzer, a HIMARS, or a loitering munition.',
+      'JADOCS coordinates missions across the joint force. TAIS handles airspace deconfliction.',
+      'Systems exchange data mainly in Variable Message Format and Cursor on Target.',
+      'The Integrated Tactical Network, with mesh radio networks and MUOS satellite communications, carries Cursor on Target messages and video downlinks with encryption.'
+    ],
+    why: [
+      'Hardware is only as effective as the network that binds it.',
+      'A target found by any sensor must pass quickly and accurately to the best shooter.'
+    ],
+    sources: [
+      {"title": "Joint Targeting with the Advanced Field Artillery Tactical Data System (AFATDS)", "publisher": "ALSSA Center", "year": "2022", "url": "https://www.alssa.mil/News/Article/3043548/joint-targeting-with-the-advanced-field-artillery-tactical-data-system-afatds"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-afatds-arch', 'joint-eq-jadocs-tais', 'joint-eq-cot-usmtf', 'usa-eq-itn-sbue', 'usa-ttp-d3a-matrices']
+  },
+  {
+    id: 'usa-ttp-lm-custody',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Counterfire by Custody: Striking Before the Enemy Fires',
+    what: [
+      'Reported, not confirmed: the Army is shifting from reactive counterfire towards proactive, custody-based targeting.'
+    ],
+    how: [
+      'Reported: in the reactive sequence, the radar detects the incoming round and computes the point of origin, the fires cell clears airspace, and guns return fire.',
+      'Reported: detection, processing, clearance, weapon lay and time of flight together often exceed two minutes. Modern artillery displaces in less.',
+      'Reported: units instead push loitering munitions and long-endurance drones deep to form a forward line of sensors.',
+      'Reported: when enemy artillery moves into a firing position, a loitering munition already watching it strikes at once.'
+    ],
+    why: [
+      'Reported: the strike bypasses radar detection delay and can destroy the weapon before it fires.'
+    ],
+    sources: [
+      {"title": "Fighting at Machine Speed: AI and U.S. Army Counterfire Under the Law of War – Part I", "publisher": "Lieber Institute, West Point", "year": "", "url": "https://lieber.westpoint.edu/fighting-machine-speed-ai-us-army-counterfire-law-war-part-i/"}
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-proactive-counterfire', 'usa-ttp-mission-latency', 'usa-ttp-radar-zones']
+  },
+  {
+    id: 'usa-ttp-lm-freefly-roz',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Airspace: The Free-Fly Zone',
+    what: [
+      'Small drones and loitering munitions operating below 2,000 feet above ground level create severe airspace congestion.',
+      'Units are adopting a “Free-Fly” Restricted Operating Zone framework.'
+    ],
+    how: [
+      'Standing unmanned aircraft areas are published in the Unit Airspace Plan.',
+      'Altitudes are layered. For example, 0–500 feet above ground level is reserved for short-range reconnaissance quadcopters.',
+      '500–1,200 feet is used for transit and loiter of munitions such as LASSO.',
+      'Ground commanders can then launch without a clearance request for each flight.'
+    ],
+    why: [
+      'Airspace is normally managed through the Airspace Control Order and deconflicted by the JAGIC.',
+      'Static Restricted Operating Zones and reliance on the Fire Support Coordination Line are too slow for loitering munitions.',
+      'The framework keeps launches immediate without overloading the JAGIC, and without risk to manned helicopters.'
+    ],
+    sources: [{"title": "Airspace Control (ATP 3-52.1 multi-Service tactics, techniques and procedures)", "publisher": "ALSSA Center", "year": "2023", "url": "https://www.alssa.mil/mttps/airspace"}],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-airspace', 'usa-ttp-uas', 'usa-ttp-afatds-clearance']
+  },
+  {
+    id: 'joint-ttp-lm-autonomy',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'TTP',
+    title: 'Autonomy and Human Judgement: DoD Directive 3000.09',
+    what: [
+      'Loitering munitions increasingly have automated target recognition and autonomous terminal guidance.',
+      'Their use is governed by DoD Directive 3000.09, Autonomy in Weapon Systems.'
+    ],
+    how: [
+      'Policy does not use the labels human-in-the-loop, on-the-loop or out-of-the-loop.',
+      'It requires that systems let commanders and operators exercise “appropriate levels of human judgement over the use of force”.',
+      'For a current loitering munition, the operator selects the target, sets the engagement parameters and authorises the terminal dive.',
+      'The system must have an understandable human-machine interface and a wave-off capability, so the operator can abort if the situation changes or noncombatants enter the blast radius.'
+    ],
+    why: [
+      'Autonomous terminal guidance matters when the data link is jammed before impact.',
+      'If the link is cut after the operator has positively identified the target and authorised the strike, autonomous completion of the dive remains compliant. Human judgement was exercised before force was used.'
+    ],
+    sources: [
+      { title: 'DoD Directive 3000.09: Autonomy in Weapon Systems', publisher: 'US Department of Defense', year: '', url: 'https://www.esd.whs.mil/portals/54/documents/dd/issuances/dodd/300009p.pdf' },
+      { title: 'Human in the Loop Weapons: Definitions Compared', publisher: 'IDF AI', year: '', url: 'https://idf.ai/analysis/human-in-the-loop-definitions/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['les-c2-autonomy-doctrine', 'joint-eq-maven']
+  },
+  {
+    id: 'usa-trn-lm-digital',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Training: Loitering Munitions in the Digital Chain',
+    what: [
+      'Both services are revising training for digital, multi-domain fires.',
+      'The source report gives no course dedicated to loitering munitions.'
+    ],
+    how: [
+      'The Joint Firepower Course and Joint Fires Observer certification increasingly emphasise digitally aided close air support and the integration of loitering munitions into brigade-level joint fires.',
+      'Under weekly Operational Digital Sustainment Training, a digital chain counts as validated only if the target passes from sensor through the brigade fires cell and battalion FDC, through AFATDS, to the gun line or the loitering munition operator, with no voice transmission and no manual coordinate entry.',
+      'Occupation time, target acquisition time and AFATDS processing time are tracked.'
+    ],
+    why: [
+      'The data shows where the chain stalls, such as message translation between networks or hardware failures, so it can be fixed before deployment.'
+    ],
+    sources: [],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-odst', 'usa-trn-jfo', 'usa-trn-c2-schools']
+  },
+  {
+    id: 'les-lm-ukraine-apps',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Ukraine: The Shared Data Picture Shortens the Chain',
+    what: [
+      'Reported, not confirmed: in Ukraine, applications such as Kropyva, GIS Arta and Delta connect drone operators directly to the nearest available firing unit or FPV drone team.',
+      'Reported: sensor-to-shooter time fell from a conventional 10 minutes to under one minute.'
+    ],
+    how: [
+      'Reported: data is written to a shared cloud environment (Delta), not passed point to point up and down a hierarchy.',
+      'Reported: the US is adapting this through Scarlet Dragon and the Maven Smart System.'
+    ],
+    why: [
+      'Reported: the lesson drawn is that the command and control data model, the common operating picture, must be the main integration point.',
+      'Any sensor can then pass a target to any shooter.'
+    ],
+    sources: [
+      {"title": "Does Ukraine Already Have Functional CJADC2 Technology?", "publisher": "CSIS", "year": "", "url": "https://www.csis.org/analysis/does-ukraine-already-have-functional-cjadc2-technology"},
+      {"title": "How Ukraine's “Uber for Artillery” is Leading the Software War Against Russia", "publisher": "New America", "year": "", "url": "https://www.newamerica.org/future-frontlines/blogs/how-ukraines-uber-for-artillery-is-leading-the-software-war-against-russia/"}
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-c2-ukraine-stack', 'joint-eq-maven', 'les-tfd-software-at-gun', 'les-ukraine-uas']
+  },
+  {
+    id: 'les-lm-attrition',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Attrition: Mass Over a Few Costly Systems',
+    what: [
+      'The volume of drone losses in recent conflict shows the limits of high-cost systems.'
+    ],
+    how: [
+      'In contested electronic warfare conditions, GPS spoofing, command-link jamming and kinetic air defence cause very high loss rates.',
+      'The Pentagon’s Replicator initiative and the Army’s MALET kit both aim at quantity.'
+    ],
+    why: [
+      'Large numbers of cheaper, modular munitions let a force absorb the loss rates expected in a peer conflict.',
+      'A handful of expensive assets cannot.'
+    ],
+    sources: [{"title": "Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine", "publisher": "RUSI", "year": "2023", "url": "https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf"}, {"title": "Preliminary Lessons in Conventional Warfighting from Russia’s Invasion of Ukraine: February–July 2022", "publisher": "RUSI", "year": "2022", "url": "https://static.rusi.org/359-SR-Ukraine-Preliminary-Lessons-Feb-July-2022-web-final.pdf"}],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-malet', 'les-ukraine-ew', 'les-lm-logistics']
+  },
+  {
+    id: 'les-lm-logistics',
+    topic: 'loitering-munitions',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Brigade'],
+    type: 'Lesson',
+    title: 'Logistics: Treat Strike Drones as Ammunition',
+    what: [
+      'Integrating these systems requires a change in supply chain management.'
+    ],
+    how: [
+      'Drones have been treated as Class VII, major end items, with complex maintenance and accounting.',
+      'Attritable loitering munitions and their explosive payloads must instead be managed with Class V, ammunition, resupply.',
+      'Brigade sustainment teams must run estimates for loitering munitions as they do for 155mm shells.'
+    ],
+    why: [
+      'Accurate forecasting keeps the forward units armed for the deep fight.'
+    ],
+    sources: [],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['les-lm-attrition', 'usa-org-lasso-platoons']
+  },
+  // --- COUNTER-FIRE AND SURVIVABILITY, UNITED STATES (added 2026.12) ---
+  {
+    id: 'usa-org-cf-echelons',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Corps', 'Division', 'Brigade'],
+    type: 'Command & Control',
+    title: 'Who Owns Counter-Fire: The Counter-Fire Headquarters',
+    what: [
+      'Counter-fire responsibility is assigned by echelon, and one headquarters is named the Counter-Fire Headquarters (CFHQ).',
+      'Corps and division are each responsible for counter-fire through the depth of their own area.'
+    ],
+    how: [
+      'The corps sets conditions with proactive counter-fire. It uses joint assets, aircraft and long-range missiles, against the enemy fires system in the deep area.',
+      'The division is the main executor of reactive counter-fire, with organic or task-organised Army assets.',
+      'In the division, the Division Artillery is the Force Field Artillery Headquarters (FFAHQ). It acts as the CFHQ or designates it.',
+      'The corps task-organises Field Artillery Brigades down to divisions, in direct support or general support reinforcing roles.',
+      'In the Marine Corps, the artillery regiment is the force artillery and coordinates counter-fire for the MAGTF.'
+    ],
+    why: [
+      'Counter-fire is part of combined arms manoeuvre. Its aim is freedom of manoeuvre for ground forces.',
+      'Keeping reactive counter-fire at corps was rejected. Weapons locating radars cannot cover the corps deep area well, and target location error grows with distance.',
+      'Clearing airspace beyond the Fire Support Coordination Line adds delays too slow for reactive missions.',
+      'Delegating reactive execution to the division keeps it responsive.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12, Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
+      { title: 'ATP 3-09.24, The Field Artillery Brigade', publisher: 'Headquarters, Dept. of the Army', year: '2022', url: 'https://www.scribd.com/document/703184769/ARN35074-ATP-3-09-24-000-WEB-1' },
+      { title: 'MCTP 3-10E, Artillery Operations', publisher: 'Headquarters United States Marine Corps', year: '2018', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-10E%20GN.pdf' },
+      { title: 'Counterfire at the Corps and Division', publisher: 'Field Artillery Professional Bulletin', year: '2024', url: 'https://www.fieldartillery.org/news/counterfire-at-the-corps-and-division' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-corps-fab', 'usa-org-wlr-control', 'joint-ttp-cf-two-kinds']
+  },
+  {
+    id: 'usa-org-cf-processing',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Force Structure',
+    title: 'The Staff Sections That Run the Counter-Fire Fight',
+    what: [
+      'Dedicated staff sections analyse radar acquisitions, keep custody of targets and manage counter-fire execution.'
+    ],
+    how: [
+      'At Field Artillery Brigade and Division Artillery, the Target Processing Section receives radar data, analyses enemy indirect fire patterns and recommends radar search sectors.',
+      'At the field artillery battalion, a Counterfire Operations Section runs the immediate reactive fight. It tracks friendly radar status and pairs incoming target data with firing units.',
+      'Corps and divisions have begun experimenting with Processing, Exploitation and Dissemination (PED) teams attached to their force field artillery headquarters.'
+    ],
+    why: [
+      'Central processing at higher echelons gives long kill chains. Mobile enemy artillery displaces before rounds arrive.',
+      'Placing PED at the headquarters that controls the firing unit, with delegated authority to clear airspace and authorise fires, allows immediate processing.'
+    ],
+    sources: [
+      { title: 'FY25 Mission Command Training Program Key Observations', publisher: 'US Army', year: '2026', url: 'https://api.army.mil/e2/c/downloads/2026/02/13/f6b2aa2f/fy25-mission-command-training-program-key-observations.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-tps', 'usa-org-tap', 'usa-org-cf-echelons', 'les-cf-mfb-strike']
+  },
+  {
+    id: 'usa-org-cf-210-fab',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Brigade'],
+    type: 'Force Structure',
+    title: 'A Standing Counter-Fire Mission: 210th Field Artillery Brigade, Korea',
+    what: [
+      'The 210th Field Artillery Brigade, at Camp Casey, South Korea, is a permanent high-readiness counter-fire force.',
+      'It operates within the 2nd Infantry Division/ROK-US Combined Division.'
+    ],
+    how: [
+      'The brigade holds constant readiness for immediate reactive counter-fire against North Korean artillery.',
+      'It regularly conducts Combined Counterfire Exercises and live-fire Ammunition Combat Loading readiness tests with the Republic of Korea Army.',
+      'Firing units, mainly MLRS and HIMARS, are held on alert, with pre-cleared airspace coordination and predefined target lists.',
+      'The exercises test ammunition combat loading, radar zone management and rapid deployment from motor pools to firing points.'
+    ],
+    why: [
+      'Seoul is close to the Demilitarized Zone, and North Korean artillery is massed along it.',
+      'A deliberate joint planning cycle would take too long.'
+    ],
+    sources: [
+      { title: 'Soldiers from “Thunder” brigade conduct counterfire exercise with ROK Army', publisher: 'DVIDS', year: '2016', url: 'https://www.dvidshub.net/news/188440/soldiers-thunder-brigade-conduct-counterfire-exercise-with-rok-army' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-corps-fab', 'les-nk-2020', 'les-ta-nk-2020']
+  },
+  {
+    id: 'usa-org-cf-ada-protection',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Corps', 'Division', 'Brigade'],
+    type: 'Force Structure',
+    title: 'Air Defence for the Artillery: The ADA Battalion in the Strike Brigade',
+    what: [
+      'Reported, not confirmed: the Army is changing structures so that air defence protects artillery units directly against drones and loitering munitions.'
+    ],
+    how: [
+      'Reported: by doctrine, artillery relies on Air Defense Artillery (ADA) units for area protection against medium and large drones and fixed-wing aircraft.',
+      'Reported: Warfighter Exercises 25-4 and 25-5 drove the change of Field Artillery Brigades into Multifunctional Brigade-Strike (MFB-Strike) formations.',
+      'Reported: an ADA battalion augments the brigade. Its commander serves as the corps Air Defense Coordinating Officer, synchronising strike fires and defensive protection in one command node.',
+      'Reported: at battery level, units use Air Defense and Airspace Management (ADAM) cells to receive early warning.'
+    ],
+    why: [
+      'Reported: firing positions emit strongly in the electromagnetic, thermal and acoustic bands, which makes them prime targets.',
+      'Reported: standard field artillery battalions have no organic air defence interceptors.',
+      'Reported: with ADA inside the strike brigade, the counter-fire force does not compete for corps air defence priority.'
+    ],
+    sources: [
+      { title: 'FY25 Mission Command Training Program Key Observations', publisher: 'US Army', year: '2026', url: 'https://api.army.mil/e2/c/downloads/2026/02/13/f6b2aa2f/fy25-mission-command-training-program-key-observations.pdf' },
+      { title: 'Air Defense and Airspace Management Cell Shelter Training', publisher: 'PACOM', year: '', url: 'https://www.pacom.mil/Media/News/Article/564967/air-defense-and-airspace-management-cell-shelter-training/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-cf-mfb-strike', 'usa-ttp-surv-cuas-gunline', 'usa-eq-radar-cuas']
+  },
+  {
+    id: 'joint-ttp-cf-two-kinds',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Corps', 'Division'],
+    type: 'TTP',
+    title: 'Proactive and Reactive Counter-Fire',
+    what: [
+      'US doctrine divides counter-fire into proactive and reactive.',
+      'The detailed How and Why for this entry were not received with the source report. The lines below come from its summary.'
+    ],
+    how: [
+      'Proactive counter-fire is driven by the corps. It uses deep targeting to break up the enemy fires complex before it can strike.',
+      'The deliberate targeting method, Decide, Detect, Deliver, Assess, is used for proactive counter-fire.',
+      'Reactive counter-fire is executed largely by division and brigade elements. It relies on immediate sensor-to-shooter links to neutralise enemy weapons just after they fire.'
+    ],
+    why: [
+      'The older reactive sequence of detection, clearance, processing and execution often exceeds the survivability window of modern enemy artillery, which routinely displaces in under two minutes.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12, Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-cf-echelons', 'usa-ttp-cf-reactive-drill', 'usa-ttp-proactive-counterfire', 'usa-ttp-d3a-matrices']
+  },
+  {
+    id: 'usa-ttp-cf-reactive-drill',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'The Reactive Drill and Pre-Authorisation',
+    what: [
+      'The reactive counter-fire drill is highly automated. It bypasses deliberate planning to strike enemy indirect fire systems at once.'
+    ],
+    how: [
+      '1. Detection: an AN/TPQ-53 or AN/TPQ-50 radar detects a projectile in flight and computes the point of origin and point of impact.',
+      '2. Acquisition: the data passes automatically through AFATDS to the Counter-Fire Headquarters.',
+      '3. Zone check: the system compares the points with the planned radar zones. An origin in a Call For Fire Zone, or an impact that threatens a Critical Friendly Zone, is automatically prioritised as a fire mission.',
+      '4. Clearance: the Counter-Fire Headquarters verifies airspace, often pre-cleared through standing Airspace Coordination Areas, and that no friendly unit is near the origin. Delegated authority lets it approve at once.',
+      '5. Pairing: the battalion FDC pairs the target with a counter-fire unit, cannon or rocket, held at high readiness with allocated ammunition.',
+      '6. Execution: the mission goes digitally to the gun line. The crew computes data, lays and fires.',
+      'Analysis: the target time from detection to rounds fired is under two to three minutes.'
+    ],
+    why: [
+      'Any human delay, for approval, manual airspace deconfliction or routing, pushes the timeline beyond the window in which enemy artillery stays in place.',
+      'Pre-authorisation is the procedural means that lets friendly fires catch a moving enemy.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12, Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' },
+      { title: 'FY25 Mission Command Training Program Key Observations', publisher: 'US Army', year: '2026', url: 'https://api.army.mil/e2/c/downloads/2026/02/13/f6b2aa2f/fy25-mission-command-training-program-key-observations.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-radar-zones', 'usa-ttp-mission-latency', 'usa-ttp-afatds-clearance', 'usa-eq-tpq53', 'usa-eq-tpq50']
+  },
+  {
+    id: 'usa-ttp-cf-weapon-choice',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Choosing the Weapon and Munition for Counter-Fire',
+    what: [
+      'The platform and munition are chosen to suit the enemy system being attacked.'
+    ],
+    how: [
+      'Against lighter, less mobile targets such as heavy mortars or towed guns, 155mm cannon (M109A7, M777A2) is preferred: responsive, high rate of fire, lower cost per round.',
+      'Against heavier, long-range threats such as self-propelled howitzers and multiple rocket launchers, MLRS or HIMARS firing guided rockets (GMLRS) are preferred for range and precision.',
+      'The Army is developing the Cannon-Delivered Area Effects Munition (C-DAEM) to replace older DPICM cluster munitions, which leave unexploded ordnance.'
+    ],
+    why: [
+      'Using rockets for deep counter-fire keeps friendly cannons out of range of enemy massed fires.',
+      'Enemy artillery moves after firing, so a high-explosive round aimed at the radar grid is likely to hit empty ground.'
+    ],
+    sources: [
+      { title: 'The King of Battle Gets Stronger', publisher: 'US Army', year: '2017', url: 'https://www.army.mil/article/195413/the_king_of_battle_gets_stronger' },
+      { title: 'U.S. Army Acquisition Portfolio 2024', publisher: 'US Army', year: '2024', url: 'https://api.army.mil/e2/c/downloads/2024/07/19/ab2038a9/u-s-army-portfolio-2024.pdf' },
+      { title: 'Counterfire at the Corps and Division', publisher: 'Field Artillery Professional Bulletin', year: '2024', url: 'https://www.fieldartillery.org/news/counterfire-at-the-corps-and-division' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-cdaem', 'usa-eq-cf-rockets', 'usa-ttp-cf-reactive-drill']
+  },
+  {
+    id: 'usa-ttp-cf-allocation',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Resourcing Counter-Fire Against Close Support',
+    what: [
+      'Counter-fire competes directly with close support for a limited number of guns and rounds.'
+    ],
+    how: [
+      'Commanders manage the competition with prioritised Essential Fire Support Tasks.',
+      'A set share of guns or launchers is placed in direct support of the Counter-Fire Headquarters.',
+      'Ammunition is explicitly set aside for counter-battery missions.'
+    ],
+    why: [
+      'Without a dedicated share, the counter-fire unit and its ammunition are not available when the radar acquires.'
+    ],
+    sources: [
+      { title: 'Reactive Counterfire: Why', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://www.lineofdeparture.army.mil/Portals/144/PDF/Journals/Field-Artillery/FA-E-Edition-2026/Reactive-Counterfire-Why.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-cf-reactive-drill', 'les-cf-custody', 'usa-ttp-div-alloc']
+  },
+  {
+    id: 'usa-ttp-surv-displace',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Fire, Move and Hide',
+    what: [
+      'Firing units no longer stay in static, built-up positions. They move continuously, as dispersed sections or platoons, to break the enemy targeting loop.'
+    ],
+    how: [
+      '1. Hide: guns or launchers wait in a concealed hide under multispectral camouflage, with digital links up and emissions low.',
+      '2. Order: the FDC sends the mission. The section chief starts movement at once.',
+      '3. Occupy: the unit moves to a pre-surveyed firing point inside the Position Area for Artillery (PAA).',
+      '4. Execute: it halts, lays and fires. Time at the firing point is limited to the firing sequence, often one to two minutes.',
+      '5. Displace: after the last round the weapon is taken out of action. The standard for an emergency mission is 75 seconds.',
+      '6. Relocate: it moves to a new hide, a second firing point or a new PAA.',
+      'Self-propelled howitzers such as the M109A7 and launchers such as HIMARS displace in seconds. Towed guns such as the M777A2 take much longer, often more than two to three minutes.'
+    ],
+    why: [
+      'The enemy kill chain, from drone or radar detection to impact of return fire, can be as short as three minutes.',
+      'In large-scale combat, artillery that stays in place is treated as artillery destroyed.'
+    ],
+    sources: [
+      { title: 'Moving to Survive', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Moving-to-Survive/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-les-survivability', 'usa-ttp-surv-dispersion', 'usa-ttp-surv-tradeoff', 'les-cf-three-minute']
+  },
+  {
+    id: 'usa-ttp-surv-dispersion',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Dispersion Inside the Position Area',
+    what: [
+      'Guns and launchers are separated so that one strike cannot cause mass casualties.'
+    ],
+    how: [
+      'Units operate as dispersed platoons or single-gun sections.',
+      'Individual howitzers or launchers hide in separate tree lines, buildings or folds in the ground, not in one battery line in an open field.',
+      'Each makes its own survivability moves within the wider PAA.'
+    ],
+    why: [
+      'Dispersion limits the effect of area counter-battery fire and of a single loitering munition.',
+      'Analysis: the cost is harder command and control, difficult local security with no consolidated position to defend, and strained ammunition resupply across many separated points.'
+    ],
+    sources: [
+      { title: 'Moving to Survive', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Moving-to-Survive/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-surv-displace', 'les-tfd-fdc-survive', 'usa-org-fdc-autonomous']
+  },
+  {
+    id: 'usa-ttp-surv-concealment',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Concealment and Signature Management',
+    what: [
+      'Passive measures are used to defeat visual, thermal and radar observation.',
+      'The main item is the Ultra-Lightweight Camouflage Net System (ULCANS), which replaced the woodland and desert nets of the 1990s.'
+    ],
+    how: [
+      'ULCANS manages signature in the visual, near-infrared, thermal and broadband radar bands.',
+      'Units apply strict emission control: counter-fire radars, long-range radios and network nodes are powered down when not in use.',
+      'Dummy positions and cheap decoys absorb enemy strikes and waste precision munitions.'
+    ],
+    why: [
+      'Hiding from sight in a tree line is no longer enough. Thermal imagers on drones pick up a recently fired barrel, a running engine or a generator.',
+      'ULCANS breaks up these heat signatures. Emission control stops enemy electronic warfare units fixing the battery by its radio transmissions.'
+    ],
+    sources: [
+      { title: 'Army fielding new camouflage netting', publisher: 'National Defense Magazine / Battlespace Update', year: '', url: 'https://battle-updates.com/update/battlespace-update-vol-20-issue-19/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-radar-survive', 'usa-ttp-cp-survive', 'les-ukraine-ew']
+  },
+  {
+    id: 'usa-ttp-surv-hardening',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Protection and Hardening',
+    what: [
+      'Physical protection of people, vehicles and ammunition when a unit must halt.'
+    ],
+    how: [
+      'Units halt for maintenance, crew rest or sustained firing. They then use organic or attached engineers to dig survivability positions.',
+      'ATP 3-37.34 sets material thickness requirements for cover against direct hits from HEAT warheads and against fragmentation.',
+      'Ammunition is spread across several shallow, hardened caches, not one dump.'
+    ],
+    why: [
+      'Constant movement cannot be kept up: fuel, maintenance cycles and crew fatigue limit it.',
+      'When the unit is stationary, hardening is the last line of defence against fragmentation. The crew survives even if the vehicle is disabled.'
+    ],
+    sources: [
+      { title: 'ATP 3-37.34, Survivability Operations', publisher: 'Headquarters, Dept. of the Army', year: '2011', url: 'https://www.scribd.com/document/668428998/ATP-3-37-34-Survivability-operations' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-surv-displace', 'usa-ttp-surv-concealment']
+  },
+  {
+    id: 'usa-ttp-surv-cuas-gunline',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Defence Against Drones at the Gun Line',
+    what: [
+      'Reported, not confirmed: firing units use layered reactions against small drones and loitering munitions at the firing point.'
+    ],
+    how: [
+      'Reported: Air Defense and Airspace Management cells are pushed down to give digital early warning.',
+      'Reported: the gun line relies mainly on passive measures: camouflage nets, dispersion and terrain masking.',
+      'Reported: active measures are small arms, vehicle-mounted machine guns and local electronic warfare jammers.',
+      'Reported: the Army is integrating counter-small-drone detection and kinetic defeat equipment at company level.'
+    ],
+    why: [
+      'Reported: short-range air defence is scarce and usually goes to manoeuvre command posts or key logistics nodes.',
+      'Reported: artillery units must largely defend themselves against small drones that get under the wider air defence cover.'
+    ],
+    sources: [
+      { title: 'Trend Line Vol 1 Issue 1', publisher: 'Center for Army Lessons Learned (TLLM-Army)', year: '2026', url: 'https://api.army.mil/e2/c/downloads/2026/09/22/bdf5aba3/no-26-1247-trend-line-vol-1-issue1-aug-26.pdf' },
+      { title: 'Air Defense and Airspace Management Cell Shelter Training', publisher: 'PACOM', year: '', url: 'https://www.pacom.mil/Media/News/Article/564967/air-defense-and-airspace-management-cell-shelter-training/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-cf-ada-protection', 'usa-eq-radar-cuas', 'les-ukraine-uas']
+  },
+  {
+    id: 'usa-ttp-surv-observers',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Survivability of Observers',
+    what: [
+      'Analysis: the source report found no open source for this entry. All of it is analysis.',
+      'Analysis: it concerns Fire Support Teams and Joint Terminal Attack Controllers forward with manoeuvre units.'
+    ],
+    how: [
+      'Analysis: observers manage their electromagnetic signature, because their radios make them targets for direction finding.',
+      'Analysis: they use burst transmissions, remote antennas on long cables away from their fighting position, and move after sending a mission.'
+    ],
+    why: [
+      'Analysis: observers are at or near the forward line of own troops. If located, they draw immediate mortar or artillery fire, and the manoeuvre commander loses the means to call for fire.'
+    ],
+    sources: [],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-fist', 'usmc-ttp-ew', 'usa-ttp-fires-pace']
+  },
+  {
+    id: 'usa-ttp-surv-tradeoff',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'The Trade-Off: Staying Alive Against Delivering Fire',
+    what: [
+      'The commander’s dilemma is between survival of the battery and continuous fire support to manoeuvre.'
+    ],
+    how: [
+      'Firing while constantly moving limits the total volume and sustained rate of fire.',
+      'The Army states that batteries must put displacement and survivability ahead of static readiness, even if a requested fire mission window is missed.',
+      'Commanders are advised to move their measures away from speed of fire, towards target custody and the long-term survival of the force.'
+    ],
+    why: [
+      'A battery that stays in place to suppress for an assault will almost certainly be acquired by radar or drones and destroyed.',
+      'It may help the infantry for ten minutes. It is then lost for the rest of the campaign.'
+    ],
+    sources: [
+      { title: 'Moving to Survive', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Moving-to-Survive/' },
+      { title: 'Reactive Counterfire: Why', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://www.lineofdeparture.army.mil/Portals/144/PDF/Journals/Field-Artillery/FA-E-Edition-2026/Reactive-Counterfire-Why.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-surv-displace', 'les-cf-custody', 'usa-les-survivability']
+  },
+  {
+    id: 'usa-eq-cf-rockets',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'Equipment',
+    title: 'HIMARS and MLRS in the Counter-Fire Role',
+    what: [
+      'The M142 HIMARS is wheeled. The M270 MLRS is tracked. Both fire guided rockets (GMLRS) for deep proactive and rapid reactive counter-fire.',
+      'Analysis: the performance and cost claims below rest on an informal source and are not confirmed.'
+    ],
+    how: [
+      'Analysis: both can halt, fire and displace in less than a minute.'
+    ],
+    why: [
+      'Analysis: rockets are more cost-effective and versatile than tube artillery for long-range counter-battery strikes.',
+      'Analysis: they outrange enemy cannon, so they can fire from relative safety behind friendly lines.'
+    ],
+    sources: [],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-cf-weapon-choice', 'usa-org-cf-210-fab']
+  },
+  {
+    id: 'usa-eq-erca',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'M1299 Extended Range Cannon Artillery (Cancelled)',
+    what: [
+      'The M1299 was a self-propelled howitzer programme meant to fire 155mm rounds to 70–100 km.',
+      'The Army cancelled it in March/April 2024.'
+    ],
+    how: [
+      'It was based on the M109A7 chassis with a longer, 58-calibre barrel.',
+      'It used supercharged propellant and sub-calibre projectiles such as the XM1155.'
+    ],
+    why: [
+      'The cause was excessive barrel wear. The pressures needed to reach 100 km degraded the barrel after a low number of rounds.',
+      'The Army is now looking at off-the-shelf Next Generation Howitzer options, and will rely more on MLRS and HIMARS for long-range counter-fire.'
+    ],
+    sources: [
+      { title: 'M1299 Howitzer', publisher: 'Wikipedia', year: '2024', url: 'https://en.wikipedia.org/wiki/M1299_howitzer' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['les-tfd-worn-barrels', 'usa-eq-cf-rockets', 'usa-ttp-mv']
+  },
+  {
+    id: 'usa-eq-cdaem',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'Cannon-Delivered Area Effects Munition (C-DAEM)',
+    what: [
+      'C-DAEM is a new 155mm projectile designed to replace older DPICM cluster munitions.'
+    ],
+    how: [
+      'It is for stationary or moving targets, personnel and light or heavy vehicles, where GPS is degraded or denied.',
+      'Army acquisition documents cite it as a main tool against enemy artillery.'
+    ],
+    why: [
+      'Enemy artillery displaces after firing. A high-explosive round aimed at the radar grid will probably miss.',
+      'C-DAEM has seekers and area effects. It can find and destroy the howitzer even after it has moved several hundred metres from the acquisition point.'
+    ],
+    sources: [
+      { title: 'U.S. Army Acquisition Portfolio 2024', publisher: 'US Army', year: '2024', url: 'https://api.army.mil/e2/c/downloads/2024/07/19/ab2038a9/u-s-army-portfolio-2024.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-cf-weapon-choice', 'usa-ttp-poi-accuracy']
+  },
+  {
+    id: 'usa-trn-cf-staff',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Training the Counter-Fire Staff',
+    what: [
+      'Command post staffs are trained and evaluated in planning and executing counter-fire.'
+    ],
+    how: [
+      'Staffs train through the Military Decision-Making Process, and are evaluated in command post exercises and combat training centre rotations.',
+      'The Center for Army Lessons Learned, now the Transformation and Lessons Learned Manager-Army, monitors and critiques the rotations.'
+    ],
+    why: [
+      'Recent trends show recurring weak staff proficiency.',
+      'Many units arrive without deliberate home-station staff training. They then fail to synchronise airspace, clear fires quickly, manage radar zones and protect the command post.'
+    ],
+    sources: [
+      { title: 'Trend Line Vol 1 Issue 1', publisher: 'Center for Army Lessons Learned (TLLM-Army)', year: '2026', url: 'https://api.army.mil/e2/c/downloads/2026/09/22/bdf5aba3/no-26-1247-trend-line-vol-1-issue1-aug-26.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['les-c2-ctc-trends', 'les-ta-ctc-weak', 'usa-trn-cf-critiques']
+  },
+  {
+    id: 'usa-trn-surv-tables',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Survivability in the Artillery Tables',
+    what: [
+      'TC 3-09.8 certifies howitzer and rocket crews through Artillery Tables I to XV. The tables cover shooting accurately and surviving counter-strikes together.'
+    ],
+    how: [
+      'Table I, individual skills: map reading and manual land navigation.',
+      'Tables II–VI, section and crew: mounted navigation, the communications PACE plan, reacting to contact, and live missions while making internal survivability moves.',
+      'Tables VII–XII, platoon: day and night convoys, and the 75-second displacement standard under live fire.',
+      'Tables XIII–XV, battery: collective combined arms training, and massing fires while dispersed.'
+    ],
+    why: [
+      'Leaders are told not to pause training for safety convenience at the cost of realism.',
+      'Static live-fire ranges build fatal habits. The tables force survivability moves until the 75-second standard is routine.'
+    ],
+    sources: [
+      { title: 'TC 3-09.8, Field Artillery Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.scribd.com/document/516824400/ARN21604-TC-3-09x8-FINAL-WEB' },
+      { title: 'Moving to Survive', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Moving-to-Survive/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-artillery-tables', 'usa-ttp-surv-displace']
+  },
+  {
+    id: 'usa-trn-cf-critiques',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Published Criticisms of Counter-Fire Training',
+    what: [
+      'Observer-coach/trainers at the combat training centres report recurring weaknesses.'
+    ],
+    how: [
+      'Combat brigades struggle to provide basic reactive counter-fire, and more so to coordinate proactive counter-fire.',
+      'Common faults: thin planning, failure to echelon fires, and radar positioning without terrain analysis.',
+      'A specific criticism is over-reliance on digital navigation such as JBC-P. Units get lost on survivability moves when the system fails or is jammed.'
+    ],
+    why: [
+      'A generation gap is recognised. Field-grade officers formed in static counterinsurgency, with assured air supremacy and secure bases, find the tempo, contested airspace and electronic warfare of large-scale combat hard to adapt to.'
+    ],
+    sources: [
+      { title: 'Moving to Survive', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Moving-to-Survive/' },
+      { title: 'Military Decision Making Process', publisher: 'Center for Army Lessons Learned', year: '2023', url: 'https://api.army.mil/e2/c/downloads/2023/11/17/f7177a3c/23-07-594-military-decision-making-process-nov-23-public.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-cf-staff', 'usa-trn-ta-critiques', 'les-tfd-ctc']
+  },
+  {
+    id: 'les-cf-three-minute',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Ukraine and Nagorno-Karabakh: The Three-Minute Window',
+    what: [
+      'Observations from the Russia-Ukraine war and Nagorno-Karabakh indicate that artillery must displace in under two minutes to survive.'
+    ],
+    how: [
+      'Cheap small drones such as the Orlan-10, loitering munitions such as the Lancet, and fast counter-battery radars have shortened the survivability window.',
+      'The historic US sequence of deliberate detection, manual airspace clearance, processing, transmission, lay and firing is not fast enough to catch an enemy before it moves.',
+      'Adversaries use pre-surveyed firing points, fire a short volley and move at once.'
+    ],
+    why: [
+      'Both sides have adapted with cheap decoys, maximum dispersion and low electronic signature.',
+      'The US conclusion is that its older systems and slow command post procedures would bring heavy artillery losses without change.'
+    ],
+    sources: [{"title": "Meatgrinder: Russian Tactics in the Second Year of Its Invasion of Ukraine", "publisher": "RUSI", "year": "2023", "url": "https://static.rusi.org/403-SR-Russian-Tactics-web-final.pdf"}, {"title": "Preliminary Lessons in Conventional Warfighting from Russia’s Invasion of Ukraine: February–July 2022", "publisher": "RUSI", "year": "2022", "url": "https://static.rusi.org/359-SR-Ukraine-Preliminary-Lessons-Feb-July-2022-web-final.pdf"}],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['les-ukraine-cb', 'les-ta-ukraine', 'usa-ttp-surv-displace', 'usa-ttp-mission-latency']
+  },
+  {
+    id: 'les-cf-custody',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'Lesson',
+    title: 'From Speed of Fire to Custody of the Target',
+    what: [
+      'Reported, not confirmed: the Army is moving from firing as fast as possible at a radar grid to “custody-based engagement”.',
+      'The source report rates this both Confirmed and Reported. The lower rating is used here.'
+    ],
+    how: [
+      'Reported: fire is withheld unless persistent surveillance, a drone or a forward observer, keeps the enemy system in view until the moment of effect.',
+      'Reported: assessment moves from rounds fired to targets destroyed, with battle damage assessment by drone overwatch.',
+      'Reported: training stresses the discipline to withhold fire when custody is lost.'
+    ],
+    why: [
+      'Reported: Russian and Ukrainian artillery move from firing positions in under two minutes.',
+      'Reported: firing at an empty grid wastes scarce precision ammunition, loads the supply chain and exposes the friendly firing unit to return fire for no gain.',
+      'The source report notes it is unclear whether this is written into FM 3-09 or remains a practice at the combat training centres.'
+    ],
+    sources: [
+      { title: 'Reactive Counterfire: Why', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://www.lineofdeparture.army.mil/Portals/144/PDF/Journals/Field-Artillery/FA-E-Edition-2026/Reactive-Counterfire-Why.pdf' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-lm-custody', 'usa-ttp-proactive-counterfire', 'usa-ttp-cf-allocation', 'usa-ttp-surv-tradeoff']
+  },
+  {
+    id: 'les-cf-mfb-strike',
+    topic: 'counterfire-survivability',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Corps', 'Brigade'],
+    type: 'Lesson',
+    title: 'Decentralisation: The Multifunctional Brigade-Strike Concept',
+    what: [
+      'Reported, not confirmed: the Army is testing the Multifunctional Brigade-Strike (MFB-Strike) construct at corps level to shorten the kill chain.'
+    ],
+    how: [
+      'Reported: PED intelligence cells and ADA battalions are attached directly to the Field Artillery Brigade.',
+      'Reported: the brigade is given delegated authority to process, clear and execute counter-fire without routing each mission through the corps main headquarters.',
+      'Reported: Warfighter Exercises 25-4 and 25-5 tested the concept and measured the reduction in kill chain times.'
+    ],
+    why: [
+      'Reported: central clearance of fires is too slow for a two to three minute engagement window.',
+      'The source report notes that open sources do not confirm whether unit establishments will be changed permanently.'
+    ],
+    sources: [
+      { title: 'FY25 Mission Command Training Program Key Observations', publisher: 'US Army', year: '2026', url: 'https://api.army.mil/e2/c/downloads/2026/02/13/f6b2aa2f/fy25-mission-command-training-program-key-observations.pdf' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-cf-ada-protection', 'usa-org-cf-processing', 'usa-org-corps-fab']
+  },
+  // --- CANNON ARTILLERY, UNITED STATES (added 2026.12) ---
+  {
+    id: 'usa-org-cannon-divarty',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'Force Structure',
+    title: 'Army Structure 2025–2029: Cannon Battalions Leave the Brigade',
+    what: [
+      'Army Structure (ARSTRUC) 2025–2029 replaces the Brigade Combat Team with the division as the Army’s principal warfighting formation.',
+      'Manoeuvre brigades lose their organic field artillery battalions. Cannon artillery is centralised under the Division Artillery.'
+    ],
+    how: [
+      'Under the earlier modular design, firing battalions sat inside the brigades and gave the brigade commander immediate, organic fire support.',
+      'Brigades also lose their cavalry squadrons, tactical drones such as Shadow and Raven, and brigade military intelligence companies.',
+      'The Division Artillery synchronises division fires, weights the main effort with massed artillery, and runs targeting across the deep, close and security areas.',
+      'Transformation in Contact equips selected brigades with new technology to offset the loss of 105mm and 155mm howitzers. Named units: 2nd Mobile Brigade, 101st Airborne Division; 2nd Light Brigade, 25th Infantry Division; 3rd Light Brigade, 10th Mountain Division.',
+      'Loitering munitions under the LASSO programme give these brigades a strike reach beyond the 14 km of an organic 105mm battery.'
+    ],
+    why: [
+      'Centralising at division gives the greatest ability to mass fires.',
+      'The cost is short-term: a brigade cannot detect targets and deliver lethal effects on its own without division approval.'
+    ],
+    sources: [
+      { title: 'Stop Looking Up: Organic Brigade Targeting Capabilities Through TiC', publisher: 'Field Artillery Professional Bulletin', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Field-Artillery/Field-Artillery-Archive/Field-Artillery-2026-E-Edition/Stop-Looking-Up-Organic-Brigade/' },
+      { title: 'Operational Lessons Learned by the 101st Division Artillery', publisher: 'Military Review', year: '2016', url: 'https://www.armyupress.army.mil/Portals/7/military-review/Archives/English/MilitaryReview_20160831_art014.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-arstruc-tic', 'usa-org-wlr-control', 'usa-org-lasso-platoons', 'usa-ttp-div-alloc']
+  },
+  {
+    id: 'usmc-org-cannon-fd2030',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['N/A'],
+    type: 'Force Structure',
+    title: 'Force Design 2030: Marine Cannon Batteries Cut from 21 to 7',
+    what: [
+      'Force Design 2030 reshapes the Marine Corps for expeditionary advanced base operations and distributed maritime operations, mainly in the Indo-Pacific.',
+      'Active cannon batteries are reduced from twenty-one to seven, with a small number of reserve batteries.'
+    ],
+    how: [
+      'The cut falls on the M777 155mm towed howitzer inventory.',
+      'The money and people freed go to HIMARS battalions and to the Navy/Marine Expeditionary Ship Interdiction System (NMESIS) for local sea control.',
+      'The planned number of active HIMARS batteries has itself changed more than once.'
+    ],
+    why: [
+      'The Corps is trading heavy ground combat elements for agile long-range precision fires that can strike ships.',
+      'The remaining M777 batteries are still judged critical. Precision rockets and missiles may be too scarce, costly or hard to supply for use against dispersed infantry.',
+      'Congressional committees have noted the risk and pressed the Corps to keep enough cannon capacity for contingencies.'
+    ],
+    sources: [{"title": "Force Design 2030 Annual Update", "publisher": "Headquarters, US Marine Corps", "year": "2023", "url": "https://www.marines.mil/Portals/1/Docs/Force_Design_2030_Annual_Update_June_2023.pdf"}],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-mlr', 'joint-eq-m777a2', 'joint-les-indopac']
+  },
+  {
+    id: 'joint-org-support-relationships',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Command & Control',
+    title: 'The Four Support Relationships',
+    what: [
+      'Cannon artillery in both services is employed under defined support relationships.',
+      'They settle who tasks the firing unit, who supplies it and where it fits in the wider plan.'
+    ],
+    how: [
+      'Direct Support (DS): the unit supports one named manoeuvre unit, such as an infantry battalion. It answers that commander’s requests for fire and sets up liaison and communications with that force.',
+      'General Support (GS): the unit supports the force as a whole. It stays under the Division Artillery or Field Artillery Brigade commander, for deep fires or massing across the division front.',
+      'Reinforcing (R): one artillery unit adds to the fires of another named artillery unit. It weights the main effort without changing the supported unit’s command structure.',
+      'General Support-Reinforcing (GSR): the unit supports the whole force first. Its second task is to reinforce a named direct support unit if the situation requires.'
+    ],
+    why: [
+      'The relationships set priority of fires and make sure limited assets are apportioned effectively.'
+    ],
+    sources: [
+      {"title": "MCWP 3-16.1: Artillery Operations", "publisher": "U.S. Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/MCWP%203-16.1%20Artillery%20Operations.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-corps-fab', 'usa-org-cf-echelons', 'usa-ttp-div-alloc']
+  },
+  {
+    id: 'usa-org-jagic-layout',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Division'],
+    type: 'Command & Control',
+    title: 'Inside the JAGIC: Layout, Shared Picture and Delegated Authority',
+    what: [
+      'The Joint Air-Ground Integration Center (JAGIC) at division deconflicts surface-to-surface fires with aircraft.',
+      'This entry adds the detail on its layout and tools. Its role is covered in earlier entries.'
+    ],
+    how: [
+      'The JAGIC sits next to the division intelligence (G-2) collection analysts, so that dynamic targets are prosecuted quickly.',
+      'Operators use a layer in the Command Post Computing Environment to overlay: friendly boundaries, significant activities, active targets from AFATDS, and active coordination measures such as Coordinated Fire Lines and No Fire Areas.',
+      'The division commander must explicitly delegate clearance of fires authority to the JAGIC Chief and Assistant Chief.'
+    ],
+    why: [
+      'With delegated authority, the JAGIC can shift assets and clear airspace without passing each request through layers of approval.',
+      'The aim is to defeat a peer enemy without fratricide among close air support or helicopters.'
+    ],
+    sources: [
+      { title: 'Operational Lessons Learned by the 101st Division Artillery', publisher: 'Military Review', year: '2016', url: 'https://www.armyupress.army.mil/Portals/7/military-review/Archives/English/MilitaryReview_20160831_art014.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-org-ta-external', 'usa-ttp-afatds-clearance', 'usa-ttp-airspace', 'joint-eq-jadocs-tais']
+  },
+  {
+    id: 'usa-eq-m119a3',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion'],
+    type: 'Equipment',
+    title: 'M119A3 105mm Towed Howitzer',
+    what: [
+      'The M119A3 is the main fire support weapon of Army light infantry, airborne and air assault brigades.',
+      'Combat weight 4,268 lb (1,936 kg). Range 14 km with high explosive, 19.5 km with rocket-assisted projectile.'
+    ],
+    how: [
+      'Towed by HMMWV or medium truck. Sling-loaded under UH-60 or CH-47 helicopters.',
+      'The A3 version has a digital fire control system and an inertial navigation system. The crew can locate and lay the gun without traditional survey equipment.',
+      'Artillery raid: helicopters lift the gun and its ammunition to a remote firing point. The gun fires and is lifted out before enemy counter-fire responds.'
+    ],
+    why: [
+      'Its very low weight gives the mobility that light forces need.'
+    ],
+    sources: [
+      {"title": "M119 howitzer still plays critical role for Army", "publisher": "U.S. Army", "year": "2015", "url": "https://www.army.mil/article/155135/M119_howitzer_still_plays_critical_role_for_Army"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-cannon-divarty', 'usa-ttp-survey-lay', 'usa-eq-ballistic-compare']
+  },
+  {
+    id: 'joint-eq-m777a2',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'Equipment',
+    title: 'M777A2 155mm Towed Howitzer',
+    what: [
+      'The M777A2 is the medium-weight howitzer of Army Stryker brigades. It is the whole of the Marine Corps cannon arsenal.',
+      'Combat weight about 9,300 lb (4,200 kg). Range 24 km with high explosive, 30 km with rocket-assisted projectile, 40 km with Excalibur.'
+    ],
+    how: [
+      'Built largely of titanium and aluminium alloys.',
+      'Towed by medium trucks. Sling-loaded under CH-47 or CH-53 helicopters.'
+    ],
+    why: [
+      'The alloys cut the weight by half against the older M198.',
+      'The lower weight allows airlift over longer distances and to higher altitudes in mountains.'
+    ],
+    sources: [
+      {"title": "Team effort by Army, Marine Corps and Australia improves range and accuracy of the M777A2 howitzer", "publisher": "U.S. Army", "year": "2019", "url": "https://www.army.mil/article/228556"},
+      {"title": "PEO Ammo picks up 155mm Lightweight Howitzer program", "publisher": "U.S. Army", "year": "2011", "url": "https://www.army.mil/article/53209/peo_ammo_picks_up_155mm_lightweight_howitzer_program"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-cannon-fd2030', 'usa-ttp-surv-displace', 'usa-eq-ballistic-compare']
+  },
+  {
+    id: 'usa-eq-m109a7',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion'],
+    type: 'Equipment',
+    title: 'M109A7 Paladin 155mm Self-Propelled Howitzer',
+    what: [
+      'The M109A7 is the heavy armoured howitzer of the Armored Brigade Combat Teams.',
+      'Combat weight 78,000 lb (35,380 kg). Range 24 km with high explosive, 30 km with rocket-assisted projectile, 40 km with Excalibur.'
+    ],
+    how: [
+      'It keeps the 155mm M284 39-calibre cannon and cab of the M109A6. The automotive design is new.',
+      'It uses the chassis, tracks and suspension parts of the Bradley Fighting Vehicle.',
+      'Cummins V903 engine of 675 horsepower, 600-volt electrical system, top speed 61 km/h.',
+      'Crew of four: section chief (commands and verifies all safety parameters), driver, gunner (digital alignment and elevation) and loader/ammunition handler.',
+      'An electrical rammer gives a maximum rate of 4 rounds a minute.',
+      'The M992A3 tracked ammunition carrier accompanies it and reloads it under armour by conveyor.'
+    ],
+    why: [
+      'Shared Bradley parts cut the supply and maintenance load across the armoured brigade.',
+      'Reloading under armour protects crews from fragments and counter-battery fire.'
+    ],
+    sources: [
+      { title: 'This Army unit tested the newest Paladin howitzer by firing hundreds of rounds a day for weeks', publisher: 'Army Times', year: '2018', url: 'https://www.armytimes.com/news/your-army/2018/04/23/this-army-unit-tested-the-newest-paladin-howitzer-by-firing-hundreds-of-rounds-a-day-for-weeks/' },
+      { title: 'M109A7 155mm self-propelled howitzer technical data sheet', publisher: 'Army Recognition', year: '', url: '' },
+      { title: 'M109 howitzer', publisher: 'Wikipedia', year: '', url: 'https://en.wikipedia.org/wiki/M109_howitzer' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-surv-displace', 'usa-eq-erca', 'usa-org-fdc-autonomous']
+  },
+  {
+    id: 'usa-eq-sphm',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'After ERCA: The Self-Propelled Howitzer Modernization Programme',
+    what: [
+      'Reported, not confirmed: after cancelling ERCA in April 2024, the Army began the Self-Propelled Howitzer Modernization (SPH-M) programme.',
+      'The source report cites encyclopaedia and press material for this entry.'
+    ],
+    how: [
+      'Reported: the Army is assessing mature, commercially available wheeled howitzers to supplement or replace towed guns in some formations.',
+      'Reported: prototype agreements went to several contractors for testing in 2024 and 2025.',
+      'Reported: a leading candidate is the XM1776 Mobile Tactical Cannon, a variant of the South Korean Hanwha K9. It has a 155mm 52-calibre gun and an automatic loader, at 8 to 9 rounds a minute.',
+      'Reported: other contenders are the Elbit Sigma, the French CAESAR and the Swedish Archer.'
+    ],
+    why: [
+      'Reported: wheeled systems move well on roads and can fire and leave quickly. Towed guns take much longer and more labour to emplace.',
+      'Reported: the Army judged that mobility and survivability matter more than extreme range.'
+    ],
+    sources: [
+      { title: 'K9 Thunder', publisher: 'Wikipedia', year: '', url: 'https://en.wikipedia.org/wiki/K9_Thunder' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-erca', 'usa-ttp-surv-displace', 'joint-eq-m777a2']
+  },
+  {
+    id: 'usa-eq-barrel-records',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'Barrel Wear, the M90 Velocimeter and the Firing Records',
+    what: [
+      'Every round wears the barrel through heat, friction and chemical erosion.',
+      'Wear is tracked in Equivalent Full Charges and recorded on two Army forms.'
+    ],
+    how: [
+      'Propellant comes as modular charges (the Modular Artillery Charge System). The charge sets muzzle velocity and range.',
+      'A low-charge practice round counts as a fraction of one Equivalent Full Charge. A maximum-charge rocket-assisted round counts much higher.',
+      'As the barrel wears, its bore widens, typically a tolerable 1 to 5 percent. Gas pressure behind the round falls, and so does muzzle velocity.',
+      'The M90 velocimeter is a Doppler radar mounted over the barrel. It measures the muzzle velocity of each round.',
+      'DA Form 4982, Muzzle Velocity Record: holds the readings. The trend is applied to later firing solutions through the digital fire control system.',
+      'DA Form 4513, Record of Missions Fired: the section chief records projectile type, lot number, fuze setting, charge, deflection and quadrant elevation for every mission.'
+    ],
+    why: [
+      'Lower muzzle velocity means shorter range and worse accuracy unless it is corrected.',
+      'DA Form 4513 serves supply accounting and safety investigation. It is also the main data source for computing remaining barrel life.'
+    ],
+    sources: [
+      {"title": "FM 6-40 / MCWP 3-16.4: Tactics, Techniques, and Procedures for Field Artillery Manual Cannon Gunnery", "publisher": "U.S. Army / U.S. Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-mv', 'les-tfd-worn-barrels', 'usa-eq-erca', 'usa-eq-survey-met-devices']
+  },
+  {
+    id: 'joint-eq-nabk-model',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'Inside the NATO Ballistic Kernel: The Trajectory Model',
+    what: [
+      'This entry adds the mathematics used by the NATO Armaments Ballistic Kernel (NABK), under STANAG 4355.',
+      'The kernel itself is covered in the technical fire direction topic.'
+    ],
+    how: [
+      'Spin-stabilised shells, such as 155mm high explosive, use a 4-degree-of-freedom Modified Point Mass Model.',
+      'Fin-stabilised rockets use a 5-degree-of-freedom model.',
+      'The model computes the yaw of repose: the slight off-axis angle a spinning shell takes from gyroscopic drift and crosswind. Drag and lift are then predicted through the whole flight.',
+      'The trajectory is integrated with a fourth-order Runge-Kutta-Fehlberg scheme, using the WGS84 ellipsoid Earth model and three-dimensional wind.'
+    ],
+    why: [
+      'A simple parabola ignores the aerodynamic forces on the shell.',
+      'With the shared kernel, a US AFATDS terminal and an allied fire control system compute the same trajectory.'
+    ],
+    sources: [
+      {"title": "Armaments Center focuses on creating ballistic kernels for small arms, armored vehicles", "publisher": "U.S. Army DEVCOM", "year": "2020", "url": "https://www.army.mil/article/241742/armaments_center_focuses_on_creating_ballistic_kernels_for_small_arms_armored_vehicles"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-nabk', 'usa-eq-ballistic-compare', 'joint-eq-asca']
+  },
+  {
+    id: 'usa-ttp-reciprocal-lay',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Reciprocal Laying, the LARS Rule and the Safety Diagram',
+    what: [
+      'When a battery occupies a position, every howitzer is oriented to a common azimuth of fire. The method is reciprocal laying.',
+      'Before any round is fired, the battery leadership sets safety limits on DA Form 5859, the Safety Diagram.'
+    ],
+    how: [
+      'The Safety Diagram plots the left and right limits, maximum and minimum elevations, and no-fire zones from the manoeuvre commander’s guidance.',
+      'An operator with the M2A2 aiming circle sights on the howitzer’s panoramic telescope.',
+      'The 0-3200 mil line of the aiming circle is matched with the howitzer sight. The barrel is then parallel to the grid azimuth.',
+      'Crews apply the LARS rule, Left Add, Right Subtract, for deflection differences.',
+      'The gunner then sets out a collimator or distant aiming posts as a lasting reference point.'
+    ],
+    why: [
+      'Artillery is dangerous to friendly forces if miscalculated.',
+      'The reference point shows whether the gun has shifted under the recoil of sustained firing.'
+    ],
+    sources: [
+      {"title": "FM 6-40 / MCWP 3-16.4: Tactics, Techniques, and Procedures for Field Artillery Manual Cannon Gunnery", "publisher": "U.S. Army / U.S. Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-survey-lay', 'usa-ttp-fdc-safety', 'usa-ttp-manual-gunnery']
+  },
+  {
+    id: 'usa-trn-cannon-specialties',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'The Cannon Crewmember and the Artillery Specialties',
+    what: [
+      'Artillery people are trained at the Fires Center of Excellence, Fort Sill, Oklahoma.',
+      'The specialty new to this topic is the Cannon Crewmember: Army 13B, Marine 0811.'
+    ],
+    how: [
+      '13B / 0811 Cannon Crewmember, 5–7 weeks: operates the howitzer, handles ammunition, carries out manual and digital gunnery commands, emplaces and displaces.',
+      '13F / 0861 Fire Support Specialist, 10–11 weeks: forward observer with manoeuvre units.',
+      '13J / 0844 Fire Control Specialist, 7–11 weeks: operates AFATDS and manual fire direction.',
+      '13R / 0842 Radar Operator, about 8 weeks: emplaces and operates counter-fire radars.',
+      'Officers, Army 13A and Marine 0802, enter through the Field Artillery Basic Officer Leader Course of 18 weeks: gunnery mathematics, call for fire, digital fire control and targeting.',
+      'A marked step in the 13A career is the move from battery leadership on the gun line to Fire Support Officer in a manoeuvre battalion.'
+    ],
+    why: [
+      'The branch needs technical skill, fast computation and a feel for space across the battlefield.'
+    ],
+    sources: [
+      {"title": "13B Cannon Crewmember", "publisher": "428th Field Artillery Brigade, Fort Sill", "year": "", "url": "https://sill-www.army.mil/428thfa/ait/mos/13B/index.html"},
+      {"title": "U.S. Army Field Artillery School", "publisher": "Fires Center of Excellence, Fort Sill", "year": "", "url": "https://sill-www.army.mil/usafas"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-fabolc', 'usa-trn-fdc-enlisted', 'usa-trn-13f', 'usa-trn-ta-pipelines']
+  },
+  {
+    id: 'usa-trn-cannon-experts',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'The Technical Experts: Master Gunner and Targeting Technician',
+    what: [
+      'Two expert roles support the commander: the Field Artillery Master Gunner and the warrant officer Targeting Technician (131A).'
+    ],
+    how: [
+      'The Master Gunner qualification is a milestone for senior non-commissioned officers. It carries Additional Skill Identifier A7.',
+      'The Master Gunner is the battalion commander’s expert on weapon systems, gunnery procedures and ammunition. Duties: unit certification, managing met data, and compliance with safety rules.',
+      '131A warrant officers begin in target acquisition, managing radars and sensor-to-shooter links. At brigade and division they become the integrators of the targeting process.'
+    ],
+    why: [
+      'A persistent problem is noted in 131A development: “tunnel vision”, deep in artillery process but weak on intelligence and manoeuvre.',
+      'Senior leaders call for broadening assignments outside artillery, to produce targeting officers who can manage joint airspace and collection.'
+    ],
+    sources: [
+      {"title": "U.S. Army Field Artillery School", "publisher": "Fires Center of Excellence, Fort Sill", "year": "", "url": "https://sill-www.army.mil/usafas"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-ta-mos', 'usa-org-c2-specialties', 'usa-trn-artillery-tables']
+  },
+  {
+    id: 'usa-trn-killchain-metrics',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Readiness by Continuous Kill-Chain Data',
+    what: [
+      'Artillery units certify through the Artillery Tables of TC 3-09.8.',
+      'The list of tables under this heading was not received with the source report. The tables are covered in earlier entries.'
+    ],
+    how: [
+      'Readiness models are moving from annual, static certification to continuous measurement.',
+      'Units log occupation times, target acquisition intervals and fire mission processing times.',
+      'The times are logged for each digital pathway, for example radar to FDC to gun line, and Fire Support Team to FDC to gun line.'
+    ],
+    why: [
+      'The aim is to prove the network is resilient before combat, across more than one pathway.'
+    ],
+    sources: [
+      {"title": "TC 3-09.8, Fire Support and Field Artillery Certification and Qualification", "publisher": "Headquarters, Department of the Army", "year": "2020", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN30053-TC_3-09.8-001-WEB-1.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-artillery-tables', 'usa-trn-surv-tables', 'usa-ttp-mission-latency']
+  },
+  {
+    id: 'les-cannon-drones-gps',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'Lesson',
+    title: 'Ukraine: Drones Push the Guns Back, Jamming Blunts Guided Rounds',
+    what: [
+      'Reported, not confirmed: the source report gives no specific source for these observations from the Russia-Ukraine war.'
+    ],
+    how: [
+      'Reported: reconnaissance drones fill the airspace and widen the “kill zone”. HIMARS and Paladins are pushed further behind the forward line to avoid detection.',
+      'Reported: Russian forces hunt these systems with ZALA and Supercam drones.',
+      'Reported: Russian jamming, spoofing and meaconing have made GPS-guided munitions such as Excalibur and guided rockets miss more often.',
+      'Reported: US cannon crews are drilling manual optical alignment, hasty survey without satellites and manual gunnery charts.'
+    ],
+    why: [
+      'Reported: the assumption that GPS is always available no longer holds.',
+      'Reported: crews must keep firing when networks are cut by cyber or electronic attack.'
+    ],
+    sources: [
+      {"title": "Russian jamming of U.S. weapons in Ukraine forces Pentagon to adjust", "publisher": "The Washington Post", "year": "2024", "url": "https://www.washingtonpost.com/world/2024/05/24/russia-jamming-us-weapons-ukraine/"}
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-tfd-gps-jamming', 'les-ukraine-uas', 'usa-ttp-manual-gunnery', 'les-cf-three-minute']
+  },
+  // --- ROCKET AND MISSILE ARTILLERY, UNITED STATES (added 2026.12) ---
+  {
+    id: 'usa-org-rkt-crew-platoon',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Force Structure',
+    title: 'The Launcher Crew and Platoon',
+    what: [
+      'An M142 HIMARS or M270A2 MLRS launcher has a crew of three: Section Chief, Gunner and Driver.',
+      'All three hold the specialty 13M, Multiple Launch Rocket System Crewmember.',
+      'A launcher platoon has three or four launchers, depending on the unit’s authorised organisation, under a Platoon Headquarters.'
+    ],
+    how: [
+      'Section Chief: commands the vehicle, verifies the digital firing data, manages local security, and is responsible for safety and the mission.',
+      'Gunner: works the fire control panel, enters commands and monitors the ballistic calculation. The panel is the Universal Fire Control System (UFCS) or the newer Common Fire Control System (CFCS).',
+      'Driver: maintains the vehicle and positions it at the firing point.',
+      'The Platoon Headquarters holds the Fire Direction System (FDS). It is the data link between the battery headquarters and the launchers, and distributes targets.'
+    ],
+    why: [
+      'Three is the minimum to run the vehicle continuously, fire from inside the armoured cab and reload with the launcher’s own crane.',
+      'A larger crew that dismounts to aim or load was rejected. It lengthens the halt and so the exposure to counter-battery fire.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.60: Techniques for MLRS and HIMARS Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://www.scribd.com/document/488064375/atp3-09x60' },
+      { title: 'The Sniper of Artillery: Ultimate Guide to the M142 HIMARS', publisher: 'The Defense Post', year: '2025', url: 'https://thedefensepost.com/2025/07/15/m142-himars-guide/' },
+      { title: 'FM 6-60: Tactics, Techniques, and Procedures for MLRS Operations', publisher: 'Headquarters, Dept. of the Army', year: '1996', url: 'https://www.bits.de/NRANEU/others/amd-us-archive/FM6-60%281996%29.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-fdc', 'usa-trn-13m', 'joint-ttp-rkt-cycle', 'joint-eq-m142']
+  },
+  {
+    id: 'usa-org-rkt-battalion',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division', 'Corps'],
+    type: 'Force Structure',
+    title: 'The Rocket Battery and Battalion',
+    what: [
+      'A rocket battalion has a Headquarters and Headquarters Battery (HHB), a Forward Support Company (FSC) and three firing batteries.',
+      'Each firing battery typically has six launchers. The battalion has 18.',
+      'Rocket battalions are echelon-above-brigade (EAB) units.'
+    ],
+    how: [
+      'The battalion works under a Field Artillery Brigade or a Division Artillery headquarters.',
+      'That headquarters allocates it to division, corps or joint task force objectives through support relationships such as General Support or Reinforcing.',
+      'The HHB holds the battalion command post and the battalion fire direction centre, which processes deep strike requests from higher headquarters.',
+      'The FSC sits in the battalion trains. Its heavy cargo trucks move rocket pods from the brigade support area to the battery reload points.'
+    ],
+    why: [
+      'Range, from 15 km to beyond 300 km, and heavy supply needs make these units theatre-level strike assets, not close-support weapons.',
+      'Brigade Combat Teams lack the sustainment to move multi-tonne rocket pods.',
+      'Holding the battalions at brigade or division artillery level lets the corps commander mass precision fires across the whole area of operations.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.60: Techniques for MLRS and HIMARS Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://www.scribd.com/document/488064375/atp3-09x60' },
+      { title: 'FM 3-09.22: Tactics, Techniques and Procedures for Corps Artillery, Division Artillery and Field Artillery Brigade Operations', publisher: 'Headquarters, Dept. of the Army', year: '', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-corps-fab', 'joint-org-support-relationships', 'usa-org-cf-echelons', 'joint-ttp-rkt-reload']
+  },
+  {
+    id: 'usa-org-rkt-reserve',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'Force Structure',
+    title: 'National Guard Rocket Battalions and Exercises',
+    what: [
+      'The Army National Guard (ARNG) holds a substantial part of total US rocket artillery.',
+      'Its units are organised like active units: 18-launcher battalions under National Guard Field Artillery Brigades.',
+      'The reasons given under Why are the source report’s own analysis, not an official statement.'
+    ],
+    how: [
+      'Guard rocket units are often allocated to active corps and divisions for major exercises and deployments.',
+      'They carry out the same missions, deep strike and counter-fire, and join the active command and control network through AFATDS.',
+      'Guard soldiers keep current through weekend drills, two-week annual training and Regional Training Institutes (RTIs), which cover system upgrades.',
+      'Exercises such as Keen Sword in the Pacific drill rapid deployment by airlift and the deployment of NMESIS across island chains.'
+    ],
+    why: [
+      'Analysis: rocket operations rest on digital systems, strict gunnery and rehearsed mechanical drills, not fluid manoeuvre. Reserve units can keep that technical standard in garrison.',
+      'Analysis: holding the launchers in the reserve in peacetime is cost-effective, and they can still mobilise quickly.',
+      'Analysis: the real test of rocket artillery is the network that feeds it targets. Multinational exercises stress the sensor-to-shooter link.'
+    ],
+    sources: [
+      { title: 'ARNG Enlisted MOS Specifications', publisher: 'Headquarters, Dept. of the Army', year: '2025', url: 'https://api.army.mil/e2/c/downloads/2025/12/04/20612de5/chapter-10c-enlisted-mos-specifications.pdf' },
+      { title: 'FY24 National Guard and Reserve Equipment Report', publisher: 'US Department of Defense', year: '2024', url: 'https://prhome.defense.gov/Portals/52/Documents/MRA_Docs/RI/FY24%20National%20Guard%20and%20Reserve%20Equipment%20Report%20Final%202.pdf' },
+      { title: 'How U.S. HIMARS, Typhon and NMESIS Missile Systems Could Complicate Chinese Operations Near Taiwan', publisher: 'Army Recognition', year: '', url: 'https://www.armyrecognition.com/focus-analysis-conflicts/army/analysis-defense-and-security-industry/how-u-s-himars-typhon-and-nmesis-missile-systems-could-complicate-chinese-operations-near-taiwan' }
+    ],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-rkt-battalion', 'usa-org-corps-fab', 'joint-ttp-hirain', 'joint-eq-asca']
+  },
+  {
+    id: 'usmc-org-nmesis-units',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'Force Structure',
+    title: 'Marine Anti-Ship Missile Batteries',
+    what: [
+      'Under Force Design 2030 the Marine Corps is forming Medium Missile Battalions equipped with NMESIS.',
+      'A full NMESIS battery is designed to have 18 launchers.',
+      'The plan is 14 medium-range missile batteries by 2030. Three go to the Marine Littoral Regiments in the Indo-Pacific. The rest are in units in the continental United States as a rotation base.'
+    ],
+    how: [
+      'The batteries sit in the Littoral Combat Team (LCT), the core of the regiment, alongside infantry. The regiment also has a littoral anti-air battalion.',
+      'They are designed to disperse quickly across island chains and fire Naval Strike Missiles (NSM) at enemy surface ships, creating local zones of sea control.',
+      'The 3rd Marine Littoral Regiment in Hawaii and the 12th in Okinawa are integrating NMESIS batteries into joint exercises in the Pacific.',
+      'Reported, not confirmed: the Corps has stood up its first Medium Missile Battalion. The source for this is a daily news brief.'
+    ],
+    why: [
+      'The Corps gave up most of its towed cannon and its heavy armour to free people, lift and money for these units.',
+      'The reasoning comes from Expeditionary Advanced Base Operations. Short-range land-attack cannon are of little use against warships.',
+      'Ground launchers on austere islands can threaten a fleet and are hard to target.'
+    ],
+    sources: [
+      { title: 'Force Design 2030 Annual Update', publisher: 'Headquarters, US Marine Corps', year: '2022', url: 'https://www.marines.mil/Portals/1/Docs/Force_Design_2030_Annual_Update_May_2022.pdf' },
+      { title: 'Corps views new ship-killing system as key to Force Design modernization', publisher: 'US Marine Corps', year: '2021', url: 'https://www.marines.mil/News/News-Display/Article/2773565/corps-views-new-ship-killing-system-as-key-to-force-design-modernization/' },
+      { title: 'U.S. Denial Strategy against China and Operational Concepts (NIDS Perspectives)', publisher: 'National Institute for Defense Studies, Japan', year: '2025', url: 'https://www.nids.mod.go.jp/english/publication/perspectives/pdf/2025/8_eChapter06.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-mlr', 'usmc-org-cannon-fd2030', 'usmc-eq-nmesis', 'joint-les-indopac']
+  },
+  {
+    id: 'joint-ttp-rkt-cycle',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Hide, Fire, Reload: The Launcher Cycle',
+    what: [
+      'Launchers survive by a fixed cycle: hide area, firing point, reload point.',
+      'From halting at the firing point to launch takes typically 16 to 60 seconds. The published standard can be as little as 16 seconds to aim and fire, depending on the crew’s readiness state.'
+    ],
+    how: [
+      'Hide area: the launcher is camouflaged and concealed, powered down or idling to cut its heat and electronic signature. The crew stays in the cab, runs digital communications checks and receives target data through AFATDS.',
+      'The Platoon Headquarters keeps the external communications, so the launcher itself does not emit.',
+      'Firing point: on an executable fire mission the launcher drives to a surveyed point, or to a point updated by its own navigation system. GPS and inertial navigation fix its location, altitude and orientation. The launcher aims itself. Nobody dismounts.',
+      'The launcher displaces as soon as the rockets leave, before enemy radar can compute its point of origin.',
+      'Reload point: the launcher meets a resupply vehicle and changes pods, then returns to a hide area or goes to another firing point.'
+    ],
+    why: [
+      'Staying in place after firing leads to destruction by counter-battery fire.',
+      'The design trade was to pay for on-board navigation and aiming, so the crew never dismounts to survey. That saves minutes on every mission.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.60: Techniques for MLRS and HIMARS Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://www.scribd.com/document/488064375/atp3-09x60' },
+      { title: 'The Sniper of Artillery: Ultimate Guide to the M142 HIMARS', publisher: 'The Defense Post', year: '2025', url: 'https://thedefensepost.com/2025/07/15/m142-himars-guide/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-surv-displace', 'les-cf-three-minute', 'usa-ttp-radar', 'joint-ttp-rkt-reload']
+  },
+  {
+    id: 'joint-ttp-rkt-mission',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Processing a Rocket Mission: The Launcher Computes Its Own Solution',
+    what: [
+      'Rocket fire missions do not use traditional voice commands.',
+      'AFATDS at battery or battalion pushes target data directly to the launcher’s fire control system.'
+    ],
+    how: [
+      'The launcher’s computer works out the final firing solution itself. It corrects for the vehicle’s exact tilt and angle and for meteorological data.',
+      'At My Command (AMC): the crew waits for a final voice or digital authorisation to fire.',
+      'Time on Target: the computer works out when to launch so that the munitions arrive at the coordinated second.',
+      'Launchers hold different readiness states. In the highest, the pods are raised and aimed at a probable target, waiting only for final confirmation.'
+    ],
+    why: [
+      'Computing at the launcher removes the need for a level, carefully surveyed position.',
+      'The vehicle can pull onto rough ground, compute its own offset and fire at once.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.60: Techniques for MLRS and HIMARS Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://www.scribd.com/document/488064375/atp3-09x60' },
+      { title: 'FM 6-60: Tactics, Techniques, and Procedures for MLRS Operations', publisher: 'Headquarters, Dept. of the Army', year: '1996', url: 'https://www.bits.de/NRANEU/others/amd-us-archive/FM6-60%281996%29.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-fdc-mission', 'usa-eq-afatds-arch', 'usa-ttp-registration-massing', 'usa-org-rkt-crew-platoon']
+  },
+  {
+    id: 'joint-ttp-rkt-tle',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Target Location Standards for Guided Rockets',
+    what: [
+      'Guided rockets and missiles are fired only against coordinates that meet a Target Location Error (TLE) standard.',
+      'TLE is the greatest acceptable distance between the coordinates given to the launcher and the target’s true position.'
+    ],
+    how: [
+      'Before the mission goes to a launcher, the fires cell refines the coordinates by mensuration to TLE Category 1 or 2, usually accurate to within a few metres.',
+      'Targets that justify this effort include command posts, air defence radars, logistics nodes and massed troops.'
+    ],
+    why: [
+      'Precision munitions are costly, in high demand and few in number.',
+      'A guided rocket flies accurately to the coordinates it is given. If the coordinates are poor, it hits empty ground.',
+      'Doctrine therefore withholds guided rockets until sensors can produce a very low TLE.'
+    ],
+    sources: [
+      { title: 'Department of Defense Dictionary of Military and Associated Terms', publisher: 'US Department of Defense', year: '', url: 'https://irp.fas.org/doddir/dod/dictionary.pdf' },
+      { title: 'ATP 3-09.60: Techniques for MLRS and HIMARS Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://www.scribd.com/document/488064375/atp3-09x60' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-poi-accuracy', 'usa-ttp-cff', 'joint-eq-rkt-munitions', 'usa-ttp-cf-weapon-choice']
+  },
+  {
+    id: 'joint-ttp-rkt-airspace',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Clearing Airspace for Rockets and Missiles',
+    what: [
+      'Rockets and missiles fly a high trajectory. Firing them needs airspace cleared by Restricted Operations Zones (ROZ) and coordination altitudes.'
+    ],
+    how: [
+      'The airspace element in the fires cell deconflicts the airspace digitally before the launcher fires.',
+      'One temporary ROZ is set around the firing point, to protect the climbing rockets.',
+      'A second is set around the target area, to protect the descending rockets.',
+      'Coordination altitudes are set to clear the apogee, the highest point of flight.',
+      'Aircraft in the theatre are routed around these zones.'
+    ],
+    why: [
+      'Rockets climb tens of thousands of feet. Without clearance they could strike friendly aircraft, drones or close air support.',
+      'The cost is time. Clearance can delay urgent missions unless the airspace system is highly automated.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.12: Field Artillery Counterfire and Weapons Locating Radar Operations', publisher: 'Headquarters, Dept. of the Army', year: '2021', url: 'https://www.scribd.com/document/555689747/ATP-3-09-12-Field-Artillery-Counterfire-and-Weapons-Locating-Radar-Operations-2021' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-airspace', 'usa-ttp-lm-freefly-roz', 'usa-org-jagic-layout', 'usa-ttp-afatds-clearance']
+  },
+  {
+    id: 'joint-ttp-rkt-roles',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Division', 'Corps'],
+    type: 'TTP',
+    title: 'What Rockets Are for: The Four Roles',
+    what: [
+      'Doctrine gives rocket artillery four roles: deep strike, counter-fire, Suppression of Enemy Air Defences (SEAD), and general support to manoeuvre forces.'
+    ],
+    how: [
+      'In large-scale combat, rocket battalions go mainly to deep strike and SEAD.',
+      'They engage well beyond the Forward Line of Own Troops (FLOT), on target data received through AFATDS from deep-sensing drones or special operations forces.',
+      'When enemy artillery opens fire, rocket units are heavily tasked with counter-fire against batteries located by friendly radar.'
+    ],
+    why: [
+      'Analysis: range and precision make rockets the only ground weapon able to shape the deep battlefield.',
+      'Analysis: a guided rocket on an ordinary trench line is a waste when cannon can do the same task far more cheaply. Rockets are kept for operational-level targets that enable the manoeuvre plan.'
+    ],
+    sources: [
+      { title: 'Field Artillery Professional Bulletin', publisher: 'Fires Center of Excellence', year: '', url: 'https://d34w7g4gy10iej.cloudfront.net/pubs/pdf_40955.pdf' },
+      { title: 'ATP 3-09.60: Techniques for MLRS and HIMARS Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://www.scribd.com/document/488064375/atp3-09x60' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-cf-rockets', 'usa-ttp-cf-weapon-choice', 'usa-org-corps-fab', 'usa-ttp-proactive-counterfire']
+  },
+  {
+    id: 'joint-ttp-hirain',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'HIMARS Rapid Infiltration (HI-RAIN)',
+    what: [
+      'HIMARS and NMESIS are built to be carried by C-130 transport aircraft.',
+      'Used tactically, this is a HIMARS Rapid Infiltration (HI-RAIN) mission.'
+    ],
+    how: [
+      'A loaded HIMARS is flown to an austere forward airfield.',
+      'It receives target data, often by satellite link while still in the air.',
+      'It rolls off the ramp and fires within minutes of landing.',
+      'It reverses back onto the aircraft and is flown out before the enemy can react to the launch.'
+    ],
+    why: [
+      'Airlift lets a commander threaten deep strikes from unexpected directions, without a permanent and vulnerable ground presence.',
+      'It matters most in the Pacific, where the distances between islands rule out road marches.'
+    ],
+    sources: [
+      { title: 'The Sniper of Artillery: Ultimate Guide to the M142 HIMARS', publisher: 'The Defense Post', year: '2025', url: 'https://thedefensepost.com/2025/07/15/m142-himars-guide/' },
+      { title: 'Changes in U.S. Indo-Pacific Military Strategy and U.S. Bases', publisher: 'Naval War College Review', year: '', url: 'https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?article=8439&context=nwc-review' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-m142', 'joint-les-indopac', 'usaf-org-asoc', 'usa-ttp-surv-displace']
+  },
+  {
+    id: 'joint-ttp-rkt-reload',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Reloading at the Launcher',
+    what: [
+      'The three-person crew reloads a HIMARS or M270A2 with a crane built into the Launcher-Loader Module (LLM).',
+      'A trained crew completes the reload in 5 to 10 minutes under tactical conditions.'
+    ],
+    how: [
+      'After firing, the launcher drives to a reload point where a resupply truck or trailer is waiting. The source report names the Heavy Expanded Mobility Tactical Truck (HEMTT), the M1084 truck and the Heavy Expanded Mobility Ammunition Trailer (HEMAT).',
+      'The launcher backs up to the truck and extends its boom.',
+      'It hooks the empty pod and sets it on the ground or the trailer.',
+      'It hoists a fresh pod of 2,270 kg into the launcher.'
+    ],
+    why: [
+      'No separate crane vehicle has to travel with the firing unit.',
+      'Fewer vehicles gather at the reload point, the platoon’s supply footprint is smaller, and the tempo is faster.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.60: Techniques for MLRS and HIMARS Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://www.scribd.com/document/488064375/atp3-09x60' },
+      { title: 'The Sniper of Artillery: Ultimate Guide to the M142 HIMARS', publisher: 'The Defense Post', year: '2025', url: 'https://thedefensepost.com/2025/07/15/m142-himars-guide/' },
+      { title: 'FM 55-15: Transportation Reference Data', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.marines.mil/Portals/1/Publications/FM%2055-15.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-rkt-cycle', 'usa-org-rkt-battalion', 'usa-ttp-surv-dispersion', 'les-lm-logistics']
+  },
+  {
+    id: 'joint-ttp-rkt-jamming',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Firing Under Satellite Navigation Jamming',
+    what: [
+      'Adversaries field military-grade GPS jamming and spoofing.',
+      'US forces are fitting Anti-Jam Antenna Systems (AJAS) and M-code receivers to both the launcher’s navigation suite and the guidance of GMLRS rockets.'
+    ],
+    how: [
+      'M-code is an encrypted, jam-resistant military GPS signal.',
+      'Without GPS, a guided rocket falls back on its Inertial Measurement Unit (IMU).',
+      'An IMU cannot be jammed, but its error grows with time of flight. Over a 90 km flight, a purely inertial rocket may miss by a significant margin.'
+    ],
+    why: [
+      'AJAS and M-code keep precision strikes possible under Russian or Chinese electronic warfare.'
+    ],
+    sources: [
+      { title: 'Army Portfolio 2024', publisher: 'Headquarters, Dept. of the Army', year: '2024', url: 'https://api.army.mil/e2/c/downloads/533115.pdf' },
+      { title: 'Worldwide Equipment Guide', publisher: 'US Army', year: '', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['les-tfd-gps-jamming', 'les-ukraine-ew', 'les-rkt-ukraine', 'usa-ttp-jamming-signs']
+  },
+  {
+    id: 'joint-eq-m142',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'M142 HIMARS Launcher',
+    what: [
+      'The M142 High Mobility Artillery Rocket System is a wheeled launcher on the 6x6, 5-ton truck chassis of the Family of Medium Tactical Vehicles (FMTV).',
+      'Combat weight 16,250 kg. Maximum road speed 85–94 km/h. Operating range 480 km. Crew of three.'
+    ],
+    how: [
+      'It carries one pod: six GMLRS rockets, or one ATACMS missile, or two Precision Strike Missiles.',
+      'The armoured cab protects against small arms fire and shell splinters.',
+      'It can be carried by C-130.',
+      'It uses common FMTV parts from the Army’s wheeled vehicle supply chain.'
+    ],
+    why: [
+      'It was developed as a lighter, more deployable alternative to the M270.',
+      'The trade was half the firepower, one pod not two, in return for C-130 airlift, lower sustainment and maintenance, and faster road marches.',
+      'That suits expeditionary forces and rapid infiltration missions.'
+    ],
+    sources: [
+      { title: 'HIMARS product page', publisher: 'Lockheed Martin', year: '', url: 'https://www.lockheedmartin.com/en-us/products/himars.html' },
+      { title: 'The Sniper of Artillery: Ultimate Guide to the M142 HIMARS', publisher: 'The Defense Post', year: '2025', url: 'https://thedefensepost.com/2025/07/15/m142-himars-guide/' },
+      { title: 'M142 HIMARS', publisher: 'Wikipedia', year: '', url: 'https://en.wikipedia.org/wiki/M142_HIMARS' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-cf-rockets', 'usa-eq-m270a2', 'joint-ttp-hirain', 'joint-eq-rkt-munitions']
+  },
+  {
+    id: 'usa-eq-m270a2',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'M270A2 MLRS Launcher',
+    what: [
+      'The M270A2 is a tracked heavy launcher on a modified Bradley Fighting Vehicle chassis.',
+      'Loaded weight about 25,191 kg. Top road speed 64 km/h. Crew of three. Carried by C-17.'
+    ],
+    how: [
+      'It carries two pods: twelve GMLRS rockets, or two ATACMS missiles, or four Precision Strike Missiles.',
+      'The A2 programme is rebuilding existing launchers with a 600-horsepower engine, the Common Fire Control System, upgraded transmissions and an Improved Armored Cab (IAC).'
+    ],
+    why: [
+      'Tracks give the best cross-country mobility, for example in deep mud where wheeled vehicles may bog down.',
+      'Two pods give the greatest volume of fire for suppression.',
+      'The A2 upgrades were needed for Extended-Range GMLRS and the Precision Strike Missile: new fire control electronics, and heavier armour against the stronger backblast.'
+    ],
+    sources: [
+      { title: 'M270 product page', publisher: 'Lockheed Martin', year: '', url: 'https://www.lockheedmartin.com/en-us/products/m270.html' },
+      { title: 'Lockheed modernised M270 launcher for the US Army', publisher: 'Army Technology', year: '', url: 'https://www.army-technology.com/news/lockheed-modernised-m270-launcher-us-army/' },
+      { title: 'M270 MLRS 227mm', publisher: 'Army Recognition', year: '', url: 'https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/multiple-launch-rocket-systems/m270-mlrs-227mm' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-m142', 'usa-eq-cf-rockets', 'joint-eq-rkt-munitions', 'usa-eq-m109a7']
+  },
+  {
+    id: 'joint-eq-rkt-munitions',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'Equipment',
+    title: 'The Rocket and Missile Family: GMLRS, ATACMS and PrSM',
+    what: [
+      'GMLRS (M31 series): 15–92 km. In full-rate production.',
+      'Extended-Range GMLRS: up to 150 km. Entering production and qualification.',
+      'ATACMS (M57): up to 300 km, 500 lb unitary warhead. Being replaced.',
+      'Precision Strike Missile (PrSM) Increment 1: beyond 400 km. In low-rate initial production.',
+      'All are fired from both HIMARS and the M270A2.'
+    ],
+    how: [
+      'GMLRS carries a 200 lb high-explosive unitary warhead, or the Alternative Warhead, which throws tungsten fragments.',
+      'PrSM is slimmer than ATACMS. Two fit in a standard pod, against one ATACMS.',
+      'PrSM Increment 2 is developing a multi-mode seeker for anti-ship use.',
+      'Reported: PrSM Increment 4 aims at 1,000 km using a ramjet. The source is press coverage of a prototype.'
+    ],
+    why: [
+      'Two missiles a pod doubles a launcher’s deep-strike load.',
+      'The longer range lets Army units strike deep rear areas without relying on vulnerable Air Force aircraft.'
+    ],
+    sources: [
+      { title: 'GAO-26-108457', publisher: 'US Government Accountability Office', year: '2026', url: 'https://www.gao.gov/assets/gao-26-108457.pdf' },
+      { title: 'Lockheed Martin Showcases 1000 km PrSM Inc 4 Prototype', publisher: 'Naval News', year: '2026', url: 'https://www.navalnews.com/naval-news/2026/10/lockheed-martin-showcases-1000-km-prsm-inc-4-prototype/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-m142', 'usa-eq-m270a2', 'joint-ttp-rkt-tle', 'usa-org-mdtf']
+  },
+  {
+    id: 'usmc-eq-nmesis',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'USMC',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'NMESIS and the ROGUE-Fires Launcher',
+    what: [
+      'The Navy/Marine Corps Expeditionary Ship Interdiction System (NMESIS) is an unmanned launcher vehicle carrying two Naval Strike Missiles.',
+      'The vehicle is the Remotely Operated Ground Unit for Expeditionary Fires (ROGUE-Fires). It has no crew on board.',
+      'Its weight and speed were not found in open sources.'
+    ],
+    how: [
+      'ROGUE-Fires is a heavily modified 4x4 truck derived from the Joint Light Tactical Vehicle (JLTV).',
+      'It can be carried by C-130.',
+      'The Naval Strike Missile has a 260 lb blast-fragmentation warhead. It engages moving ships and fixed land targets at ranges exceeding 185 km.',
+      'Hitting a moving ship at that range needs a track from outside naval or air sensors.'
+    ],
+    why: [
+      'With no crew at the launch site, Marines are out of immediate danger.',
+      'No crew support equipment means a smaller footprint that is harder to detect on austere islands.',
+      'The cost is dependence on robust remote control links that resist jamming.'
+    ],
+    sources: [
+      { title: 'U.S. Marines buy more unmanned anti-ship missile launchers', publisher: 'Defence Blog', year: '', url: 'https://defence-blog.com/u-s-marines-buy-more-unmanned-anti-ship-missile-launchers/' },
+      { title: 'U.S. Denial Strategy against China and Operational Concepts (NIDS Perspectives)', publisher: 'National Institute for Defense Studies, Japan', year: '2025', url: 'https://www.nids.mod.go.jp/english/publication/perspectives/pdf/2025/8_eChapter06.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-nmesis-units', 'usmc-org-mlr', 'joint-eq-ta-datalinks', 'les-rkt-sea-denial']
+  },
+  {
+    id: 'usa-eq-aml-production',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'The Unmanned Launcher and the Production Surge',
+    what: [
+      'The Army is experimenting with the Autonomous Multi-Domain Launcher (AML), a robotic launcher on the FMTV chassis. It is in testing and not fielded.',
+      'Lockheed Martin is raising GMLRS production capacity to nearly 14,000 rockets a year.'
+    ],
+    how: [
+      'The AML prototype is operated remotely. It is designed to be slaved to a manned command vehicle or to follow programmed waypoints.',
+      'The source report says the AML carries two pods, double a manned HIMARS. The title of the article it cites says four times as many weapons. The conflict is not resolved here.',
+      'The production increase involves advancing money to lower-tier suppliers, robots on the assembly line, and larger facilities at Camden, Arkansas.'
+    ],
+    why: [
+      'Unmanned launchers avoid risking crews in contested deep-strike areas. They add rockets to a battery without adding people.',
+      'The production increase follows Ukraine, where guided rockets were used far faster than peacetime stockpile assumptions allowed.'
+    ],
+    sources: [
+      { title: 'More Rockets, Faster: Lockheed Martin Reaches Major GMLRS Production Milestone', publisher: 'Lockheed Martin', year: '', url: 'https://www.prnewswire.com/news-releases/more-rockets-faster-lockheed-martin-reaches-major-gmlrs-production-milestone-302935201.html' },
+      { title: 'Mobile launcher that can fire four times as many weapons as HIMARS emerges', publisher: 'The War Zone', year: '', url: 'https://www.twz.com/land/mobile-launcher-that-can-fire-four-times-as-weapons-as-himars-emerges' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-m142', 'les-rkt-ukraine', 'joint-ttp-lm-autonomy', 'les-lm-logistics']
+  },
+  {
+    id: 'joint-eq-lcrrpr',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'Equipment',
+    title: 'The Practice Rocket',
+    what: [
+      'Reported, not confirmed: units train with the M28A1 and M28A2 Low-Cost Reduced-Range Practice Rocket (LCRRPR). Stockpiles are running down.',
+      'The source report cites an encyclopaedia and press material for this entry.'
+    ],
+    how: [
+      'Reported: it uses salvaged motors from obsolete unguided rockets with a blunt nose cone.',
+      'Reported: the blunt nose adds drag and limits the range to 9 km.'
+    ],
+    why: [
+      'Reported: a standard GMLRS flies up to 92 km. Most US training ranges are too small for that flight path.',
+      'Reported: the practice rocket lets crews carry out the real loading, aiming and firing sequence with a live motor, and keeps the impact inside a small range.'
+    ],
+    sources: [
+      { title: 'M142 HIMARS', publisher: 'Wikipedia', year: '', url: 'https://en.wikipedia.org/wiki/M142_HIMARS' },
+      { title: 'Smaller rockets to provide key artillery firepower boost sought by Army', publisher: 'The War Zone', year: '', url: 'https://www.twz.com/land/smaller-rockets-to-provide-key-artillery-firepower-boost-sought-by-army' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-rkt-tables', 'joint-eq-rkt-munitions', 'joint-ttp-rkt-cycle']
+  },
+  {
+    id: 'usa-trn-13m',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Training the Launcher Crew: The 13M Pipeline',
+    what: [
+      'The enlisted 13M completes 10 weeks of Basic Combat Training, then Advanced Individual Training at Fort Sill.',
+      'The source report gives the Advanced Individual Training as about 4 to 7 weeks and notes that it varies by class. One of its sources for the length is an informal forum.'
+    ],
+    how: [
+      'The 13M course is practical: driving the chassis, maintaining the system, reloading pods with the crane, and basic fire mission inputs.',
+      'Officers attend the Field Artillery Basic Officer Leader Course, covered in the technical fire direction topic.'
+    ],
+    why: [
+      'The 13M course is short against other technical artillery roles, such as the 13J Fire Control Specialist, because the launcher is highly automated.',
+      'The computer does the ballistics. The crew must drive, reload quickly and enter digital commands accurately.',
+      'Analysis: this is a deliberate training trade. Schooling time is cut by relying on software at the launcher.'
+    ],
+    sources: [
+      { title: 'Army OSUT Training', publisher: 'Sandboxx', year: '', url: 'https://www.sandboxx.us/blog/army-osut-training/' },
+      { title: 'Field Artillery Basic Officer Leader Course', publisher: 'Fires Center of Excellence', year: '', url: 'https://www.army.mil/fcoe' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-fabolc', 'usa-trn-fdc-enlisted', 'usa-trn-cannon-specialties', 'usa-org-rkt-crew-platoon']
+  },
+  {
+    id: 'usa-trn-rkt-tables',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion'],
+    type: 'Training',
+    title: 'Qualifying Launcher Crews: The Tables',
+    what: [
+      'Rocket units certify and qualify under TC 3-09.8, Field Artillery Gunnery.',
+      'Tables I to VI cover individual, team and platoon certification. Tables VII to XII cover the battery. Tables XIII to XV cover the battalion.',
+      'An earlier source report gave Table XVIII as the battalion table. The conflict is not resolved here.'
+    ],
+    how: [
+      'Crews must pass the written Artillery Skill Proficiency Test (ASPT).',
+      'They then fire live: they move through tactical scenarios, occupy firing points against time limits and launch practice rockets to earn Table VI certification.'
+    ],
+    why: [
+      'A standard table system replaces subjective judgements of readiness. Every crew meets the same time and accuracy standards.',
+      'The tables are designed to parallel manoeuvre gunnery, such as tank gunnery. Units are certified before they join Brigade Combat Teams for deployment.'
+    ],
+    sources: [
+      { title: 'TC 3-09.8, Field Artillery Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.scribd.com/document/516824400/ARN21604-TC-3-09x8-FINAL-WEB' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-artillery-tables', 'usa-trn-surv-tables', 'usa-trn-killchain-metrics', 'joint-eq-lcrrpr']
+  },
+  {
+    id: 'les-rkt-ukraine',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Lesson',
+    title: 'Ukraine: Guided Rockets Proved, Then Jammed and Outspent',
+    what: [
+      'Reported, not confirmed: the source report rates this entry part confirmed and part reported. It is held at Reported here.',
+      'Reported: HIMARS and MLRS in Ukraine showed the effect of precision rockets on rear depots and command posts. They also showed their weakness to Russian GPS jamming.'
+    ],
+    how: [
+      'Reported: early GMLRS strikes devastated Russian logistics.',
+      'Reported: Russian forces adapted by dispersing widely and by jamming the GPS signal that guides the rockets, which cut accuracy.',
+      'Reported: Ukrainian use of rockets far exceeded US peacetime stockpile assumptions.'
+    ],
+    why: [
+      'Analysis: without GPS the rocket has only inertial guidance, and inertial drift grows with time. A rocket flying 80 km without GPS will probably miss.',
+      'Analysis: precision munitions that are not hardened do not stay effective for long against a peer.',
+      'Reported: the US response is faster fitting of anti-jam antennas and M-code receivers, and large spending on production.'
+    ],
+    sources: [
+      { title: 'Army Portfolio 2024', publisher: 'Headquarters, Dept. of the Army', year: '2024', url: 'https://api.army.mil/e2/c/downloads/533115.pdf' },
+      { title: 'More Rockets, Faster: Lockheed Martin Reaches Major GMLRS Production Milestone', publisher: 'Lockheed Martin', year: '', url: 'https://www.prnewswire.com/news-releases/more-rockets-faster-lockheed-martin-reaches-major-gmlrs-production-milestone-302935201.html' },
+      { title: 'Worldwide Equipment Guide', publisher: 'US Army', year: '', url: '' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-rkt-jamming', 'les-tfd-gps-jamming', 'les-cannon-drones-gps', 'usa-eq-aml-production']
+  },
+  {
+    id: 'les-rkt-erca-boundary',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Division', 'Corps'],
+    type: 'Lesson',
+    title: 'Where Cannon Stop and Rockets Take Over',
+    what: [
+      'Reported, not confirmed: the source report cites an encyclopaedia and trade press for this entry. The cancellation of ERCA itself is covered in the counter-fire topic.',
+      'Reported: the Army uses 155mm cannon out to 30 km and relies on HIMARS and MLRS from 40 km to beyond 300 km.'
+    ],
+    how: [
+      'Reported: ERCA was meant to reach 70 km with a 58-calibre cannon and so save rockets.',
+      'Reported: with ERCA cancelled, the 40 to 150 km band belongs to the rocket launchers alone.',
+      'Reported: Army modernisation for tactical long-range fires has moved almost wholly to rockets and missiles.'
+    ],
+    why: [
+      'Reported: rockets carry their own propellant and put little wear on the launcher. Army leaders judged them the only workable, cost-effective answer for precision strikes beyond 40 km.',
+      'Reported: this places a heavy demand on GMLRS and PrSM production.'
+    ],
+    sources: [
+      { title: 'Transformation of the United States Army', publisher: 'Wikipedia', year: '', url: 'https://en.wikipedia.org/wiki/Transformation_of_the_United_States_Army' },
+      { title: 'Hanwha Secures First Major U.S. Army Contract to Supply K9 Howitzer Prototypes', publisher: 'Forecast International', year: '2026', url: 'https://dsm.forecastinternational.com/2026/08/19/hanwha-secures-first-major-u-s-army-contract-to-supply-k9-howitzer-prototypes/' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-erca', 'usa-eq-sphm', 'joint-eq-rkt-munitions', 'usa-eq-barrel-records']
+  },
+  {
+    id: 'les-rkt-sea-denial',
+    topic: 'rocket-missile-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'USMC',
+    echelon: ['Brigade', 'Theatre'],
+    type: 'Lesson',
+    title: 'The Debate: Sea Denial from the Land',
+    what: [
+      'Analysis: professional journals and Indo-Pacific exercises report progress in using ground-based rockets and missiles for sea denial.',
+      'The source report rates this entry part analysis. It names the Marine Corps Gazette without a specific article.'
+    ],
+    how: [
+      'Analysis: Marine Littoral Regiments practise spreading NMESIS batteries and HIMARS platoons across island groups.',
+      'Analysis: the ranges, beyond 185 km for the Naval Strike Missile and beyond 400 km for PrSM, create overlapping threat rings over maritime chokepoints.'
+    ],
+    why: [
+      'Analysis: a camouflaged, silent launcher on a jungle-covered island is very hard to find by radar or satellite.',
+      'Analysis: enemy naval commanders must operate under a constant threat of anti-ship missiles. Sea denial is achieved without risking US Navy warships close inshore.',
+      'Analysis: a strike on a moving ship still needs continuous tracking by distributed sensors.'
+    ],
+    sources: [
+      { title: 'U.S. Denial Strategy against China and Operational Concepts (NIDS Perspectives)', publisher: 'National Institute for Defense Studies, Japan', year: '2025', url: 'https://www.nids.mod.go.jp/english/publication/perspectives/pdf/2025/8_eChapter06.pdf' },
+      { title: 'How U.S. HIMARS, Typhon and NMESIS Missile Systems Could Complicate Chinese Operations Near Taiwan', publisher: 'Army Recognition', year: '', url: 'https://www.armyrecognition.com/focus-analysis-conflicts/army/analysis-defense-and-security-industry/how-u-s-himars-typhon-and-nmesis-missile-systems-could-complicate-chinese-operations-near-taiwan' }
+    ],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-nmesis-units', 'usmc-eq-nmesis', 'joint-les-indopac', 'usmc-org-mlr']
+  },
+  // --- AMMUNITION AND EFFECTS, UNITED STATES (added 2026.12) ---
+  {
+    id: 'joint-ttp-amm-selection',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Who Picks the Shell and Fuze',
+    what: [
+      'The forward observer requests a shell and fuze. The Fire Direction Center (FDC) makes the final decision and issues the fire order.'
+    ],
+    how: [
+      'The observer sends a Call for Fire (CFF) with the target description, the method of engagement and the method of fire and control, for example “Infantry platoon in the open, VT in effect”.',
+      'The FDC processes the request in the tactical fire direction system.',
+      'It checks the request against the commander’s guidance, ammunition on hand and the target selection standards.',
+      'The observer recommends; the FDC holds the technical authority.'
+    ],
+    why: [
+      'The observer sees the target’s posture and the ground around it.',
+      'The FDC sees the battalion’s total stocks, the Controlled Supply Rate (CSR) and the other missions across the brigade area.',
+      'The split keeps the observer responsive and the firing unit disciplined, so high-value rounds are not spent on low-priority targets.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.30: Observed Fires', publisher: 'Headquarters, Dept. of the Army', year: '2017', url: 'https://www.scribd.com/document/556850655/Arn5011-atp-3-09x30-Final-Web' },
+      { title: 'Call for Fire: Teacher and Simulator, Step by Step', publisher: 'WarfighterForged', year: '2024', url: 'https://warfighterforged.com/call-for-fire' },
+      { title: 'FA BOLC Fire Support Questions and Verified Answers', publisher: 'Docsity', year: '2023', url: 'https://www.docsity.com/en/docs/fa-bolc-fire-support-questions-and-verified-answers-100percent-guarantee-pass-20262027/20535170/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-cff', 'usa-org-fdc', 'usa-ttp-fdc-mission', 'joint-ttp-amm-agm']
+  },
+  {
+    id: 'joint-ttp-amm-agm',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Commander’s Guidance and the Attack Guidance Matrix',
+    what: [
+      'Written directives, made in advance by the commander and targeting staff, say how each target category is engaged and how much of each munition may be spent.'
+    ],
+    how: [
+      'During the Military Decision-Making Process (MDMP) the staff builds the High-Payoff Target List (HPTL), the Target Selection Standards (TSS) and the Attack Guidance Matrix (AGM).',
+      'The AGM lists expected target types, such as air defence radar, mechanised infantry or logistics nodes.',
+      'For each it assigns the effect (destroy, neutralise or suppress), the preferred delivery system and the recommended munition.',
+      'When a call for fire arrives, the FDC checks the target against the AGM.'
+    ],
+    why: [
+      'Artillery ammunition is heavy and hard to move across a theatre.',
+      'Deciding in advance stops subordinate units spending scarce rounds, such as Excalibur or GMLRS, on low-priority targets like a single infantry squad.',
+      'It also shortens the FDC’s decision time in combat.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.32: Multi-Service TTP for the Joint Application of Firepower', publisher: 'Headquarters, Dept. of the Army', year: '2017', url: 'https://api.army.mil/e2/c/downloads/2023/01/31/a5bdc400/21-558.pdf' },
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-d3a-matrices', 'joint-ttp-amm-selection', 'joint-ttp-amm-approval']
+  },
+  {
+    id: 'joint-ttp-amm-approval',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division', 'Corps', 'Theatre'],
+    type: 'TTP',
+    title: 'Who Approves Special Munitions',
+    what: [
+      'Higher commanders must approve scatterable mines (SCATMINE), cluster munitions, white phosphorus and precision-guided munitions (PGMs).',
+      'This authority rarely rests with the firing battery.'
+    ],
+    how: [
+      'SCATMINE: approval depends on how long the minefield lasts. Short-duration mines may be delegated to a brigade or division commander. Long-duration mines often need corps or theatre approval.',
+      'White phosphorus: use in urban areas is heavily restricted without high-level clearance, because it is incendiary and closely scrutinised internationally.',
+      'PGMs: managed by a Controlled Supply Rate. A direct support battalion may get only a handful of guided rounds per period, and each mission needs battalion or brigade operations officer (S3) approval.'
+    ],
+    why: [
+      'Three concerns: international law, fratricide and conserving stocks.',
+      'Scatterable mines can trap friendly forces if they are not tracked on the common operational picture.',
+      'White phosphorus and cluster munitions carry high risk of civilian harm and of unexploded ordnance (UXO).',
+      'Guided rounds are costly and are kept for critical targets, air defences and places where collateral damage must be minimal.'
+    ],
+    sources: [
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' },
+      { title: 'MCRP 3-16C: TTP for Fire Support for the Combined Arms Commander', publisher: 'US Marine Corps', year: '2001', url: 'https://www.marines.mil/Portals/1/Publications/MCRP%203-16C%20%20TTP%20for%20Fire%20Support%20for%20the%20Combined%20Arms%20Commander.pdf' },
+      { title: 'FM 6-20-40: TTP for Fire Support for Brigade Operations (Heavy)', publisher: 'Headquarters, Dept. of the Army', year: '1990', url: 'https://www.bits.de/NRANEU/others/amd-us-archive/fm6-20-40%2890%29.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-amm-agm', 'usa-ttp-amm-scatmine', 'joint-eq-amm-cluster']
+  },
+  {
+    id: 'joint-ttp-amm-roe',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division', 'Corps', 'Theatre'],
+    type: 'TTP',
+    title: 'Rules of Engagement and Legal Review',
+    what: [
+      'The Law of Armed Conflict (LOAC) and theatre Rules of Engagement (ROE) can dictate, restrict or change the choice of munition.'
+    ],
+    how: [
+      'Legal advisers from the Staff Judge Advocate (SJA) sit in the fires cell during deliberate targeting.',
+      'The ROE may ban some munitions in set areas, for example cluster munitions in urban zones.',
+      'Each target is weighed for proportionality: expected military advantage against expected civilian harm.',
+      'If a request, such as a volley of 155mm high explosive, exceeds the collateral damage threshold, the staff picks a lower-collateral guided round or uses delay fuzing to bury the blast.'
+    ],
+    why: [
+      'Civilian casualties or damage to protected sites such as hospitals or dams can undo strategic and political aims.',
+      'ROE turn national policy and legal obligations into constraints a tactical commander can apply.'
+    ],
+    sources: [
+      { title: 'CJCSI 3160.01A: No-Strike and the Collateral Damage Estimation Methodology', publisher: 'Joint Chiefs of Staff', year: '2012', url: 'https://int.nyt.com/data/documenttools/no-strike-collateral-damage-estimation/6632f2785aff5bba/full.pdf' },
+      { title: 'JP 3-09: Joint Fire Support', publisher: 'Joint Chiefs of Staff', year: '2010', url: 'https://api.army.mil/e2/c/downloads/361884.pdf' },
+      { title: 'Declaration of Jonathan Manes', publisher: 'Center for Constitutional Rights', year: '2010', url: 'https://ccrjustice.org/sites/default/files/assets/Declaration%20of%20Jonathan%20Manes%2010-08-2010.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-amm-cde', 'joint-ttp-amm-approval']
+  },
+  {
+    id: 'usa-ttp-amm-effects',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Suppress, Neutralise, Destroy',
+    what: [
+      'Three standard levels of effect on a target: suppress, neutralise and destroy.',
+      'The level sets how much ammunition, and of what type, a mission needs.'
+    ],
+    how: [
+      'The report announces a list defining the three levels. The list was not received with the source report, so it is not given here.'
+    ],
+    why: [
+      'The level of effect drives the volume of fire.'
+    ],
+    sources: [
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-amm-agm', 'usa-ttp-amm-matching']
+  },
+  {
+    id: 'usa-ttp-amm-matching',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Matching Shell and Fuze to the Target',
+    what: [
+      'Doctrine pairs shells and fuzes with target types to get the most effect in the ground conditions.',
+      'The report’s list under this heading was not received. The pairings below are from the report’s own reference table.'
+    ],
+    how: [
+      'Troops in the open: high explosive (HE), proximity (VT) fuze. VT gives the widest downward spread of fragments. DPICM is the alternative.',
+      'Troops in trenches or dug in: HE, delay fuze. Delay gets through overhead earth or timber cover before detonating.',
+      'Moving armoured vehicles: BONUS or C-DAEM, with their built-in sensor fuzes. If those are not available, HE with VT or impact.',
+      'Light vehicles and convoys: HE or DPICM, with VT or time fuze.',
+      'Urban structures and bunkers: HE or Excalibur, delay fuze. Delay lets the round penetrate the wall; Excalibur limits damage around the target.',
+      'Enemy artillery: DPICM or GMLRS Alternative Warhead. Submunitions cover the wide footprint of a battery.'
+    ],
+    why: [
+      'The physical posture of the target decides which pairing works.'
+    ],
+    sources: [
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' },
+      { title: 'ATP 3-09.30: Observed Fires', publisher: 'Headquarters, Dept. of the Army', year: '2017', url: 'https://www.scribd.com/document/556850655/Arn5011-atp-3-09x30-Final-Web' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-amm-fuzes', 'usa-ttp-amm-effects', 'joint-eq-amm-bonus']
+  },
+  {
+    id: 'usa-ttp-amm-fuzes',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Fuze Functions and the Multi-Option Fuze',
+    what: [
+      'Four fuze functions: impact (superquick or point detonating), delay, time and proximity (VT).',
+      'The M782 Multi-Option Fuze Artillery (MOFA) can do all four.'
+    ],
+    how: [
+      'The Portable Inductive Artillery Fuze Setter (PIAFS) sets the MOFA in milliseconds, without contact.',
+      'The report announces a list describing each mode. The list was not received with the source report, so it is not given here.'
+    ],
+    why: [
+      'One fuze replaces several single-purpose fuzes. The report does not give a further reason.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.30: Observed Fires', publisher: 'Headquarters, Dept. of the Army', year: '2017', url: 'https://www.scribd.com/document/556850655/Arn5011-atp-3-09x30-Final-Web' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-amm-matching', 'joint-eq-amm-guided']
+  },
+  {
+    id: 'usa-ttp-amm-sheaf',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Sheaf Patterns',
+    what: [
+      'A sheaf is the pattern of impacts made when a battery or battalion fires a volley. The report spells it “sheath”.'
+    ],
+    how: [
+      'The FDC computes separate data for each gun so the rounds fall in a set shape.',
+      'Circular sheaf: rounds concentrated in a tight central area, for point targets.',
+      'Converged sheaf: all guns aim at one grid.',
+      'Linear sheaf: rounds spread evenly along a line, for trenches, convoys or advancing infantry.'
+    ],
+    why: [
+      'Guns in a battery stand hundreds of metres apart. With identical data their rounds land in the shape of the gun line, a parallel sheaf, which is rarely useful.',
+      'Individual data shapes the lethal footprint to the enemy formation and closes gaps.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.30: Observed Fires', publisher: 'Headquarters, Dept. of the Army', year: '2017', url: 'https://www.scribd.com/document/556850655/Arn5011-atp-3-09x30-Final-Web' },
+      { title: 'TC 3-09.81: Field Artillery Manual Cannon Gunnery', publisher: 'Headquarters, Dept. of the Army', year: '2016', url: 'https://home.army.mil/irwin/application/files/9515/5733/4768/EXOP_OCT_2018_RTU_RELEASABLE.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-fdc-mission', 'usa-ttp-registration-massing']
+  },
+  {
+    id: 'usa-ttp-amm-surprise',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Volume, Timing and Surprise',
+    what: [
+      'Analysis: the first impacts do far more harm than prolonged fire. The source report rates this as analysis backed by doctrine.'
+    ],
+    how: [
+      'Doctrine stresses massing: several batteries or battalions arrive together in a Time on Target (TOT) mission, so as many rounds as possible land before the enemy reacts.',
+      'Sustained fire is used mainly for suppression, obscuration or illumination, where duration matters more than shock.'
+    ],
+    why: [
+      'Analysis: within 10 to 15 seconds of the first round, troops in the open take cover. The report says this cuts the effect of later rounds by up to 90%. No source is given for the figures.',
+      'Analysis: 50 rounds landing within ten seconds do far more than 50 rounds over ten minutes.',
+      'Massing quickly also lets batteries fire and move before counter-fire arrives.'
+    ],
+    sources: [
+      { title: 'Call for Fire: Teacher and Simulator, Step by Step', publisher: 'WarfighterForged', year: '2024', url: 'https://warfighterforged.com/call-for-fire' },
+      { title: 'MCTP 3-01D', publisher: 'US Marine Corps', year: '', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-01D.pdf?ver=2019-10-31-084723-267' }
+    ],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-registration-massing', 'usa-ttp-surv-displace']
+  },
+  {
+    id: 'joint-ttp-amm-precision-area',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Precision or Area Fire',
+    what: [
+      'Analysis: how a targeting staff chooses between one guided round and a volume of unguided fire.'
+    ],
+    how: [
+      'Analysis: guided rounds such as Excalibur or GMLRS need a very small Target Location Error (TLE), usually mensurated coordinates from specialised digital systems.',
+      'Analysis: with an accurate location, one guided round can destroy a point target such as a command post.',
+      'Analysis: with a dispersed or moving target, or one known only to about 200 by 200 metres, unguided HE area fire is needed.'
+    ],
+    why: [
+      'Analysis: one guided round cannot cover a dispersed infantry company.',
+      'Analysis: 150 unguided rounds against a single bridge pier waste ammunition and invite counter-fire, where one GMLRS rocket would do.',
+      'Analysis: area fire covers uncertainty; precision fire exploits certainty.'
+    ],
+    sources: [
+      { title: 'FM 6-20-40', publisher: 'Headquarters, Dept. of the Army', year: '1990', url: 'https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-LPS2261/pdf/GOVPUB-D101-PURL-LPS2261.pdf' },
+      { title: 'FM 3-09: Fire Support and Field Artillery Operations', publisher: 'Headquarters, Dept. of the Army', year: '2020', url: 'https://www.revista-artilharia.pt/admin/upload/ficheiros/ficheirosMultimedia/fm-3-09-fire-support-and-field-artillery-operations.pdf' }
+    ],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-rkt-tle', 'joint-eq-amm-guided']
+  },
+  {
+    id: 'usa-ttp-amm-smoke-illum',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Smoke and Illumination',
+    what: [
+      'Rounds that obscure, mark or light the battlefield rather than destroy.'
+    ],
+    how: [
+      'The report announces a list describing them. The list was not received with the source report, so it is not given here.',
+      'The report’s reference table gives: M485 and M1066 illumination, visible and infrared, about 17.5 km; M825 and M825A1 white phosphorus smoke, about 22.5 km, for screening, obscuration, marking and incendiary effect.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.30: Observed Fires', publisher: 'Headquarters, Dept. of the Army', year: '2017', url: 'https://www.scribd.com/document/556850655/Arn5011-atp-3-09x30-Final-Web' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-amm-surprise', 'joint-ttp-amm-approval']
+  },
+  {
+    id: 'usa-ttp-amm-scatmine',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division', 'Corps'],
+    type: 'TTP',
+    title: 'Artillery-Delivered Mines',
+    what: [
+      'Shells that lay anti-armour (RAAMS) or anti-personnel minefields at range. The report calls the anti-personnel round ADAM.'
+    ],
+    how: [
+      'The shells burst in the air and scatter small mines over a set area.',
+      'The minefields must be reported, marked on digital maps and deconflicted with friendly forces.',
+      'Each mine has a self-destruct time, typically a few hours to a few days, after which it neutralises itself.',
+      'Range is about 17.5 km, from the report’s reference table.'
+    ],
+    why: [
+      'A commander can quickly block an enemy avenue of approach, protect a flank, or fix an enemy so artillery can destroy it.',
+      'Self-destruct times answer the problem of permanent, unmapped minefields, so friendly forces can later move through.'
+    ],
+    sources: [
+      { title: 'ATP 3-09.30: Observed Fires', publisher: 'Headquarters, Dept. of the Army', year: '2017', url: 'https://www.scribd.com/document/556850655/Arn5011-atp-3-09x30-Final-Web' },
+      { title: 'FM 3-09.22: TTP for Corps Artillery, Division Artillery and Field Artillery Brigade Operations', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.militarynewbie.com/manuals/pdfs/FM-3-09.22-TACTICS-TECHNIQUES-AND-PROCEDURES-FOR-CORPS-ARTILLERY-DIVISION-ARTILLERY-AND-FIELD-ARTILLERY-BRIGADE-OPERATIONS.pdf' },
+      { title: 'MCRP 3-16C: TTP for Fire Support for the Combined Arms Commander', publisher: 'US Marine Corps', year: '2001', url: 'https://www.marines.mil/Portals/1/Publications/MCRP%203-16C%20%20TTP%20for%20Fire%20Support%20for%20the%20Combined%20Arms%20Commander.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-amm-approval', 'usa-ttp-clearance']
+  },
+  {
+    id: 'joint-ttp-amm-reds',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Risk Estimate Distances',
+    what: [
+      'Published minimum distances for firing near friendly troops.',
+      'Peacetime training limits differ from combat Risk Estimate Distances (REDs).'
+    ],
+    how: [
+      'REDs are based on a 0.1% probability of incapacitation for troops standing, prone or dug in.',
+      'Firing 155mm HE within the RED of friendly troops is a risk the manoeuvre commander must accept and approve before the FDC fires.',
+      'Observers declare “danger close” when the target is within the RED.'
+    ],
+    why: [
+      'Training keeps wide buffers so accidents cannot happen.',
+      'In combat, artillery may have to land close to friendly lines to break an assault. The 0.1% figure gives a sound basis to weigh fratricide against being overrun.'
+    ],
+    sources: [
+      { title: 'DA PAM 385-63: Range Safety (link in the report opens MCWP 3-16)', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.scribd.com/document/233583012/MCWP-3-16-Fire-Support-Coordination-in-the-Ground-Combat-Element' },
+      { title: 'MCWP 3-16 (link in the report opens FM 3-09)', publisher: 'US Marine Corps', year: '', url: 'https://www.scribd.com/document/12778393/fm3-09' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-special-missions', 'usa-ttp-cff']
+  },
+  {
+    id: 'joint-ttp-amm-cde',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'TTP',
+    title: 'Collateral Damage Estimation',
+    what: [
+      'Collateral Damage Estimation (CDE) is a mandated five-step method to predict, reduce and approve civilian harm and damage to no-strike sites.',
+      'It is governed by CJCSI 3160.01.'
+    ],
+    how: [
+      'The target is examined at progressively stricter levels.',
+      'The report announces a list of the levels. The list was not received with the source report, so it is not given here.'
+    ],
+    why: [
+      'Not stated in the source.'
+    ],
+    sources: [
+      { title: 'CJCSI 3160.01A: No-Strike and the Collateral Damage Estimation Methodology', publisher: 'Joint Chiefs of Staff', year: '2012', url: 'https://int.nyt.com/data/documenttools/no-strike-collateral-damage-estimation/6632f2785aff5bba/full.pdf' },
+      { title: 'CJCSI 3160.01: No-Strike and the Collateral Damage Estimation Methodology', publisher: 'Joint Chiefs of Staff', year: '2009', url: 'https://www.scribd.com/document/102324328/CJCSI-3160-01-13-Feb-09-1' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-amm-roe', 'joint-trn-amm-cde-cert']
+  },
+  {
+    id: 'joint-eq-amm-he-im',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'The M795 High Explosive Shell and Insensitive Explosive',
+    what: [
+      'The M795 155mm shell is the main US artillery round. The M795IM is replacing it.',
+      'From the report’s table: M795 range about 22.5 km, 30 km with MACS charge 5; M549A1 rocket-assisted HE, about 30 km.'
+    ],
+    how: [
+      'The M795 has a forged steel body originally filled with TNT.',
+      'The M795IM uses IMX-101 (Insensitive Munition Explosive 101) with a PBXN-9 booster. It gives the same blast and fragmentation when fired.',
+      'The M1122 training round is filled with concrete and matches the M795’s ballistics.',
+      'Reported: the M1122 costs about $511 against $2,440 for a live HE round.'
+    ],
+    why: [
+      'TNT rounds can detonate together if a supply point is hit or a truck strikes an IED.',
+      'Insensitive explosive burns or fizzles instead of detonating when hit by fire, bullets or shaped charges. This protects logisticians and gun crews.'
+    ],
+    sources: [
+      { title: '155MM HE Projectile Qualification Program (IMEMTS 2010 paper)', publisher: 'IMEMTS', year: '2010', url: 'https://www.scribd.com/document/893748145/155MM-HE-Projectile-Qualification-Program-IMEMTS2010-Paper' },
+      { title: 'Artillery ammunition pricing', publisher: 'Forecast International', year: '2024', url: 'https://www.forecastinternational.com/archive/disp_pdf.cfm?DACH_RECNO=1694' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-amm-macs', 'joint-eq-m777a2', 'usa-eq-m109a7']
+  },
+  {
+    id: 'joint-eq-amm-guided',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'Excalibur and the Precision Guidance Kit',
+    what: [
+      'Reported, not confirmed: the source report rates this entry Confirmed, but its only source is a pricing publication. It is held at Reported here.',
+      'Reported: the M982 Excalibur is a guided 155mm projectile. The M1156 Precision Guidance Kit (PGK) is a guided fuze.'
+    ],
+    how: [
+      'Reported: Excalibur is base-bleed and fin-stabilised, with GPS and inertial guidance, and steers itself to about 39.5 km. It costs over $84,000 each.',
+      'Reported: the PGK screws onto an unguided M795 in place of the MOFA. Small canards correct the shell in flight and bring its circular error probable (CEP) near precision.'
+    ],
+    why: [
+      'Reported: Excalibur was built for urban targets, where a 50-metre miss would cause unacceptable civilian casualties.',
+      'Reported: it is too costly for routine missions. The PGK brings near-precision to mass-produced stocks and cuts the rounds needed per target.'
+    ],
+    sources: [
+      { title: 'Artillery ammunition pricing', publisher: 'Forecast International', year: '2024', url: 'https://www.forecastinternational.com/archive/disp_pdf.cfm?DACH_RECNO=1694' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-amm-precision-area', 'les-tfd-gps-jamming', 'les-amm-ukraine']
+  },
+  {
+    id: 'joint-eq-amm-bonus',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'BONUS Sensor-Fuzed Anti-Armour Round',
+    what: [
+      'The BONUS Mk II is a 155mm round that finds and attacks armour on its own. It was co-developed with Sweden and France.',
+      'Range about 35 km with base bleed, from the report’s table.',
+      'The US Army buys it as an interim capability while developing the XM1180 C-DAEM.'
+    ],
+    how: [
+      'The shell releases two submunitions at a set height over the target area.',
+      'Each deploys wings to slow its fall, spins and scans the ground with multi-band infrared and laser sensors.',
+      'On finding an armoured vehicle it fires an explosively formed penetrator (EFP) down through the thin top armour.'
+    ],
+    why: [
+      'Unguided HE needs a lucky direct hit to kill a moving tank.',
+      'Sensor-fuzed rounds give artillery a top-attack tank killer that needs neither GPS nor a laser designator.'
+    ],
+    sources: [
+      { title: 'BONUS', publisher: 'Deagel', year: '2024', url: 'https://www.deagel.com/weapons/bonus/a001089' },
+      { title: 'AMMO documentation (FOIA)', publisher: 'Defense Logistics Agency', year: '', url: 'https://www.dla.mil/Portals/104/Documents/InformationOperations/LogisticsInformationServices/FOIA/AMMO.txt%3Fver%3D2019-08-12-172502-383' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-cdaem', 'usa-ttp-amm-matching']
+  },
+  {
+    id: 'joint-eq-amm-cluster',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'Cluster Munition Policy',
+    what: [
+      'Dual-Purpose Improved Conventional Munition (DPICM) shells burst in the air and scatter dozens of small anti-armour and anti-personnel grenades.'
+    ],
+    how: [
+      'Earlier policy required any cluster munition with more than 1% unexploded ordnance (UXO) to be phased out by 2018.',
+      'In 2017 the Department of Defense reversed this. Commanders may keep and use legacy cluster munitions until a replacement that meets the 1% standard with the same lethality is fielded in sufficient numbers.'
+    ],
+    why: [
+      'The 1% rule came from humanitarian concern: dud submunitions act like landmines and kill civilians after a war.',
+      'The reversal came from military need. Peer competitors keep large stocks of area weapons, and losing DPICM without a replacement would weaken the Army against massed formations.'
+    ],
+    sources: [
+      { title: 'CRS Report R46721', publisher: 'Congressional Research Service', year: '2021', url: 'https://www.everycrsreport.com/files/20210316_R46721_e56b517c4e83c545009b71be0261330410320d5f.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-cdaem', 'joint-ttp-amm-approval', 'joint-eq-amm-rkt-warheads']
+  },
+  {
+    id: 'joint-eq-amm-macs',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'Modular Artillery Charge System',
+    what: [
+      'The Modular Artillery Charge System (MACS) propels 155mm shells. It has two items: the M231 and the M232A1.',
+      'It replaces cloth bag charges.'
+    ],
+    how: [
+      'MACS uses rigid combustible cylinders of single-base or triple-base propellant.',
+      'M231: low zones 1 and 2, using 1 or 2 increments.',
+      'M232A1: high zones 3, 4 and 5, using 3 to 5 increments.',
+      'The case burns completely, leaving no residue in the breech.'
+    ],
+    why: [
+      'Bag charges had to be cut open, the unused increments removed and burnt in pits. That was toxic, wasteful and slow.',
+      'With MACS the crew takes only the modules needed.',
+      'The rigid design suits future autoloaders, which reduce crew fatigue and raise the rate of fire. It also takes less space to ship.'
+    ],
+    sources: [
+      { title: 'MACS product sheet', publisher: 'American Ordnance', year: '2017', url: 'https://www.dayzim.com/hubfs/DZ/assets/PDF/Product%20Sheets/NewWebsite_Munitions_IndirectFire_MACS%20(002).pdf' },
+      { title: 'MACS M231 and M232A1 specifications', publisher: 'General Dynamics OTS', year: '2025', url: 'https://www.gdots.com/wp-content/uploads/2025/07/400002984-MACS-M231-M23A1-Propellant-and-Propulsion-2.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-amm-he-im', 'joint-eq-m777a2', 'usa-eq-m109a7']
+  },
+  {
+    id: 'joint-eq-amm-rkt-warheads',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'Rocket Warheads and the Alternative Warhead',
+    what: [
+      'GMLRS rockets carry either a 200 lb unitary HE warhead for point targets or an Alternative Warhead (AW) for area targets.',
+      'The launchers and the GMLRS, ATACMS and PrSM family are covered under rocket and missile artillery.'
+    ],
+    how: [
+      'The AW replaces cluster submunitions with thousands of pre-formed tungsten fragments. It detonates at a set height over the target and leaves no UXO.',
+      'PrSM Increments 1 and 2 replace ATACMS, with range approaching 500 km. Increment 2 adds a multi-mode seeker to hit moving ships and land targets.'
+    ],
+    why: [
+      'The AW solved the UXO problem of cluster rockets without losing effect against dispersed air defence sites or troops.',
+      'PrSM answers the need for Long-Range Precision Fires (LRPF) to reach inside anti-access and area denial (A2/AD) zones in the Indo-Pacific and Europe.'
+    ],
+    sources: [
+      { title: 'Missile Procurement, Army: budget estimates', publisher: 'Assistant Secretary of the Army (Financial Management and Comptroller)', year: '2026', url: 'https://www.asafm.army.mil/Portals/72/Documents/BudgetMaterial/2027/Discretionary%20Budget/Procurement/Missile%20Procurement%20Army.pdf' },
+      { title: 'CRS Report R46721', publisher: 'Congressional Research Service', year: '2021', url: 'https://www.everycrsreport.com/files/20210316_R46721_e56b517c4e83c545009b71be0261330410320d5f.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-rkt-munitions', 'joint-eq-amm-cluster']
+  },
+  {
+    id: 'usa-eq-amm-erap',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'XM1155 Ramjet Projectile',
+    what: [
+      'Reported: the XM1155 Extended Range Artillery Projectile (ERAP) is a developmental guided 155mm round.'
+    ],
+    how: [
+      'Reported: the XM1155-SC uses a solid-fuel ramjet. Fired from a standard 155mm tube, it reaches the speed to light the ramjet and flies beyond 100 km with precision guidance.'
+    ],
+    why: [
+      'Reported: US 155mm range is generally 30 to 40 km, and peer adversaries outrange it.',
+      'Reported: ramjet shells are a cheaper, higher-volume way than missiles to strike deep and destroy enemy artillery before it comes within range.'
+    ],
+    sources: [
+      { title: 'Vayu Aerospace Review', publisher: 'Vayu', year: '2024', url: 'https://www.vayuaerospace.in/Issue/202402061211073794.pdf' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-erca', 'joint-eq-amm-he-im']
+  },
+  {
+    id: 'joint-eq-amm-jbmou',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'NATO Ammunition Interchangeability',
+    what: [
+      'Analysis: the Joint Ballistic Memorandum of Understanding (JBMOU) governs 155mm ammunition standards across NATO.'
+    ],
+    how: [
+      'Analysis: any NATO standard 155mm shell and charge can be fired safely from any NATO 155mm howitzer.',
+      'Analysis: barrel length sets practical limits. US guns (M777, M109A7) mostly have 39-calibre barrels. Many allies (PzH 2000, CAESAR) have 52-calibre barrels.',
+      'Analysis: high-zone MACS charges meant for a 52-calibre gun can cause unacceptable chamber pressure in a 39-calibre gun.'
+    ],
+    why: [
+      'Analysis: a US battalion short of M795 rounds could draw HE from British or German stocks.',
+      'Analysis: the FDC’s ballistic software must account for small differences in weight and aerodynamics of foreign rounds.'
+    ],
+    sources: [
+      { title: 'General defence reporting (no document named in the source)', publisher: 'Not stated in the source', year: '', url: '' }
+    ],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-amm-macs', 'joint-eq-nabk-model']
+  },
+  {
+    id: 'usa-trn-amm-strac',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Training Ammunition and STRAC',
+    what: [
+      'Observers, FDC personnel and targeting officers train at the Fires Center of Excellence, from basic courses to Joint Fires Observer and targeting officer certification.',
+      'Live training ammunition is allocated under DA PAM 350-38, the Standards in Training Commission (STRAC).'
+    ],
+    how: [
+      'STRAC sets how many live rounds each unit gets a year, for example M1122 training rounds, smoke and illumination.'
+    ],
+    why: [
+      'Live ammunition is costly, damages ranges and takes heavy logistic effort.',
+      'STRAC gives enough to certify crews safely but limits high-cost rounds.',
+      'Most crews rarely if ever fire live Excalibur, BONUS or scatterable mines in peacetime. Skill on these is kept mainly through simulators (TADSS).'
+    ],
+    sources: [
+      { title: 'DA PAM 350-38: Standards in Training Commission', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://www.scribd.com/document/789348198/DA-PAM-350-38-Standards-in-Trai-Army' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-artillery-tables', 'usa-trn-amm-critique']
+  },
+  {
+    id: 'joint-trn-amm-cde-cert',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Certification for Collateral Damage Estimators',
+    what: [
+      'People who perform CDE must be certified by the Joint Targeting School or an accredited Mobile Training Team.',
+      'The Joint Staff keeps a roster of certified analysts.'
+    ],
+    how: [
+      'Training covers Collateral Effects Radius (CER) tables, mensurating coordinates and the five-level CDE method in digital targeting software.'
+    ],
+    why: [
+      'A wrong CDE carries severe strategic risk.',
+      'Certification means a Marine in the Indo-Pacific and an Army analyst in Europe use the same method.'
+    ],
+    sources: [
+      { title: 'CJCSI 3160.01: No-Strike and the Collateral Damage Estimation Methodology', publisher: 'Joint Chiefs of Staff', year: '2009', url: 'https://www.scribd.com/document/102324328/CJCSI-3160-01-13-Feb-09-1' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-amm-cde']
+  },
+  {
+    id: 'usa-trn-amm-critique',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'What Concrete Rounds Do Not Teach',
+    what: [
+      'Reported: reliance on concrete training rounds and simulation leaves gaps in skill.'
+    ],
+    how: [
+      'Reported: crews become proficient at loading, aiming and firing the inert M1122.',
+      'Reported: observers rarely see the real effect of DPICM, sensor-fuzed rounds or large HE missions on complex ground.'
+    ],
+    why: [
+      'Reported: firing live guided rounds for practice is unaffordable.',
+      'Reported: professional journals say this creates a false sense of lethality. Staffs underestimate the volume needed against a dug-in enemy and under-allocate ammunition.'
+    ],
+    sources: [
+      { title: 'A New Combined-Arms Approach for the Armored Brigade Combat Team (cited as Fires Bulletin / CTC observations)', publisher: 'ResearchGate', year: '2020', url: 'https://www.researchgate.net/publication/346303823_A_New_Combined-Arms_Approach_for_the_Armored_Brigade_Combat_Team' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-amm-strac', 'les-amm-ctc']
+  },
+  {
+    id: 'les-amm-ukraine',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Lesson',
+    title: 'Ukraine: Jammed Precision, Cheap Drones and the Return of Mass',
+    what: [
+      'Reported: GPS jamming, drone costs and the need for massed fire.'
+    ],
+    how: [
+      'Reported: GPS-guided munitions (Excalibur, GMLRS) lost accuracy under heavy Russian electronic warfare and spoofing.',
+      'Reported: firing an $84,000 Excalibur at a target a $500 drone could destroy is not sustainable.',
+      'Reported: DPICM and sensor-fuzed rounds (BONUS and SMArt 155) proved effective against massed infantry and armour.'
+    ],
+    why: [
+      'Analysis: two decades of counter-insurgency made precision look like a cure-all. In a contested spectrum it is fragile.',
+      'Analysis: trench networks need volumes of HE that guided rounds cannot provide at affordable cost.'
+    ],
+    sources: [
+      { title: 'Artillery ammunition market', publisher: 'Coherent Market Insights', year: '2024', url: 'https://www.coherentmarketinsights.com/industry-reports/artillery-ammunition-market' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-tfd-gps-jamming', 'les-cannon-drones-gps', 'les-rkt-ukraine', 'joint-eq-amm-guided']
+  },
+  {
+    id: 'usa-eq-amm-procurement',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'Buying for Jamming and for Depth',
+    what: [
+      'The Army is shifting purchases to meet peer threats.'
+    ],
+    how: [
+      'It is investing in alternative guidance, such as the PrSM Increment 2 multi-mode seeker, and autonomous rounds such as C-DAEM.',
+      'The Department of Defense has put billions of dollars into the industrial base to raise production of M795 shells and MACS charges.'
+    ],
+    why: [
+      'If an adversary can jam GPS, much of the precision arsenal could be made ineffective.',
+      'Magazine depth matters as much as sophistication.'
+    ],
+    sources: [
+      { title: 'US Army awards key contracts to further enhance 155mm artillery production capacity', publisher: 'US Army', year: '2024', url: 'https://www.army.mil/article/279541/us_army_awards_key_contracts_to_further_enhance_155mm_artillery_production_capacity_and_army_modernization_priorities' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-aml-production', 'joint-eq-amm-he-im', 'les-amm-ukraine']
+  },
+  {
+    id: 'les-amm-ctc',
+    topic: 'ammunition-effects',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Brigade'],
+    type: 'Lesson',
+    title: 'Combat Training Centre Weaknesses in Munition Choice',
+    what: [
+      'Reported: Observer-Coach/Trainers at the National Training Center and Joint Readiness Training Center see the same munition-selection faults.'
+    ],
+    how: [
+      'Reported: staffs and FDCs default to HE even where DPICM or smoke would work better.',
+      'Reported: units fail to set accurate time-based triggers, so fires land too early or too late.'
+    ],
+    why: [
+      'Reported: the cognitive load on the FDC and Fire Support Officer is heavy. Without rehearsed use of the AGM and TSS, staffs revert to the easiest answer.',
+      'Reported: lack of live peacetime exposure to special munitions adds hesitation.'
+    ],
+    sources: [
+      { title: 'A New Combined-Arms Approach for the Armored Brigade Combat Team (cited as Fires Bulletin / CTC observations)', publisher: 'ResearchGate', year: '2020', url: 'https://www.researchgate.net/publication/346303823_A_New_Combined-Arms_Approach_for_the_Armored_Brigade_Combat_Team' }
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-c2-ctc-trends', 'les-ta-ctc-weak', 'joint-ttp-amm-agm', 'usa-trn-amm-critique']
+  },
+  // --- SUSTAINMENT, UNITED STATES (added 2026.12) ---
+  {
+    id: 'usa-org-sus-echelons',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'Force Structure',
+    title: 'Who Sustains the Artillery Battalion',
+    what: [
+      'Logistic elements sit at several echelons.',
+      'Battery: its own supply and maintenance sections handle immediate needs.',
+      'Battalion: an attached Forward Support Company (FSC) gives distribution and field maintenance.',
+      'Brigade: the Brigade Support Battalion (BSB) manages throughput through its Distribution and Field Maintenance Companies.'
+    ],
+    how: [
+      'The FSC works from the combat trains. It runs field feeding, field maintenance and ammunition (Class V) distribution.',
+      'The BSB Distribution Company runs the Ammunition Transfer and Holding Point (ATHP) in the rear.',
+      'Supplies reach the FSC by push (unit distribution) or by pull (the FSC collects with its own trucks).'
+    ],
+    why: [
+      'The modular design pushes sustainment to the lowest practical level.',
+      'The FSC gives the battalion commander control of immediate sustainment, so the unit does not wait for brigade assets in an emergency.'
+    ],
+    sources: [
+      { title: 'ATP 4-90: Brigade Support Battalion', publisher: 'Headquarters, Dept. of the Army', year: '2026', url: '' },
+      { title: 'Operational Lessons Learned by the 101st Division Artillery', publisher: 'Military Review', year: '2016', url: 'https://www.armyupress.army.mil/Portals/7/military-review/Archives/English/MilitaryReview_20160831_art014.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-rkt-battalion', 'usa-ttp-sus-chain', 'usa-org-sus-amm-roles']
+  },
+  {
+    id: 'usa-org-sus-amm-roles',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Force Structure',
+    title: 'Who Plans and Controls Ammunition',
+    what: [
+      'Ammunition planning and control are shared by the logistics staff (S4), the operations staff (S3), the fires cell and the commander.'
+    ],
+    how: [
+      'The S3 and fires cell forecast needs from the scheme of manoeuvre, the High-Payoff Target List and the Attack Guidance Matrix.',
+      'The S4 arranges physical movement with the FSC and BSB.',
+      'The commander, advised by the Fire Support Officer, sets the priority of fires. That becomes the priority of ammunition among batteries.'
+    ],
+    why: [
+      'Separating movement (S4) from employment (S3 and fires) leaves batteries empty during critical missions.',
+      'The fires cell keeps allocations matched to the digital fire plan in AFATDS.'
+    ],
+    sources: [
+      {"title": "ATP 4-90, Brigade Support Battalion", "publisher": "Headquarters, Department of the Army", "year": "2026", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45712-ATP_4-90-000-WEB-1.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-amm-agm', 'joint-ttp-sus-rsr-csr', 'usa-org-sus-echelons']
+  },
+  {
+    id: 'usa-org-sus-maint-levels',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'Force Structure',
+    title: 'Field and Sustainment Maintenance',
+    what: [
+      'Maintenance of guns, launchers and fire control is split into two levels: field (forward) and sustainment (rear).'
+    ],
+    how: [
+      'Field level, at battery and battalion: mechanics such as MOS 91F Small Arms/Artillery Repairer and FSC technicians replace components, assess battle damage and service equipment.',
+      'Fire control systems and radars such as the AN/TPQ-53 are maintained by electronics technicians of the 94-series.',
+      'Major work, such as a barrel change that needs special lifting and calibration tools, goes back to sustainment-level facilities.'
+    ],
+    why: [
+      'The two-level system replaced an older four-level system.',
+      'Forward mechanics swap modules rather than attempt complex repair in contested areas. This shrinks the forward footprint and returns systems to the fight faster.'
+    ],
+    sources: [
+      {"title": "ATP 4-90, Brigade Support Battalion", "publisher": "Headquarters, Department of the Army", "year": "2026", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45712-ATP_4-90-000-WEB-1.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-sus-efc', 'usa-ttp-sus-availability', 'usa-ttp-sus-remote']
+  },
+  {
+    id: 'usmc-org-sus-distributed',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'Force Structure',
+    title: 'Marine Distributed Sustainment',
+    what: [
+      'The Combat Logistics Battalion (CLB) of the Marine Littoral Regiment sustains dispersed forces, including anti-ship missile batteries, across island chains.'
+    ],
+    how: [
+      'Under Expeditionary Advanced Base Operations (EABO), the CLB keeps small caches of ammunition, food and medical supplies across island outposts.',
+      'Resupply uses low-signature means, including Navy Medium Landing Ships (LSM) and unmanned aircraft.',
+      'The Marine Corps is experimenting with a single fuel, JP-5, for generators, vehicles and landing craft.'
+    ],
+    why: [
+      'Large central dumps are vulnerable to long-range precision fires and anti-access networks.',
+      'Small, mobile nodes let the regiment keep its Stand-In Force presence inside contested waters without a large target signature.'
+    ],
+    sources: [
+      { title: 'Tentative Manual for Expeditionary Advanced Base Operations, 2nd Edition', publisher: 'US Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/Docs/230509-Tentative-Manual-For-Expeditionary-Advanced-Base-Operations-2nd-Edition.pdf' },
+      { title: 'Nomination of General Eric M. Smith, USMC, for reappointment (hearing)', publisher: 'US Senate Armed Services Committee', year: '', url: 'https://www.govinfo.gov/content/pkg/CHRG-118shrg63636/pdf/CHRG-118shrg63636.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-mlr', 'usmc-org-nmesis-units', 'joint-ttp-sus-dispersal']
+  },
+  {
+    id: 'usa-org-sus-med-fuel',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'Force Structure',
+    title: 'Medical and Fuel Support to the Guns',
+    what: [
+      'Role 1 and Role 2 medical care and bulk fuel, as arranged for artillery units.'
+    ],
+    how: [
+      'Role 1, in the FSC medical section: point of injury care, triage and basic stabilisation near the gun line.',
+      'Role 2, in the BSB medical company further back: advanced trauma management and surgical resuscitation.',
+      'Casualties leave the gun line in FSC vehicles if dedicated medical evacuation is not available.',
+      'FSC HEMTT tankers refuel on the move or top up heavy users such as the M109A7.'
+    ],
+    why: [
+      'Gun positions draw counter-battery fire. Medical support must be close enough to treat blast and fragment injuries quickly but far enough not to be hit in the same barrage.',
+      'Tracked howitzers use a great deal of diesel. A battery without fuel cannot make a survivability move.'
+    ],
+    sources: [
+      {"title": "ATP 4-90, Brigade Support Battalion", "publisher": "Headquarters, Department of the Army", "year": "2026", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN45712-ATP_4-90-000-WEB-1.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-surv-displace', 'usa-eq-m109a7']
+  },
+  {
+    id: 'usa-ttp-sus-chain',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion', 'Brigade', 'Division', 'Corps', 'Theatre'],
+    type: 'TTP',
+    title: 'Ammunition from Factory to Gun',
+    what: [
+      'The report gives a seven-step chain for ammunition (Class V) in large-scale combat.'
+    ],
+    how: [
+      '1. National base: munitions are made, for example at Scranton Army Ammunition Plant, and built into Strategic Configured Loads (SCLs).',
+      '2. Theatre: ammunition arrives at a Theater Sustainment Command depot, or is drawn from Army Prepositioned Stocks (APS-2 in Europe, APS-3 afloat).',
+      '3. Corps and echelons above brigade: Modular Ammunition Companies run Ammunition Supply Points (ASPs) and break SCLs into Mission Configured Loads (MCLs).',
+      '4. Sustainment brigade: moves MCLs forward on HEMTT and Palletized Load System (PLS) trucks.',
+      '5. Brigade Support Battalion: its Distribution Company holds the ammunition briefly at the ATHP in the Brigade Support Area.',
+      '6. Forward Support Company: from the field or combat trains, collects from the ATHP and delivers to the firing batteries.',
+      '7. Gun line: loads pass to battery carriers such as the M992A3 FAASV, which feed the howitzers, or go straight to the launchers.'
+    ],
+    why: [
+      'Each node balances combat mass against safety.',
+      'The ATHP limits how long bulk explosives sit forward. The FSC covers the last tactical mile quickly and shields batteries from delays further back.'
+    ],
+    sources: [
+      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://irp.fas.org/doddir/army/atp4-35.pdf' },
+      { title: 'ATP 4-90: Brigade Support Battalion', publisher: 'Headquarters, Dept. of the Army', year: '2026', url: '' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-sus-echelons', 'usa-ttp-sus-loads', 'usa-org-sus-aps', 'joint-ttp-rkt-reload']
+  },
+  {
+    id: 'joint-ttp-sus-rsr-csr',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Required and Controlled Supply Rates',
+    what: [
+      'Consumption is planned with the Required Supply Rate (RSR) and controlled with the Controlled Supply Rate (CSR).'
+    ],
+    how: [
+      'The commander, through the fires and operations staff, works out the RSR: the unconstrained ammunition needed for the mission, in rounds per weapon per day.',
+      'The sustainment chain checks the RSR against stocks, transport and higher priorities and issues the CSR: the rate actually authorised.'
+    ],
+    why: [
+      'Logistic reality rarely matches tactical demand.',
+      'When the RSR exceeds what supply can deliver, the CSR stops units exhausting theatre reserves early.',
+      'It forces commanders to prioritise targets and manage their basic load, the ammunition a unit must carry on its own vehicles.'
+    ],
+    sources: [
+      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://irp.fas.org/doddir/army/atp4-35.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-amm-approval', 'joint-ttp-amm-agm', 'usa-org-sus-amm-roles']
+  },
+  {
+    id: 'usa-ttp-sus-loads',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'TTP',
+    title: 'Configured Loads',
+    what: [
+      'Strategic and Mission Configured Loads speed field resupply.'
+    ],
+    how: [
+      'Ammunition is packed in the rear on flatracks with a set mix of projectiles, fuzes and charges, for example HE, smoke and illumination with the matching MACS charges.',
+      'Each flatrack moves as one unit.'
+    ],
+    why: [
+      'Forward handlers do not have to sort and match fuzes to shells under fire.',
+      'A dropped flatrack is a complete, usable package, not loose components for tired crews to assemble.'
+    ],
+    sources: [
+      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://irp.fas.org/doddir/army/atp4-35.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-sus-chain', 'joint-eq-amm-macs']
+  },
+  {
+    id: 'usa-ttp-sus-resupply',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Field Resupply Methods',
+    what: [
+      'The ways ammunition is handed to firing units.'
+    ],
+    how: [
+      'Scheduled convoys to the battery area.',
+      'Forward Arming and Refuelling Points (FARPs), built for aviation but adaptable for mobile launchers.',
+      'Tailgate delivery: the truck stops at each howitzer and drops what it needs.',
+      'Sling load under a CH-47 Chinook or UH-60 Black Hawk in extreme terrain or emergencies.'
+    ],
+    why: [
+      'Tailgate is fast but exposes soft-skinned trucks to the same counter-battery threat as the guns.',
+      'A FARP-style point pulls launchers back to a concealed reload site. That protects the trucks but takes tubes out of the fight for a time.',
+      'The commander chooses by threat and urgency.'
+    ],
+    sources: [
+      { title: 'ATP 4-35: Munitions Operations', publisher: 'Headquarters, Dept. of the Army', year: '2014', url: 'https://irp.fas.org/doddir/army/atp4-35.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-rkt-reload', 'usa-ttp-surv-displace']
+  },
+  {
+    id: 'joint-ttp-sus-rocket-cannon',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'TTP',
+    title: 'Handling Rocket and Cannon Ammunition',
+    what: [
+      'Rocket launchers and 155mm howitzers are resupplied in different ways.'
+    ],
+    how: [
+      'Cannon: 155mm ammunition is separate-loading. Projectiles, fuzes and MACS increments are handled one by one or on pallets, and pass to the howitzer by the FAASV conveyor.',
+      'Rockets: HIMARS and MLRS use pre-loaded Launch Pod Containers. The truck drops the pods and the launcher’s own crane lifts a six-rocket pod in at once.'
+    ],
+    why: [
+      'Pods reduce crew fatigue and reload time, so the launcher can fire and move quickly.',
+      'Cannon ammunition stays modular to allow variable charges and many shell and fuze combinations.'
+    ],
+    sources: [
+      {"title": "ATP 3-09.50, The Field Artillery Cannon Battery", "publisher": "Headquarters, Department of the Army", "year": "2016", "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/atp3_09x50.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-rkt-reload', 'usa-eq-m992a3', 'joint-eq-amm-macs']
+  },
+  {
+    id: 'joint-ttp-sus-dispersal',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'TTP',
+    title: 'Dispersed Caches and Unmanned Resupply',
+    what: [
+      'Ammunition nodes are being protected from drone surveillance and long-range fire, partly by unmanned delivery.'
+    ],
+    how: [
+      'Forces are moving from large static dumps to small, dispersed caches that move often.',
+      'The Marine Corps has bought the TRV-150 Tactical Resupply Unmanned Aircraft System. It carries 150 lb up to 44 miles at nearly 70 mph.'
+    ],
+    why: [
+      'Convoys are vulnerable to drone-directed artillery.',
+      'Unmanned resupply cuts the number of people exposed, avoids roadside bombs and allows continuous small deliveries without a large signature.'
+    ],
+    sources: [
+      { title: 'Tentative Manual for Expeditionary Advanced Base Operations, 2nd Edition', publisher: 'US Marine Corps', year: '2023', url: 'https://www.marines.mil/Portals/1/Docs/230509-Tentative-Manual-For-Expeditionary-Advanced-Base-Operations-2nd-Edition.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-sus-distributed', 'les-sus-ukraine']
+  },
+  {
+    id: 'usa-ttp-sus-efc',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion', 'N/A'],
+    type: 'TTP',
+    title: 'Barrel Life and Replacement',
+    what: [
+      'Barrel life is counted in Equivalent Full Charges (EFC). Barrels are replaced when worn out.',
+      'Module 7 covers how wear lowers muzzle velocity and the M90 velocimeter.'
+    ],
+    how: [
+      'A maximum-range charge counts as more EFC than a low-zone charge.',
+      'Crews log every round on DA Form 2408-4, Weapon Record Data, and enter it in the Army Electronic Product Support (AEPS) database.',
+      'A 155mm barrel is condemned at its EFC limit, typically 1,750 to 2,500 depending on system and charges, or when borescoping shows too much bore widening.',
+      'Sustainment units fit replacements made at Watervliet Arsenal.'
+    ],
+    why: [
+      'A worn barrel shoots short and ruins predicted fire.',
+      'A fatigued barrel can fail catastrophically and kill the crew.',
+      'Accurate counting also stops costly barrels being thrown away early.'
+    ],
+    sources: [
+      {"title": "FM 6-40 / MCWP 3-16.4: Tactics, Techniques, and Procedures for Field Artillery Manual Cannon Gunnery", "publisher": "U.S. Army / U.S. Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/mcwp3_16_4.pdf"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-barrel-records', 'les-tfd-worn-barrels', 'joint-eq-sus-bottlenecks']
+  },
+  {
+    id: 'usa-ttp-sus-availability',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Common Failures and Readiness Reporting',
+    what: [
+      'Typical faults of artillery systems, and how availability is reported.'
+    ],
+    how: [
+      'Self-propelled howitzers such as the M109A7 suffer thrown tracks, engine and transmission faults, and hydraulic, recoil and gun-laying faults.',
+      'Towed guns suffer suspension damage from fast cross-country moves.',
+      'Availability is reported up the chain and sets the combat power the commander has.',
+      'Actual availability rates are not in open sources. The aim is 90% or higher.'
+    ],
+    why: [
+      'Firing shocks the system, shaking sensors and loosening hydraulic seals.',
+      'Crews keep it going with preventive maintenance checks and services (PMCS), backed by FSC mechanics.'
+    ],
+    sources: [
+      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+    ],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-m109a7', 'usa-org-sus-maint-levels']
+  },
+  {
+    id: 'usa-ttp-sus-parts',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'TTP',
+    title: 'Spare Parts and Commonality',
+    what: [
+      'The burden of parts for several different systems, and how it is cut.'
+    ],
+    how: [
+      'Parts are tracked and ordered in the Global Combat Support System-Army (GCSS-Army).',
+      'The M109A7 Paladin Integrated Management (PIM) programme used Bradley engine, transmission and tracks to share parts across the Armored Brigade Combat Team.'
+    ],
+    why: [
+      'Fewer unique parts means a smaller load for the BSB, simpler supply, and mechanics who already know the drivetrain.'
+    ],
+    sources: [
+      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+    ],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-m109a7', 'usa-eq-sus-systems']
+  },
+  {
+    id: 'usa-ttp-sus-remote',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Remote Maintenance Support',
+    what: [
+      'Analysis: field mechanics increasingly consult depot engineers over tactical satellite links in real time.'
+    ],
+    how: [
+      'Analysis: a 91-series mechanic at the FSC can diagnose complex fire control or radar faults with remote help.'
+    ],
+    why: [
+      'Analysis: this avoids waiting days for a specialist to travel forward. It uses the same tactical networks as digital fires.'
+    ],
+    sources: [
+      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+    ],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-itn-sbue', 'usa-org-sus-maint-levels']
+  },
+  {
+    id: 'usa-eq-m992a3',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'M992A3 Ammunition Carrier (FAASV)',
+    what: [
+      'The M992A3 Field Artillery Ammunition Supply Vehicle (FAASV) is a tracked, armoured carrier on the M109 chassis. It accompanies the M109A7.',
+      'It carries 95 or 98 complete 155mm rounds (projectiles, charges and fuzes). Official budget documents give both figures.',
+      'Fielded alongside the M109A7 across Armored Brigade Combat Teams.'
+    ],
+    how: [
+      'A mechanised conveyor passes ammunition into the howitzer, so crews are not exposed outside the vehicles.'
+    ],
+    why: [
+      'Limitation: it needs the same heavy fuel and maintenance support as the howitzer.'
+    ],
+    sources: [
+      { title: 'FY2026 Program Acquisition Cost by Weapon System', publisher: 'Office of the Under Secretary of Defense (Comptroller)', year: '2026', url: 'https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2026/FY2026_Weapons.pdf' },
+      { title: 'Procurement of Weapons and Tracked Combat Vehicles, FY2027', publisher: 'Assistant Secretary of the Army (Financial Management and Comptroller)', year: '2026', url: 'https://www.asafm.army.mil/Portals/72/Documents/BudgetMaterial/2027/Discretionary%20Budget/Procurement/Procurement_of_Weapons_and_Tracked_Combat_Vehicles.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-m109a7', 'joint-ttp-sus-rocket-cannon']
+  },
+  {
+    id: 'usa-eq-sus-trucks',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'Equipment',
+    title: 'Load-Handling Trucks: PLS and HEMTT',
+    what: [
+      'The M1075 Palletized Load System (PLS) is a 10x10 truck with a 33,000 lb payload.',
+      'The M985 HEMTT is an 8x8 cargo truck, often with a crane, for MLRS pods and palletised munitions.',
+      'Both are widely fielded.'
+    ],
+    how: [
+      'They use flatracks, so loads can be dropped without manual unloading.',
+      'Ammunition is dense: a truck usually reaches its weight limit (“weighs out”) before it fills its space (“cubes out”).',
+      'Daily expenditure per unit depends on the scenario and is not published as a fixed figure.'
+    ],
+    why: [
+      'Limitation: they are large and unarmoured unless fitted with kits, and have strong thermal and visual signatures near the front.'
+    ],
+    sources: [
+      {"title": "PLS: Palletized Load System", "publisher": "Oshkosh Defense", "year": "", "url": "https://oshkoshdefense.com/vehicles/heavy-tactical-vehicles/pls/"},
+      {"title": "Palletized Load System (PLS)", "publisher": "Federation of American Scientists", "year": "", "url": "https://man.fas.org/dod-101/sys/land/pls.htm"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-sus-chain', 'joint-ttp-rkt-reload']
+  },
+  {
+    id: 'usa-eq-atlas',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Brigade'],
+    type: 'Equipment',
+    title: 'ATLAS II Rough-Terrain Forklift',
+    what: [
+      'The ATLAS II (All Terrain Lifter, Army System) is the Army’s standard 10,000 lb forklift for ammunition at ASPs and ATHPs.'
+    ],
+    how: [
+      'It lifts 4,000 lb at an extended reach of 21.5 feet.',
+      'It loads and unloads heavy flatracks and ISO containers.'
+    ],
+    why: [
+      'Limitation: unarmoured, and restricted to secured logistic nodes.'
+    ],
+    sources: [
+      {"title": "All Terrain Lifter, Army System (ATLAS)", "publisher": "Federation of American Scientists", "year": "", "url": "https://man.fas.org/dod-101/sys/land/atlas.htm"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-sus-chain', 'usa-ttp-sus-loads']
+  },
+  {
+    id: 'usa-eq-sus-recovery',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'Recovery: M88A2 HERCULES and M1089 Wrecker',
+    what: [
+      'The M88A2 HERCULES is a 70-ton armoured, tracked recovery vehicle with a 35-ton A-frame boom and a 70-ton main winch.',
+      'The M1089 is a 5-ton 6x6 medium wrecker with two 30,000 lb winches and an 11,000 lb crane.',
+      'Both are fully fielded. The FSC dispatches them.'
+    ],
+    how: [
+      'The M88A2 recovers armour such as the M109A7 (35 tons and more) and the FAASV.',
+      'The M1089 recovers towed howitzers (M777, M119) and wheeled trucks.'
+    ],
+    why: [
+      'A disabled gun is a stationary target.',
+      'Ordinary trucks cannot pull a mired armoured vehicle out under combat conditions.',
+      'Limitations: the M88A2 is slow and uses a lot of fuel; the M1089 has no armour for direct fire.'
+    ],
+    sources: [
+      { title: 'Family of Medium Tactical Vehicles', publisher: 'Wikipedia', year: '', url: 'https://en.wikipedia.org/wiki/Family_of_Medium_Tactical_Vehicles' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-m109a7', 'joint-eq-m777a2', 'usa-eq-m119a3']
+  },
+  {
+    id: 'usa-eq-sus-systems',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade', 'Division'],
+    type: 'Equipment',
+    title: 'Ammunition and Maintenance Software',
+    what: [
+      'Three systems forecast, track and account for ammunition and maintenance.',
+      'Total Ammunition Management Information System (TAMIS): authorisations and forecasts.',
+      'Standard Army Ammunition System-Modernized (SAAS-MOD): physical inventory at the ASP and ATHP.',
+      'GCSS-Army: property and maintenance.'
+    ],
+    how: [
+      'They were built separately and often do not synchronise.',
+      'Example: TAMIS shows an ammunition record (such as a cartridge- or propellant-actuated device, CAD/PAD) closed while GCSS-Army still holds it on the property book. The result is false delinquencies.'
+    ],
+    why: [
+      'Enterprise efforts are under way to close the data gaps.'
+    ],
+    sources: [
+      { title: 'Cartridge-Actuated Device and Propellant-Actuated Device', publisher: 'Aviation Digest, Line of Departure', year: '2026', url: 'https://www.lineofdeparture.army.mil/Journals/Aviation-Digest/Aviation-Digest-Archive/Winter-2026/Cartridge-Actuated-Device-and-Propellant-Actuated-Device/' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['les-sus-ctc', 'usa-ttp-sus-parts']
+  },
+  {
+    id: 'usa-org-sus-aps',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Theatre'],
+    type: 'Force Structure',
+    title: 'Army Prepositioned Stocks',
+    what: [
+      'Army Prepositioned Stocks (APS) are caches of equipment and ammunition held worldwide to cut deployment time.'
+    ],
+    how: [
+      'APS-2 supports Europe, with climate-controlled sites at Zutendaal (Belgium), Eygelshoven (Netherlands) and Dülmen (Germany).',
+      'They hold whole Armored Brigade Combat Team sets, including M109A7s and basic loads of 155mm ammunition, ready for arriving troops.'
+    ],
+    why: [
+      'Flying heavy armour and thousands of tons of ammunition from the US is too slow in a crisis. Only the people need to fly, cutting response from weeks to days.'
+    ],
+    sources: [
+      {"title": "Army pre-positioned stocks support Army readiness", "publisher": "U.S. Army", "year": "2017", "url": "https://www.army.mil/article/185875/army_pre_positioned_stocks_support_army_readiness"},
+      {"title": "Army Prepositioned Stocks send strong message of deterrence", "publisher": "U.S. Army", "year": "2024", "url": "https://www.army.mil/article/281749/army_prepositioned_stocks_send_strong_message_of_deterrence"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-sus-chain', 'les-sus-stocks']
+  },
+  {
+    id: 'joint-eq-sus-production',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'Munitions Production Rates',
+    what: [
+      'US 155mm shell output is being expanded under the National Defense Industrial Strategy Implementation Plan (NDIS-IP).'
+    ],
+    how: [
+      'Monthly rates from the report’s table (said to be from CRS and DoD Inspector General reports), before 2022 → 2024–2026:',
+      '155mm projectiles: about 14,400 → 36,000 to 40,000. Target 100,000, originally by October 2025, delayed by metal parts.',
+      '155mm propelling charges: about 14,494 → about 18,000.',
+      'GMLRS rockets: about 833 → about 1,167.',
+      'Javelin missiles: about 175 → about 200. PAC-3 MSE interceptors: about 21 → about 42.',
+      'Targets for charges, GMLRS, Javelin and PAC-3 were not found in open sources.',
+      'Automation, robotic handling and precision inspection were added at plants such as Scranton Army Ammunition Plant.'
+    ],
+    why: [
+      'Ukraine showed that large-scale war consumes artillery at Cold War rates.',
+      'A scalable industrial base sustains operations and deters adversaries who watch US stock depth.'
+    ],
+    sources: [
+      {"title": "Evaluation of the DoW's Capability and Capacity to Produce 155-Millimeter Artillery Ammunition (DOWIG-2026-095)", "publisher": "DoW Office of Inspector General", "year": "2026", "url": "https://www.oversight.gov/reports/evaluation-dows-capability-and-capacity-produce-155-millimeter-artillery-ammunition"},
+      {"title": "Strengthened Army industrial base doubles artillery production", "publisher": "U.S. Army", "year": "2023", "url": "https://www.army.mil/article/271572"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-amm-procurement', 'usa-eq-aml-production', 'joint-eq-sus-bottlenecks']
+  },
+  {
+    id: 'les-sus-stocks',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Lesson',
+    title: 'Ukraine Transfers and US Stocks',
+    what: [
+      'Transfers to Ukraine by sale and Presidential Drawdown Authority badly depleted US war reserves.'
+    ],
+    how: [
+      'The US sent millions of 155mm rounds, with GMLRS and ATACMS, drawing on domestic stocks and on APS-2 and APS-5.',
+      'The Army has invested over $4.5 billion to expand the industrial base.'
+    ],
+    why: [
+      'Supporting a partner against a near-peer meant accepting short-term risk to US readiness.',
+      'It exposed an industrial base built for peacetime efficiency, not wartime surge.'
+    ],
+    sources: [
+      {"title": "U.S. Security Assistance to Ukraine Since 2022 (IF12040)", "publisher": "Congressional Research Service", "year": "2026", "url": "https://www.everycrsreport.com/files/2026-08-31_IF12040_b732b458ee1fe7527c3424284c4b36137ae2ee3f.html"},
+      {"title": "Defense Production for Ukraine: Background and Issues for Congress (R48182)", "publisher": "Congressional Research Service", "year": "2024", "url": "https://www.everycrsreport.com/files/2024-09-16_R48182_efc76a6f433ff6ce906b442a0bf41d9f81667852.html"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-sus-production', 'usa-org-sus-aps']
+  },
+  {
+    id: 'joint-eq-sus-bottlenecks',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: 'Industrial Bottlenecks',
+    what: [
+      'The limits that prevent production scaling at once.'
+    ],
+    how: [
+      'Metal parts: the DoD Inspector General found the 100,000 target was held up by delays in new projectile metal parts lines.',
+      'Energetics: TNT and nitrocellulose remain a global choke point dependent on fragile foreign supply.',
+      'Barrels: Watervliet Arsenal, New York, is the only US government facility that makes large-calibre cannon barrels. It is a single point of failure.'
+    ],
+    why: [
+      'Decades of consolidation after the Cold War left the base brittle.',
+      'Restarting heavy lines, securing chemical supply and training machinists takes years, so money does not yield shells at once.'
+    ],
+    sources: [
+      {"title": "Evaluation of the DoW's Capability and Capacity to Produce 155-Millimeter Artillery Ammunition (DOWIG-2026-095)", "publisher": "DoW Office of Inspector General", "year": "2026", "url": "https://www.oversight.gov/reports/evaluation-dows-capability-and-capacity-produce-155-millimeter-artillery-ammunition"},
+      {"title": "Empty Bins in a Wartime Environment: The Challenge to the U.S. Defense Industrial Base", "publisher": "CSIS", "year": "2023", "url": "https://www.csis.org/analysis/empty-bins-wartime-environment-challenge-us-defense-industrial-base"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-sus-production', 'usa-ttp-sus-efc']
+  },
+  {
+    id: 'usa-trn-sus-schools',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Ammunition and Maintainer Courses',
+    what: [
+      'Logistic and maintenance soldiers are trained at Advanced Individual Training (AIT).'
+    ],
+    how: [
+      '89B Ammunition Specialist: about 7 to 8 weeks at the Ordnance School, Fort Gregg-Adams (formerly Fort Lee), Virginia. Ammunition identification, explosives safety and SAAS-MOD.',
+      '91F Small Arms/Artillery Repairer: 16 weeks at the same place. Howitzer mechanics and hydraulics.',
+      'At Fort Sill, Oklahoma: 13B Cannon Crewmember 7 weeks and 13J Fire Control Specialist 8 weeks.'
+    ],
+    why: [
+      'Mishandled ammunition can cause mass casualties, and a badly repaired recoil system can destroy the gun.',
+      'Long standard courses give a baseline of safety and skill.'
+    ],
+    sources: [
+      { title: '89B Ammunition Specialist', publisher: 'Army National Guard', year: '', url: 'https://nationalguard.com/89b-ammunition-specialist' },
+      { title: 'TRADOC Regulation 350-6', publisher: 'US Army Training and Doctrine Command', year: '', url: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/TR350-6(2).pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-cannon-specialties', 'usa-trn-fdc-enlisted']
+  },
+  {
+    id: 'usa-trn-sus-ctc',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['Brigade'],
+    type: 'Training',
+    title: 'Logistic Friction at the Training Centres',
+    what: [
+      'Brigade rotations at the National Training Center and the Joint Multinational Readiness Center replicate logistic strain.'
+    ],
+    how: [
+      'The weight and volume of ammunition are simulated with heavy placards, concrete blocks or blank ammunition matching the unit’s basic load.',
+      'The BSB and FSC must run real ATHP operations, convoy security and recovery under simulated attack and jamming.'
+    ],
+    why: [
+      'Digital “admin moves” would give commanders a false sense of tempo.',
+      'Moving real weight over hard ground exposes gaps in readiness, routes and time-distance planning.'
+    ],
+    sources: [
+      {"title": "Logistics Evolution at the National Training Center: Sustainment in a Communications-Constrained Environment", "publisher": "U.S. Army", "year": "2024", "url": "https://www.army.mil/article/277274/logistics_evolution_at_the_national_training_center_sustainment_in_a_communications_constrained_environment"},
+      {"title": "Division Sustainment at NTC Rotation 24-03", "publisher": "U.S. Army", "year": "2024", "url": "https://www.army.mil/article/277276/division_sustainment_at_ntc_rotation_24_03"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['les-sus-ctc', 'usa-trn-sus-critique']
+  },
+  {
+    id: 'usa-trn-sus-critique',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'Training',
+    title: 'Firing Well, Resupplying Badly',
+    what: [
+      'Analysis: a critique of how sustainment is handled during gunnery certification.'
+    ],
+    how: [
+      'Analysis: readiness is validated through Artillery Tables I to XVIII, ending in live battery and battalion evaluations.',
+      'Analysis: professional journals say units master firing but simplify resupply, sometimes placing ammunition at firing points before evaluations instead of making the FSC resupply tactically.'
+    ],
+    why: [
+      'Analysis: pressure for high scores leads units to remove variables. Firing units are proficient while the logistic tail stays untested.'
+    ],
+    sources: [
+      { title: 'No source given for this section in the report', publisher: 'Not stated in the source', year: '', url: '' }
+    ],
+    confidence: 'Analysis',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-artillery-tables', 'usa-trn-sus-ctc']
+  },
+  {
+    id: 'les-sus-ukraine',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'Multiple',
+    echelon: ['Theatre'],
+    type: 'Lesson',
+    title: 'Ukraine: Hunted Depots and Convoys',
+    what: [
+      'Reported, not confirmed: the report gives no source line or rating for this entry. It is held at Reported, as are the earlier Ukraine entries.',
+      'Reported: logistics are vulnerable and demand for artillery ammunition is very high.'
+    ],
+    how: [
+      'Reported: static depots were destroyed by long-range missiles and convoys hunted by surveillance drones.',
+      'Reported: high rates of fire wore out donated Western barrels faster than expected.',
+      'Reported: Russian jamming degraded GPS-guided rounds, which increased the volume of unguided ammunition needed per target.'
+    ],
+    why: [
+      'Reported: any concentrated logistic node will be targeted.',
+      'Reported: Ukrainian forces used dispersed systems such as Delta and Kropyva to pair sensors with guns in under a minute before moving.'
+    ],
+    sources: [
+      {"title": "Russian jamming of U.S. weapons in Ukraine forces Pentagon to adjust", "publisher": "The Washington Post", "year": "2024", "url": "https://www.washingtonpost.com/world/2024/05/24/russia-jamming-us-weapons-ukraine/"}
+    ],
+    confidence: 'Reported',
+    asOf: '2026-11',
+    relatedIds: ['les-amm-ukraine', 'les-tfd-worn-barrels', 'joint-ttp-sus-dispersal']
+  },
+  {
+    id: 'les-sus-ctc',
+    topic: 'sustainment',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Lessons',
+    force: 'US Army',
+    echelon: ['Battalion', 'Brigade'],
+    type: 'Lesson',
+    title: 'Training Centre Trends in Sustainment',
+    what: [
+      'Observer, Coach/Trainers report recurring logistic failures.'
+    ],
+    how: [
+      'Units struggle with command post survivability and electromagnetic signature.',
+      'Ammunition management is weak: TAMIS, SAAS-MOD and GCSS-Army do not synchronise, so S4s fall back on spreadsheets. Accountability is lost and units “run dry” at critical moments.'
+    ],
+    why: [
+      'The systems were not designed as a whole.',
+      'When links fail through jamming or incompatibility, staffs untrained in degraded, manual work cannot sustain the force.'
+    ],
+    sources: [
+      {"title": "Practice Makes Perfect: Training Sustainment in the Era of Contested Logistics", "publisher": "U.S. Army", "year": "", "url": "https://www.army.mil/article/286563/practice_makes_perfect_training_sustainment_in_the_era_of_contested_logistics"},
+      {"title": "Winning with Sustainment", "publisher": "U.S. Army", "year": "2025", "url": "https://www.army.mil/article/289088/winning_with_sustainment"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-sus-systems', 'les-c2-ctc-trends', 'usa-ttp-cp-survive']
+  },
+  // --- TARGETING, UNITED STATES (added 2026.12) ---
+  {
+    id: 'usa-ttp-tgt-d3a',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division', 'Corps'],
+    type: 'TTP',
+    title: 'Decide, Detect, Deliver, Assess',
+    what: [
+      'Decide, Detect, Deliver and Assess (D3A) is the main Army and Marine Corps targeting method, set out in FM 3-60, Army Targeting (August 2023).',
+      'It is a continuous cycle. It is built into the Military Decision-Making Process during planning and adapts during execution.'
+    ],
+    how: [
+      'Decide: set priorities, objectives and guidance. Commander, Fire Support Coordinator (FSCOORD), intelligence (G-2/S-2) and operations (G-3/S-3). Outputs: High-Payoff Target List, Target Selection Standards, Attack Guidance Matrix, Target Synchronization Matrix.',
+      'Detect: run the collection plan to acquire targets. G-2/S-2, collection manager, Field Artillery Intelligence Officer. Outputs: validated target tracks and sensor hand-offs.',
+      'Deliver: attack with lethal and non-lethal means. G-3/S-3, FSCOORD, fires cell, aviation. Outputs: fire missions, electronic attack, manoeuvre.',
+      'Assess: judge physical and functional results. G-2/S-2, assessment cell, FSCOORD. Outputs: Battle Damage Assessment and re-attack recommendations.'
+    ],
+    why: [
+      'Every nominated target must contribute to the commander’s end state.',
+      'The method weighs the benefit of an attack against the resources spent and the risk of collateral damage.'
+    ],
+    sources: [
+      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: 'https://files.uslweb.com/production/files/fm-3-60-2023-08.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-d3a-matrices', 'joint-ttp-amm-agm', 'usa-ttp-tgt-decide']
+  },
+  {
+    id: 'usa-ttp-tgt-decide',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Deciding: The Working Group and the Board',
+    what: [
+      'The Decide phase gives the logic for all later collection and fire missions.',
+      'It draws on Intelligence Preparation of the Battlefield (IPB) to identify enemy centres of gravity, critical vulnerabilities and High-Value Targets (HVTs): assets the enemy commander needs to succeed.'
+    ],
+    how: [
+      'The Targeting Working Group (TWG) is an analytical, cross-functional meeting. It aligns intelligence, manoeuvre, fires, airspace and electronic warfare into one scheme of fires.',
+      'The Targeting Coordination Board (TCB) is the formal approval body. The commander or a representative approves the targeting plan there.',
+      'The FSCOORD, often the Division Artillery commander, chairs the TWG and runs the TCB for the manoeuvre commander.',
+      'The report announces a list of the phase’s outputs. The list was not received with the source report, so it is not given here.'
+    ],
+    why: [
+      'Decide is the most critical phase: what is struck, in what order and to what criteria all follow from it.'
+    ],
+    sources: [
+      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: 'https://files.uslweb.com/production/files/fm-3-60-2023-08.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-tgt-d3a', 'usa-org-cannon-divarty']
+  },
+  {
+    id: 'usa-ttp-tgt-detect',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'US Army',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Detecting: The Field Artillery Intelligence Officer',
+    what: [
+      'In the Detect phase, intelligence runs the collection plan against targets on the High-Payoff Target List, using sensors from space down to brigade drones and forward observers.'
+    ],
+    how: [
+      'Acquisitions often pass to the Field Artillery Intelligence Officer (FAIO).',
+      'The FAIO checks the report against the Target Selection Standards: acquisition time, target location error, size and activity.',
+      'If it meets them, it becomes an actionable target.',
+      'If the location error is too large for the munition, for example a radar launch point whose error is larger than the lethal area of a 155mm round, the FAIO asks the collection managers to cross-cue a second sensor, such as a drone, to refine the location.'
+    ],
+    why: [
+      'The FAIO turns raw data into actionable intelligence, so fires are not spent on stale or inaccurate reports.'
+    ],
+    sources: [
+      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: 'https://files.uslweb.com/production/files/fm-3-60-2023-08.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-crosscue', 'usa-ttp-afatds-arbitration', 'usa-ttp-tgt-d3a']
+  },
+  {
+    id: 'usa-ttp-tgt-assess',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division'],
+    type: 'TTP',
+    title: 'Assessing: Did the Attack Work',
+    what: [
+      'The Assess phase decides whether the effects in the Attack Guidance Matrix were achieved, and whether to re-attack or reallocate.'
+    ],
+    how: [
+      'Combat assessment has three parts: Battle Damage Assessment (physical damage), Munitions Effectiveness Assessment (MEA, weapon performance) and re-attack recommendations.',
+      'FM 3-60 (August 2023) reintroduced a codified list of desired effects, so the staff measures loss of function, not only physical destruction.',
+      'If the effect was not achieved, the target returns to the Decide phase.'
+    ],
+    why: [
+      'Assessment closes the loop and tells the commander where to put fires next.'
+    ],
+    sources: [
+      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: 'https://files.uslweb.com/production/files/fm-3-60-2023-08.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-tgt-d3a', 'usa-ttp-amm-effects']
+  },
+  {
+    id: 'joint-ttp-tgt-f3ead',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Brigade', 'Division', 'Corps'],
+    type: 'TTP',
+    title: 'F3EAD and F2T2EA',
+    what: [
+      'Two other targeting methods run alongside D3A.'
+    ],
+    how: [
+      'F3EAD (Find, Fix, Finish, Exploit, Analyze, Disseminate): made popular by special operations forces for High-Value Individuals, and now nested within D3A.',
+      'It stresses Exploit and Analyze: material captured at a target site, such as devices or documents, can be worth more than killing the target. Each raid feeds the next.',
+      'F2T2EA (Find, Fix, Track, Target, Engage, Assess): used by the Air Force and joint community for dynamic targeting of targets of opportunity found too late for the deliberate cycle.'
+    ],
+    why: [
+      'Running them alongside D3A lets division and corps staffs plan deliberate deep strikes while reacting to fleeting targets.'
+    ],
+    sources: [
+      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: 'https://files.uslweb.com/production/files/fm-3-60-2023-08.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-tgt-d3a', 'joint-ttp-tst']
+  },
+  {
+    id: 'joint-trn-tgt-jts',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'The Joint Targeting School and the Joint Firepower Course',
+    what: [
+      'The Joint Targeting School (JTS), at the Naval Air Station Oceana-Dam Neck Annex, Virginia, is the main school for operational-level targeting.',
+      'The report announces a list of field artillery targeting specialties. The list was not received with the source report, so it is not given here.'
+    ],
+    how: [
+      'Joint Targeting Staff Course: 2 weeks; O-2 to O-6, CW1 to CW5, E-6 to E-9. Joint capabilities in the joint targeting cycle.',
+      'Collateral Damage Estimation: 1 week; no strict rank requirement.',
+      'Combat Assessment Course: 1 week; Battle Damage and Munitions Effectiveness Assessment.',
+      'Weaponeering Applications: 1 week; munition effects against specific target types.',
+      'Airspace and joint fires staff may attend the Joint Firepower Course at Nellis Air Force Base and earn Additional Skill Identifier (ASI) 5U.'
+    ],
+    why: [
+      'Targeting relies more and more on joint assets: aircraft, naval fires and cyber. Staff must know how to combine them.'
+    ],
+    sources: [
+      {"title": "Joint Targeting School", "publisher": "Joint Chiefs of Staff (J7)", "year": "", "url": "https://www.jcs.mil/Doctrine/Joint-Training/Joint-Functional-Schools/JTS"},
+      {"title": "Leaders increase interoperability through Joint Firepower Course", "publisher": "U.S. Army", "year": "2015", "url": "https://www.army.mil/article/147321/leaders_increase_interoperability_through_joint_firepower_course"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-trn-amm-cde-cert', 'joint-ttp-amm-cde', 'usa-trn-c2-schools']
+  },
+  {
+    id: 'joint-eq-tgt-metal-parts',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['N/A'],
+    type: 'Equipment',
+    title: '155mm Production: Metal Parts and Load Plants',
+    what: [
+      'Shell production is split between projectile metal parts plants and Load, Assemble and Pack (LAP) plants.',
+      'Metal parts plants include Scranton Army Ammunition Plant, Pennsylvania, and a new plant at Mesquite, Texas.',
+      'Module 10 gives the production rates and the 100,000-round monthly target.'
+    ],
+    how: [
+      'Even with Mesquite at capacity, the Army projects a shortfall of 29,000 projectile metal parts a month against the 100,000 goal.',
+      'Watervliet Arsenal has struggled to meet barrel demand driven by fast wear. The Army is seeking second manufacturers.'
+    ],
+    why: [
+      'Metal parts, not explosive filling, are the binding limit on the 100,000 target.'
+    ],
+    sources: [
+      {"title": "Evaluation of the DoW's Capability and Capacity to Produce 155-Millimeter Artillery Ammunition (DOWIG-2026-095)", "publisher": "DoW Office of Inspector General", "year": "2026", "url": "https://www.oversight.gov/reports/evaluation-dows-capability-and-capacity-produce-155-millimeter-artillery-ammunition"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-sus-production', 'joint-eq-sus-bottlenecks']
+  },
+  {
+    id: 'joint-ttp-tgt-chmr',
+    topic: 'digital-fires-c2',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['All'],
+    type: 'TTP',
+    title: 'Civilian Harm Mitigation and Response',
+    what: [
+      'The Department of Defense issued the Civilian Harm Mitigation and Response Action Plan (CHMR-AP) in August 2022, then DoD Instruction 3000.17 in December 2023.',
+      'The policy treats protecting civilians as a strategic need as well as a legal duty under the Law of Armed Conflict.'
+    ],
+    how: [
+      'DoDI 3000.17 does not change the collateral damage estimation formulas. It widens the intelligence and planning that come before a strike.',
+      'The civilian environment (populations, infrastructure and essential services) must be built into planning for large-scale combat.',
+      'Commanders set up Civilian Environment Teams that combine demographics, patterns of life and open-source data, including data from civil society organisations.',
+      'Harm mitigation standards must be built into the acquisition of future non-lethal weapons and intelligence sensors.',
+      'A dedicated office tracks, investigates and publicly acknowledges incidents of civilian harm.',
+      'The considerations are built into the Target Selection Standards and the Attack Guidance Matrix.'
+    ],
+    why: [
+      'Civilian deaths can undo tactical success and hand the adversary an information victory.',
+      'Building the rules into the standards keeps human judgement in place when automated systems compute fire solutions.'
+    ],
+    sources: [
+      { title: 'DoD Instruction 3000.17: Civilian Harm Mitigation and Response', publisher: 'US Department of Defense', year: '2023', url: 'https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/300017p.PDF' },
+      { title: 'Civilian harm mitigation in large-scale combat operations', publisher: 'Ceasefire Centre for Civilian Rights', year: '2025', url: 'https://www.ceasefire.org/wp-content/uploads/2025/11/CFR_CivilianHarm_FINAL_ONLINE.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-amm-roe', 'joint-ttp-amm-cde', 'usa-ttp-tgt-d3a']
+  },
+  // --- MORTARS, UNITED STATES (added 2026.12) ---
+  {
+    id: 'joint-ttp-mor-role',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Mortars and How They Differ from Artillery',
+    what: [
+      'Mortars belong to infantry, armour and cavalry commanders at company and battalion. They are the commander’s most responsive indirect fire.',
+      'Doctrine: ATP 3-21.90 / MCTP 3-01D, Tactical Employment of Mortars (October 2019); TC 3-22.90, Mortars; TC 3-22.91, Mortar Fire Direction Procedures.'
+    ],
+    how: [
+      'Mortars fire at high angle into defilade: behind steep ground, buildings or jungle canopy.',
+      'Their bursting radius is smaller than 105mm or 155mm shells, so their Risk Estimate Distance is shorter. Fire can be walked closer to assaulting troops.',
+      'Rounds fall almost vertically. Artillery’s flatter path may hit the forward slope instead of the target behind it.',
+      'Mortars work at lower chamber pressure, so barrels last far longer than artillery barrels.'
+    ],
+    why: [
+      'Artillery shapes the deep fight and counters enemy guns. Mortars give close support against troops, weapons and positions threatening the unit now.',
+      'Longer barrel life and a supply chain less strained by aid to partners give higher readiness in manoeuvre battalions.'
+    ],
+    sources: [
+      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-01D.pdf' },
+      { title: 'TC 3-22.90: Mortars', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.scribd.com/document/448887690/Mortar-pdf' },
+      { title: 'TC 3-22.91: Mortar Fire Direction Procedures', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.scribd.com/document/560467851/Arn3488-tc-3-22x91-Final-Web-1' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-amm-reds', 'usa-ttp-sus-efc', 'usa-ttp-mor-targeting']
+  },
+  {
+    id: 'usa-ttp-mor-targeting',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion', 'Brigade'],
+    type: 'TTP',
+    title: 'Mortars in the Targeting Cycle',
+    what: [
+      'Mortar units are part of the brigade and battalion D3A process under FM 3-60.'
+    ],
+    how: [
+      'Targets are found by forward observers, cavalry scouts and, more and more, small drones.',
+      'The fires cell checks each target against the Attack Guidance Matrix by location error, size and activity.',
+      'Targets suited to mortars, such as light infantry in defilade, an enemy mortar pit or a need for immediate smoke, are sent digitally to the mortar platoon’s FDC.',
+      'Under ARSTRUC 2025–2029, brigades lose their howitzer battalions. Targeting officers and Fire Support Officers must pair 120mm mortars with loitering munitions such as LASSO for the brigade’s deep area.'
+    ],
+    why: [
+      'Mortar FDCs now need digital integration, target refinement and airspace deconfliction once kept for artillery batteries.'
+    ],
+    sources: [
+      { title: 'FM 3-60: Army Targeting', publisher: 'Headquarters, Dept. of the Army', year: '2023', url: 'https://files.uslweb.com/production/files/fm-3-60-2023-08.pdf' },
+      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-01D.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-tgt-d3a', 'usa-org-lasso-platoons', 'usa-org-cannon-divarty']
+  },
+  {
+    id: 'usa-org-mor-ibct',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion'],
+    type: 'Force Structure',
+    title: 'Mortars in the Infantry Brigade Combat Team',
+    what: [
+      'Rifle company: a mortar section of two 60mm M224A1, six soldiers.',
+      'Battalion: a mortar platoon of four 120mm M120A1 and four 81mm M252A1, 24 soldiers.',
+      'Dismounted reconnaissance troop: a section of two 60mm mortars.'
+    ],
+    how: [
+      'The battalion platoon cannot man all eight tubes at once. The platoon leader picks the weapon for the mission.',
+      'Air assault or terrain closed to vehicles: the 81mm, man-packed.',
+      'From bases or on roads: the 120mm, towed on an M1101 trailer with the M326 Mortar Stowage Kit, about 96 rounds carried.'
+    ],
+    why: [
+      'Company mortars give smoke, illumination and suppression without competing for battalion assets.',
+      'The reconnaissance section helps break contact during infiltration and counter-reconnaissance.'
+    ],
+    sources: [
+      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-01D.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-eq-m224a1', 'joint-eq-m252a1', 'usa-eq-m120']
+  },
+  {
+    id: 'usa-org-mor-sbct',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Company', 'Battalion'],
+    type: 'Force Structure',
+    title: 'Mortars in the Stryker Brigade Combat Team',
+    what: [
+      'Battalion mortar platoon: four Stryker Mortar Carrier Vehicles, 27 soldiers, about 240 rounds in the platoon.',
+      'Cavalry troops: a mortar section of two carriers and its own FDC.'
+    ],
+    how: [
+      'The carrier was the M1129. The current M1252 has a double-V hull against underbelly blasts.',
+      'It fires a 120mm mortar through open roof hatches.',
+      '81mm mortars are stowed inside. Crews can dismount and fire them where the Stryker cannot go or a smaller signature is needed.'
+    ],
+    why: [
+      'Cavalry mortars let forward reconnaissance destroy enemy screens or cover its own withdrawal without waiting for clearance from battalion or brigade.'
+    ],
+    sources: [
+      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-01D.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-eq-m120', 'usa-eq-mor-nemo']
+  },
+  {
+    id: 'usa-org-mor-abct',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'US Army',
+    echelon: ['Battalion'],
+    type: 'Force Structure',
+    title: 'Mortars in the Armored Brigade Combat Team',
+    what: [
+      'Combined arms battalion mortar platoon: four tracked carriers with 120mm mortars, 69 rounds each, 276 in the platoon.'
+    ],
+    how: [
+      'The old carrier was the M1064A3, built on the M113 chassis.',
+      'The Army is fielding the M1287 Mortar Carrier Vehicle, a variant of the Armored Multi-Purpose Vehicle (AMPV). It has much better armour and keeps up with Abrams and Bradley.'
+    ],
+    why: [
+      'The M113 chassis is too vulnerable and too slow for large-scale combat.',
+      'At maximum rates the platoon can fire its 276 rounds in minutes. Resupply limits mortar fire more than anything else.'
+    ],
+    sources: [
+      { title: 'ATP 3-21.90 / MCTP 3-01D: Tactical Employment of Mortars', publisher: 'Headquarters, Dept. of the Army', year: '2019', url: 'https://www.marines.mil/Portals/1/Publications/MCTP%203-01D.pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-sus-chain', 'usa-eq-mor-nemo']
+  },
+  {
+    id: 'usmc-org-mor',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Forces',
+    force: 'USMC',
+    echelon: ['Company', 'Battalion'],
+    type: 'Force Structure',
+    title: 'Marine Mortars and the End of the 120mm',
+    what: [
+      'Rifle company: the weapons platoon has a section of three 60mm M224A1.',
+      'Battalion: the weapons company has an 81mm platoon of eight M252A1.',
+      'Marine mortarmen hold MOS 0341.'
+    ],
+    how: [
+      'The Marine Corps gave up its 120mm M327 Expeditionary Fire Support System (EFSS) around 2017–2018. It was a towed heavy mortar carried inside the MV-22 and CH-53E.',
+      'Heavy indirect fire now comes from aviation, loitering munitions or naval surface fire.'
+    ],
+    why: [
+      'Under Force Design and EABO, the weight of 120mm ammunition and tow vehicles did not suit the Marine Littoral Regiment’s need to move quickly and quietly between islands.'
+    ],
+    sources: [
+      {"title": "Marine Corps Is Finished With Its Long-Troubled Lightweight 120mm Mortar Systems", "publisher": "The War Zone", "year": "2018", "url": "https://www.twz.com/19232/marine-corps-is-finished-with-its-long-troubled-lightweight-120mm-mortar-systems"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-org-mlr', 'usmc-org-opf', 'usmc-trn-0341']
+  },
+  {
+    id: 'joint-eq-m224a1',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Company'],
+    type: 'Equipment',
+    title: 'M224A1 60mm Light Mortar',
+    what: [
+      'The company mortar. Inconel, aluminium and titanium keep it light.',
+      'Conventional mode, 17.19 kg (37.8 lb): M225A1 cannon, M170A1 bipod, M7A1 baseplate and M67 sight.',
+      'Handheld mode, 8.89 kg, with the smaller M8 baseplate.'
+    ],
+    how: [
+      'Range 70 to 3,490 m.',
+      'Up to 30 rounds a minute for short periods; 8 to 20 sustained.',
+      'In handheld mode one soldier can drop-fire or trigger-fire it on the move.'
+    ],
+    why: [
+      'It gives the company immediate suppression in an assault.'
+    ],
+    sources: [
+      { title: 'TC 3-22.90: Mortars', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.scribd.com/document/448887690/Mortar-pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-mor-ibct', 'usmc-org-mor']
+  },
+  {
+    id: 'joint-eq-m252a1',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Battalion'],
+    type: 'Equipment',
+    title: 'M252A1 81mm Medium Mortar',
+    what: [
+      'The main battalion mortar of light infantry and Marines.',
+      'About 89 lb, 20 percent lighter than the M252.'
+    ],
+    how: [
+      'Fires high explosive, white phosphorus and illumination beyond 5,800 m.',
+      'Up to 30 rounds a minute.'
+    ],
+    why: [
+      'It balances the punch of a heavy mortar with the portability of a light one.'
+    ],
+    sources: [
+      { title: 'TC 3-22.90: Mortars', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.scribd.com/document/448887690/Mortar-pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-mor-ibct', 'usmc-org-mor']
+  },
+  {
+    id: 'usa-eq-m120',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Battalion'],
+    type: 'Equipment',
+    title: 'M120A1 and M121 120mm Heavy Mortars',
+    what: [
+      'The most lethal close-support weapon in the battalion.',
+      'M120A1: towed or dismounted. M121: mounted in Stryker and AMPV carriers.',
+      'The weapon (M298 cannon, M191 bipod, M9A1 baseplate) weighs about 320 lb.',
+      'Range 7,200 m; up to 16 rounds a minute.'
+    ],
+    how: [
+      'The M326 Mortar Stowage Kit is a powered hydraulic lift that hoists the assembled mortar into an M1101 trailer.',
+      'A HMMWV or JLTV then tows it, and it can be emplaced and moved quickly.'
+    ],
+    why: [
+      'Fast emplacement and displacement keep it ahead of counter-battery fire.'
+    ],
+    sources: [
+      { title: 'TC 3-22.90: Mortars', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.scribd.com/document/448887690/Mortar-pdf' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-mor-ibct', 'joint-eq-mor-effects']
+  },
+  {
+    id: 'joint-eq-mor-effects',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'Equipment',
+    title: 'Mortar Ammunition Effects',
+    what: [
+      'Mortar rounds kill mainly by fragmentation.',
+      'Bursting radius: the distance at which 50 percent of standing, exposed people become casualties.'
+    ],
+    how: [
+      'Fire against standing troops is almost twice as effective as against prone troops.',
+      '60mm and 81mm cannot penetrate overhead cover. The 120mm with delay fuze defeats up to 18 inches of earth and timber.',
+      'A 120mm white phosphorus round suppresses and ignites within 65 m and makes a dense, lasting screen.',
+      'All calibres have visible and infrared illumination, burning up to 60 seconds.'
+    ],
+    why: [
+      'Enemy posture and cover decide which calibre and fuze the FDC plans.'
+    ],
+    sources: [
+      { title: 'TC 3-22.90: Mortars', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.scribd.com/document/448887690/Mortar-pdf' },
+      { title: 'TC 3-22.91: Mortar Fire Direction Procedures', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.scribd.com/document/560467851/Arn3488-tc-3-22x91-Final-Web-1' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-amm-matching', 'usa-eq-m120']
+  },
+  {
+    id: 'usa-eq-mor-fire-control',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'Equipment',
+    title: 'Mortar Fire Control: Digital and Analog',
+    what: [
+      'Mortar Fire Control System (MFCS): mounted M95 in Stryker and AMPV; dismounted M150.',
+      'Lightweight Handheld Mortar Ballistic Computer (LHMBC) M32A1 for towed and man-packed squads.',
+      'Analog: M16 plotting board (81mm and 120mm) and M19 (60mm).'
+    ],
+    how: [
+      'The M95 links the mortar’s pointing device with AFATDS to take digital missions. It computes the solution and feeds elevation and deflection to the gunner, with no aiming circle or poles.',
+      'A carrier can halt, take a mission, fire and move in a fraction of the old time.',
+      'TC 3-22.91 requires crews to stay proficient on plotting boards. Switching from MFCS to the M16 under simulated jamming is graded in crew evaluations.'
+    ],
+    why: [
+      'Jamming and spoofing can deny digital systems, as seen in Ukraine.'
+    ],
+    sources: [
+      { title: 'TC 3-22.91: Mortar Fire Direction Procedures', publisher: 'Headquarters, Dept. of the Army', year: '', url: 'https://www.scribd.com/document/560467851/Arn3488-tc-3-22x91-Final-Web-1' }
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-ttp-manual-gunnery', 'les-tfd-gps-jamming']
+  },
+  {
+    id: 'usa-eq-mor-pgm',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Battalion'],
+    type: 'Equipment',
+    title: 'Guided 120mm Mortar Rounds',
+    what: [
+      'The XM395 Accelerated Precision Mortar Initiative (APMI) and the M935 High Explosive Guided Mortar (HEGM) are GPS-guided 120mm rounds.'
+    ],
+    how: [
+      'GPS and computer-controlled fins steer the round.',
+      'Target coordinates are set into the round by the XM701 Precision Lightweight Universal Mortar Setter System (PLUMSS) before it is dropped down the tube.'
+    ],
+    why: [
+      'They give infantry battalions non-line-of-sight precision: one round against a command post or air defence node.',
+      'They are vulnerable to GPS jamming.'
+    ],
+    sources: [
+      {"title": "Picatinny fields first precision-guided mortars to troops in Afghanistan", "publisher": "U.S. Army", "year": "2011", "url": "https://www.army.mil/article/53988/"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-mor-chmr', 'joint-eq-amm-guided']
+  },
+  {
+    id: 'joint-ttp-mor-chmr',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'TTPs',
+    force: 'Multiple',
+    echelon: ['Company', 'Battalion'],
+    type: 'TTP',
+    title: 'Mortars and Civilian Harm',
+    what: [
+      'The report argues that mortars help meet civilian harm policy in towns.'
+    ],
+    how: [
+      '155mm high explosive often exceeds collateral damage limits in towns, or needs approval from higher command.',
+      'Mortars have a smaller bursting radius, a steeper descent that is less likely to hit nearby buildings, and less explosive than a 155mm shell.',
+      'Guided 120mm rounds such as APMI can replace artillery against urban targets.'
+    ],
+    why: [
+      'Commanders can still attack the enemy while keeping to civilian harm rules and the legitimacy of the operation.'
+    ],
+    sources: [
+      {"title": "Civilian Harm Mitigation and Response Action Plan", "publisher": "U.S. Department of Defense", "year": "2022", "url": "https://media.defense.gov/2022/Aug/25/2003064740/-1/-1/1/CIVILIAN-HARM-MITIGATION-AND-RESPONSE-ACTION-PLAN.PDF"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['joint-ttp-tgt-chmr', 'joint-ttp-amm-cde', 'usa-eq-mor-pgm']
+  },
+  {
+    id: 'usa-eq-mor-nemo',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Equipment',
+    force: 'US Army',
+    echelon: ['Battalion'],
+    type: 'Equipment',
+    title: 'Turreted Mortar: Patria NEMO on the AMPV',
+    what: [
+      'The Army is evaluating the Patria NEMO 120mm turreted mortar on the AMPV hull.',
+      'It was tested at Yuma Proving Ground and Fort Moore in 2024 and 2025.'
+    ],
+    how: [
+      'NEMO is a semi-automatic, single-barrel, breech-loaded 120mm mortar in an armoured turret.',
+      'The crew fires without leaving armour.',
+      'The turret can also fire directly at fortifications or light armour.'
+    ],
+    why: [
+      'Open-hatch carriers such as the M1129 and M1064 expose crews to shrapnel and loitering munitions.',
+      'Direct fire turns the carrier from a support asset into an assault vehicle.'
+    ],
+    sources: [
+      {"title": "Yuma Proving Ground testing cutting-edge turret system", "publisher": "U.S. Army", "year": "2024", "url": "https://www.army.mil/article/276051/yuma_proving_ground_testing_cutting_edge_turret_system"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-org-mor-abct', 'usa-org-mor-sbct', 'usa-ttp-surv-hardening']
+  },
+  {
+    id: 'usa-trn-11c',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'US Army',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Army Mortar Training: 11C and the Mortar Leader Course',
+    what: [
+      'Indirect Fire Infantrymen (11C) complete 22 weeks of One Station Unit Training (OSUT) at Fort Moore, Georgia.',
+      'Leaders attend the Infantry Mortar Leader Course (IMLC), also at Fort Moore.'
+    ],
+    how: [
+      'OSUT combines basic combat training with the M224A1, M252A1 and M120A1: emplacement, manual plotting, digital fire control and carrying heavy loads.',
+      'IMLC certifies leaders in ballistic computation, fitting mortars into the scheme of manoeuvre and running the FDC.',
+      'Crews are graded on DA Form 7880, Mortar Crew Section Fire Mission Scoresheet.',
+      'Passing the Mortar Gunner’s Examination, which tests deflection and elevation to the mil, is required to stay qualified.'
+    ],
+    why: [
+      'Ballistics, digital communications and fast employment need specialist training.'
+    ],
+    sources: [
+      {"title": "22-week infantry OSUT set to increase lethality, with more career fields to follow", "publisher": "U.S. Army", "year": "2019", "url": "https://www.army.mil/article/229272/22_week_infantry_osut_set_to_increase_lethality_with_more_career_fields_to_follow"},
+      {"title": "Introduction to the Doctrinal Mortar Community", "publisher": "U.S. Army", "year": "", "url": "https://www.army.mil/article/284195/introduction_to_the_doctrinal_mortar_community"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usmc-trn-0341', 'usa-eq-mor-fire-control']
+  },
+  {
+    id: 'usmc-trn-0341',
+    topic: 'cannon-artillery',
+    country: 'United States',
+    addedIn: '2026.12',
+    module: 'Training',
+    force: 'USMC',
+    echelon: ['N/A'],
+    type: 'Training',
+    title: 'Marine Mortar Training: 0341',
+    what: [
+      'Marine mortarmen train at the School of Infantry, Infantry Training Battalion (ITB), at Camp Lejeune or Camp Pendleton.',
+      'Squad and section leaders attend the Advanced Mortarman Course at the Advanced Infantry Training Battalion.'
+    ],
+    how: [
+      'ITB lasts 59 days. On day 21 the class splits by MOS, and 0341s train on the 60mm and 81mm.',
+      'The Advanced Mortarman Course lasts 7 weeks: advanced FDC procedures, the mortar ballistic computer, fire support planning, and mortars in motorised offence and defence.'
+    ],
+    why: [
+      'It builds leaders able to run the FDC and plan fires.'
+    ],
+    sources: [
+      {"title": "Advanced Mortarman Course outline", "publisher": "Training Command, U.S. Marine Corps", "year": "", "url": "https://www.tecom.marines.mil/Portals/127/Docs/AdvancedMortarmanCourse.docx"},
+      {"title": "Infantry Mortar Leaders Course", "publisher": "Marine Corps Detachment, Maneuver Center of Excellence", "year": "", "url": "https://www.soieast.marines.mil/Units/Marine-Corps-Detachment-Maneuver-Center-of-Excellence/INFANTRY-MORTAR-LEADERS-COURSE/"}
+    ],
+    confidence: 'Confirmed',
+    asOf: '2026-11',
+    relatedIds: ['usa-trn-11c', 'usmc-org-mor']
+  },
+  {
+    id: "rus-doc-rfc-rsc",
+    topic: "digital-fires-c2",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Multiple",
+    echelon: ["Brigade", "Division", "Corps", "Theatre"],
+    type: "Command & Control",
+    title: "The Reconnaissance-Fire and Reconnaissance-Strike Complexes",
+    what: ["Russian doctrine joins sensors, command and weapons in two linked systems, built on ideas of Marshal Nikolai Ogarkov in the late Cold War.", "Reconnaissance-Fire Complex (RFC): tactical, historically out to about 40 km.", "Reconnaissance-Strike Complex (RSC): operational and operational-strategic, out to and beyond 200 km."],
+    how: ["The RFC links intelligence, precise targeting, fire direction centres and tactical artillery to destroy high-value targets in near real time.", "The RSC uses rocket launchers, tactical ballistic missiles and aerospace forces against enemy logistics and command.", "Analysts see the two merging into a single Reconnaissance-Fires System as precision weapons spread."],
+    why: ["Russian thought sees a non-linear, fluid battlefield where time and information decide the fight.", "Artillery, “the God of War”, is the main means of weakening an enemy before direct contact.", "Compare the US D3A targeting cycle: the Russian model fuses sensor and shooter into one standing system rather than a staff process."],
+    sources: [{"title": "ATP 7-100.1: Russian Tactics: Strike and Fires", "publisher": "TRADOC G2, US Army", "year": "", "url": "https://oe.t2com.army.mil/product/atp-7-100-1-russian-tactics-strike-and-fires/"}, {"title": "The Evolution of Russia’s Precision Strike", "publisher": "RUSI", "year": "", "url": "https://static.rusi.org/the-evolution-of-russias-precision-strike_1.pdf"}, {"title": "How Russia Fights in LSCO", "publisher": "TRADOC G2, US Army", "year": "2025", "url": "https://api.army.mil/e2/c/downloads/2025/08/27/9d0d86ff/tradoc-g2-how-russia-fights-in-lsco-aug-25.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-ttp-tgt-d3a", "usa-ttp-direct-s2s", "rus-org-mrb"]
+  },
+  {
+    id: "rus-doc-fire-forms",
+    topic: "digital-fires-c2",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Russian Ground Forces",
+    echelon: ["Battalion", "Brigade", "Division"],
+    type: "TTP",
+    title: "Fire Sweeps, Edges, Corridors, Vises and Sacks",
+    what: ["Russian doctrine names set patterns of planned fire, each meant to shape how the enemy moves."],
+    how: ["Fire Sweep: a moving barrage that drives enemy forces towards a chosen kill zone.", "Fire Edge: barrage and concentrated fire on likely approaches, to protect a facility or troops.", "Fire Corridor: fire on both sides of a planned axis of advance, to give safe passage.", "Fire Vise: barrage lines on the edge of a target that close towards the centre, then concentrations to finish the trapped force.", "Fire Sack: very heavy fire on a central aim point, with different subunits covering an area 400 to 800 m across.", "Harassment fire uses a few firing units on a schedule for psychological effect, not a set percentage of destruction."],
+    why: ["The aim is systemic paralysis, not only physical destruction.", "Compare US doctrine, which states effects as suppress, neutralise or destroy rather than as fire geometries."],
+    sources: [{"title": "ATP 7-100.1: Russian Tactics: Strike and Fires", "publisher": "TRADOC G2, US Army", "year": "", "url": "https://oe.t2com.army.mil/product/atp-7-100-1-russian-tactics-strike-and-fires/"}, {"title": "The Russian Way of War: Force Structure, Tactics, and Modernization", "publisher": "Army University Press", "year": "2017", "url": "https://www.armyupress.army.mil/portals/7/hot%20spots/documents/russia/2017-07-the-russian-way-of-war-grau-bartles.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-ttp-amm-effects", "usa-ttp-amm-sheaf"]
+  },
+  {
+    id: "rus-org-mrb",
+    topic: "cannon-artillery",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Russian Ground Forces",
+    echelon: ["Battalion", "Brigade", "Division", "Corps"],
+    type: "Force Structure",
+    title: "Artillery in the Motor Rifle Brigade",
+    what: ["The army is organised under the General Staff and five military districts, with combined arms and tank armies as the main operational formations.", "Recent reforms restored divisions and corps to reduce the span of control over many separate brigades.", "A motor rifle brigade traditionally has four artillery battalions: two self-propelled howitzer battalions, one rocket battalion and one anti-tank battalion."],
+    how: ["A self-propelled battery has six 152mm guns, with fire direction centralised at battery level rather than in platoons.", "The rocket battalion uses 122mm launchers.", "The anti-tank battalion has 100mm MT-12 Rapira towed guns and 9K114 Shturm-S or Khrizantema-S missile systems."],
+    why: ["The brigade has far more tubes per manoeuvre unit than Western equivalents.", "Compare the US Army, which is moving cannon battalions out of its brigades to the Division Artillery."],
+    sources: [{"title": "The Russian Army: Organization and Modernization", "publisher": "CNA", "year": "2019", "url": "https://www.cna.org/reports/2019/10/IOP-2019-U-021801-Final.pdf"}, {"title": "The Russian Way of War: Force Structure, Tactics, and Modernization", "publisher": "Army University Press", "year": "2017", "url": "https://www.armyupress.army.mil/portals/7/hot%20spots/documents/russia/2017-07-the-russian-way-of-war-grau-bartles.pdf"}, {"title": "How Russia Fights in LSCO", "publisher": "TRADOC G2, US Army", "year": "2025", "url": "https://api.army.mil/e2/c/downloads/2025/08/27/9d0d86ff/tradoc-g2-how-russia-fights-in-lsco-aug-25.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-cannon-divarty", "rus-doc-rfc-rsc"]
+  },
+  {
+    id: "rus-org-vdv-nbc",
+    topic: "rocket-missile-artillery",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Multiple",
+    echelon: ["Company", "Battalion", "Brigade"],
+    type: "Force Structure",
+    title: "Thermobaric Launchers and Airborne Artillery: Two Special Cases",
+    what: ["The TOS-1A and TOS-2 thermobaric launchers belong to the Nuclear, Biological and Chemical (NBC) Protection Troops, not the artillery.", "The Airborne Forces (VDV) have their own air-droppable artillery and command system."],
+    how: ["A heavy flamethrower company has 35 personnel and three TOS-1A.", "VDV units use the 120mm 2S9 Nona-S self-propelled gun-mortar.", "The Andromeda-D automated command system gives VDV commanders continuous communications and a live picture, and works apart from Ground Forces networks."],
+    why: ["The thermobaric weapons are assigned to NBC troops because of their nature: overpressure and heat that destroy fortifications.", "Airborne forces need artillery and command that can be dropped and work independently."],
+    sources: [{"title": "Russian Airborne Forces", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Russian_Airborne_Forces"}, {"title": "Russian NBC Defense Troops Increase Thermobaric Munition Capabilities", "publisher": "TRADOC G2, US Army", "year": "", "url": "https://oe.t2com.army.mil/product/russian-nbc-defense-troops-increase-thermobaric-munition-capabilities/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["rus-eq-tos", "rus-eq-mortars"]
+  },
+  {
+    id: "rus-eq-msta",
+    topic: "cannon-artillery",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "2S19 Msta-S 152mm Self-Propelled Howitzer",
+    what: ["The backbone of Russian self-propelled artillery since 1989, replacing the 2S3 Akatsiya.", "It weighs 42 tonnes and mounts the 152mm 2A64 gun."],
+    how: ["The chassis combines T-80 running gear with the T-72 engine.", "Projectiles are loaded automatically; charges by hand. Sustained fire is 6 to 8 rounds a minute.", "Range is 24.7 km with high explosive and 36 km with rocket-assisted rounds.", "The 2S19M2 and 2S33 Msta-SM2 add the longer 2A79 gun, better fire control, GLONASS and up to 10 rounds a minute."],
+    why: ["A well-armoured tracked gun that can keep up with tank units.", "Compare the US M109A7: similar role, 155mm, also tracked."],
+    sources: [{"title": "2S19 Msta-S", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/2S19_Msta-S"}, {"title": "2S19 Msta-S", "publisher": "Army Recognition", "year": "", "url": "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/self-propelled-howitzers/2s19-russia-uk"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m109a7", "rus-eq-koalitsiya", "rus-eq-malva"]
+  },
+  {
+    id: "rus-eq-koalitsiya",
+    topic: "cannon-artillery",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "2S35 Koalitsiya-SV Automated Howitzer",
+    what: ["A 152mm self-propelled howitzer on a T-90 chassis, with the 2A88 gun in an unmanned robotic turret."],
+    how: ["Three crew sit in an armoured capsule in the hull, instead of five.", "Rate of fire up to 16 rounds a minute.", "Range with precision-guided rounds is given as over 70 km. Weight 55 tonnes."],
+    why: ["Automation raises the rate of fire and keeps the crew away from the gun.", "Compare the cancelled US ERCA, which also sought much longer range from a new gun."],
+    sources: [{"title": "2S35 Koalitsiya-SV", "publisher": "Army Recognition", "year": "", "url": "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/self-propelled-howitzers/2s35-koalitsiya-sv"}, {"title": "Russia readies immediate production of Malva and Koalitsiya-SV self-propelled guns", "publisher": "Militarnyi", "year": "", "url": "https://militarnyi.com/en/news/russia-readies-immediate-production-of-malva-and-koalitsiya-sv-self-propelled-guns/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-erca", "rus-eq-msta"]
+  },
+  {
+    id: "rus-eq-malva",
+    topic: "cannon-artillery",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "2S43 Malva Wheeled Howitzer",
+    what: ["An 8x8 wheeled 152mm self-propelled gun on the BAZ-6010-027 chassis, with the same 2A64 gun as the Msta-S.", "State trials ended in May 2023; first deliveries came in late 2023 and continued into 2024."],
+    how: ["It weighs 32 tonnes and can be carried by Il-76 aircraft.", "Range 24.5 km; about 7 rounds a minute."],
+    why: ["It trades armour for road speed and lower maintenance on long marches.", "Wheels make fire-and-move faster, which matters against counter-battery radar and drones.", "Compare the US Self-Propelled Howitzer Modernization programme, which is also looking at wheeled guns."],
+    sources: [{"title": "2S43 Malva", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/2S43_Malva"}, {"title": "Coalition and Malva: prospects for self-propelled howitzers on wheeled chassis", "publisher": "Topwar", "year": "", "url": "https://en.topwar.ru/184130-koalicija-i-malva-perspektivy-samohodnyh-gaubic-na-kolesnyh-shassi.html"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-sphm", "rus-eq-msta"]
+  },
+  {
+    id: "rus-eq-tyulpan",
+    topic: "cannon-artillery",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Brigade", "Division"],
+    type: "Equipment",
+    title: "2S4 Tyulpan 240mm Self-Propelled Mortar",
+    what: ["A rare heavy self-propelled mortar used for urban warfare and reducing fortified positions."],
+    how: ["It fires very heavy bombs at high angle against buildings and strongpoints."],
+    why: ["Its slow displacement makes it very vulnerable to counter-battery fire and drones."],
+    sources: [{"title": "Ukrainian forces destroy rare Russian 2S4 Tyulpan mortar near Vovchansk", "publisher": "Defense Express", "year": "", "url": "https://en.defence-ua.com/news/ukrainian_forces_destroy_rare_russian_2s4_tyulpan_mortar_near_vovchansk_video-18399.html"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m120", "rus-eq-mortars"]
+  },
+  {
+    id: "rus-eq-iskander",
+    topic: "rocket-missile-artillery",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Corps", "Theatre"],
+    type: "Equipment",
+    title: "Iskander-M Missile Brigades",
+    what: ["At least one Iskander-M (9K720) brigade is assigned to each combined arms army or military district.", "Brigades are growing from 12 to 16 launchers (TELs)."],
+    how: ["Each launcher carries two 9M723 ballistic missiles with a range of up to 500 km.", "Guidance combines an electro-optical seeker, GLONASS and inertial navigation, for an accuracy (CEP) of 5 to 10 m.", "Russia practises using Iskander and the Tornado-S launcher together in one reconnaissance-strike complex: rocket mass with missile precision.", "Reported: procurement documents point to Russian help for North Korea in modernising its KN-23 and KN-24 missiles, which resemble Iskander."],
+    why: ["Iskander gives the army its own operational-depth precision strike.", "Compare US PrSM, fired from HIMARS: two per pod, similar role."],
+    sources: [{"title": "9K720 Iskander (SS-26)", "publisher": "CSIS Missile Threat", "year": "", "url": "https://missilethreat.csis.org/missile/ss-26-2/"}, {"title": "Russia to Enlarge Iskander Missile Brigades", "publisher": "CSIS Missile Threat", "year": "", "url": "https://missilethreat.csis.org/russia-to-enlarge-iskander-missile-brigades/"}, {"title": "The Iskander-M and Iskander-K: A Technical Profile", "publisher": "RUSI", "year": "", "url": "https://www.rusi.org/explore-our-research/publications/commentary/iskander-m-and-iskander-k-technical-profile"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-rkt-munitions", "rus-eq-tornado-s", "rus-doc-rfc-rsc"]
+  },
+  {
+    id: "rus-eq-tornado-g",
+    topic: "rocket-missile-artillery",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Battalion", "Brigade"],
+    type: "Equipment",
+    title: "Tornado-G 122mm Rocket Launcher",
+    what: ["The modernised replacement for the BM-21 Grad: 40 tubes of 122mm on a Ural-4320 6x6 truck."],
+    how: ["Automated fire control, satellite navigation and digital targeting let the crew of two or three fire a full 40-rocket salvo in 20 seconds without leaving the armoured cab.", "Rockets include cluster (9M217, 9M218) and high explosive (9M539). Range is 20 km standard and up to 40 km."],
+    why: ["It keeps the volume of the Grad while cutting the time the crew is exposed."],
+    sources: [{"title": "Tornado-G", "publisher": "Army Recognition", "year": "", "url": "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/multiple-launch-rocket-systems/tornado-g-122mm-mlrs-russia-uk"}, {"title": "Tornado (multiple rocket launcher)", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Tornado_(multiple_rocket_launcher)"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-m142", "rus-eq-tornado-s"]
+  },
+  {
+    id: "rus-eq-tornado-s",
+    topic: "rocket-missile-artillery",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Brigade", "Division", "Corps"],
+    type: "Equipment",
+    title: "Tornado-S 300mm Rocket Launcher",
+    what: ["An upgrade of the BM-30 Smerch: 12 rockets of 300mm."],
+    how: ["Range is 70 km standard and 120 km with GLONASS-guided rockets.", "Payloads include sensor-fuzed anti-tank submunitions (9M532, 9M533) and thermobaric warheads.", "Work continues to reach about 200 km with the guided 9M544 rocket. A salvo takes about 40 seconds."],
+    why: ["It gives heavy area fire and precision at operational depth, alongside Iskander.", "Compare the US M270A2 and GMLRS."],
+    sources: [{"title": "Tornado (multiple rocket launcher)", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Tornado_(multiple_rocket_launcher)"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m270a2", "rus-eq-iskander"]
+  },
+  {
+    id: "rus-eq-tos",
+    topic: "rocket-missile-artillery",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Multiple",
+    echelon: ["Company"],
+    type: "Equipment",
+    title: "TOS-1A and TOS-2 Thermobaric Launchers",
+    what: ["TOS-1A “Solntsepek”: 24 tubes of 220mm on a T-72 chassis, range about 6 km.", "TOS-2 “Tosochka”, shown in 2020: a 6x6 Ural wheeled chassis with the MO.1.01.04M2 rocket, range up to 20 km."],
+    how: ["The rockets create an aerosol cloud that detonates, giving a supersonic blast and temperatures up to 1,000°C.", "TOS-2 has its own hydraulic crane, so it needs no separate loader vehicle."],
+    why: ["The concept came from Afghanistan, to clear fighters dug into mountain gorges.", "The TOS-1A’s short range forces it close to the front, where anti-tank missiles and drones can hit it. The TOS-2’s range keeps it outside most line-of-sight missiles."],
+    sources: [{"title": "TOS-2", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/TOS-2"}, {"title": "TOS-1A BM-1 Solntsepek", "publisher": "Army Recognition", "year": "", "url": "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/multiple-launch-rocket-systems/tos-1a-russia-uk"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["rus-org-vdv-nbc"]
+  },
+  {
+    id: "rus-eq-mortars",
+    topic: "cannon-artillery",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Company", "Battalion"],
+    type: "Equipment",
+    title: "Battalion Mortars and the Gran Guided Round",
+    what: ["Each motor rifle battalion has a mortar battery of eight 120mm 2S12 Sani, 82mm 2B14 Podnos or 82mm 2B9 Vasilek automatic mortars."],
+    how: ["The 2S12 is carried by a Ural-43206 truck or MT-LB tracked vehicle.", "The 2S12A has a 2F32 kit with an electric winch, so the crew can bring the 230 kg weapon into action in under three minutes.", "The 120mm KM-8 Gran is a laser-guided high explosive round with a 9E430 seeker."],
+    why: ["The battalion keeps its own immediate high-angle fire for mountains and towns.", "Compare the US battalion mortar platoon of 120mm and 81mm."],
+    sources: [{"title": "High-Angle Fires and Maneuver: Russian Upgraded Mortars Maintain Vital Role on Future Battlefield", "publisher": "ResearchGate", "year": "", "url": "https://www.researchgate.net/publication/359721760_High-Angle_Fires_and_Maneuver_Russian_Upgraded_Mortars_Maintain_Vital_Role_on_Future_Battlefield"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m120", "usa-org-mor-ibct", "rus-eq-krasnopol"]
+  },
+  {
+    id: "rus-eq-krasnopol",
+    topic: "ammunition-effects",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "2K25 Krasnopol Laser-Guided Shell",
+    what: ["Russia’s main precision artillery round, 152mm, fired from the 2S19, 2S3 or 2S43."],
+    how: ["Base bleed gives a range of 20 to 25 km.", "In the final phase, fins steer it onto a spot lit by a laser designator, usually on an Orlan-30 drone or with special forces.", "The Krasnopol-M2 is credited with an accuracy (CEP) of 1 to 2 m."],
+    why: ["One precise round can kill moving armour, air defence or command posts, saving ammunition.", "Compare the US Excalibur, which uses GPS instead of a laser and so needs no designator but can be jammed."],
+    sources: [{"title": "Ukrainian artillery is firing trophy shells Krasnopol", "publisher": "Militarnyi", "year": "", "url": "https://militarnyi.com/en/news/ukrainian-artillery-is-firing-trophy-shells-krasnopol/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-amm-guided", "rus-eq-orlan"]
+  },
+  {
+    id: "rus-eq-orlan",
+    topic: "target-acquisition",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Battalion", "Brigade"],
+    type: "Equipment",
+    title: "Orlan-10 and Orlan-30 Drones",
+    what: ["The Orlan-10, from the Special Technology Center in St Petersburg, is the main tactical reconnaissance drone for Russian artillery.", "The heavier Orlan-30 (27 kg) carries a laser designator."],
+    how: ["The Orlan-10 flies up to 16 hours and up to 5,000 m, with a composite body that reduces its radar signature.", "They usually fly in groups: one for optical and thermal reconnaissance at 1,000 to 1,500 m, one for electronic warfare and one as a relay, extending range up to 600 km.", "The Orlan-30 lights targets for Krasnopol shells and Gran mortar rounds."],
+    why: ["Drones are the artillery’s eyes: they find targets and confirm damage.", "They fly too high for most short-range air defence and are too cheap to justify expensive missiles."],
+    sources: [{"title": "STC Orlan-10", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/STC_Orlan-10"}, {"title": "Russia’s Use of Uncrewed Systems in Ukraine", "publisher": "CNA", "year": "2023", "url": "https://www.cna.org/reports/2023/05/Russias-Use-of-Uncrewed-Systems-in-Ukraine.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-ta-drones", "rus-eq-krasnopol"]
+  },
+  {
+    id: "rus-org-rubicon",
+    topic: "loitering-munitions",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Multiple",
+    echelon: ["Brigade", "Division", "Theatre"],
+    type: "Force Structure",
+    title: "The Rubicon Drone Centre",
+    what: ["The Ministry of Defence set up the Rubicon Center of Advanced Unmanned Technologies in August 2024, to bring scattered drone efforts under one research, procurement and operational body.", "Reported: it grew to about 5,000 personnel by 2026."],
+    how: ["A detachment has four FPV quadcopter platoons, a fixed-wing strike group of 72 and a reconnaissance-strike group of 69 that runs Zala and Supercam drones and loitering munitions.", "It works directly with manufacturers, for example to field fibre-optic FPV drones such as the VT-40 that cannot be jammed."],
+    why: ["It joins reconnaissance and strike at the tactical edge and speeds up innovation.", "Fast growth diluted recruiting quality. Its success made its command posts and stores priority targets for Ukrainian long-range strikes.", "Compare US LASSO platoons, which put loitering munitions inside brigades rather than in a separate elite centre."],
+    sources: [{"title": "Inside Rubicon: The Structure of Russia’s Elite Drone Center", "publisher": "Foreign Policy Research Institute", "year": "2026", "url": "https://www.fpri.org/article/2026/06/inside-rubicon-the-structure-of-russias-elite-drone-center/"}, {"title": "Inside Rubicon, the elite Russian drone unit", "publisher": "RFE/RL", "year": "", "url": "https://www.rferl.org/a/russia-drone-rubicon-secret-ukraine-war/33532804.html"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-lasso-platoons", "rus-eq-lancet"]
+  },
+  {
+    id: "rus-eq-lancet",
+    topic: "loitering-munitions",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Battalion", "Brigade"],
+    type: "Equipment",
+    title: "Lancet Loitering Munition",
+    what: ["A loitering munition that has been highly effective against artillery."],
+    how: ["It orbits until an Orlan-10 finds a high-value target, receives the data and dives onto it.", "Range over 40 km; about 40 minutes in the air; high explosive anti-tank warhead."],
+    why: ["It lets Russia strike guns and radars that move, without using artillery ammunition.", "Compare the US Switchblade 600."],
+    sources: [{"title": "Russia’s Use of Uncrewed Systems in Ukraine", "publisher": "CNA", "year": "2023", "url": "https://www.cna.org/reports/2023/05/Russias-Use-of-Uncrewed-Systems-in-Ukraine.pdf"}, {"title": "Inside Rubicon: The Structure of Russia’s Elite Drone Center", "publisher": "Foreign Policy Research Institute", "year": "2026", "url": "https://www.fpri.org/article/2026/06/inside-rubicon-the-structure-of-russias-elite-drone-center/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-switchblade", "rus-eq-orlan"]
+  },
+  {
+    id: "rus-eq-cb-radars",
+    topic: "target-acquisition",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Battalion", "Brigade", "Division"],
+    type: "Equipment",
+    title: "Counter-Battery Radars: Zoopark, Aistenok, SNAR-10M1 and PRP-5",
+    what: ["1L219M Zoopark-1 and 1L260 Zoopark-1M are the main counter-battery radars.", "At tactical level: the portable 1L271 Aistenok and the SNAR-10M1 battlefield surveillance radar."],
+    how: ["Zoopark computes the path of incoming shells and sends the enemy gun position to fire direction centres.", "SNAR-10M1, on an MT-LBu with the Kredo-1E radar, detects bursts, vehicles and infantry out to 40 km and passes data by satellite.", "The newer PRP-5, on BMP-3 or BTR-82A, has radar and optics and can swim."],
+    why: ["Radars find enemy guns fast, but their emissions make them targets for anti-radiation missiles and drones.", "Compare the US AN/TPQ-53."],
+    sources: [{"title": "The SNAR-10M1 radar reconnaissance station of the Russian army", "publisher": "Militarnyi", "year": "", "url": "https://militarnyi.com/en/news/the-snar-10m1-radar-reconnaissance-station-of-the-russian-army-was-seized-in-ukraine/"}, {"title": "Counter-battery radar", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Counter-battery_radar"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-tpq53", "rus-eq-penicillin"]
+  },
+  {
+    id: "rus-eq-penicillin",
+    topic: "target-acquisition",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Brigade"],
+    type: "Equipment",
+    title: "1B75 Penicillin Passive Artillery Locator",
+    what: ["An acoustic and thermal system that locates enemy artillery without emitting."],
+    how: ["Seismic and acoustic sensors with thermal imaging detect the sound and flash of firing guns.", "Reported: it locates firing positions within 5 seconds at up to 25 km, automatically and without exposing its crew."],
+    why: ["Because it sends no signal, it cannot easily be jammed or found by anti-radiation weapons.", "Compare US acoustic sensors and the MANOWAR test."],
+    sources: [{"title": "Penicillin (counter-artillery system)", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Penicillin_(counter-artillery_system)"}, {"title": "Penicillin and Tablet-A: Russia’s new artillery reconnaissance and command assets", "publisher": "Defense Here", "year": "", "url": "https://defensehere.com/en/penicillin-tablet-a-russias-new-artillery-reconnaissance-command-and-control-assets/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-acoustic", "rus-eq-cb-radars"]
+  },
+  {
+    id: "rus-eq-c2-legacy",
+    topic: "digital-fires-c2",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Company", "Battalion"],
+    type: "Equipment",
+    title: "Artillery Command Vehicles: 1V12 and 1V17",
+    what: ["The tactical command architecture is the ESU TZ unified tactical command system.", "1V12, on the tracked MT-LBu: 1V13 battery fire control, 1V14 battery command and observation, 1V15 battalion command post, 1V16 battalion fire direction.", "1V17, on the BTR-60PB 8x8 for wheeled and towed units: 1V18 battery and 1V19 battalion commander vehicles."],
+    how: ["The vehicles carry navigation, rangefinders and analogue or early digital computers for met and ballistic data.", "The 1V18 and 1V19 have a distinctive turret with laser rangefinders, day and night sights and aiming circles.", "1V110 and 1V111 trucks (GAZ-66, ZIL-131) house fire direction computers."],
+    why: ["Command moves with the guns in armoured vehicles.", "The BTR-60’s twin engines and transmissions are hard to maintain. Reaction time with these systems is over three minutes."],
+    sources: [{"title": "Russian Artillery Fire Control for Large-Scale Combat Operations", "publisher": "ResearchGate", "year": "", "url": "https://www.researchgate.net/publication/333443995_Russian_Artillery_Fire_Control_for_Large-Scale_Combat_Operations"}, {"title": "1V12 command vehicle", "publisher": "Army Guide", "year": "", "url": "http://www.army-guide.com/eng/product4755.html"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-fdc", "rus-eq-1v198"]
+  },
+  {
+    id: "rus-eq-1v198",
+    topic: "digital-fires-c2",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["Company", "Battalion"],
+    type: "Equipment",
+    title: "1V198 Networked Fire Control and Strelets",
+    what: ["Reported, not confirmed: the source report gives no clear source for the AI claims below.", "The 1V198 is a third-generation networked command complex: 1V1003 command and observation vehicles on BTR-80 and 1V1004 staff vehicles on Ural trucks."],
+    how: ["Reported: it takes drone video directly and uses AI to classify targets, for example telling a tank from a decoy, and sets strike priority by doctrine.", "It links to the KRUS Strelets wearable computer used by forward observers, giving a digital thread from scout to battery.", "Tablet-A and Penicillin are recent additions that cut deployment time.", "Reported: reaction time 30 to 60 seconds, against over three minutes for the older vehicles."],
+    why: ["Reported: automation is meant to shorten the sensor-to-shooter time."],
+    sources: [{"title": "Ukrainian army captured Russian 1V1003 artillery command and observation vehicle", "publisher": "Army Recognition", "year": "", "url": "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/ukrainian-army-captured-russian-1v1003-artillery-command-and-observation-vehicle"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-afatds-arch", "rus-eq-c2-legacy"]
+  },
+  {
+    id: "rus-ttp-manual-met",
+    topic: "technical-fire-direction",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Russian Ground Forces",
+    echelon: ["Company", "Battalion"],
+    type: "TTP",
+    title: "Manual Fallback: The PAB-2M Aiming Circle and Met Data",
+    what: ["Despite automation, Russian artillery keeps manual survey and fallback procedures."],
+    how: ["The PAB-2M periscopic aiming circle, a Cold War theodolite and compass with 8x magnification, orients batteries by hand when digital systems fail or GLONASS is jammed.", "Cadets and mobilised soldiers train to set it up quickly in the field.", "Met vehicles such as the 1B44 of the Meteo-4 complex collect local weather data for unguided ballistic calculations."],
+    why: ["Firing must continue in a jammed electromagnetic environment.", "Compare the US M2A2 aiming circle and manual gunnery."],
+    sources: [{"title": "Russian Artillery Fire Control for Large-Scale Combat Operations", "publisher": "ResearchGate", "year": "", "url": "https://www.researchgate.net/publication/333443995_Russian_Artillery_Fire_Control_for_Large-Scale_Combat_Operations"}, {"title": "Artillery Systems Overview for OPFOR", "publisher": "Scribd", "year": "", "url": "https://www.scribd.com/document/668997274/Ch-06-Artillery"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-ttp-manual-gunnery", "usa-ttp-met"]
+  },
+  {
+    id: "rus-ttp-cb-killchain",
+    topic: "counterfire-survivability",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Russian Ground Forces",
+    echelon: ["Battalion", "Brigade"],
+    type: "TTP",
+    title: "Counter-Battery in Practice: The Promise and the Friction",
+    what: ["Analysis: Russian state media claim a three-minute counter-battery response; the report judges reality slower."],
+    how: ["Analysis: the chain is detection, identification, sending coordinates, command decision, fire control, gun preparation and flight time.", "Analysis: a fast radar detection is often lost to network bottlenecks, too few trained operators for systems such as Strelets, or hesitant command.", "Analysis: to survive enemy counter-battery fire, commanders spread individual guns far apart, sometimes firing them remotely, rather than the doctrinal tight battery."],
+    why: ["Analysis: towed guns are very vulnerable because they take long to emplace and move; even self-propelled guns are at risk if they fall into routines.", "Analysis: equipment speed means little if people and networks are the slow link."],
+    sources: [{"title": "From Counter-Battery to Persistent Pursuit: Simulating Artillery Survivability in High-Intensity Warfare", "publisher": "RSDI", "year": "", "url": "https://rsdi.ae/en/publications/from-counter-battery-to-persistent-pursuit-simulating-artillery-survivability-in-high-intensity-warfare"}, {"title": "What Russia’s counter-battery complex can actually do (forum post)", "publisher": "Reddit", "year": "", "url": ""}],
+    confidence: "Analysis",
+    asOf: "2026-11",
+    relatedIds: ["les-cf-three-minute", "usa-ttp-surv-dispersion", "usa-ttp-mission-latency"]
+  },
+  {
+    id: "rus-sus-barrels",
+    topic: "sustainment",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Russian Ground Forces",
+    echelon: ["N/A"],
+    type: "Equipment",
+    title: "Barrels and Chromium: The Hidden Limit",
+    what: ["A barrel typically wears out after 2,000 to 6,000 rounds; accuracy falls and the risk of bursting rises.", "Only a few plants, mainly Plant No. 9 in Yekaterinburg and Titan-Barrikady in Volgograd, can forge and bore large-calibre barrels."],
+    how: ["Chromium lining can extend barrel life up to three times.", "Russia mines 1.5 to 2 million tons of chromium ore a year, but of low quality, so it imports high-grade chromium from Kazakhstan and re-exported South African ore.", "Sanctions cut batch output rather than stopping it. Old guns in storage are stripped for barrels."],
+    why: ["The “wall of fire” is limited by barrel wear as much as by ammunition.", "Compare the US, where a single arsenal at Watervliet makes all large-calibre barrels."],
+    sources: [{"title": "Artillery Barrel Production in Russia: Structure, Importance, and Weak Points", "publisher": "Defense Express", "year": "", "url": "https://en.defence-ua.com/industries/artillery_barrel_production_in_russia_structure_importance_and_weak_points-12151.html"}, {"title": "Managing Russia’s Military-Industrial Degradation", "publisher": "CEPA", "year": "", "url": "https://cepa.org/comprehensive-reports/managing-russias-military-industrial-degradation/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-ttp-sus-efc", "joint-eq-sus-bottlenecks"]
+  },
+  {
+    id: "rus-sus-ammunition",
+    topic: "sustainment",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Multiple",
+    echelon: ["N/A"],
+    type: "Equipment",
+    title: "Shells: Cheap at Home, Bought Abroad",
+    what: ["Russian doctrine demands huge volumes of fire, often up to 10,000 shells a day in sustained operations.", "State subsidies keep the cost of a 152mm shell below 100,000 roubles (about €1,050), far below Western 155mm."],
+    how: ["Domestic production has not met demand.", "Reported: Russia has received an estimated five to seven million shells from Iran and North Korea since 2023.", "Reported: intelligence assessments say nearly half the artillery ammunition Russia used in the second half of 2025 came from North Korea."],
+    why: ["Analysis: mass fire depends on partners as well as factories, and links Russia’s war to North Korea’s and Iran’s industries.", "Compare US production rates and the 100,000-round monthly target."],
+    sources: [{"title": "Back in Stock?", "publisher": "CSIS", "year": "2024", "url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2024-04/240419_Snegovaya_Backin_Stock.pdf"}, {"title": "Managing Russia’s Military-Industrial Degradation", "publisher": "CEPA", "year": "", "url": "https://cepa.org/comprehensive-reports/managing-russias-military-industrial-degradation/"}, {"title": "Russia massively ramps up production of artillery shells", "publisher": "Militär Aktuell", "year": "", "url": "https://militaeraktuell.at/en/estonian-secret-service-russia-multiplies-production-of-artillery-shells/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-sus-production", "les-sus-stocks"]
+  },
+  {
+    id: "rus-org-csto",
+    topic: "liaison",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Training",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "Major Exercise",
+    title: "CSTO Exercises: Interaction, Search and Echelon 2026",
+    what: ["The Collective Security Treaty Organization ran three linked exercises in 2026, “Interaction-2026”, “Search-2026” and “Echelon-2026”, in Belarus and the Russian Urals."],
+    how: ["They practise bringing allied units into Russian command and control.", "Scenarios use lessons from recent wars: small drone swarms, electronic warfare and protecting transport routes from loitering munitions.", "They include counter-sabotage against insurgent groups and logistics under contested conditions."],
+    why: ["They share Russia’s artillery and drone experience with allies.", "They signal unity and strength to NATO, at times linked with nuclear signalling."],
+    sources: [{"title": "CSTO exercises Interaction-2026, Search-2026 and Echelon-2026", "publisher": "Collective Security Treaty Organization", "year": "2026", "url": "https://en.odkb-csto.org/news/news_odkb/v-rossiyskoy-federatsii-dan-start-ucheniyam-odkb-vzaimodeystvie-2026-poisk-2026-i-eshelon-2026/"}, {"title": "CSTO Exercises in Belarus a Display of Unity and Strength", "publisher": "PISM", "year": "2026", "url": "https://pism.pl/publications/csto-exercises-in-belarus-a-display-of-unity-and-strength"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-asca"]
+  },
+  {
+    id: "rus-les-loac",
+    topic: "digital-fires-c2",
+    country: "Russia",
+    addedIn: "2026.12",
+    module: "Lessons",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "Lesson",
+    title: "The Law on Paper and Strikes in Practice",
+    what: ["The Manual on International Humanitarian Law for the Russian Armed Forces sets out distinction, proportionality and military necessity.", "It prohibits killing or wounding civilians, indiscriminate attacks and terrorising the civilian population, and requires legal review of combat orders and warnings when circumstances permit."],
+    how: ["Analysis: missile and drone strikes on Ukraine’s energy system aim at cascading failure, degrading both military logistics and civilian will.", "Analysis: grids and bridges such as the Kerch Bridge can be military objectives, but the scale of attacks often pushes the limits of proportionality.", "Analysis: legal scholars and international courts argue that long campaigns against homes and winter power cross into terror against civilians. International Criminal Court arrest warrants have been issued."],
+    why: ["Analysis: accountability works far more slowly than targeting, so the cost is accepted in the near term.", "Compare US practice under DoD Instruction 3000.17 and Collateral Damage Estimation."],
+    sources: [{"title": "Manual on International Humanitarian Law for the Armed Forces of the Russian Federation (translation)", "publisher": "US Naval War College, International Law Studies", "year": "", "url": "https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?article=3029&context=ils"}, {"title": "Ukraine Symposium: Terrorizing Civilians and the Law of Armed Conflict", "publisher": "Lieber Institute, West Point", "year": "", "url": "https://lieber.westpoint.edu/terrorizing-civilians-law-armed-conflict/"}, {"title": "When Civilian Infrastructure Becomes a Lawful Target", "publisher": "Just Security", "year": "", "url": "https://www.justsecurity.org/148907/civilian-infrastructure-becomes-lawful-target/"}],
+    confidence: "Analysis",
+    asOf: "2026-11",
+    relatedIds: ["joint-ttp-amm-roe", "joint-ttp-tgt-chmr", "joint-ttp-amm-cde"]
+  },
+  {
+    id: "kor-doc-history",
+    topic: "cannon-artillery",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "ROK Army",
+    echelon: ["Theatre"],
+    type: "Force Structure",
+    title: "Why South Korea Is an Artillery Army",
+    what: ["In 1950 the ROK Army had about 95,000 men, no tanks or heavy artillery, and ammunition for only a few days. It relied on attached US 105mm battalions.", "Today it has over 400,000 active personnel, 2,838 tanks and about 9,300 artillery pieces."],
+    how: ["Infantry holds ground, armour breaks through, and artillery is the main means of firepower and destruction.", "Seoul lies within range of thousands of North Korean guns and rocket launchers, so ROK artillery is a strategic deterrent, not only tactical support."],
+    why: ["The war left a lasting rule: never again be outgunned on the ground.", "Compare the US, whose artillery supports manoeuvre; in Korea, defeating enemy artillery is the first mission."],
+    sources: [{"title": "The Impact of the Korean War on the Korean Military", "publisher": "International Journal of Korean Studies", "year": "", "url": "https://ciaotest.cc.columbia.edu/journals/ijoks/v5i1/f_0013340_10836.pdf"}, {"title": "Republic of Korea Army", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Republic_of_Korea_Army"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["kor-doc-counterbattery"]
+  },
+  {
+    id: "kor-doc-counterbattery",
+    topic: "counterfire-survivability",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "ROK Army",
+    echelon: ["Battalion", "Brigade", "Corps"],
+    type: "TTP",
+    title: "Counter-Battery First: Shoot, Scoot and Hide Underground",
+    what: ["In war, the first priority of ROK artillery is counter-battery fire: silence North Korean guns before they hit civilians and infrastructure.", "Both sides have mapped each other’s fixed sites during the long armistice, so fixed positions are expected to be hit at once."],
+    how: ["Radars compute the enemy firing point; firing data goes digitally to self-propelled guns or rocket launchers.", "These move from hardened underground staging areas to pre-surveyed firing points, fire a burst and move again before return fire arrives.", "Hardened Artillery Sites (HARTS) 10 to 20 km south of the DMZ protect guns, resupply vehicles, command posts and magazines.", "Rules of engagement and combined plans with US Forces Korea include pre-approved target lists and fast consultation for immediate return fire."],
+    why: ["The 2010 shelling of Yeonpyeong Island and clashes on the Northern Limit Line reinforced the need for immediate, heavy return fire.", "Compare the US 210th Field Artillery Brigade, which holds a standing counter-fire mission in Korea."],
+    sources: [{"title": "ROK Army stages Korea-U.S. counter-fire FTX with KTSSM, K9, Chunmoo and ATACMS", "publisher": "Seoulz", "year": "", "url": "https://www.seoulz.com/news/rok-army-stages-korea-us-counter-fire-ftx-ktssm-k9-chunmoo-atacms"}, {"title": "ATP 7-100.2: North Korean Tactics", "publisher": "US Army", "year": "2020", "url": "https://www.ssri-j.com/MediaReport/DocumentUS/2020NorthKoreaTactics.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-cf-210-fab", "joint-ttp-cf-two-kinds", "kor-eq-ktssm"]
+  },
+  {
+    id: "kor-org-echelons",
+    topic: "cannon-artillery",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "ROK Army",
+    echelon: ["Battalion", "Brigade", "Division", "Corps"],
+    type: "Force Structure",
+    title: "Artillery from Corps to Brigade",
+    what: ["In 2019 the First and Third ROK Armies merged into the Ground Operations Command (GOC) for the front; the Second Operations Command holds the rear.", "The army has six corps and 34 divisions. Each corps has an artillery brigade, such as the 1st, 2nd, 5th and 7th and the Capital Artillery Brigade."],
+    how: ["Corps artillery brigades hold the longest-range assets: 155mm self-propelled howitzers, rocket launchers and long-range counter-battery radars.", "In December 2020 the regiments in infantry and mechanised divisions became independent brigades, each with its own direct support artillery battalion.", "These battalions are moving from towed guns and hand-loaded heavy mortars to wheeled howitzers and self-propelled mortars."],
+    why: ["Independent brigades with their own artillery can fight on their own.", "Compare the US Army, which is moving the other way: cannon battalions out of brigades to the division."],
+    sources: [{"title": "Structure of the Republic of Korea Army", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Structure_of_the_Republic_of_Korea_Army"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-cannon-divarty", "kor-org-fso"]
+  },
+  {
+    id: "kor-org-fso",
+    topic: "liaison",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "ROK Army",
+    echelon: ["Company", "Battalion", "Brigade"],
+    type: "Liaison Element",
+    title: "Fire Support Officers and Coordinators",
+    what: ["The Fire Support Element (FSE) and liaison officers at battalion and above link manoeuvre units to the guns.", "The Fire Support Officer, also called Fire Employ Officer, usually a lieutenant or captain, is attached to infantry or armoured battalions."],
+    how: ["The FSO commands the observer teams, manages target acquisition assets, oversees collateral damage estimates and sends fire requests to the battalion Fire Direction Center.", "In mechanised units the FSO works closely with signals to keep data links up on the move.", "At brigade, the Fire Support Coordinator writes the scheme of fires, sets common procedures, recommends coordination measures and positions the artillery.", "Reported: the report says the Fires Center of Excellence trains these officers and certifies joint fires observers; that is the US school at Fort Sill, so the training link is unclear."],
+    why: ["The structure mirrors US fire support liaison, which eases combined operations with US forces."],
+    sources: [{"title": "Fire support officer (in Korean)", "publisher": "NamuWiki", "year": "", "url": "https://en.namu.wiki/w/%ED%99%94%EB%A0%A5%EC%A7%80%EC%9B%90%EC%9E%A5%EA%B5%90"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-fist", "usa-org-bn-cell"]
+  },
+  {
+    id: "kor-eq-tpq74k",
+    topic: "target-acquisition",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "ROK Army",
+    echelon: ["Brigade", "Corps"],
+    type: "Equipment",
+    title: "TPQ-74K Weapon-Locating Radar",
+    what: ["After Yeonpyeong in 2010, Korea bought more ARTHUR (TPQ-54) radars from Saab, then fielded its own TPQ-74K from LIG Nex1."],
+    how: ["It uses an active electronically scanned array to detect incoming fire, compute the trajectory and send the firing point to fire control centres.", "Detection range is over 60 km, against 40 km for ARTHUR-K. It runs 8 hours continuously, against 6.", "Two overlapping radars can watch a sector all year round. About 95% of parts are made in Korea."],
+    why: ["Home production removes foreign supply risk for the most critical sensor.", "Compare the US AN/TPQ-53."],
+    sources: [{"title": "TPQ-74K Weapon Locating Radar-II", "publisher": "Military Periscope", "year": "", "url": "https://www.militaryperiscope.com/weapons/electronics/ground-radars/tpq-74k-weapon-locating-radar-ii/overview/"}, {"title": "Saab receives ARTHUR support contract from South Korea", "publisher": "Saab", "year": "2018", "url": "https://www.saab.com/newsroom/press-releases/2018/saab-receives-arthur-support-contract-from-south-korea"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-tpq53", "kor-doc-counterbattery"]
+  },
+  {
+    id: "kor-eq-btcs",
+    topic: "technical-fire-direction",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "ROK Army",
+    echelon: ["Battalion"],
+    type: "Command & Control",
+    title: "BTCS Battalion Fire Direction System",
+    what: ["The Battalion Tactical Command System (BTCS), by LIG Nex1, has been the brain of the battalion Fire Direction Center since April 1994."],
+    how: ["It computes firing data from observer or radar coordinates, correcting for met data, wind and propellant temperature.", "It sits in K-77 tracked fire direction vehicles (K55 chassis) for self-propelled units, or in K-511 trucks for towed units, with rugged keyboards and dot-matrix printers for paper records.", "The BTCS A1 adds USB, modern storage and software that shares messages and weather data between headquarters and batteries."],
+    why: ["Hard-copy printouts give a record if digital systems fail.", "Compare the US battery and battalion FDC with AFATDS."],
+    sources: [{"title": "BTCS (in Korean)", "publisher": "NamuWiki", "year": "", "url": "https://en.namu.wiki/w/BTCS"}, {"title": "The Republic of Korea Army’s “Digital Brain” has become faster", "publisher": "Korea.net", "year": "", "url": "https://www.korea.net/Government/Briefing-Room/Press-Releases/view?articleId=2019269&type=N&insttCode=A260210"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-fdc", "kor-eq-atcis"]
+  },
+  {
+    id: "kor-eq-atcis",
+    topic: "digital-fires-c2",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "ROK Army",
+    echelon: ["Brigade", "Division", "Corps"],
+    type: "Command & Control",
+    title: "ATCIS: The Army Command Network",
+    what: ["The Army Tactical Command Information System (ATCIS) fuses intelligence, logistics and manoeuvre data from all echelons into a common operating picture."],
+    how: ["The ATCIS 2nd PIP upgrade moves it to a web-based design with cloud servers, virtual desktops and AI.", "It is meant to support manned-unmanned teaming and to prioritise threats, including estimating the likelihood of enemy provocations from sensor data.", "Today it runs mainly on intranet terminals; the aim is over 60,000 mobile devices for dismounted troops by 2034."],
+    why: ["Faster decisions in a mass counter-battery fight, with less load on commanders."],
+    sources: [{"title": "ATCIS 2nd PIP", "publisher": "Hanwha Systems", "year": "", "url": "https://www.hanwhasystems.com/en/business/defense/c5i/control04.do"}, {"title": "South Korea fields ATCIS C4I upgrade to Army units", "publisher": "Defence Blog", "year": "", "url": "https://defence-blog.com/south-korea-fields-atcis-c4i-upgrade-to-army-units/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-afatds-arch", "kor-eq-jfos"]
+  },
+  {
+    id: "kor-eq-jfos",
+    topic: "digital-fires-c2",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Multiple",
+    echelon: ["Corps", "Theatre"],
+    type: "Command & Control",
+    title: "JFOS-K and JTIC2S: Firing with the US",
+    what: ["The Joint Fire Operation System-Korea (JFOS-K) links ROK networks with the US Joint Automated Deep Operations Coordination System (JADOCS)."],
+    how: ["It gives both forces the same picture of the counter-fire fight, deconflicts airspace and translates between Korean and English.", "It assigns each target to the best national weapon, for example ROK K9 howitzers or US MLRS, and runs combined strikes.", "Ahead of the transfer of wartime operational control (OPCON) from the US, Korea is moving to the Joint Targeting Integrated Command and Coordination Suite (JTIC2S), which stays compatible with JADOCS."],
+    why: ["A combined counter-fire fight needs one shared picture across two national systems.", "Compare US-allied digital links such as ASCA."],
+    sources: [{"title": "South Korea improves Joint Fire Operation System", "publisher": "Janes", "year": "", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/south-korea-improves-joint-fire-operation-system"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-jadocs-tais", "joint-eq-asca"]
+  },
+  {
+    id: "kor-eq-k9",
+    topic: "cannon-artillery",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "ROK Army",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "K9 Thunder 155mm Self-Propelled Howitzer",
+    what: ["The centre of ROK fire support, replacing the K55 (a Korean M109). Development began in 1989; production in 1999.", "Reported: it holds about 52% of the world export market for self-propelled howitzers, with users including Poland, Turkey, India, Finland, Norway, Estonia and Australia."],
+    how: ["47 tons, 155mm 52-calibre CN98 gun, 48 rounds, crew of five. Hydro-pneumatic suspension absorbs recoil, so no spades are needed.", "Burst of 3 rounds in 15 seconds; 6 to 8 rounds a minute for three minutes; 2 to 3 sustained. It can fire multiple rounds to land at once (MRSI).", "Ranges: 18 km (M107 HE), 30 km (M549A1 rocket-assisted), 36 km (K310 base bleed DPICM), 40 to 41 km (K307 base bleed HE), 54 to 55 km (K315 extended range).", "It locates itself with inertial navigation and fires without outside survey. It can stop, fire within 30 to 60 seconds and move again in 30 seconds.", "Reported: an accuracy under 1 m at 50 km is claimed for point-detonating fire."],
+    why: ["Speed into and out of action is its protection against counter-battery fire.", "Compare the US M109A7: 39-calibre gun, shorter range."],
+    sources: [{"title": "K9 Thunder", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/K9_Thunder"}, {"title": "K9 Thunder Self-Propelled Howitzer", "publisher": "Army Technology", "year": "", "url": "https://www.army-technology.com/projects/thunderselfpropelled/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m109a7", "usa-eq-sphm", "kor-eq-k9a2"]
+  },
+  {
+    id: "kor-eq-k9a2",
+    topic: "cannon-artillery",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "ROK Army",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "K9A1 and K9A2 Upgrades",
+    what: ["The whole ROK K9 fleet is being upgraded to K9A1; the K9A2 is planned for service by 2027."],
+    how: ["K9A1: an 8 kW auxiliary power unit runs the turret and computers with the main engine off; thermal driver periscopes; INS/GPS navigation; fire control for 60 km ammunition.", "K9A2: a fully automated turret handles shell and charge, cutting the crew from five to three and raising the rate to 9 to 10 rounds a minute (6 sustained).", "A K9A3 concept looks at ramjet rounds approaching 100 km."],
+    why: ["The auxiliary power unit cuts noise, heat signature and fuel use.", "Automation answers a shrinking pool of conscripts.", "Compare the US XM1155 ramjet projectile."],
+    sources: [{"title": "Towards unmanned artillery: K9 evolution never stops", "publisher": "Battle Updates", "year": "", "url": "https://battle-updates.com/towards-unmanned-artillery-k9-evolution-never-stops/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["kor-eq-k9", "usa-eq-amm-erap"]
+  },
+  {
+    id: "kor-eq-k10",
+    topic: "sustainment",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "ROK Army",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "K10 Ammunition Resupply Vehicle",
+    what: ["Built on the K9 chassis. A battalion pairs 18 K9 with 18 K10."],
+    how: ["It carries 104 rounds and docks a robotic conveyor to the back of the K9 turret, transferring 12 rounds a minute.", "Loading the K10 at a dump takes about 37 minutes; emptying it into guns about 28 minutes."],
+    why: ["Guns are rearmed under fire or in contaminated areas without crews going outside.", "Compare the US M992A3 FAASV."],
+    sources: [{"title": "K9 Thunder", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/K9_Thunder"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m992a3", "kor-eq-k9"]
+  },
+  {
+    id: "kor-eq-k105ht",
+    topic: "cannon-artillery",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "ROK Army",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "K105HT Wheeled 105mm Howitzer",
+    what: ["A recycled M101 105mm howitzer on a K721 5-ton 6x6 truck, by Hanwha, first called EVO-105. Named after Lt Col Kim Pungik. The works cited also call it K105A1.", "It uses Korea’s large stock of 105mm shells and spare M101 barrels and replaces the K242 4.2-inch mortar in infantry units."],
+    how: ["Digital fire control and GPS/INS give automatic laying. Hydraulic outriggers stabilise the truck.", "It halts and fires within a minute and moves in 30 seconds, against about 10 minutes to emplace a towed 105mm.", "Crew of 3 or 4 instead of 8; range 11.3 km; 10 rounds a minute burst, 3 sustained; 60 rounds; 19 tons; cab armoured against 5.56mm and fragments."],
+    why: ["Old guns become mobile, digital and survivable at low cost.", "Compare the US M119A3."],
+    sources: [{"title": "ADEX 2017: Hanwha Land Systems new K105HT self-propelled howitzer", "publisher": "Army Recognition", "year": "2017", "url": "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2017/adex-2017-hanwha-land-systems-new-k105ht-self-propelled-howitzer"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m119a3", "kor-eq-ksm120"]
+  },
+  {
+    id: "kor-eq-ksm120",
+    topic: "cannon-artillery",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "ROK Army",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "KSM-120 Skyfall Self-Propelled Mortar",
+    what: ["A 120mm rifled mortar on the K200A1 tracked carrier, by Hanwha and SNT Dynamics under DAPA, replacing the K242 4.2-inch carriers in mechanised units."],
+    how: ["Range 8 km with HE, 12 km with rocket-assisted rounds. Top speed 70 km/h, keeping pace with K1 and K2 tanks.", "A semi-automatic lifter raises bombs to the muzzle, so a crew of four can fire 8 rounds a minute (3 sustained).", "The mount turns 360 degrees, and fire control links to ATCIS.", "Reported: the 120mm bomb is said to have about 2.6 times the effect of a 105mm shell and 70 to 80% of a 155mm."],
+    why: ["Mechanised battalions get heavy, quick fire without slowing the tanks.", "Compare US M1287 and M121 120mm mortar carriers."],
+    sources: [{"title": "South Korea receives first batch of 120mm self-propelled mortar", "publisher": "Army Technology", "year": "", "url": "https://www.army-technology.com/news/south-korea-120mm-mortar-system/"}, {"title": "K200 KIFV", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/K200_KIFV"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m120", "usa-org-mor-abct"]
+  },
+  {
+    id: "kor-eq-chunmoo",
+    topic: "rocket-missile-artillery",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "ROK Army",
+    echelon: ["Brigade", "Corps"],
+    type: "Equipment",
+    title: "K239 Chunmoo Rocket Launcher",
+    what: ["An 8x8 launcher by Hanwha, replacing the unguided K136 Kooryong and complementing the M270."],
+    how: ["Two sealed pods, changed with a built-in crane, can be mixed for the task.", "130mm unguided: 20 per pod. 227mm unguided: 6 per pod, compatible with M270 munitions. 239mm guided: 6 per pod, about 80 km.", "Exported to Poland, Croatia and the UAE."],
+    why: ["Guided 239mm rockets turn an area weapon into a long-range precision one.", "Compare the US HIMARS and M270."],
+    sources: [{"title": "Croatia signs contract for South Korean K239 Chunmoo", "publisher": "Militarnyi", "year": "", "url": "https://militarnyi.com/en/news/croatia-signs-contract-for-south-korean-k239-chunmoo-multiple-rocket-launchers/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-m142", "usa-eq-m270a2"]
+  },
+  {
+    id: "kor-eq-ktssm",
+    topic: "rocket-missile-artillery",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "ROK Army",
+    echelon: ["Corps", "Theatre"],
+    type: "Equipment",
+    title: "KTSSM “Ure”: The Artillery-Killer Missile",
+    what: ["The Korean Tactical Surface-to-Surface Missile was developed after Yeonpyeong to destroy North Korean long-range artillery in tunnels and bunkers."],
+    how: ["North Korean guns in hardened sites on reverse slopes roll out, fire at Seoul and roll back behind blast doors before a 155mm reply can arrive.", "KTSSM is a fast-reaction ballistic missile from fixed silos or mobile launchers.", "The military says the KTSSM-I has penetrating thermobaric warheads that strike a tunnel mouth or vent, burning out and collapsing the interior even without a direct hit on the gun."],
+    why: ["It solves a target that tube artillery cannot reach in time.", "Compare the US ATACMS and PrSM, which are not built for tunnels."],
+    sources: [{"title": "South Korea deploys new missile to counter North Korean artillery", "publisher": "NK News", "year": "2025", "url": "https://www.nknews.org/2025/02/south-korea-deploys-new-missile-to-counter-north-korean-artillery-threats/"}, {"title": "ROK Army stages Korea-U.S. counter-fire FTX with KTSSM, K9, Chunmoo and ATACMS", "publisher": "Seoulz", "year": "", "url": "https://www.seoulz.com/news/rok-army-stages-korea-us-counter-fire-ftx-ktssm-k9-chunmoo-atacms"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-rkt-munitions", "kor-doc-counterbattery"]
+  },
+  {
+    id: "kor-eq-warmate",
+    topic: "loitering-munitions",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "ROK Army",
+    echelon: ["Battalion", "Brigade"],
+    type: "Equipment",
+    title: "Warmate 3 Loitering Munitions",
+    what: ["In October 2024 the ROK signed for over 100 Warmate 3 loitering munitions from Poland’s WB Group, aiming for nearly 200."],
+    how: ["It loiters up to 70 minutes and hunts with day and thermal cameras for launchers that moved after firing.", "Radio range 30 km, or 80 km with control handover. The engine can stop in the final dive at 150 km/h; a target lock completes the attack if the link is jammed.", "Warheads up to 3 kg: HE, fragmentation or HEAT that penetrates 200 to 240mm of armour. It can work with FlyEye reconnaissance drones.", "The ROK Dronebot Combat unit leads drone and robot integration, including the Arion-SMET ground robot."],
+    why: ["Radar coordinates go stale when a launcher moves; a loitering munition can find it again.", "Compare the US Switchblade 600."],
+    sources: [{"title": "KADEX 2024: South Korea to acquire loitering munitions from WB Group", "publisher": "Janes", "year": "2024", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/air/kadex-2024-south-korea-to-acquire-loitering-munitions-from-wb-group"}, {"title": "WB Electronics Warmate", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/WB_Electronics_Warmate"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-switchblade", "kor-doc-counterbattery"]
+  },
+  {
+    id: "kor-les-trends",
+    topic: "cannon-artillery",
+    country: "South Korea",
+    addedIn: "2026.12",
+    module: "Lessons",
+    force: "ROK Army",
+    echelon: ["Theatre"],
+    type: "Lesson",
+    title: "Where ROK Artillery Is Heading",
+    what: ["Analysis: the report draws four trends from the programmes above."],
+    how: ["Analysis: automation and smaller crews, driven by a shrinking conscript pool (K9A2, K10, KSM-120).", "Analysis: AI-assisted command (ATCIS 2nd PIP, JTIC2S) to pair targets with shooters in seconds.", "Analysis: a hybrid of mass fire (K9, K105HT), bunker-busting missiles (KTSSM) and hunter-killer drones (Warmate 3).", "Analysis: home-made sensors and networks for control of the kill chain, and exports (K9, Chunmoo) that pay for further development."],
+    why: ["Analysis: artillery has become a tool of national survival and deterrence, not only infantry support."],
+    sources: [{"title": "List of equipment of the Republic of Korea Army", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Republic_of_Korea_Army"}],
+    confidence: "Analysis",
+    asOf: "2026-11",
+    relatedIds: ["kor-eq-k9a2", "kor-eq-atcis", "kor-eq-ktssm"]
+  },
+  {
+    id: "ukr-doc-baseline",
+    topic: "cannon-artillery",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Armed Forces of Ukraine",
+    echelon: ["Theatre"],
+    type: "Force Structure",
+    title: "Outgunned from the Start",
+    what: ["From 2014 to 2019 Ukraine doubled its field artillery battalions. In early 2022 its Missile Troops and Artillery had ten field artillery brigades and one regiment in the Ground Forces, plus a brigade and a regiment in the Navy.", "In February 2022 Russia had 2,433 tube systems and 3,547 rocket launchers against Ukraine’s 1,176 and 1,680: just over 2 to 1."],
+    how: ["Ukraine’s guns were mostly Soviet: 742 152mm (such as 2S3, 2S5), 421 122mm (such as 2S1), 13 203mm, and 40 Tochka-U missile systems.", "In the first 48 hours Russia hit 75% of Ukraine’s fixed defence sites. Ukraine survived by dispersing and by massed fire from two mobile artillery brigades.", "Parity lasted about six weeks. By June 2022 Russia fired about ten times as much."],
+    why: ["Unable to match mass, Ukraine sought precision, digital integration and agile command instead.", "Compare Russia’s reconnaissance-strike approach in the Russia topic."],
+    sources: [{"title": "Field Artillery in the defensive war of Ukraine 2022–2023, Part I", "publisher": "Military University of Land Forces, Poland", "year": "", "url": "https://zeszyty-naukowe.awl.edu.pl/article/544136/en"}, {"title": "Preliminary Lessons in Conventional Warfighting from Russia’s Invasion of Ukraine", "publisher": "RUSI", "year": "2022", "url": "https://www.rusi.org/explore-our-research/publications/special-resources/preliminary-lessons-conventional-warfighting-russias-invasion-ukraine-february-july-2022"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["rus-doc-rfc-rsc", "ukr-les-lessons"]
+  },
+  {
+    id: "ukr-les-lessons",
+    topic: "counterfire-survivability",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "Lessons",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "Lesson",
+    title: "What the Artillery War Teaches",
+    what: ["Analysis: the report sees Russia caught in an “efficacy dilemma” and Ukraine forced into a different model.", "Reported: by early 2025 tactical drones caused an estimated 60–70 per cent of damaged and destroyed Russian systems, yet 60–80 per cent of FPVs miss; howitzers and mortars remain essential for heavy, all-weather fire that jamming cannot stop."],
+    how: ["Analysis: Russia, treating troops as expendable and short of trained units, relies on frontal assaults behind heavy barrages, with small gains, very high losses and heavy barrel and vehicle wear.", "Reported: analysts expect Russia to use up most of its Soviet-era tank and artillery stock by 2026.", "Analysis: Ukraine’s answer is networked dispersion, fast mobility and open data models."],
+    why: ["Analysis: mass and rigid hierarchy can be out-manoeuvred by speed and networks, but only with enough ammunition behind them."],
+    sources: [{"title": "Preliminary Lessons from Ukraine’s Offensive Operations, 2022–23", "publisher": "RUSI", "year": "2023", "url": "https://static.rusi.org/lessons-learned-ukraine-offensive-2022-23.pdf"}, {"title": "A Long, Hard Year: Russia-Ukraine War Lessons Learned 2023", "publisher": "US Army War College", "year": "2024", "url": "https://press.armywarcollege.edu/context/irps/article/1001/viewcontent/Nagl_Hackett_Russia_UkraineWar2023_Final.pdf"}, {"title": "Tactical Developments During the Third Year of the Russo–Ukrainian War", "publisher": "Royal United Services Institute", "year": "2025", "url": "https://static.rusi.org/tactical-developments-third-year-russo-ukrainian-war-february-2205.pdf"}],
+    confidence: "Analysis",
+    asOf: "2026-11",
+    relatedIds: ["ukr-doc-baseline", "rus-ttp-cb-killchain"]
+  },
+  {
+    id: "ukr-org-corps",
+    topic: "cannon-artillery",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Armed Forces of Ukraine",
+    echelon: ["Brigade", "Corps", "Theatre"],
+    type: "Force Structure",
+    title: "From Brigades to an 18-corps Army",
+    what: ["Before 2022 Ukraine fought with self-contained brigades placed under temporary operational-tactical (OTUV) and operational-strategic (OSUV) groupings, within four Operational Commands.", "From 2024, accelerating in 2025, it reorganised into 18 corps, closer to NATO structures."],
+    how: ["A corps has five to seven brigades, 60,000 to 80,000 troops.", "Ground Forces 13 corps; Air Assault Forces 2; National Guard 2 (1st Azov, 2nd Khartia); Marines 1 (30th Marine Corps).", "Ukraine skipped divisions because it lacked trained staff to build corps, division and brigade headquarters at once."],
+    why: ["A brigade is consumed by the close fight. Someone above it must synchronise fires, logistics, routes and protection over days.", "Compare the US, where the division does this work."],
+    sources: [{"title": "More than Just Another Echelon: Defining the Division’s Function in Large-Scale Combat Operations", "publisher": "Modern War Institute, West Point", "year": "", "url": "https://mwi.westpoint.edu/more-than-just-another-echelon-defining-the-divisions-function-in-large-scale-combat-operations/"}, {"title": "An army of corps: how Ukraine’s defense forces are restructuring", "publisher": "Frontliner", "year": "", "url": "https://frontliner.ua/en/an-army-of-corps-how-ukraines-defense-forces-are-restructuring-during-war/"}, {"title": "Structure of the Armed Forces of Ukraine", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Structure_of_the_Armed_Forces_of_Ukraine"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-cannon-divarty", "ukr-org-bag"]
+  },
+  {
+    id: "ukr-org-bag",
+    topic: "cannon-artillery",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Armed Forces of Ukraine",
+    echelon: ["Brigade", "Corps"],
+    type: "Force Structure",
+    title: "Brigade Artillery Groups and Corps Artillery Brigades",
+    what: ["Artillery sits both at corps and inside combat brigades as Brigade Artillery Groups (BAGs), with their own target acquisition, reconnaissance, fire direction, signals and logistics."],
+    how: ["The Azov brigade’s BAG grew from one howitzer battalion in 2015 to three field artillery battalions, a rocket battalion and target acquisition units.", "The National Guard’s first artillery brigade, the 16th, has target acquisition, reconnaissance and observer batteries, three field artillery battalions, a self-propelled battalion and an anti-tank battalion.", "The 147th and 148th Artillery Brigades serve the 7th and 8th Air Assault Corps; older brigades such as the 26th, 40th, 43rd, 44th, 45th, 55th and 406th give deep fire."],
+    why: ["A corps-wide pool of guns gives software such as GIS Arta many shooters to choose from.", "Compare the US Division Artillery and the field artillery brigade."],
+    sources: [{"title": "Brigade Artillery Group, 12th Special Forces Brigade Azov", "publisher": "1st Corps NGU Azov", "year": "", "url": "https://azov.army/en/units/1st-corps-azov/12th-special-forces-brigade-azov/brigade-artillery-group/"}, {"title": "16th Artillery Brigade (Ukraine)", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/16th_Artillery_Brigade_(Ukraine)"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-corps-fab", "ukr-eq-gisarta"]
+  },
+  {
+    id: "ukr-eq-delta",
+    topic: "digital-fires-c2",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Armed Forces of Ukraine",
+    echelon: ["Brigade", "Corps", "Theatre"],
+    type: "Command & Control",
+    title: "Delta: The Shared Battle Picture",
+    what: ["A cloud-based situational awareness system giving a theatre-wide common operating picture. Started in 2015 by the Aerorozvidka volunteer unit, it is now run by the Ministry of Defence’s innovation centre."],
+    how: ["It fuses drone video, radar satellite images, intercepted signals and ground reports in real time.", "It uses NATO standards: MIP for ground staff data, Link 16, Cursor on Target, APP-6/MIL-STD-2525 symbols and Federated Mission Networking.", "Apps connect through documented interfaces to one shared data model, so one app can fail or be replaced without breaking the picture.", "Reported: AI target recognition, trained on frontline video through the Brave1 dataroom, saves analysts up to 90% of the time. A human makes the final decision to strike."],
+    why: ["The data model, not any single app, is what holds the system together.", "Compare the US Maven Smart System and the push for an integrated data layer."],
+    sources: [{"title": "The Ukrainian Way of Digital Warfighting", "publisher": "Center for Security Studies, ETH Zurich", "year": "2024", "url": "https://css.ethz.ch/en/center/CSS-news/2024/07/the-ukrainian-way-of-digital-warfighting-volunteers-applications-and-intelligence-sharing-platforms.html"}, {"title": "Ukraine’s battlefield situational awareness ecosystem", "publisher": "Corvus Intelligence (blog)", "year": "", "url": "https://corvusintell.com/blog/interoperability/ukraine-situational-awareness-ecosystem/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-maven", "les-c2-ukraine-stack", "ukr-eq-gisarta"]
+  },
+  {
+    id: "ukr-eq-gisarta",
+    topic: "digital-fires-c2",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Armed Forces of Ukraine",
+    echelon: ["Battalion", "Brigade", "Corps"],
+    type: "Command & Control",
+    title: "GIS Arta: “Uber for Artillery”",
+    what: ["Fire mission dispatch software developed in May 2014 by Ukrainian programmers with British mapping firms."],
+    how: ["When a target is reported by an observer, drone, radar or allied feed, it picks the best available shooter: a 155mm gun, rocket launcher, mortar or drone, by position, ammunition and chance of success.", "It skips layers of manual approval. Reported: mission time falls from 20 to 30 minutes to 30 to 45 seconds.", "It times shots from guns in different places so they land together."],
+    why: ["Guns no longer need to group in batteries: one hidden gun can join a massed strike, keeping a small signature.", "Compare how AFATDS ranks missions and picks a firing unit."],
+    sources: [{"title": "How Ukraine’s “Uber for Artillery” is leading the software war against Russia", "publisher": "New America", "year": "", "url": "https://www.newamerica.org/insights/how-ukraines-uber-for-artillery-is-leading-the-software-war-against-russia/"}, {"title": "GIS Arta", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/GIS_Arta"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-ttp-afatds-arbitration", "ukr-ttp-roving-gun"]
+  },
+  {
+    id: "ukr-eq-kropyva",
+    topic: "technical-fire-direction",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Armed Forces of Ukraine",
+    echelon: ["Company", "Battalion"],
+    type: "Equipment",
+    title: "Kropyva, Armor and KRIP-A: Fire Control at the Gun",
+    what: ["Kropyva (“Nettle”), by the Army SOS volunteers in 2014, is a tablet app for ballistic calculation, digital maps with elevation, GPS position and secure messaging.", "Armor (2015) computes firing data for mortars, tanks and armoured vehicles firing indirectly.", "KRIP-A, by Antabos, automates gun laying and ballistics on the 2S22 Bohdana wheeled 155mm howitzer."],
+    how: ["Reported: Kropyva is used by about 90% of Ukrainian artillery units, with missions computed in under a minute.", "Armor works from azimuth and range alone, even if the soldier cannot give a grid. Reported accuracy within 10 m.", "KRIP-A links with drones and sensors and is built to keep working under jamming."],
+    why: ["Cheap tablets put fire direction at each gun, so dispersed guns can fire accurately.", "Compare US observer and fire direction software (PF-D, PF-M and AFATDS)."],
+    sources: [{"title": "Ukraine develops automated artillery fire control system KRIP-A", "publisher": "Militarnyi", "year": "2026", "url": "https://militarnyi.com/en/news/ukraine-artillery-control-system-krip-a/"}, {"title": "The Ukrainian Way of Digital Warfighting", "publisher": "Center for Security Studies, ETH Zurich", "year": "2024", "url": "https://css.ethz.ch/en/center/CSS-news/2024/07/the-ukrainian-way-of-digital-warfighting-volunteers-applications-and-intelligence-sharing-platforms.html"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-pfd-pfm", "les-tfd-software-at-gun"]
+  },
+  {
+    id: "ukr-ttp-sensors",
+    topic: "target-acquisition",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Armed Forces of Ukraine",
+    echelon: ["Company", "Battalion", "Brigade"],
+    type: "TTP",
+    title: "Drones, Radars and Decoys",
+    what: ["Drones are organic at tactical level and are the main target acquisition means."],
+    how: ["Ukrainian drone data goes in real time to higher command and sideways to fire units; Russian data passes up to a command post first, which is often too slow for mobile targets.", "If a target is within about 10 km, an FPV drone is usually the cheapest strike; deeper, armoured or larger targets go to a 155mm gun via GIS Arta.", "British ARTHUR radars serve with units such as the 15th Artillery Reconnaissance Brigade. German COBRA radars reach about 100 km and can track up to 40 batteries in two minutes.", "Decoy AN/TPQ-53 radars draw Russian precision strikes and drones away from the real ones."],
+    why: ["Emitting radars are found and hit, so they need deception and short emission windows.", "Compare US radar emission control and cueing."],
+    sources: [{"title": "Tactical Reconnaissance Strike in Ukraine", "publisher": "Infantry, Line of Departure", "year": "2025", "url": "https://www.lineofdeparture.army.mil/Journals/Infantry/Infantry-Archive/Spring-2025/Tactical-Reconnaissance-Strike-in-Ukraine/"}, {"title": "The British ARTHUR counter-battery radar is now in service of the Armed Forces of Ukraine", "publisher": "Militarnyi", "year": "", "url": "https://militarnyi.com/en/news/the-british-arthur-counter-battery-radar-is-now-in-service-of-the-armed-forces-of-ukraine/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-ttp-radar-survive", "usa-ttp-cueing", "ukr-eq-delta"]
+  },
+  {
+    id: "ukr-eq-sfm",
+    topic: "ammunition-effects",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Multiple",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "SMArt 155 and BONUS: Sensor-Fuzed Rounds",
+    what: ["Ukraine uses two Western 155mm sensor-fuzed rounds against armour, plus the GPS-guided Excalibur (about 40 km)."],
+    how: ["SMArt 155 (Diehl and Rheinmetall): 47 kg shell, two submunitions on parachutes, infrared and millimetre-wave radar sensors, range about 27.5 km.", "BONUS MkII (BAE Bofors and Nexter): two submunitions on winglets spinning at 900 rpm, scanning 32,000 m² with infrared and laser; about 35 km from 52-calibre guns.", "Each submunition fires an explosively formed penetrator into the vehicle’s top armour."],
+    why: ["A few rounds can kill armour that would take hundreds of unguided shells, which matters when every firing draws counter-battery fire.", "Compare the BONUS entry in Ammunition and effects."],
+    sources: [{"title": "155mm BONUS", "publisher": "KNDS", "year": "", "url": "https://knds.com/en/products/ammunition/155mm-bonus"}, {"title": "SMArt 155", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/SMArt_155"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-amm-bonus", "ukr-ttp-drone-drop"]
+  },
+  {
+    id: "ukr-ttp-drone-drop",
+    topic: "loitering-munitions",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Armed Forces of Ukraine",
+    echelon: ["Company", "Battalion"],
+    type: "TTP",
+    title: "Dropping Artillery Shells from Drones",
+    what: ["Reported, not confirmed: the sources are Ukrainian media and online video.", "Reported: Ukraine drops BONUS and SMArt 155 shells from heavy multirotor drones (“Baba Yaga”), first built for crop spraying, carrying 50 to 100 kg."],
+    how: ["Reported: the shells’ propelling charges are removed and they are fitted for air release. On release the time fuze works and the submunitions seek targets.", "Reported: video shows a Buk-M3 air defence system destroyed in Belgorod this way."],
+    why: ["Reported: with no gun firing and no ballistic arc, enemy counter-battery radar has nothing to trace, and scarce barrels are saved.", "Compare the US MALET kit for dropping mortar rounds from drones."],
+    sources: [{"title": "Ukraine starts using Swedish 155 BONUS smart shells via UAVs", "publisher": "United24 Media", "year": "", "url": "https://united24media.com/latest-news/ukraine-starts-using-swedish-155-bonus-smart-shells-via-uavs-in-technical-shift-15981"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-malet", "ukr-eq-sfm"]
+  },
+  {
+    id: "ukr-ttp-roving-gun",
+    topic: "counterfire-survivability",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Armed Forces of Ukraine",
+    echelon: ["Company", "Battalion"],
+    type: "TTP",
+    title: "Roving Guns: Speed Is Survival",
+    what: ["Static artillery does not survive. Ukraine moved from batteries to single “roving guns” joined by software."],
+    how: ["Reported: about a third of the M777s sent to Ukraine were damaged or destroyed in the first year; towed guns are slow to emplace and move.", "Reported: Poland’s Krab self-propelled gun suffered 44 losses, largely from staying too long in position; Ukraine lost under 10% of its CAESARs by firing and moving fast.", "Reported: Archer halts, lays, fires a burst and moves in under 20 seconds, with Barracuda camouflage; of about 26 in Ukraine, one was destroyed and one damaged.", "Simulations across 15 to 30 km standoff found that cutting exposure time matters more than range."],
+    why: ["When the enemy can close the kill chain in under a minute, a gun that needs 100 seconds to move is likely to be hit.", "Compare US fire-move-hide drills and the Self-Propelled Howitzer Modernization programme."],
+    sources: [{"title": "From Counter-Battery to Persistent Pursuit: Simulating Artillery Survivability in High-Intensity Warfare", "publisher": "RSDI", "year": "", "url": "https://rsdi.ae/en/publications/from-counter-battery-to-persistent-pursuit-simulating-artillery-survivability-in-high-intensity-warfare"}, {"title": "Gunline Survival against Loitering Munitions: Lessons from Ukraine", "publisher": "The Cove, Australian Army", "year": "", "url": "https://cove.army.gov.au/article/gunline-survival-against-loitering-munitions"}, {"title": "In Ukraine, “shoot-and-scoot” tactics helping Caesars survive", "publisher": "Defense News", "year": "2024", "url": "https://www.defensenews.com/global/europe/2024/04/02/in-ukraine-shoot-and-scoot-tactics-helping-caesars-survive/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-ttp-surv-displace", "usa-eq-sphm", "ukr-eq-gisarta"]
+  },
+  {
+    id: "ukr-sus-industry",
+    topic: "sustainment",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Multiple",
+    echelon: ["N/A"],
+    type: "Equipment",
+    title: "Making Shells at Home",
+    what: ["Ukraine moved from aid alone to a mix of aid and domestic production."],
+    how: ["A Rheinmetall joint venture (51% Rheinmetall, 49% Ukrainian state) was to make over 150,000 155mm shells a year in Ukraine; the target was later doubled.", "Ukrainian firms make casings for 125mm, 152mm, 155mm and 105mm (for M102 and L118 guns), and mortar bodies of 81, 82 and 120mm, in steel and in cast iron.", "60mm mortar casings are adapted for FPV drones. Polish 120mm M120 Rak mortars on Rosomak vehicles add mobile mortar fire.", "Assembly of full rounds is still limited by a global shortage of imported explosives."],
+    why: ["Making casings at home cuts dependence and transport.", "Compare US production rates and bottlenecks."],
+    sources: [{"title": "Joint venture with Ukrainian partner: Rheinmetall to produce artillery ammunition", "publisher": "Rheinmetall", "year": "2024", "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2024/02/2024-02-19-joint-venture-in-the-ukraine.pdf"}, {"title": "From 60mm to 155mm: Ukraine’s domestic production now includes casings for all major calibers", "publisher": "United24 Media", "year": "", "url": "https://united24media.com/latest-news/from-60mm-to-155mm-ukraines-domestic-production-now-includes-casings-for-all-major-calibers-10138"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-sus-production", "joint-eq-sus-bottlenecks"]
+  },
+  {
+    id: "ukr-les-chmr",
+    topic: "digital-fires-c2",
+    country: "Ukraine",
+    addedIn: "2026.12",
+    module: "Lessons",
+    force: "Armed Forces of Ukraine",
+    echelon: ["Theatre"],
+    type: "Lesson",
+    title: "Precision, Mines and Civilian Harm",
+    what: ["Analysis: precise software and guided rounds both give military advantage and reduce wide-area harm compared with unguided massed fire.", "In June 2025 Human Rights Watch documented Russian drones hunting civilians in Kherson; precision guidance does not prevent harm when weapons are aimed at people."],
+    how: ["Ukraine is a State Party to the 1997 Mine Ban Treaty, which bans anti-personnel mines.", "Analysis: transfers or use of such mines, or similar area weapons, have drawn scrutiny for risk to civilians after the war.", "Ukraine has an interim reparations programme for survivors of conflict-related sexual violence."],
+    why: ["Analysis: a country fighting for survival struggles to fund civilian harm response, but good practice is possible.", "Compare US civilian harm policy (DoD Instruction 3000.17)."],
+    sources: [{"title": "Key Takeaways for Civilian Harm Mitigation and Response from the Russia-Ukraine War", "publisher": "Just Security", "year": "", "url": "https://www.justsecurity.org/106576/key-takeaways-civilian-harm-mitigation-russia-ukraine/"}, {"title": "Hunted From Above: Russia’s Use of Drones to Attack Civilians in Kherson, Ukraine", "publisher": "Human Rights Watch", "year": "2025", "url": "https://www.hrw.org/report/2025/06/03/hunted-from-above/russias-use-of-drones-to-attack-civilians-in-kherson-ukraine"}],
+    confidence: "Analysis",
+    asOf: "2026-11",
+    relatedIds: ["joint-ttp-tgt-chmr", "rus-les-loac"]
+  },
+  {
+    id: "chn-org-reform",
+    topic: "liaison",
+    country: "China",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "Command & Control",
+    title: "From Military Regions to Joint Theatre Commands",
+    what: ["In 2016 China replaced seven Military Regions with five joint Theatre Commands: Eastern, Southern, Western, Northern and Central.", "The Central Military Commission runs the services, which train and equip; the Theatre Commands fight joint operations.", "The PLA cut 300,000 personnel, mostly from headquarters and officers, to about two million active."],
+    how: ["An officer’s grade (the level of the post) matters more than rank. Group armies are corps-leader grade; brigades colonel grade.", "Party committees run at regiment and above: the political commissar is usually Party secretary and the commander deputy secretary. Battalions and companies have Party branches."],
+    why: ["Joint war needs one commander per theatre over all services.", "Compare US combatant commands and the split between services (organise, train, equip) and joint commands."],
+    sources: [{"title": "The Transformation of the Chinese People’s Liberation Army into a World-Class Military", "publisher": "SWP Berlin", "year": "", "url": "https://www.swp-berlin.org/en/publication/the-transformation-of-the-chinese-peoples-liberation-army-into-a-world-class-military"}, {"title": "People’s Liberation Army Operational Concepts", "publisher": "RAND", "year": "", "url": "https://www.rand.org/content/dam/rand/pubs/research_reports/RRA300/RRA394-1/RAND_RRA394-1.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["chn-org-group-army"]
+  },
+  {
+    id: "chn-org-group-army",
+    topic: "cannon-artillery",
+    country: "China",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "PLA Ground Force",
+    echelon: ["Battalion", "Brigade", "Corps"],
+    type: "Force Structure",
+    title: "Group Armies and Combined Arms Brigades",
+    what: ["The Ground Force has 13 group armies, numbered 71st to 83rd. Each has six combined arms brigades (CABs) and six support brigades: artillery, air defence, army aviation, special operations, engineer and chemical, and sustainment."],
+    how: ["A CAB (heavy, medium, light, amphibious or mountain) has four combined arms battalions, an artillery battalion and an air defence battalion.", "The CAB artillery battalion, typically 122mm howitzers and 120mm mortars, handles tactical fire out to about 30 km.", "The group army artillery brigade, with long-range rocket launchers and 155mm or larger self-propelled howitzers, handles operational deep strike."],
+    why: ["Brigades fight on their own; theatre commanders can tailor group armies to the task.", "Compare the US, which is moving artillery up from brigade to division."],
+    sources: [{"title": "How China Fights in LSCO", "publisher": "TRADOC G2, US Army", "year": "2025", "url": "https://api.army.mil/e2/c/downloads/2025/05/08/1888a601/tradoc-g2-how-china-fights-in-lsco-apr-25-public.pdf"}, {"title": "Group army (military unit)", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Group_army_(military_unit)"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-cannon-divarty", "chn-org-amphib"]
+  },
+  {
+    id: "chn-org-amphib",
+    topic: "cannon-artillery",
+    country: "China",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "PLA Ground Force",
+    echelon: ["Brigade", "Corps"],
+    type: "Force Structure",
+    title: "Amphibious Brigades Opposite Taiwan",
+    what: ["A cross-strait operation drives Ground Force structure. Six amphibious combined arms brigades, formed from the former 1st Amphibious Mechanized and 124th Amphibious Infantry divisions, sit in the 72nd, 73rd and 74th Group Armies."],
+    how: ["They have swimming assault guns and infantry fighting vehicles, four combined arms battalions and an artillery battalion with amphibious 122mm howitzers and tracked 122mm rocket launchers.", "They train at Dongshan Island, Dacheng Bay and Shanwei."],
+    why: ["The beach assault is the most vulnerable phase; organic artillery gives immediate fire.", "Compare the US Marine Corps, which has moved away from large amphibious artillery towards anti-ship missiles."],
+    sources: [{"title": "The PLA Army Amphibious Force (China Maritime Report 20)", "publisher": "US Naval War College, China Maritime Studies Institute", "year": "2022", "url": "https://www.andrewerickson.com/wp-content/uploads/2022/04/CMSI_China-Maritime-Report_20_PLA-Army-Amphibious-Force_Blasko_202204.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usmc-org-cannon-fd2030", "chn-org-group-army"]
+  },
+  {
+    id: "chn-doc-system-destruction",
+    topic: "digital-fires-c2",
+    country: "China",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Multiple",
+    echelon: ["Corps", "Theatre"],
+    type: "TTP",
+    title: "System Destruction Warfare",
+    what: ["The PLA sees modern militaries as a “system of systems” and aims to paralyse them by striking key nodes, not by attrition.", "In 2021 it adopted Multidomain Precision Warfare (MDPW)."],
+    how: ["It names five enemy systems: command, firepower-strike, information warfare, reconnaissance-intelligence and support.", "MDPW: cyber attack blinds sensors, then long-range artillery and missiles destroy the isolated command nodes and air defences.", "Against an amphibious assault on its own coast, the PLA plans layers: Rocket Force and Navy strike ships far out, the Air Force suppresses air defences, the Ground Force strikes precisely near the beach, then counter-attacks."],
+    why: ["Compare US targeting and the Russian reconnaissance-strike complex: all three aim to hit what holds the enemy together."],
+    sources: [{"title": "Gaining Victory in Systems Warfare: China’s Perspective on the U.S.", "publisher": "RAND", "year": "", "url": "https://www.rand.org/content/dam/rand/pubs/research_reports/RRA1500/RRA1535-1/RAND_RRA1535-1.pdf"}, {"title": "People’s Liberation Army Operational Concepts", "publisher": "RAND", "year": "", "url": "https://www.rand.org/content/dam/rand/pubs/research_reports/RRA300/RRA394-1/RAND_RRA394-1.pdf"}, {"title": "People’s Liberation Army’s Defensive Strategy Against Amphibious Assault", "publisher": "TRADOC G2, US Army", "year": "", "url": "https://oe.t2com.army.mil/product/peoples-liberation-armys-defensive-strategy-against-amphibious-assault/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["rus-doc-rfc-rsc", "usa-ttp-tgt-d3a"]
+  },
+  {
+    id: "chn-org-ssf-icp",
+    topic: "digital-fires-c2",
+    country: "China",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Multiple",
+    echelon: ["Company", "Battalion", "Brigade", "Theatre"],
+    type: "Command & Control",
+    title: "From Strategic Support Force to Information Support Force: The Integrated Command Platform",
+    what: ["The Strategic Support Force (PLASSF), formed in 2015, brought space, cyber and electronic warfare together. China disbanded it on 19 April 2024 and split its roles among three new arms under the Central Military Commission: the Aerospace Force, the Cyberspace Force and the Information Support Force.", "The Integrated Command Platform (ICP) is a secure automated network down to battalion and company."],
+    how: ["The Information Support Force runs the network information systems that link sensors, commanders and shooters; space support passes to the Aerospace Force and cyber operations to the Cyberspace Force.", "The ICP covers command, political work, logistics and maintenance, and gives a common operating picture.", "For artillery it streams data between observers, special forces designators, radars, drones and batteries, and pairs each target with the best weapon: a Ground Force gun, a Rocket Force missile or an air strike."],
+    why: ["Compare the US AFATDS and the Ukrainian Delta and GIS Arta: all aim to shorten sensor to shooter."],
+    sources: [{"title": "Why China axed the Strategic Support Force and reshuffled the military", "publisher": "Defense News", "year": "2024", "url": "https://www.defensenews.com/global/asia-pacific/2024/04/26/why-china-axed-the-strategic-support-force-and-reshuffled-the-military/"}, {"title": "The People’s Liberation Army Strategic Support Force: Leadership and Structure", "publisher": "Project 2049 Institute", "year": "2018", "url": "https://project2049.net/wp-content/uploads/2018/09/180925_PLA_SSF_Leadership-and-Structure_Stokes_Burton.pdf"}, {"title": "How China Fights in LSCO", "publisher": "TRADOC G2, US Army", "year": "2025", "url": "https://api.army.mil/e2/c/downloads/2025/05/08/1888a601/tradoc-g2-how-china-fights-in-lsco-apr-25-public.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-ttp-afatds-arbitration", "ukr-eq-gisarta"]
+  },
+  {
+    id: "chn-eq-sensors",
+    topic: "target-acquisition",
+    country: "China",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "PLA Ground Force",
+    echelon: ["Brigade", "Corps"],
+    type: "Equipment",
+    title: "SLC-2 Radar and the KVD002 Drone",
+    what: ["The SLC-2 is a mobile counter-battery radar with an active electronically scanned array.", "Reported: the KVD002 armed reconnaissance drone watches the battlefield, designates targets by laser and assesses damage; the source is Chinese state media."],
+    how: ["The SLC-2 detects artillery, mortars and rockets beyond 50 km and aircraft out to 120 km.", "It computes the firing point and sends it through the ICP to batteries or aircraft."],
+    why: ["Fast radar-to-gun data aims to strike enemy guns before they move.", "Compare the US AN/TPQ-53; the report likens the SLC-2 to the older TPQ-37."],
+    sources: [{"title": "Counter-battery radar", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Counter-battery_radar"}, {"title": "Official documentary reveals PLA’s armed reconnaissance drones", "publisher": "Global Times", "year": "2026", "url": "https://www.globaltimes.cn/page/202607/1367264.shtml"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-tpq53", "chn-org-ssf-icp"]
+  },
+  {
+    id: "chn-eq-guided-shells",
+    topic: "ammunition-effects",
+    country: "China",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "PLA Ground Force",
+    echelon: ["Battalion", "Brigade"],
+    type: "Equipment",
+    title: "WS-35 and GP155 Guided Shells",
+    what: ["WS-35: a 155mm rocket-assisted, base bleed shell with BeiDou and inertial guidance. Reported by NORINCO: the WS-35B reaches up to 100 km.", "GP155 (GP1): a 155mm laser-homing shell derived from the Russian Krasnopol, range 4 to 20 km, 52 kg."],
+    how: ["The WS-35 weighs only 18 kg, against over 40 kg for a standard 155mm HE shell, so its explosive charge is small. Reported: its accuracy (CEP) is estimated at 40 m.", "The GP155 needs a laser designator, usually a KVD002 drone or special forces. GP1 remnants have been found in Libya.", "The GP155B replaces the laser with satellite guidance for fire-and-forget use."],
+    why: ["The WS-35 suits large fixed targets such as depots and radars, not bunkers or moving armour; the GP155 is for single-shot kills on moving targets.", "Compare US Excalibur (GPS) and the Russian Krasnopol (laser)."],
+    sources: [{"title": "Chinese GP1 series guided artillery projectiles in Libya", "publisher": "Armament Research Services", "year": "", "url": "https://armamentresearch.com/chinese-gp1-series-guided-artillery-projectiles-in-libya/"}, {"title": "WS-35", "publisher": "Deagel", "year": "", "url": "https://www.deagel.com/Weapons/WS-35/a002888"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-amm-guided", "rus-eq-krasnopol"]
+  },
+  {
+    id: "chn-eq-pcl181",
+    topic: "cannon-artillery",
+    country: "China",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "PLA Ground Force",
+    echelon: ["Battalion", "Brigade"],
+    type: "Equipment",
+    title: "PCL-181 155mm Truck Howitzer",
+    what: ["A 155mm/52-calibre howitzer on a Taian 6x6 truck, fielded in large numbers from 2020. Export name SH-15."],
+    how: ["25 tons, airliftable by Y-9. Range 20 km with HE, 53 km with rocket-assisted rounds. 4 to 6 rounds a minute. Crew of six in an enclosed cab; 90 km/h.", "An automatic fire control computer, linked to the ICP, lays the gun for fast fire and move.", "Over 600 are in service, replacing towed 152mm PL-66 and 130mm Type 59-1 guns. Many serve in Xinjiang and Tibet on the Indian border. Pakistan uses the SH-15."],
+    why: ["Light enough for mountain roads and weak bridges where tracked guns struggle.", "Compare the US Self-Propelled Howitzer Modernization programme and the French CAESAR."],
+    sources: [{"title": "PCL-181", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/PCL-181"}, {"title": "PCL-181", "publisher": "Deagel", "year": "", "url": "https://www.deagel.com/Armies/PCL-181/a004007"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-sphm", "chn-eq-plz05"]
+  },
+  {
+    id: "chn-eq-plz05",
+    topic: "cannon-artillery",
+    country: "China",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "PLA Ground Force",
+    echelon: ["Brigade", "Corps"],
+    type: "Equipment",
+    title: "PLZ-05 155mm Tracked Howitzer",
+    what: ["The PLA’s main armoured self-propelled howitzer; upgrades are called PLZ-05A or PLZ-52. Its 155mm/52-calibre gun marks the move from Soviet 152mm to the NATO calibre."],
+    how: ["35 to 45 tons. 8 to 10 rounds a minute; a burst of 4 rounds in 15 seconds; can fire multiple rounds to land at once (MRSI).", "Range 39 km with extended range base bleed, 50 km with base bleed and rocket assistance, up to 100 km with the guided WS-35B.", "A tracked ammunition vehicle resupplies it under armour.", "The report places it with the 38th, 39th, 1st, 41st and 42nd Group Armies; those are pre-2017 numbers, now replaced by 71st to 83rd."],
+    why: ["Compare the US M109A7 and the South Korean K9."],
+    sources: [{"title": "PLZ-05", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/PLZ-05"}, {"title": "PLZ-52/Type 05/PLZ-05", "publisher": "Army Guide", "year": "", "url": "http://www.army-guide.com/eng/product3185.html"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m109a7", "kor-eq-k9"]
+  },
+  {
+    id: "chn-eq-phl191",
+    topic: "rocket-missile-artillery",
+    country: "China",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "PLA Ground Force",
+    echelon: ["Corps", "Theatre"],
+    type: "Equipment",
+    title: "PHL-191 (PHL-16) Modular Rocket Launcher",
+    what: ["A 45-ton 8x8 launcher in group army artillery brigades, also called PHL-16 or AR-3, with pods swapped by crane."],
+    how: ["300mm Fire Dragon 140A: 10 rockets, about 150 km.", "370mm Fire Dragon 220: 8 guided rockets, about 350 km.", "750mm Fire Dragon 480: 2 tactical ballistic missiles, about 500 km.", "Satellite and inertial guidance."],
+    why: ["From the coast it can reach across the whole Taiwan Strait without using the Rocket Force’s costlier DF-11 and DF-15 missiles or exposing aircraft.", "Compare HIMARS with PrSM, and the Korean Chunmoo."],
+    sources: [{"title": "The PCH191 Modular Long-Range Rocket Launcher", "publisher": "US Army (GovInfo)", "year": "", "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D208-PURL-gpo246143/pdf/GOVPUB-D208-PURL-gpo246143.pdf"}, {"title": "PHL-16", "publisher": "Deagel", "year": "", "url": "https://www.deagel.com/Armies/PHL-16/a003184"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-m142", "kor-eq-chunmoo"]
+  },
+  {
+    id: "chn-eq-tactical",
+    topic: "cannon-artillery",
+    country: "China",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "PLA Ground Force",
+    echelon: ["Company", "Battalion"],
+    type: "Equipment",
+    title: "PCL-171 and Self-Propelled Mortars",
+    what: ["PCL-171: a 122mm howitzer on a 6x6 Dongfeng Mengshi armoured vehicle for light brigades, replacing the towed PL-96.", "PLL-05: a 120mm gun-mortar on the 6x6 WZ551. PCP-001: an 82mm automatic mortar on a 4x4 Mengshi."],
+    how: ["PCL-171 vehicles carry 28 rounds and are paired with ammunition vehicles in each battery.", "PLL-05: 16.5 tons, crew of four, 36 rounds, amphibious at up to 8 km/h; used by amphibious units.", "PCP-001: over 100 km/h on roads, high rate of fire, for airborne, border and light infantry units."],
+    why: ["No gun to unhitch means light units keep their pace.", "Compare the US M119A3 and the Korean K105HT."],
+    sources: [{"title": "PLL-05", "publisher": "Army Recognition", "year": "", "url": "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/mortar-carrier/pll05-china-uk"}, {"title": "Chinese PLA introduces new assault-vehicle mounted howitzer", "publisher": "Defense Mirror", "year": "", "url": "https://defensemirror.com/news/28511/Chinese_PLA_Introduces_New_Assault_Vehicle_Mounted_Howitzer"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m119a3", "kor-eq-k105ht"]
+  },
+  {
+    id: "chn-les-human",
+    topic: "liaison",
+    country: "China",
+    addedIn: "2026.12",
+    module: "Lessons",
+    force: "Multiple",
+    echelon: ["All"],
+    type: "Lesson",
+    title: "The “Five Cannots”: The PLA’s Own Doubts",
+    what: ["Central Military Commission assessments record concern about people, not equipment.", "“Three Whethers”: whether the forces keep the Party’s absolute leadership, can win when needed, and whether commanders are competent.", "“Five Cannots”: some commanders cannot judge the situation, understand higher intent, make decisions, deploy troops, or deal with the unexpected."],
+    how: ["The combined arms battalion asks a major to run infantry, armour, artillery and air defence at once, faster than scripted training can prepare.", "Units have sometimes received new systems such as the PCL-181 and PHL-191 before manuals, doctrine or trained maintainers."],
+    why: ["Analysis: hardware has outrun training; this is the PLA’s main limit.", "Compare US combat training centre findings on staff and command weaknesses."],
+    sources: [{"title": "PLA Weaknesses and Xi’s Concerns about PLA Capabilities (testimony)", "publisher": "US-China Economic and Security Review Commission", "year": "", "url": "https://www.uscc.gov/sites/default/files/Blasko_USCC%20Testimony_FINAL.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["les-c2-ctc-trends", "chn-org-group-army"]
+  },
+  {
+    id: "jpn-trn-ardb-jtac",
+    topic: "liaison",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Training",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Brigade"],
+    type: "Training",
+    title: "Joint Terminal Attack Controllers in the Amphibious Rapid Deployment Brigade",
+    what: ["The Amphibious Rapid Deployment Brigade (ARDB) keeps its own joint terminal attack controllers (JTACs) in a fire support company (the report calls it the “Fire Leading Company”).", "They link landing forces with close air support and naval surface fire for the defence and recapture of remote islands."],
+    how: ["NCO controllers sit instructor qualification evaluations run by the brigade’s field artillery battalion.", "Controllers land with the infantry and set up voice and digital links to ships and aircraft offshore.", "Readiness is checked in live-fire bilateral training with the US Marine Corps 5th Air Naval Gunfire Liaison Company (ANGLICO), reported in 2026."],
+    why: ["Analysis: a landing force has little heavy artillery ashore in the first hours; its own controllers give it air and naval fire from the start.", "Compare the US Marine Corps, which attaches ANGLICO teams from outside the unit."],
+    sources: [{"title": "5th Air Naval Gunfire Liaison Company, Japan Ground Self-Defense Force strengthen partnership through joint fires training", "publisher": "US Indo-Pacific Command", "year": "2026", "url": "https://www.pacom.mil/Media/News/News-Articles/Article/4631975/5th-air-naval-gunfire-liaison-company-japan-ground-self-defense-force-strengthe/"}, {"title": "5th Air Naval Gunfire Liaison Company, Japan Ground Self-Defense Force strengthen partnership through joint fires training", "publisher": "III Marine Expeditionary Force", "year": "2026", "url": "https://www.iiimef.marines.mil/Media-Room/Stories/Article/Article/4631219/5th-air-naval-gunfire-liaison-company-japan-ground-self-defense-force-strengthe/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usmc-org-anglico", "jpn-ttp-allied-fires"]
+  },
+  {
+    id: "jpn-ttp-allied-fires",
+    topic: "digital-fires-c2",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Multiple",
+    echelon: ["Brigade", "Theatre"],
+    type: "TTP",
+    title: "Combined Fires with US and Australian Artillery",
+    what: ["The Ground Self-Defense Force trains to fire alongside US forces in bilateral exercises such as Orient Shield, and has integrated with Australian artillery."],
+    how: ["US and Japanese units coordinated an artillery live fire together in 2020.", "The two sides agree common fire support coordinating measures before firing, to prevent fratricide.", "Liaison officers work in each other’s command posts to deconflict fires and airspace.", "Analysis: the technical task is to pass data between Japan’s FCCS and the US AFATDS."],
+    why: ["Japan has relied on US forces for deep strike; combined fires need agreed procedures before a crisis, not during it.", "Compare US multinational fires with NATO partners."],
+    sources: [{"title": "US and Japanese forces synergize coordinating artillery live fire", "publisher": "DVIDS", "year": "2020", "url": "https://www.dvidshub.net/news/550244/us-and-japanese-forces-synergize-coordinating-artillery-live-fire"}, {"title": "Diplomatic Bluebook 2020, chapter 3-1", "publisher": "Japan Ministry of Foreign Affairs", "year": "2020", "url": "https://www.mofa.go.jp/policy/other/bluebook/2020/pdf/3-1.pdf"}, {"title": "Joint fires interoperability lessons learnt: Australian and Japanese artillery integration", "publisher": "The Cove (Australian Army)", "year": "2021", "url": "https://cove.army.gov.au/article/joint-fires-interoperability-lessons-learnt-australian-and-japanese-artillery-integration"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["jpn-eq-fccs", "jpn-trn-ardb-jtac"]
+  },
+  {
+    id: "jpn-ttp-three-conditions",
+    topic: "digital-fires-c2",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "TTP",
+    title: "The Three Conditions: Legal Limits on Striking",
+    what: ["Japan may use force only when three conditions set by the government are met. They govern its new long-range counterstrike capability as much as any other use of force."],
+    how: ["Condition 1: an armed attack against Japan has occurred, or an armed attack against a country in a close relationship with Japan threatens Japan’s survival.", "Condition 2: there is no other appropriate means to repel the attack.", "Condition 3: force is limited to the minimum necessary.", "Counterstrike may be used only after an armed attack has begun. Pre-emptive strike is not permitted."],
+    why: ["Target lists and timing for long-range fires must fit these conditions, which shapes how Japan plans deep strike.", "Compare US targeting, which works under the law of armed conflict and rules of engagement set for each operation."],
+    sources: [{"title": "Defense of Japan 2023", "publisher": "Japan Ministry of Defense", "year": "2023", "url": "https://www.mod.go.jp/en/publ/w_paper/wp2023/DOJ2023_EN_Full.pdf"}, {"title": "Embracing Arms: Securing Japan in a New Era of Crisis", "publisher": "International Crisis Group", "year": "2023", "url": "https://www.crisisgroup.org/rpt/asia-pacific/japan-united-states-china/351-embracing-arms-securing-japan-new-era-crisis"}, {"title": "Legal review of targeting", "publisher": "US Naval War College Review", "year": "2024", "url": "https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?article=8129&context=nwc-review"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-ttp-tgt-d3a", "jpn-org-ssm"]
+  },
+  {
+    id: "jpn-eq-type19",
+    topic: "cannon-artillery",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "Type 19 Wheeled 155mm Self-Propelled Howitzer",
+    what: ["Reported: a 155mm 52-calibre howitzer by Japan Steel Works on an 8x8 Rheinmetall MAN truck. It replaces the towed FH70."],
+    how: ["Reported: a crew of five; a hydraulic spade at the rear takes the recoil.", "Reported: an automatic loader rams the projectile at any elevation; the crew loads modular charges by hand.", "Reported: digital fire control takes data from the command network and inertial navigation.", "Reported: range is 30 km with standard HE and 40 km with base bleed.", "Reported: it receives fire missions on the move, halts, fires a burst and leaves before counter-battery fire arrives."],
+    why: ["Analysis: road speed on Japan’s highways and a short time in position matter more than armour against counter-battery fire and drones.", "Compare the US, which still uses the towed M777 and the tracked M109A7, and wheeled guns such as CAESAR and Archer."],
+    sources: [{"title": "Type 19 155 mm wheeled self-propelled howitzer", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Type_19_155_mm_wheeled_self-propelled_howitzer"}, {"title": "Type 19", "publisher": "WeaponSystems.net", "year": "2026", "url": "https://weaponsystems.net/system/510-Type+19"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-sphm", "ukr-ttp-roving-gun", "jpn-eq-vulcano"]
+  },
+  {
+    id: "jpn-eq-mortars",
+    topic: "cannon-artillery",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Company", "Battalion"],
+    type: "Equipment",
+    title: "The 120mm RT and 81mm L16 Mortars",
+    what: ["Reported: the Ground Self-Defense Force uses the French-designed 120mm RT rifled mortar and the British-designed 81mm L16, both made under licence by Howa Machinery."],
+    how: ["Reported: heavy mortar companies tow the 120mm RT or fire it from the Type 96 tracked self-propelled mortar.", "Reported: rifle companies carry the 81mm L16 in man-portable loads: baseplate, bipod and barrel.", "Reported: they fire HE, smoke and illumination, out to about 5,600 m (the report does not say which mortar)."],
+    why: ["Analysis: high-angle fire reaches into the steep valleys and forest of Japan’s terrain.", "Analysis: the rifled 120mm RT is generally credited with more range than smoothbore 120mm mortars such as the US M120."],
+    sources: [{"title": "List of equipment of the Japan Ground Self-Defense Force", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Japan_Ground_Self-Defense_Force"}, {"title": "L16 81mm mortar", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/L16_81mm_mortar"}, {"title": "JGSDF, US Army share mortar tactics during Orient Shield 14", "publisher": "US Army", "year": "2014", "url": "https://www.army.mil/article/136981/jgsdf_us_army_share_mortar_tactics_during_orient_shield_14"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m120", "joint-eq-m252a1"]
+  },
+  {
+    id: "jpn-org-ssm",
+    topic: "rocket-missile-artillery",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Regiment"],
+    type: "Force Structure",
+    title: "Surface-to-Ship Missile Regiments",
+    what: ["Reported: surface-to-ship missile regiments operating the Type 12 missile are central to Japan’s coastal defence, deployed to the south-western islands to cover the straits."],
+    how: ["Reported: launcher vehicles disperse into cover on the coast or inland to avoid detection and pre-emptive strike.", "Reported: ships and patrol aircraft pass targeting data beyond the horizon.", "Reported: the missile flies low, skimming the sea, and homes with an active radar seeker.", "Reported: longer-range versions are being fielded."],
+    why: ["Analysis: missiles ashore deny the sea around the islands that an amphibious force must cross.", "Compare the US Marine Corps NMESIS, spread in small units, against Japan’s dedicated regiments."],
+    sources: [{"title": "Japan completes Type 12 surface-to-ship missile deployment to protect strategic straits", "publisher": "Army Recognition", "year": "2025", "url": "https://www.armyrecognition.com/archives/archives-naval-defense/naval-news-navy-2025/japan-completes-type-12-surface-to-ship-missile-deployment-to-protect-strategic-straits-against-chinese-naval-expansion"}, {"title": "Japan deploys new longer-range missiles, formally designates Type 25 systems", "publisher": "Naval News", "year": "2026", "url": "https://www.navalnews.com/naval-news/2026/03/japan-deploys-new-longer-range-missiles-formally-designates-type-25-systems/"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["usmc-eq-nmesis", "jpn-eq-type25"]
+  },
+  {
+    id: "jpn-eq-type25",
+    topic: "rocket-missile-artillery",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Theatre"],
+    type: "Equipment",
+    title: "Type 25 Long-Range Missiles and the Glide Projectile",
+    what: ["Reported: in March 2026 Japan formally designated new long-range systems as Type 25. They include the Hyper Velocity Gliding Projectile (HVGP) by Mitsubishi Heavy Industries, reported in service from 31 March 2026.", "Reported: sources on the Type 25 long-range anti-ship missile give a reach beyond 1,000 km. The research report gives this figure for the glide projectile; the sources do not support that."],
+    how: ["Reported: a rocket booster lifts the HVGP, which separates and glides at high speed on an irregular path to evade interceptors."],
+    why: ["Analysis: these weapons give Japan its first long-range counterstrike from the ground, within the Three Conditions.", "Compare the US Long-Range Hypersonic Weapon and the PrSM."],
+    sources: [{"title": "Japan deploys new longer-range missiles, formally designates Type 25 systems", "publisher": "Naval News", "year": "2026", "url": "https://www.navalnews.com/naval-news/2026/03/japan-deploys-new-longer-range-missiles-formally-designates-type-25-systems/"}, {"title": "Japan deploys new Type 25 long-range anti-ship missiles extending strike reach beyond 1,000 km", "publisher": "Army Recognition", "year": "2026", "url": "https://www.armyrecognition.com/news/army-news/2026/japan-deploys-new-type-25-long-range-anti-ship-missiles-extending-strike-reach-beyond-1-000-km"}, {"title": "Mitsubishi Heavy Industries Type 25 missile reaches 1,000 km operational range", "publisher": "Industrial Base Alpha", "year": "2026", "url": "https://industrialbasealpha.com/article/mitsubishi-heavy-industries-type-25-missile-reaches-1-000-km-operational-range"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["jpn-org-ssm", "jpn-ttp-three-conditions", "joint-eq-rkt-munitions"]
+  },
+  {
+    id: "jpn-eq-lm",
+    topic: "loitering-munitions",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Company", "Battalion"],
+    type: "Equipment",
+    title: "Loitering Munitions in the Defence Build-Up",
+    what: ["The Defense Buildup Program (2022) includes buying small attack drones (loitering munitions) for ground units.", "Reported: the US Switchblade and Altius are named as examples."],
+    how: ["Reported: soldiers launch them from portable tubes or vehicle launchers; an operator identifies the target on a tablet and authorises the attack.", "Reported: the role is to hit landing craft and armour as well as targets hidden behind cover."],
+    why: ["They give infantry precision fire beyond their own weapons without waiting for divisional artillery.", "Compare US Army LASSO and Marine Corps OPF-L programmes."],
+    sources: [{"title": "Defense of Japan 2026", "publisher": "Japan Ministry of Defense", "year": "2026", "url": "https://www.mod.go.jp/j/press/wp/wp2026/pdf/DOJ2026_EN_Full.pdf"}, {"title": "UAVs: ISR, Deterrence and War (Strategic Dossier)", "publisher": "IISS", "year": "2026", "url": "https://www.iiss.org/globalassets/media-library---content--migration/files/publications---free-files/strategic-dossier/uavs-2026/iiss_uavs-isr-deterrence-and-war_032026.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-switchblade", "usa-eq-altius"]
+  },
+  {
+    id: "jpn-eq-vulcano",
+    topic: "ammunition-effects",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "Vulcano 155 GLR Guided Shells for the Type 19",
+    what: ["Reported: Japan is acquiring Leonardo’s Vulcano 155 GLR guided long-range shell for the Type 19. In 2025 the Type 19 was to be tested in the UK with Vulcano shells."],
+    how: ["Reported: the crew sets GPS target coordinates before loading.", "Reported: the sub-calibre shell sheds its sabot, opens fins and glides under GPS and inertial guidance.", "Reported: range approaches 70 km."],
+    why: ["Analysis: guns well inland could strike a beachhead with few rounds and less risk to civilians.", "Compare the US M982 Excalibur (about 40 km)."],
+    sources: [{"title": "Japanese Type 19 wheeled self-propelled guns to be tested in the UK with Vulcano shells", "publisher": "Militarnyi", "year": "2025", "url": "https://militarnyi.com/en/news/japanese-type-19-wheeled-self-propelled-guns-to-be-tested-in-the-uk-with-vulcano-shells/"}, {"title": "Leonardo at DSEI Japan", "publisher": "Leonardo", "year": "2023", "url": "https://www.leonardo.com/it/press-release-detail/-/detail/13.03.2023-leonardo-at-dsei-japan-a-partner-for-high-technology-and-innovative-multi-domain-defence-solutions"}, {"title": "Type 19 155 mm wheeled self-propelled howitzer", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Type_19_155_mm_wheeled_self-propelled_howitzer"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["jpn-eq-type19", "joint-eq-amm-guided"]
+  },
+  {
+    id: "jpn-pol-cluster",
+    topic: "ammunition-effects",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "Policy",
+    title: "No Cluster Munitions: Japan’s Ban",
+    what: ["Japan is a State Party to the Convention on Cluster Munitions. It finished destroying its stockpile in February 2015."],
+    how: ["The stockpile was 14,011 cluster munitions containing over 2 million submunitions.", "Artillery DPICM shells, M26 rockets and CBU-87 bombs were all destroyed.", "The report says Japan kept none for training or research."],
+    why: ["Japanese artillery has no cluster rounds for area targets; it relies on unitary HE, guided rounds and other weapons.", "Compare the US, which is not a party to the Convention and still holds DPICM, which it is replacing with the XM1180 C-DAEM."],
+    sources: [{"title": "Japan: Cluster Munition Ban Policy", "publisher": "Cluster Munition Monitor", "year": "2022", "url": "https://archives2.the-monitor.org/en-gb/reports/2022/japan/cluster-munition-ban-policy.aspx"}, {"title": "JSDF reports cluster bomb stockpile destroyed", "publisher": "Komeito", "year": "2015", "url": "https://www.komei.or.jp/en/news/detail/20150217_16671"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-cdaem", "joint-eq-rkt-munitions"]
+  },
+  {
+    id: "jpn-eq-jtps-p16",
+    topic: "target-acquisition",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "JTPS-P16 Counter-Battery Radar",
+    what: ["The JTPS-P16 is a Ground Self-Defense Force radar that detects incoming shells, rockets and mortar bombs and locates where they were fired from."],
+    how: ["It tracks the projectile, works back along the trajectory to the firing point and sends the location through the FCCS to cue counter-battery fire.", "Ministry of Defense contracts (2017) and technical support documents (2024) show it in service."],
+    why: ["Counter-battery fire depends on locating the enemy guns before they move.", "Compare the US AN/TPQ-53 and AN/TPQ-50."],
+    sources: [{"title": "JTPS-P16 radar technical support", "publisher": "Japan Ministry of Defense (JGSDF)", "year": "2024", "url": "https://www.mod.go.jp/gsdf/dc/cfin/html/img/i213-R6.8.8.pdf"}, {"title": "JTPS-P16 contracts", "publisher": "Japan Ministry of Defense (JGSDF)", "year": "2017", "url": "https://www.mod.go.jp/gsdf/gmcc/raising/hoto/hjozoku/taisyou_keiyaku.html"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-tpq53", "jpn-eq-fccs"]
+  },
+  {
+    id: "jpn-eq-fccs",
+    topic: "digital-fires-c2",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Battalion"],
+    type: "Command & Control",
+    title: "FCCS: The Fire Combat Command and Control System",
+    what: ["The FCCS is Japan’s own digital network for directing field artillery. It brings together data from radars, observers, drones and higher headquarters."],
+    how: ["Observers send target coordinates into the network.", "It checks targets against friendly positions and ranks them by the commander’s attack guidance.", "It sends each mission to the battery best placed, with the right ammunition."],
+    why: ["Digital processing removes the delays and errors of passing targets by voice.", "Compare the US AFATDS; the FCCS is built for Japanese equipment."],
+    sources: [{"title": "Fire Combat Command and Control System: project outline", "publisher": "Japan Ministry of Defense (ATLA)", "year": "2020", "url": "https://www.mod.go.jp/atla/soubiseisaku/project/gaiyo_r020930.pdf"}, {"title": "ATLA handout FY2018", "publisher": "Japan Ministry of Defense (ATLA)", "year": "2018", "url": "https://www.mod.go.jp/atla/en/policy/pdf/handout_FY2018.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-afatds-arch", "jpn-ttp-tfd"]
+  },
+  {
+    id: "jpn-ttp-tfd",
+    topic: "technical-fire-direction",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Battery"],
+    type: "TTP",
+    title: "Automated Technical Fire Direction",
+    what: ["Battery fire direction in the Ground Self-Defense Force is computed digitally through the FCCS, replacing the older FADAC (Field Artillery Digital Automatic Computer)."],
+    how: ["The fire direction officer enters the round, fuze and target.", "The system takes the battery position from inertial navigation.", "It computes the firing data with meteorological data, wind and propellant temperature.", "It sends quadrant elevation and deflection to each gun’s display, for example on the Type 19."],
+    why: ["Digital computation speeds the first round and lets dispersed guns mass on one point.", "Compare the US, where AFATDS and gun computers do the same."],
+    sources: [{"title": "Defense of Japan 2000: glossary", "publisher": "Japan Ministry of Defense", "year": "2000", "url": "http://www.clearing.mod.go.jp/hakusho_data/2000/yougo/main/yg12036.htm"}, {"title": "FADAC equipment", "publisher": "Japan Ministry of Defense (ATLA)", "year": "2023", "url": "https://www.mod.go.jp/atla/nds/Y/Y0004B.pdf"}, {"title": "Fire Combat Command and Control System: project outline", "publisher": "Japan Ministry of Defense (ATLA)", "year": "2020", "url": "https://www.mod.go.jp/atla/soubiseisaku/project/gaiyo_r020930.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["jpn-eq-fccs", "jpn-trn-fuji"]
+  },
+  {
+    id: "jpn-trn-fuji",
+    topic: "technical-fire-direction",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Training",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Brigade"],
+    type: "Training",
+    title: "The Fuji School: Artillery Doctrine and Gunnery",
+    what: ["The Fuji School is the Ground Self-Defense Force’s centre for artillery doctrine and advanced gunnery, with its own field artillery training units."],
+    how: ["Officers and NCOs attend courses in ballistics and digital fire direction.", "Students learn manual chart calculation first, then the FCCS.", "Laser engagement systems and simulators reproduce multi-battery live fire.", "The annual Fuji Firepower Review is a public live-fire demonstration."],
+    why: ["One school for gunnery means units from different regional armies use the same procedures and can mass fires together.", "Compare the US Fires Center of Excellence at Fort Sill."],
+    sources: [{"title": "Fuji School field artillery", "publisher": "Japan Ministry of Defense (JGSDF)", "year": "2023", "url": "https://www.mod.go.jp/gsdf/mae/13b/mitsuya/R0506/index.html"}, {"title": "Field artillery unit", "publisher": "Japan Ministry of Defense (JGSDF)", "year": "2023", "url": "https://www.mod.go.jp/gsdf/eae/contents/img/aduma/pdf/aduma_1087.pdf"}, {"title": "Artillery gunnery simulation", "publisher": "Japan Ministry of Defense (JGSDF)", "year": "2024", "url": "https://www.mod.go.jp/gsdf/tercom/img/file2529.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["jpn-ttp-tfd", "usa-trn-fabolc"]
+  },
+  {
+    id: "jpn-eq-type11",
+    topic: "counterfire-survivability",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Division"],
+    type: "Equipment",
+    title: "Type 11 Short-Range Air Defence for Gun Areas",
+    what: ["Reported: the Type 11 short-range surface-to-air missile protects artillery positions and command posts from aircraft, cruise missiles and drones. It replaced the Type 81."],
+    how: ["Reported: a quadruple launcher on a Type 73 heavy truck keeps pace with moving artillery.", "Reported: it links to a radar and fire control vehicle through the Anti-Air Combat Command and Control System; some variants add an optical tracker for passive engagement under jamming.", "Reported: active radar homing, range up to about 10 km."],
+    why: ["Guns and ammunition points are prime targets for drones and missiles; they need their own air defence.", "Compare the US M-SHORAD."],
+    sources: [{"title": "Type 11 short-range surface-to-air missile", "publisher": "NamuWiki", "year": "2024", "url": "https://en.namu.wiki/w/11%EC%8B%9D%20%EB%8B%A8%EA%B1%B0%EB%A6%AC%20%EC%A7%80%EB%8C%80%EA%B3%B5%EC%9C%A0%EB%8F%84%ED%83%84"}, {"title": "US, Philippine and Japanese forces integrate air and missile defense", "publisher": "US Indo-Pacific Command", "year": "2026", "url": "https://www.pacom.mil/Media/News/News-Articles/Article/4473901/us-philippine-and-japanese-forces-integrate-air-and-missile-defense/"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["jpn-eq-type19", "jpn-eq-jtps-p16"]
+  },
+  {
+    id: "jpn-sus-budget",
+    topic: "sustainment",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "Logistics",
+    title: "The 2023–2027 Build-Up: Ammunition and Storage",
+    what: ["Japan’s defence budget for 2023–2027 sets out a large increase in ammunition production and storage, to fix shortfalls in stocks for a long war."],
+    how: ["The Ministry of Defense funds industry, such as Japan Steel Works and Mitsubishi, to expand production lines.", "It is building protected, dispersed ammunition storage, including in the south-western islands.", "It has moved from single-year orders to multi-year bulk buying to steady the supply chain.", "Reported: the Ministry requested a record budget of about $60.1 billion."],
+    why: ["Analysis: stocks and production lines, not only weapons, decide how long a force can fight.", "Compare the US, which is expanding 155mm shell production."],
+    sources: [{"title": "Japan’s defence budget surge: a new security paradigm", "publisher": "RUSI", "year": "2024", "url": "https://www.rusi.org/explore-our-research/publications/commentary/japans-defence-budget-surge-new-security-paradigm"}, {"title": "Japan defence budget 2023–2027", "publisher": "Xinhua", "year": "2026", "url": "https://english.news.cn/asiapacific/20261114/cdec360e907342d587e0fbf683cb07fd/c.html"}, {"title": "Japan’s Defense Ministry requests record $60.1 billion", "publisher": "Militarnyi", "year": "2026", "url": "https://militarnyi.com/en/news/japan-s-requests-record-60-1-billion/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["jpn-eq-type99-arv"]
+  },
+  {
+    id: "jpn-eq-type99-arv",
+    topic: "sustainment",
+    country: "Japan",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Japan Ground Self-Defense Force",
+    echelon: ["Battery"],
+    type: "Equipment",
+    title: "Type 99 Ammunition Resupply Vehicle",
+    what: ["The Type 99 ammunition resupply vehicle is a tracked, armoured carrier that supplies the Type 99 155mm self-propelled howitzer in the firing position."],
+    how: ["Its armour protects against small arms and shell fragments, and it crosses the same rough ground and snow as the howitzer.", "A conveyor passes shells and charges into the howitzer without manual lifting.", "The crew compartment is sealed against nuclear, biological and chemical threats."],
+    why: ["Armoured resupply keeps tracked guns firing without going back to depots.", "Compare the US M992 FAASV with the M109A7, and the Korean K10 with the K9."],
+    sources: [{"title": "Type 99 155 mm self-propelled howitzer", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Type_99_155_mm_self-propelled_howitzer"}, {"title": "Type 99 self-propelled howitzer", "publisher": "Army Guide", "year": "2026", "url": "http://www.army-guide.com/eng/product4324.html"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m992a3", "kor-eq-k10"]
+  },
+  {
+    id: "aus-org-jft-jfecc",
+    topic: "liaison",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Australian Army",
+    echelon: ["Company", "Battalion", "Brigade"],
+    type: "Liaison Element",
+    title: "Joint Fires Teams and JFECCs",
+    what: ["Royal Australian Artillery (RAA) regiments link artillery, mortars, air and naval fire to manoeuvre units through six-person Joint Fires Teams (JFTs) and Joint Fires and Effects Coordination Centres (JFECCs).", "Each regiment provides the core JFECC staff for its brigade and battlegroups."],
+    how: ["Artillery observers go forward with combat teams in JFTs to find targets and coordinate all fires.", "JFTs pass targets to battlegroup and brigade JFECCs, which synchronise lethal and non-lethal effects.", "Army joint terminal attack controllers (JTACs), sergeant or above, and Ground Liaison troops work in the JFECCs and forward teams.", "JFTs are moving into Boxer reconnaissance vehicles with SitaWare and new optics; working closed down under armour is still being refined."],
+    why: ["One team at combat-team level coordinates surface, air and naval fires, so the manoeuvre commander has every effect at hand.", "Compare the US fire support team and brigade fire support element, which mostly rely on US Air Force TACPs for terminal air control."],
+    sources: [{"title": "Improving the Sensor-Shooter Link for an Army in Motion", "publisher": "The Cove (Australian Army)", "year": "", "url": "https://cove.army.gov.au/article/improving-sensor-shooter-link-army-motion"}, {"title": "Synchronising Lethal and Non-Lethal Effects on High-Intensity Operations: Joint Warfighting Assessment 2019", "publisher": "The Cove (Australian Army)", "year": "2019", "url": "https://cove.army.gov.au/article/synchronising-lethal-and-non-lethal-effects-high-intensity-operations-joint-warfighting-assessment-2019"}, {"title": "Bridges Papers 2020: Future Artillery and Joint Effects", "publisher": "School of Artillery (The Cove)", "year": "2020", "url": "https://cove.army.gov.au/sites/default/files/200724_bridges_papers_2020_approved_by_hor.pdf"}, {"title": "A Reflection on the Future of Artillery", "publisher": "The Cove (Australian Army)", "year": "", "url": "https://cove.army.gov.au/sites/default/files/a_reflection_on_the_future_of_artillery_full_ver.pdf"}, {"title": "The Changing Face of Joint Fires and Effects in Formation Reconnaissance", "publisher": "The Cove (Australian Army)", "year": "", "url": "https://cove.army.gov.au/article/changing-face-joint-fires-and-effects-formation-reconnaissance-how-royal-australian-artillery-must-evolve"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-fist", "jpn-trn-ardb-jtac"]
+  },
+  {
+    id: "aus-les-littoral",
+    topic: "liaison",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Lessons",
+    force: "Multiple",
+    echelon: ["Brigade"],
+    type: "Lesson",
+    title: "Littoral Fires: When the Guns Cannot Reach",
+    what: ["Australia’s littoral concept spreads brigades across wide island frontages that towed artillery cannot cover. Close air support (CAS) and naval surface fire support (NSFS) matter more."],
+    how: ["On Exercise Predators Run 2024, 1st Brigade worked across a 1,000 km littoral frontage; it could not position enough artillery for mutual support.", "Sea-launched loitering munitions threaten warships firing in support, which left aircraft as the most reliable fire support across the frontage.", "Air support reaches the ground plan through TACPs, joint fires observers (JFOs) and JTACs.", "AFATDS coordinates mortars, artillery and naval guns; multinational JTAC and naval gunfire drills run on Exercise Talisman Sabre."],
+    why: ["Dispersed littoral operations outrun tube artillery, so skilled observers and controllers who can call air and naval fire are essential.", "Compare the US Marine Corps, which has its own fixed-wing aircraft and ANGLICO; the Australian Army has no fixed-wing aircraft and relies on the RAAF."],
+    sources: [{"title": "Lessons from the Littoral Environment: The Importance of CAS in the Future Fight", "publisher": "The Cove (Australian Army)", "year": "", "url": "https://cove.army.gov.au/article/lessons-littoral-environment-importance-cas-future-fight"}, {"title": "Allies work together to deliver barrage", "publisher": "Department of Defence (Australia)", "year": "2021", "url": "https://www.defence.gov.au/news-events/news/2021-07-21/allies-work-together-deliver-barrage"}, {"title": "Right on target", "publisher": "Department of Defence (Australia)", "year": "2021", "url": "https://www.defence.gov.au/news-events/news/2021-08-18/right-target"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usmc-org-anglico", "aus-org-jft-jfecc"]
+  },
+  {
+    id: "aus-org-brigade-arty",
+    topic: "cannon-artillery",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Australian Army",
+    echelon: ["Battalion", "Brigade"],
+    type: "Force Structure",
+    title: "Brigade Regiments, M777A2 and Infantry Mortars",
+    what: ["Each of the three regular combat brigades has its own RAA regiment; infantry battalions keep 81mm mortars.", "Since the 2023 restructure: 1st Brigade (Darwin, light) has 8th/12th Regiment; 7th Brigade (Brisbane, motorised) has 1st Regiment; 3rd Brigade (Townsville, armoured) has 4th Regiment."],
+    how: ["Light and motorised regiments use the 155mm M777A2: 4,100 kg; 24 km with conventional rounds, 30 km improved; 2 rounds a minute sustained, 5 rapid.", "It moves by CH-47 sling load, C-130J and C-17A, and Navy watercraft, as on Exercise Alon in the Philippines in 2025.", "Infantry battalions such as 2RAR fire the 81mm F2 mortar; it was live-fired in East Java on Exercise Keris Woomera in October 2026.", "A reserve RAA regiment in the 2nd Division provides 81mm mortars and JFOs. The School of Artillery trains both gunners and infantry mortar crews."],
+    why: ["One air- and sea-portable 155mm gun suits light brigades across island theatres.", "Compare the US, which keeps the 105mm M119 in light brigades and trains mortar crews at the Infantry School."],
+    sources: [{"title": "Major changes to Army announced", "publisher": "Department of Defence (Australia)", "year": "2023", "url": "https://www.defence.gov.au/news-events/news/2023-09-28/major-changes-army-announced"}, {"title": "M777 155mm lightweight towed howitzer", "publisher": "Australian Army", "year": "", "url": "https://www.army.gov.au/equipment/artillery/m777-155mm-lightweight-towed-howitzer"}, {"title": "Show of combined force", "publisher": "Department of Defence (Australia)", "year": "2025", "url": "https://www.defence.gov.au/news-events/news/2025-09-02/show-combined-force"}, {"title": "Live-fire shows effect of combined attack", "publisher": "Army News (Australia)", "year": "2026", "url": "https://news.defence.gov.au/army/activity/2026-10-21/live-fire-shows-effect-combined-attack"}, {"title": "Future Ready Royal Australian Artillery Perspective: Part 1 – Framing the Issue", "publisher": "The Cove (Australian Army)", "year": "", "url": "https://cove.army.gov.au/article/future-ready-royal-australian-artillery-perspective-part-1-framing-issue"}, {"title": "A Reflection on the Future of Artillery", "publisher": "The Cove (Australian Army)", "year": "", "url": "https://cove.army.gov.au/sites/default/files/a_reflection_on_the_future_of_artillery_full_ver.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-m777a2", "aus-eq-as9"]
+  },
+  {
+    id: "aus-eq-as9",
+    topic: "cannon-artillery",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Australian Army",
+    echelon: ["Battalion"],
+    type: "Equipment",
+    title: "AS9 Huntsman Self-Propelled Howitzer",
+    what: ["LAND 8116 Phase 1 (about $1 billion) buys 30 AS9 Huntsman 155mm tracked howitzers and 15 AS10 armoured ammunition resupply vehicles for 4th Regiment in Townsville.", "The AS9 is based on the Korean K9 Thunder and built by Hanwha Defence Australia in Geelong."],
+    how: ["Production runs 2026–2028, with Australian changes to ammunition integration, crew protection and digital systems.", "The first Australian-built AS9 live-fired at Puckapunyal in June 2026. The crew enters the mission and the gun lays itself at the press of a button.", "In July 2026 AS9 and AS21 Redback vehicles completed sea trials on LCM-1E landing craft.", "The first battery deployed on Exercise Pozieres Run in August 2026; by September gunners ran live missions without instructors.", "The 2023 Defence Strategic Review cancelled Phase 2, a second self-propelled regiment."],
+    why: ["Towed guns cannot keep up with an armoured brigade or survive by moving fast between hide and firing position.", "Compare the US M109A7 across many armoured brigades, and the Korean K9 it is based on."],
+    sources: [{"title": "New howitzer game-changer for artillery units", "publisher": "Department of Defence (Australia)", "year": "2023", "url": "https://www.defence.gov.au/news-events/news/2023-12-05/new-howitzer-game-changer-artillery-units"}, {"title": "National Defence: Defence Strategic Review 2023", "publisher": "Australian Government", "year": "2023", "url": "https://www.wa.gov.au/system/files/2023-11/defence_strategic_review.pdf"}, {"title": "Australian-built howitzer sends the thunder", "publisher": "Department of Defence (Australia)", "year": "2026", "url": "https://www.defence.gov.au/news-events/news/2026-06-04/australian-built-howitzer-sends-thunder"}, {"title": "Huntsman tested in the field", "publisher": "Army News (Australia)", "year": "2026", "url": "https://news.defence.gov.au/army/activity/2026-08-20/huntsman-tested-field"}, {"title": "Gunners prove worth of new Huntsman", "publisher": "Army News (Australia)", "year": "2026", "url": "https://news.defence.gov.au/army/capability/2026-09-09/gunners-prove-worth-new-huntsman"}, {"title": "New fighting vehicles tested at sea", "publisher": "Army News (Australia)", "year": "2026", "url": "https://news.defence.gov.au/army/capability/2026-09-03/new-fighting-vehicles-tested-sea"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["kor-eq-k9", "usa-eq-m109a7", "aus-sus-arty-log"]
+  },
+  {
+    id: "aus-org-10-bde",
+    topic: "rocket-missile-artillery",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Australian Army",
+    echelon: ["Brigade", "Division"],
+    type: "Force Structure",
+    title: "The 10th (Fires) Brigade",
+    what: ["Raised under the 2023 restructure at Edinburgh, Adelaide, the 10th (Fires) Brigade brings together long-range strike, ground-based air defence and targeting under the 1st (Australian) Division.", "It is to strike on land and at sea beyond 500 km."],
+    how: ["Its units include 14th Regiment (54th Battery, HIMARS), 16th Regiment (NASAMS air defence) and 9th Regiment.", "1st Intelligence Battalion and 7th Signal Regiment moved to the brigade to support a Land Targeting Enterprise.", "In 2026 the Government funded a second long-range fires regiment."],
+    why: ["One headquarters for strike, protection and targeting supports deterrence by denial across the northern sea approaches.", "Compare the US Multi-Domain Task Force, which inspired it, rather than a US division artillery or field artillery brigade."],
+    sources: [{"title": "Major changes to Army announced", "publisher": "Department of Defence (Australia)", "year": "2023", "url": "https://www.defence.gov.au/news-events/news/2023-09-28/major-changes-army-announced"}, {"title": "Army salutes its long-range fires brigade", "publisher": "Department of Defence (Australia)", "year": "2025", "url": "https://www.defence.gov.au/news-events/releases/2025-04-30/army-salutes-its-long-range-fires-brigade"}, {"title": "Lowering the flag on 6th Brigade", "publisher": "Department of Defence (Australia)", "year": "2024", "url": "https://www.defence.gov.au/news-events/news/2024-12-02/lowering-flag-6th-brigade"}, {"title": "Albanese Government continues to strengthen Army’s long-range strike capability", "publisher": "Defence Ministers (Australia)", "year": "2026", "url": "https://www.minister.defence.gov.au/media-releases/2026-10-07/albanese-government-continues-strengthen-armys-long-range-strike-capability"}, {"title": "Holding the Door Open: 1st Division and Deterrence", "publisher": "The Forge (Australian Defence College)", "year": "", "url": "https://theforge.defence.gov.au/article/holding-door-open-1st-division-and-deterrence"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-mdtf", "aus-eq-himars"]
+  },
+  {
+    id: "aus-eq-himars",
+    topic: "rocket-missile-artillery",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Australian Army",
+    echelon: ["Theatre"],
+    type: "Equipment",
+    title: "HIMARS, GMLRS and PrSM (LAND 8113)",
+    what: ["Australia is fielding the M142 HIMARS with GMLRS rockets and the Precision Strike Missile (PrSM).", "LAND 8113 Phase 1 ($2,388.5 million) approved 42 launchers and 54 resupply vehicles and trailers. In October 2026 the Minister announced a second regiment, for up to 90 launchers."],
+    how: ["The first eight launchers arrived in March 2025; a second tranche came in October 2026, two years early.", "On Talisman Sabre 2025, 14th Regiment fired six GMLRS and Australia’s first PrSM. HIMARS also deployed to Indonesia on Exercise Keris Woomera.", "Australia is a PrSM co-development partner. The Government states PrSM reaches up to 500 km now and will exceed 1,000 km with later versions.", "The ANAO rates building enough trained battery crews as a high risk. Defence College analysis warned that 42 launchers lacked the mass for large-scale denial."],
+    why: ["Land-based missiles that can hit ships give the Army a sea-denial role across the approaches to Australia.", "Compare the US, which also fields the tracked M270A2 and used ATACMS; Australia went straight to wheeled HIMARS with GMLRS and PrSM."],
+    sources: [{"title": "Albanese Government continues to strengthen Army’s long-range strike capability", "publisher": "Defence Ministers (Australia)", "year": "2026", "url": "https://www.minister.defence.gov.au/media-releases/2026-10-07/albanese-government-continues-strengthen-armys-long-range-strike-capability"}, {"title": "2024–25 Major Projects Report: LAND 8113 Phase 1 Project Data Summary Sheet", "publisher": "Australian National Audit Office", "year": "2025", "url": "https://www.anao.gov.au/sites/default/files/2025-12/Auditor-General_Report_2025-26_16_PDSS_14.pdf"}, {"title": "Rockets launch new career for gunner", "publisher": "Department of Defence (Australia)", "year": "2025", "url": "https://www.defence.gov.au/news-events/news/2025-07-20/rockets-launch-new-career-gunner"}, {"title": "Lessons in Managing the Australian Army’s Capability – Part One", "publisher": "Australian Army Research Centre", "year": "", "url": "https://researchcentre.army.gov.au/library/land-power-forum/lessons-managing-australian-armys-capability-part-one"}, {"title": "Holding the Door Open: 1st Division and Deterrence", "publisher": "The Forge (Australian Defence College)", "year": "", "url": "https://theforge.defence.gov.au/article/holding-door-open-1st-division-and-deterrence"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-m142", "joint-eq-rkt-munitions", "aus-org-10-bde"]
+  },
+  {
+    id: "aus-eq-lm",
+    topic: "loitering-munitions",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Australian Army",
+    echelon: ["N/A"],
+    type: "Equipment",
+    title: "Loitering Munitions, Bought in Steps",
+    what: ["Australia bought the US Switchblade 300 in 2024 and has evaluated the Australian Innovaero OWL-B one-way attack munition, including under AUKUS.", "Defence buys in small increments rather than large fleets."],
+    how: ["On Exercise Pozieres Run in 2026, forces used drones in mass for reconnaissance, surveillance and simulated strike.", "Unit allocations, numbers bought and armed-drone fire support procedures are not found in open sources."],
+    why: ["The Minister’s reasoning: with no land borders, Australia should not over-invest in drone hardware that dates quickly.", "Compare the US Army and Marine Corps, which are buying loitering munitions at scale across several range classes."],
+    sources: [{"title": "Address to Queensland Media Club: Delivering Australia’s defence capability", "publisher": "Defence Ministers (Australia)", "year": "2025", "url": "https://www.minister.defence.gov.au/speeches/2025-08-19/address-queensland-media-club-delivering-australias-defence-capability"}, {"title": "AUKUS Advanced Capabilities", "publisher": "Department of Defence (Australia)", "year": "", "url": "https://www.defence.gov.au/defence-activities/programs-initiatives/aukus-advanced-capabilities"}, {"title": "Keynote address to Hunter Defence Conference", "publisher": "Defence Ministers (Australia)", "year": "2025", "url": "https://www.minister.defence.gov.au/speeches/2025-08-25/keynote-hunter-defence-conference"}, {"title": "Ex Pozieres Run a rehearsal for war", "publisher": "Army News (Australia)", "year": "2026", "url": "https://news.defence.gov.au/army/activity/2026-09-04/ex-pozieres-run-rehearsal-war"}, {"title": "Modernizing Denial", "publisher": "Australian Army Research Centre", "year": "", "url": "https://researchcentre.army.gov.au/library/land-power-forum/modernizing-denial"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-switchblade", "jpn-eq-lm"]
+  },
+  {
+    id: "aus-eq-munitions",
+    topic: "ammunition-effects",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Australian Army",
+    echelon: ["Brigade"],
+    type: "Equipment",
+    title: "The 155mm and Rocket Munition Suite",
+    what: ["Australian 155mm ammunition centres on the US-pattern M795 HE shell, with illumination and two precision rounds: Excalibur and SMArt 155. HIMARS batteries fire unitary M31A2 GMLRS and PrSM."],
+    how: ["The M795 is the standard round for both the M777A2 and AS9.", "SMArt 155 is in Army firing tables and in the DARS-A range safety software; Defence Connect reported a successful RAA test firing in 2019.", "Reported: each SMArt 155 releases two parachute submunitions with infrared and radar sensors that fire a penetrator down onto armour.", "First HIMARS deliveries included 30 M31A2 unitary pods and 30 practice pods. Total missile stocks are classified."],
+    why: ["The suite matches US and allied supply chains and contains no cluster warheads, which Australian law bans.", "Compare the US, which still holds cluster artillery rounds."],
+    sources: [{"title": "2024–25 Major Projects Report: LAND 8113 Phase 1 Project Data Summary Sheet", "publisher": "Australian National Audit Office", "year": "2025", "url": "https://www.anao.gov.au/sites/default/files/2025-12/Auditor-General_Report_2025-26_16_PDSS_14.pdf"}, {"title": "Australia fires up second artillery forging capability", "publisher": "Defence Ministers (Australia)", "year": "2026", "url": "https://www.minister.defence.gov.au/media-releases/2026-06-08/australia-fires-up-second-artillery-forging-capability"}, {"title": "Audit Report No. 24 2009–10", "publisher": "Australian National Audit Office", "year": "2010", "url": "https://www.anao.gov.au/sites/default/files/ANAO_Report_2009-2010_24.pdf"}, {"title": "Defence Range Safety through Digitisation Exploitation (DARS-A)", "publisher": "Defence Science and Technology Group", "year": "2018", "url": "https://www.dst.defence.gov.au/sites/default/files/basic_pages/documents/ICSILP18_IntSes-Romeo-Defence_Range_Safety_through_Digitisation_Exploitation.pdf"}, {"title": "Australian artillery round on target in new test", "publisher": "Defence Connect", "year": "2019", "url": "https://www.defenceconnect.com.au/land/3856-australian-artillery-round-on-target-in-new-round-test"}, {"title": "Australia forges ahead with 155mm ammo production", "publisher": "Defense News", "year": "2026", "url": "https://www.defensenews.com/global/asia-pacific/2026/06/15/australia-forges-ahead-with-155mm-ammo-production/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-amm-he-im", "joint-eq-amm-guided", "ukr-eq-sfm"]
+  },
+  {
+    id: "aus-pol-cluster",
+    topic: "ammunition-effects",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "Policy",
+    title: "The Cluster Munition Law and Coalition Operations",
+    what: ["Australia bans cluster munitions under the Criminal Code Amendment (Cluster Munitions Prohibition) Act 2012, which implements the Convention on Cluster Munitions.", "ADF ethics doctrine groups them with chemical and biological weapons as illegal and unethical for Australian use."],
+    how: ["Section 72.38 makes it an offence to use, develop, produce, acquire, stockpile, retain or transfer cluster munitions.", "Narrow exceptions allow retention or transfer for destruction and for clearance training.", "Section 72.41 protects ADF personnel in combined operations with non-party states, provided Australia itself does none of the banned acts.", "Australian personnel may not expressly request cluster munitions when the choice of munition is under Australia’s exclusive control."],
+    why: ["Clear limits let Australian observers and planners work inside coalitions with non-party allies without criminal liability.", "Compare the US, which is not a party; and Japan, which destroyed its stock in 2015."],
+    sources: [{"title": "Criminal Code Amendment (Cluster Munitions Prohibition) Act 2012", "publisher": "Parliament of Australia", "year": "2012", "url": "https://www.ato.gov.au/law/view/pdf/acts/20120114.pdf"}, {"title": "Criminal Code Act 1995 (Division 72, Subdivision C)", "publisher": "Federal Register of Legislation", "year": "2017", "url": "https://www.legislation.gov.au/Details/C2017C00408"}, {"title": "ADF-P-0 Military Ethics, Edition 1", "publisher": "Department of Defence (The Forge)", "year": "2021", "url": "https://theforge.defence.gov.au/sites/default/files/2021-12/ADF-P-0%20Military%20Ethics%20Ed%201_0.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["jpn-pol-cluster", "usa-eq-cdaem"]
+  },
+  {
+    id: "aus-org-20-regt",
+    topic: "target-acquisition",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Australian Army",
+    echelon: ["Division"],
+    type: "Equipment",
+    title: "20th Regiment and the Integrator Drone",
+    what: ["20th Regiment RAA is the Army’s surveillance and target acquisition regiment. Under LAND 129 Phase 3 it replaced the RQ-7B Shadow 200 with Insitu’s Integrator tactical drone."],
+    how: ["Integrator launches from a catapult and is caught by a skyhook line, so it needs no runway; ground stations ride in Bushmaster vehicles.", "Gunners do all ground-crew work: assembly, fuelling, launch and recovery. Live video comes back from beyond 25 km; endurance is not published.", "On Talisman Sabre 2025 the regiment used Integrator for divisional ISR, target acquisition, range clearance and watching the fall of HIMARS rounds.", "Reported: Insitu says the regiment first fielded two sets of three aircraft each."],
+    why: ["A drone inside an artillery regiment shortens the link from sensor to deep fires.", "Compare the US Army, where tactical drones sit with aviation and military intelligence units."],
+    sources: [{"title": "What is Artillery Surveillance and Target Acquisition?", "publisher": "The Cove (Australian Army)", "year": "2020", "url": "https://cove.army.gov.au/article/what-artillery-surveillance-and-target-acquisition"}, {"title": "Persistent presence at long range", "publisher": "Department of Defence (Australia)", "year": "2025", "url": "https://www.defence.gov.au/news-events/news/2025-07-12/persistent-presence-long-range"}, {"title": "Australian soldiers test their eyes in the sky", "publisher": "Insitu", "year": "", "url": "https://www.insitu.com/news/australian-soldiers-test-their-eyes-in-the-sky"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-ta-drones", "aus-eq-himars"]
+  },
+  {
+    id: "aus-ttp-ta-layers",
+    topic: "target-acquisition",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Multiple",
+    echelon: ["Brigade", "Division"],
+    type: "TTP",
+    title: "Radars, Small Drones and Target Processing",
+    what: ["Australia layers radars, small artillery drones, observers and joint air sensors, and processes targets through ISTAR teams, brigade JFECCs and the 10th Brigade’s Land Targeting Enterprise."],
+    how: ["The AN/TPQ-48 Lightweight Counter Mortar Radar covers 360 degrees to 10.2 km and sets up in under 20 minutes.", "A new weapon-locating radar is being approved jointly across the AS9 and HIMARS projects; no model is confirmed in open sources.", "In 2026 the School of Artillery introduced the Vector AI (backpack-portable, flying in three minutes) and SYPAQ CorvoX drones to replace Wasp and Puma.", "Target flow: 20th Regiment ISTAR teams in brigade and battlegroup headquarters; JFTs to JFECCs; intelligence and signals units for the Land Targeting Enterprise; RAAF F-35A sensor data into joint targeting."],
+    why: ["Small drones with bombardiers and observers find targets without waiting for division assets.", "Compare the US, which fields the longer-range AN/TPQ-53 alongside the AN/TPQ-50."],
+    sources: [{"title": "Bridges Papers 2020: Future Artillery and Joint Effects", "publisher": "School of Artillery (The Cove)", "year": "2020", "url": "https://cove.army.gov.au/sites/default/files/200724_bridges_papers_2020_approved_by_hor.pdf"}, {"title": "Lowering the flag on 6th Brigade", "publisher": "Department of Defence (Australia)", "year": "2024", "url": "https://www.defence.gov.au/news-events/news/2024-12-02/lowering-flag-6th-brigade"}, {"title": "2024–25 Major Projects Report: LAND 8113 Phase 1 Project Data Summary Sheet", "publisher": "Australian National Audit Office", "year": "2025", "url": "https://www.anao.gov.au/sites/default/files/2025-12/Auditor-General_Report_2025-26_16_PDSS_14.pdf"}, {"title": "What is Artillery Surveillance and Target Acquisition?", "publisher": "The Cove (Australian Army)", "year": "2020", "url": "https://cove.army.gov.au/article/what-artillery-surveillance-and-target-acquisition"}, {"title": "AN/TPQ-48 Lightweight Counter Mortar Radar", "publisher": "Australian Army", "year": "", "url": "https://www.army.gov.au/equipment/artillery/antpq-48-lightweight-counter-mortar-radar"}, {"title": "New drones put bombardiers on improved trajectory", "publisher": "Department of Defence (Australia)", "year": "2026", "url": "https://www.defence.gov.au/news-events/news/2026-03-10/new-drones-put-bombardiers-improved-trajectory"}, {"title": "From keen eyes to sharp talons", "publisher": "Army News (Australia)", "year": "2026", "url": "https://news.defence.gov.au/army/capability/2026-10-13/keen-eyes-sharp-talons"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-tpq53", "usa-eq-wlr-predecessors", "aus-org-20-regt"]
+  },
+  {
+    id: "aus-ttp-cp",
+    topic: "technical-fire-direction",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Australian Army",
+    echelon: ["Battery", "Battalion"],
+    type: "TTP",
+    title: "The Command Post, Gunnery and Range Safety",
+    what: ["Battery technical fire direction is done in a Command Post (CP) led by a Command Post Officer (CPO), not a US-style fire direction centre. CPs run US AFATDS in Bushmaster vehicles or dismounted."],
+    how: ["CPs take fire orders by radio or the Battle Management System and compute firing data in AFATDS.", "Firing data corrects for meteorological, ballistic, rotation-of-the-earth and survey effects. Current met and survey equipment is not found in open sources.", "On the AS9 the crew enters the mission and the gun lays automatically.", "DARS-A software computes range safety traces for all in-service 155mm ammunition and exports them into AFATDS.", "The School of Artillery keeps the Instructor-in-Gunnery (IG) cadre for all RAA roles and infantry mortars."],
+    why: ["The same AFATDS version as the US allows plug-and-play missions; DARS-A makes live-fire planning faster and safer.", "Compare the US: same software, but Australia keeps the Commonwealth CP, CPO and IG system."],
+    sources: [{"title": "Bridges Papers 2020: Future Artillery and Joint Effects", "publisher": "School of Artillery (The Cove)", "year": "2020", "url": "https://cove.army.gov.au/sites/default/files/200724_bridges_papers_2020_approved_by_hor.pdf"}, {"title": "Right on target", "publisher": "Department of Defence (Australia)", "year": "2021", "url": "https://www.defence.gov.au/news-events/news/2021-08-18/right-target"}, {"title": "Future Ready Royal Australian Artillery Perspective: Part 1 – Framing the Issue", "publisher": "The Cove (Australian Army)", "year": "", "url": "https://cove.army.gov.au/article/future-ready-royal-australian-artillery-perspective-part-1-framing-issue"}, {"title": "Australian-built howitzer sends the thunder", "publisher": "Department of Defence (Australia)", "year": "2026", "url": "https://www.defence.gov.au/news-events/news/2026-06-04/australian-built-howitzer-sends-thunder"}, {"title": "Defence Range Safety through Digitisation Exploitation (DARS-A)", "publisher": "Defence Science and Technology Group", "year": "2018", "url": "https://www.dst.defence.gov.au/sites/default/files/basic_pages/documents/ICSILP18_IntSes-Romeo-Defence_Range_Safety_through_Digitisation_Exploitation.pdf"}, {"title": "Australian Army Journal Vol. 20 No. 2", "publisher": "Australian Army Research Centre", "year": "2024", "url": "https://researchcentre.army.gov.au/sites/default/files/Australian-Army-Journal-2-24-Volume-20-Number-2.pdf"}, {"title": "Gunners on target", "publisher": "Department of Defence (Australia)", "year": "2022", "url": "https://www.defence.gov.au/news-events/news/2022-06-28/gunners-target"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-afatds-arch", "jpn-ttp-tfd"]
+  },
+  {
+    id: "aus-eq-c2",
+    topic: "digital-fires-c2",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Multiple",
+    echelon: ["Division"],
+    type: "Command & Control",
+    title: "AFATDS, SitaWare and Joint Data Gaps",
+    what: ["Digital fires run on AFATDS over the LAND 200 tactical network with the Army’s Battle Management System. LAND 200 Phase 3 is moving headquarters and armoured vehicles to Systematic’s SitaWare."],
+    how: ["Australian units keep the same AFATDS version as the US; on Talisman Sabre 2021 fire missions passed directly without workarounds.", "Reported: Systematic says SitaWare Headquarters was chosen for the first tranche of the new BMS, keeping data under Australian ownership.", "Australia’s status in NATO’s ASCA artillery data protocol is not found in open sources.", "RAAF analysis warns that data from P-8, MQ-4C, Integrator and other sensors does not yet flow easily between Army, Navy and Air Force systems."],
+    why: ["Version parity with the US gives bilateral fire missions; joint data sharing is still the gap.", "Compare the US, which uses AFATDS with its own battle management system rather than SitaWare."],
+    sources: [{"title": "The Changing Face of Joint Fires and Effects in Formation Reconnaissance", "publisher": "The Cove (Australian Army)", "year": "", "url": "https://cove.army.gov.au/article/changing-face-joint-fires-and-effects-formation-reconnaissance-how-royal-australian-artillery-must-evolve"}, {"title": "Right on target", "publisher": "Department of Defence (Australia)", "year": "2021", "url": "https://www.defence.gov.au/news-events/news/2021-08-18/right-target"}, {"title": "Modernising Army Command and Control — the Land 200 Program", "publisher": "Australian National Audit Office", "year": "", "url": "https://www.anao.gov.au/work/performance-audit/modernising-army-command-and-control-the-land-200-program"}, {"title": "Defence selects SitaWare Headquarters for the first tranche of Army’s next-generation Battle Management System", "publisher": "Systematic", "year": "", "url": "https://systematic.com/int/industries/defence/news-knowledge/news/the-australian-department-of-defence-selects-systematics-sitaware-headquarters-for-the-first-tranche-of-armys-next-generation-battle-management-system/"}, {"title": "Data, Data Everywhere, Nor Any Drop to Drink: The Case for a Joint Integrator", "publisher": "Air and Space Power Centre (RAAF)", "year": "", "url": "https://airpower.airforce.gov.au/blog/data-data-everywhere-nor-any-drop-drink-case-joint-integrator"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-afatds-arch", "joint-eq-asca"]
+  },
+  {
+    id: "aus-ttp-targeting",
+    topic: "digital-fires-c2",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "TTP",
+    title: "Targeting Law, Collateral Damage and Human Control",
+    what: ["ADF targeting follows joint doctrine on targeting, joint fires and the law of armed conflict. Army guidance stresses human accountability, collateral damage estimation (CDE) and protecting civilians as long-range strike and AI aids grow."],
+    how: ["Every lethal engagement needs CDE and must comply with the law of armed conflict.", "National policy and ADF doctrine can restrict targeting beyond what the law alone requires.", "AI tools support decisions only: a human approves every strike and stays legally responsible.", "Guidance warns against automation bias, stale intelligence and skewed data that could lead to striking civilians or protected sites.", "Formal weapons legal review procedures for new artillery munitions are not found in open sources."],
+    why: ["Pressure to strike fast raises civilian harm risk if speed overrides judgement.", "Compare US Joint Publication 3-60, which the ADF process mirrors; and Japan’s Three Conditions."],
+    sources: [{"title": "Ethical Targeting: Lessons from Contemporary Warfare", "publisher": "The Cove (Australian Army)", "year": "", "url": "https://cove.army.gov.au/article/ethical-targeting-lessons-contemporary-warfare"}, {"title": "Time for a New Approach to War: The Case for Adopting the Kill Chain Concept", "publisher": "The Cove (Australian Army)", "year": "", "url": "https://cove.army.gov.au/article/time-new-approach-war-case-adopting-kill-chain-concept"}, {"title": "ADF-C-0 Australian Military Power", "publisher": "Department of Defence (Australia)", "year": "2024", "url": "https://acmc.gov.au/sites/default/files/2024-10/ADF-C-0%20Australian%20Military%20Power-compressed.pdf"}, {"title": "Criminal Code Amendment (Cluster Munitions Prohibition) Act 2012", "publisher": "Parliament of Australia", "year": "2012", "url": "https://www.ato.gov.au/law/view/pdf/acts/20120114.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-ttp-tgt-d3a", "jpn-ttp-three-conditions"]
+  },
+  {
+    id: "aus-ttp-survive",
+    topic: "counterfire-survivability",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Australian Army",
+    echelon: ["Battery", "Battalion"],
+    type: "TTP",
+    title: "Surviving: Guns, HIMARS and Command Posts",
+    what: ["Australian artillery survival rests on armoured shoot-and-scoot with the AS9, protected wheeled vehicles for HIMARS and command posts, field fortification and dispersed logistics."],
+    how: ["On Pozieres Run 2026, AS9 crews moved from hides to firing positions in seconds, fired faster than the M777A2 and were back in cover before counter-battery fire could respond.", "Command posts work from armoured Bushmasters, including 15 command variants bought for HIMARS, or from engineer-dug positions rehearsed in 2026.", "The first 20 HIMARS have protected crew cabs; Defence College analysis says deployable units able to run HIMARS dispersed are still needed.", "Batteries rehearse defending the gun line, including direct fire; resupply moves to dispersed, temporary points."],
+    why: ["Drone surveillance and precision counter-fire make static gun lines and large dumps fatal.", "Compare the US M109A7 battalions with tracked command vehicles; Australia uses wheeled Bushmasters."],
+    sources: [{"title": "Right on target", "publisher": "Department of Defence (Australia)", "year": "2021", "url": "https://www.defence.gov.au/news-events/news/2021-08-18/right-target"}, {"title": "Huntsman tested in the field", "publisher": "Army News (Australia)", "year": "2026", "url": "https://news.defence.gov.au/army/activity/2026-08-20/huntsman-tested-field"}, {"title": "2024–25 Major Projects Report: LAND 8113 Phase 1 Project Data Summary Sheet", "publisher": "Australian National Audit Office", "year": "2025", "url": "https://www.anao.gov.au/sites/default/files/2025-12/Auditor-General_Report_2025-26_16_PDSS_14.pdf"}, {"title": "Holding the Door Open: 1st Division and Deterrence", "publisher": "The Forge (Australian Defence College)", "year": "", "url": "https://theforge.defence.gov.au/article/holding-door-open-1st-division-and-deterrence"}, {"title": "Soldiers return to basics", "publisher": "Department of Defence (Australia)", "year": "2026", "url": "https://www.defence.gov.au/news-events/news/2026-05-29/soldiers-return-basics"}, {"title": "Combined arms team defends gun line", "publisher": "Department of Defence (Australia)", "year": "2023", "url": "https://www.defence.gov.au/news-events/news/2023-06-26/combined-arms-team-defends-gun-line"}, {"title": "Transforming Artillery Resupply: The Impact of Self-Propelled Howitzers", "publisher": "The Cove (Australian Army)", "year": "2024", "url": "https://cove.army.gov.au/article/transforming-artillery-resupply-impact-self-propelled-howitzers"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["ukr-ttp-roving-gun", "aus-eq-as9"]
+  },
+  {
+    id: "aus-eq-ad",
+    topic: "counterfire-survivability",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Australian Army",
+    echelon: ["Brigade"],
+    type: "Equipment",
+    title: "Air and Counter-Drone Defence of Fires: NASAMS and LAND 156",
+    what: ["Ground-based air defence sits inside the artillery: 16th Regiment RAA in the 10th Brigade operates NASAMS. LAND 156 commits $1.3 billion over 10 years to counter-small-drone systems."],
+    how: ["NASAMS replaces the RBS-70, with Kongsberg launchers, AIM-120 AMRAAM missiles and Australian CEAFAR radars on Hawkei and HX77 vehicles.", "First live fire was at Woomera in November 2023; AMRAAM was fired alongside HIMARS on Talisman Sabre 2025; two batteries are due by the end of 2026.", "LAND 156 buys in short rounds to keep pace with the threat: $38.7 million in first contracts to 20 companies in July 2025.", "Soldiers tested 20 dismounted counter-drone systems at Cultana from December 2025 to February 2026, for rollout from early 2026."],
+    why: ["Air defence inside the fires brigade protects HIMARS and guns as one system.", "Compare the US, where air defence artillery is a separate branch."],
+    sources: [{"title": "Army salutes its long-range fires brigade", "publisher": "Department of Defence (Australia)", "year": "2025", "url": "https://www.defence.gov.au/news-events/releases/2025-04-30/army-salutes-its-long-range-fires-brigade"}, {"title": "Keynote address to Hunter Defence Conference", "publisher": "Defence Ministers (Australia)", "year": "2025", "url": "https://www.minister.defence.gov.au/speeches/2025-08-25/keynote-hunter-defence-conference"}, {"title": "Army’s first live-fire of advanced surface-to-air missile system", "publisher": "Department of Defence (Australia)", "year": "2023", "url": "https://www.defence.gov.au/news-events/releases/2023-11-18/armys-first-live-fire-advanced-surface-air-missile-system"}, {"title": "First firing for Australian NASAMS", "publisher": "Department of Defence (Australia)", "year": "2025", "url": "https://www.defence.gov.au/news-events/news/2025-07-22/first-firing-australian-nasams"}, {"title": "Countering threats from above", "publisher": "Department of Defence (Australia)", "year": "2026", "url": "https://www.defence.gov.au/news-events/news/2026-02-02/countering-threats-from-above"}, {"title": "Australian Defence Magazine Congress 2026", "publisher": "Defence Ministers (Australia)", "year": "2026", "url": "https://www.minister.defence.gov.au/speeches/2026-02-18/australian-defence-magazine-congress-2026"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["jpn-eq-type11", "aus-org-10-bde"]
+  },
+  {
+    id: "aus-sus-arty-log",
+    topic: "sustainment",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Lessons",
+    force: "Australian Army",
+    echelon: ["Brigade"],
+    type: "Logistics",
+    title: "Feeding Self-Propelled and Rocket Artillery",
+    what: ["Self-propelled and rocket artillery are straining a logistics system not yet tested for large-scale combat ammunition use. The AS9 carries 48 rounds; the AS10 carries 104."],
+    how: ["Artillery ammunition must be synchronised from the force support group down to the brigade echelons, with pre-loaded forward stocks and standard loads.", "Shells, charges and fuzes run out at different rates; the AS9 also needs fuel, power, spares and field repair.", "HIMARS needs its own lift: 54 resupply vehicles and trailers for the first 42 launchers.", "Logistic units must move at armoured pace and use dispersed, temporary distribution points."],
+    why: ["Faster guns empty their racks quickly; relying on allied emergency shipments in a crisis is a risk.", "Compare the US M992A3 carrier with the M109A7, and the Korean K10 with the K9."],
+    sources: [{"title": "2024–25 Major Projects Report: LAND 8113 Phase 1 Project Data Summary Sheet", "publisher": "Australian National Audit Office", "year": "2025", "url": "https://www.anao.gov.au/sites/default/files/2025-12/Auditor-General_Report_2025-26_16_PDSS_14.pdf"}, {"title": "Transforming Artillery Resupply: The Impact of Self-Propelled Howitzers", "publisher": "The Cove (Australian Army)", "year": "2024", "url": "https://cove.army.gov.au/article/transforming-artillery-resupply-impact-self-propelled-howitzers"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-m992a3", "kor-eq-k10", "aus-eq-as9"]
+  },
+  {
+    id: "aus-sus-gweo",
+    topic: "sustainment",
+    country: "Australia",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "Logistics",
+    title: "Making Missiles and Shells at Home (GWEO)",
+    what: ["Australia is investing up to $36 billion over ten years in a Guided Weapons and Explosive Ordnance (GWEO) Enterprise to make rockets, missiles and 155mm shells at home. Stock levels are classified."],
+    how: ["A plant at Port Wakefield opened in December 2025; Australian-made GMLRS were test-fired from an Australian HIMARS at Woomera in April 2026. Australia is the only country outside the US making GMLRS.", "$320 million brings Australian firms into the GMLRS supply chain; a second missile factory near Newcastle is due in 2027.", "A $72 million contract with Rheinmetall NIOA Munitions at Maryborough adds a second 155mm M795 forging line by the end of 2028, at 15,000 rounds a year initially.", "Reported: Defense News puts Maryborough’s capacity at 3,500 projectile bodies a month."],
+    why: ["Long sea supply lines and overseas backlogs leave Australia exposed in a regional crisis.", "Compare the large US government-owned plants, and Japan’s 2023–2027 ammunition build-up."],
+    sources: [{"title": "Albanese Government continues to strengthen Army’s long-range strike capability", "publisher": "Defence Ministers (Australia)", "year": "2026", "url": "https://www.minister.defence.gov.au/media-releases/2026-10-07/albanese-government-continues-strengthen-armys-long-range-strike-capability"}, {"title": "Keynote address to Hunter Defence Conference", "publisher": "Defence Ministers (Australia)", "year": "2025", "url": "https://www.minister.defence.gov.au/speeches/2025-08-25/keynote-hunter-defence-conference"}, {"title": "Australia fires up second artillery forging capability", "publisher": "Defence Ministers (Australia)", "year": "2026", "url": "https://www.minister.defence.gov.au/media-releases/2026-06-08/australia-fires-up-second-artillery-forging-capability"}, {"title": "First Australian-made missiles test-fired", "publisher": "Defence Ministers (Australia)", "year": "2026", "url": "https://www.minister.defence.gov.au/media-releases/2026-04-13/first-australian-made-missiles-test-fired"}, {"title": "Australia forges ahead with 155mm ammo production", "publisher": "Defense News", "year": "2026", "url": "https://www.defensenews.com/global/asia-pacific/2026/06/15/australia-forges-ahead-with-155mm-ammo-production/"}, {"title": "Guided Weapons and Explosive Ordnance Enterprise", "publisher": "Department of Defence (Australia)", "year": "2025", "url": "https://www.defence.gov.au/business-industry/industry-capability-programs/guided-weapons-explosive-ordnance-enterprise"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["jpn-sus-budget", "aus-eq-himars"]
+  },
+  {
+    id: "kpa-ttp-arty-groups",
+    topic: "liaison",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Korean People’s Army",
+    echelon: ["Regiment", "Division", "Corps"],
+    type: "TTP",
+    title: "Artillery Groups for the Breakthrough",
+    what: ["The KPA ties fires to manoeuvre by forming artillery groups at regiment, division and corps.", "Over 70 percent of its ground forces are south of Pyongyang, set for breakthrough attacks and massed defensive fire along the DMZ."],
+    how: ["Four infantry corps stand abreast in the forward area, each backed by regimental, division and corps artillery groups.", "Higher echelons attach extra artillery to these groups to mass fire on a breakthrough sector.", "A division builds an integrated fires system with liaison teams from subordinate, supporting and attached units.", "In attack, artillery breaks the defensive line for massed infantry and armour; in defence, infantry relies on large volumes of fire."],
+    why: ["Analysis: the KPA expects to lose control of the air to US and ROK air power, so massed ground artillery is its main fire support.", "Compare the US brigade fire support element, which coordinates decentralised joint air and precision fires."],
+    sources: [{"title": "ATP 7-100.2: North Korean Tactics", "publisher": "Headquarters, Department of the Army", "year": "2020", "url": "https://www.ssri-j.com/MediaReport/DocumentUS/2020NorthKoreaTactics.pdf"}, {"title": "North Korea Military Power: A Growing Regional and Global Threat", "publisher": "US Defense Intelligence Agency", "year": "2021", "url": "https://www.dia.mil/Portals/110/Documents/News/North_Korea_Military_Power.pdf"}, {"title": "North Korea Study", "publisher": "US Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/North%20Korea%20Study_2.pdf"}, {"title": "2026 Index of Military Strength: North Korea", "publisher": "Heritage Foundation", "year": "2026", "url": "https://www.heritage.org/military-strength/assessing-threats-us-vital-interests/north-korea"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-cannon-divarty", "rus-doc-fire-forms"]
+  },
+  {
+    id: "kpa-org-coastal",
+    topic: "liaison",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Multiple",
+    echelon: ["Corps"],
+    type: "Force Structure",
+    title: "Coastal Artillery and the Limits of Air and Sea Support",
+    what: ["North Korea adds coastal artillery and naval fire support patrol craft to its ground fires along the sea borders.", "Analysis: open-source assessments judge its navy and air force would not last long against US and ROK forces."],
+    how: ["Coastal batteries engage ships and islands, as in the November 2010 shelling of Yeonpyeong Island and the January 2024 live-fire drills near the west coast sea border.", "Reported: estimates of the Yeonpyeong bombardment range from about 170 shells and rockets (ROK military, via Voice of America) to about 200 shells in three barrages (academic study).", "Naval fire support patrol craft (PCFS) work alongside the shore batteries.", "KPA air-ground and naval gunfire liaison procedures are not found in open sources."],
+    why: ["Analysis: shore batteries let Pyongyang threaten border islands without exposing old ships and aircraft.", "Compare US JTACs and ANGLICO, which join air and naval fires to ground forces; no comparable KPA network is visible in open sources."],
+    sources: [{"title": "ATP 7-100.2: North Korean Tactics", "publisher": "Headquarters, Department of the Army", "year": "2020", "url": "https://www.ssri-j.com/MediaReport/DocumentUS/2020NorthKoreaTactics.pdf"}, {"title": "2010 Defense White Paper", "publisher": "Republic of Korea Ministry of National Defense", "year": "2010", "url": "https://www.files.ethz.ch/isn/155720/South%20Korea%202010_eng-1.pdf"}, {"title": "Air and Space: The New Frontier of Conflict on the Korean Peninsula", "publisher": "38 North", "year": "2024", "url": "https://www.38north.org/2024/02/air-and-space-the-new-frontier-of-conflict-on-the-korean-peninsula/"}, {"title": "2026 Index of Military Strength: North Korea", "publisher": "Heritage Foundation", "year": "2026", "url": "https://www.heritage.org/military-strength/assessing-threats-us-vital-interests/north-korea"}, {"title": "Russia Might Be Buying North Korean Arms, But Are They Reliable?", "publisher": "Voice of America", "year": "2022", "url": "https://www.voanews.com/a/russia-might-be-buying-north-korean-arms-but-are-they-reliable-/6736135.html"}, {"title": "Shelling of Yeonpyeong Island (International Relations of the Asia-Pacific)", "publisher": "Oxford Academic", "year": "", "url": "https://academic.oup.com/irap/article/18/2/193/2562777"}],
+    confidence: "Analysis",
+    asOf: "2026-11",
+    relatedIds: ["usmc-org-anglico", "kor-doc-counterbattery"]
+  },
+  {
+    id: "kpa-org-tube-arty",
+    topic: "cannon-artillery",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Korean People’s Army",
+    echelon: ["Battery", "Regiment", "Division"],
+    type: "Force Structure",
+    title: "Tube Artillery and Mortars by Echelon",
+    what: ["North Korea fields the world’s largest artillery force: over 13,500 pieces from 100mm to 170mm, guns and rocket launchers.", "Most guns are domestic copies of Soviet 122mm, 130mm and 152mm designs, with 82mm and 120mm mortars."],
+    how: ["Regiment: one 18-gun 122mm howitzer battalion and one nine-launcher 107mm or 140mm rocket battery.", "Division: two 12-gun 152mm battalions, one 18-gun 122mm battalion and one 12-launcher 122mm rocket battalion.", "Reported: mortar and 122mm howitzer batteries have six pieces; 122mm D-74, 130mm M-46 and 152mm D-20 batteries have four, with 60–70 crew.", "Reported: RAND estimates about 1,440 towed 122mm (15 km) and 700 self-propelled 122mm (24 km), 400 towed and 700 self-propelled 152mm (17 km), and 400 self-propelled 130mm (24 km).", "Reported: forward corps hold the newest equipment; North Korea tested extended-range 155mm self-propelled howitzer ammunition in July 2026."],
+    why: ["Artillery down to regiment gives dense fire along the DMZ. Old Soviet designs are simple to keep running at home.", "Compare the US, which standardises on fewer, more precise 155mm guns; the KPA trades mobility and precision for volume."],
+    sources: [{"title": "North Korea Military Power: A Growing Regional and Global Threat", "publisher": "US Defense Intelligence Agency", "year": "2021", "url": "https://www.dia.mil/Portals/110/Documents/News/North_Korea_Military_Power.pdf"}, {"title": "North Korea Study", "publisher": "US Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/North%20Korea%20Study_2.pdf"}, {"title": "Unlawful Military Cooperation including Arms Transfers between North Korea and Russia (MSMT/2025/1)", "publisher": "Multilateral Sanctions Monitoring Team", "year": "2025", "url": "https://msmt.info/view/save/2025/05/29/1085cade-a4b1-4405-94c0-7c980c24fd21-Unlawful_Military_Cooperation_including_Arms_Transfers_between_North_Korea_and_Russia_(MSMT_2025_1).pdf"}, {"title": "Modernizing North Korea’s 240 mm MLRS: Precision, Automation, and Extended Range", "publisher": "38 North", "year": "2026", "url": "https://www.38north.org/2026/11/modernizing-north-koreas-240-mm-mlrs-precision-automation-and-extended-range/"}, {"title": "North Korea’s Flawed but Winning Strategy in Ukraine", "publisher": "38 North", "year": "2024", "url": "https://www.38north.org/2024/06/north-koreas-flawed-but-winning-strategy-in-ukraine/"}, {"title": "North Korea’s Conventional Artillery Threat (PE-262)", "publisher": "RAND Corporation", "year": "", "url": "https://www.rand.org/content/dam/rand/pubs/perspectives/PE200/PE262/RAND_PE262.pdf"}, {"title": "DPRK Briefing Book: HARTS in North Korea", "publisher": "Nautilus Institute", "year": "", "url": "https://nautilus.org/publications/books/dprkbb/military/dprk-briefing-book-harts-in-north-korea/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-org-cannon-divarty", "rus-org-mrb"]
+  },
+  {
+    id: "kpa-eq-koksan",
+    topic: "cannon-artillery",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Korean People’s Army",
+    echelon: ["Corps"],
+    type: "Equipment",
+    title: "The 170mm Koksan and Its Record in Ukraine",
+    what: ["The 170mm M1978 and M1989 Koksan are North Korea’s longest-range guns, built to reach greater Seoul from near the DMZ. They serve in corps artillery battalions.", "Reported: M1989s were fighting in Ukraine under Russian crews by January 2025, after North Korea sent brigade sets to Russia."],
+    how: ["The M1978 carries a long 170mm gun on a tank chassis and needs a separate ammunition vehicle; the M1989 carries about 12 rounds.", "Reported: estimates of Koksans aimed at Seoul range from 162 guns in hardened sites (2025 study) to up to 500 in a worst-case 2012 model.", "Reported: slow, about one or two rounds every five minutes, with poor accuracy.", "Reported: transfers to Russia: 120 guns between November 2024 and January 2025 (Ukrainian intelligence); about 200 long-range pieces of all types (ROK defence ministry); three brigade sets of over 200 guns, launchers and vehicles (MSMT).", "Reported: in Ukraine it outranged most Russian guns but needed its own 170mm supply chain and was repeatedly destroyed by FPV drones, night bomber drones and HIMARS."],
+    why: ["Range alone did not save it: a slow gun outside cover is found and struck by drones and precision rockets.", "Compare the US, which has no 170mm gun and uses extended-range 155mm rounds and GMLRS instead."],
+    sources: [{"title": "North Korea Study", "publisher": "US Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/North%20Korea%20Study_2.pdf"}, {"title": "Unlawful Military Cooperation including Arms Transfers between North Korea and Russia (MSMT/2025/1)", "publisher": "Multilateral Sanctions Monitoring Team", "year": "2025", "url": "https://msmt.info/view/save/2025/05/29/1085cade-a4b1-4405-94c0-7c980c24fd21-Unlawful_Military_Cooperation_including_Arms_Transfers_between_North_Korea_and_Russia_(MSMT_2025_1).pdf"}, {"title": "North Korea’s Lethal Aid to Russia: Current State and Outlook", "publisher": "38 North", "year": "2025", "url": "https://www.38north.org/2025/02/north-koreas-lethal-aid-to-russia-current-state-and-outlook/"}, {"title": "Lost Seoul: Assessing Pyongyang’s Other Deterrent", "publisher": "Texas National Security Review", "year": "2025", "url": "https://tnsr.org/wp-content/uploads/2025/06/TNSR-Vol-8-Issue-3_Anderson-Press.pdf"}, {"title": "Missiles of North Korea", "publisher": "CSIS Missile Defense Project", "year": "2026", "url": "https://missilethreat.csis.org/country_tax/dprk/"}, {"title": "North Korea–Russia Cooperation Database", "publisher": "CSIS Beyond Parallel", "year": "", "url": "https://beyondparallel.csis.org/north-korea-russia-cooperation-2/"}, {"title": "Mind the Gap Between Rhetoric and Reality", "publisher": "Nautilus Institute", "year": "2012", "url": "https://nautilus.org/napsnet/napsnet-special-reports/mind-the-gap-between-rhetoric-and-reality/"}, {"title": "Ukraine Destroys Elusive North Korean Koksan Supergun in Operation Vivaldi", "publisher": "UNITED24 Media", "year": "2026", "url": "https://united24media.com/war-in-ukraine/ukraine-destroys-elusive-north-korean-koksan-supergun-in-operation-vivaldi-23718"}, {"title": "HIMARS Hits Three North Korean M1989 Koksan at Once", "publisher": "Militarnyi", "year": "2025", "url": "https://militarnyi.com/en/news/himars-hits-three-north-korean-m1989-koksan-at-once/"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["ukr-ttp-roving-gun", "kor-eq-ktssm"]
+  },
+  {
+    id: "kpa-eq-240mm",
+    topic: "rocket-missile-artillery",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Korean People’s Army",
+    echelon: ["Regiment", "Corps"],
+    type: "Equipment",
+    title: "240mm Rockets: From Barrage to Guided Strike",
+    what: ["North Korea’s rocket artillery runs from light 107mm Type 75 and 122mm launchers to heavy 240mm M1985 and M1991 launchers near the DMZ.", "Since 2024 it has been modernising the 240mm force with guidance, automated fire control and longer-range rockets."],
+    how: ["Reported: about 500 107mm launchers (8–8.5 km; the Type 75 fires 12 rockets in 10 seconds), 900 122mm (20 km), and 162 legacy 240mm launchers aimed at Seoul (40–60 km).", "Under a 2024–2026 plan, upgraded 240mm units firing 67 km guided rockets (verified October 2024) are replacing unguided launchers at the front.", "Reported: in July 2026 a 24-tube 240mm launcher was tested with full fire-control automation and 90 km rockets.", "Reported: in September 2026 new guided rockets were claimed to reach 100 km ballistic and 115 km gliding; the flights covered 50–60 km and are not independently verified.", "Reported: state media showed a HIMARS-style launcher in May 2026; MSMT confirmed legacy 240mm launchers went to Russia."],
+    why: ["Unguided 240mm rockets were inaccurate and slow to reload; guidance lets them hit point targets deeper in the South.", "Compare US GMLRS, guided and pod-loaded for decades; North Korea is only now making the change."],
+    sources: [{"title": "Modernizing North Korea’s 240 mm MLRS: Precision, Automation, and Extended Range", "publisher": "38 North", "year": "2026", "url": "https://www.38north.org/2026/11/modernizing-north-koreas-240-mm-mlrs-precision-automation-and-extended-range/"}, {"title": "Unlawful Military Cooperation including Arms Transfers between North Korea and Russia (MSMT/2025/1)", "publisher": "Multilateral Sanctions Monitoring Team", "year": "2025", "url": "https://msmt.info/view/save/2025/05/29/1085cade-a4b1-4405-94c0-7c980c24fd21-Unlawful_Military_Cooperation_including_Arms_Transfers_between_North_Korea_and_Russia_(MSMT_2025_1).pdf"}, {"title": "North Korea’s Lethal Aid to Russia: Current State and Outlook", "publisher": "38 North", "year": "2025", "url": "https://www.38north.org/2025/02/north-koreas-lethal-aid-to-russia-current-state-and-outlook/"}, {"title": "Lost Seoul: Assessing Pyongyang’s Other Deterrent", "publisher": "Texas National Security Review", "year": "2025", "url": "https://tnsr.org/wp-content/uploads/2025/06/TNSR-Vol-8-Issue-3_Anderson-Press.pdf"}, {"title": "North Korea’s Conventional Artillery Threat (PE-262)", "publisher": "RAND Corporation", "year": "", "url": "https://www.rand.org/content/dam/rand/pubs/perspectives/PE200/PE262/RAND_PE262.pdf"}, {"title": "North Korea Says 240mm Rocket’s Range Upgraded to Instill Fear in South Koreans", "publisher": "NK News", "year": "2026", "url": "https://www.nknews.org/2026/09/north-korea-says-240mm-rockets-range-upgraded-to-instill-fear-in-south-koreans/"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-rkt-munitions", "kor-eq-chunmoo"]
+  },
+  {
+    id: "kpa-eq-deep-fires",
+    topic: "rocket-missile-artillery",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "Equipment",
+    title: "KN-09, KN-25 and Hwasong-11: Missiles as Deep Artillery",
+    what: ["North Korea blurs heavy rockets and short-range ballistic missiles: the 300mm KN-09, the 600mm KN-25 and the Hwasong-11 (KN-23, KN-24).", "At the February 2026 Ninth Party Congress, Kim Jong Un ordered annual increases in 600mm and 240mm launchers and tactical missiles aimed at the South."],
+    how: ["The 300mm KN-09 carries up to eight guided rockets; reported range up to 200 km.", "The 600mm KN-25 has shown 380 km, carries up to six rockets on one MAZ-543-based truck (against one Scud), and is drilled for tactical nuclear missions.", "Solid-fuel KN-23 (up to 690 km) and KN-24 (about 410 km) fly manoeuvring, quasi-ballistic paths to complicate missile defence.", "Reported: at least 100 missiles went to Russia in 2024 (MSMT); 148 KN-23/24 by early 2025 (Ukrainian intelligence); about 90 North Korean personnel supported launches from Voronezh by August 2026.", "Reported: Ukrainian sources say accuracy in Ukraine improved from 1–3 km to 50–100 m by early 2025."],
+    why: ["Multi-tube guided rockets give salvo deep fire across most of South Korea; combat use in Ukraine gave feedback to improve them.", "Compare US ATACMS and PrSM, which are conventional only; North Korea fields the same class of weapon in conventional and nuclear roles."],
+    sources: [{"title": "North Korea Military Power: A Growing Regional and Global Threat", "publisher": "US Defense Intelligence Agency", "year": "2021", "url": "https://www.dia.mil/Portals/110/Documents/News/North_Korea_Military_Power.pdf"}, {"title": "Missiles of North Korea", "publisher": "CSIS Missile Defense Project", "year": "2026", "url": "https://missilethreat.csis.org/country_tax/dprk/"}, {"title": "Unlawful Military Cooperation including Arms Transfers between North Korea and Russia (MSMT/2025/1)", "publisher": "Multilateral Sanctions Monitoring Team", "year": "2025", "url": "https://msmt.info/view/save/2025/05/29/1085cade-a4b1-4405-94c0-7c980c24fd21-Unlawful_Military_Cooperation_including_Arms_Transfers_between_North_Korea_and_Russia_(MSMT_2025_1).pdf"}, {"title": "Modernizing North Korea’s 240 mm MLRS: Precision, Automation, and Extended Range", "publisher": "38 North", "year": "2026", "url": "https://www.38north.org/2026/11/modernizing-north-koreas-240-mm-mlrs-precision-automation-and-extended-range/"}, {"title": "North Korea’s Lethal Aid to Russia: Current State and Outlook", "publisher": "38 North", "year": "2025", "url": "https://www.38north.org/2025/02/north-koreas-lethal-aid-to-russia-current-state-and-outlook/"}, {"title": "North Korea’s Military Partnership with Russia Has Consequences Far Beyond Ukraine", "publisher": "Chatham House", "year": "2026", "url": "https://www.chathamhouse.org/2026/09/north-koreas-military-partnership-russia-has-consequences-far-beyond-ukraine"}, {"title": "Korean Peninsula Update Special Report: North Korea’s Ninth Party Congress", "publisher": "American Enterprise Institute", "year": "2026", "url": "https://www.aei.org/commentary/korean-peninsula-update-special-report-north-koreas-ninth-party-congress/"}, {"title": "How North Korean Forces Are Bolstering Russia’s War Against Ukraine", "publisher": "Defense News", "year": "2026", "url": "https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bolstering-russias-war-against-ukraine/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-rkt-munitions", "rus-eq-iskander", "kor-eq-ktssm"]
+  },
+  {
+    id: "kpa-eq-drones",
+    topic: "loitering-munitions",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Multiple",
+    echelon: ["Brigade"],
+    type: "Equipment",
+    title: "Kumsong Loitering Munitions and the Saetbyol-9",
+    what: ["Since 2023 North Korea has built a family of armed drones and one-way attack munitions, centred on Panghyon airfield."],
+    how: ["The Saetbyol-9 (July 2023) is a large propeller drone with six weapon pylons; at least six appear to have been built.", "At least six Kumsong drones were shown in 2024: X-wing tube- and rail-launched types compared with Russia’s Lancet, a delta wing compared with Israel’s Harop, and small propeller types tested against vehicles.", "Satellite imagery in 2024–2025 showed seven new hangars and a rebuilt aircraft factory at Panghyon.", "Reported: Kim Jong Un ordered mass production of attack drones in 2024 and in 2026 demanded more capacity, automation and AI.", "Reported: state media claimed 100 percent accuracy in an October 2026 demonstration; inventories and reliability are not verified."],
+    why: ["Analysis: cheap loitering munitions give precision strike without risking manned aircraft; whether North Korea can mass-produce them reliably is unproven.", "Compare US Switchblade and the MQ-9, which the Kumsong and Saetbyol-9 resemble."],
+    sources: [{"title": "Current Status of North Korea’s Drone Program", "publisher": "38 North", "year": "2025", "url": "https://www.38north.org/2025/09/current-status-of-north-koreas-drone-program/"}, {"title": "North Korean Strategic UAV Activity at Panghyon Airbase", "publisher": "CSIS Beyond Parallel", "year": "2025", "url": "https://beyondparallel.csis.org/north-korean-strategic-uav-activity-at-panghyon-airbase/"}, {"title": "North Korea Is Building New Weapons and Drones. Russia May Be Making Them Better", "publisher": "NK Insider", "year": "2026", "url": "https://www.nkinsider.org/north-korea-is-building-new-weapons-and-drones-russia-may-be-making-them-better/"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-switchblade", "rus-eq-lancet"]
+  },
+  {
+    id: "kpa-les-kursk-drones",
+    topic: "loitering-munitions",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Lessons",
+    force: "Korean People’s Army",
+    echelon: ["Battalion"],
+    type: "Lesson",
+    title: "Learning Drone War in Kursk",
+    what: ["North Korean troops in Russia’s Kursk region since October 2024 met intense drone warfare for the first time; after heavy early losses they began operating FPV and reconnaissance drones with Russian units."],
+    how: ["Russian forces trained them in drones, artillery and infantry tactics, in breach of UN Security Council resolutions.", "The Institute for the Study of War observed North Korean personnel flying FPV and reconnaissance drones with Russian units.", "Reported: about 400 drone operators among 8,500 troops in Kursk in August 2026 (Ukrainian intelligence); South Korean estimates exceed 16,000 personnel in total.", "Reported: Russia agreed to pass drone production technology, with instructors training operators in North Korea.", "Reported: analysts say this does not yet show small-drone fires spreading across the KPA at home."],
+    why: ["Combat with Russia teaches what peacetime trials cannot: drones, electronic warfare and artillery working together.", "Compare the US, which builds drone fires through programmes and training centres rather than combat abroad."],
+    sources: [{"title": "Unlawful Military Cooperation including Arms Transfers between North Korea and Russia (MSMT/2025/1)", "publisher": "Multilateral Sanctions Monitoring Team", "year": "2025", "url": "https://msmt.info/view/save/2025/05/29/1085cade-a4b1-4405-94c0-7c980c24fd21-Unlawful_Military_Cooperation_including_Arms_Transfers_between_North_Korea_and_Russia_(MSMT_2025_1).pdf"}, {"title": "North Korea–Russia Cooperation Database", "publisher": "CSIS Beyond Parallel", "year": "", "url": "https://beyondparallel.csis.org/north-korea-russia-cooperation-2/"}, {"title": "Russian Offensive Campaign Assessment, August 21, 2026", "publisher": "Institute for the Study of War", "year": "2026", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-21-2026/"}, {"title": "Russia Deploys 8,500 North Korean Troops to Kursk, Including 400 Drone Operators", "publisher": "UNITED24 Media", "year": "2026", "url": "https://united24media.com/war-in-ukraine/russia-deploys-8500-north-korean-troops-to-kursk-including-400-drone-operators-21895"}, {"title": "Kursk as a Training Ground: What North Korea Learns From Russia’s War Against Ukraine", "publisher": "EPIS Think Tank", "year": "2026", "url": "https://epis-thinktank.com/publications/kursk-as-a-training-ground-what-north-korea-learns-from-russias-war-against-ukraine"}, {"title": "North Korea’s Military Partnership with Russia Has Consequences Far Beyond Ukraine", "publisher": "Chatham House", "year": "2026", "url": "https://www.chathamhouse.org/2026/09/north-koreas-military-partnership-russia-has-consequences-far-beyond-ukraine"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["ukr-ttp-sensors", "rus-org-rubicon"]
+  },
+  {
+    id: "kpa-pol-nuclear",
+    topic: "ammunition-effects",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "Policy",
+    title: "Nuclear Release and the “Nuclear Trigger”",
+    what: ["North Korea’s 2022 law on nuclear forces puts release authority in one hand and allows pre-emptive battlefield use. It has since drilled 600mm rocket and missile units in simulated tactical nuclear strikes."],
+    how: ["Kim Jong Un, as President of State Affairs, holds “monolithic command” of nuclear forces.", "The law allows first use in five conditions, including a judged imminent attack, an attack on the leadership or nuclear command, or to seize the initiative in war.", "If an attack endangers nuclear command and control, the law orders an automatic and immediate strike.", "The “Nuclear Trigger” command system, set up in 2023, has been exercised with 600mm rocket units.", "Reported: outside estimates are 40–60 warheads (up to 100 in some), or about 50; how many are ready for tactical use is uncertain."],
+    why: ["Analysis: tactical nuclear rockets and pre-emptive doctrine aim to deter stronger US and ROK conventional forces and prevent decapitation.", "Compare the US, which retired nuclear artillery and keeps a human decision for release."],
+    sources: [{"title": "Law on DPRK’s Policy on Nuclear Forces", "publisher": "Korean Central News Agency", "year": "2022", "url": "http://kcna.co.jp/item/2022/202209/news09/20220909-02ee.html"}, {"title": "SIPRI Yearbook 2023: World Nuclear Forces (North Korea)", "publisher": "SIPRI", "year": "2023", "url": "https://www.sipri.org/sites/default/files/SIPRIYB23c07sVIII.pdf"}, {"title": "Fissile Material and Nuclear Force Structure in North Korea", "publisher": "RUSI", "year": "2024", "url": "https://static.rusi.org/fissile-material-and-nuclear-force-structure-n-korea.pdf"}, {"title": "Nuclear Stockpile Uncertainty Amidst a Continuing Strategic Missile Launch Drought", "publisher": "38 North", "year": "2026", "url": "https://www.38north.org/2026/10/nuclear-stockpile-uncertainty-amidst-a-continuing-strategic-missile-launch-drought/"}, {"title": "Korean Peninsula Update Special Report: North Korea’s Ninth Party Congress", "publisher": "American Enterprise Institute", "year": "2026", "url": "https://www.aei.org/commentary/korean-peninsula-update-special-report-north-koreas-ninth-party-congress/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["kpa-eq-deep-fires", "jpn-ttp-three-conditions"]
+  },
+  {
+    id: "kpa-eq-chem-cluster",
+    topic: "ammunition-effects",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Multiple",
+    echelon: ["Corps", "Theatre"],
+    type: "Equipment",
+    title: "Chemical Stocks and Cluster Munitions",
+    what: ["North Korea keeps a large chemical arsenal and still produces cluster munitions, outside the treaties that ban them."],
+    how: ["Reported: ROK white papers and RAND estimate 2,500–5,000 tons of chemical agents: nerve, blister, blood, choking and riot-control.", "Reported: one estimate gives production potential of 4,500 tons a year in peace and 12,000 in war.", "Approval chains for chemical artillery rounds are not found in open sources.", "The Cluster Munition Monitor 2026 lists North Korea among countries with recent evidence of cluster munition production.", "Reported: in April 2026 it tested short-range missiles with cluster warheads, seen as a way to saturate air defences."],
+    why: ["Analysis: chemical and cluster weapons give area denial against stronger forces; staying outside the treaties removes any limit.", "Compare the US, which has destroyed its chemical stockpile; and Japan and Australia, which ban cluster munitions."],
+    sources: [{"title": "2012 Defense White Paper", "publisher": "Republic of Korea Ministry of National Defense", "year": "2012", "url": "https://media.nti.org/pdfs/ROK_2012_White_Paper.pdf"}, {"title": "North Korean Chemical Weapons Capabilities (CT-486)", "publisher": "RAND Corporation", "year": "", "url": "https://www.rand.org/content/dam/rand/pubs/testimonies/CT400/CT486/RAND_CT486.pdf"}, {"title": "North Korea’s Chemical Warfare Capabilities", "publisher": "38 North", "year": "2013", "url": "https://www.38north.org/2013/10/jbermudez101013/"}, {"title": "2026 Monitor Warns of Growing Threats to Cluster Munition Ban", "publisher": "Humanity & Inclusion (Cluster Munition Monitor 2026)", "year": "2026", "url": "https://www.hi-us.org/en/2026-monitor-warns-of-growing-threats-to-cluster-munition-ban"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["jpn-pol-cluster", "aus-pol-cluster"]
+  },
+  {
+    id: "kpa-eq-ta",
+    topic: "target-acquisition",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Equipment",
+    force: "Korean People’s Army",
+    echelon: ["Division", "Corps"],
+    type: "Equipment",
+    title: "Sound-Ranging, Radars and New Drones",
+    what: ["KPA target acquisition combines old ground sensors (sound-ranging, flash-ranging, signals intercept and older radars) with a growing use of drones."],
+    how: ["KPA doctrine lists sound- and flash-ranging, rangefinding, signals target acquisition, and surveillance and counter-fire radars.", "Analysis: tactical drones with artillery units are likely used to find targets; the Saetbyol-4 is being developed for long-range watch over the DMZ.", "In Kursk, KPA personnel flew reconnaissance drones in a battle linking drones, electronic warfare and artillery.", "Reported: Pyongyang is also adding reconnaissance satellites and smaller drones.", "Modern KPA counter-battery radar types and target processing inside its headquarters are not found in open sources."],
+    why: ["With little airborne surveillance, the KPA relied on ground sensors; drones are a cheap way to see deeper.", "Compare the US AN/TPQ-53 and Gray Eagle drones in a digital network."],
+    sources: [{"title": "ATP 7-100.2: North Korean Tactics", "publisher": "Headquarters, Department of the Army", "year": "2020", "url": "https://www.ssri-j.com/MediaReport/DocumentUS/2020NorthKoreaTactics.pdf"}, {"title": "North Korean Strategic UAV Activity at Panghyon Airbase", "publisher": "CSIS Beyond Parallel", "year": "2025", "url": "https://beyondparallel.csis.org/north-korean-strategic-uav-activity-at-panghyon-airbase/"}, {"title": "Russian Offensive Campaign Assessment, August 21, 2026", "publisher": "Institute for the Study of War", "year": "2026", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-21-2026/"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-acoustic", "kpa-les-kursk-drones"]
+  },
+  {
+    id: "kpa-ttp-fdc",
+    topic: "technical-fire-direction",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Korean People’s Army",
+    echelon: ["Battery", "Battalion"],
+    type: "TTP",
+    title: "Wired Fire Direction, New Automation and Uneven Ammunition",
+    what: ["Reported: KPA fire direction centres sit in protected bunkers wired to the guns, while upgraded 240mm rocket units are getting automated fire control. Inconsistent propellant limits the accuracy of unguided fire."],
+    how: ["Reported: inside hardened sites, battery FDCs in bunkers or tunnels are linked to each gun by field telephone.", "From May 2024, upgraded 240mm units received an automated fire-control system; a fully automated 24-tube launcher was tested in July 2026.", "Reported: Russian gunners firing North Korean 120mm, 122mm and 152mm rounds reported missing spacer wires and uneven powder and charge weights, so shells fell short or varied in range.", "Reported: at Yeonpyeong in 2010, fewer than half of about 170 122mm rockets hit the island and about 25 percent failed to explode.", "Survey and meteorological procedures are not found in open sources."],
+    why: ["Wire links suit static sites; automation targets the priority rocket units first.", "Compare US AFATDS with meteorological, survey and muzzle-velocity corrections and tightly controlled propellant lots."],
+    sources: [{"title": "ATP 7-100.2: North Korean Tactics", "publisher": "Headquarters, Department of the Army", "year": "2020", "url": "https://www.ssri-j.com/MediaReport/DocumentUS/2020NorthKoreaTactics.pdf"}, {"title": "Modernizing North Korea’s 240 mm MLRS: Precision, Automation, and Extended Range", "publisher": "38 North", "year": "2026", "url": "https://www.38north.org/2026/11/modernizing-north-koreas-240-mm-mlrs-precision-automation-and-extended-range/"}, {"title": "North Korea’s Flawed but Winning Strategy in Ukraine", "publisher": "38 North", "year": "2024", "url": "https://www.38north.org/2024/06/north-koreas-flawed-but-winning-strategy-in-ukraine/"}, {"title": "DPRK Briefing Book: HARTS in North Korea", "publisher": "Nautilus Institute", "year": "", "url": "https://nautilus.org/publications/books/dprkbb/military/dprk-briefing-book-harts-in-north-korea/"}, {"title": "Russia Might Be Buying North Korean Arms, But Are They Reliable?", "publisher": "Voice of America", "year": "2022", "url": "https://www.voanews.com/a/russia-might-be-buying-north-korean-arms-but-are-they-reliable-/6736135.html"}, {"title": "Russian Military Complains About the Poor Quality of North Korean Shells", "publisher": "Mind.ua", "year": "2024", "url": "https://mind.ua/en/news/20268106-absolute-sht-russian-military-complains-about-the-poor-quality-of-north-korean-shells"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["usa-eq-afatds-arch", "rus-ttp-manual-met"]
+  },
+  {
+    id: "kpa-les-russia-interop",
+    topic: "digital-fires-c2",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Lessons",
+    force: "Multiple",
+    echelon: ["Corps"],
+    type: "Lesson",
+    title: "Fighting Alongside Russia: Shared Calibres, Not Shared Networks",
+    what: ["Analysis: since the June 2024 treaty, North Korea and Russia share ammunition easily and cooperate tactically, but open sources show no shared digital fire control."],
+    how: ["North Korean 122mm and 152mm shells and 122mm rockets fit Russian guns and Grad launchers.", "Reported: Russian unit reports from 2024–2025 show some units firing only North Korean 122mm rockets on some days.", "The 170mm Koksan does not fit Russian calibres and needs its own supply chain.", "Reported: KPA drone teams in Kursk and about 90 missile specialists in Voronezh worked with Russian forces.", "Any digital link between KPA and Russian fire control is not found in open sources."],
+    why: ["Common Soviet calibres made massed fire together possible without digital integration.", "Compare the US with allies, linked digitally through ASCA; and Ukraine’s shared networks."],
+    sources: [{"title": "Unlawful Military Cooperation including Arms Transfers between North Korea and Russia (MSMT/2025/1)", "publisher": "Multilateral Sanctions Monitoring Team", "year": "2025", "url": "https://msmt.info/view/save/2025/05/29/1085cade-a4b1-4405-94c0-7c980c24fd21-Unlawful_Military_Cooperation_including_Arms_Transfers_between_North_Korea_and_Russia_(MSMT_2025_1).pdf"}, {"title": "North Korea–Russia Cooperation Database", "publisher": "CSIS Beyond Parallel", "year": "", "url": "https://beyondparallel.csis.org/north-korea-russia-cooperation-2/"}, {"title": "North Korea’s Military Partnership with Russia Has Consequences Far Beyond Ukraine", "publisher": "Chatham House", "year": "2026", "url": "https://www.chathamhouse.org/2026/09/north-koreas-military-partnership-russia-has-consequences-far-beyond-ukraine"}, {"title": "Kursk as a Training Ground: What North Korea Learns From Russia’s War Against Ukraine", "publisher": "EPIS Think Tank", "year": "2026", "url": "https://epis-thinktank.com/publications/kursk-as-a-training-ground-what-north-korea-learns-from-russias-war-against-ukraine"}],
+    confidence: "Analysis",
+    asOf: "2026-11",
+    relatedIds: ["joint-eq-asca", "rus-sus-ammunition"]
+  },
+  {
+    id: "kpa-ttp-countervalue",
+    topic: "digital-fires-c2",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "TTP",
+    title: "Holding Seoul at Risk: Targeting Civilians",
+    what: ["Analysis: North Korea aims long-range artillery at Seoul’s civilian population as a core deterrent. There is no open-source sign of a legal review or civilian harm process."],
+    how: ["170mm guns and 240mm rockets near the DMZ hold greater Seoul at risk; state media said the September 2026 rocket test was meant to “instill fear in South Koreans”.", "At Yeonpyeong in 2010, KPA fire killed two civilians and two marines, injured three civilians and 17 soldiers, and set more than 50 homes on fire.", "North Korean missiles sent to Russia in 2024 were fired at populated areas and civilian infrastructure in Ukraine, including Kyiv and Zaporizhzhia.", "Reported: casualty models for a barrage on Seoul range from up to 250,000 casualties (older US estimates) to about 2,600 civilian deaths in a crisis (2025 study), largely because of shelters and fast counter-battery fire."],
+    why: ["Analysis: threatening civilians offsets conventional weakness by raising the political cost of action against the regime.", "Compare US targeting with legal review and collateral damage estimation, and Australia’s human approval of every strike."],
+    sources: [{"title": "North Korea Military Power: A Growing Regional and Global Threat", "publisher": "US Defense Intelligence Agency", "year": "2021", "url": "https://www.dia.mil/Portals/110/Documents/News/North_Korea_Military_Power.pdf"}, {"title": "Lost Seoul: Assessing Pyongyang’s Other Deterrent", "publisher": "Texas National Security Review", "year": "2025", "url": "https://tnsr.org/wp-content/uploads/2025/06/TNSR-Vol-8-Issue-3_Anderson-Press.pdf"}, {"title": "Unlawful Military Cooperation including Arms Transfers between North Korea and Russia (MSMT/2025/1)", "publisher": "Multilateral Sanctions Monitoring Team", "year": "2025", "url": "https://msmt.info/view/save/2025/05/29/1085cade-a4b1-4405-94c0-7c980c24fd21-Unlawful_Military_Cooperation_including_Arms_Transfers_between_North_Korea_and_Russia_(MSMT_2025_1).pdf"}, {"title": "North Korea Says 240mm Rocket’s Range Upgraded to Instill Fear in South Koreans", "publisher": "NK News", "year": "2026", "url": "https://www.nknews.org/2026/09/north-korea-says-240mm-rockets-range-upgraded-to-instill-fear-in-south-koreans/"}, {"title": "Shelling of Yeonpyeong Island (International Relations of the Asia-Pacific)", "publisher": "Oxford Academic", "year": "", "url": "https://academic.oup.com/irap/article/18/2/193/2562777"}, {"title": "North Korea’s Conventional Artillery Threat (PE-262)", "publisher": "RAND Corporation", "year": "", "url": "https://www.rand.org/content/dam/rand/pubs/perspectives/PE200/PE262/RAND_PE262.pdf"}, {"title": "Mind the Gap Between Rhetoric and Reality", "publisher": "Nautilus Institute", "year": "2012", "url": "https://nautilus.org/napsnet/napsnet-special-reports/mind-the-gap-between-rhetoric-and-reality/"}],
+    confidence: "Analysis",
+    asOf: "2026-11",
+    relatedIds: ["aus-ttp-targeting", "kor-doc-counterbattery"]
+  },
+  {
+    id: "kpa-ttp-harts",
+    topic: "counterfire-survivability",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "TTPs",
+    force: "Korean People’s Army",
+    echelon: ["Corps"],
+    type: "TTP",
+    title: "Hardened Artillery Sites: Protected but Fixed",
+    what: ["Analysis: North Korea shelters frontline artillery and command posts in Hardened Artillery Sites (HARTS), caves, tunnels and bunkers near the DMZ. They protect guns between salvos, but precision weapons and drones limit their survival in war."],
+    how: ["Reported: up to 200 HARTS near Seoul shelter 170mm guns and 240mm launchers.", "Reported: tunnels hold guns, FDC bunkers, crew quarters and ammunition niches, separated by blast walls.", "Guns roll out to firing pads or fire from the cave mouth, then pull back inside.", "Reported: survival estimates differ: few guns lasting a week (2012 model), against a 75 percent loss within 10 minutes to an hour from US-ROK guided rockets, radars and missiles (2025 study).", "Reported: in Ukraine, Koksans outside caves were found and struck by HIMARS and drones."],
+    why: ["Without the roads, fuel and mobile command to keep thousands of guns moving, North Korea chose concrete and rock; but fixed sites are fixed aim points for guided weapons.", "Compare US and ROK shoot-and-scoot, and the KTSSM built to strike these sites."],
+    sources: [{"title": "Lost Seoul: Assessing Pyongyang’s Other Deterrent", "publisher": "Texas National Security Review", "year": "2025", "url": "https://tnsr.org/wp-content/uploads/2025/06/TNSR-Vol-8-Issue-3_Anderson-Press.pdf"}, {"title": "DPRK Briefing Book: HARTS in North Korea", "publisher": "Nautilus Institute", "year": "", "url": "https://nautilus.org/publications/books/dprkbb/military/dprk-briefing-book-harts-in-north-korea/"}, {"title": "Mind the Gap Between Rhetoric and Reality", "publisher": "Nautilus Institute", "year": "2012", "url": "https://nautilus.org/napsnet/napsnet-special-reports/mind-the-gap-between-rhetoric-and-reality/"}, {"title": "Ukraine Destroys Elusive North Korean Koksan Supergun in Operation Vivaldi", "publisher": "UNITED24 Media", "year": "2026", "url": "https://united24media.com/war-in-ukraine/ukraine-destroys-elusive-north-korean-koksan-supergun-in-operation-vivaldi-23718"}, {"title": "HIMARS Hits Three North Korean M1989 Koksan at Once", "publisher": "Militarnyi", "year": "2025", "url": "https://militarnyi.com/en/news/himars-hits-three-north-korean-m1989-koksan-at-once/"}],
+    confidence: "Analysis",
+    asOf: "2026-11",
+    relatedIds: ["kor-eq-ktssm", "kor-doc-counterbattery"]
+  },
+  {
+    id: "kpa-org-air-defence",
+    topic: "counterfire-survivability",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Multiple",
+    echelon: ["Battalion", "Division", "Corps"],
+    type: "Force Structure",
+    title: "Air Defence of the Guns, and the Drone Gap",
+    what: ["Analysis: North Korea covers its forces with a dense but ageing umbrella of over 15,600 anti-aircraft guns, shoulder-fired missiles and old SAMs, now being modernised with Russian help."],
+    how: ["Corps, divisions and regiments have 14.5mm to 57mm guns, with SA-7B missiles down to battalion.", "Old SA-2, SA-3 and SA-5 SAMs defend strategic areas but pose little threat to modern aircraft.", "A Tor-style short-range SAM (about 12 km) was shown in 2020; its performance against small drones is unproven.", "Reported: Russia supplied air defence equipment, missiles and electronic warfare systems in 2024–2025.", "Reported: Koksan losses to FPV and night bomber drones in Ukraine show how exposed artillery is to small drones."],
+    why: ["Expecting allied air superiority, the KPA relies on sheer numbers of guns and on Russian-assisted upgrades.", "Compare US M-SHORAD and counter-drone systems, Japan’s Type 11 and Australia’s NASAMS for gun areas."],
+    sources: [{"title": "North Korea Study", "publisher": "US Marine Corps", "year": "", "url": "https://www.marines.mil/Portals/1/Publications/North%20Korea%20Study_2.pdf"}, {"title": "North Korea’s air defence (cited as [13] in the report)", "publisher": "38 North", "year": "", "url": "https://www.38north.org/"}, {"title": "Unlawful Military Cooperation including Arms Transfers between North Korea and Russia (MSMT/2025/1)", "publisher": "Multilateral Sanctions Monitoring Team", "year": "2025", "url": "https://msmt.info/view/save/2025/05/29/1085cade-a4b1-4405-94c0-7c980c24fd21-Unlawful_Military_Cooperation_including_Arms_Transfers_between_North_Korea_and_Russia_(MSMT_2025_1).pdf"}],
+    confidence: "Analysis",
+    asOf: "2026-11",
+    relatedIds: ["jpn-eq-type11", "aus-eq-ad"]
+  },
+  {
+    id: "kpa-sus-stockpiles",
+    topic: "sustainment",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Forces",
+    force: "Korean People’s Army",
+    echelon: ["Theatre"],
+    type: "Logistics",
+    title: "Ammunition Underground, Transport Weak",
+    what: ["Logistics is one of the KPA’s main weaknesses. To make up for poor transport and allied interdiction, it stores large ammunition reserves underground and in hardened sites along the routes to the DMZ."],
+    how: ["Doctrine calls for six months of supply; DIA assesses actual stocks would last two to three months, ammunition a little longer than food.", "Reported: each gun position holds one to four units of fire (120 rounds each) nearby, backed by caves holding 30–90 days of ammunition.", "Reported: firing plans budget four units of fire per gun on day one and two a day after; three a day in defence.", "Poor roads, too little fuel and transport, and badly kept railways limit any sustained advance."],
+    why: ["Stocks in caves let forward guns open fire at once even if transport is cut; but they cannot follow an advance south.", "Compare US mobile sustainment with palletised loads; and Australia’s and Japan’s push for protected stocks."],
+    sources: [{"title": "North Korea Military Power: A Growing Regional and Global Threat", "publisher": "US Defense Intelligence Agency", "year": "2021", "url": "https://www.dia.mil/Portals/110/Documents/News/North_Korea_Military_Power.pdf"}, {"title": "DPRK Briefing Book: HARTS in North Korea", "publisher": "Nautilus Institute", "year": "", "url": "https://nautilus.org/publications/books/dprkbb/military/dprk-briefing-book-harts-in-north-korea/"}, {"title": "Lost Seoul: Assessing Pyongyang’s Other Deterrent", "publisher": "Texas National Security Review", "year": "2025", "url": "https://tnsr.org/wp-content/uploads/2025/06/TNSR-Vol-8-Issue-3_Anderson-Press.pdf"}],
+    confidence: "Confirmed",
+    asOf: "2026-11",
+    relatedIds: ["jpn-sus-budget", "aus-sus-gweo"]
+  },
+  {
+    id: "kpa-sus-shells-russia",
+    topic: "sustainment",
+    country: "North Korea",
+    addedIn: "2026.12",
+    module: "Lessons",
+    force: "Multiple",
+    echelon: ["Theatre"],
+    type: "Lesson",
+    title: "Shells by the Million: Volume, Defects and the Russia Trade",
+    what: ["Reported: North Korea’s state arms industry has mass-produced Soviet-calibre shells for decades. Exports to Russia since 2023 showed both huge volume and serious defects."],
+    how: ["Reported: estimates of shells sent to Russia vary widely: 4.2–5.8 million (RUSI and Open Source Centre, to April 2025); 4 million (Ukrainian intelligence); up to 9 million in 2024 (MSMT); over 15 million by September 2026 (ROK defence intelligence).", "Reported: they supplied an estimated 29–40 percent (RUSI) to 50–60 percent (Western and Ukrainian intelligence) of Russia’s artillery fire at times.", "Reported: exported stocks included old rounds with propellant variation, missing spacer wires and duds.", "Reported: factories ran at full capacity; Kim Jong Un ordered new plants and higher output in December 2025."],
+    why: ["Analysis: old stockpiles became oil, food, technology and money for new production.", "Compare the US, which produces fewer shells to tighter quality standards; and Russia’s own dependence on these imports."],
+    sources: [{"title": "North Korea’s Lethal Aid to Russia: Current State and Outlook", "publisher": "38 North", "year": "2025", "url": "https://www.38north.org/2025/02/north-koreas-lethal-aid-to-russia-current-state-and-outlook/"}, {"title": "North Korean munitions supply to Russia (cited as [20] in the report)", "publisher": "RUSI / Open Source Centre", "year": "", "url": "https://www.rusi.org/"}, {"title": "Unlawful Military Cooperation including Arms Transfers between North Korea and Russia (MSMT/2025/1)", "publisher": "Multilateral Sanctions Monitoring Team", "year": "2025", "url": "https://msmt.info/view/save/2025/05/29/1085cade-a4b1-4405-94c0-7c980c24fd21-Unlawful_Military_Cooperation_including_Arms_Transfers_between_North_Korea_and_Russia_(MSMT_2025_1).pdf"}, {"title": "North Korea’s Military Partnership with Russia Has Consequences Far Beyond Ukraine", "publisher": "Chatham House", "year": "2026", "url": "https://www.chathamhouse.org/2026/09/north-koreas-military-partnership-russia-has-consequences-far-beyond-ukraine"}, {"title": "How North Korean Forces Are Bolstering Russia’s War Against Ukraine", "publisher": "Defense News", "year": "2026", "url": "https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bolstering-russias-war-against-ukraine/"}, {"title": "North Korea’s Flawed but Winning Strategy in Ukraine", "publisher": "38 North", "year": "2024", "url": "https://www.38north.org/2024/06/north-koreas-flawed-but-winning-strategy-in-ukraine/"}],
+    confidence: "Reported",
+    asOf: "2026-11",
+    relatedIds: ["rus-sus-ammunition", "ukr-sus-industry"]
+  },
+  {"id": "idn-org-overview", "topic": "liaison", "country": "Indonesia", "addedIn": "2026.12", "module": "Forces", "force": "Multiple", "echelon": ["Battalion", "Regiment", "Division"], "type": "Organisation", "title": "Two Services, Kostrad and Kodam: How Indonesia Organises Its Artillery", "what": ["Land and amphibious fire support is split between the Army field artillery corps (Armed) and the Marine Corps (Korps Marinir, part of the Navy).", "Army artillery serves in two Strategic Reserve Command (Kostrad) divisional regiments for mobile projection, and in battalions under the regional commands (Kodam)."], "how": ["Kostrad: Menarmed 1 (Divif 1) and Menarmed 2 (Divif 2) group CAESAR gun and ASTROS rocket battalions.", "Kodam battalions hold older 76mm and 105mm guns and M109A4-BE howitzers for regional defence; numbering reached at least Yonarmed 22 by August 2026.", "Doctrine comes from the Field Artillery Weapons Centre (Pussenarmed) and schooling from Pusdikarmed, both in Cimahi, West Java.", "Marine artillery serves in the three Marine Forces (Pasmar 1 to 3) with 122mm rocket launchers and 105mm guns.", "Not found in open sources: a full 2026 roster of battalions, or where each of the 56 CAESARs is held."], "why": ["An archipelago with weak roads and many ports favours wheeled, air-portable guns and rockets over large tracked brigades.", "Compare the US: its artillery sits mostly in divisions and corps fires brigades; Indonesia splits it between a strategic reserve and regional commands."], "sources": [{"title": "Peraturan Menteri Pertahanan Nomor 20 Tahun 2011", "publisher": "Kementerian Pertahanan", "year": "2011", "url": "https://www.kemhan.go.id/itjen/wp-content/uploads/migrasi/peraturan/NOMOR%2020%20TAHUN%202011.pdf"}, {"title": "Resimen Artileri Medan 2", "publisher": "Wikipedia (Indonesian)", "year": "", "url": "https://id.wikipedia.org/wiki/Resimen_Artileri_Medan_2"}, {"title": "Batalyon Artileri Medan 1", "publisher": "Wikipedia (Indonesian)", "year": "2024", "url": "https://id.wikipedia.org/wiki/Batalyon_Artileri_Medan_1"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["idn-eq-caesar", "idn-org-astros", "idn-org-howitzers", "idn-trn-pusdikarmed"]},
+  {"id": "idn-ttp-joint-fires", "topic": "liaison", "country": "Indonesia", "addedIn": "2026.12", "module": "TTPs", "force": "Multiple", "echelon": ["Theatre"], "type": "TTP", "title": "From Seminars to Joint Fires: Linking Guns, Rockets and Missiles", "what": ["Pussenarmed is rewriting field artillery doctrine to combine guns, rockets and long-range missiles into joint fires with the Navy and Air Force."], "how": ["National seminars at Pusdikarmed on the corps anniversaries (26 November 2024, 18 November 2025) shaped a 2025–2026 modernisation plan.", "The 2025 theme joined cannons, rockets, long-range missiles and multi-service interoperability.", "The Naval Command and Staff College presented a concept that adds naval gunfire to Army fires across land, sea and air.", "Both services put shared situational awareness and sensor-to-weapon links first."], "why": ["New long-range missiles cannot be used well without joint targeting, and an island country needs land, sea and air fires working together.", "Compare the US: joint fires rest on standing doctrine (JP 3-09) and Multi-Domain Task Forces; Indonesia is moving from seminars towards written procedures."], "sources": [{"title": "Wakapusjianmar Seskoal Sebagai Narasumber pada Seminar HUT ke-80 Korps Armed TNI AD", "publisher": "Pusjianmar Seskoal", "year": "2025", "url": "https://www.pusjianmar.id/2459/"}, {"title": "Ribuan Peserta Ikuti Seminar Nasional Dalam Rangka HUT Ke-79 Armed TNI AD Tahun 2024", "publisher": "Pusat Penerangan TNI", "year": "2024", "url": "https://tni.mil.id/view-249205-ribuan-peserta-ikuti-seminar-nasional-dalam-rangka-hut-ke-79-armed-tni-ad-tahun-2024.html"}], "confidence": "Confirmed", "asOf": "2025-11", "relatedIds": ["idn-trn-sgs26", "idn-les-interop", "idn-eq-itbm-khan", "joint-org-support-relationships"]},
+  {"id": "idn-trn-sgs26", "topic": "liaison", "country": "Indonesia", "addedIn": "2026.12", "module": "Training", "force": "Multiple", "echelon": ["Theatre"], "type": "Training", "title": "Super Garuda Shield 26: A Combined Joint Land Strike", "what": ["Indonesian Army, Marine and Air Force units fired a Combined Joint Land Strike with US forces on 4 and 7 September 2026 at the Baturaja Combat Training Center, South Sumatra."], "how": ["Army ASTROS II Mk6 and Marine RM-70 Vampire launchers fired beside Iowa Army National Guard HIMARS.", "Indonesian F-16s and Indonesian and US AH-64 Apaches struck the same target area.", "Planners from the TNI, the US 4th Infantry Division and Marine Rotational Force–Darwin set firing windows and airspace safety.", "Next Generation Command and Control software shared target data across national command posts.", "Crews rehearsed repeatedly at Martapura and Baturaja before live firing."], "why": ["An annual live joint strike builds habits between Army rockets, Marine artillery and aviation, and tests coalition digital links under real safety rules.", "Compare the US: standing joint fires cells sit in division and corps headquarters; Indonesia practises cross-service fires at scale in flagship exercises."], "sources": [{"title": "Indonesian, U.S. forces conduct combined joint land strike during Super Garuda Shield", "publisher": "4th Infantry Division Public Affairs (DVIDS)", "year": "2026", "url": "https://www.dvidshub.net/news/574056/indonesian-us-forces-conduct-combined-joint-land-strike-during-super-garuda-shield"}, {"title": "Safety First: Joint Nations Prep for HIMARS Live-Fire for Super Garuda Shield 26", "publisher": "4th Infantry Division Public Affairs (DVIDS)", "year": "2026", "url": "https://www.dvidshub.net/video/1021936/safety-first-joint-nations-prep-himars-live-fire-super-garuda-shield-26"}, {"title": "SGS26 ends with ceremony celebrating multinational partnership", "publisher": "4th Infantry Division Public Affairs (DVIDS)", "year": "2026", "url": "https://www.dvidshub.net/news/574383/sgs26-ends-with-ceremony-celebrating-multinational-partnership"}], "confidence": "Confirmed", "asOf": "2026-09", "relatedIds": ["idn-les-interop", "idn-org-astros", "idn-eq-marine-mlrs", "joint-eq-m142"]},
+  {"id": "idn-les-interop", "topic": "liaison", "country": "Indonesia", "addedIn": "2026.12", "module": "Lessons", "force": "Multiple", "echelon": ["Division"], "type": "Lesson", "title": "Many Suppliers, One Fire Plan: Interoperability Friction", "what": ["Super Garuda Shield 26 showed how hard it is to synchronise Indonesian and allied indirect fire; planners needed aligned procedures and repeated rehearsals."], "how": ["US 4th Infantry Division fires planners called the coordination across US Army, US Marine and Indonesian units one of the hardest tasks in combined arms.", "Staffs had to align technical standards, safety rules, communications and doctrine across ASTROS II, RM-70 Vampire and HIMARS.", "Repeated run-throughs found errors before live firing.", "Digital links sped up data sharing, but only worked when paired with joint crew drills."], "why": ["Indonesia fields guns and rockets from France, Brazil, the Czech Republic, China and Türkiye, so integration is an internal problem as well as a coalition one.", "Compare the US: US Army and Marine units share common interfaces; Indonesia bridges mixed foreign systems through rehearsal and custom digital gateways."], "sources": [{"title": "Indonesian, U.S. forces conduct combined joint land strike during Super Garuda Shield", "publisher": "4th Infantry Division Public Affairs (DVIDS)", "year": "2026", "url": "https://www.dvidshub.net/news/574056/indonesian-us-forces-conduct-combined-joint-land-strike-during-super-garuda-shield"}, {"title": "Wakapusjianmar Seskoal Sebagai Narasumber pada Seminar HUT ke-80 Korps Armed TNI AD", "publisher": "Pusjianmar Seskoal", "year": "2025", "url": "https://www.pusjianmar.id/2459/"}], "confidence": "Confirmed", "asOf": "2026-09", "relatedIds": ["idn-trn-sgs26", "idn-eq-bms-taca", "idn-ttp-joint-fires", "joint-eq-asca"]},
+  {"id": "idn-eq-caesar", "topic": "cannon-artillery", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Indonesian Army (TNI-AD)", "echelon": ["Battalion"], "type": "Equipment", "title": "CAESAR: Indonesia’s Main Modern Gun", "what": ["The French KNDS CAESAR 155mm/52-calibre 6×6 wheeled howitzer is the Army’s main modern tube artillery.", "Reported: 56 delivered, and a June 2025 letter of intent covers more, built locally."], "how": ["Reported: bought in three batches (2014, 2016, 2017) and held by Kostrad battalions including Yonarmed 9 (Divif 1) and Yonarmed 12 (Divif 2, Ngawi).", "Reported: Sherpa 6×6 chassis, crew of three to five, 18 rounds on board, automatic laying, in and out of action in under a minute.", "Reported: up to six rounds a minute and 40 km with LU-family ammunition.", "Reported: at Indo Defence 2025 KNDS signed for more CAESARs and local production of guns and 155mm ammunition."], "why": ["Long reach and fast shoot-and-scoot on wheels suit Indonesian roads and bridges; local assembly cuts dependence on foreign support.", "Compare the US: the US Army uses the tracked 39-calibre M109A7 and towed M777A2; Indonesia’s main modern gun is a wheeled 52-calibre truck gun."], "sources": [{"title": "Indo Defence 2025: KNDS signs partnership agreements", "publisher": "Janes", "year": "2025", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/security/indo-defence-2025-knds-signs-partnership-agreements"}, {"title": "6x6 self-propelled howitzer 155mm CAESAR", "publisher": "Army Recognition", "year": "2026", "url": "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/self-propelled-howitzers/6x6-self-propelled-howitzer-155mm-caesar"}], "confidence": "Reported", "asOf": "2026-07", "relatedIds": ["idn-org-howitzers", "idn-sus-ammo", "idn-eq-precision-munitions", "ukr-ttp-roving-gun"]},
+  {"id": "idn-org-howitzers", "topic": "cannon-artillery", "country": "Indonesia", "addedIn": "2026.12", "module": "Forces", "force": "Multiple", "echelon": ["Battalion"], "type": "Organisation", "title": "Tracked, Towed and Amphibious Guns Beyond CAESAR", "what": ["Besides CAESAR, Indonesia keeps tracked 155mm howitzers and towed 105mm and 76mm guns in regional Army battalions and the Marines.", "Reported: the Marines are studying the 105mm LG1 Mk III to upgrade amphibious gun support."], "how": ["Reported: Yonarmed 4 (Kodam III/Siliwangi) operates M109A4-BE 155mm tracked howitzers.", "Regional battalions keep towed guns, such as Yonarmed 15/76 (Kodam II/Sriwijaya); Reported: Yonarmed 8/105 and Yonarmed 11/76 also do.", "Marine Pasmar 2 lands 105mm towed howitzers with amphibious armour in beach-landing exercises at Banongan, East Java.", "Reported: Marine stocks include French LG1 105mm guns.", "Reported: light-gun battalions also take on territorial tasks such as border patrols on the Malaysian border."], "why": ["Light towed guns still suit beaches, jungle and scattered garrisons where heavy 155mm vehicles cannot go; tracked M109s keep an armoured gun in Java.", "Compare the US: it retired 76mm guns long ago and standardised on 105mm and 155mm; Indonesia runs all three calibres."], "sources": [{"title": "Prajurit Pasmar 2 Lakukan Pendaratan di Banongan", "publisher": "ANTARA Jawa Timur", "year": "", "url": "https://jatim.antaranews.com/berita/525129/prajurit-pasmar-2-lakukan-pendaratan-di-banongan"}], "confidence": "Reported", "asOf": "2026-09", "relatedIds": ["idn-eq-caesar", "idn-org-overview", "usa-eq-m119a3", "joint-eq-m777a2"]},
+  {"id": "idn-eq-mo3", "topic": "cannon-artillery", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Battalion"], "type": "Equipment", "title": "Pindad Mo-3: The 81mm Battalion Mortar", "what": ["The Indonesian-designed Pindad Mo-3 (MO-3-81 SB) 81mm smoothbore mortar is the standard battalion mortar of Army and Marine infantry.", "It received a Ministry of Defence trial certificate on 1 July 2015 (valid to July 2018)."], "how": ["Reported: 41.3 kg, 1.27 m barrel, five-soldier crew in the battalion mortar platoon.", "Reported: range 91 m to 5,935 m at 45° to 85.2° elevation.", "Reported: 8 to 16 rounds a minute sustained, 20 to 30 in short bursts.", "Marines of the 10th Marine Infantry Battalion fired it with small drones during Keris MAREX 2024 on Singkep (13 November 2024)."], "why": ["An organic mortar gives light, airborne and amphibious infantry immediate high-angle fire; domestic manufacture secures supply.", "Compare the US: the Mo-3 matches the M252 81mm mortar in calibre, crew role and place in the infantry battalion."], "sources": [{"title": "PT Pindad (Persero) Annual Report 2018", "publisher": "PT Pindad", "year": "2018", "url": "https://pindad.com/downloads/article/Annual_Report_Pindad_2018.pdf"}, {"title": "Keris MAREX 24: 2/7, 10th Kormar Conduct Mortar Range with sUAS", "publisher": "Marine Rotational Force – Southeast Asia (DVIDS)", "year": "2024", "url": "https://www.dvidshub.net/image/8774514/keris-marex-24-2-7-10th-kormar-conduct-mortar-range-with-suas"}, {"title": "Pindad Mo-3 Mortar", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Pindad_Mo-3_Mortar"}], "confidence": "Confirmed", "asOf": "2024-11", "relatedIds": ["idn-eq-aldalbak", "idn-eq-observer-uav", "joint-eq-m252a1"]},
+  {"id": "idn-eq-itbm-khan", "topic": "rocket-missile-artillery", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Indonesian Army (TNI-AD)", "echelon": ["Battalion"], "type": "Equipment", "title": "ITBM-600 and KHAN: Southeast Asia’s First Modern Ballistic Missile", "what": ["Reported: Indonesia has fielded the Turkish Roketsan multi-calibre launcher (locally ITBM-600) and the KHAN short-range ballistic missile, the first modern SRBM in Southeast Asia.", "Reported: Yonarmed 22 made the first disclosed live firing on 20 October 2026 in East Kalimantan, with guided 122mm rockets."], "how": ["Reported: chosen at Indo Defence 2022; a Tatra 8×8 launcher fires 122, 230, 300 and 610mm munitions from 10 to 280 km.", "Reported: the 610mm KHAN (export Bora) weighs about 2,500 kg, has a 470 kg warhead, reaches 80 to 280 km and uses satellite and inertial guidance; stated accuracy 10 m or better.", "Reported: launchers appeared near Raipur, East Kalimantan, around August 2025; Yonarmed 22’s permanent base opened at Loa Kulu, Kutai Kartanegara, in August 2026.", "Reported: a battery has launchers, command vehicles, resupply trucks, meteorological and maintenance elements.", "Reported: on 20 October 2026 crews fired a pilot round and three guided 122mm rockets; sources differ on whether they were TRG-122 or laser-guided TRLG-122."], "why": ["Reported: basing in East Kalimantan covers the new capital and the northern sea approaches, including the Makassar Strait and Sulawesi Sea.", "Compare the US: like HIMARS, one launcher fires both rockets and ballistic missiles, but with Turkish rather than US munitions. No KHAN live firing by Indonesian crews has been disclosed."], "sources": [{"title": "Indonesia conducts first disclosed live firing from ITBM launcher", "publisher": "Janes", "year": "2026", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/indonesia-conducts-first-disclosed-live-firing-from-itbm-launcher"}, {"title": "Indonesia Tests KHAN Launcher With TRG-122 Rockets, Advancing Kalimantan Precision Fires", "publisher": "Defence Security Asia", "year": "2026", "url": "https://defencesecurityasia.com/en/indonesia-khan-launcher-trg-122-test-kalimantan/"}, {"title": "Indonesia becomes first in Southeast Asia to deploy modern short-range ballistic missile system", "publisher": "CNA", "year": "2025", "url": "https://www.channelnewsasia.com/asia/indonesia-khan-ballistic-missile-first-southeast-asia-turkiye-5280236"}, {"title": "Indonesia’s KHAN missiles aren’t targeting China", "publisher": "Lowy Institute (The Interpreter)", "year": "2025", "url": "https://www.lowyinstitute.org/the-interpreter/indonesia-s-khan-missiles-aren-t-targeting-china"}, {"title": "Indonesia Tests TRLG-122 Artillery Rocket from ITBM-600 MLRS", "publisher": "TURDEF", "year": "2026", "url": "https://turdef.com/article/indonesia-tests-trlg-122-artillery-rocket-from-itbm-600-mlrs"}], "confidence": "Reported", "asOf": "2026-10", "relatedIds": ["idn-eq-precision-munitions", "idn-les-propellant", "idn-eq-av-ucf", "joint-eq-m142", "joint-eq-rkt-munitions"]},
+  {"id": "idn-org-astros", "topic": "rocket-missile-artillery", "country": "Indonesia", "addedIn": "2026.12", "module": "Forces", "force": "Indonesian Army (TNI-AD)", "echelon": ["Battalion"], "type": "Organisation", "title": "ASTROS II Mk6: The Strategic-Reserve Rocket Battalions", "what": ["The Army operates the Brazilian Avibras ASTROS II Mk6 rocket system in Kostrad battalions."], "how": ["Reported: Yonarmed 10 (Kostrad) fires SS-60 and SS-80 rockets, and Yonarmed 1 in Singosari, Malang (renamed 1 March 2024 under Menarmed 2) also operates ASTROS.", "Reported: Yonarmed 1 has three firing batteries, a headquarters battery and an observation platoon.", "Reported: on 6×6 and 4×4 trucks, air-transportable, up to 300 km depending on the rocket.", "ASTROS launchers fired in the Super Garuda Shield 26 joint strike beside US HIMARS."], "why": ["Reported: moving Yonarmed 1 from a regional command to Kostrad put the rockets near airbases and ports for deployment anywhere in the country.", "Compare the US: ASTROS fills a role like HIMARS, but Indonesia’s confirmed firings use unguided area rockets, not guided GMLRS."], "sources": [{"title": "Indonesian, U.S. forces conduct combined joint land strike during Super Garuda Shield", "publisher": "4th Infantry Division Public Affairs (DVIDS)", "year": "2026", "url": "https://www.dvidshub.net/news/574056/indonesian-us-forces-conduct-combined-joint-land-strike-during-super-garuda-shield"}, {"title": "Batalyon Artileri Medan 1", "publisher": "Wikipedia (Indonesian)", "year": "2024", "url": "https://id.wikipedia.org/wiki/Batalyon_Artileri_Medan_1"}], "confidence": "Reported", "asOf": "2026-09", "relatedIds": ["idn-eq-av-ucf", "idn-trn-sgs26", "idn-eq-itbm-khan", "joint-eq-m142"]},
+  {"id": "idn-eq-marine-mlrs", "topic": "rocket-missile-artillery", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Battalion"], "type": "Equipment", "title": "Marine 122mm Rocket Launchers and the R-Han 122B", "what": ["The Marines operate Czech RM-70 Vampire, older RM-70 Grad and Chinese Norinco Type 90B 122mm launchers for amphibious operations.", "A domestic consortium developed the R-Han 122B rocket, but its adoption is not confirmed."], "how": ["Reported: 36 RM-70 Vampire (8 in 2016, 28 in 2022–2023, some assembled locally), 9 RM-70 Grad (about 2003) and at least 4 Type 90B (2015, up to 40 km).", "Pasmar 1 to 3 use them in landings such as Banongan and in joint fires such as Super Garuda Shield 26.", "Reported: RM-70 batteries use Slovak Aligator Master 4×4 observer vehicles.", "The Ministry of Defence, Pindad, Dahana, PT DI and LAPAN built the R-Han 122B (Reported: 64 kg, 18 kg warhead, about 15 to 30 km); a 2021 study rated it TRL 7 and not yet adopted."], "why": ["Saturating 122mm rockets suppress coastal defences quickly in a landing; local assembly and rockets aim to cut dependence on imported stocks.", "Compare the US: the Marine Corps replaced area rockets with precision HIMARS; Indonesian Marines still invest in unguided saturation launchers."], "sources": [{"title": "List of equipment of the Indonesian Navy", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Indonesian_Navy"}, {"title": "Indonesian, U.S. forces conduct combined joint land strike during Super Garuda Shield", "publisher": "4th Infantry Division Public Affairs (DVIDS)", "year": "2026", "url": "https://www.dvidshub.net/news/574056/indonesian-us-forces-conduct-combined-joint-land-strike-during-super-garuda-shield"}, {"title": "Analysis Technological Requirements of the Technology Readiness Level of the R-Han 122B Ballistic Rocket Weapon System for Indonesian Defense", "publisher": "IAR Journal of Engineering and Technology", "year": "2021", "url": "https://www.iarconsortium.org/iarjet/34/152/analysis-technological-requirements-of-the-technology-readiness-level-of-the-r-han-122b-ballistic-rocket-weapon-system-for-indonesian-defense-1383/"}, {"title": "Majalah Cakrawala TNI AL, Edisi Khusus 442", "publisher": "TNI Angkatan Laut", "year": "2019", "url": "https://www.tnial.mil.id/assets/majalah/PDF-20191219-143323.pdf"}], "confidence": "Reported", "asOf": "2026-09", "relatedIds": ["idn-trn-sgs26", "idn-org-astros", "idn-eq-observer-uav", "rus-eq-tornado-g"]},
+  {"id": "idn-trn-anka", "topic": "loitering-munitions", "country": "Indonesia", "addedIn": "2026.12", "module": "Training", "force": "Multiple", "echelon": ["Theatre"], "type": "Training", "title": "ANKA: Armed MALE Drones and Their Operators", "what": ["Reported: Indonesia is taking 12 Turkish Aerospace ANKA-S armed medium-altitude long-endurance drones under a 2023 contract of about $300 million.", "Reported: Navy aviators finished five months of pilot and sensor-operator training in Ankara, June to November 2026."], "how": ["Reported: six built in Türkiye and six assembled by PT Dirgantara Indonesia under technology transfer.", "Reported: up to 30 hours aloft and 30,000 ft, with day and thermal cameras, synthetic aperture radar and MAM-L and Cirit guided munitions.", "Reported: the Air Force received the first aircraft in September 2025; later deliveries are not disclosed.", "Reported: the trained Wing Udara 2 officers will instruct others, for surveillance over the southern Malacca Strait and North Natuna Sea."], "why": ["Persistent armed drones close maritime surveillance gaps and cue long-range fires without risking crews; training at the maker speeds conversion.", "Compare the US: ANKA does a smaller version of the MQ-9 Reaper’s job. Open sources do not say how the 12 are split between Air Force and Navy."], "sources": [{"title": "Indonesian Navy aviators complete ANKA UAV training in Türkiye", "publisher": "GBP Aerospace & Defence", "year": "2026", "url": "https://gbp.com.sg/stories/indonesian-navy-aviators-complete-anka-uav-training-in-turkiye/"}, {"title": "ANKA Exports", "publisher": "Envanter Medya", "year": "2026", "url": "https://envantermedya.com/en/en-anka-exports/"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["idn-eq-ucav", "idn-eq-observer-uav", "idn-eq-axys"]},
+  {"id": "idn-eq-ucav", "topic": "loitering-munitions", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Theatre"], "type": "Equipment", "title": "Elang Hitam, Kizilelma and CH-4: Three Paths to Armed Drones", "what": ["Reported: Indonesia combines its own armed drone (Elang Hitam) with foreign jet-powered unmanned combat aircraft (Bayraktar Kizilelma) and existing Chinese CH-4s."], "how": ["Reported: returned to military development in October 2024, Elang Hitam first flew on 28 July 2025 at Kertajati, West Java.", "Reported: 16 m wingspan, 1,300 kg take-off weight, 300 kg payload, 30 hours, planned rockets and MAM-L/MAM-C guided munitions.", "Reported: at SAHA 2026 (May 2026) Republikorp and Baykar signed a framework for 12 Kizilelma from 2028, with an option for 48 more.", "Reported: Kizilelma is designed for close air support, reconnaissance, air-defence suppression and strike from an internal weapons bay."], "why": ["Buying from several countries and building at home reduces dependence on one supplier and grows local aerospace skills.", "Compare the US: the Collaborative Combat Aircraft programme is built by US firms; Indonesia mixes home-grown prototypes with Turkish co-production."], "sources": [{"title": "Indonesian Aerospace Elang Hitam", "publisher": "Wikipedia", "year": "2025", "url": "https://en.wikipedia.org/wiki/Indonesian_Aerospace_Elang_Hitam"}, {"title": "Indonesia, Turkey Sign Deal for Unmanned Fighter Jets", "publisher": "Jakarta Globe", "year": "2026", "url": "https://jakartaglobe.id/business/indonesia-turkey-sign-deal-for-unmanned-fighter-jets"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["idn-trn-anka", "idn-eq-minibe"]},
+  {"id": "idn-eq-minibe", "topic": "loitering-munitions", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Battalion"], "type": "Equipment", "title": "Minibe: Pindad’s Small Loitering Munition", "what": ["Reported: state-owned PT Pindad developed the Minibe, a small electric fixed-wing loitering munition to give units their own precision strike.", "Reported: shown at Indo Defence 2022; reaches 25 km with a 0.8 kg warhead."], "how": ["Reported: 1.3 m wingspan, 6 kg take-off weight.", "Reported: up to 250 km/h, 15 minutes’ endurance.", "Reported: the small warhead suits light vehicles, exposed crews and point targets, not heavy armour.", "Reported: still described as under development in January 2023. Not found in open sources: production numbers, fielding dates or use in Army battalions as of November 2026."], "why": ["A domestic loitering munition offers cheap precision strike beyond mortar range without spending guided shells.", "Compare the US: it fills a niche like Switchblade 300, but numbers in service are unconfirmed."], "sources": [{"title": "Ini Deretan Drone Buatan RI, Ada yang Bisa ‘Bunuh Diri’", "publisher": "CNBC Indonesia", "year": "2022", "url": "https://www.cnbcindonesia.com/tech/20221102175933-38-384650/ini-deretan-drone-buatan-ri-ada-yang-bisa-bunuh-diri"}, {"title": "Sedang Dikembangkan, Drone-drone Kamikaze Buatan Indonesia", "publisher": "Good News From Indonesia", "year": "2023", "url": "https://www.goodnewsfromindonesia.id/2023/01/07/sedang-dikembangkan-drone-drone-kamikaze-buatan-indonesia"}], "confidence": "Reported", "asOf": "2023-01", "relatedIds": ["idn-eq-ucav", "idn-eq-mo3", "usa-eq-switchblade"]},
+  {"id": "idn-eq-precision-munitions", "topic": "ammunition-effects", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Indonesian Army (TNI-AD)", "echelon": ["Battalion"], "type": "Equipment", "title": "Guided Rockets and Missiles Join Unguided Salvos", "what": ["Reported: the ITBM-600 brings guided 122mm rockets (TRG-122) and 610mm KHAN ballistic missiles alongside unguided SS-60/SS-80 rockets and 155mm shells."], "how": ["Reported: TRG-122 weighs about 76 kg with a 13.5 kg steel-ball fragmentation warhead, 13 to 30 km, inertial plus satellite guidance; stated accuracy 10 m or better.", "Reported: the launcher also takes laser-guided TRLG-122 and TRLG-230 (70 km) rockets for point or moving targets marked by a drone.", "Reported: KHAN carries about 470 kg to 80–280 km, with anti-jamming and inertial-only fallback guidance.", "Reported: CAESAR fires the French LU family (HE, smoke, illumination, practice) and extended-range shells; Indonesian stocks are not disclosed."], "why": ["Guided rounds cut the number fired per target and the ammunition shipped between islands; inertial fallback keeps them usable under GPS jamming.", "Compare the US: TRG-122 and KHAN mirror the GMLRS and ATACMS/PrSM layers; no guided 155mm shell like Excalibur has been disclosed for Indonesia."], "sources": [{"title": "Indonesia Tests KHAN Launcher With TRG-122 Rockets, Advancing Kalimantan Precision Fires", "publisher": "Defence Security Asia", "year": "2026", "url": "https://defencesecurityasia.com/en/indonesia-khan-launcher-trg-122-test-kalimantan/"}, {"title": "Indonesia conducts first disclosed live firing from ITBM launcher", "publisher": "Janes", "year": "2026", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/indonesia-conducts-first-disclosed-live-firing-from-itbm-launcher"}, {"title": "Indonesia Tests TRLG-122 Artillery Rocket from ITBM-600 MLRS", "publisher": "TURDEF", "year": "2026", "url": "https://turdef.com/article/indonesia-tests-trlg-122-artillery-rocket-from-itbm-600-mlrs"}, {"title": "6x6 self-propelled howitzer 155mm CAESAR", "publisher": "Army Recognition", "year": "2026", "url": "https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/self-propelled-howitzers/6x6-self-propelled-howitzer-155mm-caesar"}], "confidence": "Reported", "asOf": "2026-10", "relatedIds": ["idn-eq-itbm-khan", "idn-eq-caesar", "joint-eq-rkt-munitions"]},
+  {"id": "idn-pol-cluster", "topic": "ammunition-effects", "country": "Indonesia", "addedIn": "2026.12", "module": "Forces", "force": "Multiple", "echelon": ["Theatre"], "type": "Policy", "title": "Cluster Munitions: Signed but Not Ratified", "what": ["Indonesia signed the Convention on Cluster Munitions and supports it in diplomacy, but had not ratified it as of September 2025.", "Treaty monitors believe Indonesia still holds undeclared cluster munitions."], "how": ["Indonesia attended the 2008 Dublin conference and spoke for a world free of cluster munitions at the 2011 and 2012 meetings of States Parties.", "The treaty registry lists it as the only Asia-Pacific signatory that has not ratified, one of 12 such signatories against 112 States Parties.", "In September 2025 the Cluster Munition Coalition said Indonesia is thought to hold stocks and urged ratification and destruction.", "Not found in open sources: any official statement of types, quantities or destruction plans."], "why": ["Staying a non-ratifying signatory keeps legacy area weapons legally unclear while staying aligned with humanitarian norms.", "Compare the US: neither is a State Party, but the US never signed and openly transfers cluster munitions; Indonesia signed and does not acknowledge stocks."], "sources": [{"title": "States Parties – The Convention on Cluster Munitions", "publisher": "Convention on Cluster Munitions", "year": "2025", "url": "https://www.clusterconvention.org/states-parties/"}, {"title": "CMC Statement on Stockpile Destruction and Retention", "publisher": "Cluster Munition Coalition", "year": "2025", "url": "https://www.clusterconvention.org/wp-content/uploads/2025/09/CMC-Statement-on-Stockpile-Destruction-and-Retention.pdf"}, {"title": "General Exchange of Views Statement by H.E. Ms. Esti Andayani at the Third Meeting of States Parties", "publisher": "Delegation of the Republic of Indonesia", "year": "2012", "url": "https://www.clusterconvention.org/files/meetings/3msp/GEV-Indonesia1.pdf"}], "confidence": "Confirmed", "asOf": "2025-09", "relatedIds": ["idn-eq-precision-munitions", "kpa-eq-chem-cluster"]},
+  {"id": "idn-eq-observer-uav", "topic": "target-acquisition", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Battalion"], "type": "Equipment", "title": "Observation Platoons and Target-Observer Drones", "what": ["Indonesian artillery and Marine units pair forward observers (Jaupan) and observation platoons with target-observer drones and small unmanned aircraft.", "Reported: Pussenarmed feeds drone video straight into digital command networks."], "how": ["Reported: rocket battalions such as Yonarmed 1 have an organic observation platoon beside three firing batteries.", "Reported: Marine RM-70 batteries use Slovak Aligator Master 4×4 armoured observer vehicles.", "Reported: observers use digital binoculars that send target coordinates electronically to SISBAK Mortir fire control.", "Marine infantry combined small drones with Mo-3 mortar firing during Keris MAREX 2024.", "Reported: Pussenarmed showed target-observer drones linked to PT Len’s AXYS-ISR system."], "why": ["Jungle canopy and islands block ground observation, so organic drones are needed to use rockets and 155mm guns at 30 to 45 km.", "Compare the US: like US fire support teams adding small drones, but at an earlier stage of fielding."], "sources": [{"title": "Keris MAREX 24: 2/7, 10th Kormar Conduct Mortar Range with sUAS", "publisher": "Marine Rotational Force – Southeast Asia (DVIDS)", "year": "2024", "url": "https://www.dvidshub.net/image/8774514/keris-marex-24-2-7-10th-kormar-conduct-mortar-range-with-suas"}, {"title": "Visit from the Commander of the Marine Corps (Pangkormar) to our Headquarters", "publisher": "PT Hariff Dipa Persada", "year": "2025", "url": "https://hariffdefense.com/news/news_detail/d19bb7ca-6bf4-4aef-a84a-638409c963ca"}, {"title": "Batalyon Artileri Medan 1", "publisher": "Wikipedia (Indonesian)", "year": "2024", "url": "https://id.wikipedia.org/wiki/Batalyon_Artileri_Medan_1"}], "confidence": "Reported", "asOf": "2026-09", "relatedIds": ["idn-eq-aldalbak", "idn-eq-axys", "idn-eq-mo3", "usa-org-fist"]},
+  {"id": "idn-eq-wlr88", "topic": "target-acquisition", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Indonesian Army (TNI-AD)", "echelon": ["Regiment"], "type": "Equipment", "title": "WLR-88: A Home-Built Weapon-Locating Radar", "what": ["Reported: Pussenarmed and PT Elektronika Utama ITB developed the WLR-88 weapon-locating radar to find enemy guns.", "Reported: the prototype tracks incoming rounds out to 20 km and classifies the weapon that fired."], "how": ["Reported: built under a defence research programme, it computes the firing point from the projectile’s path.", "Reported: trialled in a Menarmed 2 (Kostrad) integrated live-fire exercise.", "Reported: on 23 March 2022 the Army Chief of Staff inspected it at Pusdikarmed and called for certification trials and more range.", "Reported: Parliament’s Defence Commission (Komisi I) inspected it as a domestic industry milestone.", "Not found in open sources: production, longer-range versions or issue to units since 2023."], "why": ["A domestic counter-battery radar avoids export limits, but 20 km is half the range of Indonesia’s own CAESAR.", "Compare the US: at a reported 20 km, WLR-88 reaches less than half as far as the AN/TPQ-53."], "sources": [{"title": "Jenderal Dudung Tinjau WLR-88, Fungsinya Deteksi Koordinat Artileri Musuh", "publisher": "detikNews", "year": "2022", "url": "https://news.detik.com/berita/d-5996754/jenderal-dudung-tinjau-wlr-88-fungsinya-deteksi-koordinat-artileri-musuh"}, {"title": "Asli Buatan Indonesia, Ini Penampakan Radar Canggih Armed TNI", "publisher": "VIVA.co.id", "year": "", "url": "https://www.viva.co.id/militer/militer-indonesia/1432546-asli-buatan-indonesia-ini-penampakan-radar-canggih-armed-tni"}], "confidence": "Reported", "asOf": "2022-03", "relatedIds": ["idn-eq-observer-uav", "idn-les-drones-cyber", "usa-eq-tpq53"]},
+  {"id": "idn-trn-pusdikarmed", "topic": "technical-fire-direction", "country": "Indonesia", "addedIn": "2026.12", "module": "Training", "force": "Indonesian Army (TNI-AD)", "echelon": ["Corps"], "type": "Training", "title": "Pusdikarmed: The Gunnery School and Virtual Simulation", "what": ["The Field Artillery Education Centre (Pusdikarmed) in Cimahi, West Java, trains artillery officers, NCOs and soldiers in technical gunnery.", "The Military Academy (Akmil) is adding virtual observer and fire-direction simulation, planned to link with regional training centres."], "how": ["Pusdikarmed is required to keep its curriculum up to date with new technology and weapons.", "It trains large cohorts under the Army training command (for example 1,673 students at one graduation); Reported: Pussenarmed also runs weapon-system courses.", "At Akmil, simulation module NA5107 trains cadets as forward observers: fix the target, then send accurate corrections.", "Plans to link academy simulators with regional centres for live-virtual-constructive training note instructor skills and budget limits."], "why": ["Simulation saves live ammunition and lets crews practise digital calls for fire before they reach the range.", "Compare the US: Pusdikarmed is Indonesia’s counterpart to the Fires Center of Excellence at Fort Sill; its networked simulation is still being phased in."], "sources": [{"title": "Visi dan Misi Pusdikarmed", "publisher": "Pusdikarmed Pussenarmed TNI AD", "year": "2026", "url": "https://pusdikarmed.tni-ad.mil.id/visi-misi"}, {"title": "Profil Sekolah", "publisher": "Pusdikarmed Pussenarmed TNI AD", "year": "2026", "url": "https://pusdikarmed.tni-ad.mil.id/profil-sekolah"}, {"title": "Jurnal Mekanika Sista (virtual simulation and Dasar Pimpinan Penembakan NA5107)", "publisher": "Akademi Militer", "year": "2025", "url": "https://ojs.akmil.ac.id/index.php/jurnalmekanikasista/article/download/523/407/2634"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["idn-org-overview", "idn-eq-aldalbak", "usa-trn-cannon-specialties"]},
+  {"id": "idn-eq-aldalbak", "topic": "technical-fire-direction", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Battery"], "type": "Equipment", "title": "ALDALBAK and SISBAK Mortir: Digital Fire Control from Local Industry", "what": ["Reported: PT Hariff Dipa Persada makes ALDALBAK for artillery fire control and SISBAK Mortir for computerised mortar fire direction.", "Reported: both replace manual plotting and voice radio with digital target messages and automatic ballistic computing."], "how": ["Reported: ALDALBAK links observer instruments, the fire direction centre and the guns, and works with the battlefield management system.", "Reported: SISBAK Mortir takes target data straight from observers’ digital binoculars, removing voice errors.", "Reported: it computes azimuth and elevation within seconds, helps choose ammunition and sends firing orders to the crew.", "Reported: a two-week conversion course: Pindad teaches the mortar in week one, Hariff the fire control in week two.", "Reported: in August 2025 the Marine Corps commander inspected SISBAK Mortir and BMS CY-16H for Marine vehicles."], "why": ["Automatic computing shortens the sensor-to-shooter cycle and cuts wasted rounds for units with no built-in digital fire control.", "Compare the US: they do the jobs of AFATDS and the M95/M96 mortar fire control system, but are made at home."], "sources": [{"title": "ALDALBAK", "publisher": "PT Hariff Dipa Persada", "year": "2023", "url": "https://hariffdefense.com/whatwedo/weapon"}, {"title": "Visit from the Commander of the Marine Corps (Pangkormar) to our Headquarters", "publisher": "PT Hariff Dipa Persada", "year": "2025", "url": "https://hariffdefense.com/news/news_detail/d19bb7ca-6bf4-4aef-a84a-638409c963ca"}, {"title": "Sisbak Mortir Training Program", "publisher": "PT Hariff Dipa Persada", "year": "2025", "url": "https://hariffdefense.com/news/news_detail/9d6e91b3-ee80-47a1-8969-b3e51b16ed90"}], "confidence": "Reported", "asOf": "2025-08", "relatedIds": ["idn-eq-mo3", "idn-eq-bms-taca", "idn-eq-observer-uav", "usa-eq-afatds-arch"]},
+  {"id": "idn-eq-av-ucf", "topic": "technical-fire-direction", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Indonesian Army (TNI-AD)", "echelon": ["Battery"], "type": "Equipment", "title": "AV-UCF: Correcting Rocket Salvos by Radar", "what": ["Reported: ASTROS II Mk6 batteries use the Brazilian AV-UCF fire control unit, whose radar tracks fired rockets to correct the next salvo.", "Reported: ITBM-600 batteries have their own meteorological and command vehicles."], "how": ["Reported: the AV-UCF radar tracks the flight of rockets after launch.", "Reported: it measures how far they drift from the planned path and computes corrections for later salvos at long range.", "Reported: in ITBM-600 batteries, meteorological units supply weather data before guided rockets or missiles are fired."], "why": ["Unguided SS-60 and SS-80 rockets spread widely at long range; radar corrections keep salvos accurate without forward observers.", "Compare the US: HIMARS fires GPS-guided rockets, so US batteries need no trajectory-tracking radar vehicle."], "sources": [{"title": "Batalyon Artileri Medan 1", "publisher": "Wikipedia (Indonesian)", "year": "2024", "url": "https://id.wikipedia.org/wiki/Batalyon_Artileri_Medan_1"}, {"title": "Indonesia Tests KHAN Launcher With TRG-122 Rockets, Advancing Kalimantan Precision Fires", "publisher": "Defence Security Asia", "year": "2026", "url": "https://defencesecurityasia.com/en/indonesia-khan-launcher-trg-122-test-kalimantan/"}], "confidence": "Reported", "asOf": "2026-10", "relatedIds": ["idn-org-astros", "idn-eq-itbm-khan", "usa-eq-ballistic-compare"]},
+  {"id": "idn-eq-axys", "topic": "digital-fires-c2", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Indonesian Army (TNI-AD)", "echelon": ["Division"], "type": "Equipment", "title": "AXYS-ISR: Drone Feeds over a Sovereign Data Link", "what": ["Reported: Pussenarmed sends reconnaissance drone feeds into PT Len Industri’s AXYS-ISR command system over an Indonesian encrypted tactical data link.", "Analysis: this entry rests on one Indonesian defence-magazine report (September 2026) that could not be opened for checking; no other open source describes AXYS-ISR. PT Len does hold a military certificate for a tactical data link system."], "how": ["Reported: reconnaissance drones stream live video over PT Len’s tactical data link.", "Reported: AXYS-ISR fuses drone imagery and target data into one shared picture.", "Reported: the same data goes to infantry perimeter systems and air defence radars.", "Reported: domestic encryption aims to stop interception of targeting links."], "why": ["Indonesian-made encrypted links protect the drone-to-gun chain from electronic attack and foreign software limits.", "Compare the US: it plays a sensor-fusion role like a JADC2 tactical gateway, built on PT Len’s own design."], "sources": [{"title": "Penandatanganan dan Penyerahan Sertifikat Kelaikan Militer Communication Tactical Data Link System", "publisher": "Kementerian Pertahanan (Puslaik)", "year": "", "url": "https://www.kemhan.go.id/puslaik/?p=6778"}], "confidence": "Analysis", "asOf": "2026-09", "relatedIds": ["idn-eq-observer-uav", "idn-eq-bms-taca", "idn-les-drones-cyber", "ukr-eq-delta"]},
+  {"id": "idn-eq-bms-taca", "topic": "digital-fires-c2", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Brigade"], "type": "Equipment", "title": "BMS CY-16H and TACA: Bridging Many Systems", "what": ["Reported: PT Hariff Dipa Persada’s BMS CY-16H battlefield management system and TACA command suite give digital command and translate between different systems.", "Reported: BMS CY-16H is in use on over 400 vehicles, with 240 dismounted users and 17 command posts."], "how": ["Reported: versions fit artillery, amphibious vehicles, Navy ships and landing craft, and command posts.", "Reported: it links to ALDALBAK and SISBAK Mortir so calls for fire pass digitally between echelons.", "Reported: TACA scales from FIELD (front line) and CENTER (headquarters) to GROUP (Army–Navy–Air Force) and GATEWAY (translation between weapon systems).", "Reported: fitted to Turkish BMC Kirpi armoured vehicles."], "why": ["With equipment from many countries, translation software is how Indonesia unites targeting without replacing older hardware.", "Compare the US: BMS CY-16H is like the JBC-P mounted network; TACA GATEWAY solves a mixed-vendor problem US forces do not have at home."], "sources": [{"title": "Visit from the Commander of the Marine Corps (Pangkormar) to our Headquarters", "publisher": "PT Hariff Dipa Persada", "year": "2025", "url": "https://hariffdefense.com/news/news_detail/d19bb7ca-6bf4-4aef-a84a-638409c963ca"}, {"title": "Command, Control and Protocol (TACA)", "publisher": "PT Hariff Dipa Persada", "year": "2023", "url": "https://hariffdefense.com/whatwedo/command"}], "confidence": "Reported", "asOf": "2025-08", "relatedIds": ["idn-eq-aldalbak", "idn-eq-axys", "idn-les-interop"]},
+  {"id": "idn-les-drones-cyber", "topic": "counterfire-survivability", "country": "Indonesia", "addedIn": "2026.12", "module": "Lessons", "force": "Indonesian Army (TNI-AD)", "echelon": ["Corps"], "type": "Lesson", "title": "Lessons from Drone Swarms and Cyber Attack", "what": ["Reported: from the Russia–Ukraine war and Middle East drone and missile strikes, Army leaders concluded that cheap drones and cyber attack change how artillery and armour must fight, not that they are obsolete.", "Analysis: this rests on one Indonesian defence-magazine report (September 2026) that could not be opened for checking."], "how": ["Reported: in September 2026 the Army spokesman said cheap drones disabling armour show artillery, armour, infantry, aviation and air defence must work as one network under cyber and electronic-warfare cover.", "Reported: drones and digital systems are treated as force multipliers for survival, speed and precision, not replacements.", "Reported: the Military Academy and officer and NCO schools now teach digital literacy, unmanned systems, cyber security and data-driven decisions."], "why": ["Static batteries and command posts are quickly found by drones, counter-battery radar and cyber intrusion; schools must teach the counters.", "Compare the US: the assessment matches US lessons from Ukraine on counter-drone defence and command-post survival; Indonesia is still building them into its schools."], "sources": [], "confidence": "Analysis", "asOf": "2026-09", "relatedIds": ["idn-eq-shorad", "idn-eq-axys", "les-cannon-drones-gps"]},
+  {"id": "idn-eq-shorad", "topic": "counterfire-survivability", "country": "Indonesia", "addedIn": "2026.12", "module": "Equipment", "force": "Indonesian Army (TNI-AD)", "echelon": ["Battalion"], "type": "Equipment", "title": "Arhanud: Air and Drone Defence for the Guns", "what": ["Army air defence battalions protect troops, artillery and key sites with ForceSHIELD/Starstreak, Mistral, older Grom missiles and 57mm guns, and mobile counter-drone systems.", "Reported: domestic and Franco-Indonesian programmes add jamming and kinetic anti-drone vehicles."], "how": ["Reported: a 2014 contract over £100 million bought five ForceSHIELD batteries: Starstreak missiles (over Mach 3, 7 km), ControlMaster200 radars and RAPIDRanger launchers on VAMTAC vehicles.", "Yonarhanud 10 fired Mistral in Super Garuda Shield 26; Reported: the Jakarta regiment also holds Grom missiles and 57mm S-60 guns.", "Reported: Pindad’s SPS-1 on the Maung MV3 combines a radio drone jammer with a 12.7mm machine gun (2024).", "Reported: KNDS agreed in June 2025 to add counter-drone kit to the P2 Tiger vehicle."], "why": ["Wheeled guns and launchers survive by moving fast under layered short-range air and drone defence.", "Compare the US: a point-defence role like M-SHORAD and M-LIDS, spread across more mixed legacy and prototype systems."], "sources": [{"title": "Indonesian Army bolsters air defences with Thales Forceshield", "publisher": "Defence IQ", "year": "2014", "url": "https://www.defenceiq.com/air-land-and-sea-defence-services/articles/indonesian-army-bolsters-air-defences-with-thales"}, {"title": "Indo Defence 2025: KNDS signs partnership agreements", "publisher": "Janes", "year": "2025", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/security/indo-defence-2025-knds-signs-partnership-agreements"}, {"title": "1st Air Defense Artillery Regiment (Indonesia)", "publisher": "Wikipedia", "year": "2025", "url": "https://en.wikipedia.org/wiki/1st_Air_Defense_Artillery_Regiment_(Indonesia)"}, {"title": "SGS26 Stinger and Mistral Exercise", "publisher": "4th Infantry Division Public Affairs (DVIDS)", "year": "2026", "url": "https://www.dvidshub.net/image/9923616/sgs26-stinger-and-mistral-exercise"}], "confidence": "Reported", "asOf": "2026-09", "relatedIds": ["idn-les-drones-cyber", "idn-eq-caesar", "usa-org-cf-ada-protection"]},
+  {"id": "idn-sus-ammo", "topic": "sustainment", "country": "Indonesia", "addedIn": "2026.12", "module": "Forces", "force": "Multiple", "echelon": ["Theatre"], "type": "Organisation", "title": "Building Shells at Home: The Batulicin Factory", "what": ["Reported: Indonesia is expanding ammunition production beyond Pindad’s current 5.56mm to 105mm range to include 155mm shells.", "Reported: on 4 July 2026 the Defence Minister broke ground on a new Pindad munitions factory at Batulicin, South Kalimantan."], "how": ["Reported: Pindad now makes small, medium and large rounds up to 105mm, and grenades.", "Reported: a 2024 agreement with Rheinmetall Denel Munition set up cooperation on a new factory and shell development.", "Reported: at Indo Defence 2025 KNDS signed for local production of 155mm CAESAR ammunition.", "Reported: the Batulicin plant in Tanah Bumbu will make rounds from small arms to large-calibre artillery."], "why": ["Making large shells in Kalimantan spreads war reserves away from Java and cuts dependence on imports for the CAESAR fleet.", "Compare the US: like the US expansion of 155mm production since 2022, Indonesia is adding lines through European partners."], "sources": [{"title": "Ammunition Factory of Indonesian PT Pindad Breaks Ground", "publisher": "DefenseMirror.com", "year": "2026", "url": "https://defensemirror.com/news/41680"}, {"title": "Indo Defence 2025: KNDS signs partnership agreements", "publisher": "Janes", "year": "2025", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/security/indo-defence-2025-knds-signs-partnership-agreements"}], "confidence": "Reported", "asOf": "2026-07", "relatedIds": ["idn-les-propellant", "idn-eq-caesar", "joint-eq-sus-production"]},
+  {"id": "idn-les-propellant", "topic": "sustainment", "country": "Indonesia", "addedIn": "2026.12", "module": "Lessons", "force": "Multiple", "echelon": ["Theatre"], "type": "Lesson", "title": "Propellant and the Cost of a Mixed Fleet", "what": ["Reported: running rockets and missiles from several countries in several calibres creates a heavy supply and propellant burden across the islands.", "Reported: Indonesia is tackling propellant shortages through state consortia, foreign partners and research on palm-oil waste."], "how": ["Reported: analysts of the October 2026 ITBM firing noted that four calibres (122, 230, 300, 610mm) widen the supply problem; ammunition and maintenance are the real measure of combat power.", "Reported: in January 2025 a Pindad–Dahana consortium was announced to speed up a domestic propellant factory.", "Reported: on 30 September 2025 Pindad and D&M Holding signed to build an Indonesian–US–European energetics centre.", "Reported: in November 2026 Pindad described a pilot turning oil-palm waste into propellant cellulose: 50 tonnes a year in 2027, up to 1,000 tonnes later."], "why": ["Domestic shell cases are of little use in a long war if propellant must still be imported.", "Compare the US: both see energetics as a bottleneck; Indonesia is unusual in testing palm-oil waste as a feedstock."], "sources": [{"title": "Indonesia Tests KHAN Launcher With TRG-122 Rockets, Advancing Kalimantan Precision Fires", "publisher": "Defence Security Asia", "year": "2026", "url": "https://defencesecurityasia.com/en/indonesia-khan-launcher-trg-122-test-kalimantan/"}, {"title": "D&M Holding Company, PT Pindad sign MOU to develop Energetics Center of Excellence in Indonesia", "publisher": "D&M Holding Company", "year": "2025", "url": "https://www.dmholding.com/industry-articles/dm-holding-company-pt-pindad-sign-mou-to-develop-energetics-center-of-excellence-in-indonesia/"}, {"title": "Pindad Develops OPEFB Palm Waste Into Propellants and Armor Composites", "publisher": "GAPKI", "year": "2026", "url": "https://gapki.id/en/news/2026/11/04/pindad-opefb-palm-waste-propellants-armor-composites/"}, {"title": "Ammunition Factory of Indonesian PT Pindad Breaks Ground", "publisher": "DefenseMirror.com", "year": "2026", "url": "https://defensemirror.com/news/41680"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["idn-sus-ammo", "idn-eq-itbm-khan", "joint-eq-sus-bottlenecks"]},
+  {"id": "mys-org-overview", "topic": "liaison", "country": "Malaysia", "addedIn": "2026.12", "module": "Forces", "force": "Malaysian Army", "echelon": ["Battery", "Regiment", "Brigade"], "type": "Organisation", "title": "The Royal Artillery Regiment: One Arm for Guns, Rockets, Radars and Air Defence", "what": ["The Malaysian Army’s Royal Artillery Regiment (Rejimen Artileri Diraja, RAD) holds close support (105mm), general support (155mm), rocket, locating and ground-based air defence regiments, on British Commonwealth lines.", "Defending two theatres across the South China Sea, Peninsular and East Malaysia, shapes it around airmobile light guns, coastal fires and wheeled mobility."], "how": ["Regiments have a headquarters battery and three firing batteries of six guns or launchers.", "Reported: eight 105mm close-support regiments (1 RAD Para with LG1 Mk III; the rest with Mod 56), 155mm general-support regiments (21, 22 and 23 RAD), and 18 CAESAR guns contracted in June 2026.", "The Rocket Artillery Brigade (BAR) commands 51 and 52 RAD (ASTROS II) and 61 RAD (locating radars).", "The Air Defence Artillery Group (GAPU) holds 31 to 35 RAD; infantry and armoured battalions keep 60mm, 81mm and 120mm mortars.", "Not found in open sources: published tables of organisation and equipment."], "why": ["One regiment for every artillery role keeps common gunnery standards in a small army with equipment from five countries.", "Compare the US: field artillery and air defence are separate branches; Malaysia keeps both inside one regiment, as many Commonwealth armies do."], "sources": [{"title": "Royal Artillery Regiment (Malaysia)", "publisher": "Wikipedia", "year": "", "url": "https://en.wikipedia.org/wiki/Royal_Artillery_Regiment_(Malaysia)"}, {"title": "List of equipment of the Malaysian Army", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Malaysian_Army"}, {"title": "LKT 2026 Pamer Keupayaan Operasi Multi-Domain ATM", "publisher": "Berita Tentera Darat Malaysia", "year": "2026", "url": "https://btdmonline.my/index.php/2026/06/30/lkt-2026-pamer-keupayaan-operasi-multi-domain-atm/"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["mys-eq-105mm", "mys-eq-155mm", "mys-org-astros", "mys-eq-gapu", "idn-org-overview"]},
+  {"id": "mys-org-foo", "topic": "liaison", "country": "Malaysia", "addedIn": "2026.12", "module": "TTPs", "force": "Malaysian Army", "echelon": ["Brigade"], "type": "TTP", "title": "Forward Observation Officers and Brigade Fire Support", "what": ["The Army links artillery to manoeuvre brigades through Forward Observation Officers (FOO) and brigade fire-support coordination, pairing a 105mm close-support regiment with each brigade."], "how": ["RAD attaches FOOs to forward units to find targets, call for fire and adjust, as shown at the 1 RAD (Para) LG1 Mk III inauguration firing.", "The annual firepower demonstration (Latihan Kuasa Tembakan, LKT) rehearses how artillery, mortars and armour are brought together in a brigade attack.", "Reported: in urban operations, doctrine pairs infantry with armour, engineers, surveillance and close fire support.", "Not found in open sources: fire support coordination centre manning or how many FOOs sit below brigade."], "why": ["Jungle, plantation and urban ground cut lines of sight, so observers must be with the forward infantry.", "Compare the US: dedicated Fire Support Teams with 13F specialists; Malaysia keeps the Commonwealth officer-led observer model."], "sources": [{"title": "PTD Rasmi Tembakan Inaugurasi Meriam Baharu 1 RAD (Para)", "publisher": "Berita Tentera Darat Malaysia", "year": "2021", "url": "https://btdmonline.my/index.php/2021/10/15/ptd-rasmi-tembakan-inaugurasi-meriam-baharu-1-rad-para/"}, {"title": "LKT 2019 Pamer Keupayaan Aset TD", "publisher": "Berita Tentera Darat Malaysia", "year": "2019", "url": "https://btdmonline.my/index.php/2019/09/24/lkt-2019-pamer-keupayaan-aset-td/"}, {"title": "OBUA: Apabila kawasan terbina menjadi medan tempur", "publisher": "Air Times News Network", "year": "2026", "url": "https://www.airtimes.my/2026/10/01/obua-apabila-kawasan-terbina-menjadi-medan-tempur/"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["mys-ttp-jtac", "mys-eq-105mm", "usa-org-fist"]},
+  {"id": "mys-ttp-jtac", "topic": "liaison", "country": "Malaysia", "addedIn": "2026.12", "module": "TTPs", "force": "Multiple", "echelon": ["Theatre"], "type": "TTP", "title": "Joint Air-Land Fires and JTACs", "what": ["The Malaysian Armed Forces combine Army artillery with Air Force precision strikes and naval gunfire in joint exercises; Joint Terminal Attack Controller (JTAC) drills run nationally and with partners."], "how": ["At LKT 2026 in Gemas, artillery fire led straight into precision strikes by RMAF F/A-18D Hornets and Su-30MKMs.", "Reported: Five Power Defence Arrangements exercises such as Bersama Shield (2024) and Bersama Lima (October 2026) rehearse air-land targeting and naval gunfire with Australia, New Zealand, Singapore and the United Kingdom.", "In July 2026, during Keris Strike 26 in Sabah, multinational aircraft supported Malaysian simulated air-to-ground assaults.", "Reported: Army Aviation AW109 helicopters provide airborne sniper support for counter-terrorism raids."], "why": ["With no confirmed guided artillery rounds, the Air Force supplies precision at depth, so joint drills matter.", "Compare the US: large Tactical Air Control Party and ANGLICO structures support every brigade; Malaysia’s JTACs sit in specialist units."], "sources": [{"title": "LKT 2026 Pamer Keupayaan Operasi Multi-Domain ATM", "publisher": "Berita Tentera Darat Malaysia", "year": "2026", "url": "https://btdmonline.my/index.php/2026/06/30/lkt-2026-pamer-keupayaan-operasi-multi-domain-atm/"}, {"title": "Bombardiers on target at Bersama Shield", "publisher": "Australian Department of Defence", "year": "2024", "url": "https://www.defence.gov.au/news-events/news/2024-05-14/bombardiers-target-bersama-shield"}, {"title": "42 pesawat, tujuh kapal dan kapal selam sertai BERSAMA LIMA 2026", "publisher": "Air Times News Network", "year": "2026", "url": "https://www.airtimes.my/2026/10/08/42-pesawat-tujuh-kapal-dan-kapal-selam-sertai-bersama-lima-2026/"}, {"title": "Keris Strike 2026: Squad Live Fire Training", "publisher": "DVIDS (Guam National Guard)", "year": "2026", "url": "https://www.dvidshub.net/video/1016456/keris-strike-2026-squad-live-fire-training"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["mys-org-foo", "mys-les-daulat", "mys-trn-keris-strike"]},
+  {"id": "mys-les-daulat", "topic": "liaison", "country": "Malaysia", "addedIn": "2026.12", "module": "Lessons", "force": "Multiple", "echelon": ["Theatre"], "type": "Lesson", "title": "Operation Daulat: Air and Mortar Fire in Sabah", "what": ["Operation Daulat (March 2013), against armed Sulu intruders at Lahad Datu, Sabah, was Malaysia’s most recent domestic combat use of air strikes and mortar fire.", "It showed fast Air Force response but also the strain of projecting fire support from the Peninsula to East Malaysia."], "how": ["Reported: on 5 March 2013, three F/A-18D Hornets and five Hawk 208s bombed positions at Kampung Tanduo before troops advanced.", "Reported: ground forces used mortars against hideouts in the follow-on clearance.", "Reported: commentary noted that rotating strike aircraft from the Peninsula to East Malaysia, in 2005 and 2013, was hard to sustain.", "Reported: observers criticised shortages of helmets, body armour and armoured vehicles."], "why": ["It led to a permanent security command in eastern Sabah and strengthened the case for mobile fire units based in East Malaysia.", "Compare the US: US operations deploy pre-staged air and artillery packages; Malaysia relied on cross-sea aircraft detachments and light mortars."], "sources": [{"title": "Royal Malaysian Air Force", "publisher": "MiGFlug", "year": "2026", "url": "https://migflug.com/air-forces/royal-malaysian-air-force/"}, {"title": "Malaysian troops hunt sultan’s men; 13 bodies dug up", "publisher": "Philippine Daily Inquirer", "year": "2013", "url": "https://globalnation.inquirer.net/67345/malaysian-troops-hunt-sultans-men-13-bodies-dug-up"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["mys-ttp-jtac", "mys-sus-maintenance", "mys-eq-155mm"]},
+  {"id": "mys-eq-105mm", "topic": "cannon-artillery", "country": "Malaysia", "addedIn": "2026.12", "module": "Equipment", "force": "Malaysian Army", "echelon": ["Regiment"], "type": "Equipment", "title": "105mm Close Support: From Mod 56 to LG1 Mk III", "what": ["Close-support regiments are moving from ageing Italian OTO Melara Mod 56 105mm pack howitzers to French KNDS 105mm LG1 Mk III guns.", "18 LG1 Mk IIIs equip 1 RAD (Para); a letter of intent of 17 November 2026 covers 36 more."], "how": ["Reported: seven regiments (2 to 8 RAD) still use the Mod 56 (10.5 km), towed by VAMTAC 4×4s.", "Reported: 1 RAD (Para) received 18 LG1 Mk IIIs in 2019–2020, assembled in Johor by Advanced Defence Systems (ADS).", "Reported: 1,650 kg, 11 km with standard M1 rounds and 17 km with extended-range rounds, 30 seconds into or out of action, four per C-130 or under a medium helicopter.", "Reported: after a 2025 tender in which South Korea’s KH178 was also evaluated, Malaysia signed with KNDS for 36 more (about RM600 million) to equip two regiments."], "why": ["Light guns are needed for airmobile moves to East Malaysia and on narrow jungle roads; the LG1 adds 6.5 km over the Mod 56.", "Compare the US: the LG1 Mk III does the job of the M119A3 in light and airborne brigades and fires the same M1 ammunition."], "sources": [{"title": "Malaysia Eyes US$500 Million (RM2 billion) French Defence Package to Bolster Air Rescue and Artillery", "publisher": "Defence Security Asia", "year": "2026", "url": "https://defencesecurityasia.com/en/malaysia-france-defence-deal-helicopters-howitzers/"}, {"title": "DSA 2026: Hyundai WIA KH178 105 mm howitzer undergoing evaluation in Malaysia", "publisher": "Future Warfare Magazine", "year": "2026", "url": "https://www.fw-mag.com/shownews/1038/dsa-2026-hyundai-wia-kh178-105-mm-howitzer-undergoing-evaluation-in-malaysia"}, {"title": "105 LG", "publisher": "KNDS", "year": "2026", "url": "https://knds.com/en/products/systems/105-lg"}, {"title": "PTD Rasmi Tembakan Inaugurasi Meriam Baharu 1 RAD (Para)", "publisher": "Berita Tentera Darat Malaysia", "year": "2021", "url": "https://btdmonline.my/index.php/2021/10/15/ptd-rasmi-tembakan-inaugurasi-meriam-baharu-1-rad-para/"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["mys-eq-as4000", "mys-eq-munitions", "idn-org-howitzers", "usa-eq-m119a3"]},
+  {"id": "mys-eq-155mm", "topic": "cannon-artillery", "country": "Malaysia", "addedIn": "2026.12", "module": "Equipment", "force": "Malaysian Army", "echelon": ["Regiment"], "type": "Equipment", "title": "155mm General Support: G5 Mk III Now, CAESAR Next", "what": ["General support relies on South African Denel G5 Mk III towed howitzers; 18 French KNDS CAESAR Mk I 6×6 guns were contracted in June 2026.", "The 2019 Defence White Paper made self-propelled howitzers the main indirect fire asset, including for coastal defence."], "how": ["Reported: 28 G5 Mk III (one source says 22), 155mm/45-calibre, 13,750 kg, crew of eight, 30 km with HE, about 40 km with base bleed.", "Reported: after dropping a 2019 plan for surplus US M109s and rejecting Slovakia’s EVA M2 in 2024, Malaysia trialled six candidates and signed for CAESAR at Eurosatory on 16 June 2026.", "Reported: right-hand drive, AS4000 fire control, 18 rounds aboard, 52-calibre barrel: 40–42 km with base-bleed shells, over 55 km with rocket-assisted rounds.", "Reported: under 18 tonnes in combat order."], "why": ["Towed G5s reach far but move slowly, leaving crews exposed to counter-battery fire; CAESAR adds sub-minute shoot-and-scoot.", "Compare the US: heavy tracked M109A7 and towed 39-calibre M777A2; Malaysia chose a lighter 52-calibre truck gun for tropical roads and airlift."], "sources": [{"title": "Kertas Putih Pertahanan (Defence White Paper)", "publisher": "Ministry of Defence Malaysia", "year": "2019", "url": "https://www.mod.gov.my/images/mindef/article/kertas_putih/KPP.pdf"}, {"title": "Malaysia to buy 18 Caesar self-propelled howitzers, KNDS announces at Eurosatory", "publisher": "Breaking Defense", "year": "2026", "url": "https://breakingdefense.com/2026/06/malaysia-to-buy-18-caesar-self-propelled-howitzers-knds-announces-at-eurosatory/"}, {"title": "Chaiseri to supply 34 CAESAR support vehicles to Malaysia", "publisher": "Janes", "year": "2026", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/land/chaiseri-to-supply-34-caesar-support-vehicles-to-malaysia"}, {"title": "CAESAR 6X6", "publisher": "KNDS", "year": "2024", "url": "https://knds.com/media/K2_V_001_CAESAR_6_X6_EN_BAT_BDEF_91a6b0aeb4.pdf"}, {"title": "G5 howitzer", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/G5_howitzer"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["mys-les-shoot-scoot", "mys-eq-as4000", "idn-eq-caesar", "usa-eq-m109a7"]},
+  {"id": "mys-eq-mortars", "topic": "cannon-artillery", "country": "Malaysia", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Battalion"], "type": "Equipment", "title": "Battalion Mortars: 60mm, 81mm and the 120mm 2R2M", "what": ["Infantry and mechanised battalions keep 60mm, 81mm and vehicle-mounted 120mm rifled mortars; recent buys digitised both the 120mm carriers and the 81mm platoons."], "how": ["Reported: 12 RAMD (Mechanised) and 1 KAD run the French Thales 120mm 2R2M rifled mortar on AV8 Gempita 8×8 and ACV-S Adnan tracked carriers, with AS4000 fire control.", "Reported: 10 rounds a minute and 13 km with rocket-assisted bombs.", "Reported: infantry battalions got 72 Technesis 81mm mortars with Expal Talos fire control and MT-815 4×4 carriers.", "Reported: Adnan and K-200A1 variants also carry 81mm mortars; platoons have 60mm mortars."], "why": ["Organic mortars give battalions instant indirect fire without waiting for brigade guns; armoured 120mm carriers keep up with mechanised units.", "Compare the US: smoothbore 120mm M120/M121 mortars; Malaysia’s rifled 2R2M reaches further but needs special ammunition."], "sources": [{"title": "Army On The Move 2024", "publisher": "Malaysian Defence", "year": "2024", "url": "https://www.malaysiandefence.com/army-on-the-move-2024/"}, {"title": "Sooner Gempita Than Later Part 2", "publisher": "Malaysian Defence", "year": "2025", "url": "https://www.malaysiandefence.com/sooner-gempita-than-later-part-2/"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["mys-eq-talos", "mys-eq-as4000", "usa-eq-m120"]},
+  {"id": "mys-org-astros", "topic": "rocket-missile-artillery", "country": "Malaysia", "addedIn": "2026.12", "module": "Forces", "force": "Malaysian Army", "echelon": ["Brigade"], "type": "Organisation", "title": "The Rocket Artillery Brigade and ASTROS II", "what": ["Long-range rockets sit in the Rocket Artillery Brigade (Briged Artileri Roket, BAR), with 36 Brazilian Avibras ASTROS II launchers. In service since 2002, it is the Army’s longest-range surface-to-surface system."], "how": ["BAR commands 51 RAD (Gemas) and 52 RAD (Sungai Petani), with the 61 RAD locating regiment.", "Reported: each regiment has a headquarters battery with two mobile weather stations and three batteries of six launchers, a command vehicle, an AV-UCF radar fire-control vehicle, resupply trucks and a workshop.", "Reported: pods give 32 × 127mm SS-30 (9–30 km), 16 × 180mm SS-40 (15–40 km) or 4 × 300mm SS-80 (22–90 km).", "Reported: batteries fight as units, using the radar vehicle to correct salvos."], "why": ["ASTROS II saturates areas such as troop concentrations, supply hubs and landing beaches out to 90 km.", "Compare the US: HIMARS launchers fight alone with guided GMLRS; Malaysia’s launchers fight in radar-directed batteries with unguided rockets."], "sources": [{"title": "Latihan Tembakan SRLB ASTROS II Bukti TD Sentiasa Siap Siaga", "publisher": "Berita Tentera Darat Malaysia", "year": "2020", "url": "https://btdmonline.my/index.php/2020/12/07/latihan-tembakan-srlb-astros-ii-bukti-td-sentiasa-siap-siaga/"}, {"title": "Eksesais Lembing Sakti uji taring Briged Artileri Roket Tentera Darat", "publisher": "Air Times News Network", "year": "2024", "url": "https://www.airtimes.my/2024/05/31/1eksesais-lembing-sakti-uji-taring-briged-artikeri-roket-tentera-darat/"}, {"title": "Astros II", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Astros_II"}, {"title": "List of equipment of the Malaysian Army", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Malaysian_Army"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["mys-ttp-coastal-rockets", "mys-ttp-gunnery", "idn-org-astros", "joint-eq-m142"]},
+  {"id": "mys-ttp-coastal-rockets", "topic": "rocket-missile-artillery", "country": "Malaysia", "addedIn": "2026.12", "module": "Training", "force": "Malaysian Army", "echelon": ["Brigade"], "type": "Training", "title": "Lembing Sakti: Coastal Rocket Fires with US HIMARS", "what": ["Exercise Lembing Sakti is BAR’s main live fire over the sea off Tanjung Hantu, Perak, testing coastal defence fires and old rockets.", "In July 2025 it hosted the first joint firing of Malaysian ASTROS II and US HIMARS."], "how": ["On 30 May 2024, BAR fired SS-30 and SS-40 rockets and seven base-bleed 155mm shells from G5s in a coastal defence scenario.", "In July 2025 (Keris Strike 25), six ASTROS II launchers fired 256 SS-30 rockets while one US HIMARS fired two guided M31A1 rockets at sea targets.", "The Navy, Air Force, maritime enforcement agency and marine police joined for range safety.", "Not found in official sources: totals fired in Lembing Sakti 2026."], "why": ["Firing over the sea gets round land range limits and rehearses the anti-landing mission.", "Compare the US: the 2025 shoot showed the difference: 256 unguided rockets for area cover against two guided rockets for point targets."], "sources": [{"title": "First Joint MY-US MLRS Firings", "publisher": "Malaysian Defence", "year": "2025", "url": "https://www.malaysiandefence.com/first-joint-my-us-mlrs-firings/"}, {"title": "Eksesais Lembing Sakti uji taring Briged Artileri Roket Tentera Darat", "publisher": "Air Times News Network", "year": "2024", "url": "https://www.airtimes.my/2024/05/31/1eksesais-lembing-sakti-uji-taring-briged-artikeri-roket-tentera-darat/"}, {"title": "Malaysian Army Fires “ASTROS II” MLRS During Exercise Lembing Sakti", "publisher": "Defence Security Asia", "year": "2024", "url": "https://defencesecurityasia.com/en/malaysian-army-fires-astros-ii-mlrs-during-exercise-lembing-sakti/"}, {"title": "Exercise Keris Strike 25 launches featuring United States, Malaysian and Australian forces", "publisher": "US Indo-Pacific Command", "year": "2025", "url": "https://www.pacom.mil/Media/News/Article/4248827/exercise-keris-strike-25-launches-featuring-united-states-malaysian-and-austral/"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["mys-org-astros", "mys-eq-munitions", "mys-trn-keris-strike"]},
+  {"id": "mys-eq-lm-industry", "topic": "loitering-munitions", "country": "Malaysia", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Theatre"], "type": "Policy", "title": "Loitering Munitions: From Policy to Prototype", "what": ["Malaysia has no confirmed Army loitering munition unit, but the National Defence Industry Policy (NDIP), launched on 21 January 2026, names local loitering-munition production as a flagship project."], "how": ["NDIP aims to cut foreign dependence through home-made loitering munitions, passive radars and lasers, under a 2026 defence budget of RM21.74 billion.", "Reported: Malaysian developers showed the HDS-NSS, a low-cost fixed-wing loitering munition for 20 km strikes, in Kuala Lumpur.", "NDIP requires at least 30 per cent local content in defence purchases.", "Not found in open sources: fielding dates, quantities or unit allocation."], "why": ["Recent wars persuaded planners that cheap one-way attack drones add a precision layer that local industry can build.", "Compare the US: thousands of Switchblade and similar munitions under contract; Malaysia is at the policy and prototype stage."], "sources": [{"title": "‘Kamikaze drones’, laser systems: Malaysia to boost defence industry amid ‘uncertain security realities’", "publisher": "CNA", "year": "2026", "url": "https://www.channelnewsasia.com/asia/kamikaze-drones-malaysia-boost-defence-industry-5878591"}, {"title": "Malaysia introduces HDS-NSS low-cost strike drone for 20 km tactical operations", "publisher": "Army Recognition", "year": "2026", "url": "https://www.armyrecognition.com/archives/archives-defense-exhibitions/2026-archives-news-defense-exhibitions/dsa-2026/malaysia-introduces-hds-nss-low-cost-strike-drone-for-20-km-tactical-operations"}], "confidence": "Confirmed", "asOf": "2026-01", "relatedIds": ["mys-sus-industry", "mys-les-cuas", "idn-eq-minibe"]},
+  {"id": "mys-eq-anka", "topic": "loitering-munitions", "country": "Malaysia", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Theatre"], "type": "Equipment", "title": "ANKA-S over Sabah: Surveillance First", "what": ["In 2026 the Royal Malaysian Air Force began flying three Turkish ANKA-S medium-altitude long-endurance drones from Labuan, Sabah, bought for surveillance rather than strike."], "how": ["Reported: signed at LIMA 2023 for US$91.6 million.", "Reported: test flights from Labuan began on 3 April 2026; by June the Air Force was operating them and seeking more.", "Reported: Labuan gives persistent maritime surveillance over Sabah and the South China Sea.", "Not found in open sources: guided munitions for them, or digital links to Army artillery."], "why": ["Persistent drones close a long-standing surveillance gap in East Malaysia and could later cue joint and coastal fires.", "Compare the US: armed MQ-9s and Army MQ-1C companies; Malaysia’s three drones sit with the Air Force with a surveillance-first role."], "sources": [{"title": "Malaysia seeks additional Anka UAVs", "publisher": "Janes", "year": "2026", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/air/malaysia-seeks-additional-anka-uavs"}, {"title": "Turkey–Malaysia defence cooperation report (LIMA 2023 Anka contract)", "publisher": "Noonpost", "year": "2026", "url": "https://www.noonpost.com/en/386844/"}, {"title": "TAI Anka", "publisher": "MiGFlug", "year": "2026", "url": "https://migflug.com/aircraft/tai-anka/"}], "confidence": "Reported", "asOf": "2026-06", "relatedIds": ["mys-eq-uas", "mys-ttp-jtac", "idn-trn-anka"]},
+  {"id": "mys-eq-munitions", "topic": "ammunition-effects", "country": "Malaysia", "addedIn": "2026.12", "module": "Equipment", "force": "Malaysian Army", "echelon": ["Battalion"], "type": "Equipment", "title": "Ammunition: Base Bleed, Rocket Proofing and No Guided Rounds", "what": ["Malaysian artillery ammunition is high explosive, base-bleed 155mm, standard and extended-range 105mm and unguided ASTROS rockets. No guided shells or rockets are confirmed in open sources."], "how": ["In Lembing Sakti 2024, G5s fired seven base-bleed shells to test stocks.", "In 2025 BAR and the defence science institute STRIDE proof-fired SS-30 and SS-40 rockets (Complete Round Proof); the maker gives a 15-year storage life.", "Reported: the LG1’s 17 km depends on stocks of extended-range rounds.", "Reported: CAESAR can fire BONUS, Excalibur and similar shells, but no Malaysian contract for guided rounds or fuzes has been found."], "why": ["Proof-firing keeps old rockets safe in tropical heat; without guided rounds, digital guns improve accuracy but cannot hit point targets at 40 km.", "Compare the US: PGK fuzes, Excalibur and GMLRS are standard; Malaysia relies on unguided rounds."], "sources": [{"title": "First Joint MY-US MLRS Firings", "publisher": "Malaysian Defence", "year": "2025", "url": "https://www.malaysiandefence.com/first-joint-my-us-mlrs-firings/"}, {"title": "Eksesais Lembing Sakti uji taring Briged Artileri Roket Tentera Darat", "publisher": "Air Times News Network", "year": "2024", "url": "https://www.airtimes.my/2024/05/31/1eksesais-lembing-sakti-uji-taring-briged-artikeri-roket-tentera-darat/"}, {"title": "ASTROS Multiple Launch Rocket Systems", "publisher": "Forecast International", "year": "2024", "url": "https://www.forecastinternational.com/archive/disp_pdf.cfm?DACH_RECNO=1589"}, {"title": "Malaysia Eyes US$500 Million (RM2 billion) French Defence Package to Bolster Air Rescue and Artillery", "publisher": "Defence Security Asia", "year": "2026", "url": "https://defencesecurityasia.com/en/malaysia-france-defence-deal-helicopters-howitzers/"}, {"title": "CAESAR 6X6", "publisher": "KNDS", "year": "2024", "url": "https://knds.com/media/K2_V_001_CAESAR_6_X6_EN_BAT_BDEF_91a6b0aeb4.pdf"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["mys-ttp-coastal-rockets", "mys-pol-cluster", "joint-eq-rkt-munitions"]},
+  {"id": "mys-pol-cluster", "topic": "ammunition-effects", "country": "Malaysia", "addedIn": "2026.12", "module": "Forces", "force": "Multiple", "echelon": ["Theatre"], "type": "Policy", "title": "Cluster Munitions: Outside the Convention", "what": ["Malaysia is not a party to the 2008 Convention on Cluster Munitions and may hold submunition rockets. It is a party to the Mine Ban Treaty."], "how": ["The treaty’s status list (10 March 2026) shows Malaysia as a “State not Party”.", "At the 2011 meeting of States Parties, Malaysia said it was consulting on accession; none has followed.", "Reported: the 180mm SS-40 rocket can carry up to 64 submunitions, and Avibras produces and exports submunition rockets.", "Not found in open sources: how Malaysia’s stocks split between unitary and submunition rockets."], "why": ["Keeping submunition rockets preserves area anti-armour and anti-landing effects in the absence of precision anti-armour shells.", "Compare the US: like the US, Malaysia is outside the convention; unlike the US it has published no dud-rate limit or plan to move to Alternative Warhead rockets."], "sources": [{"title": "Convention on Cluster Munitions Universalization Status by Region (10 March 2026)", "publisher": "Convention on Cluster Munitions", "year": "2026", "url": "https://www.clusterconvention.org/wp-content/uploads/2026/03/CCM-Universalization-Status-by-Region-updated-10-March-2026.pdf"}, {"title": "Statement by Mr. Raja Reza Raja Zaib Shah at the 2nd Meeting of States Parties", "publisher": "Ministry of Foreign Affairs of Malaysia", "year": "2011", "url": "https://www.clusterconvention.org/files/meetings/2msp/statement_malaysia.pdf"}, {"title": "Cluster Munition Ban Policy: Brazil", "publisher": "Landmine & Cluster Munition Monitor", "year": "2022", "url": "https://archives2.the-monitor.org/en-gb/reports/2022/brazil/cluster-munition-ban-policy.aspx"}], "confidence": "Confirmed", "asOf": "2026-03", "relatedIds": ["mys-eq-munitions", "idn-pol-cluster", "joint-eq-amm-rkt-warheads"]},
+  {"id": "mys-eq-arthur", "topic": "target-acquisition", "country": "Malaysia", "addedIn": "2026.12", "module": "Equipment", "force": "Malaysian Army", "echelon": ["Regiment"], "type": "Equipment", "title": "61 RAD and the ARTHUR Weapon-Locating Radar", "what": ["Counter-battery radar, target acquisition and artillery meteorology are held in one locating regiment, 61 RAD, in Johor. Its main sensor is the Swedish Saab ARTHUR, due for replacement."], "how": ["61 RAD locates enemy guns, supplies weather data, and runs radar teams for maritime border security.", "Reported: the radars ride on Bv206 tracked carriers and are maintained under ministry contracts.", "Reported: older ARTHURs reach 60 km; the newer Arthur D reaches 100 km and sets up in under a minute.", "Reported: the 2025 White Paper review lists an ARTHUR replacement; funding was not approved by late 2025."], "why": ["One Peninsular regiment holding every weapon-locating radar is stretched across two theatres.", "Compare the US: every division and brigade has organic AN/TPQ-50 and AN/TPQ-53 radars; Malaysia keeps all of them in one regiment."], "sources": [{"title": "Undocumented Indonesian migrants nabbed trying to sneak out of country in Kota Tinggi", "publisher": "Malay Mail", "year": "2020", "url": "https://www.malaymail.com/news/malaysia/2020/07/12/undocumented-indonesian-migrants-nabbed-trying-to-sneak-out-of-country-in-k/1883721"}, {"title": "HeiTech bags RM68.9m job from Defence Ministry", "publisher": "The Edge Malaysia", "year": "", "url": "https://theedgemalaysia.com/article/heitech-bags-rm689m-job-defence-ministry"}, {"title": "Arthur", "publisher": "Saab", "year": "2026", "url": "https://www.saab.com/products/arthur"}], "confidence": "Confirmed", "asOf": "2025-12", "relatedIds": ["mys-eq-uas", "mys-org-astros", "ukr-ttp-sensors", "usa-eq-tpq53"]},
+  {"id": "mys-eq-uas", "topic": "target-acquisition", "country": "Malaysia", "addedIn": "2026.12", "module": "Equipment", "force": "Malaysian Army", "echelon": ["Brigade"], "type": "Equipment", "title": "FlyEye and Matrice-30: Drones for Spotting and Damage Assessment", "what": ["From December 2024 the Army took Polish WB Group FlyEye mini-drones and Matrice-30 quadcopters into live-fire exercises for intelligence and real-time damage assessment."], "how": ["Reported: WB Group delivered the first FlyEyes in December 2024 after training Malaysian operators.", "Reported: hand-launched, 11 kg, two operators, ready in under 10 minutes, up to 3 hours and 30 km, with day, thermal and laser-pointer sensors.", "At LKT 2026 (30 June) both types gave real-time intelligence and damage assessment alongside artillery and air strikes.", "Reported: FlyEye was also used at LKT 2025."], "why": ["Canopy limits ground observation; a hand-launched 30 km drone gives commanders their own eyes beyond the hill.", "Compare the US: FlyEye sits between US short-range quadcopters and larger brigade drones."], "sources": [{"title": "LKT 2026 Pamer Keupayaan Operasi Multi-Domain ATM", "publisher": "Berita Tentera Darat Malaysia", "year": "2026", "url": "https://btdmonline.my/index.php/2026/06/30/lkt-2026-pamer-keupayaan-operasi-multi-domain-atm/"}, {"title": "Polish FlyEye Drones Delivered to Malaysia", "publisher": "GBP Aerospace & Defence", "year": "2024", "url": "https://gbp.com.sg/stories/polish-flyeye-drones-delivered-to-malaysia/"}, {"title": "ASTROS II: Senjata pemusnah kawasan milik Tentera Darat Malaysia", "publisher": "Air Times News Network", "year": "2025", "url": "https://www.airtimes.my/2025/08/12/astros-ii-senjata-pemusnah-kawasan-milik-tentera-darat-malaysia/"}], "confidence": "Confirmed", "asOf": "2026-06", "relatedIds": ["mys-eq-arthur", "mys-eq-anka", "mys-org-astros"]},
+  {"id": "mys-ttp-gunnery", "topic": "technical-fire-direction", "country": "Malaysia", "addedIn": "2026.12", "module": "TTPs", "force": "Malaysian Army", "echelon": ["Battery"], "type": "TTP", "title": "Battery Gunnery: Six-Gun Batteries, Weather and Radar Tracking", "what": ["Technical fire direction combines six-gun Commonwealth batteries with radar tracking of rockets and weather sounding. Old Mod 56 batteries are manual; rocket and modernised gun units compute automatically."], "how": ["Reported: regiments have three six-gun firing batteries plus a headquarters battery.", "Reported: in ASTROS batteries the AV-UCF vehicle (Unit Kawalan Tembakan) uses a Rheinmetall FieldGuard radar to track pilot rockets and send corrections to the launchers.", "Reported: each rocket regiment has two mobile weather stations, backed by 61 RAD.", "Reported: Mod 56 batteries use manual optical gunnery; G5s used the AS2000 computer before the AS4000 upgrade."], "why": ["With unguided rockets and shells, weather, survey and trajectory tracking are what make the first salvo count.", "Compare the US: met profilers feed AFATDS; US rocket batteries need no tracking radar because their rockets are guided."], "sources": [{"title": "List of equipment of the Malaysian Army", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Malaysian_Army"}], "confidence": "Reported", "asOf": "2026-09", "relatedIds": ["mys-org-astros", "mys-eq-as4000", "idn-eq-av-ucf", "usa-eq-ballistic-compare"]},
+  {"id": "mys-trn-pusarti", "topic": "technical-fire-direction", "country": "Malaysia", "addedIn": "2026.12", "module": "Training", "force": "Malaysian Army", "echelon": ["Corps"], "type": "Training", "title": "PUSARTI: The Artillery School", "what": ["The Artillery Training Centre (Pusat Latihan Artileri, PUSARTI) is RAD’s gunnery and career school for field, rocket, locating and air defence trades. Annual live fires at Gemas also train joint staff students."], "how": ["PUSARTI runs career and specialist courses, including the Battery Commander Course, ending in live-fire divisional artillery exercises.", "Reported: for new systems, instructors train abroad with the maker first, as in Brazil for ASTROS II.", "The annual LKT at Gemas shows Malaysian Joint Command and Staff Course students combined-arms and multi-domain fires.", "Not found in open sources: graduate numbers or the CAESAR conversion syllabus. Sources differ on whether PUSARTI is at Port Dickson or Gemas."], "why": ["One school keeps common safety and ballistic standards across Italian, South African, French, Brazilian and Swedish equipment.", "Compare the US: like the Fires Center of Excellence at Fort Sill (field artillery and air defence), but much smaller and without a permanent instrumented training centre, which Malaysia is developing with the US."], "sources": [{"title": "Eks Guruh Gempur Ribut Api Uji Kesiagaan Pemerintahan Arti Div 3 Div", "publisher": "Berita Tentera Darat Malaysia", "year": "2017", "url": "https://btdmonline.my/index.php/2017/11/29/eks-guruh-gempur-ribut-api-uji-kesiagaan-pemerintahan-arti-div-3-div/"}, {"title": "LKT 2026 Pamer Keupayaan Operasi Multi-Domain ATM", "publisher": "Berita Tentera Darat Malaysia", "year": "2026", "url": "https://btdmonline.my/index.php/2026/06/30/lkt-2026-pamer-keupayaan-operasi-multi-domain-atm/"}, {"title": "Perpustakaan Pusat Latihan", "publisher": "Ministry of Defence Malaysia Library", "year": "", "url": "https://library.mod.gov.my/Mindef/index.php/perpustakaan-pusat-latihan/"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["mys-trn-keris-strike", "mys-ttp-gunnery", "idn-trn-pusdikarmed", "usa-trn-cannon-specialties"]},
+  {"id": "mys-eq-as4000", "topic": "digital-fires-c2", "country": "Malaysia", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Battery"], "type": "Equipment", "title": "AS4000: One Fire Control System for Guns and Heavy Mortars", "what": ["Malaysia has standardised digital fire control on the AS4000 Integrated Fire Control System, now sold by African Defence Systems with local partner ADS. It covers 105mm guns, 120mm mortars, upgraded G5s and the coming CAESARs."], "how": ["Reported: in service on 1 RAD’s 18 LG1 Mk IIIs and on the 2R2M mortars of 12 RAMD and 1 KAD.", "Reported: ADS won a contract (reported at RM36.7 million) to replace the G5’s older AS2000; reports differ on how many units it covers.", "Reported: it plugs into the Army’s standard tactical radio for voice and digital fire missions.", "Reported: KNDS told Janes in June 2026 that the CAESARs will use the same system."], "why": ["One fire control family across 105mm, 120mm and 155mm removes mismatched interfaces and simplifies training.", "Compare the US: like AFATDS with gun-level digital fire control, but no automatic link to ASTROS II or aircraft is confirmed."], "sources": [{"title": "Chaiseri to supply 34 CAESAR support vehicles to Malaysia", "publisher": "Janes", "year": "2026", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/land/chaiseri-to-supply-34-caesar-support-vehicles-to-malaysia"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["mys-eq-105mm", "mys-eq-155mm", "mys-eq-talos", "usa-eq-afatds-arch"]},
+  {"id": "mys-eq-talos", "topic": "digital-fires-c2", "country": "Malaysia", "addedIn": "2026.12", "module": "Equipment", "force": "Malaysian Army", "echelon": ["Battalion"], "type": "Equipment", "title": "Expal Talos: Digital Fire Control for 81mm Mortars", "what": ["Infantry battalions have the Spanish Expal Talos digital fire control with 72 new Technesis 81mm mortars, replacing manual plotting boards."], "how": ["Reported: the buy bundled the mortars, Talos and MT-815 4×4 carriers.", "Reported: both were seen firing at LKT 2025, about two years after delivery.", "Not found in open sources: whether Talos passes calls for fire into the artillery’s AS4000 network."], "why": ["Digital mortar fire control speeds missions and cuts errors under stress.", "Compare the US: like the M95/M96 Mortar Fire Control System, but Malaysia splits 81mm (Talos) and 120mm/artillery (AS4000) across two vendors."], "sources": [{"title": "Sooner Gempita Than Later Part 2", "publisher": "Malaysian Defence", "year": "2025", "url": "https://www.malaysiandefence.com/sooner-gempita-than-later-part-2/"}, {"title": "Army On The Move 2024", "publisher": "Malaysian Defence", "year": "2024", "url": "https://www.malaysiandefence.com/army-on-the-move-2024/"}], "confidence": "Reported", "asOf": "2025-08", "relatedIds": ["mys-eq-mortars", "mys-eq-as4000", "idn-eq-aldalbak"]},
+  {"id": "mys-les-shoot-scoot", "topic": "counterfire-survivability", "country": "Malaysia", "addedIn": "2026.12", "module": "Lessons", "force": "Malaysian Army", "echelon": ["Regiment"], "type": "Lesson", "title": "Shoot and Scoot: Why Malaysia Chose Wheels", "what": ["Survivability doctrine is moving from static towed gun lines to fast wheeled shoot-and-scoot. Lessons from recent wars, quick counter-battery radar, persistent drones and loitering munitions, shaped the CAESAR choice."], "how": ["Reported: ASTROS crews have practised shoot and scoot since 2002; the 6×6 launcher looks like a cargo truck at distance.", "Reported: reporting on the CAESAR order says survival now depends on speed of movement rather than armour.", "Reported: the maker says CAESAR enters and leaves action in under 45 seconds each and fires six rounds and leaves in under 1 minute 40 seconds.", "Reported: Malaysia chose the lighter Mk I over heavier armoured versions."], "why": ["Towed G5s cannot leave inside a two-minute counter-fire window; wheeled guns give long-range fire without the weight of tracks.", "Compare the US: tracked M109A7 plus towed M777A2 while it studies wheeled guns; Malaysia skipped tracked guns and went straight to wheels."], "sources": [{"title": "Malaysian Army orders 18 Caesar self-propelled howitzers from France for new artillery regiment", "publisher": "Army Recognition", "year": "2026", "url": "https://www.armyrecognition.com/news/army-news/2026/malaysia-18-caesar-howitzer-knds-contract-eurosatory-2026"}, {"title": "Malaysia Confirms New 155mm Self-Propelled Howitzer", "publisher": "Defence Security Asia", "year": "2025", "url": "https://defencesecurityasia.com/en/malaysia-155mm-sph-artillery-procurement-2026/"}, {"title": "CAESAR 6X6", "publisher": "KNDS", "year": "2024", "url": "https://knds.com/media/K2_V_001_CAESAR_6_X6_EN_BAT_BDEF_91a6b0aeb4.pdf"}], "confidence": "Reported", "asOf": "2026-06", "relatedIds": ["mys-eq-155mm", "mys-org-astros", "ukr-ttp-roving-gun"]},
+  {"id": "mys-eq-gapu", "topic": "counterfire-survivability", "country": "Malaysia", "addedIn": "2026.12", "module": "Equipment", "force": "Malaysian Army", "echelon": ["Regiment"], "type": "Equipment", "title": "GAPU: Short-Range Air Defence inside the Artillery", "what": ["Ground-based air defence sits inside the Royal Artillery Regiment under the Air Defence Artillery Group (GAPU), giving short and very short-range cover. Malaysia has no medium-range surface-to-air missile."], "how": ["GAPU has five regiments (31 to 35 RAD) and two independent batteries, tested in drills such as Panah Jaguh.", "Reported: 31 RAD runs 35mm Oerlikon twin guns with Skyguard radars; 32 RAD runs Thales ForceSHIELD, accepted in November 2018.", "Reported: ForceSHIELD pairs a Ground Master 200 radar (with rocket, artillery and mortar warning) with Starstreak launchers.", "Reported: other holdings include Rapier Jernas, Igla, Anza Mk II and FN-6."], "why": ["Guarding gun positions from aircraft and drones matters, but one ForceSHIELD unit cannot cover two theatres at once.", "Compare the US: a separate Air Defense Artillery branch with Patriot, THAAD, IFPC and M-SHORAD; Malaysia has short-range systems only."], "sources": [{"title": "Panah Jaguh 2023 Uji Kesiagaan GAPU", "publisher": "Berita Tentera Darat Malaysia", "year": "2023", "url": "https://btdmonline.my/index.php/2023/10/07/panah-jaguh-2023-uji-kesiagaan-gapu/"}, {"title": "Malaysia’s ForceSHIELD ground-based air defence system attains FSA", "publisher": "Army Technology", "year": "2018", "url": "https://www.army-technology.com/news/malaysia-forceshield-attains-fsa/"}, {"title": "Ground Master 200", "publisher": "Thales Group", "year": "2026", "url": "https://www.thalesgroup.com/en/solutions-catalogue/defence/air/ground-master-200"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["mys-les-cuas", "mys-org-overview", "idn-eq-shorad", "usa-org-cf-ada-protection"]},
+  {"id": "mys-les-cuas", "topic": "counterfire-survivability", "country": "Malaysia", "addedIn": "2026.12", "module": "Lessons", "force": "Malaysian Army", "echelon": ["Battalion"], "type": "Lesson", "title": "Counter-Drone Gaps and Improvised Answers", "what": ["Exercises from 2022 to 2025 showed the Army lacks dedicated counter-drone equipment; the January 2026 industry policy aims to close the gap with home-made passive radars and lasers."], "how": ["Reported: in Panah Jaguh 2022 and later demonstrations, troops used machine guns on anti-drone tripods, 12.7mm guns on VAMTACs and M134D guns on vehicles.", "Reported: commentators saw this as making do with small arms while seeking funds for purpose-built systems.", "In January 2026 NDIP made lasers and passive radars priority projects.", "Not found in open sources: dedicated jammers or radar-directed anti-drone guns in artillery regiments."], "why": ["Enemy drones cue counter-battery fire in minutes; machine guns and scarce missiles leave guns exposed.", "Compare the US: layered jammers, interceptors and directed energy down to brigade; Malaysia relies on machine guns and one ForceSHIELD."], "sources": [{"title": "Anti Drone Stuff", "publisher": "Malaysian Defence", "year": "2023", "url": "https://www.malaysiandefence.com/anti-drone-stuff/"}, {"title": "‘Kamikaze drones’, laser systems: Malaysia to boost defence industry amid ‘uncertain security realities’", "publisher": "CNA", "year": "2026", "url": "https://www.channelnewsasia.com/asia/kamikaze-drones-malaysia-boost-defence-industry-5878591"}], "confidence": "Confirmed", "asOf": "2026-01", "relatedIds": ["mys-eq-gapu", "mys-eq-lm-industry", "idn-les-drones-cyber"]},
+  {"id": "mys-sus-industry", "topic": "sustainment", "country": "Malaysia", "addedIn": "2026.12", "module": "Forces", "force": "Multiple", "echelon": ["Theatre"], "type": "Policy", "title": "Local Assembly and Repair: ADS and the 2026 Industry Policy", "what": ["Malaysia ties big artillery contracts to local assembly and repair through partners, mainly Advanced Defence Systems (ADS) in Johor. Heavy artillery ammunition is not made at home."], "how": ["Reported: ADS assembled the 18 LG1 Mk IIIs, won the G5 fire control upgrade, and partners KNDS on the CAESAR contract and the 36-gun LG1 letter of intent.", "Under the 2026 industry policy, every purchase needs at least 30 per cent local content and all post-warranty repair must be done by local firms.", "Reported: Thales and Weststar support ForceSHIELD locally.", "Reported: SME Ordnance makes small arms and small-calibre rounds; heavy shells and rockets come from abroad."], "why": ["Local assembly and repair build engineering skills, but batches of 18 guns are too small for deep local production.", "Compare the US: a government-owned ammunition base makes 155mm shells at scale; Malaysia pairs foreign makers with local assembly."], "sources": [{"title": "‘Kamikaze drones’, laser systems: Malaysia to boost defence industry amid ‘uncertain security realities’", "publisher": "CNA", "year": "2026", "url": "https://www.channelnewsasia.com/asia/kamikaze-drones-malaysia-boost-defence-industry-5878591"}, {"title": "Malaysia Eyes US$500 Million (RM2 billion) French Defence Package to Bolster Air Rescue and Artillery", "publisher": "Defence Security Asia", "year": "2026", "url": "https://defencesecurityasia.com/en/malaysia-france-defence-deal-helicopters-howitzers/"}, {"title": "Thales and Weststar sign new agreements to support Malaysia’s sovereign defence capabilities", "publisher": "Thales Group", "year": "2026", "url": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-and-weststar-sign-new-agreements-support-malaysias-sovereign"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["mys-sus-maintenance", "mys-eq-lm-industry", "idn-sus-ammo"]},
+  {"id": "mys-sus-maintenance", "topic": "sustainment", "country": "Malaysia", "addedIn": "2026.12", "module": "Forces", "force": "Multiple", "echelon": ["Regiment"], "type": "Organisation", "title": "Workshops, Support Vehicles and Two-Theatre Logistics", "what": ["Sustaining artillery in jungle and on the coast depends on regimental workshops, ammunition and gun-towing trucks and commercial repair contracts; reinforcing Sabah and Sarawak relies on airlift and sealift."], "how": ["Reported: regiments have attached Electrical and Mechanical Engineers workshops; each ASTROS battery has a mobile workshop and resupply trucks carrying two reloads each.", "Reported: the 2002-era ASTROS fleet, including its fire-control radar vehicles, needs steady repair work.", "Reported: on 22 October 2026 Janes reported that Thailand’s Chaiseri will supply 34 support vehicles for the CAESARs.", "Reported: airlift, and helicopter lift for the LG1, are core requirements for moving guns between the Peninsula and East Malaysia."], "why": ["Small fleets from many countries make depot repair harder; buying support vehicles with the guns is essential.", "Compare the US: standard support companies with Palletized Load Systems and M992 carriers; Malaysia mixes vehicles from several countries."], "sources": [{"title": "Chaiseri to supply 34 CAESAR support vehicles to Malaysia", "publisher": "Janes", "year": "2026", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/land/chaiseri-to-supply-34-caesar-support-vehicles-to-malaysia"}, {"title": "List of equipment of the Malaysian Army", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/List_of_equipment_of_the_Malaysian_Army"}, {"title": "Malaysia Eyes US$500 Million (RM2 billion) French Defence Package to Bolster Air Rescue and Artillery", "publisher": "Defence Security Asia", "year": "2026", "url": "https://defencesecurityasia.com/en/malaysia-france-defence-deal-helicopters-howitzers/"}], "confidence": "Confirmed", "asOf": "2026-10", "relatedIds": ["mys-sus-industry", "mys-eq-155mm", "usa-eq-sus-trucks"]},
+  {"id": "mys-trn-keris-strike", "topic": "liaison", "country": "Malaysia", "addedIn": "2026.12", "module": "Training", "force": "Multiple", "echelon": ["Division"], "type": "Training", "title": "Keris Strike: Fires with the US and Australia", "what": ["Keris Strike is the annual Malaysia–US–Australia land exercise, now covering artillery, mortars, HIMARS and instrumented training in both theatres. The July 2026 iteration in Sabah tested US training instrumentation for a planned Malaysian combat training centre."], "how": ["In July 2025 in Perak, Keris Strike 25 paired US HIMARS with ASTROS II during Lembing Sakti.", "From 16 to 26 July 2026 near Kota Belud, Sabah, Keris Strike 26 joined the 5th Infantry Division, Oklahoma and Guam National Guard units and Australia’s 3rd Battalion, Royal Australian Regiment.", "Events included joint artillery live-fire preparation, HIMARS demonstrations, Australian 81mm mortar fire and coastal defence drills.", "The US Joint Pacific Multinational Readiness Center brought exportable instrumentation to test a permanent regional combat training centre in Malaysia."], "why": ["Regular exercises sharpen combined fire support and raise readiness in East Malaysia.", "Compare the US: Keris Strike bridges Malaysia’s live-fire demonstration format and US instrumented combined-arms rotations."], "sources": [{"title": "Joint Pacific Multinational Readiness Center brings expertise to Keris Strike 26", "publisher": "US Army", "year": "2026", "url": "https://www.army.mil/article/294113/joint_pacific_multinational_readiness_center_brings_expertise_to_keris_strike_26"}, {"title": "Keris Strike 26: Set up for live fire artillery exercise", "publisher": "DVIDS (US Army 204th PAD)", "year": "2026", "url": "https://www.dvidshub.net/video/1015263/keris-strike-26-set-up-live-fire-artillery-exercise-no-sound"}, {"title": "Keris Strike 26: HIMARS Demonstration", "publisher": "DVIDS", "year": "2026", "url": "https://www.dvidshub.net/image/9818023/keris-strike-26-himars-demonstration"}, {"title": "Tigers show their stripes in Malaysia", "publisher": "Australian Department of Defence", "year": "2026", "url": "https://news.defence.gov.au/army/activity/2026-08-11/tigers-show-their-stripes-malaysia"}, {"title": "Exercise Keris Strike 25 launches featuring United States, Malaysian and Australian forces", "publisher": "US Indo-Pacific Command", "year": "2025", "url": "https://www.pacom.mil/Media/News/Article/4248827/exercise-keris-strike-25-launches-featuring-united-states-malaysian-and-austral/"}], "confidence": "Confirmed", "asOf": "2026-08", "relatedIds": ["mys-ttp-coastal-rockets", "mys-ttp-jtac", "idn-trn-sgs26"]},
+  {"id": "sgp-org-overview", "topic": "liaison", "country": "Singapore", "addedIn": "2026.12", "module": "Forces", "force": "Singapore Army", "echelon": ["Battalion", "Division", "Theatre"], "type": "Organisation", "title": "Singapore Artillery and HQ Sense and Strike", "what": ["The Singapore Armed Forces organise ground fires under the Singapore Artillery formation, and join Army-level sensing and strike under 6th Singapore Division / Headquarters Sense and Strike (HQ 6 Div / HQ SS).", "With a small population and little room to train at home, it relies on networked sensors, automated weapons and joint liaison teams, and fires its guns overseas."], "how": ["Headquarters Singapore Artillery, under the Chief Artillery Officer, oversees doctrine, training and force generation.", "Active and reservist (NSmen) battalions operate HIMARS, SSPH Primus, SLWH Pegasus, FH-2000 and, from 2026, the Truck Mounted Gun and the Precision Land Shooter.", "Infantry battalions have organic 120mm mortars; Field Artillery Target Acquisition (FATA) units run weapon-locating radars and meteorological systems.", "Not found in official open sources: a full order of battle, the number of reserve battalions or their equipment."], "why": ["Automation and networking let a small, largely conscript force generate a lot of precise fire with few people.", "Compare the US: HQ SS combines roles the US spreads across division artillery and Multi-Domain Task Forces."], "sources": [{"title": "Singapore Artillery", "publisher": "Singapore Army", "year": "2025", "url": "https://www.army.gov.sg/our-forces/formations/singapore-artillery/"}, {"title": "Organisational structure", "publisher": "Singapore Army", "year": "2026", "url": "https://www.army.gov.sg/about-the-army/organisation-structure/"}, {"title": "HQ Sense & Strike a Step Forward in SAF’s Next-Generation", "publisher": "Ministry of Defence (Singapore)", "year": "2021", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/30jun21_nr/"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["sgp-org-hqss", "sgp-eq-tmg", "sgp-eq-himars", "mys-org-overview", "idn-org-overview"]},
+  {"id": "sgp-org-storm", "topic": "liaison", "country": "Singapore", "addedIn": "2026.12", "module": "TTPs", "force": "Singapore Army", "echelon": ["Battalion", "Brigade"], "type": "TTP", "title": "STORM Teams: One Forward Team for Artillery and Air Strikes", "what": ["Strike Observer Mission (STORM) teams are liaison elements with manoeuvre units that plan, integrate and direct both artillery and air strikes. They are the forward eyes for joint fire support."], "how": ["They deploy forward with infantry, guards or armour.", "They identify high-value targets and fix precise coordinates.", "They clear airspace and deconflict ground fires with the Air Force (RSAF).", "They send digital calls for fire to artillery command posts or joint strike headquarters."], "why": ["Joining air and land fire direction in one team speeds engagement and reduces the risk of hitting friendly forces.", "Compare the US: like a Fire Support Team paired with an Air Force Tactical Air Control Party; STORM teams train with US teams in Exercise Tiger Balm."], "sources": [{"title": "Singapore Artillery (brochure)", "publisher": "Singapore Army", "year": "2025", "url": "https://isomer-user-content.by.gov.sg/128/01296995-dc75-449f-b7f7-33e2712dad06/ARC-044-T25_Artillery%208pp%20Brochure_R3_06%20May%202025.pdf"}, {"title": "Singapore and US Armies Successfully Conclude Exercise Tiger Balm", "publisher": "Ministry of Defence (Singapore)", "year": "2026", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/16may26-nr/"}], "confidence": "Confirmed", "asOf": "2026-05", "relatedIds": ["sgp-org-hqss", "sgp-eq-ccis-bms", "usa-org-fist", "mys-org-foo"]},
+  {"id": "sgp-org-hqss", "topic": "liaison", "country": "Singapore", "addedIn": "2026.12", "module": "Forces", "force": "Singapore Army", "echelon": ["Division"], "type": "Organisation", "title": "HQ Sense and Strike: Finding and Hitting under One Headquarters", "what": ["HQ 6 Div / HQ SS is a dual-hatted headquarters that unites Army intelligence, target acquisition and strike assets; it is the Army’s central node for fire support."], "how": ["It fuses target data from drones, weapon-locating radars and reconnaissance units.", "It gives each target to the most suitable shooter: artillery, mortars or joint air.", "It oversees new sense-strike systems such as the TPQ-53 radar and the Truck Mounted Gun."], "why": ["Putting sensing and striking under one headquarters shortens the time from detection to engagement.", "Compare the US: like division artillery combined with parts of a Multi-Domain Task Force intelligence and fires cell."], "sources": [{"title": "HQ Sense & Strike a Step Forward in SAF’s Next-Generation", "publisher": "Ministry of Defence (Singapore)", "year": "2021", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/30jun21_nr/"}, {"title": "Organisational structure", "publisher": "Singapore Army", "year": "2026", "url": "https://www.army.gov.sg/about-the-army/organisation-structure/"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["sgp-org-overview", "sgp-ttp-ops-int", "usa-org-mdtf"]},
+  {"id": "sgp-eq-tmg", "topic": "cannon-artillery", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Singapore Army", "echelon": ["Battalion"], "type": "Equipment", "title": "Truck Mounted Gun: The Next Generation Howitzer", "what": ["The Truck Mounted Gun (TMG) is a fully automated wheeled 155mm self-propelled howitzer unveiled in October 2026. MINDEF says it will be progressively introduced to replace the tracked SSPH Primus and the towed FH-2000."], "how": ["Reported: it selects and loads projectile, propellant and fuze without the crew handling them.", "Reported: it lays its 155mm/52-calibre gun automatically onto the target.", "It fires and moves quickly on wheels (shoot and scoot).", "Reported: MINDEF has not named the maker; defence press note its resemblance to Elbit Systems’ SIGMA."], "why": ["Full automation cuts crew size for a conscript force and speeds response; one gun replacing two fleets simplifies supply.", "Compare the US: the US still uses the tracked M109A7 and towed M777A2 while studying wheeled guns; Singapore is introducing an automated wheeled 155mm gun."], "sources": [{"title": "Media Reply on Truck Mounted Gun and Precision Land Shooter", "publisher": "Ministry of Defence (Singapore)", "year": "2026", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/06oct26-mq/"}, {"title": "Singapore Army unveils new automated artillery, precision strike", "publisher": "AsiaOne", "year": "2026", "url": "https://www.asiaone.com/singapore/singapore-army-new-artillery-precision-land-shooter-systems"}], "confidence": "Confirmed", "asOf": "2026-10", "relatedIds": ["sgp-eq-ssph", "sgp-eq-slwh", "sgp-ttp-shoot-scoot", "usa-eq-sphm", "mys-eq-155mm"]},
+  {"id": "sgp-eq-ssph", "topic": "cannon-artillery", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Singapore Army", "echelon": ["Battalion"], "type": "Equipment", "title": "SSPH Primus: The Locally Built Tracked Howitzer", "what": ["The SSPH Primus is a locally developed 155mm/39-calibre tracked self-propelled howitzer, commissioned in 2003, giving armoured fire support to the combined arms divisions."], "how": ["A crew of four: gun commander, charge loader, ammunition loader and driver.", "Reported: a semi-automatic loader and electronic rammer give up to six rounds a minute.", "Reported: a 28.3-tonne tracked chassis designed for local terrain lets it keep pace with armour."], "why": ["In the 1990s foreign tracked howitzers were too heavy or wide for regional roads and bridges; Primus gave armoured brigades protected 155mm fire.", "Compare the US: lighter than the M109A7 and with a smaller crew of four; both are 39-calibre guns."], "sources": [{"title": "Singapore Artillery", "publisher": "Singapore Army", "year": "2025", "url": "https://www.army.gov.sg/our-forces/formations/singapore-artillery/"}, {"title": "Fact Sheet on Singapore Self-Propelled Howitzer Gun Barrel Standard Operating Procedures", "publisher": "Ministry of Defence (Singapore)", "year": "2019", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/30jan19_fs/"}], "confidence": "Confirmed", "asOf": "2025-12", "relatedIds": ["sgp-eq-tmg", "sgp-ttp-fire-control", "usa-eq-m109a7"]},
+  {"id": "sgp-eq-slwh", "topic": "cannon-artillery", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Singapore Army", "echelon": ["Battalion"], "type": "Equipment", "title": "SLWH Pegasus and FH-2000: Light and Long Towed Guns", "what": ["The SLWH Pegasus is a 5.4-tonne, 155mm/39-calibre helicopter-portable howitzer with an auxiliary engine. The FH-2000 is a 155mm/52-calibre towed howitzer that can drive itself short distances."], "how": ["Pegasus can be underslung by heavy-lift helicopters or carried by C-130.", "Both use onboard engines to move into and out of firing positions.", "FH-2000 fires NATO-standard 155mm ammunition at up to six rounds a minute."], "why": ["Pegasus gives light and heliborne forces 155mm fire without heavy tractors; FH-2000 gave 52-calibre reach before the TMG.", "Compare the US: Pegasus fills a role like the M777A2, but adds its own engine."], "sources": [{"title": "Singapore Artillery", "publisher": "Singapore Army", "year": "2025", "url": "https://www.army.gov.sg/our-forces/formations/singapore-artillery/"}, {"title": "SLWH Pegasus", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/SLWH_Pegasus"}], "confidence": "Confirmed", "asOf": "2025-12", "relatedIds": ["sgp-eq-tmg", "sgp-eq-ammo", "joint-eq-m777a2"]},
+  {"id": "sgp-eq-belrex-mortar", "topic": "cannon-artillery", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Battalion"], "type": "Equipment", "title": "BELREX and Bronco: Automated 120mm Mortars on Vehicles", "what": ["The BELREX Protected Combat Support Vehicle (Mortar) carries an automated 120mm Advanced Mortar System (AMS), replacing towed 120mm mortars. Armoured units use the 120mm Super Rapid Advanced Mortar System (SRAMS) on the tracked Bronco."], "how": ["An automated fire control system is built into the mortar.", "It deploys 80 per cent faster than a towed 120mm mortar.", "It raises the rate of fire by 67 per cent and halves the crew.", "The hull protects the crew from small arms and mines."], "why": ["Protected, automated mortars give battalions instant indirect fire without exposing crews.", "Compare the US: like the Stryker M1129 mortar carrier, with more loading and laying automation."], "sources": [{"title": "Fact Sheet: Latest Suite of Headquarters Sense and Strike Platforms", "publisher": "Ministry of Defence (Singapore)", "year": "2021", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/30jun21_fs2/"}, {"title": "Singapore Army showcases new self-propelled 120 mm mortar system", "publisher": "Janes", "year": "2021", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/singapore-army-showcases-new-self-propelled-120-mm-mortar-system"}], "confidence": "Confirmed", "asOf": "2021-06", "relatedIds": ["sgp-ttp-shoot-scoot", "mys-eq-mortars", "usa-eq-m120"]},
+  {"id": "sgp-eq-himars", "topic": "rocket-missile-artillery", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Singapore Army", "echelon": ["Battalion"], "type": "Equipment", "title": "HIMARS: Singapore’s Long-Range Precision Rockets", "what": ["Singapore operates the US M142 HIMARS, firing 227mm M31 unitary GMLRS rockets, as the Army’s main long-range precision fire system (23rd Battalion, Singapore Artillery)."], "how": ["It receives target coordinates through the Battlefield Management System.", "Reported: ready to fire in under 20 seconds and fires a pod of six rockets in 45 seconds (MINDEF 2011 figures, via a blog repost).", "Reported: M31 rockets use inertial and GPS guidance to hit targets up to 70 km away (same 2011 source).", "It moves off at up to 94 km/h to avoid counter-battery fire."], "why": ["Precise long-range fire in all weather lets the Army strike deep without relying only on aircraft.", "Compare the US: same launcher and rockets; open sources do not confirm ATACMS or PrSM for Singapore."], "sources": [{"title": "Singapore Artillery", "publisher": "Singapore Army", "year": "2025", "url": "https://www.army.gov.sg/our-forces/formations/singapore-artillery/"}, {"title": "First HIMARS Battery Operational (citing MINDEF)", "publisher": "Defense Studies", "year": "2011", "url": "http://defense-studies.blogspot.com/2011/09/first-himars-battery-operational.html"}], "confidence": "Confirmed", "asOf": "2025-12", "relatedIds": ["sgp-eq-gmlrs", "sgp-eq-tpq53", "joint-eq-m142", "aus-eq-himars"]},
+  {"id": "sgp-eq-pls", "topic": "rocket-missile-artillery", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Singapore Army", "echelon": ["Battalion"], "type": "Equipment", "title": "Precision Land Shooter: A New Strike System for Built-Up Areas", "what": ["Unveiled in October 2026, the Precision Land Shooter (PLS) is a truck-mounted precision strike system for complex and urban terrain. MINDEF has not named the maker or the munition."], "how": ["Reported: nine launch canisters in a three-by-three block on an unarmoured utility truck.", "It gives guided strikes with shorter response times than tube artillery.", "It works with the Truck Mounted Gun within 6th Division’s sense-strike system.", "Reported: analysts differ: Janes noted that its appearance resembles launchers of Rafael’s Spike non-line-of-sight (NLOS) missile family; another outlet called it a loitering munition system. MINDEF has not named the maker."], "why": ["Urban terrain needs low-collateral munitions that hit point targets quickly.", "Compare the US: if it fires non-line-of-sight missiles or loitering munitions, it parallels US trials of vehicle-mounted Spike NLOS and launched effects."], "sources": [{"title": "Media Reply on Truck Mounted Gun and Precision Land Shooter", "publisher": "Ministry of Defence (Singapore)", "year": "2026", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/06oct26-mq/"}, {"title": "Singapore Army unveils new automated artillery, precision strike", "publisher": "AsiaOne", "year": "2026", "url": "https://www.asiaone.com/singapore/singapore-army-new-artillery-precision-land-shooter-systems"}, {"title": "Singapore Army unveils new artillery, precision-strike systems", "publisher": "Janes", "year": "2026", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/land/singapore-army-unveils-new-artillery-precision-strike-systems"}], "confidence": "Confirmed", "asOf": "2026-10", "relatedIds": ["sgp-eq-tmg", "sgp-eq-lm", "sgp-org-hqss"]},
+  {"id": "sgp-org-droid", "topic": "loitering-munitions", "country": "Singapore", "addedIn": "2026.12", "module": "Forces", "force": "Multiple", "echelon": ["Theatre"], "type": "Organisation", "title": "DROID: A Unit to Field Small Drones Fast", "what": ["The SAF set up the Drone Rapid Operationalisation, Integration and Deployment (DROID) unit under the UAS Warfare and Tactics Centre to trial small drones and fit them into strike operations, alongside manned assets and Heron 1 drones."], "how": ["It tests and fields small commercial and military drones quickly.", "It links drones with aircraft and land shooters in integrated strike exercises such as Forging Sabre.", "It widens real-time awareness and target cueing in contested environments."], "why": ["Drone warfare changes fast; a dedicated unit shortens buying and tactics cycles.", "Compare the US: mirrors US rapid-fielding efforts for small drones, but organised centrally in the joint strike system."], "sources": [{"title": "Fact Sheet: Exercise Forging Sabre 2025 – ‘Integrated, Adaptive, Precise’", "publisher": "Ministry of Defence (Singapore)", "year": "2025", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/09sep25-fs/"}], "confidence": "Confirmed", "asOf": "2025-09", "relatedIds": ["sgp-eq-uav", "sgp-trn-overseas", "sgp-eq-lm"]},
+  {"id": "sgp-eq-lm", "topic": "loitering-munitions", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Singapore Army", "echelon": ["Battalion"], "type": "Equipment", "title": "Loitering Munitions: Developed at Home, Not Yet Declared", "what": ["Not found in open sources: an officially confirmed loitering munition in Army service. Some analysts think the Precision Land Shooter may launch them."], "how": ["Reported: one outlet described the PLS as a loitering munition system; Janes noted that it looks like a Spike NLOS launcher.", "MINDEF continues to add unmanned air and ground vehicles to combat units under the SAF 2040 plan."], "why": ["Loitering munitions give persistent watch and precise strike against fleeting targets in dense terrain.", "Compare the US: the US publishes its Switchblade and LASSO programmes; Singapore does not disclose loitering munition holdings."], "sources": [{"title": "Singapore Army unveils new automated artillery, precision strike", "publisher": "AsiaOne", "year": "2026", "url": "https://www.asiaone.com/singapore/singapore-army-new-artillery-precision-land-shooter-systems"}, {"title": "Singapore Army unveils new artillery, precision-strike systems", "publisher": "Janes", "year": "2026", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/land/singapore-army-unveils-new-artillery-precision-strike-systems"}], "confidence": "Reported", "asOf": "2026-10", "relatedIds": ["sgp-eq-pls", "sgp-org-droid", "mys-eq-lm-industry", "idn-eq-minibe"]},
+  {"id": "sgp-eq-ammo", "topic": "ammunition-effects", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Singapore Army", "echelon": ["Battalion"], "type": "Equipment", "title": "155mm Ammunition: NATO Standard", "what": ["Singapore’s 155mm guns fire NATO type-classified ammunition, including M107 high explosive and extended-range full-bore base-bleed shells."], "how": ["M107 rounds reach 19 km from 39-calibre guns such as the Pegasus.", "Base-bleed rounds extend 39-calibre reach to 30 km."], "why": ["NATO-standard calibres allow ammunition sharing in overseas exercises and simplify stocks.", "Compare the US: both use NATO 155mm; open sources do not confirm Excalibur for Singapore."], "sources": [{"title": "Singapore Artillery", "publisher": "Singapore Army", "year": "2025", "url": "https://www.army.gov.sg/our-forces/formations/singapore-artillery/"}], "confidence": "Confirmed", "asOf": "2025-12", "relatedIds": ["sgp-eq-slwh", "sgp-sus-ammo", "idn-sus-ammo"]},
+  {"id": "sgp-eq-gmlrs", "topic": "ammunition-effects", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Singapore Army", "echelon": ["Battalion"], "type": "Equipment", "title": "M31 Unitary GMLRS: One Precise Warhead", "what": ["Singapore’s HIMARS fire 227mm M31 unitary GMLRS rockets, each with a single high-explosive warhead guided by GPS and inertial navigation."], "how": ["Fired from six-round pods on the HIMARS.", "Guided throughout flight for high accuracy.", "A unitary blast-fragmentation warhead hits point targets with less collateral damage."], "why": ["Unitary precision rockets allow strikes in built-up or sensitive areas where area rockets would cause too much damage.", "Compare the US: the same M31 family as the US Army."], "sources": [{"title": "Singapore Artillery", "publisher": "Singapore Army", "year": "2025", "url": "https://www.army.gov.sg/our-forces/formations/singapore-artillery/"}, {"title": "M142 HIMARS", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/M142_HIMARS"}], "confidence": "Confirmed", "asOf": "2025-12", "relatedIds": ["sgp-eq-himars", "joint-eq-rkt-munitions"]},
+  {"id": "sgp-eq-tpq53", "topic": "target-acquisition", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Singapore Army", "echelon": ["Battalion"], "type": "Equipment", "title": "TPQ-53: The 360-Degree Weapon-Locating Radar", "what": ["FATA units operate the TPQ-53 weapon-locating radar to detect, classify and locate enemy rockets, artillery and mortars, and pass the data straight to shooters."], "how": ["It works in a fixed sector out to 60 km or rotates through 360 degrees.", "It tracks rounds to find both the enemy firing point and the predicted impact point.", "It sends target coordinates digitally to friendly artillery for counter-fire.", "It needs about 30 per cent fewer people than older radars."], "why": ["All-round coverage and 60 km reach protect troops from fire from any direction.", "Compare the US: the same Lockheed Martin AN/TPQ-53 used by the US Army."], "sources": [{"title": "Fact Sheet: Latest Suite of Headquarters Sense and Strike Platforms", "publisher": "Ministry of Defence (Singapore)", "year": "2021", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/30jun21_fs2/"}, {"title": "Detecting Hostility", "publisher": "Defence Science and Technology Agency", "year": "2021", "url": "https://www.dsta.gov.sg/what-we-do/detail?title=detecting-hostility&category=e"}], "confidence": "Confirmed", "asOf": "2021-06", "relatedIds": ["sgp-eq-safari-arthur", "sgp-les-counterfire", "usa-eq-tpq53"]},
+  {"id": "sgp-eq-safari-arthur", "topic": "target-acquisition", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Singapore Army", "echelon": ["Battalion"], "type": "Equipment", "title": "SAFARI, ARTHUR and the Older Firefinders", "what": ["Alongside the TPQ-53, FATA units operate the SAFARI and ARTHUR weapon-locating radars and older AN/TPQ-36 and AN/TPQ-37 radars."], "how": ["SAFARI locates mortars and artillery out to 40 km and rockets out to 60 km, tracking up to 10 targets.", "ARTHUR locates artillery and mortars out to 40 km, tracking up to 100 rounds a minute.", "Reported: SAFARI rides on the tracked Bronco for cross-country mobility."], "why": ["A mix of tracked and wheeled radars keeps counter-fire coverage for armoured, motorised and static forces.", "Compare the US: the US relies on its own TPQ-50 and TPQ-53; Singapore mixes US, Swedish and Israeli-derived radars."], "sources": [{"title": "Singapore Artillery", "publisher": "Singapore Army", "year": "2025", "url": "https://www.army.gov.sg/our-forces/formations/singapore-artillery/"}, {"title": "Singapore Artillery", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Singapore_Artillery"}], "confidence": "Confirmed", "asOf": "2025-12", "relatedIds": ["sgp-eq-tpq53", "mys-eq-arthur", "usa-eq-wlr-predecessors"]},
+  {"id": "sgp-eq-uav", "topic": "target-acquisition", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Battalion", "Theatre"], "type": "Equipment", "title": "VELOCE 15 and Heron 1: Drones That Find Targets", "what": ["Ground units use the VELOCE 15 mini drone for tactical reconnaissance; the Air Force’s Heron 1 gives theatre-level intelligence and targeting for joint strikes."], "how": ["VELOCE 15 sets up in under 10 minutes and launches from confined spaces.", "It streams live video to ground troops through a mobile receiver.", "Heron 1 feeds target data into the joint command and control system to cue artillery and air strikes."], "why": ["Organic drones give commanders eyes beyond line of sight without waiting for air assets.", "Compare the US: VELOCE 15 is like the Raven or Puma; Heron 1 like the MQ-1C Gray Eagle."], "sources": [{"title": "Fact Sheet: Latest Suite of Headquarters Sense and Strike Platforms", "publisher": "Ministry of Defence (Singapore)", "year": "2021", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/30jun21_fs2/"}, {"title": "Fact Sheet: Exercise Forging Sabre 2025 – ‘Integrated, Adaptive, Precise’", "publisher": "Ministry of Defence (Singapore)", "year": "2025", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/09sep25-fs/"}], "confidence": "Confirmed", "asOf": "2025-09", "relatedIds": ["sgp-org-droid", "sgp-eq-ccis-bms", "mys-eq-uas"]},
+  {"id": "sgp-ttp-fams", "topic": "technical-fire-direction", "country": "Singapore", "addedIn": "2026.12", "module": "TTPs", "force": "Singapore Army", "echelon": ["Battery"], "type": "TTP", "title": "Meteorology and Survey: Making the First Round Count", "what": ["Singapore Artillery uses the Field Artillery Meteorological System (FAMS) and dedicated recce and survey troops to give accurate weather and position data."], "how": ["Recce and survey troops find safe deployment areas and set survey control for firing units.", "FAMS measures wind, temperature and pressure and sends the data to batteries.", "Gun command posts apply the corrections to improve first-round accuracy."], "why": ["Accurate survey and weather data let unguided rounds hit first time, saving ammunition and time.", "Compare the US: FAMS does the job of the US Profiler / Meteorological Measuring Set."], "sources": [{"title": "Singapore Artillery (brochure)", "publisher": "Singapore Army", "year": "2025", "url": "https://isomer-user-content.by.gov.sg/128/01296995-dc75-449f-b7f7-33e2712dad06/ARC-044-T25_Artillery%208pp%20Brochure_R3_06%20May%202025.pdf"}], "confidence": "Confirmed", "asOf": "2025-05", "relatedIds": ["sgp-ttp-fire-control", "mys-ttp-gunnery", "usa-eq-barrel-records"]},
+  {"id": "sgp-ttp-fire-control", "topic": "technical-fire-direction", "country": "Singapore", "addedIn": "2026.12", "module": "TTPs", "force": "Singapore Army", "echelon": ["Battery"], "type": "TTP", "title": "Gun Safety Drills after the 2019 Primus Accident", "what": ["After a fatal 2019 SSPH Primus training accident in New Zealand, the SAF held a Committee of Inquiry and tightened barrel-movement procedures and training safety rules."], "how": ["Safe areas inside the turret were marked for each of the four crew roles.", "The gun commander must call warnings (“clear away”, “standby”) before any barrel movement.", "The same drills apply to maintenance technicians.", "Safety rule compliance is reviewed at quarterly Army safety seminars."], "why": ["Highly automated turrets bring pinch and recoil hazards in firing and maintenance, so crews need strict discipline.", "Compare the US: both enforce turret-clearance drills; Singapore published its zone markings for crews and technicians after the inquiry."], "sources": [{"title": "Fact Sheet on Singapore Self-Propelled Howitzer Gun Barrel Standard Operating Procedures", "publisher": "Ministry of Defence (Singapore)", "year": "2019", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/30jan19_fs/"}, {"title": "Ministerial Statement by Minister for Defence Dr Ng Eng Hen", "publisher": "Ministry of Defence (Singapore)", "year": "2019", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/06may19_ps/"}], "confidence": "Confirmed", "asOf": "2019-05", "relatedIds": ["sgp-eq-ssph", "sgp-trn-ai"]},
+  {"id": "sgp-eq-ccis-bms", "topic": "digital-fires-c2", "country": "Singapore", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Theatre"], "type": "Equipment", "title": "CCIS and BMS: The Digital Link from Sensor to Shooter", "what": ["The SAF links sensors, command posts and shooters through a joint Command and Control Information System (CCIS) and a Battlefield Management System (BMS) on land platforms."], "how": ["Target tracks from intelligence analysts, Air Force drones and Army radars are fused into one picture.", "Automated decision aids recommend the best shooter.", "Digital calls for fire go straight to HIMARS, howitzers and mortar carriers via BMS.", "Software can be changed in the field with defence engineers to speed the decision cycle."], "why": ["Digital fusion removes voice-radio errors and shortens the sensor-to-shooter time across air, land and intelligence.", "Compare the US: a role like AFATDS and JADC2, inside one smaller joint architecture."], "sources": [{"title": "Fact Sheet: Exercise Forging Sabre 2025 – ‘Integrated, Adaptive, Precise’", "publisher": "Ministry of Defence (Singapore)", "year": "2025", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/09sep25-fs/"}, {"title": "First HIMARS Battery Operational (citing MINDEF)", "publisher": "Defense Studies", "year": "2011", "url": "http://defense-studies.blogspot.com/2011/09/first-himars-battery-operational.html"}], "confidence": "Confirmed", "asOf": "2025-09", "relatedIds": ["sgp-org-hqss", "sgp-ttp-ops-int", "usa-eq-afatds-arch", "mys-eq-as4000"]},
+  {"id": "sgp-ttp-ops-int", "topic": "digital-fires-c2", "country": "Singapore", "addedIn": "2026.12", "module": "TTPs", "force": "Multiple", "echelon": ["Theatre"], "type": "TTP", "title": "Intelligence inside the Strike Chain: The Digital and Intelligence Service", "what": ["The Digital and Intelligence Service (DIS), the SAF’s fourth service, places intelligence analysts inside the sense-strike system to support targeting."], "how": ["Analysts check high-value targets in real time from several sources.", "Threat assessments feed the joint command system during live strikes.", "They help the system keep working under electronic attack."], "why": ["Close operations-intelligence work means precision rounds go only to verified, high-priority targets.", "Compare the US: a separate digital and intelligence service differs from the US, where these sit across several services and commands."], "sources": [{"title": "Fact Sheet: Exercise Forging Sabre 2025 – ‘Integrated, Adaptive, Precise’", "publisher": "Ministry of Defence (Singapore)", "year": "2025", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/09sep25-fs/"}], "confidence": "Confirmed", "asOf": "2025-09", "relatedIds": ["sgp-eq-ccis-bms", "sgp-org-hqss"]},
+  {"id": "sgp-les-counterfire", "topic": "counterfire-survivability", "country": "Singapore", "addedIn": "2026.12", "module": "Lessons", "force": "Singapore Army", "echelon": ["Battalion"], "type": "Lesson", "title": "Radars in Afghanistan: What Singapore Learned", "what": ["From 2007 to 2013 Singapore Artillery deployed 492 personnel and weapon-locating radars to Afghanistan to give early warning and counter-fire data to coalition forces."], "how": ["Crews ran the radars under real rocket and mortar fire.", "They warned bases and calculated firing points for the coalition response."], "why": ["Real operations tested radar procedures under fire.", "Compare the US: the US Army also rushed counter-fire radars to bases in Iraq and Afghanistan in the same years (see the US entry)."], "sources": [{"title": "Singapore Artillery", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Singapore_Artillery"}, {"title": "Fact Sheet: Latest Suite of Headquarters Sense and Strike Platforms", "publisher": "Ministry of Defence (Singapore)", "year": "2021", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/30jun21_fs2/"}], "confidence": "Confirmed", "asOf": "2021-06", "relatedIds": ["sgp-eq-tpq53", "les-ta-iraq-afghanistan"]},
+  {"id": "sgp-ttp-shoot-scoot", "topic": "counterfire-survivability", "country": "Singapore", "addedIn": "2026.12", "module": "TTPs", "force": "Singapore Army", "echelon": ["Battery"], "type": "TTP", "title": "Shoot and Scoot with Automated Guns and Mortars", "what": ["Singapore Artillery stresses fast deployment, short firing windows and immediate moves across HIMARS, the TMG, Primus and BELREX mortars to survive counter-battery fire."], "how": ["Automated fire control and loading cut time into action: under 20 seconds for HIMARS; 80 per cent faster for the BELREX mortar than a towed mortar.", "Crews fire a quick burst and leave before return fire arrives.", "Primus and BELREX add armour protection to speed."], "why": ["Modern radars find a firing battery in seconds; moving is the main defence.", "Compare the US: matches US survivability drills, sped up by fully automated wheeled guns and mortars."], "sources": [{"title": "Fact Sheet: Latest Suite of Headquarters Sense and Strike Platforms", "publisher": "Ministry of Defence (Singapore)", "year": "2021", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/30jun21_fs2/"}, {"title": "First HIMARS Battery Operational (citing MINDEF)", "publisher": "Defense Studies", "year": "2011", "url": "http://defense-studies.blogspot.com/2011/09/first-himars-battery-operational.html"}], "confidence": "Confirmed", "asOf": "2021-06", "relatedIds": ["sgp-eq-tmg", "sgp-eq-himars", "mys-les-shoot-scoot", "ukr-ttp-roving-gun"]},
+  {"id": "sgp-sus-ammo", "topic": "sustainment", "country": "Singapore", "addedIn": "2026.12", "module": "Forces", "force": "Singapore Army", "echelon": ["Theatre"], "type": "Organisation", "title": "Ammunition Command and Forward Support Groups", "what": ["Ammunition is managed centrally by the SAF Ammunition Command; field sustainment on big deployments is run by Forward Support Groups (FSG) under Combat Service Support Command."], "how": ["The Ammunition Command manages storage, safety and distribution of shells, rockets and mortar bombs.", "FSGs deploy to ports and camps in overseas exercises such as Wallaby 2026 for transport, supply and repair.", "Army technicians maintain guns in forward maintenance bays."], "why": ["Intense artillery use consumes heavy tonnages of ammunition, and automated guns need specialist maintenance.", "Compare the US: the FSG does a field job like a Brigade Support Battalion, adapted to overseas training."], "sources": [{"title": "Organisational structure", "publisher": "Singapore Army", "year": "2026", "url": "https://www.army.gov.sg/about-the-army/organisation-structure/"}, {"title": "‘A warm bowl of soup’: How the SAF keeps troops going at Exercise Wallaby 2026", "publisher": "AsiaOne", "year": "2026", "url": "https://www.asiaone.com/singapore/saf-taking-care-troops-fsg-exercise-wallaby-2026"}], "confidence": "Confirmed", "asOf": "2026-10", "relatedIds": ["sgp-trn-overseas", "sgp-eq-ammo", "mys-sus-maintenance"]},
+  {"id": "sgp-trn-overseas", "topic": "liaison", "country": "Singapore", "addedIn": "2026.12", "module": "Training", "force": "Multiple", "echelon": ["Division", "Theatre"], "type": "Training", "title": "Training Overseas: Thunder Warrior, Forging Sabre and Wallaby", "what": ["With no long-range impact areas at home, the SAF holds its major live firing overseas: Thunder Warrior (New Zealand, since 1997), Forging Sabre (United States, since 2005) and Wallaby (Australia)."], "how": ["Thunder Warrior, held each year at Waiouru since 1997 (14 January to 14 February in 2026), trains active and reservist battalions in 155mm live firing.", "Forging Sabre (last held September 2025) tests the joint sense-strike chain over an area more than 20 times Singapore’s size, with HIMARS, drones, fighters and the DIS.", "Wallaby 2026 (6 September to 2 November at Shoalwater Bay) tests combined-arms manoeuvre and live firing, with a Forward Support Group for logistics."], "why": ["Full-range live fire and large manoeuvre cannot be done on a small island.", "Compare the US: the US fires at home ranges such as Fort Sill; Singapore ships whole units abroad to fire at full range."], "sources": [{"title": "Fact Sheet: Exercise Forging Sabre 2025 – ‘Integrated, Adaptive, Precise’", "publisher": "Ministry of Defence (Singapore)", "year": "2025", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/09sep25-fs/"}, {"title": "Senior Minister of State for Defence Visits Exercise Thunder Warrior, Reaffirms Close Defence Relations Between Singapore and New Zealand", "publisher": "Ministry of Defence (Singapore)", "year": "2026", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/27jan26-nr/"}, {"title": "‘A warm bowl of soup’: How the SAF keeps troops going at Exercise Wallaby 2026", "publisher": "AsiaOne", "year": "2026", "url": "https://www.asiaone.com/singapore/saf-taking-care-troops-fsg-exercise-wallaby-2026"}], "confidence": "Confirmed", "asOf": "2026-10", "relatedIds": ["sgp-sus-ammo", "sgp-org-droid", "mys-trn-keris-strike", "idn-trn-sgs26"]},
+  {"id": "sgp-trn-ai", "topic": "technical-fire-direction", "country": "Singapore", "addedIn": "2026.12", "module": "Training", "force": "Singapore Army", "echelon": ["Corps"], "type": "Training", "title": "The Artillery Institute and Simulation", "what": ["The Artillery Institute at Khatib Camp gives gunnery, target acquisition and fire support training to officers, specialists and enlistees, backed by more simulators."], "how": ["It trains full-time national servicemen and regulars in field artillery, target acquisition and liaison trades.", "Across the SAF, simulators are planned to replace a further 20 per cent of live training and allow combined virtual exercises.", "Battlefield effects simulators reproduce artillery fire for manoeuvre troops."], "why": ["Simulation gives more repetitions within a two-year national service and saves ammunition and land.", "Compare the US: like the Field Artillery School at Fort Sill, for a shorter conscript pipeline."], "sources": [{"title": "Fact Sheet: Pilot Implementation of Security Zoning in SAF Camps", "publisher": "Ministry of Defence (Singapore)", "year": "2012", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/2012aug31-news-releases-00042/"}, {"title": "Committee of Supply Debate 2023", "publisher": "Ministry of Defence (Singapore)", "year": "2023", "url": "https://www.mindef.gov.sg/committee-of-supply-debate-2023/"}], "confidence": "Confirmed", "asOf": "2023-03", "relatedIds": ["sgp-ttp-fire-control", "mys-trn-pusarti", "idn-trn-pusdikarmed"]},
+  {"id": "ind-org-overview", "topic": "liaison", "country": "India", "addedIn": "2026.12", "module": "Forces", "force": "Indian Army", "echelon": ["Regiment", "Brigade", "Division", "Corps"], "type": "Organisation", "title": "The Regiment of Artillery: Organisation", "what": ["The Regiment of Artillery is the Indian Army’s single fire support arm, providing guns, rockets, surveillance and target acquisition to every formation.", "Its regiments are battalion-sized, typically about 18 guns."], "how": ["Reported: regiments are grouped into artillery brigades at division level and artillery divisions at corps or army level.", "Rocket regiments operate Pinaka and Smerch launchers for deep area fire.", "Reported: Surveillance and Target Acquisition (SATA) units provide radars, drones and sound-ranging.", "Most regiments still use towed guns, including large numbers of older 105mm, 122mm and 130mm pieces."], "why": ["One arm controlling all fire support lets India mass fire quickly at a decisive point, as at Kargil in 1999.", "Compare the US: like the US Field Artillery branch in centralising doctrine and training, but India keeps far more towed regiments."], "sources": [{"title": "Regiment of Artillery: Structure and History", "publisher": "India Defence Wire", "year": "2026", "url": "https://indiadefencewire.com/defence-ecosystem/defence-equipment-in-india/artillery/regiment-of-artillery-structure"}, {"title": "Artillery Systems: Mediumisation And Indigenisation of Indian Artillery", "publisher": "Indian Military Review", "year": "2020", "url": "https://imrmedia.in/artillery-systems-mediumisation-and-indigenisation-of-indian-artillery/"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-doc-farp", "ind-trn-deolali", "usa-org-fist"]},
+  {"id": "ind-ttp-integration", "topic": "liaison", "country": "India", "addedIn": "2026.12", "module": "TTPs", "force": "Indian Army", "echelon": ["Battalion", "Regiment", "Brigade"], "type": "TTP", "title": "Fire Support with Infantry and Armour", "what": ["Artillery officers sit with the infantry and armoured headquarters they support and plan fire alongside the manoeuvre plan."], "how": ["Artillery officers co-locate with supported headquarters to advise on fire planning.", "Digital fire control links observers, command posts and firing batteries.", "Integrated Battle Groups (IBGs), brigade-sized combined-arms formations still being introduced, practise fire support in mountain and desert terrain."], "why": ["Fire must land as the assault goes in; Indian doctrine treats that timing as decisive.", "Compare the US: similar to US Fire Support Teams and brigade fire support elements."], "sources": [{"title": "Regiment of Artillery: Structure and History", "publisher": "India Defence Wire", "year": "2026", "url": "https://indiadefencewire.com/defence-ecosystem/defence-equipment-in-india/artillery/regiment-of-artillery-structure"}, {"title": "Pinaka at Yudh Abhyas: India’s home-grown rocket launcher fires at Mahajan", "publisher": "India Defence Wire", "year": "2026", "url": "https://indiadefencewire.com/articles/pinaka-at-yudh-abhyas-mahajan-rocket-launcher-drdo"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-org-overview", "ind-eq-shakti", "usa-org-fist"]},
+  {"id": "ind-doc-farp", "topic": "cannon-artillery", "country": "India", "addedIn": "2026.12", "module": "Forces", "force": "Indian Army", "echelon": ["Corps"], "type": "Policy", "title": "The Field Artillery Rationalisation Plan: Everything to 155mm", "what": ["Approved in 1999, the Field Artillery Rationalisation Plan (FARP) is India’s long-term plan to standardise its artillery on 155mm guns: towed, truck-mounted, ultra-light and tracked.", "The change to 155mm is incomplete: 105mm Light Field Guns still fired the Republic Day salute in January 2026, and in November 2023 the Defence Acquisition Council approved a new towed gun to replace the Indian Field Gun."], "how": ["It replaces legacy 105mm, 122mm and 130mm guns with 155mm guns of 39, 45 and 52 calibres.", "It mixes Indian designs (Dhanush, ATAGS), licence-built guns (K9 Vajra-T) and imports (M777).", "As a stop-gap, 130mm M-46 guns are being re-barrelled to 155mm/45 as the Sharang."], "why": ["One calibre simplifies ammunition supply and adds range in both mountains and plains.", "Compare the US: the US standardised on 155mm for cannon artillery decades ago; India still runs thousands of 105mm, 122mm and 130mm guns."], "sources": [{"title": "Field Artillery Rationalisation Plan", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Field_Artillery_Rationalisation_Plan"}, {"title": "Artillery Systems: Mediumisation And Indigenisation of Indian Artillery", "publisher": "Indian Military Review", "year": "2020", "url": "https://imrmedia.in/artillery-systems-mediumisation-and-indigenisation-of-indian-artillery/"}, {"title": "MINISTRY OF DEFENCE - YEAR END REVIEW 2023", "publisher": "Press Information Bureau", "year": "2023", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1989502"}, {"title": "77th Republic Day Parade: Kartavya Path set to unveil unique mix of 150 years of ‘Vande Mataram’ and the nation’s progress & military might, immersed in rich cultural diversity and Jan Bhagidari", "publisher": "Press Information Bureau", "year": "2026", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218449"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ind-eq-dhanush", "ind-eq-atags", "ind-eq-k9-vajra", "ind-les-kargil"]},
+  {"id": "ind-eq-dhanush", "topic": "cannon-artillery", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Regiment", "Brigade"], "type": "Equipment", "title": "Dhanush 155mm/45 Towed Howitzer", "what": ["Dhanush is an Indian 155mm/45-calibre towed howitzer developed from the Bofors FH-77B, made by Advanced Weapons and Equipment India Limited (AWEIL)."], "how": ["Reported: range of about 38 km, more than the original FH-77B.", "An auxiliary power unit lets it move short distances under its own power.", "Reported: about four regiments have it; in March 2026 the Defence Acquisition Council approved buying the Dhanush gun system, reported as 300 more guns for 15 new regiments."], "why": ["A home-built 155mm gun lets India replace old towed guns at scale.", "Compare the US: heavier than the US M777A2, with a longer 45-calibre barrel."], "sources": [{"title": "DAC clears proposals worth Rs 2.38 lakh crore to augment defence capabilities", "publisher": "Press Information Bureau", "year": "2026", "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2246125"}, {"title": "India to Order 300 Dhanush 155mm Howitzers to Form 15 New Artillery Regiments", "publisher": "Army Recognition", "year": "2026", "url": "https://www.armyrecognition.com/news/army-news/2026/india-to-order-300-dhanush-155mm-howitzers-to-form-15-new-artillery-regiments"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-doc-farp", "ind-eq-atags", "joint-eq-m777a2"]},
+  {"id": "ind-eq-atags", "topic": "cannon-artillery", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Regiment", "Brigade"], "type": "Equipment", "title": "ATAGS: The Indian 155mm/52 Towed Gun", "what": ["The Advanced Towed Artillery Gun System (ATAGS) is an Indian 155mm/52-calibre towed howitzer designed by DRDO and built by Bharat Forge and Tata Advanced Systems; 307 are on order."], "how": ["All-electric drives lay, load and ram the gun, reducing hydraulic maintenance.", "Reported: up to 48 km with extended-range base-bleed (ERFB-BB) ammunition.", "An automatic gun alignment and positioning system (AGAPS) lets it lay without manual survey; it links to the Shakti fire control network."], "why": ["ATAGS gives towed regiments 52-calibre range without depending on foreign suppliers.", "Compare the US: outranges the 39-calibre M777A2 but weighs much more."], "sources": [{"title": "From Rajasthan To Siachen: ATAGS To Revolutionise Artillery Warfare For Indian Army", "publisher": "Defence Stories", "year": "2025", "url": "https://defencestories.com/2025/07/14/from-rajasthan-to-siachen-atags-to-revolutionise-artillery-warfare-for-indian-army-1st-regiment-expected-within-a-year/"}, {"title": "Indian Army set to upgrade its artillery", "publisher": "Akashvani News (All India Radio)", "year": "2025", "url": "https://newsonair.gov.in/indian-army-set-to-upgrade-its-artillery"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-doc-farp", "ind-eq-gun-computers", "ind-eq-shakti"]},
+  {"id": "ind-eq-k9-vajra", "topic": "cannon-artillery", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Regiment", "Division"], "type": "Equipment", "title": "K9 Vajra-T Tracked Self-Propelled Howitzer", "what": ["The K9 Vajra-T is a 155mm/52-calibre tracked self-propelled howitzer built in India by Larsen & Toubro under licence from South Korea’s Hanwha."], "how": ["The first 100 entered service; in December 2024 the Ministry of Defence signed a ₹7,629 crore contract for 100 more.", "On 26 October 2026 the Defence Acquisition Council approved buying more; reports differ between 300 and 335 additional guns.", "Newer guns have engine changes for high altitude as well as desert and plains."], "why": ["Armoured, tracked guns give mechanised formations and mountain sectors fire that can move quickly after firing.", "Compare the US: outranges the 39-calibre M109A7 Paladin."], "sources": [{"title": "Defence Ministry signs contract worth ₹7629 cr for procurement of K9 VAJRA-T Self-Propelled Tracked Artillery Guns", "publisher": "Akashvani News (All India Radio)", "year": "2024", "url": "https://www.newsonair.gov.in/defence-ministry-signs-contract-worth-%e2%82%b97629-cr-for-procurement-of-k9-vajra-t-self-propelled-tracked-artillery-guns"}, {"title": "Defence Acquisition Council clears capital acquisition proposals worth around ₹2.12 lakh crore", "publisher": "Akashvani News (All India Radio)", "year": "2026", "url": "https://newsonair.gov.in/defence-acquisition-council-clears-capital-acquisition-proposals-worth-around-%E2%82%B92-12-lakh-crore/"}, {"title": "India clears fresh artillery and helicopter buys worth ₹2.12 lakh crore", "publisher": "Economic Times Defence", "year": "2026", "url": "https://defence.economictimes.indiatimes.com/news/military-systems/india-clears-fresh-artillery-and-helicopter-buys-worth-2-12-lakh-crore/135229982"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["kor-eq-k9", "aus-eq-as9", "ind-ttp-shoot-scoot"]},
+  {"id": "ind-eq-pinaka", "topic": "rocket-missile-artillery", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Regiment", "Brigade", "Corps"], "type": "Equipment", "title": "Pinaka Rocket Launcher", "what": ["Pinaka is an Indian 214mm truck-mounted multiple rocket launcher in Mk1, Mk2, extended-range and guided versions.", "On 29 December 2025 the Defence Acquisition Council approved long-range guided rocket ammunition for Pinaka."], "how": ["Each launcher carries 12 rockets and can fire them all in 44 seconds.", "A battery of six launchers puts 72 rockets on a target area in under a minute, then moves.", "On 8 July 2026 DRDO flight-tested the long-range guided Pinaka at Chandipur at a minimum range of 60 km."], "why": ["Pinaka delivers fast, heavy area fire on troops, guns and logistics, and its guided rockets add precision.", "Compare the US: sits between unguided area rockets and US HIMARS with GMLRS."], "sources": [{"title": "Pinaka at Yudh Abhyas: India’s home-grown rocket launcher fires at Mahajan", "publisher": "India Defence Wire", "year": "2026", "url": "https://indiadefencewire.com/articles/pinaka-at-yudh-abhyas-mahajan-rocket-launcher-drdo"}, {"title": "DRDO conducts successful flight-test of Pinaka Long Range Guided Rocket", "publisher": "Press Information Bureau", "year": "2026", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282572"}, {"title": "Indian Artillery Systems", "publisher": "India Defence Wire", "year": "2026", "url": "https://indiadefencewire.com/defence-ecosystem/defence-equipment-in-india/artillery/indian-artillery-systems"}, {"title": "MINISTRY OF DEFENCE; YEAR END REVIEW - 2025", "publisher": "Press Information Bureau", "year": "2025", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang=2"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ind-eq-smerch-puls", "ind-ttp-shoot-scoot", "joint-eq-rkt-munitions"]},
+  {"id": "ind-eq-smerch-puls", "topic": "rocket-missile-artillery", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Corps"], "type": "Equipment", "title": "BM-30 Smerch: Deep Rocket Fire", "what": ["For corps-level deep fire, India operates the Russian 300mm BM-30 Smerch rocket launcher."], "how": ["Reported: Smerch reaches about 70–90 km, beyond 155mm guns and standard Pinaka.", "Not confirmed in official sources: the number in service, and reports that India has begun to field the Suryastra, a version of Elbit’s PULS."], "why": ["Long-range rockets let a corps strike reserves, command posts and supply hubs far behind the front.", "Compare the US: the role of M270A2 and HIMARS battalions firing GMLRS and ATACMS."], "sources": [{"title": "Artillery Systems: Mediumisation And Indigenisation of Indian Artillery", "publisher": "Indian Military Review", "year": "2020", "url": "https://imrmedia.in/artillery-systems-mediumisation-and-indigenisation-of-indian-artillery/"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-eq-pinaka", "rus-eq-tornado-s"]},
+  {"id": "ind-eq-loitering", "topic": "loitering-munitions", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Regiment", "Division"], "type": "Equipment", "title": "Loitering Munitions in the Artillery: Shaktibaan and Divyastra", "what": ["India is putting loitering munitions directly into the artillery, through new Shaktibaan regiments and Divyastra batteries.", "In January 2026 the Ministry of Defence showed Shaktibaan and Divyastra units operating HAROP, Mini HARPY, SkyStriker and other loitering munitions on 6×6 high-mobility vehicles."], "how": ["On 14 August 2026 the Ministry of Defence signed two contracts worth ₹1,577 crore for loitering munition systems.", "Tata Advanced Systems will supply 54 launch systems and 540 munitions; NIBE will supply 30 launch systems and 300 munitions."], "why": ["Artillery commanders gain their own persistent precision strike against valuable and moving targets.", "Compare the US: the US Army fields loitering munitions mainly with infantry; India also puts them inside artillery regiments."], "sources": [{"title": "MoD inks Rs 1577 crore contracts for Loiter Munition Systems", "publisher": "Press Information Bureau", "year": "2026", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2299561"}, {"title": "India signs ₹1,577-crore contracts for Army’s loitering munitions", "publisher": "India Strategic", "year": "2026", "url": "https://www.indiastrategic.in/india-signs-%E2%82%B91577-crore-contracts-for-armys-loitering-munitions-strengthening-precision-strike-capabilities/"}, {"title": "77th Republic Day Parade: Kartavya Path set to unveil unique mix of 150 years of ‘Vande Mataram’ and the nation’s progress & military might, immersed in rich cultural diversity and Jan Bhagidari", "publisher": "Press Information Bureau", "year": "2026", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218449"}, {"title": "MINISTRY OF DEFENCE; YEAR END REVIEW - 2025", "publisher": "Press Information Bureau", "year": "2025", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang=2"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["usa-eq-switchblade", "ind-les-modern", "ind-org-overview"]},
+  {"id": "ind-eq-ammunition", "topic": "ammunition-effects", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Battery", "Regiment"], "type": "Equipment", "title": "155mm Ammunition: One Family for Every Gun", "what": ["New Indian 155mm guns must fire every 155mm round already in Army stock, alongside Indian extended-range base-bleed shells."], "how": ["Tenders for new towed and truck-mounted guns require compatibility with all existing 155mm rounds.", "Extended Range Full Bore – Base Bleed (ERFB-BB) rounds take 52-calibre guns such as ATAGS to about 48 km.", "Guided Pinaka rockets add precision to area salvos."], "why": ["Common ammunition across many gun types reduces supply friction in a long, intense war.", "Compare the US: both armies use standard 155mm shells, but India still holds large 105mm, 122mm and 130mm stocks."], "sources": [{"title": "Field Artillery Rationalisation Plan", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Field_Artillery_Rationalisation_Plan"}, {"title": "From Rajasthan To Siachen: ATAGS To Revolutionise Artillery Warfare For Indian Army", "publisher": "Defence Stories", "year": "2025", "url": "https://defencestories.com/2025/07/14/from-rajasthan-to-siachen-atags-to-revolutionise-artillery-warfare-for-indian-army-1st-regiment-expected-within-a-year/"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-doc-farp", "ind-eq-atags", "joint-eq-amm-guided"]},
+  {"id": "ind-eq-swathi", "topic": "target-acquisition", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Regiment", "Division"], "type": "Equipment", "title": "Swathi Weapon Locating Radar", "what": ["Swathi is an Indian phased-array counter-battery radar designed by DRDO’s LRDE and built by Bharat Electronics (BEL)."], "how": ["Reported: it locates mortars at 2–20 km, guns at 2–30 km and rockets at 4–48 km; published rocket figures vary.", "It tracks up to seven targets at once and stores up to 99 weapon locations.", "A second mode tracks India’s own rounds to correct friendly fire.", "It comes in a plains version on an 8×8 truck and a lighter mountain version on a 6×6."], "why": ["Swathi fills the counter-battery gap exposed at Kargil in 1999, when enemy artillery caused most Indian casualties.", "Compare the US: does the same job as the AN/TPQ-53, with a separate mountain version."], "sources": [{"title": "DRDO Hands Over its Developed Products to Indian Army", "publisher": "Press Information Bureau", "year": "2017", "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=158803"}, {"title": "Swathi Weapon Locating Radar", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Swathi_Weapon_Locating_Radar"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["usa-eq-tpq53", "ind-les-kargil", "ind-eq-shakti"]},
+  {"id": "ind-eq-gun-computers", "topic": "technical-fire-direction", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Battery"], "type": "Equipment", "title": "Gun Computers, Muzzle Velocity Radars and Automatic Laying", "what": ["New Indian howitzers such as ATAGS and Dhanush carry ballistic computers, muzzle velocity radars and inertial alignment systems."], "how": ["An automatic gun alignment and positioning system (AGAPS) lays the gun without manual survey.", "A muzzle velocity radar measures each round’s exit speed to refine the firing solution.", "Day and thermal sights allow direct fire and night work."], "why": ["Automating gunnery cuts the time from halting to the first round and improves first-round accuracy.", "Compare the US: like the digital fire control systems on the M777A2 and M109A7."], "sources": [{"title": "From Rajasthan To Siachen: ATAGS To Revolutionise Artillery Warfare For Indian Army", "publisher": "Defence Stories", "year": "2025", "url": "https://defencestories.com/2025/07/14/from-rajasthan-to-siachen-atags-to-revolutionise-artillery-warfare-for-indian-army-1st-regiment-expected-within-a-year/"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-eq-atags", "ind-eq-dhanush"]},
+  {"id": "ind-eq-shakti", "topic": "digital-fires-c2", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Battery", "Regiment", "Division", "Corps"], "type": "Command & Control", "title": "Shakti: India’s Artillery Command and Control System", "what": ["Project Shakti, the Artillery Combat Command and Control System (ACCCS), is India’s own network for automating artillery command and fire control, developed by DRDO and BEL."], "how": ["It automates technical and tactical fire control across echelons.", "It manages fire planning, deployment and logistics.", "It links sensors and command posts to firing batteries."], "why": ["Shakti shortens sensor-to-shooter time and lets commanders mass the fire of several regiments.", "Compare the US: India’s counterpart to AFATDS."], "sources": [{"title": "SHAKTI dedication to Indian Army", "publisher": "Press Information Bureau", "year": "2009", "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=49161"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["usa-eq-afats", "ind-eq-swathi", "ind-eq-atags"]},
+  {"id": "ind-ttp-shoot-scoot", "topic": "counterfire-survivability", "country": "India", "addedIn": "2026.12", "module": "TTPs", "force": "Indian Army", "echelon": ["Battery"], "type": "TTP", "title": "Shoot and Scoot", "what": ["Indian rocket and self-propelled units drill firing and moving at once to escape counter-battery fire."], "how": ["A Pinaka battery fires its 72 rockets in under a minute and moves straight away.", "Tracked K9 Vajra-T guns can move off quickly after firing."], "why": ["Counter-battery radars and drones make a gun position that stays put a target.", "Compare the US: matches US survivability moves for HIMARS and Paladin batteries."], "sources": [{"title": "Pinaka at Yudh Abhyas: India’s home-grown rocket launcher fires at Mahajan", "publisher": "India Defence Wire", "year": "2026", "url": "https://indiadefencewire.com/articles/pinaka-at-yudh-abhyas-mahajan-rocket-launcher-drdo"}, {"title": "India clears fresh artillery and helicopter buys worth ₹2.12 lakh crore", "publisher": "Economic Times Defence", "year": "2026", "url": "https://defence.economictimes.indiatimes.com/news/military-systems/india-clears-fresh-artillery-and-helicopter-buys-worth-2-12-lakh-crore/135229982"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-eq-pinaka", "ind-eq-k9-vajra", "kor-doc-counterbattery"]},
+  {"id": "ind-sus-industry", "topic": "sustainment", "country": "India", "addedIn": "2026.12", "module": "Forces", "force": "Indian Army", "echelon": ["Corps"], "type": "Logistics", "title": "Building Guns at Home: State Factories and Private Firms", "what": ["India is moving artillery production from state ordnance factories alone to a mixed public and private industrial base.", "The Ordnance Factory Board was dissolved in 2021; guns now come from Advanced Weapons and Equipment India Limited and ammunition from Munitions India Limited."], "how": ["Private firms, including Bharat Forge, Tata Advanced Systems, Larsen & Toubro and NIBE, build guns, launchers and loitering munitions.", "Reported: ATAGS production is split 60 per cent Bharat Forge and 40 per cent Tata Advanced Systems.", "New towed gun tenders demand a 20-year service life and a barrel life of 1,500 full-charge rounds."], "why": ["Home production protects India from foreign supply cuts in a long war.", "Compare the US: a similar public–private model, but India’s private artillery makers scaled up only recently."], "sources": [{"title": "Field Artillery Rationalisation Plan", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Field_Artillery_Rationalisation_Plan"}, {"title": "Indian Artillery Systems", "publisher": "India Defence Wire", "year": "2026", "url": "https://indiadefencewire.com/defence-ecosystem/defence-equipment-in-india/artillery/indian-artillery-systems"}, {"title": "Standing Committee on Defence (2024–25), Fourth Report: Demands for Grants (2024–25) of Ordnance (Coordination and Services) – New DPSUs and Defence Research and Development Organisation (Demand Nos. 20 and 21)", "publisher": "Lok Sabha Secretariat", "year": "2024", "url": "https://sansad.in/getFile/lsscommittee/Defence/18_Defence_4.pdf?source=loksabhadocs"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-eq-atags", "ind-eq-k9-vajra"]},
+  {"id": "ind-trn-deolali", "topic": "technical-fire-direction", "country": "India", "addedIn": "2026.12", "module": "Training", "force": "Indian Army", "echelon": ["Corps"], "type": "Training", "title": "The School of Artillery, Deolali", "what": ["The School of Artillery at Deolali, Maharashtra, is the Indian Army’s main school for gunnery, tactics, doctrine and artillery trials."], "how": ["It has faculties of gunnery and of doctrine and tactics, a trials and technology wing, and simulators.", "It uses the Deolali field firing ranges for live training and equipment trials.", "It runs the annual Exercise Topchi firepower demonstration and hosts foreign delegations, including Sri Lanka in October 2026 and Singapore for Exercise Agni Warrior."], "why": ["One school keeps gunnery standards uniform and spreads new drills quickly across the Regiment.", "Compare the US: India’s counterpart to the Field Artillery School at Fort Sill."], "sources": [{"title": "School of Artillery: Training Gunners to Destroy Enemy", "publisher": "Bharat Shakti", "year": "2025", "url": "https://bharatshakti.in/school-of-artillery-training-gunners-to-destroy-enemy/"}, {"title": "Sri Lankan Army artillery delegation trains in India as military ties deepen", "publisher": "Tamil Guardian", "year": "2026", "url": "https://www.tamilguardian.com/content/sri-lankan-army-delegation-visits-artillery-training-facilities-india"}, {"title": "Singapore and India Armies Conclude Bilateral Exercise Agni Warrior in India", "publisher": "Ministry of Defence, Singapore", "year": "2024", "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/02dec24_nr/"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["usa-trn-13f", "ind-org-overview"]},
+  {"id": "ind-trn-yudh-abhyas", "topic": "liaison", "country": "India", "addedIn": "2026.12", "module": "Training", "force": "Indian Army", "echelon": ["Battalion", "Regiment", "Brigade"], "type": "Major Exercise", "title": "Yudh Abhyas 2026: Indian and US Gunners Fire Together", "what": ["From 15 September 2026, Exercise Yudh Abhyas at the Mahajan ranges in Rajasthan and at Auli in Uttarakhand included joint Indian and US artillery live fire."], "how": ["Indian gunners fired M777, Dhanush and Pinaka alongside troops of the US 11th Airborne Division.", "They practised target identification, fire support coordination and Integrated Battle Group tactics in desert and mountain terrain.", "Reported: Apache attack helicopters were integrated with ground fires."], "why": ["Live firing together tests procedures and proves Indian systems in combined operations.", "Compare the US: tests how Indian fire control and observer drills fit US airborne fire support procedures."], "sources": [{"title": "Pinaka at Yudh Abhyas: India’s home-grown rocket launcher fires at Mahajan", "publisher": "India Defence Wire", "year": "2026", "url": "https://indiadefencewire.com/articles/pinaka-at-yudh-abhyas-mahajan-rocket-launcher-drdo"}, {"title": "India-US troops conduct artillery drills with M777, Dhanush, Pinaka during Exercise Yudh Abhyas 2026", "publisher": "The Economic Times", "year": "2026", "url": "https://m.economictimes.com/news/defence/india-us-troops-conduct-artillery-drills-with-m777-dhanush-pinaka-during-exercise-yudh-abhyas-2026/articleshow/134424983.cms"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ind-eq-pinaka", "ind-eq-dhanush", "joint-eq-m777a2"]},
+  {"id": "ind-les-kargil", "topic": "counterfire-survivability", "country": "India", "addedIn": "2026.12", "module": "Lessons", "force": "Indian Army", "echelon": ["Division", "Corps"], "type": "Lesson", "title": "Kargil 1999: Massed Guns and the Missing Radars", "what": ["The 1999 Kargil conflict showed that massed 155mm artillery could decide mountain assaults, and that India lacked weapon-locating radars."], "how": ["Reported: up to 120 guns supported single battalion attacks, as at Tololing.", "Reported: without modern locating radars, enemy artillery caused about 80 per cent of Indian casualties.", "These lessons drove the 155mm standardisation plan (FARP) and the Swathi radar."], "why": ["Kargil remains India’s reference for fire density in the mountains and for investing in counter-battery.", "Compare the US: while the US moved to precision fires for counter-insurgency in the 2000s, India kept massed 155mm fire."], "sources": [{"title": "Artillery Systems: Mediumisation And Indigenisation of Indian Artillery", "publisher": "Indian Military Review", "year": "2020", "url": "https://imrmedia.in/artillery-systems-mediumisation-and-indigenisation-of-indian-artillery/"}, {"title": "Swathi Weapon Locating Radar", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Swathi_Weapon_Locating_Radar"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-doc-farp", "ind-eq-swathi"]},
+  {"id": "ind-les-modern", "topic": "loitering-munitions", "country": "India", "addedIn": "2026.12", "module": "Lessons", "force": "Indian Army", "echelon": ["Regiment", "Brigade", "Division"], "type": "Lesson", "title": "Why India Is Buying Mobility and Loitering Munitions", "what": ["India’s 2026 purchases of more tracked K9 Vajra-T guns and of loitering munitions follow recent combat lessons, including Operation Sindoor: towed guns that stay put are vulnerable to drone-directed counter-fire."], "how": ["October 2026: approval for more K9 Vajra-T guns, stressing mobility and survivability.", "August 2026: ₹1,577 crore of loitering munition contracts for Shaktibaan regiments.", "Newer K9 Vajra-T batches are adapted for high altitude on the northern borders.", "K9 Vajra-T follow-on contract, 20 December 2024: ₹7,628.70 crore with L&T, chosen for all terrains including sub-zero high altitude.", "Operation Sindoor, May 2025: official releases describe loitering munitions striking radar and missile sites.", "December 2025: Divyastra batteries deployed on the northern front and loitering munitions for artillery regiments approved for purchase.", "August 2026: ₹1,577 crore contracts with Tata Advanced Systems and NIBE for loitering munition systems."], "why": ["the shift is toward armoured mobility and artillery that owns its own unmanned strike.", "Compare the US: parallels the US Army’s move since 2022 toward mobile fires and expendable drones."], "sources": [{"title": "India clears fresh artillery and helicopter buys worth ₹2.12 lakh crore", "publisher": "Economic Times Defence", "year": "2026", "url": "https://defence.economictimes.indiatimes.com/news/military-systems/india-clears-fresh-artillery-and-helicopter-buys-worth-2-12-lakh-crore/135229982"}, {"title": "India signs ₹1,577-crore contracts for Army’s loitering munitions", "publisher": "India Strategic", "year": "2026", "url": "https://www.indiastrategic.in/india-signs-%E2%82%B91577-crore-contracts-for-armys-loitering-munitions-strengthening-precision-strike-capabilities/"}, {"title": "Aatmanirbhar Bharat: MoD inks Rs 7,629 crore contract with L&T for K9 VAJRA-T Self-Propelled Tracked Artillery Guns for Indian Army", "publisher": "Press Information Bureau", "year": "2024", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086514"}, {"title": "Operation SINDOOR: The Rise of Aatmanirbhar Innovation in National Security", "publisher": "Press Information Bureau", "year": "2025", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128746"}, {"title": "MINISTRY OF DEFENCE; YEAR END REVIEW - 2025", "publisher": "Press Information Bureau", "year": "2025", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang=2"}, {"title": "Aatmanirbhar Bharat: MoD inks Rs 1,577 crore contracts for Loiter Munition Systems for Indian Army", "publisher": "Press Information Bureau", "year": "2026", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2299561"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ind-eq-loitering", "ind-eq-k9-vajra", "ukr-ttp-sensors"]},
+  {"id": "ind-eq-mountain", "topic": "cannon-artillery", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Regiment", "Brigade"], "type": "Equipment", "title": "Guns for the Mountains: M777 and a Paradroppable 105mm", "what": ["To reach roadless Himalayan sectors, India operates 145 US M777 ultra-light howitzers and is seeking a 105mm gun that can be dropped by parachute."], "how": ["The light M777 can be moved by air to reach mountain positions without roads.", "On 11 April 2025 the Defence Acquisition Council approved a 105mm/37-calibre paradroppable truck-mounted gun."], "why": ["High borders have few roads, so artillery must be flown or dropped into isolated valleys.", "Compare the US: both use the M777 for air-mobile forces, but India’s main setting is extreme altitude."], "sources": [{"title": "Field Artillery Rationalisation Plan", "publisher": "Wikipedia", "year": "2026", "url": "https://en.wikipedia.org/wiki/Field_Artillery_Rationalisation_Plan"}, {"title": "Indian Artillery Systems", "publisher": "India Defence Wire", "year": "2026", "url": "https://indiadefencewire.com/defence-ecosystem/defence-equipment-in-india/artillery/indian-artillery-systems"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["joint-eq-m777a2", "ind-doc-farp"]},
+  {"id": "ukr-ttp-three-zones", "topic": "liaison", "country": "Ukraine", "addedIn": "2026.12", "module": "TTPs", "force": "Armed Forces of Ukraine", "echelon": ["Battalion", "Brigade"], "type": "TTP", "title": "No Forward Observers: Drone Feeds and Three Battle Zones", "what": ["Ukrainian units generally do not put fire controllers forward with the infantry. Drones stream video to command posts, where commanders’ representatives confirm targets and approve artillery or drone fire.", "To keep guns, mortars, drones and long-range fires apart, formations divide the battlefield into three zones."], "how": ["Contact zone: mortars and FPV drones engage targets the reconnaissance drones find.", "Middle zone: fires suppress Russian supporting artillery, electronic warfare and drone launch teams, cutting frontline infantry off from supply.", "Deep zone: rockets, powered bombs and missiles hit assembly areas and logistics hubs."], "why": ["Persistent drone coverage makes a forward observer less necessary and more exposed; the command post becomes where fires are cleared.", "Compare the US: US doctrine embeds Fire Support Teams and joint fires observers with manoeuvre companies."], "sources": [{"title": "Tactical Developments During the Third Year of the Russo–Ukrainian War", "publisher": "Royal United Services Institute", "year": "2025", "url": "https://static.rusi.org/tactical-developments-third-year-russo-ukrainian-war-february-2205.pdf"}, {"title": "Emergent Approaches to Combined Arms Manoeuvre in Ukraine", "publisher": "Royal United Services Institute", "year": "2025", "url": "https://www.rusi.org/explore-our-research/publications/insights-papers/emergent-approaches-combined-arms-manoeuvre-ukraine"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ukr-eq-delta", "ukr-ttp-sensors", "usa-org-fist"]},
+  {"id": "ukr-eq-himars", "topic": "rocket-missile-artillery", "country": "Ukraine", "addedIn": "2026.12", "module": "Equipment", "force": "Armed Forces of Ukraine", "echelon": ["Brigade", "Corps"], "type": "Equipment", "title": "HIMARS and M270 in Ukraine: Deep Strikes, Jamming and Dependence", "what": ["From June 2022 Ukraine received US HIMARS and tracked M270-family launchers (including German MARS II and French LRU) firing GPS-guided GMLRS rockets."], "how": ["By June 2024 Ukrainian teams had adapted M270 launchers to fire 300 km ATACMS.", "Reported: by 2024 Russian GPS jamming had degraded GMLRS accuracy, yet in 2026 HIMARS strikes were still hitting Russian Buk air defence launchers.", "Reported: CSIS, citing the Kiel Institute, says 86 per cent of Ukraine’s rocket artillery in March 2025 was US-made."], "why": ["Guided rockets let Ukraine hit depth targets it could not reach with guns, but depend on US supply and work less well under jamming.", "Compare the US: the same launchers and rockets as US units; Ukraine shows what they do under heavy electronic warfare."], "sources": [{"title": "Ukraine’s M270 has been adapted for ATACMS application", "publisher": "Militarnyi", "year": "2024", "url": "https://militarnyi.com/en/news/ukraine-s-m270-has-been-adapted-for-atacms-application/"}, {"title": "US-Made HIMARS ‘Ineffective’ in Ukraine Due to Russian Jamming: Report", "publisher": "The Defense Post", "year": "2024", "url": "https://thedefensepost.com/2024/05/27/us-himars-ineffective-ukraine/"}, {"title": "HIMARS Just Learned to Hit Moving Targets—Bad News for Russian Guns and Air Defenses", "publisher": "UNITED24 Media", "year": "2026", "url": "https://united24media.com/defense-tech/himars-just-learned-to-hit-moving-targets-bad-news-for-russian-guns-and-air-defenses-23955"}, {"title": "How Europe Can Build Ukraine’s Future Force", "publisher": "Center for Strategic and International Studies", "year": "2025", "url": "https://www.csis.org/analysis/how-europe-can-build-ukraines-future-force"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["joint-eq-m142", "joint-eq-rkt-munitions", "ukr-eq-neptune"]},
+  {"id": "ukr-eq-neptune", "topic": "rocket-missile-artillery", "country": "Ukraine", "addedIn": "2026.12", "module": "Equipment", "force": "Armed Forces of Ukraine", "echelon": ["Theatre"], "type": "Equipment", "title": "Vilkha and Long Neptune: Ukraine’s Own Long-Range Fires", "what": ["To get round supply limits and use restrictions, Ukraine builds its own guided rockets and land-attack cruise missiles."], "how": ["Reported: the 300mm Vilkha-M guided rocket, developed from Smerch, reaches about 110 km; about 100 had been produced by early 2023.", "Reported: Defense Express estimates the range of the R-360L Long Neptune cruise missile at up to 1,000 km.", "Reported: Defense Express counted five successful Neptune strikes between 15 October and 13 November 2026, against airfields, missile plants and drone factories."], "why": ["Home-built long-range weapons give Ukraine strikes that no partner can veto or withhold.", "Compare the US: Vilkha sits between GMLRS and PrSM in range; Long Neptune is closer to a ground-launched cruise missile than to artillery."], "sources": [{"title": "Ukraine Is Using Guided Rockets With More Range Than HIMARS-Launched Ones", "publisher": "The War Zone", "year": "2023", "url": "https://www.twz.com/ukraine-is-using-guided-rockets-with-more-range-than-himars-launched-ones"}, {"title": "Five Successful Neptune Cruise Missile Strikes in 30 Days: How Many Su-34s and Defense Industry Facilities Were Hit?", "publisher": "Defense Express", "year": "2026", "url": "https://en.defence-ua.com/weapon_and_tech/five_successful_neptune_cruise_missile_strikes_in_30_days_how_many_su_34s_and_defense_industry_facilities_were_hit-20442.html"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ukr-eq-himars", "rus-eq-tornado-s"]},
+  {"id": "ukr-org-strike-company", "topic": "loitering-munitions", "country": "Ukraine", "addedIn": "2026.12", "module": "Forces", "force": "Armed Forces of Ukraine", "echelon": ["Company", "Battalion"], "type": "Organisation", "title": "The Battalion Strike Company: FPVs by the Hundred", "what": ["By 2025–2026 Ukrainian infantry battalions had their own drone strike companies as an organic layer of fire support beside mortars."], "how": ["RUSI describes a strike company of about 90 people, including about 36 FPV pilots.", "Teams of four or five go forward for two to three days with 30–50 FPVs each; a battalion uses hundreds a week.", "Heavy bomber drones adapted from farm octocopters work at night to drop larger munitions and mines.", "Reported: 60–80 per cent of FPVs fail to reach their target, and many that hit do not destroy it; even so, tactical drones accounted for an estimated 60–70 per cent of damaged and destroyed Russian systems by early 2025, partly because Ukraine had so little artillery."], "why": ["High total kills come from volume, not from each drone being accurate.", "Compare the US: US battalions are only beginning to field organic strike drones (LASSO); Ukraine runs them at company scale."], "sources": [{"title": "Integrating Tactical UAVs into the Infantry Battalion", "publisher": "Royal United Services Institute", "year": "2026", "url": "https://static.rusi.org/integrating-tactical-uavs-into-the-infantry-battalion-november-2026.pdf"}, {"title": "Tactical Developments During the Third Year of the Russo–Ukrainian War", "publisher": "Royal United Services Institute", "year": "2025", "url": "https://static.rusi.org/tactical-developments-third-year-russo-ukrainian-war-february-2205.pdf"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ukr-ttp-drone-drop", "usa-org-lasso-platoons", "ukr-ttp-isr-orbits"]},
+  {"id": "ukr-ttp-powered-bombs", "topic": "loitering-munitions", "country": "Ukraine", "addedIn": "2026.12", "module": "TTPs", "force": "Armed Forces of Ukraine", "echelon": ["Brigade", "Corps"], "type": "TTP", "title": "“Powered Bombs”: Cheap One-Way Drones in Volume", "what": ["Ukraine fires autonomous or semi-autonomous one-way attack drones, which RUSI calls “powered bombs”, at targets in the middle and deep zones."], "how": ["They navigate by terrain matching, cameras, inertial or satellite guidance, or by homing on radio emissions.", "Each has a low hit rate, is easy to shoot down and carries a small warhead.", "Fired in volume they keep Russian rear areas under threat, force radars to switch on and use up interceptors, opening gaps for cruise missiles."], "why": ["They only pay off while each costs little and stocks stay deep.", "Compare the US: a mass, low-cost layer the US does not yet field at scale."], "sources": [{"title": "Emergent Approaches to Combined Arms Manoeuvre in Ukraine", "publisher": "Royal United Services Institute", "year": "2025", "url": "https://www.rusi.org/explore-our-research/publications/insights-papers/emergent-approaches-combined-arms-manoeuvre-ukraine"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ukr-org-strike-company", "ukr-eq-neptune"]},
+  {"id": "ukr-ttp-precision-ew", "topic": "ammunition-effects", "country": "Ukraine", "addedIn": "2026.12", "module": "TTPs", "force": "Armed Forces of Ukraine", "echelon": ["Battery", "Brigade"], "type": "TTP", "title": "Fighting for the Right to Precision", "what": ["Guided shells and rockets such as Excalibur and GMLRS gave Ukraine precision, but by 2024 Russian GPS jamming had blunted them."], "how": ["Reported: by 2024 widespread jamming had badly degraded Excalibur and GMLRS accuracy in contested sectors.", "Precision now depends on sequencing: suppress jammers with ordinary fire, drones or electronic attack, then fire GPS rounds in the window.", "A 155mm gun can still switch between high explosive, cluster, sensor-fuzed and guided rounds as targets change."], "why": ["Precision is not guaranteed; it has to be won against enemy electronic warfare.", "Compare the US: US doctrine assumes guided rounds work; Ukraine shows they need a plan to beat jamming."], "sources": [{"title": "US-Made HIMARS ‘Ineffective’ in Ukraine Due to Russian Jamming: Report", "publisher": "The Defense Post", "year": "2024", "url": "https://thedefensepost.com/2024/05/27/us-himars-ineffective-ukraine/"}, {"title": "Emergent Approaches to Combined Arms Manoeuvre in Ukraine", "publisher": "Royal United Services Institute", "year": "2025", "url": "https://www.rusi.org/explore-our-research/publications/insights-papers/emergent-approaches-combined-arms-manoeuvre-ukraine"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["joint-eq-amm-guided", "ukr-eq-sfm", "ukr-eq-himars"]},
+  {"id": "ukr-ttp-isr-orbits", "topic": "target-acquisition", "country": "Ukraine", "addedIn": "2026.12", "module": "TTPs", "force": "Armed Forces of Ukraine", "echelon": ["Company", "Battalion"], "type": "TTP", "title": "Two Drone Orbits per Platoon", "what": ["Ukrainian target acquisition rests on reconnaissance drones pushed down to platoon level."], "how": ["RUSI records two drone observation orbits per platoon frontage; with company and battalion orbits, a nine-platoon battalion keeps about 30 up at once.", "They are flown by about 60 reconnaissance drone operators across the companies and a battalion platoon.", "Each small drone stays up only 30–35 minutes, so crews relay continuously.", "RUSI’s 2022 study found about 90 per cent of drones employed were lost; a battalion can lose 20–60 multicopters a week, so they must be cheap and owned by the unit.", "Units track enemy electronic warfare and radio emissions before launching, and use them to cue drones onto targets."], "why": ["Continuous coverage needs numbers, relays and cheap aircraft, not a few expensive ones.", "Compare the US: US brigades rely more on fewer, larger drones held at higher echelons."], "sources": [{"title": "Integrating Tactical UAVs into the Infantry Battalion", "publisher": "Royal United Services Institute", "year": "2026", "url": "https://static.rusi.org/integrating-tactical-uavs-into-the-infantry-battalion-november-2026.pdf"}, {"title": "Tactical Developments During the Third Year of the Russo–Ukrainian War", "publisher": "Royal United Services Institute", "year": "2025", "url": "https://static.rusi.org/tactical-developments-third-year-russo-ukrainian-war-february-2205.pdf"}, {"title": "Preliminary Lessons in Conventional Warfighting from Russia’s Invasion of Ukraine: February–July 2022", "publisher": "Royal United Services Institute", "year": "2022", "url": "https://static.rusi.org/359-SR-Ukraine-Preliminary-Lessons-Feb-July-2022-web-final.pdf"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ukr-ttp-sensors", "ukr-org-strike-company", "ukr-ttp-three-zones"]},
+  {"id": "ukr-ttp-breach-priority", "topic": "technical-fire-direction", "country": "Ukraine", "addedIn": "2026.12", "module": "TTPs", "force": "Armed Forces of Ukraine", "echelon": ["Brigade"], "type": "TTP", "title": "Massing for the Breach: Priority and Deception", "what": ["Dispersed guns survive, but an offensive needs fire massed at the decisive point."], "how": ["Guns survive by spreading out, moving fast or digging deep hides, while digital control lets them mass fire from different places.", "RUSI warns that in offensives, firing at targets of opportunity wastes shells needed for the breach.", "Fire planners should set strict priorities and use deceptive fire plans on other sectors to pin Russian reserves."], "why": ["Survival tactics and offensive mass pull against each other; target priority decides the balance.", "Compare the US: matches US doctrine on main-effort priority of fires and deception."], "sources": [{"title": "Lean on the Barrage: The Role of Artillery in Ukraine's Counteroffensive", "publisher": "Royal United Services Institute", "year": "2023", "url": "https://www.rusi.org/explore-our-research/publications/commentary/lean-barrage-role-artillery-ukraines-counteroffensive"}, {"title": "Emergent Approaches to Combined Arms Manoeuvre in Ukraine", "publisher": "Royal United Services Institute", "year": "2025", "url": "https://www.rusi.org/explore-our-research/publications/insights-papers/emergent-approaches-combined-arms-manoeuvre-ukraine"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ukr-ttp-roving-gun", "ukr-eq-delta", "ukr-les-lessons"]},
+  {"id": "ukr-sus-maintenance", "topic": "sustainment", "country": "Ukraine", "addedIn": "2026.12", "module": "Lessons", "force": "Armed Forces of Ukraine", "echelon": ["Brigade"], "type": "Lesson", "title": "Barrel Wear and the One-Third Problem", "what": ["Constant firing wears out Ukraine’s mixed artillery fleet."], "how": ["RUSI reported in July 2023 that more than one-third of Ukraine’s artillery was out of action for repair at any time.", "A barrel lasts about 1,500–2,500 rounds, so heavy firing uses up tubes quickly.", "Readiness depends on partners delivering barrels, propellant charges and spare parts."], "why": ["Guns are consumed like ammunition in a long war; repair capacity is part of firepower.", "Compare the US: US planning assumes barrel and repair rates far below what Ukraine experiences."], "sources": [{"title": "Lean on the Barrage: The Role of Artillery in Ukraine's Counteroffensive", "publisher": "Royal United Services Institute", "year": "2023", "url": "https://www.rusi.org/explore-our-research/publications/commentary/lean-barrage-role-artillery-ukraines-counteroffensive"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ukr-sus-industry", "joint-eq-m777a2"]},
+  {"id": "ukr-sus-ugv", "topic": "sustainment", "country": "Ukraine", "addedIn": "2026.12", "module": "TTPs", "force": "Armed Forces of Ukraine", "echelon": ["Battalion", "Brigade"], "type": "TTP", "title": "Robots for the Last Mile", "what": ["Drones and artillery often make it impossible to drive trucks to the front, so Ukrainian brigades move supplies with ground robots and heavy drones."], "how": ["Unmanned ground vehicles and farm octocopters carry ammunition, FPV batteries, food, water and medical supplies forward and bring casualties back.", "RUSI recorded one sample brigade, which relies heavily on robots, running 824 resupply missions in a month.", "Because they are lost often, they must be simple, cheap and reliable."], "why": ["The last mile is now the most dangerous part of artillery supply.", "Compare the US: the US is still testing robotic resupply; Ukraine uses it daily."], "sources": [{"title": "Integrating Tactical UAVs into the Infantry Battalion", "publisher": "Royal United Services Institute", "year": "2026", "url": "https://static.rusi.org/integrating-tactical-uavs-into-the-infantry-battalion-november-2026.pdf"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ukr-sus-industry", "ukr-sus-maintenance"]},
+  {"id": "ukr-trn-abroad", "topic": "liaison", "country": "Ukraine", "addedIn": "2026.12", "module": "Training", "force": "Armed Forces of Ukraine", "echelon": ["Battalion", "Brigade"], "type": "Training", "title": "Training Gunners Abroad: EUMAM and the German Artillery School", "what": ["Because Ukrainian ranges are struck and it lacks fleets of Western guns at home, partners train Ukrainian artillery crews abroad."], "how": ["The EU training mission, EUMAM Ukraine, began in November 2022, with hubs in Germany and Poland.", "The German Artillery School has trained Ukrainian crews on the Panzerhaubitze 2000 and rocket launchers since May 2022, in days of 10–12 hours, with emergency drills for autoloader failures; crews return to the front within days.", "Reported: in November 2026 the EU extended EUMAM to November 2028, with a presence inside Ukraine."], "why": ["Partners act as Ukraine’s strategic depth for training on complex Western systems.", "Compare the US: the US trained HIMARS crews and ran combined-arms training at Grafenwöhr; the EU now carries most of the load."], "sources": [{"title": "Special Training Command - Training the Ukrainians to win", "publisher": "European External Action Service", "year": "2023", "url": "https://www.eeas.europa.eu/eumam-ukraine/special-training-command-training-ukrainians-win_en"}, {"title": "EU Extends EUMAM Ukraine Mission Until 2028, Allocates €300 Million", "publisher": "Militarnyi", "year": "2026", "url": "https://militarnyi.com/en/news/eu-extends-eumam-ukraine-mission-until-2028-allocates-300-million/"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ukr-trn-home", "ukr-org-bag"]},
+  {"id": "ukr-trn-home", "topic": "technical-fire-direction", "country": "Ukraine", "addedIn": "2026.12", "module": "Training", "force": "Armed Forces of Ukraine", "echelon": ["Battalion", "Brigade"], "type": "Training", "title": "Training at Home: Two-Week Drone Observers", "what": ["At home, Ukrainian artillery officers train at the Hetman Petro Sahaidachnyi National Army Academy in Lviv, and observers increasingly learn on drones."], "how": ["RUSI reports that reconnaissance drone operators train in about two weeks, so battalions can replace losses quickly.", "FPV strike pilots need much longer; RUSI judges short FPV courses inadequate.", "RUSI found that holding veterans in defence left new offensive brigades with too few experienced leaders and fire planners."], "why": ["Drones have cut the time to train an observer, but not the time to grow experienced planners.", "Compare the US: US forward observers train for months; Ukraine trades depth of training for speed."], "sources": [{"title": "Integrating Tactical UAVs into the Infantry Battalion", "publisher": "Royal United Services Institute", "year": "2026", "url": "https://static.rusi.org/integrating-tactical-uavs-into-the-infantry-battalion-november-2026.pdf"}, {"title": "Preliminary Lessons from Ukraine’s Offensive Operations, 2022–23", "publisher": "Royal United Services Institute", "year": "2024", "url": "https://static.rusi.org/lessons-learned-ukraine-offensive-2022-23.pdf"}, {"title": "TV program “ZVYTIAHA: New Victories” from 14 03 21", "publisher": "Hetman Petro Sahaidachnyi National Army Academy", "year": "2021", "url": "https://asv.mil.gov.ua/en/news/2021/03/14/tv-program-zvytiaha-new-victories-14-03-21"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ukr-trn-abroad", "ukr-ttp-isr-orbits"]},
+  {"id": "chn-eq-phl03", "topic": "rocket-missile-artillery", "country": "China", "addedIn": "2026.12", "module": "Equipment", "force": "PLA Ground Force", "echelon": ["Corps"], "type": "Equipment", "title": "PHL-03: The 300mm Workhorse", "what": ["The PHL-03 is a 12-tube 300mm truck-mounted rocket launcher derived from the Russian Smerch and fielded from 2006; it is the main long-range rocket of group army artillery brigades below the newer PHL-191."], "how": ["After the 2017 reforms the PHL-03 battalions of the former long-range rocket brigades went to group army artillery brigades, at least in the Eastern and Southern theaters; the 303rd Coastal Defence Brigade on Pingtan also fields it.", "Its rockets reach about 150 km; a newer guided rocket reported in 2020 extends this from 130 km to about 160 km.", "Reloading takes about an hour, which slows the rate of salvoes and exposes launchers during resupply.", "Its reach from Pingtan covers only part of Taiwan’s western coast, one reason for developing the longer-range PHL-191."], "why": ["The PHL-03 gives every group army heavy rocket fire at operational depth.", "Compare the US: a role like HIMARS or M270 battalions with GMLRS, but with a much slower reload."], "sources": [{"title": "China Maritime Report No. 32: The PCH191 Modular Long-Range Rocket Launcher: Reshaping the PLA Army’s Role in a Cross-Strait Campaign", "publisher": "China Maritime Studies Institute, US Naval War College", "year": "2023", "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D208-PURL-gpo246143/pdf/GOVPUB-D208-PURL-gpo246143.pdf"}, {"title": "New-generation Military Equipment of the PLA Ground Force (2021 Report on the Defense Technology Trend Assessment)", "publisher": "Institute for National Defense and Security Research", "year": "2021", "url": "https://indsr.org.tw/uploads/enindsr/files/202206/0c2b01d2-12b2-4cf4-b679-180989cca963.pdf"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["chn-eq-phl191", "rus-eq-tornado-s", "chn-org-group-army"]},
+  {"id": "chn-eq-asn301", "topic": "loitering-munitions", "country": "China", "addedIn": "2026.12", "module": "Equipment", "force": "Multiple", "echelon": ["Theatre"], "type": "Equipment", "title": "ASN-301: Hunting Radars with Loitering Munitions", "what": ["China bought about 100 Israeli Harpy anti-radiation drones in 1994–1999 and later developed its own near-copy, the ASN-301, unveiled in 2017."], "how": ["It loiters over the battlefield and dives onto radar emissions.", "Its job is to destroy enemy air defence and weapon-locating radars, or force them to switch off, during rocket and missile strikes.", "Reported: it is thought to belong to air force electronic countermeasures units rather than army artillery."], "why": ["Taking out radars opens the way for rockets, missiles and aircraft.", "Compare the US: the US relies mainly on air-launched anti-radiation missiles for this job."], "sources": [{"title": "The PLA’s Unmanned Aerial Systems: New Capabilities for a “New Era” of Chinese Military Power", "publisher": "China Aerospace Studies Institute, Air University", "year": "2018", "url": "https://www.airuniversity.af.edu/Portals/10/CASI/documents/Research/PLAAF/2018-08-29%20PLAs_Unmanned_Aerial_Systems.pdf"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["chn-eq-tactical-lm", "chn-doc-system-destruction"]},
+  {"id": "chn-eq-tactical-lm", "topic": "loitering-munitions", "country": "China", "addedIn": "2026.12", "module": "Equipment", "force": "PLA Ground Force", "echelon": ["Battalion", "Brigade", "Theatre"], "type": "Equipment", "title": "The CH-4: Army Drones for Deep Fires", "what": ["Below the anti-radiation drones, the PLA Army flies reconnaissance-strike drones such as the CH-4 to find and strike deep targets."], "how": ["In the Eastern Theater Command the army flies the CH-4 to find deep targets in real time, guide PHL-191 strikes and assess damage.", "The Naval War College study warns that drones like the CH-4 are vulnerable to Taiwan’s air defences."], "why": ["Drones extend the army’s eyes and precision beyond its own observers, if they survive.", "Compare the US: like US loitering munitions plus Gray Eagle drones supporting long-range fires."], "sources": [{"title": "China Maritime Report No. 32: The PCH191 Modular Long-Range Rocket Launcher: Reshaping the PLA Army’s Role in a Cross-Strait Campaign", "publisher": "China Maritime Studies Institute, US Naval War College", "year": "2023", "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D208-PURL-gpo246143/pdf/GOVPUB-D208-PURL-gpo246143.pdf"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["chn-eq-sensors", "chn-eq-phl191", "chn-eq-asn301"]},
+  {"id": "chn-pol-cluster", "topic": "ammunition-effects", "country": "China", "addedIn": "2026.12", "module": "Forces", "force": "Multiple", "echelon": ["Theatre"], "type": "Policy", "title": "Cluster Munitions: Outside the Ban", "what": ["China has not joined the Convention on Cluster Munitions or the Mine Ban Treaty, citing national defence needs."], "how": ["The Landmine and Cluster Munition Monitor records that China produces, stockpiles and exports cluster munitions for artillery, rockets, aircraft and ballistic missiles.", "It says it has never used them in combat.", "Chinese submunitions have been found after use by others, in Iraq in 2003 and in rockets fired into Israel in 2006."], "why": ["Keeping cluster rounds gives Chinese fire planners area effects against dispersed troops and vehicles with fewer shells.", "Compare the US: the US is also outside the convention and sent cluster rounds to Ukraine in 2023."], "sources": [{"title": "China - Cluster Munition Ban Policy", "publisher": "Landmine and Cluster Munition Monitor", "year": "2022", "url": "https://archives2.the-monitor.org/en-gb/reports/2022/china/cluster-munition-ban-policy.aspx"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["chn-eq-guided-shells", "ukr-les-chmr"]},
+  {"id": "chn-org-target-support", "topic": "target-acquisition", "country": "China", "addedIn": "2026.12", "module": "Forces", "force": "PLA Ground Force", "echelon": ["Corps"], "type": "Organisation", "title": "Target Support in the Group Army Artillery Brigade", "what": ["After 2017, group army artillery brigades gained a target support element that finds deep targets, matches munitions to them and assesses damage."], "how": ["The SLC-2 radar locates enemy artillery for counter-battery fire.", "ASN-series and other drones adjust artillery fire and assess damage.", "Not found in open sources: details of current sound-ranging, electro-optical reconnaissance and meteorological equipment."], "why": ["A dedicated target element ties the brigade’s long-range weapons to its own sensors.", "Compare the US: similar to a US division artillery targeting cell with its radars and drones."], "sources": [{"title": "China Maritime Report No. 32: The PCH191 Modular Long-Range Rocket Launcher: Reshaping the PLA Army’s Role in a Cross-Strait Campaign", "publisher": "China Maritime Studies Institute, US Naval War College", "year": "2023", "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D208-PURL-gpo246143/pdf/GOVPUB-D208-PURL-gpo246143.pdf"}, {"title": "The PLA’s Unmanned Aerial Systems: New Capabilities for a “New Era” of Chinese Military Power", "publisher": "China Aerospace Studies Institute, Air University", "year": "2018", "url": "https://www.airuniversity.af.edu/Portals/10/CASI/documents/Research/PLAAF/2018-08-29%20PLAs_Unmanned_Aerial_Systems.pdf"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["chn-eq-sensors", "chn-org-group-army", "chn-eq-phl03"]},
+  {"id": "chn-doc-theatre-fires", "topic": "digital-fires-c2", "country": "China", "addedIn": "2026.12", "module": "Forces", "force": "PLA Ground Force", "echelon": ["Theatre"], "type": "Command & Control", "title": "Theater Command of Deep Rocket Fires", "what": ["Long-range rocket battalions cannot observe their own deep targets, so they draw on theater-level intelligence fused at the Theater Joint Operations Command Center."], "how": ["The Naval War College study describes a joint intelligence network, including special operations reconnaissance, technical reconnaissance bases, satellites, and maritime and air intelligence centres, feeding deep fires.", "PHL-191 battalions could in theory work under the theater’s land operations sub-centre to support landing forces, or be assigned to its conventional missile sub-centre alongside Rocket Force brigades.", "Analysis: this makes army rockets part of theater-wide strikes, but depends on command links surviving cyber and electronic attack."], "why": ["The same launchers can fight for the ground battle or join theater-wide strikes.", "Compare the US: like US long-range fires tasked through a joint force fires centre."], "sources": [{"title": "China Maritime Report No. 32: The PCH191 Modular Long-Range Rocket Launcher: Reshaping the PLA Army’s Role in a Cross-Strait Campaign", "publisher": "China Maritime Studies Institute, US Naval War College", "year": "2023", "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D208-PURL-gpo246143/pdf/GOVPUB-D208-PURL-gpo246143.pdf"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["chn-eq-phl191", "chn-org-ssf-icp", "chn-org-reform"]},
+  {"id": "chn-ttp-four-antis", "topic": "counterfire-survivability", "country": "China", "addedIn": "2026.12", "module": "TTPs", "force": "PLA Ground Force", "echelon": ["Brigade", "Corps"], "type": "TTP", "title": "The “Four Antis” and Shoot-and-Scoot", "what": ["PLA artillery survives by moving fast and defending itself on the move."], "how": ["Wheeled guns such as the PCL-181 and PCL-171 replace towed guns, so batteries can fire and move quickly.", "In Mission Action-2013, units on long moves had to drill the “four antis”: anti-reconnaissance, anti-air raid, anti-jamming and anti-harassment.", "In island and coastal defence, army coastal artillery provides counter-fire to disrupt landing forces."], "why": ["Large launchers give away their position when they fire, so they must move and spread out.", "Compare the US: like US survivability moves, with the added emphasis on defending columns on the march."], "sources": [{"title": "PLA Joint Training and Implications for Future Expeditionary Capabilities", "publisher": "RAND Corporation (testimony to the US-China Economic and Security Review Commission)", "year": "2016", "url": "https://www.uscc.gov/sites/default/files/USCC%20Testimony%202016_Cozad_0.pdf"}, {"title": "New-generation Military Equipment of the PLA Ground Force (2021 Report on the Defense Technology Trend Assessment)", "publisher": "Institute for National Defense and Security Research", "year": "2021", "url": "https://indsr.org.tw/uploads/enindsr/files/202206/0c2b01d2-12b2-4cf4-b679-180989cca963.pdf"}, {"title": "How China Fights in Large-Scale Combat Operations", "publisher": "TRADOC G-2, US Army", "year": "2025", "url": "https://api.army.mil/e2/c/downloads/2025/05/08/1888a601/tradoc-g2-how-china-fights-in-lsco-apr-25-public.pdf"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["chn-eq-pcl181", "chn-eq-tactical", "chn-eq-air-defence"]},
+  {"id": "chn-eq-air-defence", "topic": "counterfire-survivability", "country": "China", "addedIn": "2026.12", "module": "Equipment", "force": "PLA Ground Force", "echelon": ["Brigade", "Corps"], "type": "Equipment", "title": "Air and Drone Defence for the Guns", "what": ["Each group army has an air defence brigade and each combined arms brigade an air defence battalion with guns and short-range missiles."], "how": ["Reported: Chinese military media show HQ-17A short-range missile systems working with PHL-191 rocket units.", "In 2024, PLA training footage drawing on Ukraine shows troops using capture nets, hand-held jamming guns and evasion drills against drones."], "why": ["Rocket units are high-value targets for aircraft and drones; they need their own shield.", "Compare the US: the US is rebuilding short-range air defence (M-SHORAD) for the same reason."], "sources": [{"title": "PLA Aerospace Power: A Primer on Trends in China’s Military Air, Space, and Missile Forces (5th Edition)", "publisher": "China Aerospace Studies Institute, Air University", "year": "2026", "url": "https://www.airuniversity.af.edu/Portals/10/CASI/documents/2026-05-01%20PLA%20Primer%205th%20Edition.pdf?ver=Yqh5P4RozjLqD3H1qusJ1g%3D%3D"}, {"title": "Learning Without Bleeding: China’s Lessons from the Russia-Ukraine Drone War", "publisher": "Center for Strategic and International Studies", "year": "2026", "url": "https://www.csis.org/analysis/learning-without-bleeding-chinas-lessons-russia-ukraine-drone-war"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["chn-eq-phl191", "chn-ttp-four-antis", "chn-les-ukraine"]},
+  {"id": "chn-sus-logistics", "topic": "sustainment", "country": "China", "addedIn": "2026.12", "module": "Forces", "force": "PLA Ground Force", "echelon": ["Corps", "Theatre"], "type": "Logistics", "title": "Resupply and Joint Logistics for PLA Fires", "what": ["PLA fires are supplied through organic resupply vehicles, group army support brigades and the Joint Logistics Support Force."], "how": ["The CTL-181A Mengshi chassis carries 122mm guns and 120mm mortars and is set to become the common platform for light and medium brigades.", "Stride-2009 used civilian air and rail transport, and Mission Action-2013 moved units by military and civilian road, rail, sea and air.", "TRADOC judges sustainment a major friction point: heavy artillery is hard to deploy and supply, and open sources cannot show wartime magazine depth."], "why": ["Wheeled, networked artillery still depends on shells reaching it.", "Compare the US: like US sustainment brigades and joint logistics, but with more reliance on civilian transport."], "sources": [{"title": "How China Fights in Large-Scale Combat Operations", "publisher": "TRADOC G-2, US Army", "year": "2025", "url": "https://api.army.mil/e2/c/downloads/2025/05/08/1888a601/tradoc-g2-how-china-fights-in-lsco-apr-25-public.pdf"}, {"title": "PLA Joint Training and Implications for Future Expeditionary Capabilities", "publisher": "RAND Corporation (testimony to the US-China Economic and Security Review Commission)", "year": "2016", "url": "https://www.uscc.gov/sites/default/files/USCC%20Testimony%202016_Cozad_0.pdf"}, {"title": "New-generation Military Equipment of the PLA Ground Force (2021 Report on the Defense Technology Trend Assessment)", "publisher": "Institute for National Defense and Security Research", "year": "2021", "url": "https://indsr.org.tw/uploads/enindsr/files/202206/0c2b01d2-12b2-4cf4-b679-180989cca963.pdf"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["chn-eq-plz05", "chn-eq-phl03"]},
+  {"id": "chn-trn-academy", "topic": "technical-fire-direction", "country": "China", "addedIn": "2026.12", "module": "Training", "force": "PLA Ground Force", "echelon": ["Theatre"], "type": "Training", "title": "From the Academy of Artillery and Air Defense to an Army Branches University", "what": ["The PLA Army Academy of Artillery and Air Defense, formed in 2017 by merging older schools, trained artillery officers, fire planners and NCOs. In May 2025 it was merged with the Army Academy of Armored Forces into a new army branches university with its main campus at Hefei."], "how": ["The 2017 consolidation cut PLA academic institutions to 34 officer and 3 NCO schools.", "Reported: its campuses at Hefei, Nanjing, Zhengzhou and Shenyang cover command, gunnery, air defence and NCO training.", "Reported: analysts note that commanders of new combined arms battalions often lack formal training in the branches now under them."], "why": ["One academy standardises artillery and air defence education across the army.", "Compare the US: combines roles split in the US between the Fires Center of Excellence schools."], "sources": [{"title": "The People’s Liberation Army’s Academic Institutions", "publisher": "China Aerospace Studies Institute, Air University", "year": "2020", "url": "https://www.airuniversity.af.edu/Portals/10/CASI/documents/Research/Other-Topics/2020-06-11%20PLA%20Academic_Institutions.pdf"}, {"title": "China Establishes New Military Academies as Part of Armed Forces Reform", "publisher": "Militarnyi", "year": "2025", "url": "https://militarnyi.com/en/news/china-establishes-new-military-academies-as-part-of-armed-forces-reform/"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["usa-trn-13f", "chn-trn-exercises"]},
+  {"id": "chn-trn-exercises", "topic": "liaison", "country": "China", "addedIn": "2026.12", "module": "Training", "force": "PLA Ground Force", "echelon": ["Brigade", "Corps", "Theatre"], "type": "Major Exercise", "title": "From Firepower Exercises to Joint Sword", "what": ["PLA artillery exercises moved from scripted home-range firing to long-distance deployments against opposing forces and theater-wide joint rehearsals."], "how": ["Stride, Mission Action and Firepower exercises (2009–2015) sent units to unfamiliar ranges, where Blue Force opponents often won, all 29 engagements in Stride-2015.", "On 4 August 2022 the 72nd Artillery Brigade sent PHL-191 launchers to Pingtan, which fired into a zone beyond the Taiwan Strait median line.", "Reported: Joint Sword-2024A rehearsed joint strikes and blockade around Taiwan."], "why": ["Exercises have shifted from showing firepower to testing joint strikes under realistic opposition.", "Compare the US: like US combat training centre rotations and joint exercises."], "sources": [{"title": "PLA Joint Training and Implications for Future Expeditionary Capabilities", "publisher": "RAND Corporation (testimony to the US-China Economic and Security Review Commission)", "year": "2016", "url": "https://www.uscc.gov/sites/default/files/USCC%20Testimony%202016_Cozad_0.pdf"}, {"title": "China Maritime Report No. 32: The PCH191 Modular Long-Range Rocket Launcher: Reshaping the PLA Army’s Role in a Cross-Strait Campaign", "publisher": "China Maritime Studies Institute, US Naval War College", "year": "2023", "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D208-PURL-gpo246143/pdf/GOVPUB-D208-PURL-gpo246143.pdf"}, {"title": "2025 Annual Report to Congress: Military and Security Developments Involving the People’s Republic of China", "publisher": "US Department of War", "year": "2025", "url": "https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["chn-eq-phl191", "chn-trn-academy", "chn-org-amphib"]},
+  {"id": "chn-les-ukraine", "topic": "loitering-munitions", "country": "China", "addedIn": "2026.12", "module": "Lessons", "force": "PLA Ground Force", "echelon": ["Brigade", "Theatre"], "type": "Lesson", "title": "The “Living Textbook”: What the PLA Takes from Ukraine", "what": ["A CSIS study of about 90 Chinese-language sources finds PLA analysts treat the Russia–Ukraine war as a “living textbook”."], "how": ["New techniques appear in Chinese professional writing within about four months; turning them into training and prototypes takes a year or more.", "PLA writers study how Russia links drones to artillery and loitering munitions.", "They track fibre-optic drones that cannot be jammed, and training now includes nets and jamming guns against drones."], "why": ["China is learning about drone-observed fires without fighting.", "Compare the US: the US Army studies the same war but tests lessons in its own training centres."], "sources": [{"title": "Learning Without Bleeding: China’s Lessons from the Russia-Ukraine Drone War", "publisher": "Center for Strategic and International Studies", "year": "2026", "url": "https://www.csis.org/analysis/learning-without-bleeding-chinas-lessons-russia-ukraine-drone-war"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["chn-les-limits", "chn-eq-air-defence", "rus-doc-rfc-rsc"]},
+  {"id": "chn-les-limits", "topic": "loitering-munitions", "country": "China", "addedIn": "2026.12", "module": "Lessons", "force": "PLA Ground Force", "echelon": ["Theatre"], "type": "Lesson", "title": "Selective Learning: The Limits of PLA Adaptation", "what": ["An ISW analysis argues PLA learning is filtered by prior beliefs, sunk investment and political caution."], "how": ["The PLA invested early in large, high-end drones and AI swarms, and PLA Daily still treats cheap expendable drones as exceptions.", "Chinese writers expect AI autonomy to overcome jamming rather than reorganising around expendable drones.", "Analysis: purges of senior officers since 2022 discourage challenging top-down plans."], "why": ["Analysis: the PLA may copy counter-drone gear and sensor-to-shooter links quickly while being slow to change its core assumptions.", "Compare the US: every army risks learning what confirms its plans; the US debate over drones and mass shows the same tension."], "sources": [{"title": "Lessons-Learned with Chinese Characteristics: Understanding the Limits of PLA Efforts to Adapt to Contemporary Warfare", "publisher": "Institute for the Study of War (via AEI)", "year": "2026", "url": "https://www.aei.org/commentary/lessons-learned-with-chinese-characteristics-understanding-the-limits-of-pla-efforts-to-adapt-to-contemporary-warfare/"}], "confidence": "Analysis", "asOf": "2026-11", "relatedIds": ["chn-les-ukraine", "chn-les-human"]},
+  {"id": "ind-les-sindoor-guns", "topic": "counterfire-survivability", "country": "India", "addedIn": "2026.12", "module": "Lessons", "force": "Indian Army", "echelon": ["Regiment", "Battery"], "type": "Lesson", "title": "Operation Sindoor: Guns Flown In and Counter-Battery on the LoC", "what": ["During Operation Sindoor (7–10 May 2025) Indian artillery fired precision 155mm strikes across the Line of Control, and heavy artillery and mortar exchanges followed on both sides."], "how": ["Reported: 302 Medium Regiment moved M777 howitzers slung under Chinook and Mi-17 helicopters, the Army’s first air mobilisation of an artillery unit, for an inter-command move, and fired Excalibur guided shells.", "Reported: a second battery planned its targets from current satellite imagery, deployed under cover of darkness and struck a second target under constant shelling.", "Reported: the battery rehearsed for surprise and swift extrication, and withdrew safely despite the threat of counter-bombardment.", "Indian official media reported Pakistani artillery and mortar fire in the Karnah, Uri, Kupwara, Poonch, Rajouri and Akhnoor sectors, with three civilians killed in Poonch.", "Not found in open sources: counter-battery logs, verified damage or rounds fired on either side."], "why": ["Flying light guns in avoided tell-tale road convoys; guided shells, night moves and quick departure reduced exposure to counter-battery fire.", "Compare the US: US air-assault units also lift M777A2s by CH-47 and fire Excalibur."], "sources": [{"title": "When air-mobilised guns fired deadly barrages", "publisher": "The Tribune", "year": "2026", "url": "https://www.tribuneindia.com/news/operation-sindoor-one-year/when-air-mobilised-guns-fired-deadly-barrages/"}, {"title": "MINISTRY OF DEFENCE; YEAR END REVIEW - 2025", "publisher": "Press Information Bureau", "year": "2025", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang=2"}, {"title": "Four Days in May: The India-Pakistan Crisis of 2025", "publisher": "Stimson Center", "year": "2025", "url": "https://www.stimson.org/2025/four-days-in-may-the-india-pakistan-crisis-of-2025/"}, {"title": "After ‘Operation Sindoor’ Pakistan Army resorts to heavy artillery fire on J&K LoC", "publisher": "DD News", "year": "2025", "url": "https://ddnews.gov.in/en/after-operation-sindoor-pakistan-army-resorts-to-heavy-artillery-fire-on-jk-loc/"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-eq-mountain", "ind-eq-excalibur", "ind-ttp-shoot-scoot"]},
+  {"id": "ind-les-sindoor-drones", "topic": "loitering-munitions", "country": "India", "addedIn": "2026.12", "module": "Lessons", "force": "Multiple", "echelon": ["Theatre"], "type": "Lesson", "title": "Operation Sindoor: Loitering Munitions, Drones and Missile Duels", "what": ["Operation Sindoor was the first India–Pakistan clash fought largely with drones, loitering munitions and stand-off missiles; Pakistan fired conventionally armed short-range ballistic missiles."], "how": ["India fired BrahMos and SCALP-EG cruise missiles and loitering munitions from its own territory; official releases describe loitering munitions striking radar and missile sites.", "Reported: defence reporting names Harop and the Bengaluru-assembled SkyStriker among the loitering munitions used.", "Pakistan fired Fatah-I and Fatah-II short-range ballistic missiles; India reported drones and missiles aimed at airfields and ammunition depots.", "India’s air defence network, led by the Air Force with Army and Navy assets, worked in layers: counter-drone systems, shoulder-fired missiles, upgraded air defence guns firing airburst rounds, and surface-to-air missiles.", "Reported: both sides’ claims of aircraft and drones shot down and damage done remain disputed; Stimson judged several unsupported by public evidence."], "why": ["Dense air defences kept manned aircraft back, pushing deep strike onto stand-off missiles and loitering munitions; upgraded guns were a cheaper layer against small drones.", "Compare the US: the US integrates short-range air defence under IBCS but has no artillery regiments built around long-range loitering munitions."], "sources": [{"title": "Operation SINDOOR: The Rise of Aatmanirbhar Innovation in National Security", "publisher": "Press Information Bureau", "year": "2025", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2128746"}, {"title": "MINISTRY OF DEFENCE; YEAR END REVIEW - 2025", "publisher": "Press Information Bureau", "year": "2025", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang=2"}, {"title": "Four Days in May: The India-Pakistan Crisis of 2025", "publisher": "Stimson Center", "year": "2025", "url": "https://www.stimson.org/2025/four-days-in-may-the-india-pakistan-crisis-of-2025/"}, {"title": "Military Lessons From Operation Sindoor", "publisher": "Carnegie Endowment for International Peace", "year": "2025", "url": "https://carnegieendowment.org/india/research/2025/10/military-lessons-from-operation-sindoor"}, {"title": "Operation Sindoor: Rewriting the India Pakistan Rulebook", "publisher": "Centre for Aerospace Power and Strategic Studies", "year": "2025", "url": "https://capssindia.org/wp-content/uploads/2025/12/NDP-13-Operation-Sindoor.pdf"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ind-eq-loitering", "ind-les-modern", "ind-les-sindoor-guns"]},
+  {"id": "ind-les-after-sindoor", "topic": "liaison", "country": "India", "addedIn": "2026.12", "module": "Lessons", "force": "Multiple", "echelon": ["Corps", "Theatre"], "type": "Lesson", "title": "After Sindoor: New Units, Networks and Faster Buying", "what": ["After Operation Sindoor, India sped up new drone and loitering munition units, discussed a rocket and missile force, and named networks and slow procurement as the main constraints."], "how": ["The Ministry of Defence confirmed Rudra brigades, Bhairav battalions and Divyastra artillery batteries deployed on the northern front by December 2025.", "The Chief of Defence Staff listed unmanned priorities: modular drones, stealth drones, manned-unmanned teaming, swarms, AI and directed energy.", "Reported: in January 2026 the Army chief said India needs a dedicated rocket-cum-missile force.", "The US cleared a possible sale of 216 Excalibur shells in November 2025, and on 29 December 2025 the Defence Acquisition Council approved loitering munitions for artillery regiments and long-range guided Pinaka rockets.", "Analysis: Carnegie and ORF identify slow regular procurement, limited tactical data links and weak intelligence fusion as gaps the clash exposed."], "why": ["India’s strike weapons have outpaced its joint networks and buying process; new units aim to shorten sensor to shooter before the next crisis.", "Compare the US: the US groups long-range fires, intelligence and air defence in Multi-Domain Task Forces; India is adding drone and artillery units to existing corps."], "sources": [{"title": "Operation Sindoor demonstrated operational effectiveness and strategic value of indigenous Unmanned Aerial Vehicles & Counter-Unmanned Aircraft Systems, says Chief of Defence Staff", "publisher": "Press Information Bureau", "year": "2025", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2145420&reg=3&lang=2"}, {"title": "MINISTRY OF DEFENCE; YEAR END REVIEW - 2025", "publisher": "Press Information Bureau", "year": "2025", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang=2"}, {"title": "Military Lessons From Operation Sindoor", "publisher": "Carnegie Endowment for International Peace", "year": "2025", "url": "https://carnegieendowment.org/india/research/2025/10/military-lessons-from-operation-sindoor"}, {"title": "Weapons Without Networks: India’s Precision Strike and Command Architecture Gap", "publisher": "Observer Research Foundation", "year": "2026", "url": "https://www.orfonline.org/research/weapons-without-networks-india-s-precision-strike-and-command-architecture-gap"}, {"title": "India looking at raising rocket-cum-missile force: Army Chief", "publisher": "The Economic Times", "year": "2026", "url": "https://m.economictimes.com/news/defence/india-looking-at-raising-rocket-cum-missile-force-army-chief/articleshow/126510469.cms"}, {"title": "India – Excalibur Projectiles", "publisher": "US Defense Security Cooperation Agency", "year": "2025", "url": "https://www.dsca.mil/Press-Media/Major-Arms-Sales/Article-Display/Article/4337518/india-excalibur-projectiles"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ind-eq-loitering", "ind-les-c4i-gap", "usa-org-mdtf"]},
+  {"id": "ind-eq-excalibur", "topic": "ammunition-effects", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Brigade"], "type": "Equipment", "title": "Excalibur Guided Shells in Indian Service", "what": ["India uses US M982 Excalibur GPS-guided 155mm shells for first-round hits on point targets."], "how": ["Reported: India first bought Excalibur in 2019 for its M777s.", "On 19 November 2025 the US notified Congress of a possible sale of up to 216 M982A1 shells, with fire control kits and support, for about $47.1 million.", "Reported: Indian press says Excalibur can also be fired from the Bofors FH-77, Dhanush and K9 Vajra-T.", "Not found in open sources: India’s total holdings or how many were fired in May 2025."], "why": ["One guided round can do the work of a battery barrage on a bunker, saving lift in the mountains and limiting collateral damage; the cost keeps it for priority targets.", "Compare the US: the same round and fire control kit as US M777A2 batteries; the US also has the cheaper Precision Guidance Kit."], "sources": [{"title": "India – Excalibur Projectiles", "publisher": "US Defense Security Cooperation Agency", "year": "2025", "url": "https://www.dsca.mil/Press-Media/Major-Arms-Sales/Article-Display/Article/4337518/india-excalibur-projectiles"}, {"title": "US approves Javelin, Excalibur sales to India", "publisher": "Janes", "year": "2025", "url": "https://www.janes.com/defence-intelligence-insights/defence-news/weapons/us-approves-javelin-excalibur-sales-to-india"}, {"title": "When air-mobilised guns fired deadly barrages", "publisher": "The Tribune", "year": "2026", "url": "https://www.tribuneindia.com/news/operation-sindoor-one-year/when-air-mobilised-guns-fired-deadly-barrages/"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["joint-eq-amm-guided", "ind-eq-ammunition", "ind-les-sindoor-guns"]},
+  {"id": "ind-eq-charges-fuzes", "topic": "ammunition-effects", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Regiment"], "type": "Equipment", "title": "Modular Charges, Electronic Fuzes and New Pinaka Rockets", "what": ["India is moving from bag charges to bi-modular charges, buying Indian electronic fuzes and adding extended-range, guided and area-denial rockets for Pinaka."], "how": ["A bi-modular charge factory at Nalanda was sanctioned in 2001; a 2010 audit by the Comptroller and Auditor General found poor progress after ₹786 crore spent, a flawed procurement strategy and the main plant contract caught up in corruption charges, while the Army imported charges for its immediate needs.", "Modernised 155mm guns such as Dhanush fire both bag charges and bi-modular charges.", "In 2023 the Ministry of Defence signed a 10-year, ₹5,336 crore contract with Bharat Electronics for electronic fuzes.", "DRDO has developed enhanced, extended-range, area-denial and guided Pinaka rockets; on 29 December 2025 long-range guided Pinaka ammunition was approved for purchase."], "why": ["Modular charges speed up loading and reduce barrel wear; Indian fuzes and rockets cut dependence on foreign supply.", "Compare the US: the US fielded modular charges (MACS) and guided rockets (GMLRS) years earlier."], "sources": [{"title": "Audit Report on Procurement of Stores and Machinery in Ordnance Factories (Report No. 15 of 2010)", "publisher": "Comptroller and Auditor General of India", "year": "2010", "url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/download_audit_report/2010/Union_Performance_Defence_Procurement_Stores_and_Machinery_15_2010.pdf"}, {"title": "OFB Gets Bulk Production Clearance for ‘Dhanush’ Artillery Gun", "publisher": "Press Information Bureau", "year": "2019", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1565315"}, {"title": "MINISTRY OF DEFENCE - YEAR END REVIEW 2023", "publisher": "Press Information Bureau", "year": "2023", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1989502"}, {"title": "MINISTRY OF DEFENCE; YEAR END REVIEW - 2025", "publisher": "Press Information Bureau", "year": "2025", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2210154&reg=3&lang=2"}, {"title": "DRDO successfully test fires Enhanced Pinaka Rocket", "publisher": "Press Information Bureau", "year": "2021", "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1730354"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ind-eq-ammunition", "ind-eq-pinaka", "ind-eq-dhanush"]},
+  {"id": "ind-org-sata", "topic": "target-acquisition", "country": "India", "addedIn": "2026.12", "module": "Forces", "force": "Indian Army", "echelon": ["Regiment", "Battery"], "type": "Organisation", "title": "SATA Units: Radars, Long-Range Optics and Drones", "what": ["Beyond Swathi radars, Surveillance and Target Acquisition (SATA) units are the Army’s main organic target acquisition force."], "how": ["The 2023 Ministry of Defence year-end review recorded that SATA units were being reorganised.", "Reported: a 2021 CLAWS paper calls for short-, medium- and long-range battlefield surveillance radars and a replacement for LORROS, the long-range observation system in use for about two decades.", "In January 2026 the Ministry of Defence showed ZOLT, an Indian tactical drone used to direct artillery fire.", "Not found in open sources: unit establishments or sensor numbers."], "why": ["Grouping radars, optics and drones under artillery control lets corps and divisions watch deep areas and pass targets straight to guns and rockets.", "Compare the US: the US keeps target acquisition platoons in artillery battalions and relies on aviation drones rather than separate artillery SATA regiments."], "sources": [{"title": "MINISTRY OF DEFENCE - YEAR END REVIEW 2023", "publisher": "Press Information Bureau", "year": "2023", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1989502"}, {"title": "77th Republic Day Parade: Kartavya Path set to unveil unique mix of 150 years of ‘Vande Mataram’ and the nation’s progress & military might, immersed in rich cultural diversity and Jan Bhagidari", "publisher": "Press Information Bureau", "year": "2026", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218449"}, {"title": "The Future of Artillery in 21st Century Warfare", "publisher": "CLAWS Journal (Centre for Land Warfare Studies)", "year": "2021", "url": "https://ojs.indrastra.com/index.php/clawsjournal/article/download/121/127/126"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ind-eq-swathi", "ind-org-overview", "ind-eq-sanjay"]},
+  {"id": "ind-eq-sanjay", "topic": "digital-fires-c2", "country": "India", "addedIn": "2026.12", "module": "Equipment", "force": "Indian Army", "echelon": ["Brigade", "Division", "Corps"], "type": "Command & Control", "title": "SANJAY: The Battlefield Surveillance System", "what": ["SANJAY is the Indian Army’s automated battlefield surveillance system, developed with Bharat Electronics for ₹2,402 crore and launched on 24 January 2025."], "how": ["It takes in feeds from ground and air sensors, removes duplicates and fuses them into one common surveillance picture.", "Data travels over the Army data network and satellite links to headquarters up to Army level.", "Fielding to brigades, divisions and corps was planned in three phases from March to October 2025.", "Not found in open sources: completion of the last phase, or a direct link to the Shakti fire control network."], "why": ["Automated fusion replaces slow manual plotting along long mountain and desert borders.", "Compare the US: a sensor-fusion role like DCGS-A, but it stops at brigade headquarters."], "sources": [{"title": "Raksha Mantri Shri Rajnath Singh flags-off ‘SANJAY - The Battlefield Surveillance System’ from New Delhi", "publisher": "Press Information Bureau", "year": "2025", "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2095712"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ind-eq-shakti", "ind-org-sata", "ind-les-c4i-gap"]},
+  {"id": "ind-les-c4i-gap", "topic": "digital-fires-c2", "country": "India", "addedIn": "2026.12", "module": "Lessons", "force": "Multiple", "echelon": ["Battalion", "Brigade", "Corps"], "type": "Lesson", "title": "Weapons Without Networks: The Gap Below Brigade", "what": ["Analysis: India’s long-range weapons have outpaced its tactical command networks, leaving a digital gap below brigade and between services."], "how": ["In 2018 the Army cancelled its Battlefield Management System after seven years of development; it was meant to link battalions to companies and platoons.", "Analysis: ORF reports the Tactical Communication System, meant to give encrypted digital links down to sections, still not fielded in 2026.", "Analysis: delays now come from processing and layered approvals rather than detection or flight time.", "During Operation Sindoor the air defence networks worked together, while reviews flagged data-link limits and gaps between services."], "why": ["Long-range guns and missiles lose their value against moving targets if observers and headquarters cannot pass coordinates digitally.", "Compare the US: the US is linking units and sensors across services under CJADC2; India’s strong single-service networks still have seams."], "sources": [{"title": "Weapons Without Networks: India’s Precision Strike and Command Architecture Gap", "publisher": "Observer Research Foundation", "year": "2026", "url": "https://www.orfonline.org/research/weapons-without-networks-india-s-precision-strike-and-command-architecture-gap"}, {"title": "Military Lessons From Operation Sindoor", "publisher": "Carnegie Endowment for International Peace", "year": "2025", "url": "https://carnegieendowment.org/india/research/2025/10/military-lessons-from-operation-sindoor"}], "confidence": "Analysis", "asOf": "2026-11", "relatedIds": ["ind-eq-sanjay", "ind-eq-shakti", "ind-les-after-sindoor"]},
+  {"id": "ind-sus-wwr", "topic": "sustainment", "country": "India", "addedIn": "2026.12", "module": "Lessons", "force": "Indian Army", "echelon": ["Corps"], "type": "Lesson", "title": "War Wastage Reserves: The Ammunition Audits", "what": ["The Indian Army’s War Wastage Reserve is sized for 40 days of intense combat, but audits by the Comptroller and Auditor General found serious shortfalls in artillery ammunition."], "how": ["The 2015 audit found critical shortages in many ammunition types, slow orders from the ordnance factories and stock in depots unavailable for issue.", "Reported: a 2017 follow-up found little improvement. Not found in open sources: reserve levels since 2017 or what was used in May 2025."], "why": ["Short, intense border wars burn through magazines; slow imports and weak quality control can leave guns without shells even when money exists.", "Compare the US: the US also felt 155mm reserve strain from aid to Ukraine, but tracks stocks through networked logistics."], "sources": [{"title": "Report No. 19 of 2015: Performance Audit of Ammunition Management in Army", "publisher": "Comptroller and Auditor General of India", "year": "2015", "url": "https://cag.gov.in/defence/new-delhi-i/en/audit-report/details/1740"}, {"title": "Ammunition for the Indian Army: C&AG Rings Alarm Bells", "publisher": "Manohar Parrikar Institute for Defence Studies and Analyses", "year": "2015", "url": "https://idsa.in/publisher/comments/ammunition-for-the-indian-army-cag-rings-alarm-bells"}, {"title": "55 per cent ammo below minimum stock level, no significant improvement in shortages since 2013: CAG", "publisher": "ThePrint", "year": "2017", "url": "https://theprint.in/report/55-per-cent-ammo-below-minimum-stock-level-no-significant-improvement-in-shortages-since-2013-cag/3635/"}], "confidence": "Reported", "asOf": "2026-11", "relatedIds": ["ind-eq-ammunition", "ind-sus-industry", "ind-sus-dpsu"]},
+  {"id": "ind-sus-dpsu", "topic": "sustainment", "country": "India", "addedIn": "2026.12", "module": "Forces", "force": "Indian Army", "echelon": ["Theatre"], "type": "Logistics", "title": "From Ordnance Factories to Defence Companies", "what": ["In 2021 India dissolved the Ordnance Factory Board into seven state-owned defence companies to fix supply shortfalls."], "how": ["After 30 September 2021, 41 ordnance factories became seven companies, backed by an ₹8,745 crore investment fund to 2026–27.", "Munitions India Limited (Pune) makes ammunition and explosives; Advanced Weapons and Equipment India Limited (Kanpur) makes guns.", "US-made systems rely on US sustainment: the 2025 Excalibur notice includes repair and return services.", "In January 2026 the Army’s Corps of EME showed a Drone Shakti lorry built to support operations in forward areas."], "why": ["Separate companies with their own budgets aim to improve quality and accountability; mobile workshops keep mixed fleets working near the front.", "Compare the US: the US relies on government-owned, contractor-operated plants and brigade support battalions."], "sources": [{"title": "Standing Committee on Defence (2024–25), Fourth Report: Demands for Grants (2024–25) of Ordnance (Coordination and Services) – New DPSUs and Defence Research and Development Organisation (Demand Nos. 20 and 21)", "publisher": "Lok Sabha Secretariat", "year": "2024", "url": "https://sansad.in/getFile/lsscommittee/Defence/18_Defence_4.pdf?source=loksabhadocs"}, {"title": "India – Excalibur Projectiles", "publisher": "US Defense Security Cooperation Agency", "year": "2025", "url": "https://www.dsca.mil/Press-Media/Major-Arms-Sales/Article-Display/Article/4337518/india-excalibur-projectiles"}, {"title": "77th Republic Day Parade: Kartavya Path set to unveil unique mix of 150 years of ‘Vande Mataram’ and the nation’s progress & military might, immersed in rich cultural diversity and Jan Bhagidari", "publisher": "Press Information Bureau", "year": "2026", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2218449"}], "confidence": "Confirmed", "asOf": "2026-11", "relatedIds": ["ind-sus-industry", "ind-sus-wwr", "ind-eq-dhanush"]}
+];

@@ -1,21 +1,19 @@
 // Fires Atlas content check. Run from the repository root:  node tools/check.mjs
-// Loads the content block of src/FiresAtlas.jsx (data only, no React) and checks it.
+// Loads the data in src/content/ (data only, no React) and checks it.
 // Exit code 1 if any check fails, so agents and people can rely on it before a commit.
 import fs from 'node:fs';
 
 const src = fs.readFileSync(new URL('../src/FiresAtlas.jsx', import.meta.url), 'utf8');
-const L = src.split('\n');
-const start = L.findIndex((l) => l.includes('CONTENT BLOCK')) - 1;
-const lessons = L.findIndex((l) => l.startsWith('const LESSONS'));
-let end = lessons; while (!L[end].startsWith('// =====')) end++;
-const block = L.slice(start, end).join('\n');
-// The equipment-name matcher lives in the app code, outside the content block.
+const CONTENT_MODULE = await import('../src/content/index.js');
+const dataNames = Object.keys(CONTENT_MODULE);
+// The equipment-name matcher lives in the app code, outside src/content/.
 const a = src.indexOf('const KIT_STOP'), b = src.indexOf('function TermScope');
 const kitCode = src.slice(a, b);
 
-const D = new Function(block + '\n' + kitCode + `
+// kitCode is app code that reads the data by name, so pass the imported data in as arguments.
+const D = new Function(...dataNames, kitCode + `
 return { CONTENT, CHANGELOG, TOPICS, APP_DATA, GLOSSARY, LESSONS, DEVELOPMENTS, EQUIPMENT_LINKS, EQUIPMENT_SPECS,
-  VIDEO_LINKS, VIDEO_META, RANGE_DATA, KILL_CHAINS, EXERCISES, kitAliases };`)();
+  VIDEO_LINKS, VIDEO_META, RANGE_DATA, KILL_CHAINS, EXERCISES, kitAliases };`)(...dataNames.map((n) => CONTENT_MODULE[n]));
 
 const fails = [], warns = [];
 const fail = (m) => fails.push(m), warn = (m) => warns.push(m);
@@ -116,10 +114,10 @@ if (!hasSG && /\bSAF\b|Singapore Armed Forces|SAFTI|\bSAR\s?21\b|\bSingapore\b/.
 for (const w of ['devastating', 'massive', 'incredibly', 'absolutely', 'game-chang']) if (new RegExp('\\b' + w, 'i').test(allText)) warn('Intensifier in entry text: ' + w);
 
 
-// New-army research prompt must cover every data set in the content block (ops/research/PROMPT_COVERAGE.json).
+// New-army research prompt must cover every data set exported by src/content/index.js (ops/research/PROMPT_COVERAGE.json).
 {
   const cov = JSON.parse(fs.readFileSync(new URL('../ops/research/PROMPT_COVERAGE.json', import.meta.url), 'utf8'));
-  for (const m of block.matchAll(/^const ([A-Z][A-Z_]+)\s*=/gm)) if (!cov[m[1]]) fail(`Data set ${m[1]} is not in ops/research/PROMPT_COVERAGE.json: add a part to tools/new_country_prompt.mjs that asks for it, then list it there`);
+  for (const name of dataNames) if (!cov[name]) fail(`Data set ${name} is not in ops/research/PROMPT_COVERAGE.json: add a part to tools/new_country_prompt.mjs that asks for it, then list it there`);
 }
 
 console.log(`Content ${D.CONTENT.version}: ${D.APP_DATA.length} entries, ${D.GLOSSARY.length} terms, ${D.LESSONS.length} lessons, ${exercises} exercises, ${D.TOPICS.length} topics`);
