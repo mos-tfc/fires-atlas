@@ -3061,6 +3061,16 @@ const contentAsText = () => ['Fires Atlas content, version ' + CONTENT.version +
     ''
   ].join('\n'))).join('\n');
 
+// Author tools are hidden from readers. Open the site once with ?author to show them on this device; ?author=off hides them again.
+// This only hides the card: the content itself is public in the app anyway.
+const authorMode = (() => {
+  try {
+    const q = new URLSearchParams(window.location.search).get('author');
+    if (q !== null) { if (q === 'off') localStorage.removeItem('fa.author'); else localStorage.setItem('fa.author', '1'); }
+    return localStorage.getItem('fa.author') === '1';
+  } catch (err) { return false; }
+})();
+
 function MoreView() {
   const { t, state, update, go, storageOk } = useApp();
   const [paste, setPaste] = useState('');
@@ -3126,11 +3136,11 @@ function MoreView() {
         {message && <div className={`mt-2 text-sm ${t.muted}`}>{message}</div>}
       </Card>
 
-      <Card>
+      {authorMode && <Card>
         <div className="font-bold">For the author</div>
         <p className={`mt-1 text-sm ${t.muted}`}>A plain-text copy of every entry. Paste it into the monthly research prompt so the check starts from what the app says now.</p>
         <div className="mt-3"><CopyBox text={contentAsText} label="Copy all content as text" /></div>
-      </Card>
+      </Card>}
 
       <div className={`text-sm leading-relaxed ${t.faint}`}>
         Fires Atlas · content version {CONTENT.version} · {APP_DATA.length} entries, {LESSONS.length} lessons, {GLOSSARY.length} terms.
