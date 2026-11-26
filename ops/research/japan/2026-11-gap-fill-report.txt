@@ -1,0 +1,1104 @@
+Japan Artillery and Fire Support:
+Reference Additions, Operational
+Lessons, Equipment Baselines, and
+Corpus Corrections
+
+This reference supplement expands and audits the 17-entry Japan artillery and fire support
+learning corpus for military professionals, incorporating open-source official documentation,
+defense institute analyses, and established defense reporting current through November 2026.
+It delivers eight new doctrinal and technical entries across the four under-documented thematic
+areas—Liaison and Fire Support Integration, Loitering Munitions and Armed Drones, Target
+Acquisition, and Counter-Fire and Force Protection—followed by two operational
+lessons-learned syntheses drawn from the war in Ukraine and multilateral Indo-Pacific
+exercises. It also establishes verified technical baselines for the legacy tracked Type 96 120mm
+self-propelled mortar and Type 99 155mm self-propelled howitzer, separating official Japan
+Ministry of Defense (MOD) figures from secondary reported values and explicitly marking
+unverified parameters.
+Between March 2025 and October 2026, Japan Ground Self-Defense Force (JGSDF) fires
+crossed a structural inflection point that renders portions of the existing 17-entry reference
+outdated. Key milestones include the permanent activation of the JSDF Joint Operations
+Command (JJOC) in March 2025, the FY2025 fielding of the ground-launched Type 25
+Surface-to-Ship Guided Missile (25SSM) and Type 25 Hyper Velocity Gliding Projectile (HVGP),
+the FY2026 budget allocation of approximately ¥100.1 billion for the Synchronized, Hybrid,
+Integrated and Enhanced Littoral Defense (SHIELD) unmanned architecture, and the integration
+of electronic warfare units and dispersed command posts into domestic missile live-fire
+exercises. Where official MOD sources withhold sensitive performance metrics—notably
+maximum firing ranges, sustained rates of fire, and emplacement or displacement times for the
+Type 96 and Type 99—this reference avoids extrapolation, explicitly attributing secondary
+defense database figures as "Reported" and recording absent metrics as "Not stated."
+Gap-Filling Reference Entries
+
+Liaison and Fire Support Integration
+
+The JSDF Joint Operations Command and Permanent Joint Operational C2
+
+Historically, joint fire support coordination across Japan's Ground, Maritime, and Air
+Self-Defense Forces (GSDF, MSDF, and ASDF) suffered from structural friction because the
+Self-Defense Forces lacked a permanent operational headquarters. Prior to 2025, joint
+contingencies required standing up ad-hoc Joint Task Forces, a model that the MOD
+acknowledged impeded rapid force build-up and continuous cross-domain preparation. At the
+alliance level, the Chief of Staff, Joint Staff had to split attention between strategic
+military-to-military coordination with the Chairman of the U.S. Joint Chiefs of Staff and
+operational theater coordination with the Commander of U.S. Indo-Pacific Command.
+To close this gap, Japan formally established the JSDF Joint Operations Command (JJOC) at
+Ichigaya in March 2025 under the Commander of the Joint Operations Command. Under the
+National Defense Strategy and Defense Buildup Program, JJOC functions as a permanent
+operational unit exercising unified, nationwide command over GSDF, MSDF, and ASDF forces
+across the continuum from peacetime gray-zone activity to high-intensity contingencies. The
+Joint Staff remains a staff organization advising the Minister of Defense and conveying
+ministerial orders to JJOC, while JJOC executes day-to-day cross-domain synchronization and
+direct operational coordination with U.S. forces—advancing alongside Washington's initiative to
+upgrade U.S. Forces Japan toward a joint force headquarters. Operationally, centralizing joint
+command under JJOC establishes the standing authority required to deconflict Japan's
+expanding multi-domain strike inventory—including land-based Type 25 SSM and HVGP units,
+maritime Tomahawk and ship-launched SSM salvos, and air-launched stand-off munitions.
+While official MOD white papers confirm JJOC's permanent unified command and cross-domain
+mandate, detailed joint fires allocation procedures remain unpublished in open sources.
+
+Regional Army Artillery Centralization and Integrated Targeting Cells
+
+Below the joint operational level, the JGSDF has fundamentally restructured tactical field
+artillery liaison and fire direction across Honshu and Kyushu. Between 2018 and 2024, the
+JGSDF progressively abolished organic 155mm FH-70 field artillery regiments and battalions
+inside maneuver divisions and brigades, consolidating tube artillery into Regional Army Artillery
+Regiments directly subordinate to Regional Army headquarters. Confirmed reorganizations
+include the 2018 conversion of the 4th Artillery Regiment into the 4th Battalion of the Western
+Army Artillery Regiment, the activation of the Eastern Army Artillery Regiment at Camp Kita-Fuji,
+the consolidation of the Northeastern Army Artillery Regiment, and the March 2024
+reorganization of the 10th Artillery Regiment into the 2nd Battalion of the Middle Army Artillery
+Regiment. By contrast, the Northern Army in Hokkaido retains organic mechanized divisional
+and brigade artillery units equipped with tracked Type 99 howitzers, including the 2nd and 7th
+Artillery Regiments and the 11th Artillery Unit.
+Centralizing cannon artillery at the Regional Army echelon elevates fire support planning above
+tactical maneuver brigades, placing greater weight on digital liaison, forward observation, and
+cross-domain targeting cells. Within the Northern Army and 1st Artillery Brigade framework, the
+JGSDF moved to fuse Regional Army Headquarters' Fire Support Coordination Centers and
+Electronic Warfare Coordination Centers into an "Integrated Targeting" cell designed to couple
+intelligence, electromagnetic operations, and lethal fires in cross-domain combat.
+Simultaneously, bilateral training has expanded tactical fire-support liaison beyond specialized
+amphibious Joint Terminal Attack Controllers: during Orient Shield 25, a U.S. 3d Marine Division
+fire support officer conducted a Joint Fires Observer (JFO) class alongside JGSDF personnel,
+reinforcing the sensor-to-shooter interface required when maneuver formations no longer own
+organic howitzer battalions.
+
+Loitering Munitions and Armed Drones
+
+SHIELD: Synchronized, Hybrid, Integrated and Enhanced Littoral Defense
+
+Japan's unmanned strike posture shifted from experimental procurement to theater-level
+architectural integration in the FY2026 defense budget through the unveiling of SHIELD
+(Synchronized, Hybrid, Integrated and Enhanced Littoral Defense). Conceived as an
+asymmetrical defense architecture for Japan's littoral approaches, SHIELD pairs manned
+formations with large quantities of relatively inexpensive unmanned aerial, surface, and
+underwater vehicles (UAVs, USVs, and UUVs) to counter costly adversary manned invasion
+platforms while minimizing human casualties.
+The MOD allocated approximately ¥100.1 billion in FY2026 specifically to acquire unmanned
+assets for SHIELD, targeting operational establishment in FY2027. This commitment sits inside
+a broader ¥277.3 billion FY2026 allocation for Unmanned Defense Capabilities—one of the
+Seven Pillars of the ¥43.5 trillion Defense Buildup Program, which allocates ¥1.0 trillion to
+unmanned capabilities across FY2023–FY2027. Crucially, SHIELD addresses
+command-and-control scalability by funding ¥2.3 billion in FY2026 for demonstration tests of a
+simultaneous control system capable of coordinating multiple diverse unmanned platforms
+concurrently. Rather than operating in single-service silos, SHIELD combines GSDF
+ground-launched attack UAVs with MSDF Ship-Launched UAVs, Ship-Based Small UAVs, Small
+Multi-Purpose USVs and UUVs, and ASDF long-range Anti-Ship UAVs into a multi-echelon
+maritime denial screen.
+
+JGSDF Tiered Attack Drones and Modular FPV Systems
+
+Within the SHIELD framework and ground maneuver formations, the JGSDF has formalized a
+four-category taxonomy of tactical strike and reconnaissance drones that extends organic
+precision fires down to small-unit and coastal-defense levels:
+  ●    Modular UAV (GSDF): A First-Person View (FPV) unmanned system engineered for
+       short-range intelligence collection and tactical situational awareness.
+  ●    Small Attack UAV I (小型攻撃用UAV I型, GSDF): A short-range attack UAV optimized to
+       strike enemy vehicles and tactical land targets. According to a public-sector procurement
+       tracker (Edamame Japan), the MOD awarded a ¥3.7 billion contract on March 26, 2026
+       to Marubeni Aerospace for Small Attack UAV Type I.
+  ●    Small Attack UAV II (GSDF): A medium-range attack UAV configured to strike
+       approaching naval vessels.
+  ●    Small Attack UAV III (GSDF): A long-range maritime loitering munition designed to loiter
+       over distant seas, detect and identify hostile naval assets, and execute terminal strikes.
+This tiered architecture follows the March 2025 completion of deliveries for earlier close-range
+multipurpose UAVs and mid-range enhanced-function UAVs, as well as July 2025
+demonstration trials of small shore-to-ship transport UAVs. Analysis by Taiwan's Research
+Institute for Democracy, Society and Emerging Technology (DSET) notes that the MOD plans to
+continue procuring Small Attack UAV Types I, II, and III under the FY2027 defense budget. For
+artillery planners, these unmanned tiers fill the lethal gap between organic 81mm/120mm
+mortars and heavy 155mm or SSM batteries, delivering persistent sensor-shooter coverage in
+archipelagic terrain where conventional fires face radar masking and ammunition resupply
+constraints.
+
+Target Acquisition
+
+Organic Tactical Sensors: Counter-Mortar Radar, Meteorological Systems, and
+Tactical ISR UAVs
+While the JTPS-P16 handles long-range counter-battery acquisition against hostile tube and
+rocket artillery, tactical JGSDF artillery regiments rely on an integrated suite of short-range,
+environmental, and aerial organic sensors to close local fire missions. In mechanized formations
+such as the 7th Artillery Regiment, the JTPS-P16 operates alongside the JMPQ-P13
+Counter-Mortar Radar and the JMMQ-M5 Meteorological Measurement System. Introduced
+in FY1986 as the Toshiba-built replacement for the Type 72 (JAN/MPQ-N1) radar, the
+JMPQ-P13 is an X-band radar employing a B-scope display designed specifically to locate
+short-range, low-muzzle-velocity hostile mortars. Weighing approximately 2,900 kg (approx. 5.3
+m × 2.5 m × 3.5 m) and powered by an AC 115V / 10 kVA turbine generator, it provides
+all-weather simultaneous multi-target location, automatic computation, and remote operation.
+For aerial artillery observation and beyond-line-of-sight reconnaissance, the JGSDF historically
+fielded the Remote-Controlled Unmanned Observation System (FFRS), developed by the
+Defense Agency's Technical Research and Development Institute and built by Fuji Heavy
+Industries, pairing a pre-programmed UAV with ground control, tracking, launch, and support
+vehicles over wireless and wired datalinks. More recently, mid-range aerial ISR has shifted to
+the ScanEagle / ScanEagle 2 fleet ("mid-range UAV"), operated by Regional Army and
+divisional intelligence units such as the Northeastern Army Intelligence Collection Unit and the
+6th Intelligence Unit. GSDF leadership confirms that ScanEagle units support maritime and land
+intelligence collection, proving particularly valuable in severe weather that grounds manned
+reconnaissance helicopters. At the lowest tactical echelon, defense press reporting (Militarnyi)
+indicates Japan's acquisition of semi-active laser-guided Vulcano 155mm munitions is paired
+with man-portable laser-designating drones (reported maximum flight range no more than 10
+km, transportable in a soldier's bag) capable of terminally designating targets for both 155mm
+guided shells and ASDF F-2 L-JDAM munitions.
+
+Cross-Domain Stand-Off Target Acquisition: Space Constellations, EW Targeting,
+and Allied ISR Dependencies
+
+Fielding ground-based stand-off weapons with reported ranges near 1,000 km (Type 25 SSM
+and Type 25 HVGP) creates an acute sensor-shooter mismatch: no organic JGSDF ground
+radar or tactical drone can detect, track, and update moving maritime or relocatable land targets
+at theater distances. Consequently, Defense of Japan 2026 details a cross-domain target
+acquisition build-up anchored in orbital and electromagnetic sensors. Starting in FY2025, the
+MOD initiated an indigenous image satellite constellation specifically to provide target
+detection and tracking for stand-off defense, complemented by R&D on space-based infrared
+sensors (leveraging JAXA's HTV-X platform) for early detection and tracking of adversary
+hypersonic glide vehicles. Resilient targeting data transport is being reinforced through X-band
+"Kirameki" defense communications satellites, planned successor and tactical AI satellites,
+inter-satellite optical links, commercial services such as Starlink, and participation in the U.S.-led
+Protected Anti-jam Tactical SATCOM (PATS) framework.
+At the operational-tactical seam, the JGSDF is operationalizing passive electromagnetic
+emissions as an active fires sensor. During the August 16–25, 2026 Type 88 SSM Annual Firing
+Exercise at Shizunai, the 3rd and 8th Surface-to-Ship Missile Regiments trained directly
+alongside electronic warfare units equipped with the Network Electronic Warfare System
+(NEWS). NEWS detachments collected and analyzed radio-wave intelligence to feed situational
+awareness directly into missile regiment command posts—testing formal intelligence-EW-fires
+staff coordination, though actual RF emissions were withheld and scenarios simulated to avoid
+disrupting local civilian spectrum use. Despite these sovereign investments, commentary in Asia
+Times assesses that Japan's counterstrike architecture currently remains reliant on U.S.
+space-based ISR and target-processing feeds via Combined Joint All-Domain Command and
+Control (CJADC2) channels while Tokyo develops domestic satellite capacity and explores
+supplementary ISR partnerships with the United Kingdom, Australia, and Finland.
+
+Counter-Fire and Force Protection
+
+Layered Counter-UAS, Directed Energy R&D, and Radar-Site Defense Drones
+
+Traditional gun-area air defense built around the Type 11 Short-Range Surface-to-Air Missile
+(SHORAD) faces acute cost-exchange and saturation pressures against small reconnaissance
+drones and loitering munitions. To protect artillery firing positions, missile launchers, and radar
+sites, the MOD is layering electronic, directed-energy, and counter-drone kinetic measures
+beneath conventional SAMs. At the unit level, JGSDF garrisons and field units already sustain
+fielded Small UAV Countermeasure Equipment (小型無人機対処器材)—mobile electronic
+C-UAS systems subject to periodic RF transmission/reception calibration and manufacturer
+control-software updates.
+To defeat drone swarms without exhausting expensive missile magazines, the Defense Buildup
+Program allocates ¥0.07 trillion (¥70 billion) for research into High-Power Laser and
+High-Power Microwave (HPM) directed-energy technologies. Building on an earlier
+approximately ¥1.1 billion HPM technology study (FY2014–FY2020) that conducted
+anechoic-chamber validation, the MOD and the U.S. Department of Defense signed a bilateral
+Project Arrangement in July 2024 to conduct joint research on HPM systems. Complementing
+directed energy, the FY2026 budget explicitly introduces an active unmanned interceptor layer:
+ASDF Radar Site Defense UAVs, designed to defend high-value radar installations against
+hostile UAVs and aerial threats.
+
+Networked Command-Post Dispersion and Mobility-Based Survivability
+
+Active air defense cannot guarantee gun-area survival under persistent orbital ISR and
+adversary counter-fire; passive signature reduction and physical dispersion are equally decisive.
+A concrete doctrinal shift appeared in the August 2026 Type 88 SSM Annual Firing Exercise at
+Shizunai, where the GSDF Chief of Staff highlighted a major upgrade over prior-year iterations:
+physically separating the missile regiment headquarters (command post) from the firing
+area and connecting them via tactical networks across dispersed sites. Decoupling
+high-emitting C2 headquarters from launch platoons reduces the vulnerability of losing both
+command staff and launchers to a single adversary direction-finding or counter-battery strike.
+This dispersion complements platform-level survivability choices across JGSDF fires units. In
+Northern Army mechanized formations, the tracked Type 99 SPH provides high mobility and
+armor protection designed for resilient fires operations (official ATLA assessment; aluminum
+alloy armor Reported), while the tracked Type 96 MSP provides steel armor against small-arms
+fire and shell splinters with rapid post-firing relocation (Reported). Across Honshu and Kyushu,
+transitioning regional artillery battalions from towed FH-70 howitzers to wheeled Type 19
+155mm self-propelled howitzers directly compresses shoot-and-scoot vulnerability windows. At
+the strategic-doctrinal level, Japan's National Institute for Defense Studies (NIDS) emphasizes
+that surviving modern deep-strike campaigns requires systematic decentralized deployment of
+military assets paired with unmanned platforms.
+Operational and Doctrinal Lessons Learned
+
+Lessons from the War in Ukraine: Attrition, Unmanned-Artillery
+Complexes, and Industrial Surge
+
+Defense of Japan 2026 devotes explicit doctrinal analysis to Russia's invasion of Ukraine,
+identifying three primary fires-related lessons that directly shape Japanese force design. First,
+the MOD highlights the battlefield synergy of complex combined attacks in which massive
+numbers of inexpensive, diverse unmanned assets operate alongside conventional artillery
+shells and missiles to strike expensive military platforms and critical infrastructure. Second, the
+white paper underscores an unprecedented compression of tactical and technical update
+cycles, driven by AI-assisted decision-making, networked sensors, and multi-domain integration
+across space, cyber, and the electromagnetic spectrum. Third, Ukraine has revalidated the
+harsh logistics of protracted attritional warfare, where both sides expend artillery ammunition
+and major end-items at rates that strain peacetime reserves and defense supply chains.
+These observations have translated into tangible Japanese policy and procurement reforms
+rather than abstract commentary. In direct response to the unmanned-artillery threat—and
+mindful of MOD and NIDS assessments that China is studying the same Ukraine lessons
+regarding massed unmanned assets, AI, and asymmetric operations—Tokyo launched SHIELD
+(approx. ¥100.1 billion in FY2026) and instituted a Fast-Track Procurement program to
+accelerate adoption of commercial startup technologies. On the sustainment front, NIDS
+researcher Dr. Watanabe emphasized that Ukraine demonstrates peacetime stockpiles alone
+are insufficient without rapid surge production capacity, supply-chain visibility, and diversified
+sourcing. Accordingly, the MOD paired its ¥2.0 trillion dedicated FY2023–FY2027 ammunition
+allocation (¥5.0 trillion including related areas) with the Act on Enhancing Defense Production
+and Technology Bases to stabilize parts supply and expand domestic ammunition
+manufacturing capacity.
+
+Lessons from Multilateral Exercises and Domestic Live-Fire
+Adaptation
+
+Complementing lessons observed abroad, the JGSDF has extracted actionable procedural
+lessons from intensifying bilateral and trilateral field training exercises with the United States
+and Australia. During Resolute Dragon 21—then the largest bilateral USMC–JGSDF field
+exercise in Japan—artillery and fire support coordination officers from 4th Marine Regiment and
+the JGSDF practiced integrated kill chains across HIMARS and Japanese SSMs, jointly building
+fire plans, sharing targeting data, and selecting engagement platforms across national lines.
+Subsequent iterations (Resolute Dragon 23 and 24 with III Marine Expeditionary Force and the
+JGSDF Western Army, including operations at Camp Yonaguni) deepened expeditionary fires
+coordination across the Southwestern Islands. Trilateral fires interoperability accelerated
+through Yama Sakura 85 (the first trilateral U.S.–Japan–Australia command post exercise in
+December 2023) and Orient Shield 26 in Hokkaido (September 2026), which marked the
+second consecutive year of Australian Army participation—incorporating the Australian 10th
+Fires Brigade alongside U.S. Army Pacific and JGSDF formations to validate human, technical,
+and procedural multi-domain interoperability.
+Domestically, operational exercises exposed a critical readiness bottleneck: Japan's geographic
+density and airspace/maritime safety constraints historically forced JGSDF long-range missile
+and extended-range artillery units to rely on overseas ranges—such as U.S. test ranges for the
+2025 Type 25 SSM launch campaign and reported UK trials for Type 19 Vulcano firings.
+Addressing this constraint in August 2026, the GSDF Chief of Staff emphasized that conducting
+regiment-scale Type 88 SSM live-fire drills domestically at the Shizunai Anti-Aircraft Firing
+Range—incorporating networked command-post dispersion and NEWS EW coordination—and
+developing future domestic firing infrastructure such as Minamitorishima are essential for
+securing regular, realistic live-fire proficiency across Japan's expanding long-range fires force.
+Key Technical Figures: Type 96 120mm Self-Propelled
+Mortar and Type 99 155mm Self-Propelled Howitzer
+
+The Type 96 120mm self-propelled mortar (120MSP) and Type 99 155mm self-propelled
+howitzer (99HSP) represent Japan's legacy tracked armored fire-support fleet, concentrated in
+Northern Army mechanized divisions and brigades (notably the 7th Armored Division and 2nd
+Division). While official JGSDF unit pages confirm basic dimensions, weights, and crew sizes,
+the MOD routinely omits firing ranges, sustained rates of fire, and emplacement/displacement
+times from public disclosures. The visual comparison and reference table below strictly separate
+official MOD figures from secondary defense-database figures marked Reported, and state Not
+stated where no open-source data is verified.
+Parameter                            Type 96 120mm Self-Propelled          Type 99 155mm Self-Propelled
+                                     Mortar (96式自走120mm迫撃砲 Howitzer (99式自走155mmりゅ
+                                     / 120MSP)                             う弾砲 / 99HSP)
+Type                                 Tracked 120mm self-propelled          Tracked 155mm self-propelled
+                                     mortar (Official MOD); vehicle        howitzer (Official MOD); hull by
+                                     by Hitachi, ordnance by Howa,         Mitsubishi Heavy Industries,
+                                     derived from Type 92                  gun/turret by Japan Steel
+                                     minefield-clearing vehicle /          Works (Official MOD)
+                                     Type 73 APC chassis
+                                     (Reported)
+Calibre                              120 mm (Official MOD: 120mm 155 mm (Official MOD);
+                                     Mortar RT ordnance); rifled           52-calibre (L/52) ordnance in
+                                     MO-120-RT, rear-firing roof           360° turret, plus roof
+                                     hatch with ±45° traverse, 50          pintle-mounted 12.7 mm M2HB
+                                     shells stowed, plus roof              HMG (Reported)
+                                     pintle-mounted 12.7 mm M2HB
+                                     HMG (Reported)
+Combat Weight                        23.5 t (Official JGSDF transport 40 t (Official MOD); 40 t combat
+                                     table: 23,500 kg gross / 21,700       load (Reported)
+                                     kg unladen under 24-t vehicle
+                                     class; 23.5 t combat weight
+                                     Reported)
+Crew                                 5 (Official MOD) —                    4 (Official MOD) —
+                                     commander, driver, 3 mortar           commander, driver, gunner,
+                                     crew (Reported)                       loader (Reported)
+Range by Round Type                  Standard HE: 8.2 km                   Standard HE: 30 km
+Parameter                              Type 96 120mm Self-Propelled          Type 99 155mm Self-Propelled
+                                       Mortar (96式自走120mm迫撃砲 Howitzer (99式自走155mmりゅ
+                                       / 120MSP)                             う弾砲 / 99HSP)
+                                       (Reported) (Official MOD figure (Reported)<br>Base-Bleed
+                                       for towed 120mm RT ordnance: (Type 93 BB): 40 km
+                                       approx. 8,100 m)                      (Reported) (older archive: 38
+                                       Rocket-Assisted Projectile            km, Reported) Vulcano 155mm
+                                       (RAP): 12.8 km (Reported)             guided shell: Not stated (2025
+                                                                             platform evaluation on Type 99
+                                                                             Reported by Army Recognition,
+                                                                             specific range undisclosed)
+Rate of Fire                           6–10 rounds/min (Reported)            Maximum: 6 rounds/min
+                                       (Official MOD max for towed           (Reported)<br>Burst /
+                                       120mm RT is 15–20                     Sustained rate: Not stated
+                                       rounds/min; sustained vehicle         (Official MOD notes higher
+                                       rate Not stated)                      firing speed than Type 75
+                                                                             without giving a numerical
+                                                                             figure)
+Mobility                               Tracked; approx. 6.7 m (L) ×          Tracked; water-cooled 4-cycle
+                                       2.88–2.99 m (W) × 2.85–2.95           6-cylinder diesel; max speed
+                                       m (H), 0.4 m minimum ground           49.8 km/h; 12.1–12.2 m overall
+                                       clearance (Official MOD).             L (11.3 m barrel retracted) × 3.2
+                                       Engine: Detroit Diesel 8V-71T         m (W) × 3.8–3.9 m (H) (Official
+                                       V8 supercharged diesel, 411           MOD). Engine: Mitsubishi
+                                       hp at 2,300 rpm; 6 roadwheels, 6SY31WA, 600 hp; 7
+                                       torsion bar; power-to-weight          roadwheels, torsion bar;
+                                       17.5 hp/t (411 hp / 23.5 t); max derived power-to-weight 15.0
+                                       speed 50 km/h; operational            hp/t (600 hp / 40 t); max speed
+                                       range 300 km; non-amphibious 50 km/h; operational range 300
+                                       (Reported)                            km (Reported)
+Time Into and Out of Action            Not stated (secondary                 Not stated (no numerical
+                                       reference notes qualitatively         emplacement or displacement
+                                       that it can relocate quickly after figures published in official or
+                                       firing; laid manually without an      secondary sources)
+                                       onboard FCS, Reported)
+Three source discrepancies warrant attention when briefing from open-source material on these
+systems. First, regarding the Type 99 engine cooling method, the secondary
+WeaponSystems.net database describes the Mitsubishi 6SY31WA as air-cooled, whereas the
+official JGSDF 2nd Artillery Regiment specification explicitly confirms a water-cooled 4-cycle
+6-cylinder diesel; the official JGSDF specification governs. Second, an older archived Forecast
+International report lists the Type 99 with a 39-calibre barrel and 310 hp engine by conflating
+early development concepts with the FH-70 and Type 89 IFV; current defense references
+consistently confirm the production 52-calibre ordnance and 600 hp powerplant. Third, for the
+Type 96 MSP, the reported 6–10 rpm rate of fire reflects confined interior operation and manual
+hand-laying without an electronic fire control system, explaining why it trails the 15–20 rpm
+official maximum of the dismounted towed 120mm RT.
+Corrections and Updates to the Existing 17 Reference
+Entries
+
+An audit of the 17 existing learning-reference entries against FY2025–FY2026 official MOD
+records, Defense of Japan 2026, and established defense reporting identifies four substantive
+corrections, six major 2025–2026 currency updates, and seven entries with no factual
+errors surfaced (two requiring new cross-references and five remaining current).
+Existing Entry                       Audit Status                         Verified Correction or
+                                                                          2025–2026 Update
+Rocket and Missile Artillery         Correction & Status Update           Both systems completed initial
+— Type 25 Long-Range                                                      development and entered
+Missiles and the Glide                                                    deployment in FY2025 under
+Projectile                                                                official designations Type 25
+                                                                          Surface-to-Ship Guided
+                                                                          Missile (25SSM) and Type 25
+                                                                          Hyper Velocity Gliding
+                                                                          Projectile (Type 25 HVGP).
+                                                                          Unit correction: Type 25 SSM
+                                                                          deployed first to the 5th SSM
+                                                                          Regiment (Camp Kengun,
+                                                                          Kumamoto) in FY2025
+                                                                          (additional deliveries FY2026;
+                                                                          Fuji Artillery School Unit
+                                                                          FY2027), whereas Type 25
+                                                                          HVGP deployed first to the
+                                                                          Artillery School Unit (Camp
+                                                                          Fuji) in FY2025, with two newly
+                                                                          established operational HVGP
+                                                                          units slated for FY2026 at
+                                                                          Camp Kamifurano (Hokkaido)
+                                                                          and Camp Ebino (Miyazaki).
+                                                                          Variant timeline correction:
+                                                                          Official Defense of Japan 2026
+                                                                          schedules the ship-launched
+                                                                          upgraded Type 12 for FY2026
+                                                                          (on destroyer Teruzuki,
+                                                                          Yokosuka) and the air-launched
+                                                                          variant for FY2027 (on
+                                                                          upgraded F-2,
+                                                                          Hyakuri)—correcting secondary
+                                                                          web compilations that place
+                                                                          both in FY2027. Development
+                                                                          of the Capability-Enhanced
+                                                                          HVGP remains ongoing.
+Ammunition and Effects —             Correction                           Platform exclusivity error:
+Vulcano 155 GLR Guided                                                    The title and framing restrict
+Existing Entry                        Audit Status                          Verified Correction or
+                                                                            2025–2026 Update
+Shells for the Type 19                                                      Vulcano to the Type 19,
+                                                                            whereas defense press
+                                                                            reporting (Army Recognition)
+                                                                            states 2025 evaluations tested
+                                                                            Leonardo Vulcano 155mm
+                                                                            guided munitions on both Type
+                                                                            19 wheeled and Type 99
+                                                                            tracked SPHs. Furthermore,
+                                                                            reporting by Militarnyi indicates
+                                                                            procurement encompasses
+                                                                            semi-active laser (SAL)
+                                                                            guided configurations paired
+                                                                            with bag-portable
+                                                                            laser-designating drones (≤10
+                                                                            km range, also guiding F-2
+                                                                            L-JDAMs), with UK firing tests
+                                                                            slated for Type 19.
+Digital Fires and Targeting —         Correction & Update                   Official nomenclature
+FCCS: The Fire Combat                                                       correction: FY2026 JGSDF
+Command and Control                                                         Northern Army procurement
+System                                                                      specifications render FCCS in
+                                                                            English as "Firing Command
+                                                                            Control System" (rather than
+                                                                            "Fire Combat Command and
+                                                                            Control System"). Technical
+                                                                            update: FY2026 FCCS
+                                                                            modification specifications
+                                                                            explicitly define and incorporate
+                                                                            AI (人工知能) terminology
+                                                                            alongside cross-system
+                                                                            standardization across division
+                                                                            C2, FCCS, air defense C2, and
+                                                                            field communications.
+Technical Fire Direction and          Correction & Update                   Operational role update: The
+Gunnery — The Fuji School:                                                  Fuji School's Field Artillery
+Artillery Doctrine and                                                      School Unit (特科教導隊) is no
+Gunnery                                                                     longer strictly a training and
+                                                                            doctrinal formation. It became
+                                                                            the first JGSDF unit to field the
+                                                                            Type 25 HVGP in FY2025; in
+                                                                            March 2026, the Defense
+                                                                            Minister confirmed that
+                                                                            alongside peacetime personnel
+                                                                            training, the unit can respond
+                                                                            to actual contingencies via
+Existing Entry                        Audit Status                          Verified Correction or
+                                                                            2025–2026 Update
+                                                                            exercise deployment. It is also
+                                                                            scheduled to field Type 25 SSM
+                                                                            in FY2027.
+Rocket and Missile Artillery          Major Update                          SSM regiments have
+— Surface-to-Ship Missile                                                   transitioned beyond coastal
+Regiments                                                                   anti-ship denial. The 5th SSM
+                                                                            Regiment (Camp Kengun)
+                                                                            fielded the approximately 1,000
+                                                                            km counterstrike-capable Type
+                                                                            25 SSM in FY2025, publicly
+                                                                            unveiled the launcher on
+                                                                            October 3, 2026, and prepared
+                                                                            it for its first large-scale
+                                                                            exercise deployment in Keen
+                                                                            Sword 27. In August 2026, the
+                                                                            3rd and 8th SSM Regiments
+                                                                            integrated NEWS EW units
+                                                                            and network-dispersed
+                                                                            command posts during
+                                                                            domestic live-fire training at
+                                                                            Shizunai.
+Loitering Munitions and               Major Update                          Efforts have matured into the
+Armed Drones — Loitering                                                    formal SHIELD littoral
+Munitions in the Defence                                                    unmanned defense architecture
+Build-Up                                                                    (approx. ¥100.1B in FY2026,
+                                                                            target operational
+                                                                            establishment FY2027) and a
+                                                                            four-type JGSDF taxonomy
+                                                                            (Modular FPV UAV plus Small
+                                                                            Attack UAV I, II, and III), with a
+                                                                            public procurement tracker
+                                                                            recording a ¥3.7B March 2026
+                                                                            contract for Small Attack UAV
+                                                                            Type I.
+Digital Fires and Targeting —         Major Update                          Trilateral fires integration now
+Combined Fires with US and                                                  operates routinely inside Japan.
+Australian Artillery                                                        Orient Shield 26 in Hokkaido
+                                                                            (September 2026) marked the
+                                                                            second consecutive year of
+                                                                            Australian Army participation,
+                                                                            deploying elements of the 10th
+                                                                            Fires Brigade alongside
+                                                                            USARPAC and JGSDF,
+                                                                            building on trilateral Yama
+                                                                            Sakura 85 (December 2023).
+Existing Entry                       Audit Status                          Verified Correction or
+                                                                           2025–2026 Update
+Sustainment — The                    Major Update                          Within FY2026, MOD projects
+2023–2027 Build-Up:                                                        81% contract execution of the
+Ammunition and Storage                                                     ¥43.5 trillion DBP, and Japan
+                                                                           pulled forward its 2% of GDP
+                                                                           defense spending target into
+                                                                           FY2025 via initial and
+                                                                           supplementary budgets.
+                                                                           Dedicated ammunition funding
+                                                                           stands at ¥2.0 trillion for
+                                                                           FY2023–FY2027 (¥5.0T
+                                                                           including related areas), with
+                                                                           ¥255 billion requested in
+                                                                           FY2026 (¥907B broader). MOD
+                                                                           has also initiated a formal
+                                                                           review of the three 2022
+                                                                           strategic documents.
+Counter-Fire and Force               Major Update                          Gun and missile area force
+Protection — Type 11                                                       protection now extends well
+Short-Range Air Defence for                                                beyond kinetic Type 11
+Gun Areas                                                                  SHORAD to incorporate mobile
+                                                                           electronic C-UAS systems,
+                                                                           ¥70B in high-power laser and
+                                                                           HPM R&D (including the July
+                                                                           2024 U.S.–Japan HPM joint
+                                                                           research arrangement), ASDF
+                                                                           Radar Site Defense UAVs, and
+                                                                           networked command-post
+                                                                           dispersion.
+Guns, Howitzers and Mortars Major Update                                   Type 19 wheeled SPH fielding
+— Type 19 Wheeled 155mm                                                    continues alongside the
+Self-Propelled Howitzer                                                    reorganization of former
+                                                                           divisional FH-70 units into
+                                                                           Regional Army Artillery
+                                                                           Regiments, while defense
+                                                                           press reports 2025 Vulcano
+                                                                           155mm guided shell
+                                                                           evaluations on both Type 19
+                                                                           and Type 99 platforms and
+                                                                           planned UK firing trials for Type
+                                                                           19.
+Liaison and Fire Support             Context Update                        No factual error identified;
+Integration — JTACs in the                                                 cross-reference against the
+Amphibious Rapid                                                           March 2025 establishment of
+Deployment Brigade                                                         JJOC and expanded bilateral
+                                                                           Joint Fires Observer (JFO)
+Existing Entry                        Audit Status                          Verified Correction or
+                                                                            2025–2026 Update
+                                                                            training with U.S. Marines
+                                                                            during Orient Shield 25.
+Digital Fires and Targeting — Context Update                                No legal revision identified in
+The Three Conditions: Legal                                                 reviewed open sources; note
+Limits on Striking                                                          that counterstrike policy has
+                                                                            now transitioned to fielded Type
+                                                                            25 SSM/HVGP capability and
+                                                                            the government has
+                                                                            commenced a review of the
+                                                                            National Security Strategy and
+                                                                            companion strategic
+                                                                            documents.
+                                      Guns, Howitzers and Mortars Current
+                                      — The 120mm RT and 81mm
+                                      L16 Mortars
+Ammunition and Effects —              Current                               No policy change or error
+No Cluster Munitions:                                                       identified in FY2025–FY2026
+Japan’s Ban                                                                 official MOD records reviewed.
+Target Acquisition —                  Current                               No factual error identified;
+JTPS-P16 Counter-Battery                                                    remains active in mechanized
+Radar                                                                       artillery units alongside
+                                                                            JMPQ-P13 and JMMQ-M5.
+                                                                            Cross-reference against new
+                                                                            space and EW stand-off
+                                                                            acquisition layers.
+Technical Fire Direction and          Current                               No factual error identified;
+Gunnery — Automated                                                         cross-reference with FY2026
+Technical Fire Direction                                                    FCCS modernization and AI
+                                                                            integration specifications.
+Sustainment — Type 99                 Current                               No factual error identified;
+Ammunition Resupply                                                         confirmed in active Northern
+Vehicle                                                                     Army mechanized service (e.g.,
+                                                                            2nd and 7th Artillery
+                                                                            Regiments) with a 2-person
+                                                                            crew.
+Verified Open-Source Register
+
+Every entry, technical figure, and correction in this reference is drawn exclusively from opened
+web pages verified below. Official government/armed forces publications and research institutes
+take precedence; defense press and specialized reference databases are transparently labeled
+where official data is unpublished.
+ID                Exact Page         Publisher         Year               Source Tier        Full URL
+                  Title /
+                  Document
+316, 415, 457     防衛省知りた             Ministry of       n.d.               Official Govt      https://www.mo
+                  い！用語集              Defense                                                 d.go.jp/j/press/s
+                  (MOD               (Japan)                                                 hiritai/glossary.
+                  Glossary)                                                                  html
+317               99式自走              JGSDF 2nd         n.d.               Official Military  https://www.mo
+                  155mmりゅう弾          Division                                                d.go.jp/gsdf/na
+                  砲 (Type 99                                                                 e/2d/kuniwoma
+                  SPH                                                                        moru/soubihin/
+                  Equipment                                                                  souki/99jisoury
+                  Page)                                                                      uudannpou.htm
+318, 349          第11特科隊 部           JGSDF 11th        n.d.               Official Military  https://www.mo
+                  隊紹介 (11th          Brigade                                                 d.go.jp/gsdf/na
+                  Artillery Unit                                                             e/11d/organizat
+                  Introduction)                                                              ion/images/tokk
+                                                                                             a/butaisyoukai/
+                                                                                             butaisyoukai.ht
+                                                                                             ml
+319, 443          第2特科連隊 装           JGSDF 2nd         n.d.               Official Military  https://www.mo
+                  備品 (2nd            Artillery                                               d.go.jp/gsdf/na
+                  Artillery          Regiment                                                e/2d/unit/butai/
+                  Regiment                                                                   2a/soubi/soubi.
+                  Equipment)                                                                 html
+320, 442          96式自走              JGSDF 7th         n.d.               Official Military  https://www.mo
+                  120mm迫撃砲           Division / 11th                                         d.go.jp/gsdf/na
+                  (MSP)              Infantry                                                e/7d/hensei/tea
+                                     Regiment                                                m/i/11.soubi/so
+                                                                                             ubi-msp.html
+322               第7特科連隊 装           JGSDF 7th         n.d.               Official Military  https://www.mo
+                  備品 (7th            Artillery                                               d.go.jp/gsdf/na
+                  Artillery          Regiment                                                e/7d/hensei/tea
+                  Regiment                                                                   m/a/7a-soubi.ht
+                  Equipment)                                                                 ml
+328               Type 99            Forecast          Archived           Defence            https://www.for
+                  Archived           International                        Analyst            ecastinternatio
+                  Weapon Report                                                              nal.com/archive
+                  (DACH_RECN                                                                 /disp_pdf.cfm?
+                  O=996)                                                                     DACH_RECNO
+                                                                                             =996
+329, 469          Type 99            WeaponSyste       n.d.               Defence            https://weapons
+                  (655-Type+99)      ms.net                               Reference          ystems.net/syst
+                                                                                             em/655-Type+9
+                                                                                             9
+336, 470          Type 96            WeaponSyste       n.d.               Defence            https://weapons
+                  (341-Type+96)      ms.net                               Reference          ystems.net/syst
+ID                Exact Page         Publisher          Year               Source Tier        Full URL
+                  Title /
+                  Document
+                                                                                              em/341-Type+9
+                                                                                              6
+346               Procurement        JGSDF Ground n.d.                     Official Military  https://www.mo
+                  Specification      Materiel                                                 d.go.jp/gsdf/gm
+                  25hs016s.pdf       Control                                                  cc/raising/hoto/
+                                     Command                                                  hnyu/25hs016s
+                                                                                              .pdf
+347               FY2026 FCCS        JGSDF              2026               Official Military  https://www.mo
+                  Specification      Northern Army                                            d.go.jp/gsdf/na
+                  (081008-374-n-     Finance                                                  e/fin/nafin/R8/b
+                  karyoku.pdf)                                                                e/081008-374-
+                                                                                              n-karyoku.pdf
+348               FY2026 Firing      JGSDF              2026               Official Military  https://www.mo
+                  Command            Northern Army                                            d.go.jp/gsdf/na
+                  Control System Finance                                                      e/fin/nafin/R8/b
+                  (FCCS)                                                                      e/081020-374-
+                  Modification                                                                henkou-n-karyo
+                  Specification                                                               kusentou.pdf
+350               第4特科連隊廃            JGSDF Camp         2018               Official Military  https://www.mo
+                  止→西部方面             Kurume                                                   d.go.jp/gsdf/kur
+                  特科連隊第4大                                                                     ume/2018galler
+                  隊新編                                                                         y/201817_4far_
+                                                                                              wafar4bn.html
+351               Eastern Army       JGSDF Eastern 2026                    Official Military  https://www.mo
+                  Artillery          Army Finance                                             d.go.jp/gsdf/ea
+                  Regiment 3rd                                                                e/kaikei/eafin/k
+                  Section Notice                                                              oubo/20260901
+                  (20260901)                                                                  -433B-0310-1.p
+                                                                                              df
+353, 423          東北方面特科             JGSDF              n.d.               Official Military  https://sec.mod
+                  連隊 部隊紹介            Northeastern                                             .go.jp/gsdf/nea
+                  (Northeastern      Army                                                     e/neafar/syouk
+                  Army Artillery                                                              ai.html
+                  Regiment)
+359               NIDS Research National                n.d.               Research           https://www.nid
+                  Analysis No. 10 Institute for                            Institute          s.mod.go.jp/en
+                  (ra10.pdf)         Defense                                                  glish/publicatio
+                                     Studies (NIDS)                                           n/research_ana
+                                                                                              lysis/pdf/ra10.p
+                                                                                              df
+360               NIDS               National           2025               Research           https://www.nid
+                  Perspectives       Institute for                         Institute          s.mod.go.jp/en
+                  (2025)             Defense                                                  glish/publicatio
+                                     Studies (NIDS)                                           n/perspectives/
+ID                 Exact Page         Publisher          Year               Source Tier        Full URL
+                   Title /
+                   Document
+                                                                                               pdf/2025/12_e2
+                                                                                               025_all.pdf
+361                NIDS Webinar       National           2025               Research           https://www.nid
+                   Summary            Institute for                         Institute          s.mod.go.jp/en
+                   (March 2025)       Defense                                                  glish/event/pdf/
+                                      Studies (NIDS)                                           webinar-2025-0
+                                                                                               3-en.pdf
+363                Defense of         Ministry of        2025               Official Govt      https://www.mo
+                   Japan 2025         Defense                                                  d.go.jp/j/press/
+                   Digest             (Japan)                                                  wp/wp2025/pdf/
+                   (English)                                                                   DOJ2025_Dige
+                                                                                               st_EN.pdf
+364, 384           Defense of         Ministry of        2026               Official Govt      https://www.mo
+                   Japan 2026         Defense                                                  d.go.jp/j/press/
+                   (Full English      (Japan)                                                  wp/wp2026/pdf/
+                   Edition)                                                                    DOJ2026_EN_
+                                                                                               Full.pdf
+365                Research Brief     Research           2026               Research           https://dset.tw/e
+                   000469-2-2         Institute for                         Institute          n/research/000
+                   (Japan Small       Democracy,                                               469-2-2/
+                   Attack UAV         Society and
+                   Budget)            Emerging
+                                      Technology
+                                      (DSET)
+366                Marubeni           Edamame            2026               Procurement        https://publicse
+                   Aerospace          Japan Public                          Tracker            ctor.edamamej
+                   MOD Contract       Sector Tracker                                           apan.com/prim
+                   Records                                                                     es/marubeni-ae
+                                                                                               rospace/
+371                Japan Deploys      Naval News         2026               Defence Press      https://www.nav
+                   New                                                                         alnews.com/na
+                   Longer-Range                                                                val-news/2026/
+                   Missiles,                                                                   03/japan-deplo
+                   Formally                                                                    ys-new-longer-r
+                   Designates                                                                  ange-missiles-f
+                   'Type 25'                                                                   ormally-design
+                   Systems                                                                     ates-type-25-sy
+                                                                                               stems/
+373                Japan unveils      Meta-Defense       2026               Defence Press      https://meta-def
+                   the Type 25, a                                                              ense.fr/en/2026
+                   stealthy                                                                    /10/05/japan-ty
+                   counterstrike                                                               pe-25-stealth-c
+                   missile                                                                     ounterstrike-mi
+                                                                                               ssile/
+ID                Exact Page         Publisher          Year               Source Tier        Full URL
+                  Title /
+                  Document
+374               Japan Puts         Defense            2026               Defence Press      https://defense
+                  Type 25 Missile WarRoom                                                     warroom.com/2
+                  on Public View                                                              026/10/04/japa
+                  Before Keen                                                                 n-type-25-missi
+                  Sword                                                                       le-kumamoto-di
+                                                                                              splay/
+376               Japan is no        Asia Times         2026               News /             https://asiatime
+                  longer Asia's                                            Analysis           s.com/2026/08/
+                  defensive                                                                   japan-is-no-lon
+                  power                                                                       ger-asias-defen
+                                                                                              sive-power/
+380, 446          Progress of the Ministry of           2026               Official Govt      https://www.mo
+                  Defense            Defense                                                  d.go.jp/en/d_ac
+                  Buildup            (Japan)                                                  t/d_budget/pdf/f
+                  Program and                                                                 y2026_202603
+                  FY2026 Budget                                                               02a.pdf
+                  Overview
+382               FY2026 Budget Ministry of             2025               Official Govt      https://www.mo
+                  Overview           Defense                                                  d.go.jp/en/d_ac
+                  (Draft, Dec        (Japan)                                                  t/d_budget/pdf/f
+                  2025)                                                                       y2026_202512
+                                                                                              26a.pdf
+383               Defense            Ministry of        2026               Official Govt      https://www.mo
+                  Capability         Defense                                                  d.go.jp/en/d_po
+                  Transformation     (Japan)                                                  licy/defense-ca
+                  Briefing (Aug                                                               pability-transfor
+                  2026)                                                                       mation/images/
+                                                                                              9th_3-august-2
+                                                                                              026a.pdf
+385, 444          Defense of         Ministry of        2026               Official Govt      https://www.mo
+                  Japan 2026:        Defense                                                  d.go.jp/j/press/
+                  Strengthening      (Japan)                                                  wp/wp2026/htm
+                  Stand-Off                                                                   l/n310201000.h
+                  Defense                                                                     tml
+                  Capabilities
+                  (n310201000)
+386               第1特科団 職種           JGSDF 1st          2020               Official Military  https://www.mo
+                  機能・総合ター            Artillery                                                d.go.jp/gsdf/na
+                  ゲティング              Brigade                                                  e/1ab/topic201
+                  (Integrated                                                                 8/topiccontent2
+                  Targeting                                                                   020/topicformat
+                  Initiative)                                                                 2018syokusyuk
+                                                                                              inou/topicforma
+                                                                                              t.html
+ID                Exact Page         Publisher          Year               Source Tier        Full URL
+                  Title /
+                  Document
+387               Camp Ebino         Kyushu             2026               Official Govt      https://www.mo
+                  Deployment         Defense                                                  d.go.jp/rdb/kyu
+                  Q&A                Bureau (MOD)                                             shu/deploymen
+                  (080831ebinoq                                                               t_ebino/pdf/080
+                  a.pdf)                                                                      831ebinoqa.pdf
+394               Defense            Ministry of        2026               Official Govt      https://www.mo
+                  Minister Press     Defense                                                  d.go.jp/j/press/k
+                  Conference         (Japan)                                                  isha/2026/0310
+                  (March 10,                                                                  b.html
+                  2026)
+395, 465          通信・電子器材            Japan Ground       n.d.               Official Military  https://www.mo
+                  (Communicatio      Self-Defense                                             d.go.jp/gsdf/eq
+                  ns &               Force                                                    uipment/ce/
+                  Electronics:
+                  JMPQ-P13 &
+                  FFRS)
+396               第6情報隊 (6th         JGSDF 6th          n.d.               Official Military  https://www.mo
+                  Intelligence       Division                                                 d.go.jp/gsdf/ne
+                  Unit —                                                                      ae/6d/6int/inde
+                  ScanEagle)                                                                  x.htm
+399               GSDF Chief of      Japan Ground       2026               Official Military  https://www.mo
+                  Staff Press        Self-Defense                                             d.go.jp/gsdf/ne
+                  Conference         Force                                                    ws/press-confe
+                  (February 24,                                                               rence/2026/022
+                  2026)                                                                       4/
+402               GSDF Chief of      Japan Ground       2026               Official Military  https://www.mo
+                  Staff Press        Self-Defense                                             d.go.jp/gsdf/ne
+                  Conference         Force                                                    ws/press-confe
+                  (July 7, 2026)                                                              rence/2026/070
+                                                                                              7/
+404               みちのく第31号           JGSDF              n.d.               Official Military  https://www.mo
+                  (Northeastern      Northeastern                                             d.go.jp/gsdf/ne
+                  Army               Army HQ                                                  ae/neahq/michi
+                  Intelligence                                                                noku/31/index.
+                  Collection Unit                                                             html
+                  — ScanEagle
+                  2)
+407               Defense of         Ministry of        2024               Official Govt      http://www.clea
+                  Japan 2024:        Defense                                                  ring.mod.go.jp/
+                  Directed           (Japan)                                                  hakusho_data/
+                  Energy &                                                                    2024/html/n310
+                  C-UAS                                                                       406000.html
+                  (n310406000)
+409               Defense            Ministry of        2022               Official Govt      https://www.mo
+ID                 Exact Page         Publisher          Year               Source Tier        Full URL
+                   Title /
+                   Document
+                   Buildup            Defense                                                  d.go.jp/j/policy/
+                   Program            (Japan)                                                  agenda/guideli
+                   Outline                                                                     ne/plan/pdf/pla
+                   (plan_outline.p                                                             n_outline.pdf
+                   df)
+410                Small UAV          JGSDF Camp         2023/2024          Official Military  https://www.mo
+                   Countermeasur      Kita-Utsunomiy                                           d.go.jp/gsdf/kita
+                   e Equipment        a                                                        utunomiya/keiy
+                   Mobile Station                                                              aku/oc/r05/oc0
+                   Inspection                                                                  47_1.pdf
+                   Specification
+411                FY2021             Ministry of        2021               Official Govt      https://www.mo
+                   Ex-Ante Policy     Defense                                                  d.go.jp/j/policy/
+                   Evaluation:        (Japan)                                                  hyouka/seisaku
+                   High-Power                                                                  /2021/pdf/jizen
+                   Microwave                                                                   _05_logic.pdf
+                   Research
+412                Small UAV          JGSDF Eastern 2024                    Official Military  https://www.mo
+                   Countermeasur      Army Finance                                             d.go.jp/gsdf/ea
+                   e Equipment                                                                 e/kaikei/eafin/R
+                   Software                                                                    4koukoku/2024
+                   Update Notice                                                               0213-413A-112
+                                                                                               0-1.pdf
+413                Defense of         Ministry of        2025               Official Govt      http://www.clea
+                   Japan 2025:        Defense                                                  ring.mod.go.jp/
+                   Japan–U.S.         (Japan)                                                  hakusho_data/
+                   Joint Research                                                              2025/html/n510
+                   on HPM                                                                      303000.html
+                   Systems
+                   (n510303000)
+417                Defense            Acquisition,       2024               Official Govt      https://www.mo
+                   Equipment          Technology &                                             d.go.jp/atla/sou
+                   Production         Logistics                                                biseisaku/soubi
+                   Policy Annex 2     Agency (ATLA)                                            seisakuseisan/
+                   (2406betten2.p                                                              2406betten2.pd
+                   df)                                                                         f
+418                Japan reviews      Army               2026               Defence Press      https://www.ar
+                   long-range         Recognition                                              myrecognition.c
+                   upgrade for                                                                 om/news/army-
+                   155mm artillery                                                             news/2026/japa
+                   vehicles under                                                              n-reviews-long-
+                   counterstrike                                                               range-upgrade-
+                   strategy                                                                    for-155mm-artill
+                                                                                               ery-vehicles-un
+ID                 Exact Page         Publisher          Year               Source Tier        Full URL
+                   Title /
+                   Document
+                                                                                               der-counterstrik
+                                                                                               e-strategy
+419                Japanese Type Militarnyi              2025               Defence Press      https://militarnyi
+                   19 wheeled                                                                  .com/en/news/j
+                   self-propelled                                                              apanese-type-1
+                   guns to be                                                                  9-wheeled-self-
+                   tested in the                                                               propelled-guns-
+                   UK with                                                                     to-be-tested-in-
+                   VULCANO                                                                     the-uk-with-vulc
+                   shells                                                                      ano-shells/
+420                Японія             Militarnyi         2025/2026          Defence Press      https://militarnyi
+                   замовила у                                                                  .com/uk/news/y
+                   Leonardo                                                                    aponiya-zamov
+                   155-мм                                                                      yla-u-leonardo-
+                   високоточні                                                                 155-mm-vysok
+                   боєприпаси                                                                  otochni-boyepr
+                   Vulcano                                                                     ypasy-vulcano/
+421                豊川駐屯地 所            JGSDF 10th         2024               Official Military  https://www.mo
+                   在部隊 (2nd           Division / Camp                                          d.go.jp/gsdf/ma
+                   Battalion,         Toyokawa                                                 e/10d/butai/sta/
+                   Middle Army                                                                 toyokawa/butai.
+                   Artillery                                                                   html
+                   Regiment)
+422                東部方面隊ト             JGSDF Eastern n.d.                    Official Military  https://www.mo
+                   ピックス               Army                                                     d.go.jp/gsdf/ea
+                   (Eastern Army                                                               e/contents/topic
+                   Artillery                                                                   s.html
+                   Regiment
+                   Colors
+                   Presentation)
+431                "Preparation       U.S. Army          2026               Official Military  https://www.usa
+                   Becomes            Pacific                                                  rpac.army.mil/O
+                   Tomorrow's         (USARPAC)                                                ur-Story/Our-N
+                   Shield" as                                                                  ews/Article-Dis
+                   Orient Shield                                                               play/Article/461
+                   26 Closes                                                                   2113/preparatio
+                                                                                               n-becomes-tom
+                                                                                               orrows-shield-a
+                                                                                               s-orient-shield-
+                                                                                               26-closes/
+432                Integrated         U.S. Marine        2021               Official Military  https://www.ma
+                   Deterrence:        Corps                                                    rines.mil/News/
+                   U.S. Marines,                                                               News-Display/
+                   Japanese                                                                    Article/2878182
+ID                 Exact Page          Publisher          Year                Source Tier         Full URL
+                   Title /
+                   Document
+                   Soldiers                                                                       /integrated-dete
+                   complete                                                                       rrence-us-mari
+                   largest ever                                                                   nes-japanese-s
+                   bilateral FTX                                                                  oldiers-complet
+                                                                                                  e-largest-ever-
+                                                                                                  bilate/
+433                III Marine          DVIDS / U.S.       2023                Official Military   https://www.dvi
+                   Expeditionary       Marine Corps                                               dshub.net/news
+                   Force, JGSDF                                                                   /456834/iii-mari
+                   Western Army                                                                   ne-expeditionar
+                   Complete                                                                       y-force-jgsdf-w
+                   Exercise                                                                       estern-army-co
+                   Resolute                                                                       mplete-exercis
+                   Dragon 23 FTX                                                                  e-resolute-drag
+                                                                                                  on-23-ftx
+434                Strategic           DVIDS / U.S.       2023                Official Military   https://www.dvi
+                   Collaboration: I    Army                                                       dshub.net/news
+                   Corps and                                                                      /459617/strateg
+                   Allies                                                                         ic-collaboration
+                   Demonstrate                                                                    -corps-and-allie
+                   Joint Force                                                                    s-demonstrate-j
+                   Readiness                                                                      oint-force-readi
+                   during Yama                                                                    ness-during-ya
+                   Sakura 85                                                                      ma-sakura-85
+435                U.S. Marines        DVIDS / 3d         2025                Official Military   https://www.dvi
+                   conduct Joint       Marine Division                                            dshub.net/imag
+                   Fires Observer                                                                 e/9335948/us-
+                   class during                                                                   marines-condu
+                   Orient Shield                                                                  ct-joint-fires-ob
+                   25                                                                             server-class-du
+                                                                                                  ring-orient-shiel
+                                                                                                  d-25
+438                III MEF             U.S. Marine        2025                Official Military   https://www.ma
+                   Advances into       Corps                                                      rines.mil/News/
+                   2025: Building                                                                 News-Display/
+                   on a Year of                                                                   Article/4041595
+                   Milestones                                                                     /iii-mef-advanc
+                                                                                                  es-into-2025-bu
+                                                                                                  ilding-on-a-year
+                                                                                                  -of-milestones-
+                                                                                                  and-strengtheni
+                                                                                                  ng-r/
+445                Defense of          Ministry of        2026                Official Govt       https://www.mo
+                   Japan 2026:         Defense                                                    d.go.jp/j/press/
+ID                 Exact Page         Publisher          Year               Source Tier        Full URL
+                   Title /
+                   Document
+                   Cross-Domain       (Japan)                                                  wp/wp2026/htm
+                   Operational                                                                 l/n310204000.h
+                   Capabilities                                                                tml
+                   (n310204000)
+448                Defense of         Ministry of        2026               Official Govt      https://www.mo
+                   Japan 2026:        Defense                                                  d.go.jp/j/press/
+                   China's            (Japan)                                                  wp/wp2026/htm
+                   Lessons from                                                                l/n140202000.h
+                   Ukraine                                                                     tml
+                   (n140202000)
+449, 468           Defense of         Ministry of        2026               Official Govt      https://www.mo
+                   Japan 2026:        Defense                                                  d.go.jp/j/press/
+                   New Ways of        (Japan)                                                  wp/wp2026/htm
+                   Warfare                                                                     l/n140101000.h
+                   Observed in                                                                 tml
+                   Ukraine
+                   (n140101000)
+450, 467           Defense of         Ministry of        2026               Official Govt      https://www.mo
+                   Japan 2026:        Defense                                                  d.go.jp/j/press/
+                   Joint              (Japan)                                                  wp/wp2026/htm
+                   Operations                                                                  l/n230203000.h
+                   Command                                                                     tml
+                   (n230203000)
+453                Defense of         Ministry of        2026               Official Govt      https://www.mo
+                   Japan 2026:        Defense                                                  d.go.jp/j/press/
+                   Ammunition &       (Japan)                                                  wp/wp2026/htm
+                   Defense                                                                     l/n310207000.h
+                   Industrial Base                                                             tml
+                   (n310207000)
+460                Heavy              JGSDF Central n.d.                    Official Military  https://www.mo
+                   Equipment          Finance                                                  d.go.jp/gsdf/dc/
+                   Transport                                                                   cfin/html/img/fil
+                   Specification                                                               e826.pdf
+                   Table
+                   (file826.pdf —
+                   Type 96 MSP)
+466                GSDF Chief of      Japan Ground       2026               Official Military  https://www.mo
+                   Staff Press        Self-Defense                                             d.go.jp/gsdf/ne
+                   Conference         Force                                                    ws/press-confe
+                   (August 4,                                                                  rence/2026/080
+                   2026 — Type                                                                 4/
+                   88 SSM &
+                   NEWS)
+Works cited
+
+1. Progress and Budget in Fundamental Reinforcement of Defense,
+https://www.mod.go.jp/en/d_act/d_budget/pdf/fy2026_20260302a.pdf 2. 第II部 わが国の安全保
+障・防衛政策, https://www.mod.go.jp/j/press/wp/wp2026/html/n230203000.html 3. Japan Puts
+Type 25 Missile on Public View Before Keen Sword,
+https://defensewarroom.com/2026/10/04/japan-type-25-missile-kumamoto-display/ 4. 第III部 防
+衛目標を実現するための3つのアプローチなど,
+https://www.mod.go.jp/j/press/wp/wp2026/html/n310207000.html 5. MINISTRY OF DEFENSE,
+https://www.mod.go.jp/j/press/wp/wp2025/pdf/DOJ2025_Digest_EN.pdf 6. Japanese Type 19
+wheeled self-propelled guns to be tested in the,
+https://militarnyi.com/en/news/japanese-type-19-wheeled-self-propelled-guns-to-be-tested-in-the
+-uk-with-vulcano-shells/ 7. 西部方面特科連隊第４大隊 - 防衛省・自衛隊,
+https://www.mod.go.jp/gsdf/kurume/2018gallery/201817_4far_wafar4bn.html 8. SVF for Java
+Print, https://www.mod.go.jp/gsdf/eae/kaikei/eafin/koubo/20260901-433B-0310-1.pdf 9. トピック
+ス｜陸上自衛隊東部方面隊ホームページ, https://www.mod.go.jp/gsdf/eae/contents/topics.html
+10. 駐屯地の紹介 | 陸上自衛隊岩手駐屯地, https://sec.mod.go.jp/gsdf/neae/neafar/syoukai.html
+11. 各部隊の紹介, https://www.mod.go.jp/gsdf/mae/10d/butai/sta/toyokawa/butai.html 12. 防衛
+省・自衛隊の『用語集』, https://www.mod.go.jp/j/press/shiritai/glossary.html 13. ７５式自走りゅう弾
+砲, https://www.mod.go.jp/gsdf/nae/2d/kuniwomamoru/soubihin/souki/99jisouryuudannpou.htm
+14. 隊歌,
+https://www.mod.go.jp/gsdf/nae/11d/organization/images/tokka/butaisyoukai/butaisyoukai.html
+15. 主要装備品 - 第７特科連隊の紹介 / 陸上自衛隊 第７師団ホームページ,
+https://www.mod.go.jp/gsdf/nae/7d/hensei/team/a/7a-soubi.html 16. 陸上自衛隊北部方面隊第１
+特科団WEBSITE １ABPR - topic,
+https://www.mod.go.jp/gsdf/nae/1ab/topic2018/topiccontent2020/topicformat2018syokusyukinou
+/topicformat.html 17. U.S. Marines Conduct Joint Fires Observer Class During Orient,
+https://www.dvidshub.net/image/9335948/us-marines-conduct-joint-fires-observer-class-during-o
+rient-shield-25 18. defense of japan 2026 (pdf),
+https://www.mod.go.jp/j/press/wp/wp2026/pdf/DOJ2026_EN_Full.pdf 19. Japan defense and
+government contracts, FY2023 to FY2025,
+https://publicsector.edamamejapan.com/primes/marubeni-aerospace/ 20. The Emerging
+Taiwan–Japan Non-Red Drone Supply Chain, https://dset.tw/en/research/000469-2-2/ 21. 通信・
+電子器材 | 陸上自衛隊 公式Webサイト, https://www.mod.go.jp/gsdf/equipment/ce/ 22. 第6情報
+隊 | 陸上自衛隊第6師団, https://www.mod.go.jp/gsdf/neae/6d/6int/index.htm 23. 陸上幕僚長 記
+者会見 - 防衛省・自衛隊, https://www.mod.go.jp/gsdf/news/press-conference/2026/0707/ 24. 活
+躍する女性隊員の紹介｜陸上自衛隊東北方面隊,
+https://www.mod.go.jp/gsdf/neae/neahq/michinoku/31/index.html 25. Японія замовила у
+Leonardo 155-мм високоточні боєприпаси,
+https://militarnyi.com/uk/news/yaponiya-zamovyla-u-leonardo-155-mm-vysokotochni-boyeprypa
+sy-vulcano/ 26. Japan is no longer Asia's defensive power,
+https://asiatimes.com/2026/08/japan-is-no-longer-asias-defensive-power/ 27. 仕様書番号 - 防衛
+省・自衛隊, https://www.mod.go.jp/gsdf/kitautunomiya/keiyaku/oc/r05/oc047_1.pdf 28. 陸上自衛
+隊仕様書, https://www.mod.go.jp/gsdf/eae/kaikei/eafin/R4koukoku/20240213-413A-1120-1.pdf
+29. 6 電磁波領域での対応 - 防衛省 情報検索サービス,
+http://www.clearing.mod.go.jp/hakusho_data/2024/html/n310406000.html 30. 防衛力整備計画に
+ついて, https://www.mod.go.jp/j/policy/agenda/guideline/plan/pdf/plan_outline.pdf 31. 高出力マイ
+クロ波照射技術の研究 - 防衛省・自衛隊,
+https://www.mod.go.jp/j/policy/hyouka/seisaku/2021/pdf/jizen_05_logic.pdf 32. 第V部 防衛力を
+維持・強化するために必要な基盤や取組,
+http://www.clearing.mod.go.jp/hakusho_data/2025/html/n510303000.html 33. 別添資料２ 分野別
+防衛産業の現状, https://www.mod.go.jp/atla/soubiseisaku/soubiseisakuseisan/2406betten2.pdf
+34. Type 99 | Weaponsystems.net, https://weaponsystems.net/system/655-Type+99 35. Type 96
+- Weaponsystems.net, https://weaponsystems.net/system/341-Type+96 36. Future of
+Multi-domain Operations and Campaigning:,
+https://www.nids.mod.go.jp/english/event/pdf/webinar-2025-03-en.pdf 37. 第I部 わが国を取り巻く
+安全保障環境 - 防衛省・自衛隊,
+https://www.mod.go.jp/j/press/wp/wp2026/html/n140202000.html 38. War with New and Old
+Characteristics - 防衛研究所,
+https://www.nids.mod.go.jp/english/publication/perspectives/pdf/2025/12_e2025_all.pdf 39.
+Evaluation of the Current National Defense Strategy and Defense,
+https://www.mod.go.jp/en/d_policy/defense-capability-transformation/images/9th_3-august-2026
+a.pdf 40. Research & Analysis 10 - 防衛研究所,
+https://www.nids.mod.go.jp/english/publication/research_analysis/pdf/ra10.pdf 41. U.S. Marines,
+Japanese soldiers complete largest ever bilateral field,
+https://www.marines.mil/News/News-Display/Article/2878182/integrated-deterrence-us-marines-j
+apanese-soldiers-complete-largest-ever-bilate/ 42. III Marine Expeditionary Force, JGSDF
+Western Army ... - DVIDS,
+https://www.dvidshub.net/news/456834/iii-marine-expeditionary-force-jgsdf-western-army-compl
+ete-exercise-resolute-dragon-23-ftx 43. III MEF Advances into 2025: Building on a Year of
+Milestones and,
+https://www.marines.mil/News/News-Display/Article/4041595/iii-mef-advances-into-2025-buildin
+g-on-a-year-of-milestones-and-strengthening-r/ 44. I Corps and Allies Demonstrate Joint Force
+Readiness during Yama,
+https://www.dvidshub.net/news/459617/strategic-collaboration-corps-and-allies-demonstrate-join
+t-force-readiness-during-yama-sakura-85 45. “Preparation Becomes Tomorrow's Shield” as
+Orient Shield 26 Closes,
+https://www.usarpac.army.mil/Our-Story/Our-News/Article-Display/Article/4612113/preparation-b
+ecomes-tomorrows-shield-as-orient-shield-26-closes/ 46. 装備 / 第１１普通科連隊の紹介 / 陸上
+自衛隊 第７師団ホームページ,
+https://www.mod.go.jp/gsdf/nae/7d/hensei/team/i/11.soubi/soubi-msp.html 47. 第２特科連隊に装
+備されている火砲等を紹介します。,
+https://www.mod.go.jp/gsdf/nae/2d/unit/butai/2a/soubi/soubi.html 48. ARCHIVED REPORT -
+Forecast International,
+https://www.forecastinternational.com/archive/disp_pdf.cfm?DACH_RECNO=996
