@@ -172,6 +172,8 @@ export const GLOSSARY = [
     { term: 'AGL', full: 'Above Ground Level', plain: 'Height measured from the ground below.', context: 'Airspace.' },
     { term: 'TSS', full: 'Target Selection Standards', plain: 'Rules for how accurate and how recent a target report must be before it is attacked.', context: 'Targeting.' },
     { term: 'GLD', full: 'Ground Liaison Detachment', plain: 'Army liaison team at an Air Force wing.', context: 'Joint.' },
+    { term: 'NALE', full: 'Naval and Amphibious Liaison Element', plain: 'Navy liaison team in the Air Operations Center.', context: 'Joint.' },
+    { term: 'MARLE', full: 'Marine Liaison Element', plain: 'Marine liaison team in the Air Operations Center.', context: 'Joint.' },
     { term: 'ATACMS', full: 'Army Tactical Missile System', plain: 'A long-range surface-to-surface missile.', context: 'US Army.' },
     { term: 'DEVCOM', full: 'Combat Capabilities Development Command', plain: 'The Army’s research and development command.', context: 'US Army.' },
     { term: 'LBCT', full: 'Light Brigade Combat Team', plain: 'A light infantry brigade under the new Army structure.', context: 'US Army.' },
