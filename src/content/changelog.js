@@ -6,6 +6,12 @@ export const CHANGELOG = [
     date: '2026-11-16',
     summary: 'Twelve United States modules and eleven other armies (Russia, South Korea, Ukraine, China, Japan, Australia, North Korea, Indonesia, Malaysia, Singapore, India), with Developments news, Ranges, the Military Map and the Kill Chain. Added 20 November: equipment cards opened from the text, 190 short videos with a Videos tab, checked source links for most United States entries, and an A to Z Glossary.',
     changes: [
+      { kind: 'new', entryId: "kpa-ttp-ops", topic: "north-korea", summary: "New entry: Optical Observation Posts Along the DMZ." },
+      { kind: 'new', entryId: "kpa-ttp-harts-gunnery", topic: "north-korea", summary: "New entry: Gunnery from Fixed Bunkers: Aiming Marks and Landlines." },
+      { kind: 'new', entryId: "kpa-les-seoul-model", topic: "north-korea", summary: "New entry: Rates of Fire, Duds and Cities: Why Seoul Estimates Differ." },
+      { kind: 'new', entryId: "kpa-trn-officers", topic: "north-korea", summary: "New entry: Artillery Officers and Reserve Training." },
+      { kind: 'new', entryId: "kpa-trn-drills", topic: "north-korea", summary: "New entry: Firing Contests, Combined Drills and Training in Russia." },
+      { kind: 'new', entryId: "kpa-eq-saetbyol4", topic: "north-korea", summary: "New entry: Saetbyol-4 Strategic Reconnaissance UAV." },
       { kind: 'new', entryId: "kor-ttp-air-ground", topic: "south-korea", summary: "New entry: Combined Air-Ground Fires: ALOs, JTACs and the JAAT." },
       { kind: 'new', entryId: "kor-org-drone-hq", topic: "south-korea", summary: "New entry: Defense Drone Headquarters and the 2026 Drone Policy." },
       { kind: 'new', entryId: "kor-eq-er-shell", topic: "south-korea", summary: "New entry: Poongsan 60 km Extended-Range 155mm Shell." },

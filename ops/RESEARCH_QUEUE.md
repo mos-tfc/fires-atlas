@@ -51,3 +51,11 @@ Archivist, 21 Nov 2026: 27 of 43 named sources linked (26 applied; one uncertain
 - Northwest Islands Defense Command (June 2011): AEI source blocked; carried as Reported in kor-les-yeonpyeong.
 - RUSI Journal 2024 sustainment judgement: tandfonline blocked; carried as Reported.
 - Report errors corrected: ATCIS 2nd phase completion was announced 26 Oct 2026 (not 29 Jan 2026); Counter-Provocation Plan signed 22 Mar 2013 (not April). The 2,200 tanks / 5,600 guns / 310 MLRS white-paper figures were not in the source opened and were not used.
+
+## North Korea gap fill loaded (26 Nov 2026)
+6 new entries, 5 corrections. Left out:
+- "50 years of pre-calculated KPA firing data": the cited Nautilus text says the ROK had 50 years to locate KPA guns, not that the KPA pre-computed data. Dropped.
+- Urban lethal radius "about 10 m": not found in the TNSR text; entry says only "much smaller".
+- 38 North pages (drone programme Sept 2025, Kusong buildings Mar 2026, stealth UAV Nov 2026) blocked; the stealth-UAV article title could not be confirmed by search. October 2026 stealth UAV and Kusong figures not used. Saetbyol-4 35 m wingspan and airframe numbers not used.
+- DIA 2021 and US Army CRINK-2 PDFs could not be opened; claims resting only on them were not used.
+- O Jin U Academy and senior academies: only the October 2024 drill (WION, title confirmed by search) used; state-media books not used as sources.
