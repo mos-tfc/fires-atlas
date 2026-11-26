@@ -92,3 +92,4 @@ Status: Open · In progress · Waiting on owner · Done.
 
 - 2026-11-26 · Developments: 32 items given their article dates (from the source pages' published dates); 5 found to predate May 2026 moved to Earlier developments (LUCAS, EuroPULS, OWE 500, Estonia–IAI 2023, ARGE SHORAD 2022), keeping their equipment cards; 4 items that cited only forum posts or nothing given real sources (Germany Tomahawk/Typhon, Lithuania Switchblade 600, M-SHORAD and M-ACE, Leopard drone cages). 4 items keep month-only dates (sources blocked or blog).
 - 2026-11-26 · Earlier developments are now full news cards (flag "earlier": true) chosen with a Period filter on the Developments page; the plain list is gone.
+- 2026-11-26 · Developments: Period filter removed at the owner's request; all news in one list, newest first; the Year filter separates 2026 from 2025 and older items.
