@@ -47,6 +47,11 @@ for (const l of D.LESSONS) {
 }
 // Developments
 for (const it of D.DEVELOPMENTS.items) for (const r of asList(it.relatedIds)) if (!ids.has(r)) fail(`${it.id}: relatedId ${r} missing`);
+{ const devIds = new Set(D.DEVELOPMENTS.items.map((i) => i.id));
+  for (const c of asList(D.DEVELOPMENTS.insights)) for (const p of asList(c.points)) {
+    for (const r of asList(p.devIds)) if (!devIds.has(r)) fail(`Insights ${c.month}: news item ${r} missing`);
+    for (const r of asList(p.entryIds)) if (!ids.has(r)) fail(`Insights ${c.month}: entry ${r} missing`);
+  } }
 // Ranges and kill chains point at real entries
 for (const r of D.RANGE_DATA) if (!ids.has(r.id)) fail(`Range ${r.n}: entry ${r.id} missing`);
 { const seenC = new Set(); for (const c of D.KILL_CHAINS) { if (seenC.has(c.c)) fail(`Kill chain: more than one chain for ${c.c}; keep one general chain per army (L30)`); seenC.add(c.c); } }

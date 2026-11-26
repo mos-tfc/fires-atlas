@@ -1359,7 +1359,7 @@ function HomeView() {
         <div className={`text-xs font-bold uppercase tracking-widest mb-2 ${t.muted}`}>Explore</div>
         <div className="grid grid-cols-2 gap-2 sm:gap-3">
           {[
-            { icon: Lightbulb, name: 'Developments', text: DEVELOPMENTS.items.length + ' news items and what they mean. Updated ' + DEVELOPMENTS.updated + '.', open: () => go('developments') },
+            { icon: Lightbulb, name: 'Developments', text: (asList(DEVELOPMENTS.insights).length ? 'Key Insights for ' + DEVELOPMENTS.insights[0].title + ', and ' : '') + DEVELOPMENTS.items.length + ' news items. Updated ' + DEVELOPMENTS.updated + '.', open: () => go('developments') },
             { icon: Target, name: 'Ranges', text: 'Guns, mortars and missiles compared as rings.', open: () => explore('Ranges') },
             { icon: Share2, name: 'Military Map', text: 'How the armies in this app link and compare.', open: () => explore('Map') },
             { icon: Zap, name: 'Kill Chain', text: 'Watch armies go from finding a target to striking it.', open: () => explore('Kill Chain') }
@@ -2561,6 +2561,48 @@ function DevelopmentTile({ item }) {
   );
 }
 
+// Key Insights: a monthly card of cross-army takeaways (analysis), linked to the news items and entries behind them.
+function InsightsCard({ card, open }) {
+  const { t, go } = useApp();
+  const [shown, setShown] = useState(!!open);
+  const devById = Object.fromEntries(DEVELOPMENTS.items.map((i) => [i.id, i]));
+  return (
+    <div className={`rounded-xl border p-4 ${t.card}`}>
+      <button type="button" className="w-full text-left" onClick={() => setShown(!shown)}>
+        <div className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Key Insights · Analysis</div>
+        <div className="font-bold text-lg leading-snug mt-0.5">{card.title}: {card.points.length} takeaways across the armies</div>
+        {!shown && <div className={`mt-1 text-sm ${t.link}`}>Show</div>}
+      </button>
+      {shown && (
+        <div className="mt-3 space-y-4">
+          {card.points.map((p, n) => (
+            <div key={n}>
+              <div className="font-bold">{n + 1}. {p.head}</div>
+              <div className="mt-1 text-base">{p.text}</div>
+              <div className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1 text-sm">
+                {asList(p.devIds).filter((id) => devById[id]).map((id) => (
+                  <button key={id} type="button" className={`text-left underline underline-offset-2 ${t.link}`} onClick={() => go('dev', id)}>{devById[id].headline}</button>
+                ))}
+                {asList(p.entryIds).filter((id) => ENTRY_BY_ID[id]).map((id) => (
+                  <button key={id} type="button" className={`text-left underline underline-offset-2 ${t.link}`} onClick={() => go('entry', id)}>{ENTRY_BY_ID[id].title}</button>
+                ))}
+              </div>
+            </div>
+          ))}
+          {asList(card.questions).length > 0 && (
+            <div className={`p-3 rounded-lg border ${t.info}`}>
+              <div className="font-bold">Think about it</div>
+              <ul className="mt-1 list-disc pl-5 space-y-1">{card.questions.map((q, n) => <li key={n}>{q}</li>)}</ul>
+            </div>
+          )}
+          <div className={`text-sm ${t.muted}`}>Analysis drawn from the news items and entries linked above, as of {card.asOf}. It points out patterns; it does not recommend what any army should do.</div>
+          <button type="button" className={`text-sm font-semibold ${t.link}`} onClick={() => setShown(false)}>Hide</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function DevelopmentsView() {
   const { t } = useApp();
   const [country, setCountry] = useRemembered('dev.country', null);
@@ -2588,6 +2630,12 @@ function DevelopmentsView() {
         <h1 className="text-2xl font-bold">Developments</h1>
         <p className={`mt-1 ${t.muted}`}>{'Selected artillery news from open sources, newest first. Updated ' + DEVELOPMENTS.updated + '. Use Year to see older items.'} “So what” is analysis, not fact.</p>
       </div>
+      {asList(DEVELOPMENTS.insights).length > 0 && (
+        <div className="space-y-2">
+          <InsightsCard key={DEVELOPMENTS.insights[0].month} card={DEVELOPMENTS.insights[0]} open />
+          {DEVELOPMENTS.insights.slice(1).map((c) => <InsightsCard key={c.month} card={c} />)}
+        </div>
+      )}
       <div className="flex flex-wrap items-center gap-2">
         <Pick label="Year" value={year} options={years} onChange={(v) => { setYear(v); setMonth(null); }} />
         <Pick label="Month" value={month} options={months} onChange={setMonth} />
