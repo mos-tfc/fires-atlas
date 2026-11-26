@@ -1,0 +1,1087 @@
+PLA Artillery and Fire Support:
+Reference Supplement, Training,
+Lessons Learned, and Source
+Verification Audit
+
+This reference supplement fills standing capability, doctrinal, training, and lessons-learned gaps
+on People's Liberation Army (PLA) artillery and fire support without repeating baseline entries
+on the PHL-191, WS-35/GP155, SLC-2/KVD002, and primary howitzer platforms. Structured
+directly around the requested three-task research plan and final verification audit, it delivers 17
+modular reference entries—13 across the seven functional gap areas (Task A), 2 covering
+institutional schooling and major dated exercises (Task B), and 2 synthesizing competing
+assessments of PLA operational lessons learned (Task C)—followed by an opened-source URL
+verification registry and baseline errata audit (Final Step).
+Three central findings anchor these additions. First, the PLA Ground Force (PLAGF) has built a
+layered, digitized fire-support spectrum—from 120 mm battalion gun-mortars and 122 mm
+modular rocket pods to 300 mm guided rockets and anti-radiation loitering munitions—that links
+close maneuver support directly into theater precision strike. Second, operational-depth rocket
+fires rely less on launcher hardware than on vulnerable external enablers: five theater-level
+multi-domain intelligence feeds, BeiDou satellite navigation, and rapid mobility to survive
+ubiquitous drone surveillance and counter-battery fire. Third, open-source studies published in
+2026 reveal a sharp analytical divergence over how effectively PLA artillery adapts to the
+Russia-Ukraine war: while Chinese military journals register and pilot discrete tactical
+countermeasures (such as fiber-optic drones, capture nets, and jamming guns) within four to
+twelve months, institutional inertia, senior-leader purges, and sunk investments in
+"intelligentized" AI swarms restrain deeper restructuring toward cheap, attritable mass.
+Two methodological caveats govern this supplement. Because the verbatim text of the 12
+existing reference entries was not supplied, the errata audit in the Final Step evaluates the most
+prevalent factual errors, nomenclature mismatches, and outdated claims circulating in
+open-source literature on the referenced baseline systems rather than performing a line-by-line
+edit. Additionally, several technical sub-topics—including PLA artillery barrel-wear lifecycles,
+manual degraded-mode gunnery drills, brigade-level sound-ranging and meteorological vehicle
+specifications, and the post-2024 Information Support Force's tactical fire-support
+interfaces—lack verifiable public documentation in accessible open sources and are explicitly
+flagged as standing collection gaps.
+Research Execution Plan
+
+ 1. Step 1 — Task A (Functional Capability Gap-Fill): Compile 1–2 modular reference
+ entries across each of seven standing gap areas: Rocket and Missile Artillery (beyond
+ PHL-191), Loitering Munitions and Armed Drones, Ammunition and Effects (beyond
+ WS-35/GP155), Target Acquisition (beyond SLC-2/KVD002), Technical Fire Direction and
+ Gunnery, Counter-Fire and Force Protection, and Sustainment.
+ 2. Step 2 — Task B (Institutional Training and Exercises): Document PLA artillery
+ professional military education (officer and NCO pipelines, campuses, and departments)
+ alongside a dated chronology of major artillery and joint firepower exercises from 2009
+ through 2025.
+ 3. Step 3 — Task C (Operational and Conflict Lessons Learned): Synthesize
+ open-source reporting on lessons PLA artillery has drawn from internal exercises and the
+ Russia-Ukraine war, weighing evidence of rapid technical-tactical absorption against
+ structural barriers to institutional adaptation.
+ 4. Step 4 — Final Step (Source Verification and Baseline Errata Audit): Verify every
+ opened source URL, exact page or document title, publisher, and year, record
+ source-authority tiers, and identify corrections or currency updates required across
+ commonly cited baseline PLA artillery entries.
+Task A: Capability and Functional Gap-Fill Entries
+
+Area 1: Rocket and Missile Artillery (Beyond PHL-191)
+
+PLA rocket artillery functions as an echeloned reach architecture spanning 13 km to 500 km
+rather than an isolated fires branch. Mapping active platforms by organizational tier
+demonstrates how the systems documented below fill the critical 40–160 km operational band
+separating combined arms brigade cannon artillery from the group army's cross-strait
+PCH-191/PHL-16 tier.
+
+Entry A1: PHL-03 (300 mm) Long-Range Multiple Rocket Launcher
+
+Fielded in 2006 as a Chinese derivative of the Russian BM-30 Smerch, the PHL-03 serves as
+the numerical mainstay of PLA group army long-range rocket fires beneath the newer PCH-191,
+with open-source equipment tallies estimating roughly 175 launchers in service. Each 12-barrel
+truck-mounted launcher discharges a full salvo in under one minute to deliver heavy area
+suppression or guided precision strikes against operational-depth force concentrations and
+coastal infrastructure. Whereas legacy 300 mm munitions spanned 70–150 km depending on
+rocket type, upgraded guided rockets have extended reach from 130 km to 160 km, with
+export-grade guided rounds claiming a Circular Error Probable (CEP) of approximately 30
+meters.
+Organizationally, the PHL-03 shifted from concentrated specialists to ubiquitous corps-level
+distribution during the 2017 PLA restructuring. After legacy artillery divisions in the former 1st
+and 42nd Group Armies were converted into standalone Long-Range Rocket Brigades
+(LRRBs), the 2017 reforms dissolved those dedicated LRRBs and redistributed PHL-03
+battalions into newly organized group army artillery brigades, ensuring that every group army
+artillery brigade now holds a 300 mm PHL-03 battalion alongside specialized coastal
+deployments such as the Eastern Theater Command's 303rd Coastal Defense Brigade on
+Pingtan Island. Operationally, however, the PHL-03 faces two persistent constraints: an
+approximately one-hour reload cycle that slows salvo tempo and exposes launchers during
+resupply, and a ~150–160 km reach ceiling that restricts Pingtan-based units to a limited stretch
+of northern Taiwan's western shore—directly spurring development of the 350–500 km
+PCH-191. Even so, the PLAA has expanded PHL-03 targeting versatility via UAV cueing: the
+80th Group Army conducted UAV-supported multi-wave strikes in June 2021, and the 79th
+Group Army demonstrated PHL-03 strikes against moving maritime targets in early 2021.
+
+Entry A2: Brigade-Level 122 mm Modular Rocket Artillery (PHL-11, PHZ-11,
+PHL-20, PHL-21) and Tactical VLS Launchers (CM-501GA)
+
+Within Combined Arms Brigade (CABde) artillery battalions, the PLAGF has progressively
+replaced legacy manually loaded 122 mm launchers (PHL-81 and PHZ-89) with modular,
+pod-loaded systems tailored to wheeled, tracked, and light maneuver formations. Derived from
+NORINCO's export SR-4, the wheeled PHL-11 (a 20-ton, 6×6 Shaanxi SX2190KA truck with a
+3-person crew and 80 km/h road speed, according to secondary technical profiles) and the
+tracked PHZ-11 (sharing a tracked chassis related to the PLZ-05 and PGZ-09) each mount two
+20-tube containerized rocket pods totaling 40 barrels. Open-source technical specifications
+credit the PHL-11 with firing a 40-rocket salvo in 30 seconds to an effective range of 40 km and
+a maximum extended range of 50 km, supported by an onboard fire-control computer and crew
+CBRN protection. Crucially, pod-swapping cut reload time in half from 10 minutes to 5 minutes.
+According to IISS Military Balance 2019 data cited in secondary literature, PLAGF inventories
+included 350 PHL-11s, 100 PHZ-11s, and 375 legacy PHZ-89s; subsequent open-source tallies
+as of 2022 estimate roughly 350 PHL-11s and 120 PHZ-11s in service.
+For light, plateau, and rapid-reaction brigades, NORINCO introduced scaled-down single-pod
+launchers derived from the export SR-7: the PHL-20 (mounted on a 6×6 assault chassis
+believed to be the Dongfeng Mengshi; ~30 units estimated as of 2022) and the PHL-21
+(mounted on a 4×4 FAW MV3/CTM-133 truck sharing chassis commonality with the PCL-161
+howitzer; 10+ units estimated as of 2022), alongside a comparable 4×4 20-tube modular
+launcher observed in the Tibet Military District. Depending on pod configuration, SR-7-derived
+launchers fire either twenty 122 mm rockets (up to 50 km) or six 220 mm rockets reaching 70
+km, significantly expanding organic brigade deep-fire reach. Beyond conventional rockets,
+Taiwan's Institute for National Defense and Security Research (INDSR) notes PLA ground
+integration of 6×6 vehicles fitted with Vertical Launch Systems (VLS) for the CM-501GA tactical
+cruise missile, further narrowing the divide between brigade artillery and precision missile strike.
+System Echelon & Caliber & Salvo / Reload Range (Std / Est. Inventory
+ Mobility Tubes Max) & Notes
+PHL-03 Group Army Art 300 mm (12 <1 min / ~60 70–150 km / ~175 units
+ Bde / Coastal tubes) min 160 km (OSINT est.);
+ Def (guided) ~30 m export
+ (Truck-mounted CEP;
+ wheeled) UAV-cued &
+ anti-ship tests
+ (2021)
+PHL-11 CABde Artillery 122 mm (2 × 30 sec / 5 min 40 km / 50 km ~350 units
+ Bn (6×6 20 pods) (ER) (IISS 2019 /
+ Shaanxi 2022 OSINT);
+ SX2190KA) derived from
+ SR-4; digital
+ FCS & CBRN
+PHZ-11 CABde Artillery 122 mm (2 × 30 sec / 5 min 40 km / 50 km 100 (IISS 2019)
+ Bn (Tracked; 20 pods) (ER) to ~120 units
+ incl. (2022 OSINT);
+System Echelon & Caliber & Salvo / Reload Range (Std / Est. Inventory
+ Mobility Tubes Max) & Notes
+ amphibious) tracked
+ counterpart to
+ PHL-11
+PHL-20 (SR-7) Light / Plateau 122 mm (20) or Single pod 50 km (122 ~30 units (2022
+ CABde (6×6 220 mm (6) mm) / 70 km OSINT);
+ assault (220 mm) modular
+ chassis) single-pod
+ high-mobility
+ MRL
+PHL-21 Light CABde 122 mm (20) Single pod Up to 50 km 10+ units (2022
+ (4×4 FAW MV3 (122 mm pod) OSINT);
+ CTM-133) common truck
+ chassis with
+ PCL-161
+CM-501GA Tactical Tactical Cruise VLS canister Not verified in Paired
+ Precision Missile sources conceptually
+ Support (6×6 with CM-501XA
+ VLS) loitering
+ munition on
+ 6×6 VLS
+ chassis
+Area 2: Loitering Munitions and Armed Drones
+
+Entry A3: Anti-Radiation Loitering Munitions — ASN-301 and Harpy Heritage
+
+China's anti-radiation loitering munition lineage traces directly to its purchase of approximately
+100 Israeli IAI Harpy autonomous Suppression of Enemy Air Defenses (SEAD) drones between
+1994 and 1999. After U.S. diplomatic pressure prompted Israel to cancel a 2004 upgrade
+agreement, the Xi'an ASN Technology Group developed an indigenous near-copy designated
+the ASN-301, publicly unveiled in 2017—including an August 2017 military parade appearance
+in a 54-unit formation cited by a December 2025 Centre for Joint Warfare Studies (CENJOWS)
+monograph. According to that monograph, the ASN-301 incorporates a passive radar-homing
+seeker with a 25 km search range and a 7,000-fragment warhead triggered by a proximity
+laser fuze with a 20-meter destructive radius.
+Doctrinally, the ASN-301 provides an autonomous counter-radar fires layer that complements
+rocket and missile barrages by loitering over contested battlespace to destroy or force
+shutdowns of adversary air-defense and weapon-locating radars. Although CENJOWS
+assesses that ASN-301 formations are most likely subordinated to PLAAF Electronic
+Countermeasures (ECM) regiments, official Eastern Theater Command footage reported by
+defense media in 2025 showed a live-fire test of the ASN-301, confirming active operational
+integration into theater-level joint strike planning facing Taiwan and regional allied defenses.
+
+Entry A4: Tactical Loitering Munitions, Swarm Launchers, and Armed
+Recon-Strike UAS (CH-901/FH-901, CM-501XA, CH-4)
+Beneath dedicated anti-radiation drones, China's defense sector has fielded tactical loitering
+munitions designed to deliver organic precision fires where conventional tube artillery cannot
+reach. Prominent among these is the China Aerospace Science and Technology Corporation
+(CASC) CH-901 / FH-901 family—a compact, twin-wing, vertical-tail munition with a
+nose-mounted electro-optical navigation and targeting pod. Demonstrations by the China
+Academy of Electronics and Information Technology displayed CH-901-style loitering munitions
+salvo-launched from vehicle-mounted arrays of tubular launchers for swarm employment.
+Open-source defense analyses indicate that select PLA formations have procured the
+CH-901/FH-901—most likely Special Operations Forces (SOF), amphibious assault units,
+and airborne troops that lack assured conventional air or heavy artillery support during initial
+lodgments. Additional domestic tactical loitering munitions include the 6×6 VLS-launched
+CM-501XA, NORINCO's Cruise Dragon / Loitering Dragon 10A, WS-43, and BG-201, though
+unit-level PLAGF inventories remain undisclosed in public sources.
+In the medium-altitude armed reconnaissance-strike tier—beyond the PLAA's KVD002, which
+official CCTV footage reported by Global Times in July 2026 showed conducting live-fire strikes
+against a moving maritime vessel off southeast China—the PLA Army operates the CH-4
+unmanned aerial system within the Eastern Theater Command. According to the U.S. Naval
+War College's China Maritime Studies Institute (CMSI), the CH-4 serves as a vital army sensor
+to acquire deep targets in real time, advise commanders on munition selection, direct PCH-191
+precision rocket strikes, and perform post-strike Battle Damage Assessment (BDA). However,
+CMSI warns that PLAA platforms such as the CH-4 remain vulnerable to integrated air-defense
+networks like Taiwan's, mirroring broader survivability limits observed among non-stealthy
+Chinese MALE UCAVs in contested foreign airspace. In parallel, China continues developing
+dedicated swarm-carrier architectures, highlighted by Jane's reporting on the maiden flight of
+the Jiutian swarm-launching mothership UAV.
+
+Area 3: Ammunition and Effects (Beyond WS-35 and GP155)
+
+Entry A5: Cluster Munitions (DPICM/Submunitions) and PRC Non-Signatory
+Policy
+
+Unlike states party to the 2008 Convention on Cluster Munitions (CCM), the People's Republic
+of China is not a signatory to either the CCM or the Mine Ban Treaty, citing "national defence
+needs" as its rationale for remaining outside the ban. While Beijing attends CCM review
+conferences as an observer, voted in favor of UN General Assembly Resolution 76/47
+promoting the convention in December 2021 (after abstaining annually from 2015 to 2020), and
+asserts it has never used cluster munitions in combat, China acknowledges to the Landmine
+and Cluster Munition Monitor that it produces, stockpiles, and exports an extensive array of
+artillery, rocket, air-dropped, and ballistic-missile cluster munitions.
+Domestic production spans China's primary defense conglomerates. NORINCO manufactures
+conventional cannon and rocket Dual-Purpose Improved Conventional Munition (DPICM)
+carriers across every legacy and modern PLA caliber (107 mm through 203 mm), while China
+Aerospace Science and Industry Corporation (CASIC) and its subsidiary Sichuan Aerospace
+Industry Corporation produce heavy unguided and tactical rocket carriers—including the 302
+mm WS-1/-1B/-1E, 320 mm WS-2, 300 mm SY300, and 400 mm SY400—offering DPICM,
+Combined Effects Munitions (CEM), and Sensor-Fuzed Weapons (SFW). Submunition
+warheads are also documented for multiple Chinese ballistic missiles, including the DF-11,
+DF-15, DF-16B (800–1,000 km range), DF-21, and M-7. Although China publishes no export
+transparency data, demining clearance has confirmed foreign combat use of Chinese artillery
+submunitions: unexploded Type-81 DPICM bomblets were cleared in Iraq in 2003, and
+Hezbollah fired more than 100 Chinese Type-81 122 mm rockets carrying Type-90 (MZD-2)
+DPICM submunitions into northern Israel in July–August 2006. Retaining unrestricted DPICM
+and sensor-fuzed stockpiles gives PLA fire planners an area-saturation and anti-armor multiplier
+against dispersed maneuver and air-defense targets where unitary high-explosive rounds
+require far higher shell expenditure.
+
+Entry A6: Extended-Range Conventional, Airburst, 122 mm Guided, and
+Maritime-Strike Munitions
+
+Beyond the 155 mm WS-35 and GP155/GP1 baseline, PLA indirect-fire effects span four
+complementary munition tiers that broaden target-set coverage without exhausting strategic
+ballistic missile inventories:
+ ● Extended-Range Unitary 155 mm and 122 mm Projectiles: Open-source technical
+ profiles report that 52-caliber 155 mm howitzers (PLZ-05 and PCL-181) fire Extended
+ Range Full Bore–Base Bleed (ERFB-BB) shells to 39 km and Rocket-Assisted Projectiles
+ (ERFB-BB-RA / VLAP-class) to 50–53 km. At the combined arms brigade 122 mm tier,
+ secondary technical references report that the wheeled PLL-09 reaches 18 km with
+ standard HE-FRAG projectiles and 27 km with extended-range shells.
+ ● Expanded Precision Cannon Family (GP2, GP6/GP155A, GP155B): NORINCO trade
+ documentation confirms that China's laser-homing lineage extends down to the 122 mm
+ caliber via the GP2 laser-guided projectile. At 155 mm, secondary defense reporting
+ tracks an expanded family beyond the baseline 4–20 km GP1/GP155 (52 kg, 1,305 mm,
+ per NORINCO trade literature cited by Armament Research Services) to include the
+ improved laser-homing GP6 (GP155A) and the satellite-guided GP155B.
+ ● Long-Range Airburst and Heavy Pre-Fragmented Rocket Warheads: Jane's reported
+ Chinese military media footage showing the PLAGF's PHL-16 / PCH-191 firing airburst
+ munitions—an effect well suited to suppressing exposed personnel, radar arrays, and
+ soft-skinned logistics sites. At the heavy tactical missile tier, INDSR reports that the 750
+ mm Fire Dragon 480 (7.38 meters long) carries a 480 kg
+ high-explosive/pre-fragmented warhead configurable for multiple specialized warhead
+ payloads out to a claimed 500 km.
+ ● Organic PLAA Anti-Ship Munitions: Integrating the TL-7B anti-ship cruise missile
+ onto the PCH-191 launcher provides the PLA Army with its first organic anti-ship fire
+ effect, enabling ground artillery brigades to contest maritime approaches in the Taiwan
+ Strait alongside PLAN and PLARF units.
+
+Area 4: Target Acquisition (Beyond SLC-2 and KVD002)
+
+Entry A7: Group Army Target Support Battalions and Complementary
+Ground/Tactical Sensors
+
+Following the 2017 restructuring, PLA group army artillery brigades established a dedicated
+target support element responsible for deep target acquisition, matching munitions to target
+characteristics, and performing post-strike BDA. While the SLC-2 phased-array weapon-locating
+radar—an improved derivative of the U.S. TPQ-37 credited in open-source defense discussions
+with detecting incoming artillery out to ~50 km—anchors counter-battery acquisition, secondary
+defense blogs note that it operates alongside newer Type 704-series counter-battery radars.
+Translated PLA joint information-operations lectures further reference specialized
+meteorological, gun-directing, and fire-control radars alongside acoustic confrontation
+methods. For tactical aerial observation, CASI (2018) notes that PLA artillery historically relied
+on ASN-series UAVs (~150 km range) streaming video imagery to adjust fire and evaluate
+BDA, supported by dedicated decoy (RKL-165) and communications-relay (TK-J226) variants.
+Standing Open-Source Gap: Although PLA doctrinal translations acknowledge acoustic
+confrontation and meteorological/survey radars, and U.S. Army ATP 7-100.3: Chinese Tactics
+catalogs doctrinal artillery brigade and battalion fire-support capabilities in Chapter 2 and
+Appendix B, verifiable open-source technical specifications for current post-2017 PLA
+sound-ranging arrays, electro-optical reconnaissance vehicles, and mobile ballistic
+meteorological stations were unavailable in the opened documentation.
+
+Entry A8: Theater-Level Multi-Domain Intelligence Integration for Deep Fires
+
+For long-range rocket battalions (PHL-03 and PCH-191) engaging targets deep inside
+adversary territory, organic ground artillery reconnaissance teams cannot physically deploy
+forward to observe impacts, and organic army reconnaissance UAS (such as the CH-4) face
+severe attrition within integrated air-defense networks. To close this operational sensor gap,
+CMSI documents that PLA deep-fire rocket units integrate into a theater-level joint
+intelligence network fusing five external intelligence feeds under Theater Joint Operations
+Command Center (JOCC) control.
+Under this theater command architecture, PCH-191 long-range rocket battalions can
+theoretically operate under the JOCC's Land Operations Sub-Center (LOSC) to support
+coastal landing and maneuver forces, or be task-assigned directly to the Conventional Missile
+Operations Sub-Center (CMOSC) alongside PLARF brigades for theater-wide joint firepower
+strikes. This flexible subordination elevates army artillery into a scalable strategic-operational
+strike arm, though its effectiveness remains tightly coupled to the survivability of theater C4ISR
+links against adversary cyber and electronic warfare.
+
+Area 5: Technical Fire Direction and Gunnery
+
+Entry A9: Digitized On-Gun Ballistic Computing, Automatic Laying, MRSI, and ICP
+Integration
+
+Modern PLA artillery gunnery has transitioned from manual, labor-intensive battery fire direction
+toward distributed, platform-level digital fire control networked into higher-echelon C2 systems.
+Both the tracked PLZ-05/PLZ-05A (export PLZ-52) and the wheeled PCL-181 (export SH-15)
+incorporate onboard digital fire-control computers, automatic gun-laying systems, and automatic
+or semi-automatic loaders, while open-source imagery analyses note a barrel-mounted muzzle
+velocity radar on the PLZ-05. On the PCL-181, once an operator enters target azimuth and
+coordinates, the vehicle computer calculates the ballistic trajectory and automatically lays the
+52-caliber gun while hydropneumatic suspension stabilizes the truck chassis and expands
+elevation/depression angles.
+This platform-level automation compresses engagement timelines and enables high-tempo fire
+effects. Secondary technical profiles credit the PLZ-05 with a burst rate of 4 rounds in 15
+seconds (8–10 rounds/min maximum) and note that the export PLZ-52 supports Multiple
+Round Simultaneous Impact (MRSI)—firing up to 4 rounds along sequentially adjusted
+elevations to impact the same target simultaneously. At the precision-strike layer, PCL-181,
+PHL-03, and PCH-191 guided munitions pair inertial navigation with the BeiDou Navigation
+Satellite System (BDS), achieving claimed CEPs near 30 meters on long-range rockets. Above
+the individual firing piece, PLA units link into the Integrated Command Platform (ICP)—an
+automated C4ISR computer backbone fielded down to tactical echelons to unify C2, sensor
+feeds, and fire-control orders across branches and services.
+Standing Open-Source Gap: While open English-language sources verify digital fire-control
+computers and meteorological radars, primary open-source documentation is lacking on PLA
+battery-level Fire Direction Center (FDC) computational workflows, standardized meteorological
+message formats, and manual degraded-mode gunnery procedures under sustained BeiDou
+and ICP jamming.
+
+Area 6: Counter-Fire and Force Protection
+
+Entry A10: Wheeled Digitization, Active Transit Defense ("Four Antis"), and
+Coastal Counter-Fire
+
+PLA artillery survivability prioritizes compressing emplacement and displacement times to defeat
+adversary counter-battery radars and precision counter-fire. Secondary technical profiles note
+that legacy towed howitzers—such as the 152 mm PL-66 and 130 mm Type 59-1—required
+roughly 3 minutes to emplace and 2–3 minutes to displace with crews of 6 to 10 soldiers.
+Replacing legacy towed pieces with the 25-ton, 90 km/h PCL-181 (air-transportable via Y-9), the
+Mengshi-mounted PCL-171, and modular PHL-11/PCH-191 rocket launchers enables rapid
+shoot-and-scoot cycles and wide geographic dispersal. Open-source threat assessments
+emphasize that heavy launchers like the PCH-191 generate pronounced launch signatures,
+making constant displacement and dispersion essential to survive counter-fire and air attack.
+During long-range operational movement, major PLA exercises (documented from Mission
+Action-2013 onward) enforce four concurrent active defense drills—the "Four Antis":
+anti-reconnaissance, anti-air raid, anti-jamming, and anti-harassment. Doctrinally, U.S.
+Army ATP 7-100.3 and TRADOC G-2 (2025) note that PLA artillery groups dynamically shift
+between direct maneuver support and dedicated counter-fire, obstacle reduction, and
+disruption; in island and littoral defense operations, PLA Army coastal defense artillery provides
+sustained counter-fire to disrupt adversary fire support and deny landing forces time to build
+combat power.
+
+Entry A11: Integrated Organic Air Defense and Emerging Counter-UAS (C-UAS)
+Layers
+
+To protect firing units and support hubs from aerial attack, each PLA group army fields an
+organic air-defense brigade and each combined arms brigade fields an organic air-defense
+battalion armed with tracked anti-aircraft guns and short-range surface-to-air missiles. Chinese
+military media cited in CASI's May 2026 PLA Primer specifically highlight HQ-17A mobile
+short-range SAM systems operating in direct coordination with PHL-191 long-range rocket units
+to provide an accompanying air-defense shield.
+More recently, the ubiquity of tactical FPV and reconnaissance drones in Ukraine has
+accelerated ground-level C-UAS adaptation. According to CSIS (October 2026), 2024 PLA unit
+training footage—explicitly framed by Chinese outlets as drawing on Russia-Ukraine combat
+experience—featured ground forces employing capture nets, handheld jamming guns, and
+rapid evasion drills. At the equipment level, China is exploring dedicated layered C-UAS
+platforms, including a laser-equipped Type 19 IFV variant reported by Jane's (though Jane's
+cautions it remains unclear whether the vehicle is operational, in trials, or a technology
+demonstrator) and mobile 76 mm counter-drone gun concepts (LD76) aimed at defending
+maneuver units as well as vulnerable ammunition and maintenance hubs.
+
+Area 7: Sustainment
+
+Entry A12: Organic Battery Resupply Vehicles, Chassis Commonality, and Reload
+Bottlenecks
+
+High-tempo digitized artillery depends on resupply vehicles able to keep pace with
+self-propelled firing units in contested terrain. At the heavy tracked tier, the PLZ-05 family
+(including the lengthened seven-roadwheel PLZ-05B) pairs with a dedicated armored tracked
+ammunition resupply vehicle designed to transfer rounds under armor on the battlefield. In
+light combined arms brigades, open-source unit breakdowns describe a PCL-171 122 mm
+battery operating at a 1:1 firing-to-resupply ratio—9 PCL-171 firing vehicles (each carrying up
+to 28 rounds) supported by 9 CTL-181A ammunition resupply vehicles—capitalizing on the
+shared 6×6 Dongfeng Mengshi CTL-181A chassis (3.65-ton payload) used across light and
+medium brigade air-defense, mortar, and bridging variants to streamline field maintenance. For
+onboard ready-rack endurance, secondary technical sources credit the PCL-181 with 30 rounds
+and the PLL-05 120 mm gun-mortar with 36 rounds.
+Reloading mechanics create a marked operational divergence across rocket echelons.
+Containerized pod reloads on the 122 mm PHL-11 reduced reload duration from 10 minutes to 5
+minutes. By contrast, tube-by-tube reloading on the 300 mm PHL-03 still takes roughly one
+hour, imposing a significant tempo constraint and counter-battery vulnerability window during
+sustained fire missions.
+
+Entry A13: Joint Logistics Architecture (PLAJLSF), Civil-Military Transport, and
+Magazine Depth
+
+Above the group army's organic service support and sustainment brigade, operational and
+theater-level ammunition supply is coordinated through the PLA Joint Logistics Support
+Force (PLAJLSF), established during the post-2015 CMC reforms (created in September, per
+Japan's National Institute for Defense Studies) to unify joint theater sustainment. Trans-regional
+exercises (Stride-2009, Mission Action-2013) have repeatedly tested civil-military integration
+(CMI) in force sustainment—integrating civilian rail, air, maritime, and motorized transport assets
+alongside local bulk material procurement to sustain brigades deployed an average of 1,200 km
+from home garrisons.
+Even with joint logistics reforms, U.S. Army TRADOC G-2 (2025) identifies sustainment as a
+major operational friction point for PLA fires: the physical size and heavy logistical footprint of
+traditional tube and rocket artillery complicate expeditionary deployment and sustainment, while
+the bulk and support demands of ballistic missile units keep them anchored to mainland launch
+complexes. Although TRADOC assesses overall PLA missile and munition magazine depth as
+substantial—and notes that shore-based short-range cruise missiles could help offset potential
+ballistic-missile shortfalls—it concludes that open sources provide insufficient data to
+determine exact wartime magazine depth or later-phase sustainment capacity. Open-source
+reporting likewise lacks verifiable metrics on PLA artillery barrel-wear lifecycles and field
+tube-replacement pipelines.
+Task B: Artillery Education, Training, and Exercises
+
+Entry B1: PLA Army Academy of Artillery and Air Defense (陆军炮兵防
+空兵学院)
+
+The central institution educating PLA artillery officers, fire planners, and noncommissioned
+officers is the PLA Army Academy of Artillery and Air Defense (中国人民解放军陆军炮兵防
+空兵学院), established in June 2017 under the CMC's military-education consolidation (which
+reduced total PLA academic institutions from 63 officer and 4 NCO schools to 34 officer and 3
+NCO institutions, while ending recruitment for the civilian National Defense Student Program in
+2017 for full phase-out by mid-2020). The academy merged four legacy schools into a single
+PLAGF-subordinate four-campus organization:
+ ● Hefei Campus (Main Campus, Anhui): Formerly the Army Command College
+ (historically the Artillery Command College), serving as academy headquarters.
+ ● Nanjing Campus (Jiangsu): Formerly the Nanjing Artillery Academy, dedicated to field
+ artillery command and technical gunnery.
+ ● Zhengzhou Campus (Henan): Formerly the PLA Air Defense Corps Academy, training
+ ground air-defense junior command officers and cadets.
+ ● Shenyang Campus (Liaoning): Houses the academy's subordinate NCO School,
+ training enlisted gunners, observers, and fire-control technicians.
+Open-source institutional profiles list a faculty of 1 academician, 4 specialist teaching major
+generals, 184 professors, and 305 associate professors delivering undergraduate, graduate,
+officer command, and NCO instruction across specialized departments (xi) including the
+Artillery Subunit Command Department (炮兵分队指挥系), Antitank Missile Subunit
+Command Department, Air Defense Missile Technology and Command Department, and
+degree programs such as Firepower Command & Control Engineering (火力指挥与控制工
+程). Curriculum execution incorporates live-fire graduation exercises (such as a Zhengzhou
+Campus graduating cadet live-fire drill reported in June 2021) as well as direct involvement in
+testing operational long-range rocket systems (reported in May 2021).
+Despite institutional consolidation, independent PLA analysts (including Dennis Blasko's
+U.S.-China Economic and Security Review Commission testimony) identify persistent
+cross-branch training gaps. Because post-2017 combined arms battalions integrate companies
+and platoons from up to 10 distinct branches (armor, infantry, artillery, air defense, and others),
+many battalion and company commanders have not received formal training in the employment
+of newly subordinated branch capabilities, and advanced strike systems have periodically
+arrived at units ahead of finished manuals and qualified instructors.
+
+Entry B2: Major PLA Artillery and Joint Firepower Exercises
+(2009–2025)
+Over the past 17 years, PLA artillery exercises shifted from scripted home-garrison live-fire
+qualifications to trans-regional deployments against unscripted opposing forces ("Blue Force" /
+OPFOR) and theater-wide joint blockade and firepower rehearsals.
+Exercise / Event Date(s) Scope & Participating Artillery & Fire-Support
+ Forces Training Focus
+Stride-2009 Autumn 2009 ~50,000 troops across Deployed an average
+(Kuayue-2009) 4 MRs (Lanzhou, Jinan, of 1,200 km to distant
+ Shenyang, Guangzhou) bases; evaluated C2,
+ civil-military rail/air
+ logistics, and joint
+ planning.
+Mission Action-2013 2013 ~40,000 troops (single Multi-modal
+ phase), deployment
+ Taiwan-oriented maneuvering up to
+ 30,000 km with
+ en-route "Four Antis"
+ active defense drills.
+Firepower-2014 2014 First trans-regional Evaluated group army
+(Huoli-2014) PLAA artillery exercise artillery brigades away
+ from familiar home
+ ranges.
+Stride-2014 & 2014–2015 Multi-MR combined Introduced rigorous
+Stride-2015 arms formations, "Blue Force" OPFOR
+ Taiwan-oriented units that won a
+ significant share of
+ engagements;
+ Stride-2015 featured a
+ mock-up of Taiwan's
+ Presidential Palace.
+Firepower-2015 2015 Artillery brigades from Nationwide
+(Huoli-2015) all 7 legacy Military trans-regional artillery
+ Regions (e.g., 21st evaluation under
+ Group Army) Taiwan-oriented
+ combat scenarios and
+ electromagnetic stress.
+Joint Action-2015 2015 5 phases; 4 MRs Inter-service joint
+ (Nanjing, Guangzhou, campaign command
+ Chengdu, Lanzhou) + and multi-domain
+ PLAN & PLAAF firepower strike
+ coordination.
+Firepower-2016 2016 Multi-theater artillery Dedicated
+(Qingtongxia & and air-defense desert/steppe range
+Shandan) brigades evaluations testing live
+ artillery and air-defense
+ firepower.
+Taiwan Strait August 4, 2022 72nd Artillery Brigade Dispatched three
+Live-Fire Response (Eastern Theater PCH-191 launchers to
+Exercise / Event Date(s) Scope & Participating Artillery & Fire-Support
+ Forces Training Focus
+ Command) + joint Pingtan Island for live
+ forces cross-strait long-range
+ precision rocket strikes.
+77th GA & Xinjiang Aug 2022 – Sep 2025 77th GA Art Bde (Aug High-altitude, winter,
+PCL-181 Drills 2022); Xinjiang MC and mountainous
+ regiments (Apr 2023, tactical maneuver and
+ Mar/Jul 2024); PLAA live-fire verification of
+ units (Apr 7 & mid-Sep newly fielded PCL-181
+ 2025) 155 mm wheeled
+ howitzers.
+Joint Sword 2023 & 2023 (5 days) & Late Theater-wide joint Large-scale joint
+2024A (Lianhe Lijian) May 2024 forces operating around coercion and readiness
+ Taiwan exercises around
+ Taiwan integrating
+ multi-service strike and
+ blockade concepts.
+Task C: Operational and Conflict Lessons Learned
+
+Open-source assessments published in 2026 diverge sharply on how effectively PLA artillery
+and fire-support communities translate foreign combat observations into force-wide adaptation.
+Capturing both poles of this debate—fast technical-tactical observation versus deep institutional
+friction—prevents either underestimating or overestimating PLA learning agility.
+
+Entry C1: Rapid Tactical-Technical Absorption from Ukraine ("Living
+Textbook") and Exercise After-Action Reviews
+
+An October 2026 Center for Strategic and International Studies (CSIS) study by Lilly Min-Chen
+Lee and Kateryna Bondar—examining more than 90 verified Chinese-language sources across
+45 outlets (including PLA Daily and journals of Chinese missile, shipbuilding, and aviation
+conglomerates) from July 2022 to August 2026—finds that Chinese military analysts treat the
+Russia-Ukraine war as a "living textbook" and call 2024 "year one of world drone war".
+According to CSIS, the PLA's analytical intake is unusually rapid: newly fielded frontline
+techniques appear in Chinese professional publications within an average of four months,
+while translation into unit training and hardware prototypes generally takes one year or more.
+Four artillery-relevant lessons recur across PLA commentary and parallel Western assessments
+(including Royal United Services Institute [RUSI] analyses):
+ 1. Compressed Reconnaissance-Strike Kill Chains: Analysts at the PLA National
+ Defense University's Joint Operations College note Russian forces striking detected
+ targets within 3 to 5 minutes (versus hours in earlier wars), while PLA unit researchers
+ credit Russia's reconnaissance-strike complex—pushing low-cost Orlan-10
+ reconnaissance drones deep into enemy rear areas to cue artillery and Kub or Lancet
+ loitering munitions. The PLA's primary emulation goal is directly wiring drones into artillery
+ and command networks.
+ 2. Economic Mass of Drone-Enabled Fires: A March 2025 PLA Daily article treated as
+ settled fact that a single reconnaissance-strike drone costs less than 1 percent of a
+ modern fighter while delivering more than 90 percent of its battlefield coverage,
+ framing the >1 million small drones procured by Russia and Ukraine in 2024 as the
+ structural baseline of modern ground combat rather than ad hoc improvisation.
+ 3. Electronic Warfare, Fiber-Optic Workarounds, and Ground C-UAS: Recognizing
+ severe drone attrition to EW jamming (estimated by RUSI at roughly 90% overall UAS
+ loss rates in Ukraine), PLA Daily highlighted Russia's jamming-immune fiber-optic FPV
+ drones in May 2024—weeks after combat debut—and by April 2025 CCTV broadcast a
+ People's Armed Police unit in Yunnan training with FPV drones and researching
+ fiber-optic models. Concurrently, 2024 PLA ground training footage incorporated
+ Ukraine-derived capture nets, jamming guns, and anti-drone evasion drills.
+ 4. Dispersion, Logistics Depth, and Internal Command Friction: Ukrainian combat
+ lessons—where Russia struck 75% of static Ukrainian defense sites within 48 hours and
+ Ukrainian HIMARS/ATACMS strikes forced Russian forces to disperse logistics more than
+ 50 km behind the front line at a permanent efficiency penalty—reinforce PLA investments
+ in wheeled self-propelled artillery and dispersed logistics. Internally, however, PLA
+ exercise after-action reviews continue to cite persistent command weaknesses
+ summarized as the "Five Incapables" (inability to judge situations, understand higher
+ intent, make operational decisions, deploy troops, and handle unexpected contingencies)
+ alongside weak cross-unit information sharing.
+
+Entry C2: Institutional Inertia and Selective Learning
+("Lessons-Learned with Chinese Characteristics")
+
+Counterbalancing CSIS's portrait of a fast learning pipeline, an April 2026 Institute for the Study
+of War (ISW) analysis published via the American Enterprise Institute (AEI) by Amy Sinnenberg
+and Jackson Karas argues that PLA adaptation is heavily distorted by preconception bias,
+sunk technological investments, and political risk aversion.
+First, because Xi Jinping elevated "intelligentization" (智能化)—integrating AI into kill chains,
+C2, and logistics—as a premier modernization mandate in 2020, the PLA invested heavily prior
+to 2022 in large, exquisite, survivable drones (Wing Loong-2, GJ-11, CH-4) and AI-driven
+swarming technology. Although actual combat in Ukraine and the Middle East has relied
+overwhelmingly on masses of low-cost, attritable FPVs and one-way attack drones (such as
+Shaheds) rather than autonomous AI swarms, PLA Daily articles continue to treat cheap
+attritable systems as non-characteristic counterexamples and insist the next stage of warfare
+centers on sophisticated AI swarms.
+Second, while the PLA recognizes the severe operational toll of EW and
+satellite-communications denial in Ukraine (noting Russian struggles after losing Starlink
+access), Chinese writers largely expect future AI autonomy to overcome EW disruption rather
+than restructuring units around high-attrition, expendable drone inventories. Third, even when
+evaluating Russian institutional models such as the "Rubikon" Center for Advanced
+Unmanned Technologies (built to cycle frontline feedback directly to developers), PLA
+analyses selectively omit Rubikon's tactical deployment of massed, low-cost attritable strike
+systems. Finally, Xi's ongoing purge campaign (removing over 100 senior officials since 2022
+and shrinking the Central Military Commission) has fostered an institutional culture prioritizing
+political loyalty over bottom-up tactical dissent, making deviation from top-down modernization
+narratives professionally and personally hazardous. Taken together, the CSIS and ISW/AEI
+studies indicate a bifurcated PLA artillery force: agile at copying discrete counter-drone gear
+and sensor-to-shooter links, yet structurally slow to discard centralized, high-end
+doctrinal assumptions.
+## Final Step: Opened Source Verification Registry and Baseline Errata Audit
+
+Part 1: Verification Registry of Opened Source Links
+
+Every URL directly opened during this research cycle is verified below with its exact title,
+publisher, publication or update date, authority tier, and extraction status. Supporting secondary
+references drawn from indexed defense databases (e.g., Jane's, RUSI, SWP, Wikipedia,
+Deagel) are explicitly attributed by source type in the entries above and are kept distinct from
+directly opened primary documents.
+# Opened URL Exact Page / Publisher Year / Date Verification
+ Document Title Status & Notes
+1 https://[span_2 China Maritime China Maritime Nov 3, 2023 Verified (Tier 1
+ 1](start_span)[sReport No. 32: Studies Gov/PME).
+ pan_21](end_s The PCH191 Institute, U.S. Verified
+ pan)www.govin Modular Naval War PCH-191,
+ fo.gov/content/ Long-Range College (via PHL-03, 72nd
+ pkg/GOVPUB- Rocket GovInfo) Art Bde, 303rd
+ D208-PURL-gp Launcher: Coastal Def
+ o246143/pdf/G Reshaping the Bde, CH-4,
+ OVPUB-D208- PLA Army's JOCC
+ PURL-gpo2461 Role in a LOSC/CMOSC,
+ 43.pdf?ref=battlCross-Strait and five theater
+ epolicy.com Campaign intel feeds.
+ (Author:
+ Joshua
+ Arostegui)
+2 https://api.army How China U.S. Army 2025 (Apr 2025 Verified (Tier 1
+ .mil/e2/c/downl Fights in Training and file; cites Dec Gov/Military).
+ oads/2025/05/0 Large-Scale Doctrine 2024 & 2025 Confirmed
+ 8/1888a601/tra Combat Command guidance) coastal
+ doc-g2-how-chi Operations (TRADOC), counterfire,
+ na-fights-in-lsc Office of the heavy artillery
+ o-apr-25-pu[sp Deputy Chief of sustainment
+ an_23](start_sp Staff, G-2 challenge, and
+ an)[span_23](e magazine-dept
+ nd_span)blic.p h OSINT gap;
+ df no
+ loitering-muniti
+ on or
+ lessons-learne
+ d sections.
+3 https://date.armArmy Headquarters, Aug 9, 2021 Verified
+ y.gov.au/sites/d Techniques Department of Metadata/TOC
+ efault/files/2024Publication No. the Army (Tier 1
+ -06/ATP%207- 7-100.3 (ATP (hosted via Gov/Military).
+# Opened URL Exact Page / Publisher Year / Date Verification
+ Document Title Status & Notes
+ 100.3.pdf 7-100.3), Australian Verified
+ Chinese Tactics Army DATE) doctrinal
+ figures (Ch. 2
+ Art Bde/Bn, Ch.
+ 4 Artillery
+ Group, App. B
+ Fire Support);
+ inner technical
+ body
+ unavailable in
+ extracted
+ excerpt.
+4 https://oe.t2co ATP 7-100.3: U.S. Army Aug 2021 Inaccessible
+ m.army.mil/site- Chinese Tactics T2COM G2 when opened.
+ content/OEE/C (U.S. T2COM Direct PDF
+ hina%20Landin mirror) mirror failed to
+ g%20Zone/Chi load; replaced
+ nese%20Tactic by verified
+ s-ATP_7-100.3- Australian
+ Aug2021.pdf Army DATE
+ mirror (#3
+ above).
+5 https://media.d 2025 Annual Department of 2025 (Dec Verified
+ efense.gov/202 Report to War (War.gov) 2025 release) Metadata (Tier
+ 5/Dec/23/2003 Congress: 1 Gov).
+ 849070/-1/-1/1/ Military and Executive
+ ANNUAL-REP Security summary notes
+ ORT-TO-CON Developments "firepower
+ GRESS-MILITA Involving the strike" and
+ RY-AND-SECU People's indexed
+ RITY-DEVE[sp Republic of excerpt cites
+ an_48](start_sp China Joint Sword
+ an)[span_48](e 2024A; detailed
+ nd_span)LOPM army
+ ENTS-INVOLVI artillery/ISF/Ukr
+ NG-THE-PEOP aine
+ LES-REPUBLI subsections
+ C-OF-CHINA-2 unavailable in
+ 025.PDF extracted
+ portion.
+6 https://www.air PLA Aerospace China May 2026 Verified
+ university.af.ed Power: A Aerospace Metadata (Tier
+ u/Portals/10/CA Primer on Studies 1 Gov/PME).
+ SI/documents/2 Trends in Institute Aerospace-focu
+ 026-05-01%20 China's Military (CASI), Air sed; indexed
+# Opened URL Exact Page / Publisher Year / Date Verification
+ Document Title Status & Notes
+ PLA%20Primer Air, Space, and University excerpt notes
+ %205th%20Edi Missile Forces HQ-17A/PHL-1
+ tion.pdf?ver=Yq (5th Edition) 91
+ h5P4RozjLqD3 coordination,
+ H1qusJ1g%3D while detailed
+ %3D army
+ artillery/ISF
+ sections are
+ absent from the
+ document.
+7 https://www.air The People's China 2020 (June Verified
+ university.af.ed Liberation Aerospace 2020 file; Metadata (Tier
+ u/Portals/10/CA Army's 37 Studies covers 1 Gov/PME).
+ SI/documents/ Academic Institute 2017–2020) Confirmed
+ Research/Othe Institutions (CASI), Air June 2017
+ r-Topics/2020-0 (Authors: University consolidation to
+ 6-11%20PLA% Kenneth Allen 34 officer + 3
+ 20Academic_In & Mingzhi NCO
+ stitutions.pdf Chen) institutions and
+ National
+ Defense
+ Student
+ abolition;
+ campus-level
+ Hefei/Nanjing/Z
+ hengzhou/Shen
+ yang detail
+ drawn from
+ secondary
+ corroboration.
+8 https://www.air The PLA's China 2018 (Aug Verified (Tier 1
+ university.af.ed Unmanned Aerospace 2018 file; Gov/PME).
+ u/Portals/10/CA Aerial Systems: Studies sources to Verified Harpy
+ SI/documents/ New Institute June 2018) acquisition
+ Research/PLA Capabilities for (CASI), Air (1994–1999),
+ AF/2018-08-29 a "New Era" of University ASN-301
+ %20PLAs_Un Chinese unveiling
+ manned_Aerial Military Power (2017),
+ _Systems.pdf (Author: Elsa ASN-series
+ Kania) artillery UAVs
+ (RKL-165/TK-J
+ 226), and
+ swarm R&D.
+9 https://indsr.org "Chapter 1: Institute for 2021 (June Verified (Tier 2
+ .tw/uploads/eni New-generatio National 2022 PDF Official/Think
+# Opened URL Exact Page / Publisher Year / Date Verification
+ Document Title Status & Notes
+ ndsr/files/2022 n Military Defense and upload) Tank). Verified
+ 06/0c2b01d2-1 Equipment of Security PCL-181 (2017
+ 2b2-4cf4-b679- the PLA Research Tibet Weibo
+ 180989cca963. Ground Force" (INDSR), claim),
+ pdf in 2021 Report Taiwan PCL-171,
+ on the Defense CTL-181A
+ Technology mortar
+ Trend carriage,
+ Assessment— PHL-03 (160
+ Assessment of km, 2021
+ the New drills),
+ Generation of PCH-191/Fire
+ Chinese Dragon 480,
+ Communist and
+ Party's Military CM-501GA/XA.
+ Technology
+ (Author:
+ Jyh-Shyang
+ Sheu)
+10 https://archives China - Cluster Landmine and Aug 25, 2022 Verified (Tier 2
+ 2.the-monitor.or Munition Ban Cluster Specialist
+ g/en-gb/reports Policy Munition Monitor).
+ /2022/china/clu Monitor Authoritative
+ ster-munition-b (ICBL-CMC) catalog of
+ an-policy.aspx Chinese
+ DPICM cannon
+ shells, rockets,
+ ballistic-missile
+ submunitions,
+ policy stance,
+ and foreign
+ combat
+ remnants.
+11 https://www.usc PLA Joint RAND Jan 21, 2016 Verified (Tier 1
+ c.gov/sites/defa Training and Corporation Gov
+ ult/files/USCC Implications for (Testimony Testimony /
+ %20Testimony Future before the Tier 2 Think
+ %202016_Coz Expeditionary U.S.-China Tank). Verified
+ ad_0.pdf Capabilities Economic and Stride-2009/20
+ (Author: Mark Security 14/2015,
+ R. Cozad) Review Mission
+ Commission) Action-2013,
+ Firepower-2015
+ , Joint
+ Action-2015,
+# Opened URL Exact Page / Publisher Year / Date Verification
+ Document Title Status & Notes
+ OPFOR, "Four
+ Antis", and
+ civil-military
+ logistics.
+12 https://www.csi Learning Center for Oct 7, 2026 Verified (Tier 2
+ s.org/analysis/l Without Strategic and Think Tank).
+ earning-without Bleeding: International Primary
+ -bleeding-china China's Studies (CSIS) open-source
+ s-lessons-russi Lessons from evidence for
+ a-ukraine-dron the PLA's 4-month
+ e-war Russia-Ukraine analysis /
+ Drone War 1-year training
+ (Authors: Lilly pipeline, 3–5
+ Min-Chen Lee min kill-chain
+ & Kateryna analysis,
+ Bondar) fiber-optic FPV
+ tracking,
+ capture nets,
+ and jamming
+ guns.
+13 h[span_113](st Lessons-Learn Institute for the Apr 6, 2026 Verified (Tier 2
+ art_span)[span ed with Study of War Think Tank).
+ _113](end_spa Chinese (published via Primary
+ n)ttps://www.ae Characteristics: AEI) counter-eviden
+ i.org/commen[s Understanding ce detailing
+ pan_184](start_the Limits of "intelligentizatio
+ span)[span_18 PLA Efforts to n"
+ 4](end_span)ta Adapt to preconceptions
+ ry/[span_55](st Contemporary , AI swarm
+ art_span)[span Warfare emphasis,
+ _55](end_span)(Authors: Amy selective
+ lessons-learne Sinnenberg & Rubikon
+ d-with-chinese- Jackson Karas) analysis, and
+ characteristics- purge-induced
+ understanding-t risk aversion.
+ he-limits-of-pla-
+ efforts-to-adapt
+ -to-contempora
+ ry-warfare/
+14 https://www.iiss How Chinese International June 2021 (per Partially
+ .org/online-anal unmanned Institute for URL path) Verified /
+ ysis/online-anal platforms could Strategic Paywalled
+ ysis/2021/06/ch degrade Studies (IISS) (Tier 2 Think
+ ina-taiwan-unm Taiwan's air Tank).
+ anned-platform defence and Confirmed
+# Opened URL Exact Page / Publisher Year / Date Verification
+ Document Title Status & Notes
+ s/ disable a US exact title and
+ Navy carrier CETC
+ tubular-launche
+ d CH-901-style
+ swarm excerpt;
+ full article body
+ behind access
+ wall.
+Part 2: Errata and Currency Audit for Referenced Baseline Entries
+
+Because the verbatim text of the 12 existing reference entries was not supplied, the audit below
+flags eight high-probability errors, nomenclature mismatches, and outdated claims found across
+open-source literature on the baseline systems named in the query. Reference editors should
+cross-check the existing 12 entries against each item:
+Baseline Topic / Entry Common Error or Outdated Verified Correction / Currency
+ Claim in Open Sources Update
+PHL-191 Service Branch, Frequently misattributed to the Correct PLA nomenclature per
+Designation & Range PLA Rocket Force (PLARF) CMSI (2023) is PCH191 (also
+ (including in some defense styled PHL-191, PCL-191, or
+ journals and aggregators) or PHL-16; based on export AR3).
+ under-ranged at up to 180 km. It is strictly a PLA Army
+ (PLAA) group army artillery
+ brigade weapon (e.g., 72nd
+ Artillery Brigade), though
+ task-assignable to a Theater
+ JOCC's CMOSC alongside
+ PLARF. Reported ranges reach
+ ~350 km (370 mm rockets) and
+ ~500 km (750 mm Fire Dragon
+ 480 TBM), plus TL-7B anti-ship
+ cruise missiles.
+ WS-35 Guided Shell Range & Widely claimed to achieve a
+ Platform Exclusivity 100 km range (with 18 kg mass
+ and 40 m CEP) and to be fired
+ exclusively by the PLZ-05.
+GP155 / GP1 Nomenclature Frequently conflated into a Distinguish four variants: GP1
+ single laser-guided shell (GP155) (baseline 155 mm
+ designation. laser-homing, 4–20 km, 52 kg,
+ 1,305 mm), GP6 (GP155A)
+ (upgraded 155 mm
+ laser-homing), GP155B
+ (satellite-guided 155 mm), and
+ GP2 (122 mm laser-guided).
+PCL-181 IOC Date & Older entries cite IOC solely as Official PLAGF Weibo reporting
+Inventory Numbers April 2020; some online cited by INDSR (2021)
+Baseline Topic / Entry Common Error or Outdated Verified Correction / Currency
+ Claim in Open Sources Update
+ aggregators (Deagel) list 1,832 indicates initial Tibet
+ units produced. deployment began in 2017, with
+ theater-wide fielding
+ accelerating in 2019–2020.
+ Standard open-source
+ estimates put active PLAGF
+ inventory at roughly 600 units
+ as of 2024; flag the 1,832
+ aggregator total as an
+ uncorroborated outlier.
+PLZ-05 Caliber & Variant Occasionally mislabeled in Strictly 155 mm / 52-caliber
+Specs informal discussions as a (marking China's shift from
+ Soviet-caliber 152 mm Soviet 152 mm to
+ self-propelled gun. NATO-standard 155 mm
+ ballistics), weighing 35–45
+ tonnes (800 hp PLZ-05; 1,000
+ hp PLZ-05A; lengthened
+ 7-roadwheel PLZ-05B with
+ armored tracked resupply
+ vehicle).
+Post-2017 Group Army & Pre-2017 references cite 7 Update to 5 Theater
+Artillery Organization Military Regions, artillery Commands and 13 Group
+ divisions, standalone Armies (each with 6 Combined
+ Long-Range Rocket Brigades Arms Brigades and 1 Artillery
+ (LRRBs), or PLL-05 battalions Brigade, yielding 78 group army
+ inside "light mechanized CABs within a force-wide total
+ infantry divisions". of 83 PLAA CABs cited by
+ CMSI). Standalone LRRBs
+ were dissolved in 2017 and
+ absorbed into group army
+ artillery brigades (though state
+ media informally retains the
+ "long-range rocket brigade"
+ label). Doctrinal caliber tiering
+ places ≤120 mm at CABn, 122
+ mm at CABde, and ≥155 mm /
+ 300–750 mm rockets at Group
+ Army.
+KVD002 & SLC-2 Operational Earlier entries treat KVD002 Update KVD002 to reflect July
+Currency solely as a land-battlefield 2026 official CCTV/Global
+ recon/strike UAV and SLC-2 as Times documentary footage
+ an isolated radar. showing PLAA KVD002 armed
+ reconnaissance drones
+ conducting live-fire strikes
+ against moving maritime
+Baseline Topic / Entry Common Error or Outdated Verified Correction / Currency
+ Claim in Open Sources Update
+ vessels off southeast China.
+ Place SLC-2 within post-2017
+ group army target support
+ battalions alongside newer
+ Type 704-series radars.
+PLASSF vs. Information Pre-2024 baseline entries Flag pre-2024 PLASSF
+Support Force (ISF) & U.S. assign space, cyber, and organizational charts as
+DoD Imprint C4ISR support to the PLA superseded/requiring
+ Strategic Support Force verification: while exact
+ (PLASSF). tactical fire-support interfaces
+ of the post-2024 Information
+ Support Force were
+ unavailable in the opened
+ 2025–2026 document excerpts,
+ PLASSF should no longer be
+ presented as the current active
+ C4ISR service arm.
+ Additionally, note that the 2025
+ U.S. Annual Report to
+ Congress on PRC military
+ developments is published
+ under the Department of War
+ (War.gov) imprint.
+Works cited
+
+1. PHL-11 - Wikipedia, https://en.wikipedia.org/wiki/PHL-11 2. Brigadier Anshuman Narang,
+Retired, is - CENJOWS,
+https://cenjows.in/wp-content/uploads/2025/12/Brig-Narang_Monograph_Dec-2025.pdf 3. The
+PCH191 Modular Long-Range Rocket Launcher ... - GovInfo,
+https://www.govinfo.gov/content/pkg/GOVPUB-D208-PURL-gpo246143/pdf/GOVPUB-D208-PU
+RL-gpo246143.pdf?ref=battlepolicy.com 4. Conventional Forces,
+https://indsr.org.tw/uploads/enindsr/files/202206/0c2b01d2-12b2-4cf4-b679-180989cca963.pdf
+5. Learning Without Bleeding: China's Lessons from the Russia ... - CSIS,
+https://www.csis.org/analysis/learning-without-bleeding-chinas-lessons-russia-ukraine-drone-war
+6. Understanding the Limits of PLA Efforts to Adapt to Contemporary,
+https://www.aei.org/commentary/lessons-learned-with-chinese-characteristics-understanding-the
+-limits-of-pla-efforts-to-adapt-to-contemporary-warfare/ 7. PLA Aerospace Power - Air University,
+https://www.airuniversity.af.edu/Portals/10/CASI/documents/2026-05-01%20PLA%20Primer%20
+5th%20Edition.pdf?ver=Yqh5P4RozjLqD3H1qusJ1g%3D%3D 8. Joint Firepower Strike
+Campaign - Army.mil,
+https://api.army.mil/e2/c/downloads/2025/05/08/1888a601/tradoc-g2-how-china-fights-in-lsco-ap
+r-25-public.pdf 9. 2025 Annual Report to Congress: Military and Security ... - War.gov,
+https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRES
+S-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-
+CHINA-2025.PDF 10. List of equipment of the People's Liberation Army Ground Force,
+https://en.wikipedia.org/wiki/List_of_equipment_of_the_People%27s_Liberation_Army_Ground_
+Force 11. The PLA Army Amphibious Force - Andrew Erickson,
+https://www.andrewerickson.com/wp-content/uploads/2022/04/CMSI_China-Maritime-Report_20
+_PLA-Army-Amphibious-Force_Blasko_202204.pdf 12. People's Liberation Army Ground Force
+- Wikipedia, https://en.wikipedia.org/wiki/People%27s_Liberation_Army_Ground_Force 13.
+https://truck-encyclopedia.com/coldwar/china/chinese-pla-military,
+https://truck-encyclopedia.com/coldwar/china/chinese-pla-military-vehicles.php 14. Category: -
+Full Afterburner, http://fullafterburner.weebly.com/next-gen-weapons/category/all; 15. (PDF)
+Issue brIef - ResearchGate, https://www.researchgate.net/publication/340849963_Issue_brIef
+16. The PLA's Unmanned Aerial Systems - Air University,
+https://www.airuniversity.af.edu/Portals/10/CASI/documents/Research/PLAAF/2018-08-29%20P
+LAs_Unmanned_Aerial_Systems.pdf 17. China Tests ASN-301 Anti-Radar Drone Raising New
+Threats for,
+https://www.armyrecognition.com/archives/archives-land-defense/defense-news-army-2025/chin
+a-tests-asn-301-anti-radar-drone-raising-new-threats-for-u-s-and-allied-forces 18. Chinese
+Military Drones: PLA UAV Capabilities - Drone Warfare, https://drone-warfare.com/china/ 19.
+How Chinese unmanned platforms could degrade Taiwan's air,
+https://www.iiss.org/online-analysis/online-analysis/2021/06/china-taiwan-unmanned-platforms/
+20. For Sale: The Next Generation of Chinese War Robots,
+https://www.popsci.com/for-sale-next-generation-chinese-war-robots/ 21. Loitering munition -
+Wikipedia, https://en.wikipedia.org/wiki/Loitering_munition 22. CM-501 - Wikipedia,
+https://en.wikipedia.org/wiki/CM-501 23. Loitering Munitions and Unpredictability | AutoNorms,
+https://www.autonorms.eu/wp-content/uploads/2023/06/Loitering-Munitions-Unpredictability-WE
+B.pdf 24. Official documentary reveals PLA's armed reconnaissance drones,
+https://www.globaltimes.cn/page/202607/1367264.shtml 25. Latest defence and security news -
+Janes, https://www.janes.com/defence-intelligence-insights/all-defence-news/161?page=5/\ 26.
+Cluster Munition Ban Policy | Reports | Monitor,
+https://archives2.the-monitor.org/en-gb/reports/2022/china/cluster-munition-ban-policy.aspx 27.
+PCL-181 - Wikipedia, https://en.wikipedia.org/wiki/PCL-181 28. PLZ-05 - Wikipedia,
+https://en.wikipedia.org/wiki/PLZ-05 29. PCL-181,
+https://www.deagel.com/Armies/PCL-181/a004007 30. India Vs China military Balance- Large
+Calibre artillery – Part-1,
+https://fullafterburner.weebly.com/next-gen-weapons/india-vs-china-military-balance-large-calibr
+e-artillery-part-1-chinese-howitzers 31. China North Industries Corporation,
+https://ipisresearch.be/wp-content/uploads/2017/04/201703_publicatie-Norinco.pdf 32. Chinese
+GP1 series guided artillery projectiles in Libya,
+https://armamentresearch.com/chinese-gp1-series-guided-artillery-projectiles-in-libya/ 33.
+GP155 family operated artillery shells (China) - Military Review,
+https://en.topwar.ru/67454-upravlyaemye-artilleriyskie-snaryady-semeystva-gp155-kitay.html 34.
+China fires airburst munitions from PHL-16 missile launcher,
+https://www.janes.com/defence-intelligence-insights/defence-news/weapons/china-fires-airburst-
+munitions-from-phl-16-missile-launcher 35. PLA Mechanised Infantry Division Air Defence
+Systems, https://www.ausairpower.net/APA-PLA-Div-ADS.html 36. Modern Carrier Battle
+Group..Strategies and Tactics | Page 192,
+https://www.sinodefenceforum.com/t/modern-carrier-battle-group-strategies-and-tactics.4918/pa
+ge-192 37. PLA Air Defence Radars - Exploring the World - WordPress.com,
+https://yanziyang.wordpress.com/2014/03/18/pla-air-defence-radars/ 38. Foreign Military
+Thought Lectures on Joint Campaign Information,
+https://www.airuniversity.af.edu/Portals/10/CASI/documents/Translations/2021-10-12%20Lectur
+es%20on%20Joint%20Campaign%20Information%20Operations.pdf 39. atp 7-100.3 chinese
+tactics - Decisive Action Training Environment,
+https://date.army.gov.au/sites/default/files/2024-06/ATP%207-100.3.pdf 40. People's Liberation
+Army Operational Concepts - RAND,
+https://www.rand.org/content/dam/rand/pubs/research_reports/RRA300/RRA394-1/RAND_RRA
+394-1.pdf 41. PLZ-52/Type 05/PLZ-05 (Self-propelled howitzer) - Army Guide,
+http://www.army-guide.com/eng/product3185.html 42. PLZ-05 152mm SPG of the PLA - able to
+hit targets 100km away with,
+https://www.reddit.com/r/TankPorn/comments/1674udq/plz05_152mm_spg_of_the_pla_able_to
+_hit_targets/ 43. PLA Joint Training and Implications for Future Expeditionary,
+https://www.uscc.gov/sites/default/files/USCC%20Testimony%202016_Cozad_0.pdf 44. The
+Transformation of the Chinese People's Liberation Army into a,
+https://www.swp-berlin.org/en/publication/the-transformation-of-the-chinese-peoples-liberation-a
+rmy-into-a-world-class-military 45. Mission Command with Chinese Characteristics? - RAND,
+https://www.rand.org/content/dam/rand/pubs/research_reports/RRA2200/RRA2257-1/RAND_R
+RA2257-1.pdf 46. China's Grand Strategy: Trends, Trajectories, and Long-Term,
+https://www.rand.org/content/dam/rand/pubs/research_reports/RR2700/RR2798/RAND_RR279
+8.pdf 47. Future Scenarios for Sino-Russian Military Cooperation - RAND,
+https://www.rand.org/content/dam/rand/pubs/research_reports/RRA2000/RRA2061-5/RAND_R
+RA2061-5.pdf 48. Final Report: Research on PLA Modernization,
+https://www.spf.org/media/upload/2_Project2049.pdf 49. PLA in Electromagnetic Domain - India
+Foundation, https://indiafoundation.in/articles-and-commentaries/pla-in-electromagnetic-domain/
+50. PHL-191 multiple rocket launcher | Iron Command Intel,
+https://intel-wiki.vercel.app/platforms/phl-191-mlrs 51. People's Liberation Army's Defensive
+Strategy Against Amphibious,
+https://oe.t2com.army.mil/product/peoples-liberation-armys-defensive-strategy-against-amphibio
+us-assault/ 52. China's LD76 76mm Gun Appears in PLA Colours, Raising Counter,
+https://defencesecurityasia.com/en/china-ld76-76mm-gun-pla-counter-drone-defence/ 53. China
+reveals laser-equipped Type 19 armoured vehicle variant,
+https://www.janes.com/defence-intelligence-insights/defence-news/land/china-reveals-laser-equi
+pped-type-19-armoured-vehicle-variant 54. China's PCL-171 Self-Propelled Artillery Battery
+Explained - YouTube, https://m.youtube.com/shorts/oZ81BsKm1uQ 55. PLL-05 WMA029 - Army
+Recognition,
+https://www.armyrecognition.com/military-products/army/artillery-vehicles-and-weapons/mortar-c
+arrier/pll05-china-uk 56. Group army (military unit) - Wikipedia,
+https://en.wikipedia.org/wiki/Group_army_(military_unit) 57. PLA Military Modernization: Drivers,
+Force Restructuring ... - RAND,
+https://www.rand.org/content/dam/rand/pubs/testimonies/CT400/CT488/RAND_CT488.pdf 58.
+The PLA's Pursuit of Enhanced Joint Operations Capabilities,
+https://www.nids.mod.go.jp/publication/chinareport/pdf/china_report_EN_web_2022_A01.pdf 59.
+Introduction Appendix: Central Military Commission Reforms,
+https://ndupress.ndu.edu/Media/News/News-Article-View/Article/1752065/introduction-appendix-
+central-military-commission-reforms/ 60. The People's Liberation Army's 37 Academic
+Institutions,
+https://www.airuniversity.af.edu/Portals/10/CASI/documents/Research/Other-Topics/2020-06-11
+%20PLA%20Academic_Institutions.pdf 61. PLA Army Academy of Artillery and Air Defense -
+Wikipedia, https://en.wikipedia.org/wiki/PLA_Army_Academy_of_Artillery_and_Air_Defense 62.
+Recent Developments in Mechatronics and Intelligent Robotics,
+https://www.scribd.com/document/516217615/Recent-Developments-in-Mechatronics-and-Intelli
+gent-Robotics-Proceedings-of-International-Conference-on-Mechatronics-and-Intelligent-Roboti
+cs-ICMIR2 63. Cadets fire anti-aircraft missile systems in graduation exercise,
+https://www.globaltimes.cn/page/202106/1226498.shtml 64. PLA Army Conducts Live-Fire Test
+of Long-Range Rockets, https://thedefensepost.com/2021/05/31/china-tests-long-range-rockets/
+65. PLA Weaknesses and Xi's Concerns about PLA Capabilities,
+https://www.uscc.gov/sites/default/files/Blasko_USCC%20Testimony_FINAL.pdf 66. Preliminary
+Lessons in Conventional Warfighting from Russia's,
+https://www.rusi.org/explore-our-research/publications/special-resources/preliminary-lessons-co
+nventional-warfighting-russias-invasion-ukraine-february-july-2022?ref=stratagem.no 67.
+Replacing Watchkeeper: Staying Behind the Curve - RUSI,
+https://www.rusi.org/explore-our-research/publications/commentary/replacing-watchkeeper-stayi
+ng-behind-curve
