@@ -1334,7 +1334,6 @@ function HomeView() {
   const due = dueReviews(state).length;
   const news = changesSince(state.seenVersion);
   const hasNews = isNewer(CONTENT.version, state.seenVersion);
-  const fresh = Object.keys(state.progress).length === 0 && !state.last;
 
   return (
     <div className="space-y-5">
@@ -1390,9 +1389,6 @@ function HomeView() {
             <div className="text-xl font-bold">Every lesson passed</div>
             <div className={`mt-1 ${t.muted}`}>Keep it fresh in Review, or browse the Library. New content arrives with each monthly update.</div>
           </>
-        )}
-        {fresh && (
-          <button type="button" onClick={() => go('more')} className={`mt-4 block text-sm underline ${t.muted}`}>Used Fires Atlas before on another link? Restore your progress.</button>
         )}
       </Card>
 
@@ -3070,6 +3066,7 @@ function MoreView() {
   const [paste, setPaste] = useState('');
   const [message, setMessage] = useState(null);
   const [confirmReset, setConfirmReset] = useState(false);
+  const [moving, setMoving] = useState(false);
   const passed = LESSONS.filter((l) => (state.progress[l.id] || {}).passed).length;
 
   const restore = () => {
@@ -3109,12 +3106,16 @@ function MoreView() {
 
       <Card>
         <div className="font-bold">Your progress</div>
-        <p className={`mt-1 text-sm ${t.muted}`}>{passed} of {LESSONS.length} lessons passed. Progress, notes and saved entries are kept in this browser only. Copy them to move to another device, or to the new link after a monthly update.</p>
-        <div className="mt-3"><CopyBox text={() => JSON.stringify(state)} label="Copy my progress" /></div>
-        <textarea rows={3} value={paste} onChange={(e) => setPaste(e.target.value)} placeholder="To restore, paste a progress copy here."
-          className={`mt-3 w-full rounded-lg border p-3 text-sm font-mono ${t.input}`} />
+        <p className={`mt-1 text-sm ${t.muted}`}>{passed} of {LESSONS.length} lessons passed. Saved in this browser only.</p>
+        {moving ? (<>
+          <p className={`mt-2 text-sm ${t.muted}`}>Copy your progress here, then paste it into Restore on the other device or browser.</p>
+          <div className="mt-2"><CopyBox text={() => JSON.stringify(state)} label="Copy my progress" /></div>
+          <textarea rows={3} value={paste} onChange={(e) => setPaste(e.target.value)} placeholder="To restore, paste a progress copy here."
+            className={`mt-3 w-full rounded-lg border p-3 text-sm font-mono ${t.input}`} />
+        </>) : null}
         <div className="flex flex-wrap items-center gap-2 mt-2">
-          <Btn kind="ghost" disabled={!paste.trim()} onClick={restore}>Restore</Btn>
+          {moving ? <Btn kind="ghost" disabled={!paste.trim()} onClick={restore}>Restore</Btn>
+            : <Btn kind="ghost" onClick={() => setMoving(true)}><Copy size={16} /> Move to another device</Btn>}
           {confirmReset ? (
             <>
               <Btn onClick={() => { update({ ...DEFAULT_STATE, dark: state.dark, seenVersion: CONTENT.version }); setConfirmReset(false); setMessage('Progress cleared.'); }}>Confirm: clear everything</Btn>
