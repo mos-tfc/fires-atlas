@@ -1359,7 +1359,7 @@ function HomeView() {
         <div className={`text-xs font-bold uppercase tracking-widest mb-2 ${t.muted}`}>Explore</div>
         <div className="grid grid-cols-2 gap-2 sm:gap-3">
           {[
-            { icon: Lightbulb, name: 'Developments', text: (asList(DEVELOPMENTS.insights).length ? 'Key Insights for ' + DEVELOPMENTS.insights[0].title + ', and ' : '') + DEVELOPMENTS.items.length + ' news items. Updated ' + DEVELOPMENTS.updated + '.', open: () => go('developments') },
+            { icon: Lightbulb, name: 'Developments', text: 'Artillery news, with Key Insights each month.', open: () => go('developments') },
             { icon: Target, name: 'Ranges', text: 'Guns, mortars and missiles compared as rings.', open: () => explore('Ranges') },
             { icon: Share2, name: 'Military Map', text: 'How the armies in this app link and compare.', open: () => explore('Map') },
             { icon: Zap, name: 'Kill Chain', text: 'Watch armies go from finding a target to striking it.', open: () => explore('Kill Chain') }
