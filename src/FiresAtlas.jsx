@@ -3247,7 +3247,7 @@ function splitAnswer(text) {
 function AnswerText({ text, ids }) {
   const { t, go } = useApp();
   const refs = asList(ids);
-  const inline = (str, key) => str.split(/(\*\*.*?\*\*|\[\d+\])/g).map((part, k) => {
+  const inline = (str, key) => str.replace(/\s+(\[\d+\])/g, '$1').split(/(\*\*.*?\*\*|\[\d+\])/g).map((part, k) => {
     if (part.startsWith('**') && part.endsWith('**') && part.length > 4) return <strong key={key + '-' + k}>{part.slice(2, -2)}</strong>;
     const m = part.match(/^\[(\d+)\]$/);
     if (m) {
