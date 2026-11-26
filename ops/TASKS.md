@@ -19,20 +19,27 @@ Status: Open · In progress · Waiting on owner · Done.
 | Archivist | Until cleared | Public links for the ~37 US entries with named-only sources |
 | Adjutant | Weekly (Sun) | Follow up every agent; one summary to the owner |
 
-## Open items (carried over from the follow-up tracker, 20 Nov 2026)
+## Open items (carried over from the follow-up tracker 20 Nov 2026; updated 26 Nov 2026)
 
-- [ ] Owner: move the repository to the GitHub organisation; reconnect Cloudflare; new token (old one expires about 19 Dec 2026).
-- [ ] Owner: install the Claude GitHub app on the organisation, so scheduled agents can open pull requests.
+- [x] Owner: repository moved to mos-tfc, Cloudflare reconnected, new token (expires about 21 Feb 2027), old history purged (24–25 Nov 2026).
+- [x] Owner: Claude GitHub app installed; weekly, instructor and monthly routines approved (25 Nov 2026).
 - [ ] Owner: regional update prompts once a month (max 5 armies each) plus up to 3 gap-fill prompts in other weeks, paced by Signaller (see ops/RESEARCH_QUEUE.md).
 - [x] Kill chains for China, Japan and North Korea (21 Nov 2026, from existing entries); second chains for US, Russia, Ukraine, South Korea, Australia, Malaysia, Singapore. 24 Nov 2026: owner asked for one general chain per army; the pairs were merged (sensors named together in the Find step).
 - [ ] Ranges for Ukraine and Australia (after research). Indonesia has one chain only (no second sensor path well sourced).
 - [ ] 13 systems without a video, plus 4 Indonesian (Armourer).
 - [x] Owner: review 64 pending clips (36 Indonesian, 22 Malaysian, 6 Singaporean) at ?review. (owner approved all, 24 Nov 2026)
 - [ ] About 37 US entries name a source with no public link: Archivist searches; unresolved go to Signaller as one owner prompt; otherwise stay named (owner decision 21 Nov).
-- [ ] Developments refresh due about 4 Jan 2027 (Recce).
+- [x] Developments refresh replaced by the monthly regional update prompts (with a Key Insights card each month).
 - [x] Singapore added from the owner's open-source report (21 Nov 2026); FPDA partner list restored in the Malaysia JTAC entry.
 - [ ] Optional: the March 2026 Singapore Parliament discussion of Indonesia's KHAN missile, only if the official Hansard record (sprs.parl.gov.sg) is found; the report cited a third-party site.
-- [ ] Phone test of Videos tab, Glossary A to Z, equipment pills (owner).
+- [ ] Phone test (owner): Developments (News / Key Insights tabs, footnotes), lesson cards, Videos, Glossary A to Z, More (progress card).
+- [ ] Owner: renew the GitHub token before about 21 Feb 2027.
+- [ ] Owner (optional): Cloudflare Workers Builds, non-production branch build command still says "None" (false red check on agent pull requests).
+- [ ] Owner: confirm Ask works on the site (needs the GEMINI_API_KEY secret in Cloudflare) and send one "Test" through More > Feedback.
+- [ ] Owner: unpublish the retired Google Sites front page, if not done.
+- [ ] Owner decides: keep scroll position on Back (offered, not built); ask GitHub Support to purge cached old commits (optional).
+- [ ] US duplicate review: 26 Nov run stopped by a safety filter; re-run in a later session, owner approves each merge.
+- [ ] Optional: Philippines and Thailand as new armies (owner not yet confirmed); domain (owner: not yet).
 
 ## Owner decisions (21 Nov 2026)
 - Retire the Google Sites front page (owner unpublishes it in Google; nothing in the app links to it).
