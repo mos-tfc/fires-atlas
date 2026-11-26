@@ -39,6 +39,8 @@ title (title case), what [], how [], why [], sources [{title, publisher, year, u
 
 12. **Official sources first.** Prefer a country's own official sources (defence ministry, armed service, procurement agency, official journals) over aggregators, hobby sites and wikis. When an official source is found for a claim or spec already in the app, rewrite the claim or figure from it, replace the weaker source, and drop the "(reported)" label if the official figure is used. Until then, keep the existing figures labelled Reported. Never estimate to fill a gap.
 
+13. **Key Insights.** Each monthly regional update also writes one Key Insights card in `src/content/developments.js` (`insights`, newest first): 3 to 5 cross-army takeaways, each linked to the news items and entries behind it, and 1 or 2 "think about it" questions about the armies in the app. Label it analysis; point out patterns, never recommend what any army, including Singapore's, should do. The owner reviews it before it goes live.
+
 ## Pull request summary (template)
 - What changed (one line per item, with entry ids)
 - Sources added, and how each was verified
