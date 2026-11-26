@@ -2561,42 +2561,61 @@ function DevelopmentTile({ item }) {
   );
 }
 
-// Key Insights: a monthly card of cross-army takeaways (analysis), linked to the news items and entries behind them.
-function InsightsCard({ card, open }) {
+// Key Insights: one analysis per month, shown as one card per takeaway, linked to the news items and entries behind it.
+function InsightTile({ point, n }) {
   const { t, go } = useApp();
-  const [shown, setShown] = useState(!!open);
+  const [open, setOpen] = useState(false);
   const devById = Object.fromEntries(DEVELOPMENTS.items.map((i) => [i.id, i]));
   return (
-    <div className={`rounded-xl border p-4 ${t.card}`}>
-      <button type="button" className="w-full text-left" onClick={() => setShown(!shown)}>
-        <div className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Key Insights · Analysis</div>
-        <div className="font-bold text-lg leading-snug mt-0.5">{card.title}: {card.points.length} takeaways across the armies</div>
-        {!shown && <div className={`mt-1 text-sm ${t.link}`}>Show</div>}
+    <div className={`flex flex-col rounded-xl border p-3 sm:p-4 min-w-0 ${t.card}`}>
+      <button type="button" className="text-left" onClick={() => setOpen(!open)} aria-expanded={open}>
+        <div className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Insight {n}</div>
+        <div className="font-bold text-base sm:text-lg leading-snug mt-0.5">{point.head}</div>
+        <div className={`mt-1 text-sm sm:text-base ${open ? '' : 'line-clamp-3'}`}>{point.text}</div>
+        {!open && <div className={`mt-1 text-sm font-semibold ${t.link}`}>Read more</div>}
       </button>
-      {shown && (
-        <div className="mt-3 space-y-4">
-          {card.points.map((p, n) => (
-            <div key={n}>
-              <div className="font-bold">{n + 1}. {p.head}</div>
-              <div className="mt-1 text-base">{p.text}</div>
-              <div className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1 text-sm">
-                {asList(p.devIds).filter((id) => devById[id]).map((id) => (
-                  <button key={id} type="button" className={`text-left underline underline-offset-2 ${t.link}`} onClick={() => go('dev', id)}>{devById[id].headline}</button>
-                ))}
-                {asList(p.entryIds).filter((id) => ENTRY_BY_ID[id]).map((id) => (
-                  <button key={id} type="button" className={`text-left underline underline-offset-2 ${t.link}`} onClick={() => go('entry', id)}>{ENTRY_BY_ID[id].title}</button>
-                ))}
-              </div>
-            </div>
-          ))}
-          {asList(card.questions).length > 0 && (
-            <div className={`p-3 rounded-lg border ${t.info}`}>
-              <div className="font-bold">Think about it</div>
-              <ul className="mt-1 list-disc pl-5 space-y-1">{card.questions.map((q, n) => <li key={n}>{q}</li>)}</ul>
-            </div>
-          )}
-          <div className={`text-sm ${t.muted}`}>Analysis drawn from the news items and entries linked above, as of {card.asOf}. It points out patterns; it does not recommend what any army should do.</div>
-          <button type="button" className={`text-sm font-semibold ${t.link}`} onClick={() => setShown(false)}>Hide</button>
+      {open && (
+        <div className="mt-2">
+          <div className={`text-xs font-bold uppercase tracking-widest mb-1 ${t.muted}`}>Behind this</div>
+          <div className="flex flex-col gap-1 text-sm">
+            {asList(point.devIds).filter((id) => devById[id]).map((id) => (
+              <button key={id} type="button" className={`text-left underline underline-offset-2 ${t.link}`} onClick={() => go('dev', id)}>{devById[id].country}: {devById[id].headline}</button>
+            ))}
+            {asList(point.entryIds).filter((id) => ENTRY_BY_ID[id]).map((id) => (
+              <button key={id} type="button" className={`text-left underline underline-offset-2 ${t.link}`} onClick={() => go('entry', id)}>Entry: {ENTRY_BY_ID[id].title}</button>
+            ))}
+          </div>
+          <button type="button" className={`mt-2 text-sm font-semibold ${t.link}`} onClick={() => setOpen(false)}>Show less</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function InsightsPanel() {
+  const { t } = useApp();
+  const cards = asList(DEVELOPMENTS.insights);
+  const [month, setMonth] = useRemembered('dev.insightMonth', null);
+  const card = cards.find((c) => c.month === month) || cards[0];
+  if (!card) return <Empty>No insights yet.</Empty>;
+  return (
+    <div className="space-y-3">
+      {cards.length > 1 && (
+        <div className="flex gap-2 overflow-x-auto pb-1">
+          {cards.map((c) => <Chip key={c.month} on={c.month === card.month} onClick={() => setMonth(c.month)}>{c.title}</Chip>)}
+        </div>
+      )}
+      <div>
+        <div className="font-bold text-lg">{card.title} Analysis</div>
+        <div className={`text-sm ${t.muted}`}>{card.points.length} takeaways across the armies, as of {card.asOf}. Analysis, not fact: it points out patterns and does not recommend what any army should do.</div>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
+        {card.points.map((p, i) => <InsightTile key={card.month + i} point={p} n={i + 1} />)}
+      </div>
+      {asList(card.questions).length > 0 && (
+        <div className={`p-3 rounded-xl border ${t.info}`}>
+          <div className="font-bold">Think about it</div>
+          <ul className="mt-1 list-disc pl-5 space-y-1">{card.questions.map((q, i) => <li key={i}>{q}</li>)}</ul>
         </div>
       )}
     </div>
@@ -2610,6 +2629,9 @@ function DevelopmentsView() {
   const [conf, setConf] = useRemembered('dev.conf', null);
   const [year, setYear] = useRemembered('dev.year', null);
   const [month, setMonth] = useRemembered('dev.month', null);
+  const hasInsights = asList(DEVELOPMENTS.insights).length > 0;
+  const [view, setView] = useRemembered('dev.view', 'Key Insights');
+  const panel = hasInsights ? view : 'News';
   const items = DEVELOPMENTS.items.slice().sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
   // Dates are YYYY-MM-DD, YYYY-MM or YYYY. Items with only a year sit under "Month not stated".
   const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -2628,14 +2650,14 @@ function DevelopmentsView() {
     <div className="space-y-4">
       <div>
         <h1 className="text-2xl font-bold">Developments</h1>
-        <p className={`mt-1 ${t.muted}`}>{'Selected artillery news from open sources, newest first. Updated ' + DEVELOPMENTS.updated + '. Use Year to see older items.'} “So what” is analysis, not fact.</p>
+        <p className={`mt-1 ${t.muted}`}>{'Key Insights: one analysis a month across the armies. News: selected artillery news from open sources, newest first. Updated ' + DEVELOPMENTS.updated + '.'} Insights and “so what” lines are analysis, not fact.</p>
       </div>
-      {asList(DEVELOPMENTS.insights).length > 0 && (
-        <div className="space-y-2">
-          <InsightsCard key={DEVELOPMENTS.insights[0].month} card={DEVELOPMENTS.insights[0]} open />
-          {DEVELOPMENTS.insights.slice(1).map((c) => <InsightsCard key={c.month} card={c} />)}
+      {hasInsights && (
+        <div className="flex gap-2">
+          {['Key Insights', 'News'].map((x) => <Chip key={x} on={panel === x} onClick={() => setView(x)}>{x}</Chip>)}
         </div>
       )}
+      {panel === 'Key Insights' ? <InsightsPanel /> : (<>
       <div className="flex flex-wrap items-center gap-2">
         <Pick label="Year" value={year} options={years} onChange={(v) => { setYear(v); setMonth(null); }} />
         <Pick label="Month" value={month} options={months} onChange={setMonth} />
@@ -2648,6 +2670,7 @@ function DevelopmentsView() {
       {shown.length === 0 ? <Empty>No items match these filters.</Empty> : (
         <div className="grid grid-cols-2 gap-2 sm:gap-3">{shown.map((item) => <DevelopmentTile key={item.id} item={item} />)}</div>
       )}
+      </>)}
     </div>
   );
 }
