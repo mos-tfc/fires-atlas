@@ -2566,28 +2566,28 @@ function InsightTile({ point, n }) {
   const { t, go } = useApp();
   const [open, setOpen] = useState(false);
   const devById = Object.fromEntries(DEVELOPMENTS.items.map((i) => [i.id, i]));
+  // Footnotes: news items first, then entries. [n] in the text points to note n.
+  const notes = asList(point.devIds).filter((id) => devById[id]).map((id) => ({ label: devById[id].country + ', ' + devById[id].date, open: () => go('dev', id), title: devById[id].headline }))
+    .concat(asList(point.entryIds).filter((id) => ENTRY_BY_ID[id]).map((id) => ({ label: 'Entry: ' + ENTRY_BY_ID[id].title, open: () => go('entry', id), title: ENTRY_BY_ID[id].title })));
+  const parts = String(point.text).split(/\[(\d+)\]/);
   return (
     <div className={`flex flex-col rounded-xl border p-3 sm:p-4 min-w-0 ${t.card}`}>
-      <button type="button" className="text-left" onClick={() => setOpen(!open)} aria-expanded={open}>
-        <div className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Insight {n}</div>
-        <div className="font-bold text-base sm:text-lg leading-snug mt-0.5">{point.head}</div>
-        <div className={`mt-1 text-sm sm:text-base ${open ? '' : 'line-clamp-3'}`}>{point.text}</div>
-        {!open && <div className={`mt-1 text-sm font-semibold ${t.link}`}>Read more</div>}
-      </button>
-      {open && (
-        <div className="mt-2">
-          <div className={`text-xs font-bold uppercase tracking-widest mb-1 ${t.muted}`}>Behind this</div>
-          <div className="flex flex-col gap-1 text-sm">
-            {asList(point.devIds).filter((id) => devById[id]).map((id) => (
-              <button key={id} type="button" className={`text-left underline underline-offset-2 ${t.link}`} onClick={() => go('dev', id)}>{devById[id].country}: {devById[id].headline}</button>
-            ))}
-            {asList(point.entryIds).filter((id) => ENTRY_BY_ID[id]).map((id) => (
-              <button key={id} type="button" className={`text-left underline underline-offset-2 ${t.link}`} onClick={() => go('entry', id)}>Entry: {ENTRY_BY_ID[id].title}</button>
-            ))}
-          </div>
-          <button type="button" className={`mt-2 text-sm font-semibold ${t.link}`} onClick={() => setOpen(false)}>Show less</button>
-        </div>
+      <div className={`text-xs font-bold uppercase tracking-widest ${t.muted}`}>Insight {n}</div>
+      <div className="font-bold text-base sm:text-lg leading-snug mt-0.5">{point.head}</div>
+      <div className={`mt-1 text-sm sm:text-base ${open ? '' : 'line-clamp-3'}`}>
+        {parts.map((x, i) => (i % 2 === 0 ? x : (
+          <sup key={i}><button type="button" className={`px-px font-semibold ${t.link}`} onClick={() => notes[x - 1] && notes[x - 1].open()} title={notes[x - 1] ? notes[x - 1].title : ''}>{x}</button></sup>
+        )))}
+      </div>
+      {open && notes.length > 0 && (
+        <ol className={`mt-2 pt-2 border-t text-xs space-y-0.5 ${t.muted}`}>
+          {notes.map((f, i) => (
+            <li key={i} className="truncate"><span className="font-semibold">{i + 1}</span>{' '}
+              <button type="button" className={`underline underline-offset-2 ${t.link}`} onClick={f.open} title={f.title}>{f.label}</button></li>
+          ))}
+        </ol>
       )}
+      <button type="button" className={`mt-1 self-start text-sm font-semibold ${t.link}`} onClick={() => setOpen(!open)} aria-expanded={open}>{open ? 'Show less' : 'Read more'}</button>
     </div>
   );
 }
@@ -2607,7 +2607,7 @@ function InsightsPanel() {
       )}
       <div>
         <div className="font-bold text-lg">{card.title} Analysis</div>
-        <div className={`text-sm ${t.muted}`}>{card.points.length} takeaways across the armies, as of {card.asOf}. Analysis, not fact: it points out patterns and does not recommend what any army should do.</div>
+        <div className={`text-sm ${t.muted}`}>Analysis, not fact. Patterns only, not advice to any army.</div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
         {card.points.map((p, i) => <InsightTile key={card.month + i} point={p} n={i + 1} />)}
@@ -2630,7 +2630,7 @@ function DevelopmentsView() {
   const [year, setYear] = useRemembered('dev.year', null);
   const [month, setMonth] = useRemembered('dev.month', null);
   const hasInsights = asList(DEVELOPMENTS.insights).length > 0;
-  const [view, setView] = useRemembered('dev.view', 'Key Insights');
+  const [view, setView] = useRemembered('dev.view2', 'News');
   const panel = hasInsights ? view : 'News';
   const items = DEVELOPMENTS.items.slice().sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
   // Dates are YYYY-MM-DD, YYYY-MM or YYYY. Items with only a year sit under "Month not stated".
@@ -2650,11 +2650,11 @@ function DevelopmentsView() {
     <div className="space-y-4">
       <div>
         <h1 className="text-2xl font-bold">Developments</h1>
-        <p className={`mt-1 ${t.muted}`}>{'Key Insights: one analysis a month across the armies. News: selected artillery news from open sources, newest first. Updated ' + DEVELOPMENTS.updated + '.'} Insights and “so what” lines are analysis, not fact.</p>
+        <p className={`mt-1 ${t.muted}`}>{'Open-source artillery news. Updated ' + DEVELOPMENTS.updated + '.'}</p>
       </div>
       {hasInsights && (
         <div className="flex gap-2">
-          {['Key Insights', 'News'].map((x) => <Chip key={x} on={panel === x} onClick={() => setView(x)}>{x}</Chip>)}
+          {['News', 'Key Insights'].map((x) => <Chip key={x} on={panel === x} onClick={() => setView(x)}>{x}</Chip>)}
         </div>
       )}
       {panel === 'Key Insights' ? <InsightsPanel /> : (<>
