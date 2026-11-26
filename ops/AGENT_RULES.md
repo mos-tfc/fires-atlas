@@ -37,6 +37,8 @@ title (title case), what [], how [], why [], sources [{title, publisher, year, u
 
 11. **Research Desk.** When an owner's report is loaded, the same change removes its prompt from `ops/research/DESK.json` and rebuilds the Desk (`python3 tools/build_desk.py`); the page is republished to the same link. The Desk never shows prompts that are already done.
 
+12. **Official sources first.** Prefer a country's own official sources (defence ministry, armed service, procurement agency, official journals) over aggregators, hobby sites and wikis. When an official source is found for a claim or spec already in the app, rewrite the claim or figure from it, replace the weaker source, and drop the "(reported)" label if the official figure is used. Until then, keep the existing figures labelled Reported. Never estimate to fill a gap.
+
 ## Pull request summary (template)
 - What changed (one line per item, with entry ids)
 - Sources added, and how each was verified

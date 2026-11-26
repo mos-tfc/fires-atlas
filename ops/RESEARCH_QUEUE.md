@@ -21,6 +21,10 @@ Status: Queued · Handed out (date) · Returned (date) · Done (date) · Named o
 | 7 | Russia gap fill (`prompts/russia.md`) | 27 entries; thin on liaison, ammunition and gunnery | Queued (week 4) |
 | 8 | US source links: 9 sources Archivist could not find (list below) | Lets learners check sources for themselves | Queued (week 4, with Russia) |
 
+## Japan official-source rewrite (queued 26 Nov 2026; Desk week of 14 Dec)
+- Japan regional artillery reorganisation entry: confirm 4th Artillery Regiment change date (2018 vs 2019) from MOD/JGSDF sources.
+- Type 96 120mm self-propelled mortar and Type 99 155mm SPH spec cards: official JGSDF/ATLA figures. Search on 26 Nov found no official page (only Wikipedia, motor-fan, game wikis); cards stay Reported until found.
+
 ## US source links
 Archivist, 21 Nov 2026: 27 of 43 named sources linked (26 applied; one uncertain match held back); one wrong citation corrected (FM 3-09.8 → TC 3-09.81).
 
