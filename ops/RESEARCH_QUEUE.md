@@ -13,7 +13,7 @@ Status: Queued · Handed out (date) · Returned (date) · Done (date) · Named o
 | 0a | New army: India (`prompts/new-india.md`, from `node tools/new_country_prompt.mjs "India"`) | Twelfth army; already in Super Garuda Shield and Talisman Sabre | Done (25 Nov): 20 entries, 5 lessons, 5 news, kill chain, 2 exercises. Next gap fill: the May 2025 India–Pakistan clash (not in the report) |
 | 0b | India gap fill (`prompts/india.md`, focus: May 2025 India–Pakistan clash) | Recent combat lessons missing from the first report | Handed out (25 Nov) |
 | 1 | Ukraine gap fill (`prompts/ukraine.md`) | 13 entries; no liaison or rocket entries; no training entries | Done (25 Nov): 12 entries added, 2 entries corrected |
-| 2 | China gap fill (`prompts/china.md`) | 12 entries; four areas missing (drones, gunnery, counter-fire, sustainment) | Handed out (25 Nov) |
+| 2 | China gap fill (`prompts/china.md`) | 12 entries; four areas missing (drones, gunnery, counter-fire, sustainment) | Done (26 Nov): 13 entries added |
 | 3 | South Korea gap fill (`prompts/south-korea.md`) | 17 entries; no ammunition or training entries | Queued (week 3; first version handed out 21 Nov) |
 | 4 | Japan gap fill (`prompts/japan.md`) | 17 entries; no lessons entries | Queued (week 3) |
 | 5 | North Korea gap fill (`prompts/north-korea.md`) | 18 entries; 5 rest on assessment only; no training entries | Queued (week 3) |
