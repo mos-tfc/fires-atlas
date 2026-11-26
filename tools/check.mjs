@@ -81,6 +81,8 @@ for (const [id, kit] of Object.entries(D.EQUIPMENT_LINKS)) {
   kitIn(kit, [e.title, ...asList(e.what), ...asList(e.how), ...asList(e.why)], id);
 }
 for (const it of D.DEVELOPMENTS.items) if (asList(it.equipment).length) kitIn(it.equipment, [it.headline, ...asList(it.what), ...asList(it.soWhat)], it.id);
+// Older items moved to 'Earlier developments' keep their equipment cards (and videos).
+for (const it of asList(D.DEVELOPMENTS.archive)) if (asList(it.equipment).length) asList(it.equipment).forEach((k) => kits.set(k.n, k));
 
 // Videos
 const main = ['United States', 'Russia', 'South Korea', 'Ukraine', 'China', 'Japan', 'Australia', 'North Korea', 'Indonesia', 'Malaysia', 'Singapore', 'India'];
