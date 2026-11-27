@@ -65,3 +65,7 @@ Archivist, 21 Nov 2026: 27 of 43 named sources linked (26 applied; one uncertain
 - jpn-eq-type99: crew 4, about 40 t, 49 km/h now official (Defense of Japan 2014 reference table, opened). Range, rate of fire and road range: no official figure; stay Reported.
 - Type 96: the JGSDF vehicles page could not be opened and search found no official copy of the figures; card stays Reported. The report's towed 120mm RT glossary figures (8.1 km, 15–20 rds/min) were not used for the self-propelled version.
 - Not used: other regional armies' reorganisations (10th Artillery Regiment, Eastern Army) and the "Integrated Targeting" cell; no official source checked. Carried as one Reported line.
+
+## Australia gap fill loaded (27 Nov 2026)
+3 new entries (aus-les-fpv-authority, aus-trn-school, aus-trn-exercises), lesson aus-1-5, NASAMS correction. Australian government sites time out from the container; titles and facts confirmed by search.
+Left out (not confirmed): "Best by Test" 2025 win by 104 Battery (search found only the Feb 2024 contest, 109 Battery); the Cove silent-watch power figures (article not found); Exercise Nigrum Pugio (not found); Land Combat College FPV role; ROGC review; OWL-B and Hawkei figures (vendor datasheet PDF not readable; Hawkei is a vehicle, not a fires system). The M777 "manual setup" correction no longer applies to the current entry text.
