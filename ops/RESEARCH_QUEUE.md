@@ -59,3 +59,9 @@ Archivist, 21 Nov 2026: 27 of 43 named sources linked (26 applied; one uncertain
 - 38 North pages (drone programme Sept 2025, Kusong buildings Mar 2026, stealth UAV Nov 2026) blocked; the stealth-UAV article title could not be confirmed by search. October 2026 stealth UAV and Kusong figures not used. Saetbyol-4 35 m wingspan and airframe numbers not used.
 - DIA 2021 and US Army CRINK-2 PDFs could not be opened; claims resting only on them were not used.
 - O Jin U Academy and senior academies: only the October 2024 drill (WION, title confirmed by search) used; state-media books not used as sources.
+
+## Japan official sources loaded (27 Nov 2026)
+- New entry jpn-org-regional-arty: Western Army Artillery Regiment formed 27 Mar 2018 (8th Division page); 4th Artillery Regiment reorganised end of Mar 2019 into its 4th Battalion (Camp Kurume page). Both mod.go.jp pages block automated fetches; content confirmed by search of the official pages (BLOCKED-CONFIRMED).
+- jpn-eq-type99: crew 4, about 40 t, 49 km/h now official (Defense of Japan 2014 reference table, opened). Range, rate of fire and road range: no official figure; stay Reported.
+- Type 96: the JGSDF vehicles page could not be opened and search found no official copy of the figures; card stays Reported. The report's towed 120mm RT glossary figures (8.1 km, 15–20 rds/min) were not used for the self-propelled version.
+- Not used: other regional armies' reorganisations (10th Artillery Regiment, Eastern Army) and the "Integrated Targeting" cell; no official source checked. Carried as one Reported line.

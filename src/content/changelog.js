@@ -6,6 +6,8 @@ export const CHANGELOG = [
     date: '2026-11-16',
     summary: 'Twelve United States modules and eleven other armies (Russia, South Korea, Ukraine, China, Japan, Australia, North Korea, Indonesia, Malaysia, Singapore, India), with Developments news, Ranges, the Military Map and the Kill Chain. Added 20 November: equipment cards opened from the text, 190 short videos with a Videos tab, checked source links for most United States entries, and an A to Z Glossary.',
     changes: [
+      { kind: 'new', entryId: "jpn-org-regional-arty", topic: "japan", summary: "New entry: Artillery Moves Up to the Regional Armies." },
+      { kind: 'corrected', entryId: "jpn-eq-type99", topic: "japan", summary: "Type 99 crew, weight and speed now from the Defense of Japan white paper." },
       { kind: 'new', entryId: "kpa-ttp-ops", topic: "north-korea", summary: "New entry: Optical Observation Posts Along the DMZ." },
       { kind: 'new', entryId: "kpa-ttp-harts-gunnery", topic: "north-korea", summary: "New entry: Gunnery from Fixed Bunkers: Aiming Marks and Landlines." },
       { kind: 'new', entryId: "kpa-les-seoul-model", topic: "north-korea", summary: "New entry: Rates of Fire, Duds and Cities: Why Seoul Estimates Differ." },
