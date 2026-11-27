@@ -691,7 +691,7 @@ export const APP_DATA = [
       'Solves the problem of chaotic, uncoordinated strikes. Ensures all services link tactical kinetic actions directly to strategic objectives while adhering to the Law of War and minimising collateral damage.'
     ],
     sources: [
-      { title: 'JP 3-60 Joint Targeting', publisher: 'Headquarters Dept of Defense', year: '2024', url: '' }
+      { title: 'Joint Publication 3-60, Joint Targeting (31 January 2013 edition; the 2024 edition is not public)', publisher: 'Joint Chiefs of Staff (copy held by the National Security Archive)', year: '2013', url: 'https://nsarchive.gwu.edu/media/19565/ocr' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -743,7 +743,7 @@ export const APP_DATA = [
       'The deliberate 72-hour cycle is fundamentally too slow for mobile targets that may only appear in the open for a few minutes. Dynamic targeting provides procedural flexibility to act immediately on perishable intelligence.'
     ],
     sources: [
-      { title: 'JP 3-60 Joint Targeting', publisher: 'Headquarters Dept of Defense', year: '2024', url: '' }
+      { title: 'Joint Publication 3-60, Joint Targeting (31 January 2013 edition; the 2024 edition is not public)', publisher: 'Joint Chiefs of Staff (copy held by the National Security Archive)', year: '2013', url: 'https://nsarchive.gwu.edu/media/19565/ocr' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -796,7 +796,7 @@ export const APP_DATA = [
       'High-altitude staring sensors (like HADES) and national satellites are low-density, high-demand strategic assets. Strict hierarchical validation prevents squandering strategic platforms on tactical targets.'
     ],
     sources: [
-      { title: 'JP 3-60 Joint Targeting', publisher: 'Headquarters Dept of Defense', year: '2024', url: '' }
+      { title: 'Joint Publication 3-60, Joint Targeting (31 January 2013 edition; the 2024 edition is not public)', publisher: 'Joint Chiefs of Staff (copy held by the National Security Archive)', year: '2013', url: 'https://nsarchive.gwu.edu/media/19565/ocr' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -1079,7 +1079,7 @@ export const APP_DATA = [
       'Driven by the realisation that legacy C2 systems were too slow to create a true "kill-web." Disparate service data formats (data silos) severely delayed dynamic targeting against mobile enemy systems.'
     ],
     sources: [
-      { title: 'Army Public Affairs (March 2025)', publisher: 'U.S. Army', year: '2025', url: '' }
+      { title: 'Project Convergence Capstone 5 returns to California; expands to Indo-Pacific AOR', publisher: 'DVIDS (US Army Futures and Autonomous Systems Command)', year: '2025', url: 'https://www.dvidshub.net/news/printable/492346' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-11',
@@ -1191,7 +1191,8 @@ export const APP_DATA = [
       'Demonstrated that static ground OPs and overhead earth cover fail when an opponent achieves local aerial sensor dominance.'
     ],
     sources: [
-      { title: 'Military Lessons of the Nagorno-Karabakh Conflict', publisher: 'RUSI', year: '2021', url: '' }
+      { title: 'The Democratisation of Precision Strike in the Nagorno-Karabakh Conflict', publisher: 'Royal United Services Institute', year: '2020', url: 'https://www.rusi.org/explore-our-research/publications/commentary/democratisation-precision-strike-nagorno-karabakh-conflict' },
+      { title: 'The Key to Armenia’s Tank Losses: The Sensors, Not the Shooters', publisher: 'Royal United Services Institute', year: '2020', url: 'https://www.rusi.org/explore-our-research/publications/rusi-defence-systems/key-armenias-tank-losses-sensors-not-shooters' }
     ],
     confidence: 'Confirmed',
     asOf: '2026-03',

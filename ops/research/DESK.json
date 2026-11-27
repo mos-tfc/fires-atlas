@@ -1,14 +1,7 @@
 {
   "_note": "The owner's open research prompts. Update this file whenever a report is loaded (remove its prompt, add the next) and rebuild: python3 tools/build_desk.py. The main session republishes the page to the same Research Desk link.",
-  "status": "Loaded so far: November updates 1–3, India, and the Ukraine, China, India, Japan, South Korea and North Korea gap fills (24–26 Nov), Japan official sources the Australia gap fill and the Russia gap fill via Antigravity CLI (27 Nov)",
-  "active": [
-    {
-      "label": "Source links · brought forward",
-      "title": "US source links",
-      "prompt": "ops/research/prompts/us-source-links.md",
-      "why": "11 documents the Archivist agent could not find a public copy of."
-    }
-  ],
+  "status": "Loaded so far: November updates 1–3, India, and the Ukraine, China, India, Japan, South Korea and North Korea gap fills (24–26 Nov), Japan official sources the Australia gap fill the Russia gap fill and the US source links, both via Antigravity CLI (27 Nov)",
+  "active": [],
   "next": [
     {
       "when": "From 1 December",
