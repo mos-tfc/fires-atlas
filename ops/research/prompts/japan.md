@@ -11,7 +11,7 @@ SOURCE RULES (read first)
 - Prefer official government and armed forces pages, parliamentary and audit reports, recognised research institutes and established defence press. Mark manufacturer, state-media and single-source claims "Reported".
 - If sources disagree, give each figure with its own source. Do not fill gaps with another army’s doctrine; write "Not found in open sources: ..." instead.
 
-The reference already holds these 17 entries for Japan. Do not repeat them. If one is wrong or out of date, list it under "Corrections" at the end with the entry title, what is wrong and the source.
+The reference already holds these 27 entries for Japan. Do not repeat them. If one is wrong or out of date, list it under "Corrections" at the end with the entry title, what is wrong and the source.
 - Liaison and Fire Support Integration — Joint Terminal Attack Controllers in the Amphibious Rapid Deployment Brigade
 - Digital Fires and Targeting — Combined Fires with US and Australian Artillery
 - Digital Fires and Targeting — The Three Conditions: Legal Limits on Striking
@@ -29,17 +29,18 @@ The reference already holds these 17 entries for Japan. Do not repeat them. If o
 - Counter-Fire and Force Protection — Type 11 Short-Range Air Defence for Gun Areas
 - Sustainment — The 2023–2027 Build-Up: Ammunition and Storage
 - Sustainment — Type 99 Ammunition Resupply Vehicle
+- Liaison and Fire Support Integration — The JSDF Joint Operations Command
+- Loitering Munitions and Armed Drones — SHIELD: Unmanned Littoral Defence
+- Loitering Munitions and Armed Drones — GSDF Modular and Small Attack UAVs, Types I to III
+- Target Acquisition — Targeting for Stand-Off Missiles: Satellites First
+- Target Acquisition — Electronic Warfare Units in Missile Regiment Live Fire
+- Counter-Fire and Force Protection — Counter-Drone Layers Around Fires Units
+- Sustainment — Japan’s Reading of Ukraine: Drones, Shells and Stockpiles
+- Digital Fires and Targeting — Resolute Dragon: A Bilateral Kill Web with HIMARS and SSMs
+- Guns, Howitzers and Mortars — Type 99 Tracked 155mm Self-Propelled Howitzer
+- Guns, Howitzers and Mortars — Type 96 Tracked 120mm Self-Propelled Mortar
 
-TASK A: Fill the gaps. Write 1 or 2 entries for each of these areas:
-- Liaison and Fire Support Integration: THIN (1 entry)
-- Loitering Munitions and Armed Drones: THIN (1 entry)
-- Target Acquisition: THIN (1 entry)
-- Counter-Fire and Force Protection: THIN (1 entry)
-
-TASK B: Lessons. Write 1 or 2 entries on what Japan’s artillery has learned, or is reported to have learned, from operations, exercises or recent conflicts.
-
-TASK C: Key figures. For each system, give: type, calibre, combat weight, crew, range by round type, rate of fire, mobility and time into and out of action. Mark press and vendor figures "Reported"; write "Not stated" where sources give nothing.
-Systems: Type 96 mortar, Type 99 SPH
+TASK A: Official Japanese sources only (Ministry of Defense mod.go.jp, JGSDF, ATLA, Defense of Japan white papers, budget documents, Japanese-language official pages): (1) the date the JGSDF 4th Artillery Regiment was reorganised (2018 or 2019) and what it became; (2) official specifications for the Type 96 120mm self-propelled mortar and the Type 99 155mm self-propelled howitzer (crew, weight, range by ammunition, rate of fire, speed). Give the exact official page or PDF for each figure; say 'not found in official sources' rather than using wikis or hobby sites.
 
 ENTRY FORMAT. Use exactly these numbered fields for every entry:
 1. Title: in title case

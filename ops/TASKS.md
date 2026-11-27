@@ -23,7 +23,7 @@ Status: Open · In progress · Waiting on owner · Done.
 
 - [x] Owner: repository moved to mos-tfc, Cloudflare reconnected, new token (expires about 21 Feb 2027), old history purged (24–25 Nov 2026).
 - [x] Owner: Claude GitHub app installed; weekly, instructor and monthly routines approved (25 Nov 2026).
-- [ ] Owner: regional update prompts once a month (max 5 armies each) plus up to 3 gap-fill prompts in other weeks, paced by Signaller (see ops/RESEARCH_QUEUE.md).
+- [ ] Owner: 27 Nov 2026 brought forward Australia, Russia, US source links and Japan official sources (owner free). Regional update prompts once a month (max 5 armies each) plus up to 3 gap-fill prompts in other weeks, paced by Signaller (see ops/RESEARCH_QUEUE.md).
 - [x] Kill chains for China, Japan and North Korea (21 Nov 2026, from existing entries); second chains for US, Russia, Ukraine, South Korea, Australia, Malaysia, Singapore. 24 Nov 2026: owner asked for one general chain per army; the pairs were merged (sensors named together in the Find step).
 - [ ] Ranges for Ukraine and Australia (after research). Indonesia has one chain only (no second sensor path well sourced).
 - [ ] 13 systems without a video, plus 4 Indonesian (Armourer).
