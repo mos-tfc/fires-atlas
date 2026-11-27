@@ -33,7 +33,7 @@ Status: Open · In progress · Waiting on owner · Done.
 - [x] Singapore added from the owner's open-source report (21 Nov 2026); FPDA partner list restored in the Malaysia JTAC entry.
 - [ ] Optional: the March 2026 Singapore Parliament discussion of Indonesia's KHAN missile, only if the official Hansard record (sprs.parl.gov.sg) is found; the report cited a third-party site.
 - [ ] Phone test (owner): Developments (News / Key Insights tabs, footnotes), lesson cards, Videos, Glossary A to Z, More (progress card).
-- [ ] Owner: renew the GitHub token before about 21 Feb 2027.
+- [ ] Owner: renew the GitHub token ("fires-atlas-push") before about 25 Feb 2027.
 - [ ] Owner (optional): Cloudflare Workers Builds, non-production branch build command still says "None" (false red check on agent pull requests).
 - [ ] Owner: confirm Ask works on the site (needs the GEMINI_API_KEY secret in Cloudflare) and send one "Test" through More > Feedback.
 - [ ] Owner: unpublish the retired Google Sites front page, if not done.
