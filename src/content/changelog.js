@@ -6,6 +6,10 @@ export const CHANGELOG = [
     date: '2026-11-16',
     summary: 'Twelve United States modules and eleven other armies (Russia, South Korea, Ukraine, China, Japan, Australia, North Korea, Indonesia, Malaysia, Singapore, India), with Developments news, Ranges, the Military Map and the Kill Chain. Added 20 November: equipment cards opened from the text, 190 short videos with a Videos tab, checked source links for most United States entries, and an A to Z Glossary.',
     changes: [
+      { kind: 'new', entryId: "rus-ttp-cop", topic: "russia", summary: "New entry: Artillery Commanders Sit With the Manoeuvre Commander." },
+      { kind: 'new', entryId: "rus-ttp-fire-norms", topic: "russia", summary: "New entry: Fire Norms: Annihilation, Destruction, Suppression, Harassment." },
+      { kind: 'new', entryId: "rus-trn-schools", topic: "russia", summary: "New entry: Training Artillery Officers and Specialists." },
+      { kind: 'new', entryId: "rus-trn-exercises", topic: "russia", summary: "New entry: Zapad 2025 and Artillery Competitions." },
       { kind: 'new', entryId: "aus-les-fpv-authority", topic: "australia", summary: "New entry: Armed FPV Drones and Who Holds Targeting Authority." },
       { kind: 'new', entryId: "aus-trn-school", topic: "australia", summary: "New entry: School of Artillery: Courses for Gunners, Observers and Officers." },
       { kind: 'new', entryId: "aus-trn-exercises", topic: "australia", summary: "New entry: Talisman Sabre 2025 and Pozieres Run 2026." },
